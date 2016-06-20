@@ -1,9 +1,3 @@
-# DRAFT - PREVIEW REPOSITORY
-
-This repository is in a preliminary stage for getting setup - you should not rely on the directory structure or the file names to be stable at this point.
-
-Feedback on the repo and it's content is welcome on the [SPDX technical team mailing list](mailto:spdx-tech@lists.spdx.org).
-
 # License List Data
 
 This repository contains various generated data formats for the [SPDX License List](http://spdx.org/licenses/) including RDFa, HTML, Text, and JSON. The source of the license list which generates these data files can be found at http://github.com/spdx/license-list.
