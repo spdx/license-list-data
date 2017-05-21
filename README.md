@@ -7,6 +7,9 @@ The following directories contain the license list in the format specified:
 * `html` - Simple HTML format of the files. (*Note:* These pages are not complete and valid HTML files, but simply HTML snippets for the license text.)
 * `json` - JSON format for the license list.
 * `rdfa` - RDFa/HTML format for the license list.
+* `rdfnt` - RDF NT format for the license list.
+* `rdfturtle` - RDF turtle format for the license list.
+* `rdfxml` - RDF/XML format for the license list.
 * `template` - SPDX template files per the license templates specified in the SPDX 2.0 specification appendix.
 * `text` - Simple text files.
 * `website` - HTML generated for the http://spdx.org/ website.
