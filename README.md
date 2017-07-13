@@ -14,7 +14,7 @@ The following directories contain the license list in the format specified:
 * `text` - Simple text files.
 * `website` - HTML generated for the http://spdx.org/ website.
 
-The file licenses.md is a table of contents for the generated licenses.  The links for the files point to a simple HTML format for the license.  Note the HTML in the website folder has better formatting but depends on style sheets found on the Linux Foundation website.
+The file licenses.md is a table of contents for the generated licenses.  The links for the files point to the text for the license.
 
 Technical questions or issues can be sent to the [SPDX technical team mailing list](mailto:spdx-tech@lists.spdx.org).
 Questions or issues on the license content can be sent to the [SPDX legal team mailing list](mailto:spdx-legal@lists.spdx.org).
