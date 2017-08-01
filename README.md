@@ -1,6 +1,8 @@
 # License List Data
 
-This repository contains various generated data formats for the [SPDX License List](http://spdx.org/licenses/) including RDFa, HTML, Text, and JSON. The source of the license list which generates these data files can be found at http://github.com/spdx/license-list.
+This repository contains various generated data formats for the [SPDX License List](http://spdx.org/licenses/) including RDFa, HTML, Text, and JSON. The source of the license list which generates these data files can be found at http://github.com/spdx/license-list.  Please note that the format for the license-list repository is internal to the SPDX legal team and is subject to change.
+
+See the file accessingLicenses.md for an description on how to programatically access the SPDX license list.
 
 The following directories contain the license list in the format specified:
 
