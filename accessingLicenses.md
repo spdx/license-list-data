@@ -224,67 +224,68 @@ Also within the resources/stdlicenses directory is a file licenses.properties.  
 ### Accessing the Text for a Standard SPDX License
 
 To print out the text for Apache 1.1 to the console:
+```Java
 
-        **public**** static ****void** main(String[] args) {
+        public static void main(String[] args) {
 
-                **try** {
+                try {
 
                         SPDXStandardLicense apache11 = SPDXLicenseInfoFactory
 
-                                ._getStandardLicenseById_(&quot;Apache-1.1&quot;);
+                                ._getStandardLicenseById_("Apache-1.1");
 
                         System._out_.println(apache11.getText());
 
-                } **catch** (InvalidSPDXAnalysisException e) {
+                } catch (InvalidSPDXAnalysisException e) {
 
-                        System._out_.println(&quot;Error getting Standard License: &quot; +
+                        System._out_.println("Error getting Standard License: " +
 
                                                         e.getMessage());
 
                 }
 
         }
-
+```
 ### Determining if License Text is Equivalent to an SPDX Standard License Text
 
 To determine if the license text in the string licenseTxt is equivalent to the license text for the BSD 3 clause license:
+```Java
+        public static void main(String[] args) {
 
-        **public**** static ****void** main(String[] args) {
+                String licenseText = "...";
 
-                String licenseText = &quot;...&quot;;
-
-                **try** {
+                try {
 
                         SPDXStandardLicense bsd3clause = SPDXLicenseInfoFactory
 
-                                        ._getStandardLicenseById_(&quot;BSD-3-Clause&quot;);
+                                        ._getStandardLicenseById_("BSD-3-Clause");
 
-                        **boolean** matches = LicenseCompareHelper
+                        boolean matches = LicenseCompareHelper
 
                                 ._isTextStandardLicense_(bsd3clause, licenseText);
 
-                        **if** (matches) {
+                        if (matches) {
 
                                 System._out_.println(&quot;Matches&quot;);
 
-                        } **else** {
+                        } else {
 
-                                System._out_.println(&quot;Does not match&quot;);
+                                System._out_.println("Does not match");
 
                         }
 
-                } **catch** (InvalidSPDXAnalysisException e) {
+                } catch (InvalidSPDXAnalysisException e) {
 
-                        System._out_.println(&quot;Error getting lic: &quot;+e.getMessage());
+                        System._out_.println("Error getting lic: ";+e.getMessage());
 
-                } **catch** (SpdxCompareException e) {
+                } catch (SpdxCompareException e) {
 
-                        System._out_.println(&quot;Error comparing: &quot;+e.getMessage());
+                        System._out_.println("Error comparing: "+e.getMessage());
 
                 }
 
         }
-
+```
 # Accessing Older Versions of the License List
 
 An archive of the older versions of the HTML pages for the SPDX License List, starting with version 1.17, can be found at http://spdx.org/licenses/archive/archived\_ll\_vX.XX where vX.XX is the version of the license list.
