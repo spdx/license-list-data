@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -142,7 +151,7 @@
            </ul>
           </div>
           
-      <div property="spdx:isOsiApproved" style="display: none;">true</div>
+      <div property="spdx:isOsiApproved" style="display: none;">false</div>
 
       <h2 id="notes">Notes</h2>
           <p style="margin-left: 20px;">None</p>
@@ -150,9 +159,24 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Copyright (C) 2006 by Rob Landley &lt;rob@landley.net&gt;
-<p>Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.</p>
-<p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
+      
+      
+      
+         <p>Copyright (C) 2006 by Rob Landley &lt;rob@landley.net&gt;</p>
+
+      
+    
+      <p>Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is
+         hereby granted.</p>
+
+      <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE
+         INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE
+         LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING
+         FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS
+         ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
+
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

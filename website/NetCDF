@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -150,10 +159,38 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Copyright 1993-2014 University Corporation for Atmospheric Research/Unidata
-<p>Portions of this software were developed by the Unidata Program at the University Corporation for Atmospheric Research.</p>
-<p>Access and use of this software shall impose the following obligations and understandings on the user. The user is granted the right, without any fee or cost, to use, copy, modify, alter, enhance and distribute this software, and any derivative works thereof, and its supporting documentation for any purpose whatsoever, provided that this entire notice appears in all copies of the software, derivative works and supporting documentation. Further, UCAR requests that the user credit UCAR/Unidata in any publications that result from the use of this software or in any product that includes this software, although this is not an obligation. The names UCAR and/or Unidata, however, may not be used in any advertising or publicity to endorse or promote any products or commercial entity unless specific written permission is obtained from UCAR/Unidata. The user also understands that UCAR/Unidata is not obligated to provide the user with any support, consulting, training or assistance of any kind with regard to the use, operation and performance of this software nor to provide the user with any updates, revisions, new versions or &quot;bug fixes.&quot;</p>
-<p>THIS SOFTWARE IS PROVIDED BY UCAR/UNIDATA &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL UCAR/UNIDATA BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE ACCESS, USE OR PERFORMANCE OF THIS SOFTWARE.</p>
+      
+      
+      
+         <p>Copyright 1993-2014 University Corporation for Atmospheric Research/Unidata</p>
+
+      
+    
+      <p>Portions of this software were developed by the Unidata Program at the University Corporation for
+         Atmospheric Research.</p>
+
+      <p>Access and use of this software shall impose the following obligations and understandings on the user.
+         The user is granted the right, without any fee or cost, to use, copy, modify, alter, enhance and
+         distribute this software, and any derivative works thereof, and its supporting documentation for any
+         purpose whatsoever, provided that this entire notice appears in all copies of the software, derivative
+         works and supporting documentation. Further, UCAR requests that the user credit UCAR/Unidata in any
+         publications that result from the use of this software or in any product that includes this software,
+         although this is not an obligation. The names UCAR and/or Unidata, however, may not be used in any
+         advertising or publicity to endorse or promote any products or commercial entity unless specific
+         written permission is obtained from UCAR/Unidata. The user also understands that UCAR/Unidata is not
+         obligated to provide the user with any support, consulting, training or assistance of any kind with
+         regard to the use, operation and performance of this software nor to provide the user with any
+         updates, revisions, new versions or &quot;bug fixes.&quot;</p>
+
+      <p>THIS SOFTWARE IS PROVIDED BY UCAR/UNIDATA &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT
+         NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+         DISCLAIMED. IN NO EVENT SHALL UCAR/UNIDATA BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL
+         DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF
+         CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE ACCESS, USE OR
+         PERFORMANCE OF THIS SOFTWARE.</p>
+
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

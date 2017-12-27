@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -150,7 +159,15 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.
+      
+      
+    
+      <p>A modified version of this file may be distributed, but it should be distributed with a *different* name.
+         Changed files must be distributed *together with a complete and unchanged* distribution of these
+         files.</p>
+
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

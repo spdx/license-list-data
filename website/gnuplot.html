@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -150,15 +159,55 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Copyright 1986 - 1993, 1998, 2004 Thomas Williams, Colin Kelley
-<p>Permission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.</p>
-<p>Permission to modify the software is granted, but not the right to distribute the complete modified source code. Modifications are to be distributed as patches to the released version. Permission to distribute binaries produced by compiling modified sources is granted, provided you </p>
-<p style="margin-left: 20px;">     1. distribute the corresponding source modifications from the released version in the form of a patch file along with the binaries, <br/>
-     2. add special version identification to distinguish your version in addition to the base release version number, <br/>
-     3. provide your name and address as the primary contact for the support of your modified version, and <br/>
-     4. retain our contact information in regard to use of the base software. </p>
-<p>Permission to distribute the released version of the source code along with corresponding source modifications in the form of a patch file is granted with same provisions 2 through 4 for binary distributions.</p>
-<p>This software is provided &quot;as is&quot; without express or implied warranty to the extent permitted by applicable law.</p>
+      
+      
+      
+         <p>Copyright 1986 - 1993, 1998, 2004 Thomas Williams, Colin Kelley</p>
+
+      
+    
+      <p>Permission to use, copy, and distribute this software and its documentation for any purpose with or
+         without fee is hereby granted, provided that the above copyright notice appear in all copies and that
+         both that copyright notice and this permission notice appear in supporting documentation.</p>
+
+      <p>Permission to modify the software is granted, but not the right to distribute the complete modified
+         source code. Modifications are to be distributed as patches to the released version. Permission to
+         distribute binaries produced by compiling modified sources is granted, provided you</p>
+
+      
+<ul style="list-style:none">
+<li>
+            
+<var class="replacable-license-text">1.</var>
+          distribute the corresponding source modifications from the released version in the form of a
+             patch file along with the binaries,
+        </li>
+<li>
+            
+<var class="replacable-license-text">2.</var>
+          add special version identification to distinguish your version in addition to the base
+             release version number,
+        </li>
+<li>
+            
+<var class="replacable-license-text">3.</var>
+          provide your name and address as the primary contact for the support of your modified version, and
+        </li>
+<li>
+            
+<var class="replacable-license-text">4.</var>
+          retain our contact information in regard to use of the base software.
+        </li>
+</ul>
+      <p>Permission to distribute the released version of the source code along with corresponding source
+         modifications in the form of a patch file is granted with same provisions 2 through 4 for binary
+         distributions.</p>
+
+      <p>This software is provided &quot;as is&quot; without express or implied warranty to the extent permitted
+         by applicable law.</p>
+
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

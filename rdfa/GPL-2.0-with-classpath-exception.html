@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -144,7 +153,7 @@
            </ul>
           </div>
           
-      <div property="spdx:isOsiApproved" style="display: none;">true</div>
+      <div property="spdx:isOsiApproved" style="display: none;">false</div>
 
       <h2 id="notes">Notes</h2>
           <p style="margin-left: 20px;">DEPRECATED: Use License Expression Syntax and Exceptions list to create equivalent license.</p>
@@ -152,10 +161,20 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      ﻿insert GPL v2 license text here
-<p>Class Path Exception</p>
-<p>Linking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General Public License cover the whole combination.</p>
-<p>As a special exception, the copyright holders of this library give you permission to link this library with independent modules to produce an executable, regardless of the license terms of these independent modules, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the terms and conditions of the license of that module. An independent module is a module which is not derived from or based on this library. If you modify this library, you may extend this exception to your version of the library, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.</p>
+      
+      
+      
+     
+	     <p>insert GPL v2 license text here</p>
+
+	     <p>Class Path Exception</p>
+
+	     <p>Linking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General Public License cover the whole combination.</p>
+
+	     <p>As a special exception, the copyright holders of this library give you permission to link this library with independent modules to produce an executable, regardless of the license terms of these independent modules, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the terms and conditions of the license of that module. An independent module is a module which is not derived from or based on this library. If you modify this library, you may extend this exception to your version of the library, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.</p>
+
+	
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -135,7 +144,7 @@
           <p style="margin-left: 20px;"><code property="spdx:name">wxWindows Library License</code></p>
 
       <h2>Short identifier</h2>
-          <p style="margin-left: 20px;"><code property="spdx:licenseId">WXwindows</code></p>
+          <p style="margin-left: 20px;"><code property="spdx:licenseId">wxWindows</code></p>
 
       <h2>Other web pages for this license</h2>
           <div style="margin-left: 20px;">
@@ -144,27 +153,66 @@
            </ul>
           </div>
           
-      <div property="spdx:isOsiApproved" style="display: none;">true</div>
+      <div property="spdx:isOsiApproved" style="display: none;">false</div>
 
       <h2 id="notes">Notes</h2>
-          <p style="margin-left: 20px;">DEPRECATED: Use License Expression Syntax and Exceptions list to create equivalent license.</p>
+          <p style="margin-left: 20px;">DEPRECATED: Use License Expression Syntax and Exceptions list to create equivalent license.; Typically used with GPL-2.0+</p>
 
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      wxWindows Library Licence, Version 3.1 
-<p>Copyright (C) 1998-2005 Julian Smart, Robert Roebling et al</p>
-<p>Everyone is permitted to copy and distribute verbatim copies of this licence document, but changing it is not allowed.</p>
-<p>WXWINDOWS LIBRARY LICENCE </p>
-<p>TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION </p>
-<p>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Library General Public Licence as published by the Free Software Foundation; either version 2 of the Licence, or (at your option) any later version. </p>
-<p>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Library General Public Licence for more details.</p>
-<p>You should have received a copy of the GNU Library General Public Licence along with this software, usually in a file named COPYING.LIB. If not, write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.</p>
-<p>EXCEPTION NOTICE</p>
-<p>1. As a special exception, the copyright holders of this library give permission for additional uses of the text contained in this release of the library as licenced under the wxWindows Library Licence, applying either version 3.1 of the Licence, or (at your option) any later version of the Licence as published by the copyright holders of version 3.1 of the Licence document.</p>
-<p>2. The exception is that you may use, copy, link, modify and distribute under your own terms, binary object code versions of works based on the Library.</p>
-<p>3. If you copy code from files distributed under the terms of the GNU General Public Licence or the GNU Library General Public Licence into a copy of this library, as this licence permits, the exception does not apply to the code that you add in this way. To avoid misleading anyone as to the status of such modified files, you must delete this exception notice from such code and/or adjust the licensing conditions notice accordingly.</p>
-<p>4. If you write modifications of your own for this library, it is your choice whether to permit this exception to apply to your modifications. If you do not wish that, you must delete the exception notice from such code and/or adjust the licensing conditions notice accordingly. </p>
+      
+   
+      
+      
+      <p>EXCEPTION NOTICE</p>
+
+      
+<ul style="list-style:none">
+<li>
+            
+<var class="replacable-license-text">1.</var>
+          As a special exception, the copyright holders of this
+             library give permission for additional uses of the
+             text contained in this release of the library as
+             licenced under the wxWindows Library Licence, applying
+             either version 3.1 of the Licence, or (at your option)
+             any later version of the Licence as published by the
+             copyright holders of version 3.1 of the Licence
+             document.
+        </li>
+<li>
+            
+<var class="replacable-license-text">2.</var>
+          The exception is that you may use, copy, link, modify and
+             distribute under your own terms, binary object code
+             versions of works based on the Library.
+        </li>
+<li>
+            
+<var class="replacable-license-text">3.</var>
+          If you copy code from files distributed under the terms
+             of the GNU General Public Licence or the GNU Library
+             General Public Licence into a copy of this library, as
+             this licence permits, the exception does not apply to
+             the code that you add in this way. To avoid misleading
+             anyone as to the status of such modified files, you
+             must delete this exception notice from such code
+             and/or adjust the licensing conditions notice
+             accordingly.
+        </li>
+<li>
+            
+<var class="replacable-license-text">4.</var>
+          If you write modifications of your own for this library,
+             it is your choice whether to permit this exception to
+             apply to your modifications. If you do not wish that,
+             you must delete the exception notice from such code
+             and/or adjust the licensing conditions notice
+             accordingly.
+        </li>
+</ul>
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

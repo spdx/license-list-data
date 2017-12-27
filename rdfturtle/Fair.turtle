@@ -1,0 +1,13 @@
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://spdx.org/licenses/Fair>
+        a                             spdx:License ;
+        rdfs:seeAlso                  "http://fairlicense.org/" , "http://www.opensource.org/licenses/Fair" ;
+        spdx:isOsiApproved            "true" ;
+        spdx:licenseId                "Fair" ;
+        spdx:licenseText              "Fair License\n<Copyright Information>\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY." ;
+        spdx:name                     "Fair License" ;
+        spdx:standardLicenseTemplate  "<<beginOptional>> Fair License<<endOptional>>\n<Copyright Information>\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY." .

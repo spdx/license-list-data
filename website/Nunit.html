@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -128,7 +137,9 @@
       <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Nunit License</h1>
-      <div style="display:none;"><code property="spdx:deprecated">false</code></div>
+      <h1 style="color:red">Deprecated</h1>
+      <div style="color:red">This license has been deprecated since 3.0.</div>
+      <div style="display:none;"><code property="spdx:deprecated">true</code></div>
       <h2>Full name</h2>
           <p style="margin-left: 20px;"><code property="spdx:name">Nunit License</code></p>
 
@@ -145,19 +156,54 @@
       <div property="spdx:isOsiApproved" style="display: none;">false</div>
 
       <h2 id="notes">Notes</h2>
-          <p style="margin-left: 20px;">None</p>
+          <p style="margin-left: 20px;">DEPRECATED: This license was added twice by accident. Use short identifier: zlib-acknowledgement</p>
 
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Copyright © 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov, Charlie Poole <br/>
-Copyright © 2000-2004 Philip A. Craig
-<p>This software is provided &apos;as-is&apos;, without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.</p>
-<p>Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:</p>
-<p>1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment (see the following) in the product documentation is required.</p>
-<p>Portions Copyright © 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov, Charlie Poole or Copyright © 2000-2004 Philip A. Craig</p>
-<p>2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.</p>
-<p>3. This notice may not be removed or altered from any source distribution.</p>
+      
+      
+      
+      
+         <p>Copyright &copy; 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov, Charlie Poole 
+        <br>
+Copyright &copy; 2000-2004 Philip A. Craig 
+      </p>
+
+      
+    
+      <p>This software is provided 'as-is', without any express or implied warranty. In no event will the authors
+         be held liable for any damages arising from the use of this software.</p>
+
+      <p>Permission is granted to anyone to use this software for any purpose, including commercial applications,
+         and to alter it and redistribute it freely, subject to the following restrictions:</p>
+
+      
+<ul style="list-style:none">
+<li>
+            
+<var class="replacable-license-text">1.</var>
+          The origin of this software must not be misrepresented; you must not claim that you wrote the
+             original software. If you use this software in a product, an acknowledgment (see the
+             following) in the product documentation is required.
+          <p>Portions Copyright &copy; 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov, Charlie
+             Poole or Copyright &copy; 2000-2004 Philip A. Craig</p>
+
+        </li>
+<li>
+            
+<var class="replacable-license-text">2.</var>
+          Altered source versions must be plainly marked as such, and must not be misrepresented as being
+             the original software.
+        </li>
+<li>
+            
+<var class="replacable-license-text">3.</var>
+          This notice may not be removed or altered from any source distribution.
+        </li>
+</ul>
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

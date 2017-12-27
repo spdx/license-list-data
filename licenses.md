@@ -1,11 +1,11 @@
 # License List
-The following liceses have been generated from the license list version 2.6
+The following liceses have been generated from the license list version 3.0
 
 ## Licenses with Short Idenifiers
 
 | Full Name of License                                           | Short Identifier                         | OSI? |
 |----------------------------------------------------------------|------------------------------------------|------|
-| BSD Zero Clause License                                        | [0BSD][]                                 | Y    |
+| BSD Zero Clause License                                        | [0BSD][]                                 |      |
 | Attribution Assurance License                                  | [AAL][]                                  | Y    |
 | Abstyles License                                               | [Abstyles][]                             |      |
 | Adobe Systems Incorporated Source Code License Agreement       | [Adobe-2006][]                           |      |
@@ -18,7 +18,8 @@ The following liceses have been generated from the license list version 2.6
 | Academic Free License v3.0                                     | [AFL-3.0][]                              | Y    |
 | Afmparse License                                               | [Afmparse][]                             |      |
 | Affero General Public License v1.0                             | [AGPL-1.0][]                             |      |
-| GNU Affero General Public License v3.0                         | [AGPL-3.0][]                             | Y    |
+| GNU Affero General Public License v3.0 only                    | [AGPL-3.0-only][]                        | Y    |
+| GNU Affero General Public License v3.0 or later                | [AGPL-3.0-or-later][]                    | Y    |
 | Aladdin Free Public License                                    | [Aladdin][]                              |      |
 | AMD's plpa_map.c License                                       | [AMDPLPA][]                              |      |
 | Apple MIT License                                              | [AML][]                                  |      |
@@ -43,17 +44,19 @@ The following liceses have been generated from the license list version 2.6
 | BitTorrent Open Source License v1.0                            | [BitTorrent-1.0][]                       |      |
 | BitTorrent Open Source License v1.1                            | [BitTorrent-1.1][]                       |      |
 | Borceux license                                                | [Borceux][]                              |      |
-| BSD 2-clause "Simplified" License                              | [BSD-2-Clause][]                         | Y    |
-| BSD 2-clause FreeBSD License                                   | [BSD-2-Clause-FreeBSD][]                 |      |
-| BSD 2-clause NetBSD License                                    | [BSD-2-Clause-NetBSD][]                  |      |
-| BSD 3-clause "New" or "Revised" License                        | [BSD-3-Clause][]                         | Y    |
+| BSD 1-Clause License                                           | [BSD-1-Clause][]                         |      |
+| BSD 2-Clause "Simplified" License                              | [BSD-2-Clause][]                         | Y    |
+| BSD 2-Clause FreeBSD License                                   | [BSD-2-Clause-FreeBSD][]                 |      |
+| BSD 2-Clause NetBSD License                                    | [BSD-2-Clause-NetBSD][]                  |      |
+| BSD-2-Clause Plus Patent License                               | [BSD-2-Clause-Patent][]                  | Y    |
+| BSD 3-Clause "New" or "Revised" License                        | [BSD-3-Clause][]                         | Y    |
 | BSD with attribution                                           | [BSD-3-Clause-Attribution][]             |      |
-| BSD 3-clause Clear License                                     | [BSD-3-Clause-Clear][]                   |      |
+| BSD 3-Clause Clear License                                     | [BSD-3-Clause-Clear][]                   |      |
 | Lawrence Berkeley National Labs BSD variant license            | [BSD-3-Clause-LBNL][]                    |      |
 | BSD 3-Clause No Nuclear License                                | [BSD-3-Clause-No-Nuclear-License][]      |      |
 | BSD 3-Clause No Nuclear License 2014                           | [BSD-3-Clause-No-Nuclear-License-2014][] |      |
 | BSD 3-Clause No Nuclear Warranty                               | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |
-| BSD 4-clause "Original" or "Old" License                       | [BSD-4-Clause][]                         |      |
+| BSD 4-Clause "Original" or "Old" License                       | [BSD-4-Clause][]                         |      |
 | BSD-4-Clause (University of California-Specific)               | [BSD-4-Clause-UC][]                      |      |
 | BSD Protection License                                         | [BSD-Protection][]                       |      |
 | BSD Source Code Attribution                                    | [BSD-Source-Code][]                      |      |
@@ -95,6 +98,8 @@ The following liceses have been generated from the license list version 2.6
 | Creative Commons Zero v1.0 Universal                           | [CC0-1.0][]                              |      |
 | Common Development and Distribution License 1.0                | [CDDL-1.0][]                             | Y    |
 | Common Development and Distribution License 1.1                | [CDDL-1.1][]                             |      |
+| Community Data License Agreement Permissive 1.0                | [CDLA-Permissive-1.0][]                  |      |
+| Community Data License Agreement Sharing 1.0                   | [CDLA-Sharing-1.0][]                     |      |
 | CeCILL Free Software License Agreement v1.0                    | [CECILL-1.0][]                           |      |
 | CeCILL Free Software License Agreement v1.1                    | [CECILL-1.1][]                           |      |
 | CeCILL Free Software License Agreement v2.0                    | [CECILL-2.0][]                           |      |
@@ -127,10 +132,12 @@ The following liceses have been generated from the license list version 2.6
 | eGenix.com Public License 1.1.0                                | [eGenix][]                               |      |
 | Entessa Public License v1.0                                    | [Entessa][]                              | Y    |
 | Eclipse Public License 1.0                                     | [EPL-1.0][]                              | Y    |
+| Eclipse Public License 2.0                                     | [EPL-2.0][]                              | Y    |
 | Erlang Public License v1.1                                     | [ErlPL-1.1][]                            |      |
 | EU DataGrid Software License                                   | [EUDatagrid][]                           | Y    |
 | European Union Public License 1.0                              | [EUPL-1.0][]                             |      |
 | European Union Public License 1.1                              | [EUPL-1.1][]                             | Y    |
+| European Union Public License 1.2                              | [EUPL-1.2][]                             | Y    |
 | Eurosym License                                                | [Eurosym][]                              |      |
 | Fair License                                                   | [Fair][]                                 | Y    |
 | Frameworx Open License 1.0                                     | [Frameworx-1.0][]                        | Y    |
@@ -139,20 +146,26 @@ The following liceses have been generated from the license list version 2.6
 | FSF Unlimited License                                          | [FSFUL][]                                |      |
 | FSF Unlimited License (with License Retention)                 | [FSFULLR][]                              |      |
 | Freetype Project License                                       | [FTL][]                                  |      |
-| GNU Free Documentation License v1.1                            | [GFDL-1.1][]                             |      |
-| GNU Free Documentation License v1.2                            | [GFDL-1.2][]                             |      |
-| GNU Free Documentation License v1.3                            | [GFDL-1.3][]                             |      |
+| GNU Free Documentation License v1.1 only                       | [GFDL-1.1-only][]                        |      |
+| GNU Free Documentation License v1.1 or later                   | [GFDL-1.1-or-later][]                    |      |
+| GNU Free Documentation License v1.2 only                       | [GFDL-1.2-only][]                        |      |
+| GNU Free Documentation License v1.2 or later                   | [GFDL-1.2-or-later][]                    |      |
+| GNU Free Documentation License v1.3 only                       | [GFDL-1.3-only][]                        |      |
+| GNU Free Documentation License v1.3 or later                   | [GFDL-1.3-or-later][]                    |      |
 | Giftware License                                               | [Giftware][]                             |      |
 | GL2PS License                                                  | [GL2PS][]                                |      |
 | 3dfx Glide License                                             | [Glide][]                                |      |
 | Glulxe License                                                 | [Glulxe][]                               |      |
 | gnuplot License                                                | [gnuplot][]                              |      |
-| GNU General Public License v1.0 only                           | [GPL-1.0][]                              |      |
-| GNU General Public License v2.0 only                           | [GPL-2.0][]                              | Y    |
-| GNU General Public License v3.0 only                           | [GPL-3.0][]                              | Y    |
+| GNU General Public License v1.0 only                           | [GPL-1.0-only][]                         |      |
+| GNU General Public License v1.0 or later                       | [GPL-1.0-or-later][]                     |      |
+| GNU General Public License v2.0 only                           | [GPL-2.0-only][]                         | Y    |
+| GNU General Public License v2.0 or later                       | [GPL-2.0-or-later][]                     | Y    |
+| GNU General Public License v3.0 only                           | [GPL-3.0-only][]                         | Y    |
+| GNU General Public License v3.0 or later                       | [GPL-3.0-or-later][]                     | Y    |
 | gSOAP Public License v1.3b                                     | [gSOAP-1.3b][]                           |      |
 | Haskell Language Report License                                | [HaskellReport][]                        |      |
-| Historic Permission Notice and Disclaimer                      | [HPND][]                                 | Y    |
+| Historical Permission Notice and Disclaimer                    | [HPND][]                                 | Y    |
 | IBM PowerPC Initialization and Boot Software                   | [IBM-pibs][]                             |      |
 | ICU License                                                    | [ICU][]                                  |      |
 | Independent JPEG Group License                                 | [IJG][]                                  |      |
@@ -172,9 +185,12 @@ The following liceses have been generated from the license list version 2.6
 | Licence Art Libre 1.3                                          | [LAL-1.3][]                              |      |
 | Latex2e License                                                | [Latex2e][]                              |      |
 | Leptonica License                                              | [Leptonica][]                            |      |
-| GNU Library General Public License v2 only                     | [LGPL-2.0][]                             | Y    |
-| GNU Lesser General Public License v2.1 only                    | [LGPL-2.1][]                             | Y    |
-| GNU Lesser General Public License v3.0 only                    | [LGPL-3.0][]                             | Y    |
+| GNU Library General Public License v2 only                     | [LGPL-2.0-only][]                        | Y    |
+| GNU Library General Public License v2 or later                 | [LGPL-2.0-or-later][]                    | Y    |
+| GNU Lesser General Public License v2.1 only                    | [LGPL-2.1-only][]                        | Y    |
+| GNU Lesser General Public License v2.1 or later                | [LGPL-2.1-or-later][]                    | Y    |
+| GNU Lesser General Public License v3.0 only                    | [LGPL-3.0-only][]                        | Y    |
+| GNU Lesser General Public License v3.0 or later                | [LGPL-3.0-or-later][]                    | Y    |
 | Lesser General Public License For Linguistic Resources         | [LGPLLR][]                               |      |
 | libpng License                                                 | [Libpng][]                               |      |
 | libtiff License                                                | [libtiff][]                              |      |
@@ -189,7 +205,7 @@ The following liceses have been generated from the license list version 2.6
 | LaTeX Project Public License v1.3a                             | [LPPL-1.3a][]                            |      |
 | LaTeX Project Public License v1.3c                             | [LPPL-1.3c][]                            | Y    |
 | MakeIndex License                                              | [MakeIndex][]                            |      |
-| MirOS Licence                                                  | [MirOS][]                                | Y    |
+| MirOS License                                                  | [MirOS][]                                | Y    |
 | MIT License                                                    | [MIT][]                                  | Y    |
 | Enlightenment License (e16)                                    | [MIT-advertising][]                      |      |
 | CMU License                                                    | [MIT-CMU][]                              |      |
@@ -225,7 +241,6 @@ The following liceses have been generated from the license list version 2.6
 | Non-Profit Open Software License 3.0                           | [NPOSL-3.0][]                            | Y    |
 | NRL License                                                    | [NRL][]                                  |      |
 | NTP License                                                    | [NTP][]                                  | Y    |
-| Nunit License                                                  | [Nunit][]                                |      |
 | Open CASCADE Technology Public License                         | [OCCT-PL][]                              |      |
 | OCLC Research Public License 2.0                               | [OCLC-2.0][]                             | Y    |
 | ODC Open Database License v1.0                                 | [ODbL-1.0][]                             |      |
@@ -241,7 +256,7 @@ The following liceses have been generated from the license list version 2.6
 | Open LDAP Public License v2.1                                  | [OLDAP-2.1][]                            |      |
 | Open LDAP Public License v2.2                                  | [OLDAP-2.2][]                            |      |
 | Open LDAP Public License v2.2.1                                | [OLDAP-2.2.1][]                          |      |
-| Open LDAP Public License  2.2.2                                | [OLDAP-2.2.2][]                          |      |
+| Open LDAP Public License 2.2.2                                 | [OLDAP-2.2.2][]                          |      |
 | Open LDAP Public License v2.3                                  | [OLDAP-2.3][]                            |      |
 | Open LDAP Public License v2.4                                  | [OLDAP-2.4][]                            |      |
 | Open LDAP Public License v2.5                                  | [OLDAP-2.5][]                            |      |
@@ -341,6 +356,7 @@ The following liceses have been generated from the license list version 2.6
 | Autoconf exception 2.0                | [Autoconf-exception-2.0][]               |
 | Autoconf exception 3.0                | [Autoconf-exception-3.0][]               |
 | Bison exception 2.2                   | [Bison-exception-2.2][]                  |
+| Bootloader Distribution Exception     | [Bootloader-exception][]                 |
 | Classpath exception 2.0               | [Classpath-exception-2.0][]              |
 | CLISP exception 2.0                   | [CLISP-exception-2.0][]                  |
 | DigiRule FOSS License Exception       | [DigiRule-FOSS-exception][]              |
@@ -354,6 +370,7 @@ The following liceses have been generated from the license list version 2.6
 | GNU JavaMail exception                | [gnu-javamail-exception][]               |
 | i2p GPL+Java Exception                | [i2p-gpl-java-exception][]               |
 | Libtool Exception                     | [Libtool-exception][]                    |
+| Linux Syscall Note                    | [Linux-syscall-note][]                   |
 | LZMA exception                        | [LZMA-exception][]                       |
 | Macros and Inline Functions Exception | [mif-exception][]                        |
 | Nokia Qt LGPL exception 1.1           | [Nokia-Qt-exception-1.1][]               |
@@ -367,22 +384,33 @@ The following liceses have been generated from the license list version 2.6
 
 | Full Name of License                                           | Deprecated SPDX License Identifier       |
 |----------------------------------------------------------------|------------------------------------------|
+| GNU Affero General Public License v3.0                         | [AGPL-3.0][]                             
 | eCos license version 2.0                                       | [eCos-2.0][]                             
+| GNU Free Documentation License v1.1                            | [GFDL-1.1][]                             
+| GNU Free Documentation License v1.2                            | [GFDL-1.2][]                             
+| GNU Free Documentation License v1.3                            | [GFDL-1.3][]                             
+| GNU General Public License v1.0 only                           | [GPL-1.0][]                              
 | GNU General Public License v1.0 or later                       | [GPL-1.0+][]                             
+| GNU General Public License v2.0 only                           | [GPL-2.0][]                              
 | GNU General Public License v2.0 or later                       | [GPL-2.0+][]                             
 | GNU General Public License v2.0 w/Autoconf exception           | [GPL-2.0-with-autoconf-exception][]      
 | GNU General Public License v2.0 w/Bison exception              | [GPL-2.0-with-bison-exception][]         
 | GNU General Public License v2.0 w/Classpath exception          | [GPL-2.0-with-classpath-exception][]     
 | GNU General Public License v2.0 w/Font exception               | [GPL-2.0-with-font-exception][]          
 | GNU General Public License v2.0 w/GCC Runtime Library exception | [GPL-2.0-with-GCC-exception][]           
+| GNU General Public License v3.0 only                           | [GPL-3.0][]                              
 | GNU General Public License v3.0 or later                       | [GPL-3.0+][]                             
 | GNU General Public License v3.0 w/Autoconf exception           | [GPL-3.0-with-autoconf-exception][]      
 | GNU General Public License v3.0 w/GCC Runtime Library exception | [GPL-3.0-with-GCC-exception][]           
+| GNU Library General Public License v2 only                     | [LGPL-2.0][]                             
 | GNU Library General Public License v2 or later                 | [LGPL-2.0+][]                            
-| GNU Lesser General Public License v2.1 or later                | [LGPL-2.1+][]                            
+| GNU Lesser General Public License v2.1 only                    | [LGPL-2.1][]                             
+| GNU Library General Public License v2 or later                 | [LGPL-2.1+][]                            
+| GNU Lesser General Public License v3.0 only                    | [LGPL-3.0][]                             
 | GNU Lesser General Public License v3.0 or later                | [LGPL-3.0+][]                            
+| Nunit License                                                  | [Nunit][]                                
 | Standard ML of New Jersey License                              | [StandardML-NJ][]                        
-| wxWindows Library License                                      | [WXwindows][]                            
+| wxWindows Library License                                      | [wxWindows][]                            
 
 [0BSD]: text/0BSD.txt
 [AAL]: text/AAL.txt
@@ -398,6 +426,8 @@ The following liceses have been generated from the license list version 2.6
 [Afmparse]: text/Afmparse.txt
 [AGPL-1.0]: text/AGPL-1.0.txt
 [AGPL-3.0]: text/AGPL-3.0.txt
+[AGPL-3.0-only]: text/AGPL-3.0-only.txt
+[AGPL-3.0-or-later]: text/AGPL-3.0-or-later.txt
 [Aladdin]: text/Aladdin.txt
 [AMDPLPA]: text/AMDPLPA.txt
 [AML]: text/AML.txt
@@ -422,9 +452,11 @@ The following liceses have been generated from the license list version 2.6
 [BitTorrent-1.0]: text/BitTorrent-1.0.txt
 [BitTorrent-1.1]: text/BitTorrent-1.1.txt
 [Borceux]: text/Borceux.txt
+[BSD-1-Clause]: text/BSD-1-Clause.txt
 [BSD-2-Clause]: text/BSD-2-Clause.txt
 [BSD-2-Clause-FreeBSD]: text/BSD-2-Clause-FreeBSD.txt
 [BSD-2-Clause-NetBSD]: text/BSD-2-Clause-NetBSD.txt
+[BSD-2-Clause-Patent]: text/BSD-2-Clause-Patent.txt
 [BSD-3-Clause]: text/BSD-3-Clause.txt
 [BSD-3-Clause-Attribution]: text/BSD-3-Clause-Attribution.txt
 [BSD-3-Clause-Clear]: text/BSD-3-Clause-Clear.txt
@@ -474,6 +506,8 @@ The following liceses have been generated from the license list version 2.6
 [CC0-1.0]: text/CC0-1.0.txt
 [CDDL-1.0]: text/CDDL-1.0.txt
 [CDDL-1.1]: text/CDDL-1.1.txt
+[CDLA-Permissive-1.0]: text/CDLA-Permissive-1.0.txt
+[CDLA-Sharing-1.0]: text/CDLA-Sharing-1.0.txt
 [CECILL-1.0]: text/CECILL-1.0.txt
 [CECILL-1.1]: text/CECILL-1.1.txt
 [CECILL-2.0]: text/CECILL-2.0.txt
@@ -507,10 +541,12 @@ The following liceses have been generated from the license list version 2.6
 [eGenix]: text/eGenix.txt
 [Entessa]: text/Entessa.txt
 [EPL-1.0]: text/EPL-1.0.txt
+[EPL-2.0]: text/EPL-2.0.txt
 [ErlPL-1.1]: text/ErlPL-1.1.txt
 [EUDatagrid]: text/EUDatagrid.txt
 [EUPL-1.0]: text/EUPL-1.0.txt
 [EUPL-1.1]: text/EUPL-1.1.txt
+[EUPL-1.2]: text/EUPL-1.2.txt
 [Eurosym]: text/Eurosym.txt
 [Fair]: text/Fair.txt
 [Frameworx-1.0]: text/Frameworx-1.0.txt
@@ -520,8 +556,14 @@ The following liceses have been generated from the license list version 2.6
 [FSFULLR]: text/FSFULLR.txt
 [FTL]: text/FTL.txt
 [GFDL-1.1]: text/GFDL-1.1.txt
+[GFDL-1.1-only]: text/GFDL-1.1-only.txt
+[GFDL-1.1-or-later]: text/GFDL-1.1-or-later.txt
 [GFDL-1.2]: text/GFDL-1.2.txt
+[GFDL-1.2-only]: text/GFDL-1.2-only.txt
+[GFDL-1.2-or-later]: text/GFDL-1.2-or-later.txt
 [GFDL-1.3]: text/GFDL-1.3.txt
+[GFDL-1.3-only]: text/GFDL-1.3-only.txt
+[GFDL-1.3-or-later]: text/GFDL-1.3-or-later.txt
 [Giftware]: text/Giftware.txt
 [GL2PS]: text/GL2PS.txt
 [Glide]: text/Glide.txt
@@ -529,8 +571,12 @@ The following liceses have been generated from the license list version 2.6
 [gnuplot]: text/gnuplot.txt
 [GPL-1.0]: text/GPL-1.0.txt
 [GPL-1.0+]: text/GPL-1.0+.txt
+[GPL-1.0-only]: text/GPL-1.0-only.txt
+[GPL-1.0-or-later]: text/GPL-1.0-or-later.txt
 [GPL-2.0]: text/GPL-2.0.txt
 [GPL-2.0+]: text/GPL-2.0+.txt
+[GPL-2.0-only]: text/GPL-2.0-only.txt
+[GPL-2.0-or-later]: text/GPL-2.0-or-later.txt
 [GPL-2.0-with-autoconf-exception]: text/GPL-2.0-with-autoconf-exception.txt
 [GPL-2.0-with-bison-exception]: text/GPL-2.0-with-bison-exception.txt
 [GPL-2.0-with-classpath-exception]: text/GPL-2.0-with-classpath-exception.txt
@@ -538,6 +584,8 @@ The following liceses have been generated from the license list version 2.6
 [GPL-2.0-with-GCC-exception]: text/GPL-2.0-with-GCC-exception.txt
 [GPL-3.0]: text/GPL-3.0.txt
 [GPL-3.0+]: text/GPL-3.0+.txt
+[GPL-3.0-only]: text/GPL-3.0-only.txt
+[GPL-3.0-or-later]: text/GPL-3.0-or-later.txt
 [GPL-3.0-with-autoconf-exception]: text/GPL-3.0-with-autoconf-exception.txt
 [GPL-3.0-with-GCC-exception]: text/GPL-3.0-with-GCC-exception.txt
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
@@ -564,10 +612,16 @@ The following liceses have been generated from the license list version 2.6
 [Leptonica]: text/Leptonica.txt
 [LGPL-2.0]: text/LGPL-2.0.txt
 [LGPL-2.0+]: text/LGPL-2.0+.txt
+[LGPL-2.0-only]: text/LGPL-2.0-only.txt
+[LGPL-2.0-or-later]: text/LGPL-2.0-or-later.txt
 [LGPL-2.1]: text/LGPL-2.1.txt
 [LGPL-2.1+]: text/LGPL-2.1+.txt
+[LGPL-2.1-only]: text/LGPL-2.1-only.txt
+[LGPL-2.1-or-later]: text/LGPL-2.1-or-later.txt
 [LGPL-3.0]: text/LGPL-3.0.txt
 [LGPL-3.0+]: text/LGPL-3.0+.txt
+[LGPL-3.0-only]: text/LGPL-3.0-only.txt
+[LGPL-3.0-or-later]: text/LGPL-3.0-or-later.txt
 [LGPLLR]: text/LGPLLR.txt
 [Libpng]: text/Libpng.txt
 [libtiff]: text/libtiff.txt
@@ -708,7 +762,7 @@ The following liceses have been generated from the license list version 2.6
 [Watcom-1.0]: text/Watcom-1.0.txt
 [Wsuipa]: text/Wsuipa.txt
 [WTFPL]: text/WTFPL.txt
-[WXwindows]: text/WXwindows.txt
+[wxWindows]: text/wxWindows.txt
 [X11]: text/X11.txt
 [Xerox]: text/Xerox.txt
 [XFree86-1.1]: text/XFree86-1.1.txt
@@ -731,6 +785,7 @@ The following liceses have been generated from the license list version 2.6
 [Autoconf-exception-2.0]: text/Autoconf-exception-2.0.txt
 [Autoconf-exception-3.0]: text/Autoconf-exception-3.0.txt
 [Bison-exception-2.2]: text/Bison-exception-2.2.txt
+[Bootloader-exception]: text/Bootloader-exception.txt
 [Classpath-exception-2.0]: text/Classpath-exception-2.0.txt
 [CLISP-exception-2.0]: text/CLISP-exception-2.0.txt
 [DigiRule-FOSS-exception]: text/DigiRule-FOSS-exception.txt
@@ -744,6 +799,7 @@ The following liceses have been generated from the license list version 2.6
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
+[Linux-syscall-note]: text/Linux-syscall-note.txt
 [LZMA-exception]: text/LZMA-exception.txt
 [mif-exception]: text/mif-exception.txt
 [Nokia-Qt-exception-1.1]: text/Nokia-Qt-exception-1.1.txt

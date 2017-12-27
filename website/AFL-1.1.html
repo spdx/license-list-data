@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -139,6 +148,7 @@
           <div style="margin-left: 20px;">
             <ul>
              <li><a href="http://opensource.linux-mirror.org/licenses/afl-1.1.txt" rel="rdfs:seeAlso">http://opensource.linux-mirror.org/licenses/afl-1.1.txt</a></li>
+             <li><a href="http://wayback.archive.org/web/20021004124254/http://www.opensource.org/licenses/academic.php" rel="rdfs:seeAlso">http://wayback.archive.org/web/20021004124254/http://www.opensource.org/licenses/academic.php</a></li>
            </ul>
           </div>
           
@@ -150,27 +160,102 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Academic Free License<br/>
-Version 1.1
-<p>The Academic Free License applies to any original work of authorship (the &quot;Original Work&quot;) whose owner (the &quot;Licensor&quot;) has placed the following notice immediately following the copyright notice for the Original Work: </p>
-<p style="margin-left: 20px;">     &quot;Licensed under the Academic Free License version 1.1.&quot;</p>
-<p>Grant of License. Licensor hereby grants to any person obtaining a copy of the Original Work (&quot;You&quot;) a world-wide, royalty-free, non-exclusive, perpetual, non-sublicenseable license </p>
-<p>(1) to use, copy, modify, merge, publish, perform, distribute and/or sell copies of the Original Work and derivative works thereof, and </p>
-<p>(2) under patent claims owned or controlled by the Licensor that are embodied in the Original Work as furnished by the Licensor, to make, use, sell and offer for sale the Original Work and derivative works thereof, subject to the following conditions.</p>
-<p style="margin-left: 20px;">     Right of Attribution. Redistributions of the Original Work must reproduce all copyright notices in the Original Work as furnished by the Licensor, both in the Original Work itself and in any documentation and/or other materials provided with the distribution of the Original Work in executable form.</p>
-<p style="margin-left: 20px;">     Exclusions from License Grant. Neither the names of Licensor, nor the names of any contributors to the Original Work, nor any of their trademarks or service marks, may be used to endorse or promote products derived from this Original Work without express prior written permission of the Licensor.</p>
-<p>WARRANTY AND DISCLAIMERS. LICENSOR WARRANTS THAT THE COPYRIGHT IN AND TO THE ORIGINAL WORK IS OWNED BY THE LICENSOR OR THAT THE ORIGINAL WORK IS DISTRIBUTED BY LICENSOR UNDER A VALID CURRENT LICENSE FROM THE COPYRIGHT OWNER. EXCEPT AS EXPRESSLY STATED IN THE IMMEDIATELY PRECEEDING SENTENCE, THE ORIGINAL WORK IS PROVIDED UNDER THIS LICENSE ON AN &quot;AS IS&quot; BASIS, WITHOUT WARRANTY, EITHER EXPRESS OR IMPLIED, INCLUDING, WITHOUT LIMITATION, THE WARRANTY OF NON-INFRINGEMENT AND WARRANTIES THAT THE ORIGINAL WORK IS MERCHANTABLE OR FIT FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY OF THE ORIGINAL WORK IS WITH YOU. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO LICENSE TO ORIGINAL WORK IS GRANTED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.</p>
-<p>LIMITATION OF LIABILITY. UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE LICENSOR BE LIABLE TO ANY PERSON FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER ARISING AS A RESULT OF THIS LICENSE OR THE USE OF THE ORIGINAL WORK INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF SUCH PERSON SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY&apos;S NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY NOT APPLY TO YOU.</p>
-<p>License to Source Code. The term &quot;Source Code&quot; means the preferred form of the Original Work for making modifications to it and all available documentation describing how to access and modify the Original Work. Licensor hereby agrees to provide a machine-readable copy of the Source Code of the Original Work along with each copy of the Original Work that Licensor distributes. Licensor reserves the right to satisfy this obligation by placing a machine-readable copy of the Source Code in an information repository reasonably calculated to permit inexpensive and convenient access by You for as long as Licensor continues to distribute the Original Work, and by publishing the address of that information repository in a notice immediately following the copyright notice that applies to the Original Work.</p>
-<p>Mutual Termination for Patent Action. This License shall terminate automatically and You may no longer exercise any of the rights granted to You by this License if You file a lawsuit in any court alleging that any OSI Certified open source software that is licensed under any license containing this &quot;Mutual Termination for Patent Action&quot; clause infringes any patent claims that are essential to use that software.</p>
-<p>This license is Copyright (C) 2002 Lawrence E. Rosen. All rights reserved. <br/>
-Permission is hereby granted to copy and distribute this license without modification. This license may not be modified without the express written permission of its copyright owner.</p>
+      
+      
+      
+      
+<div class="optional-license-text">
+         <p>Academic Free License</p>
+
+         <p>Version 1.1</p>
+
+      </div>
+      
+<div class="optional-license-text">
+         <p>The Academic Free License applies to any original work of authorship (the &quot;Original Work&quot;) whose owner
+         (the &quot;Licensor&quot;) has placed the following notice immediately following the copyright notice for the
+         Original Work:</p>
+
+         <p>&quot;Licensed under the Academic Free License version 1.1.&quot;</p>
+
+      </div>
+    
+      <p>Grant of License. Licensor hereby grants to any person obtaining a copy of the Original Work (&quot;You&quot;) a
+         world-wide, royalty-free, non-exclusive, perpetual, non-sublicenseable license</p>
+
+      
+<ul style="list-style:none">
+<li>
+            
+<var class="replacable-license-text">(1)</var>
+          to use, copy, modify, merge, publish, perform, distribute and/or sell copies of the Original Work
+             and derivative works thereof, and
+        </li>
+<li>
+            
+<var class="replacable-license-text">(2)</var>
+          under patent claims owned or controlled by the Licensor that are embodied in the Original Work as
+             furnished by the Licensor, to make, use, sell and offer for sale the Original Work and
+             derivative works thereof, subject to the following conditions.
+        </li>
+</ul>
+      <p>Right of Attribution. Redistributions of the Original Work must reproduce all copyright notices in the
+         Original Work as furnished by the Licensor, both in the Original Work itself and in any documentation
+         and/or other materials provided with the distribution of the Original Work in executable form.</p>
+
+      <p>Exclusions from License Grant. Neither the names of Licensor, nor the names of any contributors to the
+         Original Work, nor any of their trademarks or service marks, may be used to endorse or promote
+         products derived from this Original Work without express prior written permission of the Licensor.</p>
+
+      <p>WARRANTY AND DISCLAIMERS. LICENSOR WARRANTS THAT THE COPYRIGHT IN AND TO THE ORIGINAL WORK IS OWNED BY
+         THE LICENSOR OR THAT THE ORIGINAL WORK IS DISTRIBUTED BY LICENSOR UNDER A VALID CURRENT LICENSE FROM
+         THE COPYRIGHT OWNER. EXCEPT AS EXPRESSLY STATED IN THE IMMEDIATELY PRECEEDING SENTENCE, THE ORIGINAL
+         WORK IS PROVIDED UNDER THIS LICENSE ON AN &quot;AS IS&quot; BASIS, WITHOUT WARRANTY, EITHER EXPRESS OR IMPLIED,
+         INCLUDING, WITHOUT LIMITATION, THE WARRANTY OF NON-INFRINGEMENT AND WARRANTIES THAT THE ORIGINAL WORK
+         IS MERCHANTABLE OR FIT FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY OF THE ORIGINAL
+         WORK IS WITH YOU. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN ESSENTIAL PART OF THIS LICENSE. NO
+         LICENSE TO ORIGINAL WORK IS GRANTED HEREUNDER EXCEPT UNDER THIS DISCLAIMER.</p>
+
+      <p>LIMITATION OF LIABILITY. UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER TORT (INCLUDING
+         NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE LICENSOR BE LIABLE TO ANY PERSON FOR ANY DIRECT,
+         INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER ARISING AS A RESULT OF THIS
+         LICENSE OR THE USE OF THE ORIGINAL WORK INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL,
+         WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES,
+         EVEN IF SUCH PERSON SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES. THIS LIMITATION OF
+         LIABILITY SHALL NOT APPLY TO LIABILITY FOR DEATH OR PERSONAL INJURY RESULTING FROM SUCH PARTY'S
+         NEGLIGENCE TO THE EXTENT APPLICABLE LAW PROHIBITS SUCH LIMITATION. SOME JURISDICTIONS DO NOT ALLOW THE
+         EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS EXCLUSION AND LIMITATION MAY
+         NOT APPLY TO YOU.</p>
+
+      <p>License to Source Code. The term &quot;Source Code&quot; means the preferred form of the Original Work for making
+         modifications to it and all available documentation describing how to access and modify the Original
+         Work. Licensor hereby agrees to provide a machine-readable copy of the Source Code of the Original
+         Work along with each copy of the Original Work that Licensor distributes. Licensor reserves the right
+         to satisfy this obligation by placing a machine-readable copy of the Source Code in an information
+         repository reasonably calculated to permit inexpensive and convenient access by You for as long as
+         Licensor continues to distribute the Original Work, and by publishing the address of that information
+         repository in a notice immediately following the copyright notice that applies to the Original
+         Work.</p>
+
+      <p>Mutual Termination for Patent Action. This License shall terminate automatically and You may no longer
+         exercise any of the rights granted to You by this License if You file a lawsuit in any court alleging
+         that any OSI Certified open source software that is licensed under any license containing this &quot;Mutual
+         Termination for Patent Action&quot; clause infringes any patent claims that are essential to use that
+         software.</p>
+
+      <p>This license is Copyright (C) 2002 Lawrence E. Rosen. All rights reserved.</p>
+
+        <p>Permission is hereby granted to copy and distribute this license without modification. This license
+             may not be modified without the express written permission of its copyright owner.</p>
+
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>
       <div property="spdx:standardLicenseHeader" class="license-text">
+        <p style="font-style: italic">There is no standard license header for the license</p>
         
-        Licensed under the Academic Free License version 1.1.
       </div>
 
     </div> <!-- /page -->

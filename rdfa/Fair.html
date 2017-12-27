@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -139,6 +148,7 @@
           <div style="margin-left: 20px;">
             <ul>
              <li><a href="http://www.opensource.org/licenses/Fair" rel="rdfs:seeAlso">http://www.opensource.org/licenses/Fair</a></li>
+             <li><a href="http://fairlicense.org/" rel="rdfs:seeAlso">http://fairlicense.org/</a></li>
            </ul>
           </div>
           
@@ -150,11 +160,25 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Fair License
-<p>&lt;Copyright Information&gt;</p>
-<p>Usage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.</p>
-<p>DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.</p>
-<p>[2004, Fair License: rhid.com/fair (this URL no longer works)]</p>
+      
+      
+      
+<div class="optional-license-text">
+         <p>Fair License</p>
+
+      </div>
+      
+         <p>&lt;Copyright Information&gt;</p>
+
+      
+    
+      <p>Usage of the works is permitted provided that this instrument is retained with the works, so that any
+         entity that uses the works is notified of this instrument.</p>
+
+      <p>DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.</p>
+
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

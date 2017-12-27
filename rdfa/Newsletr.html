@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -150,10 +159,33 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Copyright 1989--2004 by Hunter Goatley.   
-<p>Permission is granted to anyone to use this software for any purpose  on any computer system, and to redistribute it freely, subject to the  following restrictions:   </p>
-<p>1. This software is distributed in the hope that it will be useful,  but WITHOUT ANY WARRANTY; without even the implied warranty of  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   </p>
-<p>2. Altered versions must be plainly marked as such, and must not be  misrepresented as being the original software.</p>
+      
+      
+      
+         <p>Copyright 1989--2004 by Hunter Goatley.</p>
+
+      
+    
+      <p>Permission is granted to anyone to use this software for any purpose on any computer system, and to
+         redistribute it freely, subject to the following restrictions:</p>
+
+      
+<ul style="list-style:none">
+<li>
+            
+<var class="replacable-license-text">1.</var>
+          This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+             without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        </li>
+<li>
+            
+<var class="replacable-license-text">2.</var>
+          Altered versions must be plainly marked as such, and must not be misrepresented as being the
+             original software.
+        </li>
+</ul>
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>
