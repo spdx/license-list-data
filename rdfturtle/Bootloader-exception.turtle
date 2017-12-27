@@ -1,0 +1,12 @@
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+[ a                              spdx:LicenseException ;
+  rdfs:seeAlso                   "https://github.com/pyinstaller/pyinstaller/blob/develop/COPYING.txt" ;
+  spdx:licenseExceptionId        "Bootloader-exception" ;
+  spdx:licenseExceptionTemplate  "<<beginOptional>> Bootloader Exception <<var;name=\"titleUnderline\";original=\"\";match=\"-*\">><<endOptional>>\nIn addition to the permissions in the GNU General Public License, the authors give you unlimited permission to link or embed compiled bootloader and related files into combinations with other programs, and to distribute those combinations without any restriction coming from the use of those files. (The General Public License restrictions do apply in other respects; for example, they cover modification of the files, and distribution when not linked into a <<var;name=\"combined\";original=\"combined\";match=\"combined|combine\">> executable.)" ;
+  spdx:licenseExceptionText      "Bootloader Exception \nIn addition to the permissions in the GNU General Public License, the authors give you unlimited permission to link or embed compiled bootloader and related files into combinations with other programs, and to distribute those combinations without any restriction coming from the use of those files. (The General Public License restrictions do apply in other respects; for example, they cover modification of the files, and distribution when not linked into a combined executable.)" ;
+  spdx:name                      "Bootloader Distribution Exception"
+] .

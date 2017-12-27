@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -150,16 +159,65 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Copyright (c) 1999-2002 Henrik Theiling <br/>
+      
+      
+      
+         <p>Copyright (c) 1999-2002 Henrik Theiling</p>
+
+      
+      
+<var class="optional-license-text">
+         <br>
 Licence Version 2
-<p>This software is provided &apos;as-is&apos;, without warranty of any kind, express or implied. In no event will the authors or copyright holders be held liable for any damages arising from the use of this software.</p>
-<p>Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:</p>
-<p style="margin-left: 20px;">     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated.</p>
-<p style="margin-left: 20px;">     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.</p>
-<p style="margin-left: 20px;">     3. You must not use any of the names of the authors or copyright holders of the original software for advertising or publicity pertaining to distribution without specific, written prior permission.</p>
-<p style="margin-left: 20px;">     4. If you change this software and redistribute parts or all of it in any form, you must make the source code of the altered version of this software available.</p>
-<p style="margin-left: 20px;">     5. This notice may not be removed or altered from any source distribution.</p>
-<p>This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.</p>
+      <br>
+
+      </var>
+    
+      <p>This software is provided 'as-is', without warranty of any kind, express or implied. In no
+         event will the authors or copyright holders be held liable for any damages arising from the use of
+         this software.</p>
+
+      <p>Permission is granted to anyone to use this software for any purpose, including commercial applications,
+         and to alter it and redistribute it freely, subject to the following restrictions:</p>
+
+      
+<ul style="list-style:none">
+<li>
+            
+<var class="replacable-license-text">1.</var>
+          The origin of this software must not be misrepresented; you must not claim that you wrote the
+             original software. If you use this software in a product, an acknowledgment in the product
+             documentation would be appreciated.
+        </li>
+<li>
+            
+<var class="replacable-license-text">2.</var>
+          Altered source versions must be plainly marked as such, and must not be misrepresented as
+             being the original software.
+        </li>
+<li>
+            
+<var class="replacable-license-text">3.</var>
+          You must not use any of the names of the authors or copyright holders of the original
+             software for advertising or publicity pertaining to distribution without specific, written
+             prior permission.
+        </li>
+<li>
+            
+<var class="replacable-license-text">4.</var>
+          If you change this software and redistribute parts or all of it in any form, you must make
+             the source code of the altered version of this software available.
+        </li>
+<li>
+            
+<var class="replacable-license-text">5.</var>
+          This notice may not be removed or altered from any source distribution.
+        </li>
+</ul>
+      <p>This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.</p>
+
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

@@ -1,0 +1,12 @@
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://spdx.org/licenses/Newsletr>
+        a                             spdx:License ;
+        rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing/Newsletr" ;
+        spdx:licenseId                "Newsletr" ;
+        spdx:licenseText              "Copyright 1989--2004 by Hunter Goatley.\nPermission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:\n   1. This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n   2. Altered versions must be plainly marked as such, and must not be misrepresented as being the original software." ;
+        spdx:name                     "Newsletr License" ;
+        spdx:standardLicenseTemplate  "Copyright 1989--2004 by Hunter Goatley.\nPermission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered versions must be plainly marked as such, and must not be misrepresented as being the original software." .

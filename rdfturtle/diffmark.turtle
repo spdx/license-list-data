@@ -1,0 +1,12 @@
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://spdx.org/licenses/diffmark>
+        a                             spdx:License ;
+        rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing/diffmark" ;
+        spdx:licenseId                "diffmark" ;
+        spdx:licenseText              "\n   1. you can do what you want with it\n   2. I refuse any responsibility for the consequences" ;
+        spdx:name                     "diffmark license" ;
+        spdx:standardLicenseTemplate  "\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences" .

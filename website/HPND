@@ -12,7 +12,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="shortcut icon" href="sites/all/themes/cpstandard/favicon.ico" type="image/vnd.microsoft.icon" />
 
-    <title>Historic Permission Notice and Disclaimer | Software Package Data Exchange (SPDX)</title>
+    <title>Historical Permission Notice and Disclaimer | Software Package Data Exchange (SPDX)</title>
 
     <link rel="shortcut icon" href="sites/all/themes/cpstandard/favicon.ico" type="image/vnd.microsoft.icon" />
     <link type="text/css" rel="stylesheet" media="all" href="sites/all/themes/cpstandard/css/style.css" />
@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -127,10 +136,10 @@
 
       <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
-      <h1 property="dc:title">Historic Permission Notice and Disclaimer</h1>
+      <h1 property="dc:title">Historical Permission Notice and Disclaimer</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
       <h2>Full name</h2>
-          <p style="margin-left: 20px;"><code property="spdx:name">Historic Permission Notice and Disclaimer</code></p>
+          <p style="margin-left: 20px;"><code property="spdx:name">Historical Permission Notice and Disclaimer</code></p>
 
       <h2>Short identifier</h2>
           <p style="margin-left: 20px;"><code property="spdx:licenseId">HPND</code></p>
@@ -145,15 +154,62 @@
       <div property="spdx:isOsiApproved" style="display: none;">true</div>
 
       <h2 id="notes">Notes</h2>
-          <p style="margin-left: 20px;">This license has been voluntarily deprecated by its author.</p>
+          <p style="margin-left: 20px;">This license has been voluntarily deprecated by its author. Per the copy of this license at http://www.opensource.org/licenses/HPND Explanation: * Angle brackets hold &quot;fields&quot;, e.g. &lt;copyright holder&gt;. * Square brackets hold optional text, e.g. [or &lt;related entities&gt;]. * A license can have variations in capitalization and whitespace, and still be considered an instance of this template. It may be possible to construct a grammatically incorrect license from this template, or one that lacks a disclaimer, or one that includes a double-disclaimer. That is acceptable, as long as it remains impossible to construct a non-OSD-compliant license that matches the pattern.</p>
 
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Historical Permission Notice and Disclaimer
-<p>&lt;copyright notice&gt;</p>
-<p>Permission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies[,] [and] that both [that] [the] copyright notice and this permission notice appear in supporting documentation[, and that the name [of] &lt;copyright holder&gt; [or &lt;related entities&gt;] not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission]. [&lt;copyright holder&gt; makes no representations about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty.]</p>
-<p>[&lt;copyright holder&gt; DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS[,][.] IN NO EVENT SHALL &lt;copyright holder&gt; BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.]</p>
+      
+      
+      
+      
+<div class="optional-license-text">
+         <p>Historical Permission Notice and Disclaimer</p>
+
+      </div>
+      
+         <p>&lt;copyright notice&gt;</p>
+
+      
+    
+      <p>Permission to use, copy, modify and distribute this software and its documentation for any purpose and
+         without fee is hereby granted, provided that the above copyright notice appear in all copies
+<var class="optional-license-text">,</var> 
+         
+<var class="optional-license-text">and</var> that both 
+<var class="optional-license-text">that</var> 
+         
+<var class="optional-license-text">the</var> copyright notice 
+         and this permission notice appear in supporting documentation
+<var class="optional-license-text">, and that the name 
+<var class="optional-license-text">of</var> 
+            
+<var class="replacable-license-text">&lt;copyright holder&gt;</var> 
+            
+<var class="replacable-license-text">&lt;or related entities&gt;</var>
+         not be used in advertising or publicity pertaining to distribution of the software without specific, written
+         prior permission</var>. 
+<var class="optional-license-text">
+            
+<var class="replacable-license-text">&lt;copyright holder&gt;</var> makes no representations 
+         about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty.</var>
+      </p>
+
+      
+<div class="optional-license-text">
+        <p>
+            
+<var class="replacable-license-text">&lt;copyright holder&gt;</var> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING 
+           ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS
+<var class="replacable-license-text">.</var> IN NO EVENT SHALL 
+           
+<var class="replacable-license-text">&lt;copyright holder&gt;</var> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES 
+           OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, 
+           NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>
+
+      </div>
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>

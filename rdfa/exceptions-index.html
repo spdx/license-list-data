@@ -128,18 +128,19 @@
     <div id="page" class="page">
 
       <h1>License Exceptions</h1>
-      <p>The SPDX License List includes a list of commonly found exceptions to open source licenses.  These exceptions can be used with the <a href="http://spdx.org/SPDX-specifications/spdx-version-2.0"><strong>License Expression Syntax</strong></a> operator, "WITH" to identify a license with an exception.</p>
+      <p>The SPDX License List includes a list of exceptions. These exceptions grant an exception to a license condition or additional permissions beyond those granted in a license; they are not stand-alone licenses. Exceptions are added to a license using the <a href="https://spdx.org/specifications"><strong>License Expression Syntax</strong></a> operator, "WITH".</p>
 
       <ul style="list-style-type: square; padding: 5px;">
             <li style="margin:5px 0 5px 10px;"><a href="index.html"><strong>SPDX License List</strong></a>: The list of commonly found open source licenses for the purposes of being able to easily and efficiently identify such licenses.</li>
-            <li style="margin:5px 0 5px 10px;"><a href="https://github.com/spdx/license-list"><strong>Master Files</strong></a>:  The HTML pages you see here are generated from the master files for the SPDX License List.  The master files include a spreadsheet listing all the licenses, deprecated licenses, and license exceptions; and the text for each license in a .txt file.</li>
+			<li style="margin:5px 0 5px 10px;"><a href="https://github.com/spdx/license-list-XML"><strong>Master Files</strong></a>:  The HTML pages you see here are generated from the master files for the SPDX License List.  The master files are XML files describing all the licenses, deprecated licenses, and license exceptions.</li>
+            <li style="margin:5px 0 5px 10px;"><a href="https://github.com/spdx/license-list-data"><strong>Data Files</strong></a>:  Machine readable files describing all of the licenses and license exceptions.</li>
             <li style="margin:0px 0 5px 10px;"><a href="http://spdx.org/spdx-license-list/license-list-overview"><strong>Overview</strong></a>: For general information about the SPDX License List, including principles for inclusion of a license and an explanation of the fields contained on the list.</li>
             <li style="margin:5px 0 5px 10px;"><a href="http://spdx.org/spdx-license-list/matching-guidelines"><strong>Matching Guidelines</strong></a>:  Guidelines for what constitutes a license match to the SPDX License List. For licenses that include markup, the license text on the HTML pages here will display omitable text in blue and replaceable text in red (see Guideline #2 for more information).</li>
             <li style="margin:5px 0 5px 10px;"><a href="http://spdx.org/spdx-license-list/request-new-license"><strong>Request New License</strong></a>: For instructions on how to propose additional licenses or license exceptions be added to the SPDX License List.</li>
 
       </ul>
 
-      <p><strong>Version:</strong> 3/23/2017</p>
+      <p><strong>Version:</strong> 3.0</p>
 
       <h2>License Exceptions</h2>
       <table class="sortable">
@@ -149,7 +150,7 @@
 
         <tbody>
           <tr>
-            <td><a href="./389-exception.html" rel="rdf:_1">389 Directory Server&#10;Exception</a></td>
+            <td><a href="./389-exception.html" rel="rdf:_1">389 Directory Server Exception</a></td>
             <td about="./389-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">389-exception</code></td>
             <td><a href="./389-exception.html#licenseExceptionText">License Exception Text</a></td>
@@ -173,127 +174,139 @@
             <td><a href="./Bison-exception-2.2.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./Classpath-exception-2.0.html" rel="rdf:_5">Classpath exception 2.0</a></td>
+            <td><a href="./Bootloader-exception.html" rel="rdf:_5">Bootloader Distribution Exception</a></td>
+            <td about="./Bootloader-exception.html" typeof="spdx:LicenseException">
+            <code property="spdx:licenseExceptionId">Bootloader-exception</code></td>
+            <td><a href="./Bootloader-exception.html#licenseExceptionText">License Exception Text</a></td>
+          </tr>
+          <tr>
+            <td><a href="./Classpath-exception-2.0.html" rel="rdf:_6">Classpath exception 2.0</a></td>
             <td about="./Classpath-exception-2.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">Classpath-exception-2.0</code></td>
             <td><a href="./Classpath-exception-2.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./CLISP-exception-2.0.html" rel="rdf:_6">CLISP exception 2.0 </a></td>
+            <td><a href="./CLISP-exception-2.0.html" rel="rdf:_7">CLISP exception 2.0</a></td>
             <td about="./CLISP-exception-2.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">CLISP-exception-2.0</code></td>
             <td><a href="./CLISP-exception-2.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./DigiRule-FOSS-exception.html" rel="rdf:_7">DigiRule FOSS License Exception</a></td>
+            <td><a href="./DigiRule-FOSS-exception.html" rel="rdf:_8">DigiRule FOSS License Exception</a></td>
             <td about="./DigiRule-FOSS-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">DigiRule-FOSS-exception</code></td>
             <td><a href="./DigiRule-FOSS-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./eCos-exception-2.0.html" rel="rdf:_8">eCos exception 2.0</a></td>
+            <td><a href="./eCos-exception-2.0.html" rel="rdf:_9">eCos exception 2.0</a></td>
             <td about="./eCos-exception-2.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">eCos-exception-2.0</code></td>
             <td><a href="./eCos-exception-2.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./Fawkes-Runtime-exception.html" rel="rdf:_9">Fawkes Runtime Exception </a></td>
+            <td><a href="./Fawkes-Runtime-exception.html" rel="rdf:_10">Fawkes Runtime Exception</a></td>
             <td about="./Fawkes-Runtime-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">Fawkes-Runtime-exception</code></td>
             <td><a href="./Fawkes-Runtime-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./FLTK-exception.html" rel="rdf:_10">FLTK exception</a></td>
+            <td><a href="./FLTK-exception.html" rel="rdf:_11">FLTK exception</a></td>
             <td about="./FLTK-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">FLTK-exception</code></td>
             <td><a href="./FLTK-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./Font-exception-2.0.html" rel="rdf:_11">Font exception 2.0</a></td>
+            <td><a href="./Font-exception-2.0.html" rel="rdf:_12">Font exception 2.0</a></td>
             <td about="./Font-exception-2.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">Font-exception-2.0</code></td>
             <td><a href="./Font-exception-2.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./freertos-exception-2.0.html" rel="rdf:_12">FreeRTOS Exception 2.0</a></td>
+            <td><a href="./freertos-exception-2.0.html" rel="rdf:_13">FreeRTOS Exception 2.0</a></td>
             <td about="./freertos-exception-2.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">freertos-exception-2.0</code></td>
             <td><a href="./freertos-exception-2.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./GCC-exception-2.0.html" rel="rdf:_13">GCC Runtime Library exception 2.0</a></td>
+            <td><a href="./GCC-exception-2.0.html" rel="rdf:_14">GCC Runtime Library exception 2.0</a></td>
             <td about="./GCC-exception-2.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">GCC-exception-2.0</code></td>
             <td><a href="./GCC-exception-2.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./GCC-exception-3.1.html" rel="rdf:_14">GCC Runtime Library exception 3.1</a></td>
+            <td><a href="./GCC-exception-3.1.html" rel="rdf:_15">GCC Runtime Library exception 3.1</a></td>
             <td about="./GCC-exception-3.1.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">GCC-exception-3.1</code></td>
             <td><a href="./GCC-exception-3.1.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./gnu-javamail-exception.html" rel="rdf:_15">GNU JavaMail exception</a></td>
+            <td><a href="./gnu-javamail-exception.html" rel="rdf:_16">GNU JavaMail exception</a></td>
             <td about="./gnu-javamail-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">gnu-javamail-exception</code></td>
             <td><a href="./gnu-javamail-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./i2p-gpl-java-exception.html" rel="rdf:_16">i2p GPL+Java Exception</a></td>
+            <td><a href="./i2p-gpl-java-exception.html" rel="rdf:_17">i2p GPL+Java Exception</a></td>
             <td about="./i2p-gpl-java-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">i2p-gpl-java-exception</code></td>
             <td><a href="./i2p-gpl-java-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./Libtool-exception.html" rel="rdf:_17">Libtool Exception</a></td>
+            <td><a href="./Libtool-exception.html" rel="rdf:_18">Libtool Exception</a></td>
             <td about="./Libtool-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">Libtool-exception</code></td>
             <td><a href="./Libtool-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./LZMA-exception.html" rel="rdf:_18">LZMA exception</a></td>
+            <td><a href="./Linux-syscall-note.html" rel="rdf:_19">Linux Syscall Note</a></td>
+            <td about="./Linux-syscall-note.html" typeof="spdx:LicenseException">
+            <code property="spdx:licenseExceptionId">Linux-syscall-note</code></td>
+            <td><a href="./Linux-syscall-note.html#licenseExceptionText">License Exception Text</a></td>
+          </tr>
+          <tr>
+            <td><a href="./LZMA-exception.html" rel="rdf:_20">LZMA exception</a></td>
             <td about="./LZMA-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">LZMA-exception</code></td>
             <td><a href="./LZMA-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./mif-exception.html" rel="rdf:_19">Macros and Inline Functions Exception</a></td>
+            <td><a href="./mif-exception.html" rel="rdf:_21">Macros and Inline Functions Exception</a></td>
             <td about="./mif-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">mif-exception</code></td>
             <td><a href="./mif-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./Nokia-Qt-exception-1.1.html" rel="rdf:_20">Nokia Qt LGPL exception 1.1</a></td>
+            <td><a href="./Nokia-Qt-exception-1.1.html" rel="rdf:_22">Nokia Qt LGPL exception 1.1</a></td>
             <td about="./Nokia-Qt-exception-1.1.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">Nokia-Qt-exception-1.1</code></td>
             <td><a href="./Nokia-Qt-exception-1.1.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./OCCT-exception-1.0.html" rel="rdf:_21">Open CASCADE Exception 1.0</a></td>
+            <td><a href="./OCCT-exception-1.0.html" rel="rdf:_23">Open CASCADE Exception 1.0</a></td>
             <td about="./OCCT-exception-1.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">OCCT-exception-1.0</code></td>
             <td><a href="./OCCT-exception-1.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./openvpn-openssl-exception.html" rel="rdf:_22">OpenVPN OpenSSL Exception</a></td>
+            <td><a href="./openvpn-openssl-exception.html" rel="rdf:_24">OpenVPN OpenSSL Exception</a></td>
             <td about="./openvpn-openssl-exception.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">openvpn-openssl-exception</code></td>
             <td><a href="./openvpn-openssl-exception.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./Qwt-exception-1.0.html" rel="rdf:_23">Qwt exception 1.0</a></td>
+            <td><a href="./Qwt-exception-1.0.html" rel="rdf:_25">Qwt exception 1.0</a></td>
             <td about="./Qwt-exception-1.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">Qwt-exception-1.0</code></td>
             <td><a href="./Qwt-exception-1.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./u-boot-exception-2.0.html" rel="rdf:_24">U-Boot exception 2.0</a></td>
+            <td><a href="./u-boot-exception-2.0.html" rel="rdf:_26">U-Boot exception 2.0</a></td>
             <td about="./u-boot-exception-2.0.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">u-boot-exception-2.0</code></td>
             <td><a href="./u-boot-exception-2.0.html#licenseExceptionText">License Exception Text</a></td>
           </tr>
           <tr>
-            <td><a href="./WxWindows-exception-3.1.html" rel="rdf:_25">WxWindows Library Exception 3.1</a></td>
+            <td><a href="./WxWindows-exception-3.1.html" rel="rdf:_27">WxWindows Library Exception 3.1</a></td>
             <td about="./WxWindows-exception-3.1.html" typeof="spdx:LicenseException">
             <code property="spdx:licenseExceptionId">WxWindows-exception-3.1</code></td>
             <td><a href="./WxWindows-exception-3.1.html#licenseExceptionText">License Exception Text</a></td>

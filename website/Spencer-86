@@ -23,7 +23,7 @@
 
     <style type="text/css">
 
-      #page {
+      .page {
         color: #58595b;
       }
 
@@ -40,23 +40,23 @@
         color: #58595b;
       }
 
-      #page h2, h3, h4, h5 {
+      .page h2, h3, h4, h5 {
         color: #4597cb;
       }
       
-      #page h1 {
+      .page h1 {
       font-size: 2em;
       }
 
-      #page h2 {
+      .page h2 {
       font-size: 1.5em;
       }
 
-      #page p {
+      .page p {
         color: #58595b;
       }
 
-      #page th {
+      .page th {
         color: #58595b;
       }
 
@@ -67,11 +67,20 @@
       #footer-copyright {
         margin-top: 25px;
       }
+      
       .replacable-license-text {
       color: #CC0000;
       }
-
+      
+      .replacable-license-text p var {
+      color: #CC0000;
+      }
+      
       .optional-license-text {
+      color: #0000cc;
+      }
+      
+      .optional-license-text p var {
       color: #0000cc;
       }
 
@@ -150,12 +159,38 @@
       <h2 id="licenseText">Text</h2>
 
       <div property="spdx:licenseText" class="license-text">
-      Copyright (c) 1986 by University of Toronto. Written by Henry Spencer. Not derived from licensed software. 
-<p>Permission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions: </p>
-<p>1. The author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from defects in it. </p>
-<p>2. The origin of this software must not be misrepresented, either by explicit claim or by omission. </p>
-<p>3. Altered versions must be plainly marked as such, and must not be misrepresented as being the original software. </p>
-<p>Beware that some of this code is subtly aware of the way operator precedence is structured in regular expressions. Serious changes in regular-expression syntax might require a total rethink.</p>
+      
+      
+      
+         <p>Copyright (c) 1986 by University of Toronto. Written by Henry Spencer. Not derived from licensed software.</p>
+
+      
+    
+      <p>Permission is granted to anyone to use this software for any purpose on any computer system, and to
+         redistribute it freely, subject to the following restrictions:</p>
+
+      
+<ul style="list-style:none">
+<li>
+            
+<var class="replacable-license-text">1.</var>
+          The author is not responsible for the consequences of use of this software, no matter how awful,
+             even if they arise from defects in it.
+        </li>
+<li>
+            
+<var class="replacable-license-text">2.</var>
+          The origin of this software must not be misrepresented, either by explicit claim or by omission.
+        </li>
+<li>
+            
+<var class="replacable-license-text">3.</var>
+          Altered versions must be plainly marked as such, and must not be misrepresented as being the
+             original software.
+        </li>
+</ul>
+    
+  
       </div>
 
       <h2  id="licenseHeader">Standard License Header</h2>
