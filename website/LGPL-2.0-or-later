@@ -83,7 +83,9 @@
       .optional-license-text p var {
       color: #0000cc;
       }
-
+      ul, ol, li {
+      margin: 10px 0 10px 0;
+	  }
     </style>
 
   <script type="text/javascript">
@@ -163,8 +165,7 @@
     
     
     
-    
-<div class="optional-license-text">
+    <div class="optional-license-text">
       <p>
         GNU LIBRARY GENERAL PUBLIC LICENSE
       </p>
@@ -784,8 +785,7 @@
         OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
       </li>
 </ul>
-    
-<div class="optional-license-text">
+    <div class="optional-license-text">
       <p>
         END OF TERMS AND CONDITIONS
       </p>
@@ -873,9 +873,25 @@
       <h2  id="licenseHeader">Standard License Header</h2>
       <div property="spdx:standardLicenseHeader" class="license-text">
         
-        Copyright (C) 
-<span id="copyright" class="replacable-license-text">year name of author</span>
- This library is free software; you can redistribute it and/or modify it under the terms of the GNU Library General Public License as published by the Free Software Foundation; version 2 or any later version. This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Library General Public License for more details. You should have received a copy of the GNU Library General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+        
+      Copyright (C)
+<var class="replacable-license-text">year name of author</var>
+      <p>This library is free software; you can redistribute it and/or modify it
+      under the terms of the GNU Library General Public License as published
+        by the Free Software Foundation; version 2 or any later version.</p>
+ 
+      <p>This
+      library is distributed in the hope that it will be useful, but WITHOUT ANY
+      WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+      FOR A PARTICULAR PURPOSE. See the GNU Library General Public License for
+        more details.</p>
+  
+      <p>You should have received a copy of the GNU Library General
+      Public License along with this library; if not, write to the Free Software
+      Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+      </p>
+
+    
       </div>
 
     </div> <!-- /page -->
