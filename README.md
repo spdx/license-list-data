@@ -12,8 +12,8 @@ The following directories contain the license list in the format specified:
 * `rdfnt` - RDF NT format for the license list.
 * `rdfturtle` - RDF turtle format for the license list.
 * `rdfxml` - RDF/XML format for the license list.
-* `template` - SPDX template files per the license templates specified in the SPDX 2.0 specification appendix.
-* `text` - Simple text files.
+* `template` - SPDX template files per the license templates specified in the SPDX 2.0 specification appendix.  Deprecated licenses start with "deprecated_".
+* `text` - Simple text files.  Deprecated licenses start with "deprecated_".
 * `website` - HTML generated for the http://spdx.org/ website.
 
 The file licenses.md is a table of contents for the generated licenses.  The links for the files point to the text for the license.
