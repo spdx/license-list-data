@@ -38,6 +38,6 @@ Source code for the LicenseRDFaGenerator can be found in the [SPDX tools](http:/
 
 The main entrypoint for the command is [LicenseRDFaGenerator.java](https://github.com/spdx/tools/blob/4c9054942fd8ba1fb691de8950aeeca3fdf4addf/src/org/spdx/tools/LicenseRDFAGenerator.java#L121)
 
-he basic flow of the program is LicenseRDFaGenerator -> Translate XML to the license objects (including the license text) -> Translate the license into various output files (including the text and template files).
+The basic flow of the program is LicenseRDFaGenerator -> Translate XML to the license objects (including the license text) -> Translate the license into various output files (including the text and template files).
 
-The code that translates the license XML into the license template text is [LicenseXmlHelper.getLicenseTemplate](https://github.com/spdx/tools/blob/4c9054942fd8ba1fb691de8950aeeca3fdf4addf/src/org/spdx/licensexml/LicenseXmlHelper.java#L498) and the code that translates the license XML into text is [LicenseXmlHelper.getLicenseText](https://github.com/spdx/tools/blob/4c9054942fd8ba1fb691de8950aeeca3fdf4addf/src/org/spdx/licensexml/LicenseXmlHelper.java#L523.
+The code that translates the license XML into the license template text is [LicenseXmlHelper.getLicenseTemplate](https://github.com/spdx/tools/blob/4c9054942fd8ba1fb691de8950aeeca3fdf4addf/src/org/spdx/licensexml/LicenseXmlHelper.java#L498) and the code that translates the license XML into text is [LicenseXmlHelper.getLicenseText](https://github.com/spdx/tools/blob/4c9054942fd8ba1fb691de8950aeeca3fdf4addf/src/org/spdx/licensexml/LicenseXmlHelper.java#L523).
