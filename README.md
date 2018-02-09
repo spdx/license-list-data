@@ -1,6 +1,6 @@
 # License List Data
 
-See the [Contributing Section](#Contributing) for information on requesting new licenses, reporting issues or contributing pull requests related to this repository.
+See the [Contributing Section](#contributing) for information on requesting new licenses, reporting issues or contributing pull requests related to this repository.
 
 This repository contains various generated data formats for the [SPDX License List](http://spdx.org/licenses/) including RDFa, HTML, Text, and JSON. The source of the license list which generates these data files can be found at https://github.com/spdx/license-list-XML.  Please note that the format for the license-list-XML repository is internal to the SPDX legal team and is subject to change.
 
