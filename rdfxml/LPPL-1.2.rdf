@@ -88,6 +88,18 @@ in that place. In the absence of an unequivocal list it might be impossible for 
 Noting Exceptional Files If The Program contains any files bearing additional conditions on modification, or on distribution of modified versions, of those files (other than those listed in `Additional Conditions on LaTeX Software Files'), then it is recommended that The Program contain a prominent file that defines the exceptional conditions, and either lists the exceptional files or defines one or more categories of exceptional files.
 Files containing the text of a license (such as this file) are often examples of files bearing more restrictive conditions on modification. LaTeX configuration files (with filename extension `.cfg') are examples of files bearing less restrictive conditions on the distribution of a modified version of the file. The additional conditions on LaTeX software given above are examples of declaring a category of files bearing exceptional additional conditions.</spdx:licenseText>
     <rdfs:seeAlso>http://www.latex-project.org/lppl/lppl-1-2.txt</rdfs:seeAlso>
+    <spdx:standardLicenseHeader>%% pig.dtx
+%% Copyright 2001 M. Y. Name
+%
+% This program may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.2
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+% http://www.latex-project.org/lppl.txt
+% and version 1.2 or later is part of all distributions of LaTeX
+% version 1999/12/01 or later.
+%
+% This program consists of the files pig.dtx and pig.ins</spdx:standardLicenseHeader>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; The LaTeX Project Public License
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 LPPL Version 1.2 1999-09-03&lt;&lt;endOptional&gt;&gt;
@@ -147,18 +159,18 @@ How to Use This License
 -----------------------
 To use this license, place in each of the files of your program both an explicit copyright notice including your name and the year and also a statement that the distribution and/or modification of the file is constrained by the conditions in this license.
 Here is an example of such a notice and statement:
-%% pig.dtx
-%% Copyright 2001 M. Y. Name
-%
-% This program may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License, either version 1.2
-% of this license or (at your option) any later version.
-% The latest version of this license is in
-% http://www.latex-project.org/lppl.txt
-% and version 1.2 or later is part of all distributions of LaTeX
-% version 1999/12/01 or later.
-%
-% This program consists of the files pig.dtx and pig.ins
+&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="filename";original="pig.dtx";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; This program may be distributed and/or modified under the
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; conditions of the LaTeX Project Public License, either version 1.2
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; of this license or (at your option) any later version.
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; The latest version of this license is in
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; http://www.latex-project.org/lppl.txt
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; and version 1.2 or later is part of all distributions of LaTeX
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; version 1999/12/01 or later.
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; This program consists of the &lt;&lt;var;name="filenames";original="files pig.dtx and pig.ins";match=".+"&gt;&gt;
 Given such a notice and statement in a file, the conditions given in this license document would apply, with `The Program' referring to the two files `pig.dtx' and `pig.ins', and `The Copyright Holder' referring to the person `M. Y. Name'.
 Important Recommendations
 -------------------------
@@ -168,8 +180,18 @@ The LPPL requires that distributions of The Program contain all the files of The
 in that place. In the absence of an unequivocal list it might be impossible for the licensee to determine what is considered by you to comprise The Program.
 Noting Exceptional Files If The Program contains any files bearing additional conditions on modification, or on distribution of modified versions, of those files (other than those listed in `Additional Conditions on LaTeX Software Files'), then it is recommended that The Program contain a prominent file that defines the exceptional conditions, and either lists the exceptional files or defines one or more categories of exceptional files.
 Files containing the text of a license (such as this file) are often examples of files bearing more restrictive conditions on modification. LaTeX configuration files (with filename extension `.cfg') are examples of files bearing less restrictive conditions on the distribution of a modified version of the file. The additional conditions on LaTeX software given above are examples of declaring a category of files bearing exceptional additional conditions.</spdx:standardLicenseTemplate>
-    <spdx:standardLicenseHeaderTemplate>Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt; This program may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.2 of this license or (at your option) any later version. The latest version of this license is in http://www.latex-project.org/lppl.txt and version 1.2 or later is part of all distributions of LaTeX version 1999/12/01 or later. This program consists of &lt;&lt;var;name="the work";original="the files pig.dtx and pig.ins";match=".+"&gt;&gt;</spdx:standardLicenseHeaderTemplate>
-    <spdx:standardLicenseHeader>Copyright 2001 M. Y. Name This program may be distributed and/or modified under the conditions of the LaTeX Project Public License, either version 1.2 of this license or (at your option) any later version. The latest version of this license is in http://www.latex-project.org/lppl.txt and version 1.2 or later is part of all distributions of LaTeX version 1999/12/01 or later. This program consists of the files pig.dtx and pig.ins</spdx:standardLicenseHeader>
+    <spdx:standardLicenseHeaderTemplate>&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="filename";original="pig.dtx";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; This program may be distributed and/or modified under the
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; conditions of the LaTeX Project Public License, either version 1.2
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; of this license or (at your option) any later version.
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; The latest version of this license is in
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; http://www.latex-project.org/lppl.txt
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; and version 1.2 or later is part of all distributions of LaTeX
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; version 1999/12/01 or later.
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; This program consists of the &lt;&lt;var;name="filenames";original="files pig.dtx and pig.ins";match=".+"&gt;&gt;</spdx:standardLicenseHeaderTemplate>
     <spdx:licenseId>LPPL-1.2</spdx:licenseId>
   </spdx:License>
 </rdf:RDF>

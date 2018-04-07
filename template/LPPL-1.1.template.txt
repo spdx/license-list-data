@@ -60,16 +60,18 @@ How to Use This License
 -----------------------
 To use this license, place in each of the files of your program both an explicit copyright notice including your name and the year and also a statement that the distribution and/or modification of the file is constrained by the conditions in this license.
 Here is an example of such a notice and statement:
-%% pig.dtx
-%% Copyright 2001 M. Y. Name
-%
-% This program may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License, either version 1.1
-% of this license or (at your option) any later version.
-% The latest version of this license is in % http://www.latex-project.org/lppl.txt
-% and version 1.1 or later is part of all distributions of LaTeX % version 1999/06/01 or later.
-%
-% This program consists of the files pig.dtx and pig.ins
+<<beginOptional>> %%<<endOptional>> <<var;name="filename";original="pig.dtx";match=".+">>
+<<beginOptional>> %%<<endOptional>> Copyright <<var;name="copyright";original="2001 M. Y. Name";match=".+">>
+<<beginOptional>> %<<endOptional>>
+<<beginOptional>> %<<endOptional>> This program may be distributed and/or modified under the
+<<beginOptional>> %<<endOptional>> conditions of the LaTeX Project Public License, either version 1.1
+<<beginOptional>> %<<endOptional>> of this license or (at your option) any later version.
+<<beginOptional>> %<<endOptional>> The latest version of this license is in
+<<beginOptional>> %<<endOptional>> http://www.latex-project.org/lppl.txt
+<<beginOptional>> %<<endOptional>> and version 1.1 or later is part of all distributions of LaTeX
+<<beginOptional>> %<<endOptional>> version 1999/06/01 or later.
+<<beginOptional>> %<<endOptional>>
+<<beginOptional>> %<<endOptional>> This program consists of the <<var;name="filenames";original="files pig.dtx and pig.ins";match=".+">>
 Given such a notice and statement in a file, the conditions given in this license document would apply, with `The Program' referring to the two files `pig.dtx' and `pig.ins', and `The Copyright Holder' referring to the person `M. Y. Name'.
 Important Recommendations
 -------------------------

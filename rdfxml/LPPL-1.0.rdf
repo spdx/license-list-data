@@ -13,11 +13,12 @@ The LaTeX Project Public License (LPPL) is the license under which the base LaTe
 It may be particularly suitable if your software is TeX related (such as a LaTeX package file) but it may be used for any software, even if it is unrelated to TeX.
 To use this license, the files of your distribution should have an explicit copyright notice giving your name and the year, together with a reference to this license.
 A typical example would be
-%% pig.sty %% Copyright 2001 M. Y. Name
+&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="filename";original="pig.sty";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt;
 % This program can redistributed and/or modified under the terms
-% of the LaTeX Project Public License Distributed from CTAN
-% archives in directory macros/latex/base/lppl.txt; either
-% version 1 of the License, or (at your option) any later version.
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; of the LaTeX Project Public License Distributed from CTAN
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; archives in directory macros/latex/base/lppl.txt; either
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; version 1 of the License, or (at your option) any later version.
 Given such a notice in the file, the conditions of this document would apply, with:
 `The Program' referring to the software `pig.sty' and `The Copyright Holder' referring to the person `M. Y. Name'.
 To see a real example, see the file legal.txt which carries the copyright notice for the base latex distribution.
@@ -60,8 +61,18 @@ The individual files may bear additional conditions which supersede the general 
 Typical examples of files with more restrictive modification conditions would be files that contain the text of copyright notices.
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; The conditions on individual files differ only in the extent of *modification* that is allowed.
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; The conditions on *distribution* are the same for all the files. Thus a (re)distributor of a complete, unchanged copy of The Program need meet only the conditions in this file; it is not necessary to check the header of every file in the distribution to check that a distribution meets these requirements.</spdx:standardLicenseTemplate>
-    <spdx:standardLicenseHeaderTemplate>Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt; This program can redistributed and/or modified under the terms of the LaTeX Project Public License Distributed from CTAN archives in directory macros/latex/base/lppl.txt; either version 1 of the License, or (at your option) any later version.</spdx:standardLicenseHeaderTemplate>
-    <spdx:standardLicenseHeader>Copyright 2001 M. Y. Name This program can redistributed and/or modified under the terms of the LaTeX Project Public License Distributed from CTAN archives in directory macros/latex/base/lppl.txt; either version 1 of the License, or (at your option) any later version.</spdx:standardLicenseHeader>
+    <spdx:standardLicenseHeaderTemplate>&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="filename";original="pig.sty";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt; %%&lt;&lt;endOptional&gt;&gt; Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt;
+% This program can redistributed and/or modified under the terms
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; of the LaTeX Project Public License Distributed from CTAN
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; archives in directory macros/latex/base/lppl.txt; either
+&lt;&lt;beginOptional&gt;&gt; %&lt;&lt;endOptional&gt;&gt; version 1 of the License, or (at your option) any later version.</spdx:standardLicenseHeaderTemplate>
+    <spdx:standardLicenseHeader>%% pig.sty
+%% Copyright 2001 M. Y. Name
+% This program can redistributed and/or modified under the terms
+% of the LaTeX Project Public License Distributed from CTAN
+% archives in directory macros/latex/base/lppl.txt; either
+% version 1 of the License, or (at your option) any later version.</spdx:standardLicenseHeader>
     <spdx:licenseText>LaTeX Project Public License
 LPPL Version 1.0 1999-03-01
 Copyright 1999 LaTeX3 Project
@@ -71,7 +82,8 @@ The LaTeX Project Public License (LPPL) is the license under which the base LaTe
 It may be particularly suitable if your software is TeX related (such as a LaTeX package file) but it may be used for any software, even if it is unrelated to TeX.
 To use this license, the files of your distribution should have an explicit copyright notice giving your name and the year, together with a reference to this license.
 A typical example would be
-%% pig.sty %% Copyright 2001 M. Y. Name
+%% pig.sty
+%% Copyright 2001 M. Y. Name
 % This program can redistributed and/or modified under the terms
 % of the LaTeX Project Public License Distributed from CTAN
 % archives in directory macros/latex/base/lppl.txt; either

@@ -4,11 +4,13 @@
     xmlns:doap="http://usefulinc.com/ns/doap#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:License rdf:about="http://spdx.org/licenses/LGPL-2.1+">
-    <spdx:standardLicenseHeader>Copyright (C) year name of author
-This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; version 2.1.
-This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA</spdx:standardLicenseHeader>
     <spdx:licenseId>LGPL-2.1+</spdx:licenseId>
+    <spdx:standardLicenseHeaderTemplate>&lt;&lt;var;name="description";original="&lt;one line to give the library's name and an idea of what it does.&gt;";match=".+"&gt;&gt;
+Copyright (C) &lt;&lt;var;name="copyright";original="&lt;year&gt; &lt;name of author&gt;";match=".+"&gt;&gt;
+This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA</spdx:standardLicenseHeaderTemplate>
+    <rdfs:seeAlso>http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; GNU LESSER GENERAL PUBLIC LICENSE
 Version 2.1, February 1999&lt;&lt;endOptional&gt;&gt;
 Copyright (C) 1991, 1999 Free Software Foundation, Inc.
@@ -87,11 +89,12 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 How to Apply These Terms to Your New Libraries
 If you develop a new library, and you want it to be of the greatest possible use to the public, we recommend making it free software that everyone can redistribute and change. You can do so by permitting redistribution under these terms (or, alternatively, under the terms of the ordinary General Public License).
 To apply these terms, attach the following notices to the library. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
-&lt;&lt;beginOptional&gt;&gt; &lt;&lt;&lt;endOptional&gt;&gt; one line to give the library's name and an idea of what it does.&lt;&lt;beginOptional&gt;&gt; &gt;&lt;&lt;endOptional&gt;&gt;
-Copyright (C)&lt;&lt;beginOptional&gt;&gt; &lt;&lt;&lt;endOptional&gt;&gt; year&lt;&lt;beginOptional&gt;&gt; &gt;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; &lt;&lt;&lt;endOptional&gt;&gt; name of author&lt;&lt;beginOptional&gt;&gt; &gt;&lt;&lt;endOptional&gt;&gt;
+&lt;&lt;var;name="description";original="&lt;one line to give the library's name and an idea of what it does.&gt;";match=".+"&gt;&gt;
+Copyright (C) &lt;&lt;var;name="copyright";original="&lt;year&gt; &lt;name of author&gt;";match=".+"&gt;&gt;
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
 This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA Also add information on how to contact you by electronic and paper mail.
+You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+Also add information on how to contact you by electronic and paper mail.
 You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the library, if necessary. Here is a sample; alter the names:
 Yoyodyne, Inc., hereby disclaims all copyright interest in
 the library `Frob' (a library for tweaking knobs) written
@@ -99,13 +102,7 @@ by James Random Hacker.
 &lt;&lt;beginOptional&gt;&gt; &lt;&lt;&lt;endOptional&gt;&gt; signature of Ty Coon&lt;&lt;beginOptional&gt;&gt; &gt;&lt;&lt;endOptional&gt;&gt; , 1 April 1990
 Ty Coon, President of Vice
 That's all there is to it!&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <rdfs:comment>DEPRECATED: Use the license identifier LGPL-2.1-or-later; This license was released: February 1999. This refers to when this LGPL 2.1 only is being used (as opposed to "or later).</rdfs:comment>
-    <spdx:standardLicenseHeaderTemplate>Copyright (C) &lt;&lt;var;name="copyright";original="year name of author";match=".+"&gt;&gt;
-This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; version 2.1.
-This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA</spdx:standardLicenseHeaderTemplate>
-    <spdx:name>GNU Library General Public License v2 or later</spdx:name>
-    <rdfs:seeAlso>http://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html</rdfs:seeAlso>
+    <spdx:name>GNU Library General Public License v2.1 or later</spdx:name>
     <spdx:licenseText>GNU LESSER GENERAL PUBLIC LICENSE
 Version 2.1, February 1999
 Copyright (C) 1991, 1999 Free Software Foundation, Inc.
@@ -184,11 +181,12 @@ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 How to Apply These Terms to Your New Libraries
 If you develop a new library, and you want it to be of the greatest possible use to the public, we recommend making it free software that everyone can redistribute and change. You can do so by permitting redistribution under these terms (or, alternatively, under the terms of the ordinary General Public License).
 To apply these terms, attach the following notices to the library. It is safest to attach them to the start of each source file to most effectively convey the exclusion of warranty; and each file should have at least the "copyright" line and a pointer to where the full notice is found.
-&lt; one line to give the library's name and an idea of what it does. &gt;
-Copyright (C) &lt; year &gt; &lt; name of author &gt;
+&lt;one line to give the library's name and an idea of what it does.&gt;
+Copyright (C) &lt;year&gt; &lt;name of author&gt;
 This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
 This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
-You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA Also add information on how to contact you by electronic and paper mail.
+You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+Also add information on how to contact you by electronic and paper mail.
 You should also get your employer (if you work as a programmer) or your school, if any, to sign a "copyright disclaimer" for the library, if necessary. Here is a sample; alter the names:
 Yoyodyne, Inc., hereby disclaims all copyright interest in
 the library `Frob' (a library for tweaking knobs) written
@@ -197,6 +195,11 @@ by James Random Hacker.
 Ty Coon, President of Vice
 That's all there is to it!</spdx:licenseText>
     <spdx:isFsfLibre>false</spdx:isFsfLibre>
+    <spdx:standardLicenseHeader>&lt;one line to give the library's name and an idea of what it does.&gt;
+Copyright (C) &lt;year&gt; &lt;name of author&gt;
+This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.
+This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.
+You should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA</spdx:standardLicenseHeader>
     <spdx:isOsiApproved>true</spdx:isOsiApproved>
     <spdx:isDeprecatedLicenseId>true</spdx:isDeprecatedLicenseId>
     <rdfs:seeAlso>http://www.opensource.org/licenses/LGPL-2.1</rdfs:seeAlso>
