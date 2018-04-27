@@ -24,4 +24,4 @@ The file licenses.md is a table of contents for the generated licenses.  The lin
 
 ## Repository Tags and Versions
 
-The repository is tagged with a version `vX.Y.Z` where `vX.Y` matches the version of the [SPDX License List](http://spdx.org/licenses/) and `Z` represents the patch level for any changes to the license list data between releases of the license list.  The repository is tagged whenever the [SPDX License List](http://spdx.org/licenses/) is updated.  Patches may include formatting changes which are not represented in the license [list source XML](https://github.com/spdx/license-list-XML).  
+The repository is tagged with a version `vX.Y.Z` where `vX.Y` matches the version of the [SPDX License List](http://spdx.org/licenses/) and `Z` represents the patch level for any changes to the license list data between releases of the license list.  The repository is tagged whenever the [SPDX License List](http://spdx.org/licenses/) is updated.  Patches may include formatting changes which are not represented in the [license list source XML](https://github.com/spdx/license-list-XML).  
