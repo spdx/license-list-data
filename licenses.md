@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-30-g2542541
+The following liceses have been generated from the license list version v3.1-35-g163db0a
 
 ## Licenses with Short Idenifiers
 
@@ -382,6 +382,7 @@ The following liceses have been generated from the license list version v3.1-30-
 | OpenJDK Assembly exception 1.0        | [OpenJDK-assembly-exception-1.0][]       |
 | OpenVPN OpenSSL Exception             | [openvpn-openssl-exception][]            |
 | Qt GPL exception 1.0                  | [Qt-GPL-exception-1.0][]                 |
+| Qt LGPL exception 1.1                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                     | [Qwt-exception-1.0][]                    |
 | U-Boot exception 2.0                  | [u-boot-exception-2.0][]                 |
 | WxWindows Library Exception 3.1       | [WxWindows-exception-3.1][]              |
@@ -819,6 +820,7 @@ The following liceses have been generated from the license list version v3.1-30-
 [OpenJDK-assembly-exception-1.0]: text/OpenJDK-assembly-exception-1.0.txt
 [openvpn-openssl-exception]: text/openvpn-openssl-exception.txt
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
+[Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
 [WxWindows-exception-3.1]: text/WxWindows-exception-3.1.txt
