@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-56-g5427fda
+The following liceses have been generated from the license list version v3.1-63-g3a30e8b
 
 ## Licenses with Short Idenifiers
 
@@ -247,6 +247,7 @@ The following liceses have been generated from the license list version v3.1-56-
 | Open CASCADE Technology Public License                                       | [OCCT-PL][]                              |      |
 | OCLC Research Public License 2.0                                             | [OCLC-2.0][]                             | Y    |
 | ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      |
+| Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |
 | SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      |
 | SIL Open Font License 1.1                                                    | [OFL-1.1][]                              | Y    |
 | Open Group Test Suite License                                                | [OGTSL][]                                | Y    |
@@ -691,6 +692,7 @@ The following liceses have been generated from the license list version v3.1-56-
 [OCCT-PL]: text/OCCT-PL.txt
 [OCLC-2.0]: text/OCLC-2.0.txt
 [ODbL-1.0]: text/ODbL-1.0.txt
+[ODC-By-1.0]: text/ODC-By-1.0.txt
 [OFL-1.0]: text/OFL-1.0.txt
 [OFL-1.1]: text/OFL-1.1.txt
 [OGTSL]: text/OGTSL.txt
