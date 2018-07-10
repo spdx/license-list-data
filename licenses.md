@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-52-g728c767
+The following liceses have been generated from the license list version v3.1-56-g5427fda
 
 ## Licenses with Short Idenifiers
 
@@ -318,6 +318,8 @@ The following liceses have been generated from the license list version v3.1-52-
 | TMate Open Source License                                                    | [TMate][]                                |      |
 | TORQUE v2.5+ Software License v1.1                                           | [TORQUE-1.1][]                           |      |
 | Trusster Open Source License                                                 | [TOSL][]                                 |      |
+| Technische Universitaet Berlin License 1.0                                   | [TU-Berlin-1.0][]                        |      |
+| Technische Universitaet Berlin License 2.0                                   | [TU-Berlin-2.0][]                        |      |
 | Unicode License Agreement - Data Files and Software (2015)                   | [Unicode-DFS-2015][]                     |      |
 | Unicode License Agreement - Data Files and Software (2016)                   | [Unicode-DFS-2016][]                     |      |
 | Unicode Terms of Use                                                         | [Unicode-TOU][]                          |      |
@@ -761,6 +763,8 @@ The following liceses have been generated from the license list version v3.1-52-
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
+[TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
+[TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
 [Unicode-DFS-2015]: text/Unicode-DFS-2015.txt
 [Unicode-DFS-2016]: text/Unicode-DFS-2016.txt
 [Unicode-TOU]: text/Unicode-TOU.txt
