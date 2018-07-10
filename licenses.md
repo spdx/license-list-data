@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-47-g70e99d5
+The following liceses have been generated from the license list version v3.1-52-g728c767
 
 ## Licenses with Short Idenifiers
 
@@ -381,6 +381,7 @@ The following liceses have been generated from the license list version v3.1-47-
 | Open CASCADE Exception 1.0            | [OCCT-exception-1.0][]                   |
 | OpenJDK Assembly exception 1.0        | [OpenJDK-assembly-exception-1.0][]       |
 | OpenVPN OpenSSL Exception             | [openvpn-openssl-exception][]            |
+| PS/PDF font exception (2017-08-17)    | [PS-or-PDF-font-exception-20170817][]    |
 | Qt GPL exception 1.0                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                     | [Qwt-exception-1.0][]                    |
@@ -819,6 +820,7 @@ The following liceses have been generated from the license list version v3.1-47-
 [OCCT-exception-1.0]: text/OCCT-exception-1.0.txt
 [OpenJDK-assembly-exception-1.0]: text/OpenJDK-assembly-exception-1.0.txt
 [openvpn-openssl-exception]: text/openvpn-openssl-exception.txt
+[PS-or-PDF-font-exception-20170817]: text/PS-or-PDF-font-exception-20170817.txt
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
