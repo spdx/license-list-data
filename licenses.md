@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-63-g3a30e8b
+The following liceses have been generated from the license list version 3.2
 
 ## Licenses with Short Idenifiers
 
@@ -195,9 +195,9 @@ The following liceses have been generated from the license list version v3.1-63-
 | Lesser General Public License For Linguistic Resources                       | [LGPLLR][]                               |      |
 | libpng License                                                               | [Libpng][]                               |      |
 | libtiff License                                                              | [libtiff][]                              |      |
-| Licence Libre du QuÃ©bec â€“ Permissive version 1.1                             | [LiLiQ-P-1.1][]                          | Y    |
-| Licence Libre du QuÃ©bec â€“ RÃ©ciprocitÃ© version 1.1                            | [LiLiQ-R-1.1][]                          | Y    |
-| Licence Libre du QuÃ©bec â€“ RÃ©ciprocitÃ© forte version 1.1                      | [LiLiQ-Rplus-1.1][]                      | Y    |
+| Licence Libre du Québec – Permissive version 1.1                             | [LiLiQ-P-1.1][]                          | Y    |
+| Licence Libre du Québec – Réciprocité version 1.1                            | [LiLiQ-R-1.1][]                          | Y    |
+| Licence Libre du Québec – Réciprocité forte version 1.1                      | [LiLiQ-Rplus-1.1][]                      | Y    |
 | Linux Kernel Variant of OpenIB.org license                                   | [Linux-OpenIB][]                         |      |
 | Lucent Public License Version 1.0                                            | [LPL-1.0][]                              | Y    |
 | Lucent Public License v1.02                                                  | [LPL-1.02][]                             | Y    |
