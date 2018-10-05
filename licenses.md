@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-74-gfd8ce9a
+The following liceses have been generated from the license list version v3.1-76-g99a1650
 
 ## Licenses with Short Idenifiers
 
@@ -298,6 +298,7 @@ The following liceses have been generated from the license list version v3.1-74-
 | Saxpath License                                                              | [Saxpath][]                              |      |
 | SCEA Shared Source License                                                   | [SCEA][]                                 |      |
 | Sendmail License                                                             | [Sendmail][]                             |      |
+| Sendmail License 8.23                                                        | [Sendmail-8.23][]                        |      |
 | SGI Free Software License B v1.0                                             | [SGI-B-1.0][]                            |      |
 | SGI Free Software License B v1.1                                             | [SGI-B-1.1][]                            |      |
 | SGI Free Software License B v2.0                                             | [SGI-B-2.0][]                            |      |
@@ -743,6 +744,7 @@ The following liceses have been generated from the license list version v3.1-74-
 [Saxpath]: text/Saxpath.txt
 [SCEA]: text/SCEA.txt
 [Sendmail]: text/Sendmail.txt
+[Sendmail-8.23]: text/Sendmail-8.23.txt
 [SGI-B-1.0]: text/SGI-B-1.0.txt
 [SGI-B-1.1]: text/SGI-B-1.1.txt
 [SGI-B-2.0]: text/SGI-B-2.0.txt
