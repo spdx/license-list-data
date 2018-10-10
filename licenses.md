@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-76-g99a1650
+The following liceses have been generated from the license list version v3.1-87-g2599f6f
 
 ## Licenses with Short Idenifiers
 
@@ -382,6 +382,7 @@ The following liceses have been generated from the license list version v3.1-76-
 | LZMA exception                        | [LZMA-exception][]                       |
 | Macros and Inline Functions Exception | [mif-exception][]                        |
 | Nokia Qt LGPL exception 1.1           | [Nokia-Qt-exception-1.1][]               |
+| OCaml LGPL Linking Exception          | [OCaml-LGPL-linking-exception][]         |
 | Open CASCADE Exception 1.0            | [OCCT-exception-1.0][]                   |
 | OpenJDK Assembly exception 1.0        | [OpenJDK-assembly-exception-1.0][]       |
 | OpenVPN OpenSSL Exception             | [openvpn-openssl-exception][]            |
@@ -825,6 +826,7 @@ The following liceses have been generated from the license list version v3.1-76-
 [LZMA-exception]: text/LZMA-exception.txt
 [mif-exception]: text/mif-exception.txt
 [Nokia-Qt-exception-1.1]: text/Nokia-Qt-exception-1.1.txt
+[OCaml-LGPL-linking-exception]: text/OCaml-LGPL-linking-exception.txt
 [OCCT-exception-1.0]: text/OCCT-exception-1.0.txt
 [OpenJDK-assembly-exception-1.0]: text/OpenJDK-assembly-exception-1.0.txt
 [openvpn-openssl-exception]: text/openvpn-openssl-exception.txt
