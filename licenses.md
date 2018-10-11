@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-87-g2599f6f
+The following liceses have been generated from the license list version v3.1-90-g85c1322
 
 ## Licenses with Short Idenifiers
 
@@ -112,6 +112,7 @@ The following liceses have been generated from the license list version v3.1-87-
 | CNRI Python License                                                          | [CNRI-Python][]                          | Y    |
 | CNRI Python Open Source GPL Compatible License Agreement                     | [CNRI-Python-GPL-Compatible][]           |      |
 | Condor Public License v1.1                                                   | [Condor-1.1][]                           |      |
+| copyleft-next 0.3.1                                                          | [copyleft-next-0.3.1][]                  |      |
 | Common Public Attribution License 1.0                                        | [CPAL-1.0][]                             | Y    |
 | Common Public License 1.0                                                    | [CPL-1.0][]                              | Y    |
 | Code Project Open License 1.02                                               | [CPOL-1.02][]                            |      |
@@ -535,6 +536,7 @@ The following liceses have been generated from the license list version v3.1-87-
 [CNRI-Python]: text/CNRI-Python.txt
 [CNRI-Python-GPL-Compatible]: text/CNRI-Python-GPL-Compatible.txt
 [Condor-1.1]: text/Condor-1.1.txt
+[copyleft-next-0.3.1]: text/copyleft-next-0.3.1.txt
 [CPAL-1.0]: text/CPAL-1.0.txt
 [CPL-1.0]: text/CPL-1.0.txt
 [CPOL-1.02]: text/CPOL-1.02.txt
