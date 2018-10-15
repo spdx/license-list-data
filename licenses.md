@@ -1,5 +1,5 @@
 # License List
-The following liceses have been generated from the license list version v3.1-90-g85c1322
+The following liceses have been generated from the license list version v3.1-102-ga874c26
 
 ## Licenses with Short Idenifiers
 
@@ -251,6 +251,8 @@ The following liceses have been generated from the license list version v3.1-90-
 | Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |
 | SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      |
 | SIL Open Font License 1.1                                                    | [OFL-1.1][]                              | Y    |
+| Open Government Licence v2.0                                                 | [OGL-UK-2.0][]                           |      |
+| Open Government Licence v3.0                                                 | [OGL-UK-3.0][]                           |      |
 | Open Group Test Suite License                                                | [OGTSL][]                                | Y    |
 | Open LDAP Public License v1.1                                                | [OLDAP-1.1][]                            |      |
 | Open LDAP Public License v1.2                                                | [OLDAP-1.2][]                            |      |
@@ -699,6 +701,8 @@ The following liceses have been generated from the license list version v3.1-90-
 [ODC-By-1.0]: text/ODC-By-1.0.txt
 [OFL-1.0]: text/OFL-1.0.txt
 [OFL-1.1]: text/OFL-1.1.txt
+[OGL-UK-2.0]: text/OGL-UK-2.0.txt
+[OGL-UK-3.0]: text/OGL-UK-3.0.txt
 [OGTSL]: text/OGTSL.txt
 [OLDAP-1.1]: text/OLDAP-1.1.txt
 [OLDAP-1.2]: text/OLDAP-1.2.txt
