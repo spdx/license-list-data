@@ -1,363 +1,363 @@
 # License List
-The following liceses have been generated from the license list version v3.3-11-g1fc5f8e
+The following licenses have been generated from the license list version v3.3-15-gc3ecd9f
 
 ## Licenses with Short Idenifiers
 
-| Full Name of License                                                         | Short Identifier                         | OSI? |
-|------------------------------------------------------------------------------|------------------------------------------|------|
-| BSD Zero Clause License                                                      | [0BSD][]                                 | Y    |
-| Attribution Assurance License                                                | [AAL][]                                  | Y    |
-| Abstyles License                                                             | [Abstyles][]                             |      |
-| Adobe Systems Incorporated Source Code License Agreement                     | [Adobe-2006][]                           |      |
-| Adobe Glyph List License                                                     | [Adobe-Glyph][]                          |      |
-| Amazon Digital Services License                                              | [ADSL][]                                 |      |
-| Academic Free License v1.1                                                   | [AFL-1.1][]                              | Y    |
-| Academic Free License v1.2                                                   | [AFL-1.2][]                              | Y    |
-| Academic Free License v2.0                                                   | [AFL-2.0][]                              | Y    |
-| Academic Free License v2.1                                                   | [AFL-2.1][]                              | Y    |
-| Academic Free License v3.0                                                   | [AFL-3.0][]                              | Y    |
-| Afmparse License                                                             | [Afmparse][]                             |      |
-| Affero General Public License v1.0 only                                      | [AGPL-1.0-only][]                        |      |
-| Affero General Public License v1.0 or later                                  | [AGPL-1.0-or-later][]                    |      |
-| GNU Affero General Public License v3.0 only                                  | [AGPL-3.0-only][]                        | Y    |
-| GNU Affero General Public License v3.0 or later                              | [AGPL-3.0-or-later][]                    | Y    |
-| Aladdin Free Public License                                                  | [Aladdin][]                              |      |
-| AMD's plpa_map.c License                                                     | [AMDPLPA][]                              |      |
-| Apple MIT License                                                            | [AML][]                                  |      |
-| Academy of Motion Picture Arts and Sciences BSD                              | [AMPAS][]                                |      |
-| ANTLR Software Rights Notice                                                 | [ANTLR-PD][]                             |      |
-| Apache License 1.0                                                           | [Apache-1.0][]                           |      |
-| Apache License 1.1                                                           | [Apache-1.1][]                           | Y    |
-| Apache License 2.0                                                           | [Apache-2.0][]                           | Y    |
-| Adobe Postscript AFM License                                                 | [APAFML][]                               |      |
-| Adaptive Public License 1.0                                                  | [APL-1.0][]                              | Y    |
-| Apple Public Source License 1.0                                              | [APSL-1.0][]                             | Y    |
-| Apple Public Source License 1.1                                              | [APSL-1.1][]                             | Y    |
-| Apple Public Source License 1.2                                              | [APSL-1.2][]                             | Y    |
-| Apple Public Source License 2.0                                              | [APSL-2.0][]                             | Y    |
-| Artistic License 1.0                                                         | [Artistic-1.0][]                         | Y    |
-| Artistic License 1.0 w/clause 8                                              | [Artistic-1.0-cl8][]                     | Y    |
-| Artistic License 1.0 (Perl)                                                  | [Artistic-1.0-Perl][]                    | Y    |
-| Artistic License 2.0                                                         | [Artistic-2.0][]                         | Y    |
-| Bahyph License                                                               | [Bahyph][]                               |      |
-| Barr License                                                                 | [Barr][]                                 |      |
-| Beerware License                                                             | [Beerware][]                             |      |
-| BitTorrent Open Source License v1.0                                          | [BitTorrent-1.0][]                       |      |
-| BitTorrent Open Source License v1.1                                          | [BitTorrent-1.1][]                       |      |
-| Borceux license                                                              | [Borceux][]                              |      |
-| BSD 1-Clause License                                                         | [BSD-1-Clause][]                         |      |
-| BSD 2-Clause "Simplified" License                                            | [BSD-2-Clause][]                         | Y    |
-| BSD 2-Clause FreeBSD License                                                 | [BSD-2-Clause-FreeBSD][]                 |      |
-| BSD 2-Clause NetBSD License                                                  | [BSD-2-Clause-NetBSD][]                  |      |
-| BSD-2-Clause Plus Patent License                                             | [BSD-2-Clause-Patent][]                  | Y    |
-| BSD 3-Clause "New" or "Revised" License                                      | [BSD-3-Clause][]                         | Y    |
-| BSD with attribution                                                         | [BSD-3-Clause-Attribution][]             |      |
-| BSD 3-Clause Clear License                                                   | [BSD-3-Clause-Clear][]                   |      |
-| Lawrence Berkeley National Labs BSD variant license                          | [BSD-3-Clause-LBNL][]                    |      |
-| BSD 3-Clause No Nuclear License                                              | [BSD-3-Clause-No-Nuclear-License][]      |      |
-| BSD 3-Clause No Nuclear License 2014                                         | [BSD-3-Clause-No-Nuclear-License-2014][] |      |
-| BSD 3-Clause No Nuclear Warranty                                             | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |
-| BSD 4-Clause "Original" or "Old" License                                     | [BSD-4-Clause][]                         |      |
-| BSD-4-Clause (University of California-Specific)                             | [BSD-4-Clause-UC][]                      |      |
-| BSD Protection License                                                       | [BSD-Protection][]                       |      |
-| BSD Source Code Attribution                                                  | [BSD-Source-Code][]                      |      |
-| Boost Software License 1.0                                                   | [BSL-1.0][]                              | Y    |
-| bzip2 and libbzip2 License v1.0.5                                            | [bzip2-1.0.5][]                          |      |
-| bzip2 and libbzip2 License v1.0.6                                            | [bzip2-1.0.6][]                          |      |
-| Caldera License                                                              | [Caldera][]                              |      |
-| Computer Associates Trusted Open Source License 1.1                          | [CATOSL-1.1][]                           | Y    |
-| Creative Commons Attribution 1.0 Generic                                     | [CC-BY-1.0][]                            |      |
-| Creative Commons Attribution 2.0 Generic                                     | [CC-BY-2.0][]                            |      |
-| Creative Commons Attribution 2.5 Generic                                     | [CC-BY-2.5][]                            |      |
-| Creative Commons Attribution 3.0 Unported                                    | [CC-BY-3.0][]                            |      |
-| Creative Commons Attribution 4.0 International                               | [CC-BY-4.0][]                            |      |
-| Creative Commons Attribution Non Commercial 1.0 Generic                      | [CC-BY-NC-1.0][]                         |      |
-| Creative Commons Attribution Non Commercial 2.0 Generic                      | [CC-BY-NC-2.0][]                         |      |
-| Creative Commons Attribution Non Commercial 2.5 Generic                      | [CC-BY-NC-2.5][]                         |      |
-| Creative Commons Attribution Non Commercial 3.0 Unported                     | [CC-BY-NC-3.0][]                         |      |
-| Creative Commons Attribution Non Commercial 4.0 International                | [CC-BY-NC-4.0][]                         |      |
-| Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic       | [CC-BY-NC-ND-1.0][]                      |      |
-| Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic       | [CC-BY-NC-ND-2.0][]                      |      |
-| Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic       | [CC-BY-NC-ND-2.5][]                      |      |
-| Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported      | [CC-BY-NC-ND-3.0][]                      |      |
-| Creative Commons Attribution Non Commercial No Derivatives 4.0 International | [CC-BY-NC-ND-4.0][]                      |      |
-| Creative Commons Attribution Non Commercial Share Alike 1.0 Generic          | [CC-BY-NC-SA-1.0][]                      |      |
-| Creative Commons Attribution Non Commercial Share Alike 2.0 Generic          | [CC-BY-NC-SA-2.0][]                      |      |
-| Creative Commons Attribution Non Commercial Share Alike 2.5 Generic          | [CC-BY-NC-SA-2.5][]                      |      |
-| Creative Commons Attribution Non Commercial Share Alike 3.0 Unported         | [CC-BY-NC-SA-3.0][]                      |      |
-| Creative Commons Attribution Non Commercial Share Alike 4.0 International    | [CC-BY-NC-SA-4.0][]                      |      |
-| Creative Commons Attribution No Derivatives 1.0 Generic                      | [CC-BY-ND-1.0][]                         |      |
-| Creative Commons Attribution No Derivatives 2.0 Generic                      | [CC-BY-ND-2.0][]                         |      |
-| Creative Commons Attribution No Derivatives 2.5 Generic                      | [CC-BY-ND-2.5][]                         |      |
-| Creative Commons Attribution No Derivatives 3.0 Unported                     | [CC-BY-ND-3.0][]                         |      |
-| Creative Commons Attribution No Derivatives 4.0 International                | [CC-BY-ND-4.0][]                         |      |
-| Creative Commons Attribution Share Alike 1.0 Generic                         | [CC-BY-SA-1.0][]                         |      |
-| Creative Commons Attribution Share Alike 2.0 Generic                         | [CC-BY-SA-2.0][]                         |      |
-| Creative Commons Attribution Share Alike 2.5 Generic                         | [CC-BY-SA-2.5][]                         |      |
-| Creative Commons Attribution Share Alike 3.0 Unported                        | [CC-BY-SA-3.0][]                         |      |
-| Creative Commons Attribution Share Alike 4.0 International                   | [CC-BY-SA-4.0][]                         |      |
-| Creative Commons Zero v1.0 Universal                                         | [CC0-1.0][]                              |      |
-| Common Development and Distribution License 1.0                              | [CDDL-1.0][]                             | Y    |
-| Common Development and Distribution License 1.1                              | [CDDL-1.1][]                             |      |
-| Community Data License Agreement Permissive 1.0                              | [CDLA-Permissive-1.0][]                  |      |
-| Community Data License Agreement Sharing 1.0                                 | [CDLA-Sharing-1.0][]                     |      |
-| CeCILL Free Software License Agreement v1.0                                  | [CECILL-1.0][]                           |      |
-| CeCILL Free Software License Agreement v1.1                                  | [CECILL-1.1][]                           |      |
-| CeCILL Free Software License Agreement v2.0                                  | [CECILL-2.0][]                           |      |
-| CeCILL Free Software License Agreement v2.1                                  | [CECILL-2.1][]                           | Y    |
-| CeCILL-B Free Software License Agreement                                     | [CECILL-B][]                             |      |
-| CeCILL-C Free Software License Agreement                                     | [CECILL-C][]                             |      |
-| Clarified Artistic License                                                   | [ClArtistic][]                           |      |
-| CNRI Jython License                                                          | [CNRI-Jython][]                          |      |
-| CNRI Python License                                                          | [CNRI-Python][]                          | Y    |
-| CNRI Python Open Source GPL Compatible License Agreement                     | [CNRI-Python-GPL-Compatible][]           |      |
-| Condor Public License v1.1                                                   | [Condor-1.1][]                           |      |
-| copyleft-next 0.3.1                                                          | [copyleft-next-0.3.1][]                  |      |
-| Common Public Attribution License 1.0                                        | [CPAL-1.0][]                             | Y    |
-| Common Public License 1.0                                                    | [CPL-1.0][]                              | Y    |
-| Code Project Open License 1.02                                               | [CPOL-1.02][]                            |      |
-| Crossword License                                                            | [Crossword][]                            |      |
-| CrystalStacker License                                                       | [CrystalStacker][]                       |      |
-| CUA Office Public License v1.0                                               | [CUA-OPL-1.0][]                          | Y    |
-| Cube License                                                                 | [Cube][]                                 |      |
-| curl License                                                                 | [curl][]                                 |      |
-| Deutsche Freie Software Lizenz                                               | [D-FSL-1.0][]                            |      |
-| diffmark license                                                             | [diffmark][]                             |      |
-| DOC License                                                                  | [DOC][]                                  |      |
-| Dotseqn License                                                              | [Dotseqn][]                              |      |
-| DSDP License                                                                 | [DSDP][]                                 |      |
-| dvipdfm License                                                              | [dvipdfm][]                              |      |
-| Educational Community License v1.0                                           | [ECL-1.0][]                              | Y    |
-| Educational Community License v2.0                                           | [ECL-2.0][]                              | Y    |
-| Eiffel Forum License v1.0                                                    | [EFL-1.0][]                              | Y    |
-| Eiffel Forum License v2.0                                                    | [EFL-2.0][]                              | Y    |
-| eGenix.com Public License 1.1.0                                              | [eGenix][]                               |      |
-| Entessa Public License v1.0                                                  | [Entessa][]                              | Y    |
-| Eclipse Public License 1.0                                                   | [EPL-1.0][]                              | Y    |
-| Eclipse Public License 2.0                                                   | [EPL-2.0][]                              | Y    |
-| Erlang Public License v1.1                                                   | [ErlPL-1.1][]                            |      |
-| EU DataGrid Software License                                                 | [EUDatagrid][]                           | Y    |
-| European Union Public License 1.0                                            | [EUPL-1.0][]                             |      |
-| European Union Public License 1.1                                            | [EUPL-1.1][]                             | Y    |
-| European Union Public License 1.2                                            | [EUPL-1.2][]                             | Y    |
-| Eurosym License                                                              | [Eurosym][]                              |      |
-| Fair License                                                                 | [Fair][]                                 | Y    |
-| Frameworx Open License 1.0                                                   | [Frameworx-1.0][]                        | Y    |
-| FreeImage Public License v1.0                                                | [FreeImage][]                            |      |
-| FSF All Permissive License                                                   | [FSFAP][]                                |      |
-| FSF Unlimited License                                                        | [FSFUL][]                                |      |
-| FSF Unlimited License (with License Retention)                               | [FSFULLR][]                              |      |
-| Freetype Project License                                                     | [FTL][]                                  |      |
-| GNU Free Documentation License v1.1 only                                     | [GFDL-1.1-only][]                        |      |
-| GNU Free Documentation License v1.1 or later                                 | [GFDL-1.1-or-later][]                    |      |
-| GNU Free Documentation License v1.2 only                                     | [GFDL-1.2-only][]                        |      |
-| GNU Free Documentation License v1.2 or later                                 | [GFDL-1.2-or-later][]                    |      |
-| GNU Free Documentation License v1.3 only                                     | [GFDL-1.3-only][]                        |      |
-| GNU Free Documentation License v1.3 or later                                 | [GFDL-1.3-or-later][]                    |      |
-| Giftware License                                                             | [Giftware][]                             |      |
-| GL2PS License                                                                | [GL2PS][]                                |      |
-| 3dfx Glide License                                                           | [Glide][]                                |      |
-| Glulxe License                                                               | [Glulxe][]                               |      |
-| gnuplot License                                                              | [gnuplot][]                              |      |
-| GNU General Public License v1.0 only                                         | [GPL-1.0-only][]                         |      |
-| GNU General Public License v1.0 or later                                     | [GPL-1.0-or-later][]                     |      |
-| GNU General Public License v2.0 only                                         | [GPL-2.0-only][]                         | Y    |
-| GNU General Public License v2.0 or later                                     | [GPL-2.0-or-later][]                     | Y    |
-| GNU General Public License v3.0 only                                         | [GPL-3.0-only][]                         | Y    |
-| GNU General Public License v3.0 or later                                     | [GPL-3.0-or-later][]                     | Y    |
-| gSOAP Public License v1.3b                                                   | [gSOAP-1.3b][]                           |      |
-| Haskell Language Report License                                              | [HaskellReport][]                        |      |
-| Historical Permission Notice and Disclaimer                                  | [HPND][]                                 | Y    |
-| IBM PowerPC Initialization and Boot Software                                 | [IBM-pibs][]                             |      |
-| ICU License                                                                  | [ICU][]                                  |      |
-| Independent JPEG Group License                                               | [IJG][]                                  |      |
-| ImageMagick License                                                          | [ImageMagick][]                          |      |
-| iMatix Standard Function Library Agreement                                   | [iMatix][]                               |      |
-| Imlib2 License                                                               | [Imlib2][]                               |      |
-| Info-ZIP License                                                             | [Info-ZIP][]                             |      |
-| Intel Open Source License                                                    | [Intel][]                                | Y    |
-| Intel ACPI Software License Agreement                                        | [Intel-ACPI][]                           |      |
-| Interbase Public License v1.0                                                | [Interbase-1.0][]                        |      |
-| IPA Font License                                                             | [IPA][]                                  | Y    |
-| IBM Public License v1.0                                                      | [IPL-1.0][]                              | Y    |
-| ISC License                                                                  | [ISC][]                                  | Y    |
-| JasPer License                                                               | [JasPer-2.0][]                           |      |
-| JSON License                                                                 | [JSON][]                                 |      |
-| Licence Art Libre 1.2                                                        | [LAL-1.2][]                              |      |
-| Licence Art Libre 1.3                                                        | [LAL-1.3][]                              |      |
-| Latex2e License                                                              | [Latex2e][]                              |      |
-| Leptonica License                                                            | [Leptonica][]                            |      |
-| GNU Library General Public License v2 only                                   | [LGPL-2.0-only][]                        | Y    |
-| GNU Library General Public License v2 or later                               | [LGPL-2.0-or-later][]                    | Y    |
-| GNU Lesser General Public License v2.1 only                                  | [LGPL-2.1-only][]                        | Y    |
-| GNU Lesser General Public License v2.1 or later                              | [LGPL-2.1-or-later][]                    | Y    |
-| GNU Lesser General Public License v3.0 only                                  | [LGPL-3.0-only][]                        | Y    |
-| GNU Lesser General Public License v3.0 or later                              | [LGPL-3.0-or-later][]                    | Y    |
-| Lesser General Public License For Linguistic Resources                       | [LGPLLR][]                               |      |
-| libpng License                                                               | [Libpng][]                               |      |
-| libtiff License                                                              | [libtiff][]                              |      |
-| Licence Libre du Québec – Permissive version 1.1                             | [LiLiQ-P-1.1][]                          | Y    |
-| Licence Libre du Québec – Réciprocité version 1.1                            | [LiLiQ-R-1.1][]                          | Y    |
-| Licence Libre du Québec – Réciprocité forte version 1.1                      | [LiLiQ-Rplus-1.1][]                      | Y    |
-| Linux Kernel Variant of OpenIB.org license                                   | [Linux-OpenIB][]                         |      |
-| Lucent Public License Version 1.0                                            | [LPL-1.0][]                              | Y    |
-| Lucent Public License v1.02                                                  | [LPL-1.02][]                             | Y    |
-| LaTeX Project Public License v1.0                                            | [LPPL-1.0][]                             |      |
-| LaTeX Project Public License v1.1                                            | [LPPL-1.1][]                             |      |
-| LaTeX Project Public License v1.2                                            | [LPPL-1.2][]                             |      |
-| LaTeX Project Public License v1.3a                                           | [LPPL-1.3a][]                            |      |
-| LaTeX Project Public License v1.3c                                           | [LPPL-1.3c][]                            | Y    |
-| MakeIndex License                                                            | [MakeIndex][]                            |      |
-| MirOS License                                                                | [MirOS][]                                | Y    |
-| MIT License                                                                  | [MIT][]                                  | Y    |
-| MIT No Attribution                                                           | [MIT-0][]                                | Y    |
-| Enlightenment License (e16)                                                  | [MIT-advertising][]                      |      |
-| CMU License                                                                  | [MIT-CMU][]                              |      |
-| enna License                                                                 | [MIT-enna][]                             |      |
-| feh License                                                                  | [MIT-feh][]                              |      |
-| MIT +no-false-attribs license                                                | [MITNFA][]                               |      |
-| Motosoto License                                                             | [Motosoto][]                             | Y    |
-| mpich2 License                                                               | [mpich2][]                               |      |
-| Mozilla Public License 1.0                                                   | [MPL-1.0][]                              | Y    |
-| Mozilla Public License 1.1                                                   | [MPL-1.1][]                              | Y    |
-| Mozilla Public License 2.0                                                   | [MPL-2.0][]                              | Y    |
-| Mozilla Public License 2.0 (no copyleft exception)                           | [MPL-2.0-no-copyleft-exception][]        | Y    |
-| Microsoft Public License                                                     | [MS-PL][]                                | Y    |
-| Microsoft Reciprocal License                                                 | [MS-RL][]                                | Y    |
-| Matrix Template Library License                                              | [MTLL][]                                 |      |
-| Multics License                                                              | [Multics][]                              | Y    |
-| Mup License                                                                  | [Mup][]                                  |      |
-| NASA Open Source Agreement 1.3                                               | [NASA-1.3][]                             | Y    |
-| Naumen Public License                                                        | [Naumen][]                               | Y    |
-| Net Boolean Public License v1                                                | [NBPL-1.0][]                             |      |
-| University of Illinois/NCSA Open Source License                              | [NCSA][]                                 | Y    |
-| Net-SNMP License                                                             | [Net-SNMP][]                             |      |
-| NetCDF license                                                               | [NetCDF][]                               |      |
-| Newsletr License                                                             | [Newsletr][]                             |      |
-| Nethack General Public License                                               | [NGPL][]                                 | Y    |
-| Norwegian Licence for Open Government Data                                   | [NLOD-1.0][]                             |      |
-| No Limit Public License                                                      | [NLPL][]                                 |      |
-| Nokia Open Source License                                                    | [Nokia][]                                | Y    |
-| Netizen Open Source License                                                  | [NOSL][]                                 |      |
-| Noweb License                                                                | [Noweb][]                                |      |
-| Netscape Public License v1.0                                                 | [NPL-1.0][]                              |      |
-| Netscape Public License v1.1                                                 | [NPL-1.1][]                              |      |
-| Non-Profit Open Software License 3.0                                         | [NPOSL-3.0][]                            | Y    |
-| NRL License                                                                  | [NRL][]                                  |      |
-| NTP License                                                                  | [NTP][]                                  | Y    |
-| Open CASCADE Technology Public License                                       | [OCCT-PL][]                              |      |
-| OCLC Research Public License 2.0                                             | [OCLC-2.0][]                             | Y    |
-| ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      |
-| Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |
-| SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      |
-| SIL Open Font License 1.1                                                    | [OFL-1.1][]                              | Y    |
-| Open Government Licence v1.0                                                 | [OGL-UK-1.0][]                           |      |
-| Open Government Licence v2.0                                                 | [OGL-UK-2.0][]                           |      |
-| Open Government Licence v3.0                                                 | [OGL-UK-3.0][]                           |      |
-| Open Group Test Suite License                                                | [OGTSL][]                                | Y    |
-| Open LDAP Public License v1.1                                                | [OLDAP-1.1][]                            |      |
-| Open LDAP Public License v1.2                                                | [OLDAP-1.2][]                            |      |
-| Open LDAP Public License v1.3                                                | [OLDAP-1.3][]                            |      |
-| Open LDAP Public License v1.4                                                | [OLDAP-1.4][]                            |      |
-| Open LDAP Public License v2.0 (or possibly 2.0A and 2.0B)                    | [OLDAP-2.0][]                            |      |
-| Open LDAP Public License v2.0.1                                              | [OLDAP-2.0.1][]                          |      |
-| Open LDAP Public License v2.1                                                | [OLDAP-2.1][]                            |      |
-| Open LDAP Public License v2.2                                                | [OLDAP-2.2][]                            |      |
-| Open LDAP Public License v2.2.1                                              | [OLDAP-2.2.1][]                          |      |
-| Open LDAP Public License 2.2.2                                               | [OLDAP-2.2.2][]                          |      |
-| Open LDAP Public License v2.3                                                | [OLDAP-2.3][]                            |      |
-| Open LDAP Public License v2.4                                                | [OLDAP-2.4][]                            |      |
-| Open LDAP Public License v2.5                                                | [OLDAP-2.5][]                            |      |
-| Open LDAP Public License v2.6                                                | [OLDAP-2.6][]                            |      |
-| Open LDAP Public License v2.7                                                | [OLDAP-2.7][]                            |      |
-| Open LDAP Public License v2.8                                                | [OLDAP-2.8][]                            |      |
-| Open Market License                                                          | [OML][]                                  |      |
-| OpenSSL License                                                              | [OpenSSL][]                              |      |
-| Open Public License v1.0                                                     | [OPL-1.0][]                              |      |
-| OSET Public License version 2.1                                              | [OSET-PL-2.1][]                          | Y    |
-| Open Software License 1.0                                                    | [OSL-1.0][]                              | Y    |
-| Open Software License 1.1                                                    | [OSL-1.1][]                              |      |
-| Open Software License 2.0                                                    | [OSL-2.0][]                              | Y    |
-| Open Software License 2.1                                                    | [OSL-2.1][]                              | Y    |
-| Open Software License 3.0                                                    | [OSL-3.0][]                              | Y    |
-| ODC Public Domain Dedication & License 1.0                                   | [PDDL-1.0][]                             |      |
-| PHP License v3.0                                                             | [PHP-3.0][]                              | Y    |
-| PHP License v3.01                                                            | [PHP-3.01][]                             |      |
-| Plexus Classworlds License                                                   | [Plexus][]                               |      |
-| PostgreSQL License                                                           | [PostgreSQL][]                           | Y    |
-| psfrag License                                                               | [psfrag][]                               |      |
-| psutils License                                                              | [psutils][]                              |      |
-| Python License 2.0                                                           | [Python-2.0][]                           | Y    |
-| Qhull License                                                                | [Qhull][]                                |      |
-| Q Public License 1.0                                                         | [QPL-1.0][]                              | Y    |
-| Rdisc License                                                                | [Rdisc][]                                |      |
-| Red Hat eCos Public License v1.1                                             | [RHeCos-1.1][]                           |      |
-| Reciprocal Public License 1.1                                                | [RPL-1.1][]                              | Y    |
-| Reciprocal Public License 1.5                                                | [RPL-1.5][]                              | Y    |
-| RealNetworks Public Source License v1.0                                      | [RPSL-1.0][]                             | Y    |
-| RSA Message-Digest License                                                   | [RSA-MD][]                               |      |
-| Ricoh Source Code Public License                                             | [RSCPL][]                                | Y    |
-| Ruby License                                                                 | [Ruby][]                                 |      |
-| Sax Public Domain Notice                                                     | [SAX-PD][]                               |      |
-| Saxpath License                                                              | [Saxpath][]                              |      |
-| SCEA Shared Source License                                                   | [SCEA][]                                 |      |
-| Sendmail License                                                             | [Sendmail][]                             |      |
-| Sendmail License 8.23                                                        | [Sendmail-8.23][]                        |      |
-| SGI Free Software License B v1.0                                             | [SGI-B-1.0][]                            |      |
-| SGI Free Software License B v1.1                                             | [SGI-B-1.1][]                            |      |
-| SGI Free Software License B v2.0                                             | [SGI-B-2.0][]                            |      |
-| Simple Public License 2.0                                                    | [SimPL-2.0][]                            | Y    |
-| Sun Industry Standards Source License v1.1                                   | [SISSL][]                                | Y    |
-| Sun Industry Standards Source License v1.2                                   | [SISSL-1.2][]                            |      |
-| Sleepycat License                                                            | [Sleepycat][]                            | Y    |
-| Standard ML of New Jersey License                                            | [SMLNJ][]                                |      |
-| Secure Messaging Protocol Public License                                     | [SMPPL][]                                |      |
-| SNIA Public License 1.1                                                      | [SNIA][]                                 |      |
-| Spencer License 86                                                           | [Spencer-86][]                           |      |
-| Spencer License 94                                                           | [Spencer-94][]                           |      |
-| Spencer License 99                                                           | [Spencer-99][]                           |      |
-| Sun Public License v1.0                                                      | [SPL-1.0][]                              | Y    |
-| SugarCRM Public License v1.1.3                                               | [SugarCRM-1.1.3][]                       |      |
-| Scheme Widget Library (SWL) Software License Agreement                       | [SWL][]                                  |      |
-| TCL/TK License                                                               | [TCL][]                                  |      |
-| TCP Wrappers License                                                         | [TCP-wrappers][]                         |      |
-| TMate Open Source License                                                    | [TMate][]                                |      |
-| TORQUE v2.5+ Software License v1.1                                           | [TORQUE-1.1][]                           |      |
-| Trusster Open Source License                                                 | [TOSL][]                                 |      |
-| Technische Universitaet Berlin License 1.0                                   | [TU-Berlin-1.0][]                        |      |
-| Technische Universitaet Berlin License 2.0                                   | [TU-Berlin-2.0][]                        |      |
-| Unicode License Agreement - Data Files and Software (2015)                   | [Unicode-DFS-2015][]                     |      |
-| Unicode License Agreement - Data Files and Software (2016)                   | [Unicode-DFS-2016][]                     |      |
-| Unicode Terms of Use                                                         | [Unicode-TOU][]                          |      |
-| The Unlicense                                                                | [Unlicense][]                            |      |
-| Universal Permissive License v1.0                                            | [UPL-1.0][]                              | Y    |
-| Vim License                                                                  | [Vim][]                                  |      |
-| VOSTROM Public License for Open Source                                       | [VOSTROM][]                              |      |
-| Vovida Software License v1.0                                                 | [VSL-1.0][]                              | Y    |
-| W3C Software Notice and License (2002-12-31)                                 | [W3C][]                                  | Y    |
-| W3C Software Notice and License (1998-07-20)                                 | [W3C-19980720][]                         |      |
-| W3C Software Notice and Document License (2015-05-13)                        | [W3C-20150513][]                         |      |
-| Sybase Open Watcom Public License 1.0                                        | [Watcom-1.0][]                           | Y    |
-| Wsuipa License                                                               | [Wsuipa][]                               |      |
-| Do What The F*ck You Want To Public License                                  | [WTFPL][]                                |      |
-| X11 License                                                                  | [X11][]                                  |      |
-| Xerox License                                                                | [Xerox][]                                |      |
-| XFree86 License 1.1                                                          | [XFree86-1.1][]                          |      |
-| xinetd License                                                               | [xinetd][]                               |      |
-| X.Net License                                                                | [Xnet][]                                 | Y    |
-| XPP License                                                                  | [xpp][]                                  |      |
-| XSkat License                                                                | [XSkat][]                                |      |
-| Yahoo! Public License v1.0                                                   | [YPL-1.0][]                              |      |
-| Yahoo! Public License v1.1                                                   | [YPL-1.1][]                              |      |
-| Zed License                                                                  | [Zed][]                                  |      |
-| Zend License v2.0                                                            | [Zend-2.0][]                             |      |
-| Zimbra Public License v1.3                                                   | [Zimbra-1.3][]                           |      |
-| Zimbra Public License v1.4                                                   | [Zimbra-1.4][]                           |      |
-| zlib License                                                                 | [Zlib][]                                 | Y    |
-| zlib/libpng License with Acknowledgement                                     | [zlib-acknowledgement][]                 |      |
-| Zope Public License 1.1                                                      | [ZPL-1.1][]                              |      |
-| Zope Public License 2.0                                                      | [ZPL-2.0][]                              | Y    |
-| Zope Public License 2.1                                                      | [ZPL-2.1][]                              |      |
+| Full Name of License                                                         | Short Identifier                         | OSI? | FSFLibre? |
+|------------------------------------------------------------------------------|------------------------------------------|------|-----------|
+| BSD Zero Clause License                                                      | [0BSD][]                                 | Y    |           |
+| Attribution Assurance License                                                | [AAL][]                                  | Y    |           |
+| Abstyles License                                                             | [Abstyles][]                             |      |           |
+| Adobe Systems Incorporated Source Code License Agreement                     | [Adobe-2006][]                           |      |           |
+| Adobe Glyph List License                                                     | [Adobe-Glyph][]                          |      |           |
+| Amazon Digital Services License                                              | [ADSL][]                                 |      |           |
+| Academic Free License v1.1                                                   | [AFL-1.1][]                              | Y    | Y         |
+| Academic Free License v1.2                                                   | [AFL-1.2][]                              | Y    | Y         |
+| Academic Free License v2.0                                                   | [AFL-2.0][]                              | Y    | Y         |
+| Academic Free License v2.1                                                   | [AFL-2.1][]                              | Y    | Y         |
+| Academic Free License v3.0                                                   | [AFL-3.0][]                              | Y    | Y         |
+| Afmparse License                                                             | [Afmparse][]                             |      |           |
+| Affero General Public License v1.0 only                                      | [AGPL-1.0-only][]                        |      |           |
+| Affero General Public License v1.0 or later                                  | [AGPL-1.0-or-later][]                    |      |           |
+| GNU Affero General Public License v3.0 only                                  | [AGPL-3.0-only][]                        | Y    | Y         |
+| GNU Affero General Public License v3.0 or later                              | [AGPL-3.0-or-later][]                    | Y    | Y         |
+| Aladdin Free Public License                                                  | [Aladdin][]                              |      |           |
+| AMD's plpa_map.c License                                                     | [AMDPLPA][]                              |      |           |
+| Apple MIT License                                                            | [AML][]                                  |      |           |
+| Academy of Motion Picture Arts and Sciences BSD                              | [AMPAS][]                                |      |           |
+| ANTLR Software Rights Notice                                                 | [ANTLR-PD][]                             |      |           |
+| Apache License 1.0                                                           | [Apache-1.0][]                           |      | Y         |
+| Apache License 1.1                                                           | [Apache-1.1][]                           | Y    | Y         |
+| Apache License 2.0                                                           | [Apache-2.0][]                           | Y    | Y         |
+| Adobe Postscript AFM License                                                 | [APAFML][]                               |      |           |
+| Adaptive Public License 1.0                                                  | [APL-1.0][]                              | Y    |           |
+| Apple Public Source License 1.0                                              | [APSL-1.0][]                             | Y    |           |
+| Apple Public Source License 1.1                                              | [APSL-1.1][]                             | Y    |           |
+| Apple Public Source License 1.2                                              | [APSL-1.2][]                             | Y    |           |
+| Apple Public Source License 2.0                                              | [APSL-2.0][]                             | Y    | Y         |
+| Artistic License 1.0                                                         | [Artistic-1.0][]                         | Y    |           |
+| Artistic License 1.0 w/clause 8                                              | [Artistic-1.0-cl8][]                     | Y    |           |
+| Artistic License 1.0 (Perl)                                                  | [Artistic-1.0-Perl][]                    | Y    |           |
+| Artistic License 2.0                                                         | [Artistic-2.0][]                         | Y    | Y         |
+| Bahyph License                                                               | [Bahyph][]                               |      |           |
+| Barr License                                                                 | [Barr][]                                 |      |           |
+| Beerware License                                                             | [Beerware][]                             |      |           |
+| BitTorrent Open Source License v1.0                                          | [BitTorrent-1.0][]                       |      |           |
+| BitTorrent Open Source License v1.1                                          | [BitTorrent-1.1][]                       |      | Y         |
+| Borceux license                                                              | [Borceux][]                              |      |           |
+| BSD 1-Clause License                                                         | [BSD-1-Clause][]                         |      |           |
+| BSD 2-Clause "Simplified" License                                            | [BSD-2-Clause][]                         | Y    |           |
+| BSD 2-Clause FreeBSD License                                                 | [BSD-2-Clause-FreeBSD][]                 |      | Y         |
+| BSD 2-Clause NetBSD License                                                  | [BSD-2-Clause-NetBSD][]                  |      |           |
+| BSD-2-Clause Plus Patent License                                             | [BSD-2-Clause-Patent][]                  | Y    |           |
+| BSD 3-Clause "New" or "Revised" License                                      | [BSD-3-Clause][]                         | Y    | Y         |
+| BSD with attribution                                                         | [BSD-3-Clause-Attribution][]             |      |           |
+| BSD 3-Clause Clear License                                                   | [BSD-3-Clause-Clear][]                   |      | Y         |
+| Lawrence Berkeley National Labs BSD variant license                          | [BSD-3-Clause-LBNL][]                    |      |           |
+| BSD 3-Clause No Nuclear License                                              | [BSD-3-Clause-No-Nuclear-License][]      |      |           |
+| BSD 3-Clause No Nuclear License 2014                                         | [BSD-3-Clause-No-Nuclear-License-2014][] |      |           |
+| BSD 3-Clause No Nuclear Warranty                                             | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
+| BSD 4-Clause "Original" or "Old" License                                     | [BSD-4-Clause][]                         |      | Y         |
+| BSD-4-Clause (University of California-Specific)                             | [BSD-4-Clause-UC][]                      |      |           |
+| BSD Protection License                                                       | [BSD-Protection][]                       |      |           |
+| BSD Source Code Attribution                                                  | [BSD-Source-Code][]                      |      |           |
+| Boost Software License 1.0                                                   | [BSL-1.0][]                              | Y    | Y         |
+| bzip2 and libbzip2 License v1.0.5                                            | [bzip2-1.0.5][]                          |      |           |
+| bzip2 and libbzip2 License v1.0.6                                            | [bzip2-1.0.6][]                          |      |           |
+| Caldera License                                                              | [Caldera][]                              |      |           |
+| Computer Associates Trusted Open Source License 1.1                          | [CATOSL-1.1][]                           | Y    |           |
+| Creative Commons Attribution 1.0 Generic                                     | [CC-BY-1.0][]                            |      |           |
+| Creative Commons Attribution 2.0 Generic                                     | [CC-BY-2.0][]                            |      |           |
+| Creative Commons Attribution 2.5 Generic                                     | [CC-BY-2.5][]                            |      |           |
+| Creative Commons Attribution 3.0 Unported                                    | [CC-BY-3.0][]                            |      |           |
+| Creative Commons Attribution 4.0 International                               | [CC-BY-4.0][]                            |      | Y         |
+| Creative Commons Attribution Non Commercial 1.0 Generic                      | [CC-BY-NC-1.0][]                         |      |           |
+| Creative Commons Attribution Non Commercial 2.0 Generic                      | [CC-BY-NC-2.0][]                         |      |           |
+| Creative Commons Attribution Non Commercial 2.5 Generic                      | [CC-BY-NC-2.5][]                         |      |           |
+| Creative Commons Attribution Non Commercial 3.0 Unported                     | [CC-BY-NC-3.0][]                         |      |           |
+| Creative Commons Attribution Non Commercial 4.0 International                | [CC-BY-NC-4.0][]                         |      |           |
+| Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic       | [CC-BY-NC-ND-1.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic       | [CC-BY-NC-ND-2.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic       | [CC-BY-NC-ND-2.5][]                      |      |           |
+| Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported      | [CC-BY-NC-ND-3.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial No Derivatives 4.0 International | [CC-BY-NC-ND-4.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial Share Alike 1.0 Generic          | [CC-BY-NC-SA-1.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial Share Alike 2.0 Generic          | [CC-BY-NC-SA-2.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial Share Alike 2.5 Generic          | [CC-BY-NC-SA-2.5][]                      |      |           |
+| Creative Commons Attribution Non Commercial Share Alike 3.0 Unported         | [CC-BY-NC-SA-3.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial Share Alike 4.0 International    | [CC-BY-NC-SA-4.0][]                      |      |           |
+| Creative Commons Attribution No Derivatives 1.0 Generic                      | [CC-BY-ND-1.0][]                         |      |           |
+| Creative Commons Attribution No Derivatives 2.0 Generic                      | [CC-BY-ND-2.0][]                         |      |           |
+| Creative Commons Attribution No Derivatives 2.5 Generic                      | [CC-BY-ND-2.5][]                         |      |           |
+| Creative Commons Attribution No Derivatives 3.0 Unported                     | [CC-BY-ND-3.0][]                         |      |           |
+| Creative Commons Attribution No Derivatives 4.0 International                | [CC-BY-ND-4.0][]                         |      |           |
+| Creative Commons Attribution Share Alike 1.0 Generic                         | [CC-BY-SA-1.0][]                         |      |           |
+| Creative Commons Attribution Share Alike 2.0 Generic                         | [CC-BY-SA-2.0][]                         |      |           |
+| Creative Commons Attribution Share Alike 2.5 Generic                         | [CC-BY-SA-2.5][]                         |      |           |
+| Creative Commons Attribution Share Alike 3.0 Unported                        | [CC-BY-SA-3.0][]                         |      |           |
+| Creative Commons Attribution Share Alike 4.0 International                   | [CC-BY-SA-4.0][]                         |      | Y         |
+| Creative Commons Zero v1.0 Universal                                         | [CC0-1.0][]                              |      | Y         |
+| Common Development and Distribution License 1.0                              | [CDDL-1.0][]                             | Y    | Y         |
+| Common Development and Distribution License 1.1                              | [CDDL-1.1][]                             |      |           |
+| Community Data License Agreement Permissive 1.0                              | [CDLA-Permissive-1.0][]                  |      |           |
+| Community Data License Agreement Sharing 1.0                                 | [CDLA-Sharing-1.0][]                     |      |           |
+| CeCILL Free Software License Agreement v1.0                                  | [CECILL-1.0][]                           |      |           |
+| CeCILL Free Software License Agreement v1.1                                  | [CECILL-1.1][]                           |      |           |
+| CeCILL Free Software License Agreement v2.0                                  | [CECILL-2.0][]                           |      | Y         |
+| CeCILL Free Software License Agreement v2.1                                  | [CECILL-2.1][]                           | Y    |           |
+| CeCILL-B Free Software License Agreement                                     | [CECILL-B][]                             |      | Y         |
+| CeCILL-C Free Software License Agreement                                     | [CECILL-C][]                             |      | Y         |
+| Clarified Artistic License                                                   | [ClArtistic][]                           |      | Y         |
+| CNRI Jython License                                                          | [CNRI-Jython][]                          |      |           |
+| CNRI Python License                                                          | [CNRI-Python][]                          | Y    |           |
+| CNRI Python Open Source GPL Compatible License Agreement                     | [CNRI-Python-GPL-Compatible][]           |      |           |
+| Condor Public License v1.1                                                   | [Condor-1.1][]                           |      | Y         |
+| copyleft-next 0.3.1                                                          | [copyleft-next-0.3.1][]                  |      |           |
+| Common Public Attribution License 1.0                                        | [CPAL-1.0][]                             | Y    | Y         |
+| Common Public License 1.0                                                    | [CPL-1.0][]                              | Y    | Y         |
+| Code Project Open License 1.02                                               | [CPOL-1.02][]                            |      |           |
+| Crossword License                                                            | [Crossword][]                            |      |           |
+| CrystalStacker License                                                       | [CrystalStacker][]                       |      |           |
+| CUA Office Public License v1.0                                               | [CUA-OPL-1.0][]                          | Y    |           |
+| Cube License                                                                 | [Cube][]                                 |      |           |
+| curl License                                                                 | [curl][]                                 |      |           |
+| Deutsche Freie Software Lizenz                                               | [D-FSL-1.0][]                            |      |           |
+| diffmark license                                                             | [diffmark][]                             |      |           |
+| DOC License                                                                  | [DOC][]                                  |      |           |
+| Dotseqn License                                                              | [Dotseqn][]                              |      |           |
+| DSDP License                                                                 | [DSDP][]                                 |      |           |
+| dvipdfm License                                                              | [dvipdfm][]                              |      |           |
+| Educational Community License v1.0                                           | [ECL-1.0][]                              | Y    |           |
+| Educational Community License v2.0                                           | [ECL-2.0][]                              | Y    | Y         |
+| Eiffel Forum License v1.0                                                    | [EFL-1.0][]                              | Y    |           |
+| Eiffel Forum License v2.0                                                    | [EFL-2.0][]                              | Y    | Y         |
+| eGenix.com Public License 1.1.0                                              | [eGenix][]                               |      |           |
+| Entessa Public License v1.0                                                  | [Entessa][]                              | Y    |           |
+| Eclipse Public License 1.0                                                   | [EPL-1.0][]                              | Y    | Y         |
+| Eclipse Public License 2.0                                                   | [EPL-2.0][]                              | Y    | Y         |
+| Erlang Public License v1.1                                                   | [ErlPL-1.1][]                            |      |           |
+| EU DataGrid Software License                                                 | [EUDatagrid][]                           | Y    | Y         |
+| European Union Public License 1.0                                            | [EUPL-1.0][]                             |      |           |
+| European Union Public License 1.1                                            | [EUPL-1.1][]                             | Y    | Y         |
+| European Union Public License 1.2                                            | [EUPL-1.2][]                             | Y    | Y         |
+| Eurosym License                                                              | [Eurosym][]                              |      |           |
+| Fair License                                                                 | [Fair][]                                 | Y    |           |
+| Frameworx Open License 1.0                                                   | [Frameworx-1.0][]                        | Y    |           |
+| FreeImage Public License v1.0                                                | [FreeImage][]                            |      |           |
+| FSF All Permissive License                                                   | [FSFAP][]                                |      | Y         |
+| FSF Unlimited License                                                        | [FSFUL][]                                |      |           |
+| FSF Unlimited License (with License Retention)                               | [FSFULLR][]                              |      |           |
+| Freetype Project License                                                     | [FTL][]                                  |      | Y         |
+| GNU Free Documentation License v1.1 only                                     | [GFDL-1.1-only][]                        |      | Y         |
+| GNU Free Documentation License v1.1 or later                                 | [GFDL-1.1-or-later][]                    |      | Y         |
+| GNU Free Documentation License v1.2 only                                     | [GFDL-1.2-only][]                        |      | Y         |
+| GNU Free Documentation License v1.2 or later                                 | [GFDL-1.2-or-later][]                    |      | Y         |
+| GNU Free Documentation License v1.3 only                                     | [GFDL-1.3-only][]                        |      | Y         |
+| GNU Free Documentation License v1.3 or later                                 | [GFDL-1.3-or-later][]                    |      | Y         |
+| Giftware License                                                             | [Giftware][]                             |      |           |
+| GL2PS License                                                                | [GL2PS][]                                |      |           |
+| 3dfx Glide License                                                           | [Glide][]                                |      |           |
+| Glulxe License                                                               | [Glulxe][]                               |      |           |
+| gnuplot License                                                              | [gnuplot][]                              |      | Y         |
+| GNU General Public License v1.0 only                                         | [GPL-1.0-only][]                         |      |           |
+| GNU General Public License v1.0 or later                                     | [GPL-1.0-or-later][]                     |      |           |
+| GNU General Public License v2.0 only                                         | [GPL-2.0-only][]                         | Y    | Y         |
+| GNU General Public License v2.0 or later                                     | [GPL-2.0-or-later][]                     | Y    | Y         |
+| GNU General Public License v3.0 only                                         | [GPL-3.0-only][]                         | Y    | Y         |
+| GNU General Public License v3.0 or later                                     | [GPL-3.0-or-later][]                     | Y    | Y         |
+| gSOAP Public License v1.3b                                                   | [gSOAP-1.3b][]                           |      |           |
+| Haskell Language Report License                                              | [HaskellReport][]                        |      |           |
+| Historical Permission Notice and Disclaimer                                  | [HPND][]                                 | Y    | Y         |
+| IBM PowerPC Initialization and Boot Software                                 | [IBM-pibs][]                             |      |           |
+| ICU License                                                                  | [ICU][]                                  |      |           |
+| Independent JPEG Group License                                               | [IJG][]                                  |      | Y         |
+| ImageMagick License                                                          | [ImageMagick][]                          |      |           |
+| iMatix Standard Function Library Agreement                                   | [iMatix][]                               |      | Y         |
+| Imlib2 License                                                               | [Imlib2][]                               |      | Y         |
+| Info-ZIP License                                                             | [Info-ZIP][]                             |      |           |
+| Intel Open Source License                                                    | [Intel][]                                | Y    | Y         |
+| Intel ACPI Software License Agreement                                        | [Intel-ACPI][]                           |      |           |
+| Interbase Public License v1.0                                                | [Interbase-1.0][]                        |      |           |
+| IPA Font License                                                             | [IPA][]                                  | Y    | Y         |
+| IBM Public License v1.0                                                      | [IPL-1.0][]                              | Y    | Y         |
+| ISC License                                                                  | [ISC][]                                  | Y    | Y         |
+| JasPer License                                                               | [JasPer-2.0][]                           |      |           |
+| JSON License                                                                 | [JSON][]                                 |      |           |
+| Licence Art Libre 1.2                                                        | [LAL-1.2][]                              |      |           |
+| Licence Art Libre 1.3                                                        | [LAL-1.3][]                              |      |           |
+| Latex2e License                                                              | [Latex2e][]                              |      |           |
+| Leptonica License                                                            | [Leptonica][]                            |      |           |
+| GNU Library General Public License v2 only                                   | [LGPL-2.0-only][]                        | Y    |           |
+| GNU Library General Public License v2 or later                               | [LGPL-2.0-or-later][]                    | Y    |           |
+| GNU Lesser General Public License v2.1 only                                  | [LGPL-2.1-only][]                        | Y    | Y         |
+| GNU Lesser General Public License v2.1 or later                              | [LGPL-2.1-or-later][]                    | Y    | Y         |
+| GNU Lesser General Public License v3.0 only                                  | [LGPL-3.0-only][]                        | Y    | Y         |
+| GNU Lesser General Public License v3.0 or later                              | [LGPL-3.0-or-later][]                    | Y    | Y         |
+| Lesser General Public License For Linguistic Resources                       | [LGPLLR][]                               |      |           |
+| libpng License                                                               | [Libpng][]                               |      |           |
+| libtiff License                                                              | [libtiff][]                              |      |           |
+| Licence Libre du Québec – Permissive version 1.1                             | [LiLiQ-P-1.1][]                          | Y    |           |
+| Licence Libre du Québec – Réciprocité version 1.1                            | [LiLiQ-R-1.1][]                          | Y    |           |
+| Licence Libre du Québec – Réciprocité forte version 1.1                      | [LiLiQ-Rplus-1.1][]                      | Y    |           |
+| Linux Kernel Variant of OpenIB.org license                                   | [Linux-OpenIB][]                         |      |           |
+| Lucent Public License Version 1.0                                            | [LPL-1.0][]                              | Y    |           |
+| Lucent Public License v1.02                                                  | [LPL-1.02][]                             | Y    | Y         |
+| LaTeX Project Public License v1.0                                            | [LPPL-1.0][]                             |      |           |
+| LaTeX Project Public License v1.1                                            | [LPPL-1.1][]                             |      |           |
+| LaTeX Project Public License v1.2                                            | [LPPL-1.2][]                             |      | Y         |
+| LaTeX Project Public License v1.3a                                           | [LPPL-1.3a][]                            |      | Y         |
+| LaTeX Project Public License v1.3c                                           | [LPPL-1.3c][]                            | Y    |           |
+| MakeIndex License                                                            | [MakeIndex][]                            |      |           |
+| MirOS License                                                                | [MirOS][]                                | Y    |           |
+| MIT License                                                                  | [MIT][]                                  | Y    | Y         |
+| MIT No Attribution                                                           | [MIT-0][]                                | Y    |           |
+| Enlightenment License (e16)                                                  | [MIT-advertising][]                      |      |           |
+| CMU License                                                                  | [MIT-CMU][]                              |      |           |
+| enna License                                                                 | [MIT-enna][]                             |      |           |
+| feh License                                                                  | [MIT-feh][]                              |      |           |
+| MIT +no-false-attribs license                                                | [MITNFA][]                               |      |           |
+| Motosoto License                                                             | [Motosoto][]                             | Y    |           |
+| mpich2 License                                                               | [mpich2][]                               |      |           |
+| Mozilla Public License 1.0                                                   | [MPL-1.0][]                              | Y    |           |
+| Mozilla Public License 1.1                                                   | [MPL-1.1][]                              | Y    | Y         |
+| Mozilla Public License 2.0                                                   | [MPL-2.0][]                              | Y    | Y         |
+| Mozilla Public License 2.0 (no copyleft exception)                           | [MPL-2.0-no-copyleft-exception][]        | Y    |           |
+| Microsoft Public License                                                     | [MS-PL][]                                | Y    | Y         |
+| Microsoft Reciprocal License                                                 | [MS-RL][]                                | Y    | Y         |
+| Matrix Template Library License                                              | [MTLL][]                                 |      |           |
+| Multics License                                                              | [Multics][]                              | Y    |           |
+| Mup License                                                                  | [Mup][]                                  |      |           |
+| NASA Open Source Agreement 1.3                                               | [NASA-1.3][]                             | Y    |           |
+| Naumen Public License                                                        | [Naumen][]                               | Y    |           |
+| Net Boolean Public License v1                                                | [NBPL-1.0][]                             |      |           |
+| University of Illinois/NCSA Open Source License                              | [NCSA][]                                 | Y    | Y         |
+| Net-SNMP License                                                             | [Net-SNMP][]                             |      |           |
+| NetCDF license                                                               | [NetCDF][]                               |      |           |
+| Newsletr License                                                             | [Newsletr][]                             |      |           |
+| Nethack General Public License                                               | [NGPL][]                                 | Y    |           |
+| Norwegian Licence for Open Government Data                                   | [NLOD-1.0][]                             |      |           |
+| No Limit Public License                                                      | [NLPL][]                                 |      |           |
+| Nokia Open Source License                                                    | [Nokia][]                                | Y    | Y         |
+| Netizen Open Source License                                                  | [NOSL][]                                 |      | Y         |
+| Noweb License                                                                | [Noweb][]                                |      |           |
+| Netscape Public License v1.0                                                 | [NPL-1.0][]                              |      | Y         |
+| Netscape Public License v1.1                                                 | [NPL-1.1][]                              |      | Y         |
+| Non-Profit Open Software License 3.0                                         | [NPOSL-3.0][]                            | Y    |           |
+| NRL License                                                                  | [NRL][]                                  |      |           |
+| NTP License                                                                  | [NTP][]                                  | Y    |           |
+| Open CASCADE Technology Public License                                       | [OCCT-PL][]                              |      |           |
+| OCLC Research Public License 2.0                                             | [OCLC-2.0][]                             | Y    |           |
+| ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      | Y         |
+| Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |           |
+| SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      | Y         |
+| SIL Open Font License 1.1                                                    | [OFL-1.1][]                              | Y    | Y         |
+| Open Government Licence v1.0                                                 | [OGL-UK-1.0][]                           |      |           |
+| Open Government Licence v2.0                                                 | [OGL-UK-2.0][]                           |      |           |
+| Open Government Licence v3.0                                                 | [OGL-UK-3.0][]                           |      |           |
+| Open Group Test Suite License                                                | [OGTSL][]                                | Y    |           |
+| Open LDAP Public License v1.1                                                | [OLDAP-1.1][]                            |      |           |
+| Open LDAP Public License v1.2                                                | [OLDAP-1.2][]                            |      |           |
+| Open LDAP Public License v1.3                                                | [OLDAP-1.3][]                            |      |           |
+| Open LDAP Public License v1.4                                                | [OLDAP-1.4][]                            |      |           |
+| Open LDAP Public License v2.0 (or possibly 2.0A and 2.0B)                    | [OLDAP-2.0][]                            |      |           |
+| Open LDAP Public License v2.0.1                                              | [OLDAP-2.0.1][]                          |      |           |
+| Open LDAP Public License v2.1                                                | [OLDAP-2.1][]                            |      |           |
+| Open LDAP Public License v2.2                                                | [OLDAP-2.2][]                            |      |           |
+| Open LDAP Public License v2.2.1                                              | [OLDAP-2.2.1][]                          |      |           |
+| Open LDAP Public License 2.2.2                                               | [OLDAP-2.2.2][]                          |      |           |
+| Open LDAP Public License v2.3                                                | [OLDAP-2.3][]                            |      | Y         |
+| Open LDAP Public License v2.4                                                | [OLDAP-2.4][]                            |      |           |
+| Open LDAP Public License v2.5                                                | [OLDAP-2.5][]                            |      |           |
+| Open LDAP Public License v2.6                                                | [OLDAP-2.6][]                            |      |           |
+| Open LDAP Public License v2.7                                                | [OLDAP-2.7][]                            |      | Y         |
+| Open LDAP Public License v2.8                                                | [OLDAP-2.8][]                            |      |           |
+| Open Market License                                                          | [OML][]                                  |      |           |
+| OpenSSL License                                                              | [OpenSSL][]                              |      | Y         |
+| Open Public License v1.0                                                     | [OPL-1.0][]                              |      |           |
+| OSET Public License version 2.1                                              | [OSET-PL-2.1][]                          | Y    |           |
+| Open Software License 1.0                                                    | [OSL-1.0][]                              | Y    | Y         |
+| Open Software License 1.1                                                    | [OSL-1.1][]                              |      | Y         |
+| Open Software License 2.0                                                    | [OSL-2.0][]                              | Y    | Y         |
+| Open Software License 2.1                                                    | [OSL-2.1][]                              | Y    | Y         |
+| Open Software License 3.0                                                    | [OSL-3.0][]                              | Y    | Y         |
+| ODC Public Domain Dedication & License 1.0                                   | [PDDL-1.0][]                             |      |           |
+| PHP License v3.0                                                             | [PHP-3.0][]                              | Y    |           |
+| PHP License v3.01                                                            | [PHP-3.01][]                             |      | Y         |
+| Plexus Classworlds License                                                   | [Plexus][]                               |      |           |
+| PostgreSQL License                                                           | [PostgreSQL][]                           | Y    |           |
+| psfrag License                                                               | [psfrag][]                               |      |           |
+| psutils License                                                              | [psutils][]                              |      |           |
+| Python License 2.0                                                           | [Python-2.0][]                           | Y    | Y         |
+| Qhull License                                                                | [Qhull][]                                |      |           |
+| Q Public License 1.0                                                         | [QPL-1.0][]                              | Y    | Y         |
+| Rdisc License                                                                | [Rdisc][]                                |      |           |
+| Red Hat eCos Public License v1.1                                             | [RHeCos-1.1][]                           |      |           |
+| Reciprocal Public License 1.1                                                | [RPL-1.1][]                              | Y    |           |
+| Reciprocal Public License 1.5                                                | [RPL-1.5][]                              | Y    |           |
+| RealNetworks Public Source License v1.0                                      | [RPSL-1.0][]                             | Y    | Y         |
+| RSA Message-Digest License                                                   | [RSA-MD][]                               |      |           |
+| Ricoh Source Code Public License                                             | [RSCPL][]                                | Y    |           |
+| Ruby License                                                                 | [Ruby][]                                 |      | Y         |
+| Sax Public Domain Notice                                                     | [SAX-PD][]                               |      |           |
+| Saxpath License                                                              | [Saxpath][]                              |      |           |
+| SCEA Shared Source License                                                   | [SCEA][]                                 |      |           |
+| Sendmail License                                                             | [Sendmail][]                             |      |           |
+| Sendmail License 8.23                                                        | [Sendmail-8.23][]                        |      |           |
+| SGI Free Software License B v1.0                                             | [SGI-B-1.0][]                            |      |           |
+| SGI Free Software License B v1.1                                             | [SGI-B-1.1][]                            |      |           |
+| SGI Free Software License B v2.0                                             | [SGI-B-2.0][]                            |      | Y         |
+| Simple Public License 2.0                                                    | [SimPL-2.0][]                            | Y    |           |
+| Sun Industry Standards Source License v1.1                                   | [SISSL][]                                | Y    | Y         |
+| Sun Industry Standards Source License v1.2                                   | [SISSL-1.2][]                            |      |           |
+| Sleepycat License                                                            | [Sleepycat][]                            | Y    | Y         |
+| Standard ML of New Jersey License                                            | [SMLNJ][]                                |      | Y         |
+| Secure Messaging Protocol Public License                                     | [SMPPL][]                                |      |           |
+| SNIA Public License 1.1                                                      | [SNIA][]                                 |      |           |
+| Spencer License 86                                                           | [Spencer-86][]                           |      |           |
+| Spencer License 94                                                           | [Spencer-94][]                           |      |           |
+| Spencer License 99                                                           | [Spencer-99][]                           |      |           |
+| Sun Public License v1.0                                                      | [SPL-1.0][]                              | Y    | Y         |
+| SugarCRM Public License v1.1.3                                               | [SugarCRM-1.1.3][]                       |      |           |
+| Scheme Widget Library (SWL) Software License Agreement                       | [SWL][]                                  |      |           |
+| TCL/TK License                                                               | [TCL][]                                  |      |           |
+| TCP Wrappers License                                                         | [TCP-wrappers][]                         |      |           |
+| TMate Open Source License                                                    | [TMate][]                                |      |           |
+| TORQUE v2.5+ Software License v1.1                                           | [TORQUE-1.1][]                           |      |           |
+| Trusster Open Source License                                                 | [TOSL][]                                 |      |           |
+| Technische Universitaet Berlin License 1.0                                   | [TU-Berlin-1.0][]                        |      |           |
+| Technische Universitaet Berlin License 2.0                                   | [TU-Berlin-2.0][]                        |      |           |
+| Unicode License Agreement - Data Files and Software (2015)                   | [Unicode-DFS-2015][]                     |      |           |
+| Unicode License Agreement - Data Files and Software (2016)                   | [Unicode-DFS-2016][]                     |      |           |
+| Unicode Terms of Use                                                         | [Unicode-TOU][]                          |      |           |
+| The Unlicense                                                                | [Unlicense][]                            |      | Y         |
+| Universal Permissive License v1.0                                            | [UPL-1.0][]                              | Y    | Y         |
+| Vim License                                                                  | [Vim][]                                  |      | Y         |
+| VOSTROM Public License for Open Source                                       | [VOSTROM][]                              |      |           |
+| Vovida Software License v1.0                                                 | [VSL-1.0][]                              | Y    |           |
+| W3C Software Notice and License (2002-12-31)                                 | [W3C][]                                  | Y    | Y         |
+| W3C Software Notice and License (1998-07-20)                                 | [W3C-19980720][]                         |      |           |
+| W3C Software Notice and Document License (2015-05-13)                        | [W3C-20150513][]                         |      |           |
+| Sybase Open Watcom Public License 1.0                                        | [Watcom-1.0][]                           | Y    |           |
+| Wsuipa License                                                               | [Wsuipa][]                               |      |           |
+| Do What The F*ck You Want To Public License                                  | [WTFPL][]                                |      | Y         |
+| X11 License                                                                  | [X11][]                                  |      | Y         |
+| Xerox License                                                                | [Xerox][]                                |      |           |
+| XFree86 License 1.1                                                          | [XFree86-1.1][]                          |      | Y         |
+| xinetd License                                                               | [xinetd][]                               |      | Y         |
+| X.Net License                                                                | [Xnet][]                                 | Y    |           |
+| XPP License                                                                  | [xpp][]                                  |      |           |
+| XSkat License                                                                | [XSkat][]                                |      |           |
+| Yahoo! Public License v1.0                                                   | [YPL-1.0][]                              |      |           |
+| Yahoo! Public License v1.1                                                   | [YPL-1.1][]                              |      | Y         |
+| Zed License                                                                  | [Zed][]                                  |      |           |
+| Zend License v2.0                                                            | [Zend-2.0][]                             |      | Y         |
+| Zimbra Public License v1.3                                                   | [Zimbra-1.3][]                           |      | Y         |
+| Zimbra Public License v1.4                                                   | [Zimbra-1.4][]                           |      |           |
+| zlib License                                                                 | [Zlib][]                                 | Y    | Y         |
+| zlib/libpng License with Acknowledgement                                     | [zlib-acknowledgement][]                 |      |           |
+| Zope Public License 1.1                                                      | [ZPL-1.1][]                              |      |           |
+| Zope Public License 2.0                                                      | [ZPL-2.0][]                              | Y    | Y         |
+| Zope Public License 2.1                                                      | [ZPL-2.1][]                              |      | Y         |
 
 ## Exception List
 
@@ -385,7 +385,6 @@ The following liceses have been generated from the license list version v3.3-11-
 | LLVM Exception                        | [LLVM-exception][]                       |
 | LZMA exception                        | [LZMA-exception][]                       |
 | Macros and Inline Functions Exception | [mif-exception][]                        |
-| Nokia Qt LGPL exception 1.1           | [Nokia-Qt-exception-1.1][]               |
 | OCaml LGPL Linking Exception          | [OCaml-LGPL-linking-exception][]         |
 | Open CASCADE Exception 1.0            | [OCCT-exception-1.0][]                   |
 | OpenJDK Assembly exception 1.0        | [OpenJDK-assembly-exception-1.0][]       |
