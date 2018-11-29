@@ -1,11 +1,11 @@
 # License List
-The following liceses have been generated from the license list version v3.3-9-g6b354c9
+The following liceses have been generated from the license list version v3.3-11-g1fc5f8e
 
 ## Licenses with Short Idenifiers
 
 | Full Name of License                                                         | Short Identifier                         | OSI? |
 |------------------------------------------------------------------------------|------------------------------------------|------|
-| BSD Zero Clause License                                                      | [0BSD][]                                 |      |
+| BSD Zero Clause License                                                      | [0BSD][]                                 | Y    |
 | Attribution Assurance License                                                | [AAL][]                                  | Y    |
 | Abstyles License                                                             | [Abstyles][]                             |      |
 | Adobe Systems Incorporated Source Code License Agreement                     | [Adobe-2006][]                           |      |
