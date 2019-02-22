@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version v3.4-10-g982765f
+The following licenses have been generated from the license list version v3.4-13-g6f12e70
 
 ## Licenses with Short Idenifiers
 
@@ -169,6 +169,7 @@ The following licenses have been generated from the license list version v3.4-10
 | gSOAP Public License v1.3b                                                   | [gSOAP-1.3b][]                           |      |           |
 | Haskell Language Report License                                              | [HaskellReport][]                        |      |           |
 | Historical Permission Notice and Disclaimer                                  | [HPND][]                                 | Y    | Y         |
+| Historical Permission Notice and Disclaimer - sell variant                   | [HPND-sell-variant][]                    |      |           |
 | IBM PowerPC Initialization and Boot Software                                 | [IBM-pibs][]                             |      |           |
 | ICU License                                                                  | [ICU][]                                  |      |           |
 | Independent JPEG Group License                                               | [IJG][]                                  |      | Y         |
@@ -613,6 +614,7 @@ The following licenses have been generated from the license list version v3.4-10
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
 [HaskellReport]: text/HaskellReport.txt
 [HPND]: text/HPND.txt
+[HPND-sell-variant]: text/HPND-sell-variant.txt
 [IBM-pibs]: text/IBM-pibs.txt
 [ICU]: text/ICU.txt
 [IJG]: text/IJG.txt
