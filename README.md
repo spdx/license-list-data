@@ -11,11 +11,12 @@ See the file accessingLicenses.md for a description on how to programmatically a
 The following directories contain the license list in the format specified:
 
 * `html` - Simple HTML format of the files. (*Note:* These pages are not complete and valid HTML files, but simply HTML snippets for the license text.)
-* `json` - JSON format for the license list.
-* `rdfa` - RDFa/HTML format for the license list.
-* `rdfnt` - RDF NT format for the license list.
-* `rdfturtle` - RDF turtle format for the license list.
-* `rdfxml` - RDF/XML format for the license list.
+* `json` - JSON format for the license list.  The exceptions.json file contains summary information for all exceptions.  The licenses.json file contains summary information for all licenses.  The exceptions directory contains one file per exception named by ID containing all exception details.  The license directory contains one file per license named by ID containing all license details.
+* `jsonld` - JSON-LD format for the license list.  The directory contains a file licenses.jsonld which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfa` - RDFa/HTML format for the license list.  The index.html file contains summary information for all licenses.  The exceptions-index.html file contains summary information for all exceptions.  The directory also contains well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfnt` - RDF NT format for the license list.  The directory contains a file licenses.nt which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfturtle` - RDF turtle format for the license list.  The directory contains a file licenses.turtle which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
+* `rdfxml` - RDF/XML format for the license list.  The directory contains a file licenses.rdf which contains all licenses and exceptions as well as single files (one per license or exception) containing data for a single file or exception named by ID.
 * `template` - SPDX template files per the license templates specified in the SPDX 2.0 specification appendix.  Deprecated licenses start with "deprecated_".
 * `text` - Simple text files.  Deprecated licenses start with "deprecated_".
 * `website` - HTML generated for the http://spdx.org/ website.
