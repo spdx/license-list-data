@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version v3.4-22-g14c1a0e
+The following licenses have been generated from the license list version v3.4-25-gd21dd86
 
 ## Licenses with Short Idenifiers
 
@@ -107,6 +107,7 @@ The following licenses have been generated from the license list version v3.4-22
 | CeCILL Free Software License Agreement v2.1                                  | [CECILL-2.1][]                           | Y    |           |
 | CeCILL-B Free Software License Agreement                                     | [CECILL-B][]                             |      | Y         |
 | CeCILL-C Free Software License Agreement                                     | [CECILL-C][]                             |      | Y         |
+| CERN Open Hardware Licence v1.2                                              | [CERN-OHL-1.2][]                         |      |           |
 | Clarified Artistic License                                                   | [ClArtistic][]                           |      | Y         |
 | CNRI Jython License                                                          | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                          | [CNRI-Python][]                          | Y    |           |
@@ -535,6 +536,7 @@ The following licenses have been generated from the license list version v3.4-22
 [CECILL-2.1]: text/CECILL-2.1.txt
 [CECILL-B]: text/CECILL-B.txt
 [CECILL-C]: text/CECILL-C.txt
+[CERN-OHL-1.2]: text/CERN-OHL-1.2.txt
 [ClArtistic]: text/ClArtistic.txt
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
