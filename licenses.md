@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.4-32-g7dca820
+The following licenses have been generated from the license list version 3.4-38-gb706bf7
 
 ## Licenses with Short Idenifiers
 
@@ -323,6 +323,7 @@ The following licenses have been generated from the license list version 3.4-32-
 | Sun Public License v1.0                                                      | [SPL-1.0][]                              | Y    | Y         |
 | SugarCRM Public License v1.1.3                                               | [SugarCRM-1.1.3][]                       |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                       | [SWL][]                                  |      |           |
+| TAPR Open Hardware License v1.0                                              | [TAPR-OHL-1.0][]                         |      |           |
 | TCL/TK License                                                               | [TCL][]                                  |      |           |
 | TCP Wrappers License                                                         | [TCP-wrappers][]                         |      |           |
 | TMate Open Source License                                                    | [TMate][]                                |      |           |
@@ -778,6 +779,7 @@ The following licenses have been generated from the license list version 3.4-32-
 [StandardML-NJ]: text/StandardML-NJ.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
 [SWL]: text/SWL.txt
+[TAPR-OHL-1.0]: text/TAPR-OHL-1.0.txt
 [TCL]: text/TCL.txt
 [TCP-wrappers]: text/TCP-wrappers.txt
 [TMate]: text/TMate.txt
