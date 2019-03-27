@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.4-42-gafe823f
+The following licenses have been generated from the license list version 3.4-59-ga68ef3c
 
 ## Licenses with Short Idenifiers
 
@@ -186,6 +186,7 @@ The following licenses have been generated from the license list version 3.4-42-
 | IBM Public License v1.0                                                      | [IPL-1.0][]                              | Y    | Y         |
 | ISC License                                                                  | [ISC][]                                  | Y    | Y         |
 | JasPer License                                                               | [JasPer-2.0][]                           |      |           |
+| Japan Network Information Center License                                     | [JPNIC][]                                |      |           |
 | JSON License                                                                 | [JSON][]                                 |      |           |
 | Licence Art Libre 1.2                                                        | [LAL-1.2][]                              |      |           |
 | Licence Art Libre 1.3                                                        | [LAL-1.3][]                              |      |           |
@@ -199,6 +200,7 @@ The following licenses have been generated from the license list version 3.4-42-
 | GNU Lesser General Public License v3.0 or later                              | [LGPL-3.0-or-later][]                    | Y    | Y         |
 | Lesser General Public License For Linguistic Resources                       | [LGPLLR][]                               |      |           |
 | libpng License                                                               | [Libpng][]                               |      |           |
+| PNG Reference Library version 2                                              | [libpng-2.0][]                           |      |           |
 | libtiff License                                                              | [libtiff][]                              |      |           |
 | Licence Libre du Québec – Permissive version 1.1                             | [LiLiQ-P-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité version 1.1                            | [LiLiQ-R-1.1][]                          | Y    |           |
@@ -634,6 +636,7 @@ The following licenses have been generated from the license list version 3.4-42-
 [IPL-1.0]: text/IPL-1.0.txt
 [ISC]: text/ISC.txt
 [JasPer-2.0]: text/JasPer-2.0.txt
+[JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
 [LAL-1.2]: text/LAL-1.2.txt
 [LAL-1.3]: text/LAL-1.3.txt
@@ -653,6 +656,7 @@ The following licenses have been generated from the license list version 3.4-42-
 [LGPL-3.0-or-later]: text/LGPL-3.0-or-later.txt
 [LGPLLR]: text/LGPLLR.txt
 [Libpng]: text/Libpng.txt
+[libpng-2.0]: text/libpng-2.0.txt
 [libtiff]: text/libtiff.txt
 [LiLiQ-P-1.1]: text/LiLiQ-P-1.1.txt
 [LiLiQ-R-1.1]: text/LiLiQ-R-1.1.txt
