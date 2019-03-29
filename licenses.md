@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.4-66-g53b608f
+The following licenses have been generated from the license list version 3.4-84-g23a7d33
 
 ## Licenses with Short Idenifiers
 
