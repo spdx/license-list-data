@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.4-59-ga68ef3c
+The following licenses have been generated from the license list version 3.4-66-g53b608f
 
 ## Licenses with Short Idenifiers
 
@@ -386,6 +386,7 @@ The following licenses have been generated from the license list version 3.4-59-
 | GCC Runtime Library exception 2.0     | [GCC-exception-2.0][]                    |
 | GCC Runtime Library exception 3.1     | [GCC-exception-3.1][]                    |
 | GNU JavaMail exception                | [gnu-javamail-exception][]               |
+| GPL Cooperation Commitment 1.0        | [GPL-CC-1.0][]                           |
 | i2p GPL+Java Exception                | [i2p-gpl-java-exception][]               |
 | Libtool Exception                     | [Libtool-exception][]                    |
 | Linux Syscall Note                    | [Linux-syscall-note][]                   |
@@ -840,6 +841,7 @@ The following licenses have been generated from the license list version 3.4-59-
 [GCC-exception-2.0]: text/GCC-exception-2.0.txt
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
+[GPL-CC-1.0]: text/GPL-CC-1.0.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
 [Linux-syscall-note]: text/Linux-syscall-note.txt
