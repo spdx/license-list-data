@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.5-3-g4779ed4
+The following licenses have been generated from the license list version 3.5-9-g99ae859
 
 ## Licenses with Short Idenifiers
 
@@ -44,6 +44,7 @@ The following licenses have been generated from the license list version 3.5-3-g
 | Beerware License                                                             | [Beerware][]                             |      |           |
 | BitTorrent Open Source License v1.0                                          | [BitTorrent-1.0][]                       |      |           |
 | BitTorrent Open Source License v1.1                                          | [BitTorrent-1.1][]                       |      | Y         |
+| Blue Oak Model License 1.0.0                                                 | [BlueOak-1.0.0][]                        |      |           |
 | Borceux license                                                              | [Borceux][]                              |      |           |
 | BSD 1-Clause License                                                         | [BSD-1-Clause][]                         |      |           |
 | BSD 2-Clause "Simplified" License                                            | [BSD-2-Clause][]                         | Y    |           |
@@ -478,6 +479,7 @@ The following licenses have been generated from the license list version 3.5-3-g
 [Beerware]: text/Beerware.txt
 [BitTorrent-1.0]: text/BitTorrent-1.0.txt
 [BitTorrent-1.1]: text/BitTorrent-1.1.txt
+[BlueOak-1.0.0]: text/BlueOak-1.0.0.txt
 [Borceux]: text/Borceux.txt
 [BSD-1-Clause]: text/BSD-1-Clause.txt
 [BSD-2-Clause]: text/BSD-2-Clause.txt
