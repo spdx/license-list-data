@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.5-43-g0e344c1
+The following licenses have been generated from the license list version 3.5-56-g054c397
 
 ## Licenses with Short Idenifiers
 
@@ -44,6 +44,7 @@ The following licenses have been generated from the license list version 3.5-43-
 | Beerware License                                                             | [Beerware][]                             |      |           |
 | BitTorrent Open Source License v1.0                                          | [BitTorrent-1.0][]                       |      |           |
 | BitTorrent Open Source License v1.1                                          | [BitTorrent-1.1][]                       |      | Y         |
+| SQLite Blessing                                                              | [blessing][]                             |      |           |
 | Blue Oak Model License 1.0.0                                                 | [BlueOak-1.0.0][]                        |      |           |
 | Borceux license                                                              | [Borceux][]                              |      |           |
 | BSD 1-Clause License                                                         | [BSD-1-Clause][]                         |      |           |
@@ -288,6 +289,7 @@ The following licenses have been generated from the license list version 3.5-43-
 | Open Software License 2.0                                                    | [OSL-2.0][]                              | Y    | Y         |
 | Open Software License 2.1                                                    | [OSL-2.1][]                              | Y    | Y         |
 | Open Software License 3.0                                                    | [OSL-3.0][]                              | Y    | Y         |
+| The Parity Public License 6.0.0                                              | [Parity-6.0.0][]                         |      |           |
 | ODC Public Domain Dedication & License 1.0                                   | [PDDL-1.0][]                             |      |           |
 | PHP License v3.0                                                             | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                            | [PHP-3.01][]                             |      | Y         |
@@ -314,6 +316,7 @@ The following licenses have been generated from the license list version 3.5-43-
 | SGI Free Software License B v1.0                                             | [SGI-B-1.0][]                            |      |           |
 | SGI Free Software License B v1.1                                             | [SGI-B-1.1][]                            |      |           |
 | SGI Free Software License B v2.0                                             | [SGI-B-2.0][]                            |      | Y         |
+| Solderpad Hardware License, Version 0.51                                     | [SHL-0.51][]                             |      |           |
 | Simple Public License 2.0                                                    | [SimPL-2.0][]                            | Y    |           |
 | Sun Industry Standards Source License v1.1                                   | [SISSL][]                                | Y    | Y         |
 | Sun Industry Standards Source License v1.2                                   | [SISSL-1.2][]                            |      |           |
@@ -481,6 +484,7 @@ The following licenses have been generated from the license list version 3.5-43-
 [Beerware]: text/Beerware.txt
 [BitTorrent-1.0]: text/BitTorrent-1.0.txt
 [BitTorrent-1.1]: text/BitTorrent-1.1.txt
+[blessing]: text/blessing.txt
 [BlueOak-1.0.0]: text/BlueOak-1.0.0.txt
 [Borceux]: text/Borceux.txt
 [BSD-1-Clause]: text/BSD-1-Clause.txt
@@ -749,6 +753,7 @@ The following licenses have been generated from the license list version 3.5-43-
 [OSL-2.0]: text/OSL-2.0.txt
 [OSL-2.1]: text/OSL-2.1.txt
 [OSL-3.0]: text/OSL-3.0.txt
+[Parity-6.0.0]: text/Parity-6.0.0.txt
 [PDDL-1.0]: text/PDDL-1.0.txt
 [PHP-3.0]: text/PHP-3.0.txt
 [PHP-3.01]: text/PHP-3.01.txt
@@ -775,6 +780,7 @@ The following licenses have been generated from the license list version 3.5-43-
 [SGI-B-1.0]: text/SGI-B-1.0.txt
 [SGI-B-1.1]: text/SGI-B-1.1.txt
 [SGI-B-2.0]: text/SGI-B-2.0.txt
+[SHL-0.51]: text/SHL-0.51.txt
 [SimPL-2.0]: text/SimPL-2.0.txt
 [SISSL]: text/SISSL.txt
 [SISSL-1.2]: text/SISSL-1.2.txt
