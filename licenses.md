@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.5-58-g484dab4
+The following licenses have been generated from the license list version 3.5-64-gf0f2219
 
 ## Licenses with Short Idenifiers
 
@@ -316,6 +316,7 @@ The following licenses have been generated from the license list version 3.5-58-
 | SGI Free Software License B v1.0                                             | [SGI-B-1.0][]                            |      |           |
 | SGI Free Software License B v1.1                                             | [SGI-B-1.1][]                            |      |           |
 | SGI Free Software License B v2.0                                             | [SGI-B-2.0][]                            |      | Y         |
+| Solderpad Hardware License v0.5                                              | [SHL-0.5][]                              |      |           |
 | Solderpad Hardware License, Version 0.51                                     | [SHL-0.51][]                             |      |           |
 | Simple Public License 2.0                                                    | [SimPL-2.0][]                            | Y    |           |
 | Sun Industry Standards Source License v1.1                                   | [SISSL][]                                | Y    | Y         |
@@ -780,6 +781,7 @@ The following licenses have been generated from the license list version 3.5-58-
 [SGI-B-1.0]: text/SGI-B-1.0.txt
 [SGI-B-1.1]: text/SGI-B-1.1.txt
 [SGI-B-2.0]: text/SGI-B-2.0.txt
+[SHL-0.5]: text/SHL-0.5.txt
 [SHL-0.51]: text/SHL-0.51.txt
 [SimPL-2.0]: text/SimPL-2.0.txt
 [SISSL]: text/SISSL.txt
