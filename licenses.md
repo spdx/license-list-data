@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.5-74-g26032f7
+The following licenses have been generated from the license list version 3.5-81-ge1a47a8
 
 ## Licenses with Short Idenifiers
 
@@ -99,6 +99,7 @@ The following licenses have been generated from the license list version 3.5-74-
 | Creative Commons Attribution Share Alike 2.5 Generic                         | [CC-BY-SA-2.5][]                         |      |           |
 | Creative Commons Attribution Share Alike 3.0 Unported                        | [CC-BY-SA-3.0][]                         |      |           |
 | Creative Commons Attribution Share Alike 4.0 International                   | [CC-BY-SA-4.0][]                         |      | Y         |
+| Creative Commons Public Domain Dedication and Certification                  | [CC-PDDC][]                              |      |           |
 | Creative Commons Zero v1.0 Universal                                         | [CC0-1.0][]                              |      | Y         |
 | Common Development and Distribution License 1.0                              | [CDDL-1.0][]                             | Y    | Y         |
 | Common Development and Distribution License 1.1                              | [CDDL-1.1][]                             |      |           |
@@ -541,6 +542,7 @@ The following licenses have been generated from the license list version 3.5-74-
 [CC-BY-SA-2.5]: text/CC-BY-SA-2.5.txt
 [CC-BY-SA-3.0]: text/CC-BY-SA-3.0.txt
 [CC-BY-SA-4.0]: text/CC-BY-SA-4.0.txt
+[CC-PDDC]: text/CC-PDDC.txt
 [CC0-1.0]: text/CC0-1.0.txt
 [CDDL-1.0]: text/CDDL-1.0.txt
 [CDDL-1.1]: text/CDDL-1.1.txt
