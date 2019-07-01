@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.5-71-g0db222b
+The following licenses have been generated from the license list version 3.5-74-g26032f7
 
 ## Licenses with Short Idenifiers
 
@@ -407,6 +407,7 @@ The following licenses have been generated from the license list version 3.5-71-
 | Qt GPL exception 1.0                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                     | [Qwt-exception-1.0][]                    |
+| Swift Exception                       | [Swift-exception][]                      |
 | U-Boot exception 2.0                  | [u-boot-exception-2.0][]                 |
 | Universal FOSS Exception, Version 1.0 | [Universal-FOSS-exception-1.0][]         |
 | WxWindows Library Exception 3.1       | [WxWindows-exception-3.1][]              |
@@ -870,6 +871,7 @@ The following licenses have been generated from the license list version 3.5-71-
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
+[Swift-exception]: text/Swift-exception.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
 [Universal-FOSS-exception-1.0]: text/Universal-FOSS-exception-1.0.txt
 [WxWindows-exception-3.1]: text/WxWindows-exception-3.1.txt
