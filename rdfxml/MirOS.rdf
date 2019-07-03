@@ -4,11 +4,9 @@
     xmlns:doap="http://usefulinc.com/ns/doap#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:License rdf:about="http://spdx.org/licenses/MirOS">
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; MirOS License&lt;&lt;endOptional&gt;&gt;
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; MirOS License&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright [YEAR]
 
-Copyright [YEAR]
-
-[NAME] [EMAIL]
+[NAME] [EMAIL]";match=".{0,1000}"&gt;&gt;
 
 Provided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.
 
@@ -46,9 +44,7 @@ R_E_F_E_R_E_N_C_E_S_:_
 
    &lt;&lt;var;name="bullet";original="(10)";match=".{0,20}"&gt;&gt; http://opensource.org/licenses/miros.html&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
     <spdx:isOsiApproved>true</spdx:isOsiApproved>
-    <spdx:licenseText>MirOS License
-
-Copyright [YEAR]
+    <spdx:licenseText>MirOS License Copyright [YEAR]
 
 [NAME] [EMAIL]
 
