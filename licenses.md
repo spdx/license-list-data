@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.5-107-gee2d13e
+The following licenses have been generated from the license list version 3.5-109-g20f8bde
 
 ## Licenses with Short Idenifiers
 
@@ -55,7 +55,7 @@ The following licenses have been generated from the license list version 3.5-107
 | BSD 3-Clause "New" or "Revised" License                                      | [BSD-3-Clause][]                         | Y    | Y         |
 | BSD with attribution                                                         | [BSD-3-Clause-Attribution][]             |      |           |
 | BSD 3-Clause Clear License                                                   | [BSD-3-Clause-Clear][]                   |      | Y         |
-| Lawrence Berkeley National Labs BSD variant license                          | [BSD-3-Clause-LBNL][]                    |      |           |
+| Lawrence Berkeley National Labs BSD variant license                          | [BSD-3-Clause-LBNL][]                    | Y    |           |
 | BSD 3-Clause No Nuclear License                                              | [BSD-3-Clause-No-Nuclear-License][]      |      |           |
 | BSD 3-Clause No Nuclear License 2014                                         | [BSD-3-Clause-No-Nuclear-License-2014][] |      |           |
 | BSD 3-Clause No Nuclear Warranty                                             | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
