@@ -1,0 +1,29 @@
+.field-name-field-event-date {
+  margin: 0;
+  line-height: 1.125em;
+  @extend %subtitle;
+}
+
+.field-name-field-event-image {
+  margin: 0;
+
+  @include bp-small {
+    display: none;
+
+    /* Un-comment code to display image. */    
+    // min-width: 320px;
+    // width: 100%;
+    // left: 0;
+    // margin: 0;    
+  }  
+}
+
+.node-event {
+  .field-name-body {
+    width: 100%; 
+    clear: both;
+    margin: 1em 0;
+    padding: $block-padding;
+    background-color: $color-light;
+  }
+}

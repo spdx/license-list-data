@@ -1,0 +1,183 @@
+///////////////
+// Components
+///////////////
+
+/* Padding inside the columns */
+
+.inner {
+  padding: 0;
+}
+
+
+/**
+ * #Header Area
+ */
+
+#name-and-slogan {
+  display: none;
+}
+
+#logo {
+  float: left;
+  display: block;
+  @include span(5 of 12);
+
+  @include bp-medium {
+
+  }
+
+  @include bp-small {
+    @include span(12 of 12);
+    margin: .5em auto .25em auto;
+    float: none;
+    text-align: center;
+
+    img {
+      width: 50%;
+      max-width: 400px;
+      height: auto;
+    }
+   }
+}
+#site-name {
+  float: left;
+  margin: 20px 20px 20px 30px;
+
+  @include bp-medium {
+    margin: 8px auto;
+    float: none;
+    width: 180px;
+  }
+  @include bp-small {
+    width: 100px;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+
+    @include bp-small {
+      margin: 0 auto;
+      padding: 0;
+      width: 100px;
+
+    }
+  }
+}
+
+// @TODO add svg for mobile
+#site-name a {
+  min-width: 180px;
+  height: 120px;
+  @extend %hide-text;
+  background: image-url('logo.png') no-repeat;
+
+  @include bp-small {
+    background-size: 100px;
+    width: 100px;
+    height: 80px;
+  }
+}
+
+.svg #site-name a {
+  background: image-url('logo.svg') no-repeat;
+  @include bp-small {
+    background-size: 100px;
+    height: 80px;
+  }
+}
+
+/**
+ * SEARCH
+ */
+#search-block-form {
+
+}
+
+#block-search-form {
+  float: right;
+  height: 34px;
+
+  @include bp-medium {
+    @include last;
+  }
+
+  @include bp-small {
+    width: span(6 of 12);
+    float: none;
+    margin: 0 auto;
+  }
+
+  .container-inline {
+    position: relative;
+    height: 24px;
+  }
+
+  input[type=text] {
+    border-radius: 2px;
+    color: $color-black;
+    height: 34px;
+    padding: 0 30px 0 10px;
+    margin: 0;
+    border: 1px solid $color-neutral;
+    background: #FFF;
+    -webkit-box-shadow: inset 0px 0px 0px 1px $color-neutral-transparent;
+    -moz-box-shadow: inset 0px 0px 0px 1px $color-neutral-transparent;
+    box-shadow: inset 0px 1px 3px 1px $color-neutral-transparent;
+  }
+
+  .form-type-textfield {
+    left: 0px;
+    top: 0;
+  }
+
+  .form-submit {
+    @extend %hide-text;
+    background:image-url('gray-search.png') no-repeat $color-gray-light center;
+    border: 0;
+    height: 34px;
+    width: 34px;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+}
+
+.svg #block-search-form #edit-submit {
+  background: transparent image-url('gray-search-md.svg') no-repeat center;
+
+  &:hover {
+
+  }
+}
+
+
+/**
+ * #TOP OF PAGE
+ */
+
+#top-page-link {
+  position: fixed;
+  bottom: 5px;
+  right: 10px;
+  font-size: 2em;
+  width: 24px;
+  // z-index determined by a smart helper function
+  z-index: index($modal-elements, top-link);
+
+  a {
+    color: $color-gray-light;
+  }
+  span {
+    @extend %hide-text
+  }
+
+}
+
+/**
+ * # FRONT PAGE MEMBERS LIST
+ */
+
+  .view-members .views-field-field-member-logo div {
+    text-align: center;
+  }

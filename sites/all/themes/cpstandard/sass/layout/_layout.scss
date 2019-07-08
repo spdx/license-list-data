@@ -1,0 +1,266 @@
+//////////////////////////////
+// LAYOUT
+//////////////////////////////
+
+// @include generate-grid(24, 30, 20, grids-24);
+
+// Layout Helpers
+#header,
+#footer,
+.mission,
+.breadcrumb,
+.node {
+  clear: both
+}
+
+
+#skip,
+#header,
+#footer,
+#navigation {
+ /* full width */
+}
+
+// Navigation styles
+#navigation {
+
+  li {
+    list-style-type: none;
+    display: inline-block;
+  }
+}
+
+// Page
+#page {
+  background: $site-background-color;
+  @include container($site-width);
+  padding-top: 2em;
+}
+
+#page-inner {
+  // margin: 0 10px;
+}
+
+// Node Content area
+.node .content {
+  padding: 0;
+}
+
+#content-header {
+  @include span(12 of 12);
+}
+
+#content-area {
+
+  @include bp-small {
+    padding: 0;
+  }
+}
+
+// Grid
+
+#main {
+
+  @include bp-small {
+    padding: 0 10px;
+  }
+}
+
+// Padding content for inside pages
+#main > #content {
+  padding: 0 $block-padding;
+}
+
+//Front page remove padding blocks
+.front #main > #content {
+  padding: 0;
+}
+
+.not-front #main {
+  margin-top: 0;
+  padding-bottom: 10px;
+}
+
+// Header Area
+#header {
+  @include clearfix;
+  border-bottom: 3px solid $brand-color;
+  @extend %center;
+  background: $site-background-color;
+
+  @include bp-medium {
+    //Important used to override color.module.
+    border-bottom: 0 !important;
+  }
+
+  .content {
+    padding: 0;
+  }
+}
+
+#header-inner {
+  @include container($site-width);
+  margin: 0 auto;
+}
+
+#header-region {
+
+  //Use min-width for a menu float to the right
+  @media only screen and (min-width: 50em) {
+    margin-top: 20px;
+    @include span(7 of 12);
+    @include last;
+  }
+
+  @include bp-medium {
+    @include span(7 of 12);
+    @include last;
+    margin-top: 20px;
+
+  }
+
+  @include bp-small {
+    @include span(12 of 12);
+    text-align: center;
+    .region-header {
+      height: 120px;
+    }
+  }
+}
+
+/* content-bottom region */
+
+#content-bottom {
+  width: 100%;
+  clear: both;
+}
+
+/* Highlighted area - Slideshow */
+#highlighted {
+  max-width: $site-width;
+  @extend %center;
+}
+
+
+/* Links */
+ul.links.inline {
+
+  li.first {
+    padding-left: 0;
+  }
+
+}
+
+// Footer Area
+#footer {
+  clear: both;
+
+  .region {
+    max-width: $site-width;
+    @extend %center;
+
+  }
+}
+
+
+/*
+ * Content & SideBars
+ */
+
+
+// Sidebar First
+#sidebar-first,
+.two-sidebars #sidebar-first,
+.one-sidebar.sidebar-first #sidebar-first {
+  @include span(3 of 12);
+  margin-top: 6px;
+
+  @include bp-small {
+    width: 100%;
+    left: 0;
+    margin: 0;
+  }
+}
+
+// Sidebar Second
+#sidebar-second {
+  @include span(isolate 3 at 10);
+  background: purple;
+
+  @include bp-small {
+    width: 100%;
+    left: 0;
+    margin: 0;
+  }
+}
+
+
+// Content with only first sidebar
+.one-sidebar.sidebar-first {
+
+  #content {
+    @include span(isolate 9 at 4);
+
+    @include bp-small {
+      width: auto;
+      margin: 0;
+      left: 0;
+    }
+  }
+
+  #sidebar-first {
+    @include span(isolate 3 at 0);
+
+  }
+
+}
+
+// Content with only second sidebar
+.one-sidebar.sidebar-second {
+
+  #content {
+    @include span(isolate 9 at 0);
+
+    @include bp-small {
+      width: auto;
+      margin: 0;
+      left: 0;
+    }
+  }
+
+}
+
+// Content with both sidebars
+.two-sidebars {
+
+  #content {
+    @include span(isolate 6 at 4);
+
+    @include bp-small {
+      width: auto;
+      margin: 0;
+      left: 0;
+    }
+  }
+
+  #sidebar-first {
+    @include span(isolate 3 at 0);
+  }
+}
+
+// Content with no sidebars
+.no-sidebars {
+
+  #content {
+    // Seems good
+  }
+}
+
+
+// Columns Inner
+// -------------
+// You can change the padding inside the columns without changing the
+// width of them by just usinbg the INNER div of each column
+.inner {
+  padding: 0
+}

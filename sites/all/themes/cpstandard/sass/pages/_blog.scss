@@ -1,0 +1,56 @@
+/**
+ * Share List
+ **/
+
+.addtoany_list {
+  display: inline-block;
+  float: right;
+  margin: 0 4px 4px 4px;
+  padding: 2px 2px 4px 2px;
+  background: $color-light;
+
+  & > a {
+    font-size: .85em;
+    text-decoration: none;
+    color: blue;
+  }
+}
+
+
+.cpstandard-blog-post-author {
+  @include clearfix;
+}
+
+.node-type-blog #block-system-main + .block-views {
+  border-top: $color-border 2px solid;
+  padding: 1em 0;
+  margin-top: .5em;
+  clear: both;
+  @extend %suppl-text;
+  @include span(12 of 12);
+
+  /* make block-title appear as label */
+  .block-title {
+    color: $color-gray;
+    font-weight: $bold;
+    text-transform: none;
+    font-size: 1em;
+  }
+
+  .views-field-body {
+    @include span(10 of 12);
+
+    @include bp-small {
+      width: 75%;
+    }
+  }
+
+  .views-field-field-author-photo {
+    @include span(2 of 12);
+    @include last;
+
+    img {
+      border: 2px solid $color-neutral;
+    }
+  }
+}

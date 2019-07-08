@@ -1,0 +1,128 @@
+/**
+ * #Flex slider - Slideshow
+ */
+
+#block-views-front_page_slideshow-block_1 .content {
+  padding: 0;
+}
+
+#flexslider-1 {
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  color: $color-white;
+  font-size: 2em;
+  position: relative;
+  margin-bottom: 0px;
+
+  @include bp-medium {
+    font-size: 1.5em;
+  }
+
+  @include bp-small {
+    font-size: 1em;
+  }
+
+  // Slide.
+  li {
+    position: relative;
+
+    // Slide link.
+    a.slide-link:link,
+    a.slide-link:visited {
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    // Secondary
+    h3.secondary {
+      color: #fff;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      width: 100%;
+
+      // Vertically align.
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+  }
+}
+
+// Flexslider - Navigation.
+.flex-control-nav {
+  display: none;
+}
+
+// Flexslider - Directional navigation.
+.flex-direction-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  z-index: 11;
+
+  // Vertically align.
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+  // Links.
+  a:link,
+  a:visited {
+    height: 38px;
+    overflow: hidden;
+
+    // Disabled.
+    &.flex-disabled {
+      display: none;
+    }
+  }
+}
+
+a.more {
+  text-decoration: none;
+  background: transparent;
+  border: 1px solid $color-brand;
+  padding: $block-padding-alt;
+
+  &:hover {
+    background: $color-brand-alt;
+  }
+}
+
+
+/* Muliline ragged text background */
+
+// .multiline-padded h2 {
+//   line-height: 1.4em;
+//   max-width: 600px;
+//   margin-top: 1.125em;
+//   font-size: 1.5em;
+//   text-align: center;
+//   @extend %center;
+//   color: $color-white;
+
+// }
+
+// .multiline-padded .wrap {
+//   opacity: .9;
+//   background: rgba(0,0,0,0.7);
+//   padding: 10px;
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   display: inline-block;
+// }
+
+// .multiline-padded strong {
+//   position: relative;
+//   font-weight: 300;
+//   font-weight: $regular;
+// }

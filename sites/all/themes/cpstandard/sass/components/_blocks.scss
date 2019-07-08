@@ -1,0 +1,482 @@
+/////////////
+// BLOCKS
+/////////////
+
+/**
+ * CTA blocks
+ */
+//@TODO needs refactoring
+#block-views-alg_cta-block {
+
+  // Content.
+  .view-content {
+    display: table-cell;
+    display: flex;
+    display: -ms-flexbox; // IE10
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap; // IE10
+
+    @include bp-small {
+      display: block;
+    }
+  }
+
+  // Row.
+  .views-row {
+    @include span(100 of 300);
+    @include bleed-x(0 0px);
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: (100%/3);
+    flex-direction: column;
+    float: left;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    width: (100%/3);
+    -ms-flex: 0 0 (100%/3); // IE10
+
+    @include bp-small {
+      width: 100%;
+    }
+
+    html.lt-ie10 & { // IE9 <
+      width: 33%;
+    }
+
+    h2 {
+      font-size: 2em;
+      font-weight: $bold;
+      text-transform: uppercase;
+      margin: 0;
+      color: #fff;
+    }
+
+    .cta {
+      padding: ($block-padding * 3) 0;
+    }
+
+    a {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    // CTA link.
+    .cta_link {
+      @extend %hide-text;
+      display: block;
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    // Edit link.
+    .edit_link {
+      position: relative;
+      z-index: 11;
+    }
+
+    @include bp-small {
+      @include span(1 of 1);
+      margin-bottom: gutter();
+    }
+  }
+
+  .views-row:nth-child(1) {
+    color: #fff;
+    @include contrasted($color-brand);
+  }
+
+  .views-row:nth-child(2) {
+    color: #fff;
+    @include contrasted($color-brand-alt);
+  }
+
+  //Removes margin on third block
+  .views-row:nth-child(3) {
+    @include contrasted($color-white);
+    @include last;
+  }
+}
+
+//@TODO needs refactoring
+.front #content,
+.front #content-area {
+  margin :0;
+  float: none;
+  width: auto;
+}
+
+
+/**
+ * NEA
+ */
+
+ #content-area {
+  .block-views:nth-child(3) {
+    @include last;
+  }
+ }
+
+ #block-views-news_and_announcements-block,
+ #block-views-news_and_announcements-block_1,
+ #block-views-events-block,
+ #block-views-blogs-block_3,
+ .block.announce,
+ .front .region-content-bottom .block {
+  background: $brand-background-2;
+  font-size: .85em;
+
+  .block-inner {
+    margin: $block-padding * 3;
+
+    @include bp-medium {
+      margin: $block-padding;
+    }
+  }
+
+  .view {
+    padding: $block-padding;
+  }
+
+  .view-content,
+  .content,
+  .view-empty {
+    min-height: 12em;
+  }
+
+  .view-footer a {
+    color: $brand-color;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.125em;
+
+    &:before {
+      margin-right: .5em;
+    }
+  }
+
+  .block-title {
+    color: $brand-color;
+    text-align: center;
+    margin: 0 0 .5em 0;
+    font-size: 2em;
+    font-weight: lighter;
+    text-transform: capitalize;
+    padding: $block-padding;
+    border-bottom: 1px solid $color-gray-light;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    a {
+      @include link($color-text-display);
+    }
+  }
+
+  h3 {
+    margin: 0 0 .45em 0;
+  }
+
+  p {
+    margin: 0 0 .25em 0;
+    padding: 0;
+  }
+
+  .views-row {
+    margin-bottom: 2em;
+  }
+
+ }
+
+
+#block-views-news_and_announcements-block,
+#block-views-news_and_announcements-block_1,
+#block-views-events-block,
+.front .region-content-bottom .block {
+  @include span(100 of 300);
+  @include bleed-x(0 0px);
+  min-height: 350px;
+
+  @include bp-small {
+    @include span(1 of 1);
+    margin-bottom: gutter();
+  }
+
+}
+
+/* Announcements */
+#block-views-news_and_announcements-block,
+.content_bottom_white  {
+  background: $color-white !important;
+}
+
+/* In the News */
+#block-views-news_and_announcements-block_1,
+.content_bottom_light_grey {
+  background: #f0f0f0 !important;
+}
+
+/* Upcoming Events */
+#block-views-events-block,
+.content_bottom_dark_grey {
+  background: #e9e9e9 !important;
+  @include last;
+}
+
+//Removes margin on the third block treating it as the last
+#content-bottom .block-views:nth-child(3) {
+  @include last;
+}
+
+/**
+ * Members
+ */
+.members {
+  @include span(12 of 12);
+  clear: both;
+  border-top: 1px solid $color-border;
+  margin-top: 20px;
+
+  h2 {
+    font-weight: $bold;
+    text-indent: 0px;
+  }
+
+  .content {
+    padding: 0;
+  }
+  //@TODO: find better way to style these.
+  .category-description {
+    @include gallery(2 of 12);
+    margin-bottom: 20px;
+
+    @include bp-medium {
+      @include gallery(6 of 12);
+    }
+
+    @include bp-small {
+      @include gallery(12 of 12);
+      clear: both !important;
+    }
+  }
+  .views-row-first {
+  }
+ .views-row-last {
+  }
+  .views-row {
+    @include gallery(2 of 12);
+    margin-bottom: 20px;
+
+    @include bp-medium {
+      @include gallery(6 of 12);
+    }
+
+    @include bp-small {
+      @include gallery(12 of 12);
+      clear: both !important;
+    }
+  }
+
+  @include bp-small {
+    text-align: center;
+  }
+}
+
+/**
+ * Members
+ */
+.members_all {
+  @include span(12 of 12);
+  clear: both;
+  border-top: 1px solid $color-border;
+  margin-top: 20px;
+
+  h2 {
+    font-weight: $bold;
+    text-indent: 0px;
+  }
+
+  .content {
+    padding: 0;
+  }
+  .category-description {
+    width: 100%;
+    clear: both;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+  }
+  .views-row {
+    @include span(2 of 12);
+    margin-right: 1.4%;
+    margin-bottom: 1.4%;
+    float: left;
+
+    @include bp-medium {
+      @include span(6 of 12);
+      margin-right: 0%;
+      margin-bottom: 1%;
+      float: left;
+    }
+
+    @include bp-small {
+      @include span(12 of 12);
+      clear: both !important;
+    }
+  }
+
+  @include bp-small {
+    text-align: center;
+  }
+}
+/* Members blocks with first sidebar or second sidebar */
+.sidebar-first .members,
+.sidebar-second .members {
+
+  .views-row {
+    margin-bottom: 20px;
+
+    @include bp-small {
+      width: 100%;
+      min-width: 300px;
+    }
+  }
+}
+
+
+/* Members blocks with two sidebars */
+.two-sidebars .members {
+  .views-row {
+    margin-bottom: 20px;
+  }
+}
+
+/* block padding */
+.block .content {
+  padding: $block-padding;
+  padding: 0;
+}
+
+.block .block-inner {
+  // @extend %grids-24;
+}
+.block .node .content {
+  // padding: 0 ($block-padding * 2) 0 0;
+}
+
+// LF Site Toggle.
+#lf-header {
+
+  ul.dropdwn,
+  ul.dropdwn ul {
+    list-style: none;
+  }
+
+  ul.dropdwn li {
+    float: left;
+    zoom: 1;
+  }
+
+  /*positions submenu*/
+  ul.dropdwn li:hover{
+    color: #000;
+  }
+
+  .drop.reveal .sub-menu {
+    visibility: visible;
+  }
+
+  .sub-menu {
+    background:#FFF;
+    padding:16px 20px;
+    border:1px solid #DDD;
+    float:left;
+    visibility: hidden;
+    position: absolute;
+    top: 28px;
+    min-width:120px;
+    right:0;
+    z-index: 500;
+
+    li {
+      float:left;
+      clear:both;
+    }
+
+    &:before {
+      position: absolute;
+      top: -7px;
+      right: 25px;
+      display:block;
+      content:'';
+      width:15px;
+      height:15px;
+      background: url(../images/arrows-777777.gif) center center;
+    }
+  }
+
+  ul.dropdwn>li>a.sites:before {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #FFF;
+    content: '';
+    position: relative;
+    top:10px;
+    left:-5px;
+  }
+
+  #links {
+    width: 312px;
+    margin: 2px 0 0 0;
+    padding: 0;
+    text-transform: none;
+    font-size: 12px;
+    float: right;
+    position: absolute;
+    right: 10px;
+    z-index: 500;
+    line-height: 20px;
+    &>li {
+      float: right;
+      margin: 0 0 0 15px;
+      &>a {
+        color: #FFF;
+        padding: 2px 4px 6px;
+      }
+    }
+
+    a {
+      color: #807f8b;
+      padding:0;
+      text-decoration: none;
+      display: block;
+      background:transparent;
+
+      &:hover {
+        color:#003f5f;
+      }
+    }
+  }
+
+  /*ie*/
+  ul.dropdwn ul li  {
+   _display: inline;
+   _width: 100%;
+  }
+}
+
+// CTA - White.
+.cta-white {
+  background: #fff !important;
+  color: #6f6f71 !important;
+}

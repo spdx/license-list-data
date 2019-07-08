@@ -1,0 +1,79 @@
+//
+// Print
+//
+
+
+@media print {
+
+  a,
+  a:visited { /* underline all links */
+    text-decoration: underline !important;
+
+    #site-name & { /* Don't underline header */
+      text-decoration: none !important;
+    }
+  }
+
+  #content {
+    a[href]:after { /* Add visible URL after links. */
+      content: " (" attr(href) ")";
+      font-weight: normal;
+      font-size: $base__font-size;
+    }
+
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after { /* Only display useful links. */
+      content: "";
+    }
+
+    abbr[title]:after { /* Add visible title after abbreviations. */
+      content: " (" attr(title) ")";
+    }
+  }
+
+  #content { /* Un-float the content */
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  body,
+  #page,
+  #main,
+  #content,
+  #content-wrapper { /* Turn off any background colors or images */
+    background-color: transparent !important;
+    background-image: none !important;
+    color: #000;
+  }
+
+  #skip-link,
+  #toolbar,
+  #navigation,
+  .region-sidebar-first,
+  .region-sidebar-second,
+  #footer,
+  .region-breadcrumb,
+  .tabs,
+  .action-links,
+  .links,
+  .book-navigation,
+  .forum-topic-navigation,
+  .pager,
+  .feed-icons,
+  #header,
+  .section-divider,
+  .sidebars {
+    display: none;
+    visibility: hidden;
+  }
+
+  #content {
+  	overflow: hidden;
+  }
+
+  h1#page-title {
+    color: #000;
+  }
+}

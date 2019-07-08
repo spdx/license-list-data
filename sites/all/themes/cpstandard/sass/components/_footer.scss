@@ -1,0 +1,80 @@
+/**
+ * Footer
+ **/
+#footer {
+  background-color: $color-gray;
+  font-weight: $light;
+
+  .region-footer {
+    min-height: 12em;
+    @extend %center;
+    @include clearfix;
+  }
+
+  .block {
+    min-height: 240px;
+    @include span(300 of 1200);
+    @include bleed-x(0 0px);
+
+    .block-inner {
+      margin: $block-padding * 3;
+      margin-top: 15px;
+    }
+
+    &.block-odd {
+      background-color: rgba(0,0,0,0.4);
+    }
+    &.block-even {
+      background-color: rgba(0,0,0,0.3);
+    }
+    &:nth-child(4) {
+      @include last;
+    }
+
+    ul.menu {
+      @include nav-vertical;
+      line-height: 1.65em;
+
+      a {
+        text-decoration: none;
+        @include link($color-white);
+        font-size: .85em;
+        display: block;
+        padding: 0 0 .35em 0;
+      }
+
+    }
+
+  }
+
+  .block-block.footer_logo,
+  .block-menu-block {
+
+
+    // Medium Display
+    @include bp-medium {
+      width: 48%;
+      margin: 0 $block-padding $block-padding 0;
+    }
+
+    // Small Display
+    @include bp-small {
+      width: 100%;
+      float: none;
+    }
+
+  }
+
+  .block-title {
+    color: $color-gray-light !important;
+    padding: 15px $block-padding;
+    margin: 0;
+    font-size: 1.0125em;
+    line-height: 1.65em;
+    text-transform: uppercase;
+  }
+
+  .clearfix {
+    @include clearfix;
+  }
+}

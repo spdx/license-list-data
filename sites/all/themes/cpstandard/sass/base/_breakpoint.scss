@@ -1,0 +1,34 @@
+//
+// Breakpoint
+// https://github.com/at-import/breakpoint/wiki
+//
+
+
+$breakpoint-to-ems: 			true;
+
+// Force the breakpoint mixin to discard all media queries except ones with
+// $no-query set to true.
+$breakpoint-no-query-fallbacks : true;
+
+// Hi DPI
+$bp-hidpi: 								min-resolution 1.5dppx;
+
+// Small
+$bp-small:                420px;
+$bp-xsmall:               550px;
+$bp-xxsmall:              640px;
+
+// Medium
+$bp-medium:               720px;
+$bp-xmedium:              880px;
+$bp-xxmedium:             980px;
+
+// Large
+$bp-large:                1000px;
+$bp-xlarge:               1250px;
+$bp-xxlarge:              1550px;
+$bp-xxxlarge:             1875px;
+
+// Mobile
+$bp-mobile-medium:        max-width $bp-medium;
+$bp-mobile-large:         max-width $bp-large;

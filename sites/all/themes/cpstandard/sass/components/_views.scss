@@ -1,0 +1,50 @@
+///////////////
+// Views
+///////////////
+
+
+.linux-views-set-list-style {
+
+  // Views row
+  .views-row {
+    margin-bottom: 30px;
+
+    // Links
+    a,
+    a:visited {
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  // Title
+  h3 {
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  // Submitted
+  .submitted {
+    color: $color-gray-light;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 5px;
+  }
+
+  // More
+  .more {
+    font-size: 12px;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+    // Links
+    a,
+    a:visited {
+      color: $color-brand;
+    }
+  }
+
+}

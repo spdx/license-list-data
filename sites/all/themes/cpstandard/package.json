@@ -1,0 +1,18 @@
+{
+  "name": "CII",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-compass": "~1.0.1",
+    "grunt-imageoptim": "~1.4.1",
+    "grunt-svgmin": "~2.0.0",
+    "grunt-dr-svg-sprites": "~0.9.15",
+    "grunt-spritesmith": "~3.5.0",
+    "grunt-autoprefixer": "~2.1.0",
+    "grunt-contrib-cssmin": "~0.12.2"
+  },
+  "scripts": {
+    "postinstall": "find node_modules/ -name '*.info' -type f -delete"
+  }
+}

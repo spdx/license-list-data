@@ -1,0 +1,435 @@
+/**
+ * #Main menu
+ */
+
+#block-superfish-1 {
+  float: right;
+  clear: both;
+  margin: 20px 0px 0 0;
+
+  @include bp-small {
+    margin-top: 10px;
+    float: none;
+  }
+
+  .block-title {
+    display: none;
+  }
+}
+
+#superfish-1,
+.sf-main-menu {
+  @include nav-horizontal;
+  overflow: visible;
+  text-align: right;
+  text-transform: uppercase;
+
+  @include bp-medium {
+    text-align: center;
+  }
+
+  > li {
+    display:inline-block;
+    float: none;
+    margin-left: .125em;
+    font-size: 1.45em;
+
+    &.active-trail > a,
+    & > a:hover,
+    & > a.active {
+      color: $color-white;
+      background: $color-brand;
+      border-bottom: 0;
+    }
+
+  }
+
+  a {
+    text-decoration: none;
+    position: relative;
+    background: transparent;
+    color: $color-gray;
+    font-weight: $light;
+    padding: .25em .5em;
+    border-radius: 2px;
+  }
+
+  //Second level dropdown styling
+  li li a {
+    border-top: 1px solid $color-neutral;
+    padding: $block-padding;
+  }
+
+  .first a,
+  .firstandlast a {
+    border-top: 0;
+  }
+}
+
+
+/*
+ * Drop Down Indicator
+ */
+
+ul#superfish-1.sf-main-menu {
+
+  // Hides the default arrows of Superfish
+  .sf-sub-indicator {
+    visibility: hidden;
+    overflow: visible;
+  }
+
+  // Prepare custom arrows
+  span.sf-sub-indicator:after {
+    visibility: visible;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    color: $color-brand;
+    text-align: right;
+  }
+
+  & > li.active-trail a span.sf-sub-indicator:after,
+  a.active span:after,
+  a:hover span:after {
+    color: $color-white;
+  }
+
+  // Custom arrows first level
+  & > li.menuparent a span:after {
+      content: '﹀';
+  }
+
+  // Custom arrows second level
+  & > li.menuparent li.menuparent  > a span:after {
+    content: '〉';
+    color: $color-brand;
+  }
+}
+
+ul#superfish-1.sf-main-menu ul {
+  background: $color-light;
+  top: 2em;
+  padding: 0 $block-padding;
+  font-size: .75em;
+  text-transform: none;
+  box-shadow: 2px 0px 3px rgba(0,0,0,.3);
+
+  li {
+    text-align: left;
+    margin: 0;
+  }
+
+  /* Removes repeated parent item */
+  li.sf-depth-1.sf-clone-parent,
+  li.sf-clone-parent {
+    display: none;
+  }
+
+  a,
+  a:link,
+  a:visited {
+    color: $color-gray;
+
+    &:hover {
+      color: $color-brand;
+    }
+  }
+  ul, ul * {
+    // @extend %hidden;
+  }
+}
+
+// Last menu item dropdown
+.sf-menu li.last > ul,
+.sf-menu li.last:hover > ul {
+  left: auto;
+  right: 0;
+}
+
+/*
+ * Mobile Menu
+ */
+#block-superfish-1 {
+
+  @include bp-small {
+    clear: both;
+
+    /* Accordion Menu list */
+    #superfish-1-accordion {
+      background: #e9eadf;
+
+      ul {
+        padding:.25em 0 .25em .75em;
+      }
+
+      li {
+        margin: 0px;
+        font-size: 12px;
+
+        > ul {
+          background: #d7dbd3;
+
+          a {
+            color: $color-gray-dark;
+
+          }
+        }
+      }
+
+      /* Links */
+      a {
+        color: $color-gray;
+        background: transparent;
+        border: 0;
+        margin: 0 0 0 $block-padding;
+        padding: .5em 0;
+        float: left;
+
+        &.active {
+          color: $color-brand;
+        }
+      }
+
+      a.sf-accordion-button {
+        background: image-url('bg-sidebar-menu-item.png') no-repeat 50% 50%;
+        height: 34px;
+        width: 34px;
+        float: right;
+        overflow: hidden;
+        text-indent: -9000px;
+        display: block;
+      }
+
+      //Rotates icon when active
+      .sf-expanded > a.sf-accordion-button {
+        transform: rotate(90deg);
+      }
+
+    }
+
+    /* Menu toggle */
+
+    .sf-accordion-toggle {
+      background: $color-brand-alt-2;
+      padding: 8px 10px;
+      margin:  0 auto;
+      text-align: left;
+
+      a {
+        color: $color-white;
+        font-size: 1.5em;
+        text-decoration: none;
+        text-transform: uppercase;
+        display: block;
+        background: image-url('bars.png') no-repeat center right;
+      }
+    }
+
+    .svg .sf-accordion-toggle a {
+      background: image-url('bars.svg') no-repeat center right;
+    }
+
+  }
+
+}
+
+/**
+ * Side Menu
+ */
+
+ .sidebar .block-menu-block {
+
+  .block-inner {
+    box-shadow: 0 0 5px #ccc;
+    margin-bottom: $block-padding;
+    margin-left: $block-padding;
+    margin-right: $block-padding;
+  }
+
+  .block-title {
+    @extend %visuallyhidden;
+  }
+
+  @include bp-small {
+    display: none !important;
+    visibility: hidden;
+  }
+
+ }
+
+  // Expandable Nav CSS
+  .expandable-nav {
+
+    // Menu
+    ul.menu {
+      margin: 0;
+      padding: 0;
+
+      li {
+        border-bottom: 1px solid $color-white;
+        list-style: none;
+        margin: 0;
+        position: relative;
+        padding: 0;
+
+        // Last
+        &:last-child {
+          border-bottom: none;
+        }
+
+        // Nav icon
+        span.nav-icon {
+          background: url(../images/bg-sidebar-menu-item.png) no-repeat 50% 50%;
+          cursor: pointer;
+          display: block;
+          height: 30px;
+          position: absolute;
+          right: 0;
+          top: 0;
+          width: 30px;
+          z-index: 100;
+          visibility: hidden;
+
+          &:after {
+            content: '〉';
+            visibility: visible;
+            position: absolute;
+            top: 11px;
+            right: 0px;
+            color: $color-brand;
+            text-align: right;
+          }
+        }
+
+        // Active trail
+        &.hl-active-trail {
+          background: #f9f9f9;
+          border-top: 1px solid #ededed;
+
+          & > ul {
+            background: #f0f0f4;
+
+            .hl-active-trail {
+              background: transparent;
+            }
+          }
+
+          // Nav icon
+          > span.nav-icon {
+            transform: rotate(90deg);
+          }
+        }
+
+        // Links
+        a,
+        a:visited {
+          color: $color-gray-dark;
+          display: block;
+          padding: $block-padding;
+          text-decoration: none;
+          transition: all .15s;
+
+          // Hover
+          &:hover {
+            color: $color-green;
+          }
+
+          // Active
+          &.active {
+            color: $color-black;
+            font-weight: 700;
+          }
+        }
+      }
+
+      // Second level
+      ul {
+        a,
+        a:visited {
+          padding-left: 20px;
+
+          // Hover
+          &:hover {
+            background: #fff;
+          }
+        }
+
+        // Third level
+        ul {
+          li {
+            border: none;
+          }
+          a,
+          a:visited {
+            padding-left: 30px;
+          }
+        }
+      }
+    }
+  }
+
+/**
+ * Social Links
+ */
+
+ /* #Social Icons */
+#block-menu-menu-social-links {
+  float: right;
+
+  // Hide title if exist
+  @include bp-medium {
+    @include span(6 of 12);
+  }
+
+  @include bp-small {
+    @include span(12 of 12);
+    margin: 0 auto;
+    float: none;
+  }
+
+  /* list of icons */
+  .menu {
+    @include nav-horizontal;
+    line-height: 2.5em;
+    overflow: visible;
+
+    @include bp-small {
+      text-align: center;
+    }
+
+    li {
+      width: 26px;
+      height: 32px;
+      padding: 0;
+
+      @include bp-small {
+        display: inline-block;
+        float: none;
+        margin-left: .25em;
+      }
+    }
+      i {
+        font-family: FontAwesome;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font-size: 2.25em;
+        color: $color-gray-dark;
+        font-style: normal;
+        text-align: center;
+
+        &:hover {
+          color: $color-gray;
+        }
+      }
+
+      span {
+       @extend %visuallyhidden;
+      }
+  }
+
+  .block-title {
+    @extend %visuallyhidden;
+  }
+}

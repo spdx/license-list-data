@@ -1,0 +1,90 @@
+/////////////
+// FORMS
+/////////////
+
+/* 
+ * Use our own throbber.gif 
+ */
+html.js input.form-autocomplete {
+  background-image: image-url('throbber.gif');
+  background-repeat: no-repeat;
+  background-position: 100% 13px; /* tweak this according to your gif */
+}
+
+html.js input.throbbing {
+  background-position: 100% -13px; /* tweak this according to your gif */
+}
+
+
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+
+/*
+ * Input and text fields
+ */
+input,
+input[type="text"],
+input[type="password"],
+input[type="url"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  @extend %border-box;
+  max-width: 100%;
+  padding: .75em;
+  border: solid 1px $color-neutral;
+  color: $color-gray;
+  transition: box-shadow 0.3s;
+  background-color: #fdfbfe;
+
+  @include bp-small {
+    width: 100%;
+  }
+
+  /* Focus states */
+  &:focus,
+  &.focus {
+    outline: none;
+    border: solid 1px $color-brand-alt;
+    background-color: #edfdff; 
+  }
+}
+
+/* Remove grippie */
+.resizable-textarea .grippie {
+  @extend %hidden;
+}
+
+
+/* Labels */
+label,
+.field-label,
+.field-items {
+  color: $color-gray-dark;
+  margin: .25em 0;
+ }
+
+/* Field */
+.field {
+  margin:.5em 0;
+}
+
+
+

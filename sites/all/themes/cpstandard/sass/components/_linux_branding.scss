@@ -1,0 +1,114 @@
+// -----------------------------------------------------------------------------
+// LF Collaborative Projects Header and Footer
+// -----------------------------------------------------------------------------
+.collaborative-projects {
+  $lfcollabprojects-firstcolor: #d0d1d1;
+  $lfcollabprojects-secondcolor: #e6e6e6;
+  font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 11px;
+  line-height: 16px;
+  font-weight: 300;
+  color: $color-text-type;
+  clear: both;
+  background: $lfcollabprojects-firstcolor;
+  background-image: linear-gradient(right, $lfcollabprojects-firstcolor 0%, $lfcollabprojects-secondcolor 69%);
+  background-image: -o-linear-gradient(right, $lfcollabprojects-firstcolor 0%, $lfcollabprojects-secondcolor 69%);
+  background-image: -moz-linear-gradient(right, $lfcollabprojects-firstcolor 0%, $lfcollabprojects-secondcolor 69%);
+  background-image: -webkit-linear-gradient(right, $lfcollabprojects-firstcolor 0%, $lfcollabprojects-secondcolor 69%);
+  background-image: -ms-linear-gradient(right, $lfcollabprojects-firstcolor 0%, $lfcollabprojects-secondcolor 69%);
+  background-image: -webkit-gradient(linear, right top, left top, color-stop(0.0, $lfcollabprojects-firstcolor), color-stop(0.69, $lfcollabprojects-secondcolor));
+
+  // Workgroup.
+  body.project-type-workgroup & {
+    background: #0099EE;
+    background-image: linear-gradient(right , rgb(0,155,238) 37%, #0492e0 91%);
+    background-image: -o-linear-gradient(right , rgb(0,155,238) 37%, #0492e0 91%);
+    background-image: -moz-linear-gradient(right , rgb(0,155,238) 37%, #0492e0 91%);
+    background-image: -webkit-linear-gradient(right , rgb(0,155,238) 37%, #0492e0 91%);
+    background-image: -ms-linear-gradient(right , rgb(0,155,238) 37%, #0492e0 91%);
+    background-image: -webkit-gradient(
+      linear,
+      right top,
+      left top,
+      color-stop(0.37, rgb(0,155,238)),
+      color-stop(0.91, #0492e0)
+    );
+    color: #fff;
+
+    // Links.
+    a:link,
+    a:visited {
+      color: #fff;
+    }
+  }
+
+  // Links.
+  a:link,
+  a:visited {
+    color: $color-text-type;
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  // Gray diagonal.
+  .gray-diagonal {
+    min-height: 30px;
+    background: transparent url('../images/diagonal-white.png');
+    width: 100%;
+
+    // Workgroup.
+    body.project-type-workgroup & {
+      background: transparent url('../images/di_blues.png');
+    }
+  }
+
+  // Container.
+  .container {
+    margin: 0 auto;
+    max-width: $site-width;
+    position: relative;
+  }
+}
+
+#footer-copyright  {
+  padding: 16px 1.5em;
+
+  p {
+    padding-left: 10px;
+    margin: 0;
+    font-family: Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    font-weight: 300;
+  }
+}
+
+#collaborative-projects-logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 14px;
+  background: transparent url("../images/lfcollabprojects_logo_color.png") no-repeat left center;
+  width: 95%;
+  max-width: 382px;
+  float: left;
+  text-indent: -9000px;
+
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
+
+  // Workgroup.
+  body.project-type-workgroup & {
+    background-image: url(../images/lf-workgroups-logo.png);
+    margin-top: 7px;
+    width: 225px;
+
+    @media only screen and (min-width: 450px) {
+      width: 100%;
+    }
+  }
+}

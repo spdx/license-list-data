@@ -1,0 +1,113 @@
+//
+// Tabs (Taken from Basic theme and converted to Sass)
+//
+
+ul {
+  &.primary, &.secondary {
+    width: 99%;
+  }
+  &.primary {
+    @include font-size(14);
+    margin: 0 0 5px 0;
+    padding: 0 0 0 10px;
+    border-width: 0;
+    list-style: none;
+    white-space: nowrap;
+    line-height: normal;
+    background: url(../images/optimized/tabs/tab-bar.png) repeat-x left bottom;
+    li {
+      float: left;
+      margin: 0;
+      padding: 0;
+      &.active a {
+        border-width: 0;
+        color: black;
+        background-color: transparent;
+        background: url(../images/optimized/tabs/tab-left.png) no-repeat left 0;
+        &:hover {
+          border-width: 0;
+          color: black;
+          background-color: transparent;
+          background: url(../images/optimized/tabs/tab-left.png) no-repeat left 0;
+        }
+        .tab, &:hover .tab {
+          background: url(../images/optimized/tabs/tab-right.png) no-repeat right 0;
+        }
+      }
+      a {
+        display: block;
+        height: 24px;
+        margin: 0;
+        padding: 0 0 0 5px;
+        border-width: 0;
+        font-weight: bold;
+        text-decoration: none;
+        color: #777777;
+        background-color: transparent;
+        background: url(../images/optimized/tabs/tab-left.png) no-repeat left -38px;
+        transition: none;
+        &:hover {
+          border-width: 0;
+          background-color: transparent;
+          background: url(../images/optimized/tabs/tab-left.png) no-repeat left -76px;
+          .tab {
+            background: url(../images/optimized/tabs/tab-right.png) no-repeat right -76px;
+          }
+        }
+        .tab {
+          display: block;
+          height: 100%;
+          margin: 0;
+          padding: 4px 13px 0 6px;
+          border-width: 0;
+          line-height: 20px;
+          background: url(../images/optimized/tabs/tab-right.png) no-repeat right -38px;
+        }
+      }
+    }
+  }
+  &.secondary {
+    margin: 0 0 5px 0;
+    padding: 0 0 0 5px;
+    border-bottom: 1px solid silver;
+    list-style: none;
+    white-space: nowrap;
+    background: url(../images/optimized/tabs/tab-secondary-bg.png) repeat-x left bottom;
+    li {
+      float: left;
+      margin: 0 5px 0 0;
+      padding: 5px 0;
+      border-right: none;
+    }
+    a {
+      display: block;
+      height: 24px;
+      margin: 0;
+      padding: 0;
+      border: 1px solid silver;
+      text-decoration: none;
+      color: #777777;
+      background: url(../images/optimized/tabs/tab-secondary.png) repeat-x left -56px;
+      .active {
+        border: 1px solid silver;
+        color: black;
+        background: url(../images/optimized/tabs/tab-secondary.png) repeat-x left top;
+        &:hover {
+          border: 1px solid silver;
+          color: black;
+          background: url(../images/optimized/tabs/tab-secondary.png) repeat-x left top;
+        }
+      }
+      &:hover {
+        background: url(../images/optimized/tabs/tab-secondary.png) repeat-x left bottom;
+      }
+      .tab {
+        display: block;
+        height: 18px;
+        margin: 0;
+        padding: 3px 8px;
+        line-height: 18px;
+      }
+    }
+  }
+}

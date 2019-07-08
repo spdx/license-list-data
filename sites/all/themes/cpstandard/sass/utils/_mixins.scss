@@ -1,0 +1,193 @@
+//
+// Custom mixins
+//
+
+
+// Element-invisible as defined by http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+@mixin element-invisible {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+
+
+// Turns off the element-invisible effect.
+@mixin element-invisible-off {
+  clip: auto;
+  height: auto;
+  overflow: auto;
+  position: static !important;
+  width: auto;
+}
+
+
+// Focusable
+@mixin element-focusable {
+  @include element-invisible;
+
+  &:active,
+  &:focus {
+    @include element-invisible-off;
+  }
+}
+
+
+// SVG background
+$image-path: '../images' !default;
+$fallback-extension: 'png' !default;
+// $retina-suffix: '@2x';
+
+@mixin svg-bg($name, $dir) {
+  background-image: url(#{$image-path}/#{$dir}/svg/#{$name}.svg);
+  background-repeat: no-repeat;
+
+  // No SVG support
+  .no-svg & {
+    background-image: url(#{$image-path}/#{$dir}/#{$name}.#{$fallback-extension});
+  }
+
+  // Retina image
+  // @if $retina == "retina" {
+  //   @include breakpoint($bp-hidpi) {
+  //     .no-svg & {
+  //       background-image: url(#{$image-path}/#{$dir}/2x/#{$name}#{$retina-suffix}.#{$fallback-extension});
+  //     }
+  //   }
+  // }
+}
+
+
+// Font size - Rem and PX fallback
+@mixin font-size($org) {
+  font-size: $org + px;
+  font-size: ($org/$base__font-size_integer) + rem;
+}
+
+
+/** 
+ * Media Queries 
+ */
+@mixin bp-large {
+  @media only screen and (max-width: 60em) {
+    @content;
+  }
+}
+
+@mixin bp-medium {
+  @media only screen and (max-width: 50em) {
+    @content;
+  }
+}
+
+@mixin bp-small {
+  @media only screen and (max-width: 40em) {
+    @content;
+  }
+}
+
+
+
+@mixin link($color) {
+    
+  color: $color;
+  text-decoration: none;
+  text-shadow: none;
+  letter-spacing: 2px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+}
+
+/**
+ * Vertical rhythm 
+ */
+
+@mixin vertically-center($height) {
+  height:$height;
+  line-height:$height;
+}
+
+/**
+ * Rounded corners 
+ */
+
+@mixin border-radius($radius){
+  border-radius: $radius;
+  -o-border-radius: $radius;
+  -ms-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+}
+
+@mixin nav-horizontal {
+  list-style-type: none;
+  line-height: 1.45em;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  > li {
+    display: block;
+    float: left;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+@mixin nav-vertical {
+  margin: 0;
+  padding: $block-padding;
+  > li {
+    list-style-type: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+/**
+ * Img helper for small screens 
+ */
+
+@mixin bp($small) {
+  img {
+    max-width:100%;
+  }
+}
+
+/*
+ * Contrasted backgrounds with appropiatte text color
+ */
+@mixin contrasted($background-color, $dark: $contrasted-dark-default, $light: $contrasted-light-default, $threshold: null) {
+  background-color: $background-color;
+  color: contrast-color($background-color, $dark, $light);
+
+  h2 {
+    color: contrast-color($background-color, $dark, $light);
+  }
+}
+
+/**
+ * Z-index management
+ * Add to the map $modal-elements or $elements list
+ * Grabs the index location
+ */
+
+$modal-elements: top-link;
+
+// Function for error handling 
+@function z($list, $element) {
+
+  $z-index: index($list, $element);
+
+  @if $z-index {
+    @return $z-index;
+  }
+
+  // else return a warning message and null - so nothing get's printed
+  @warn 'There is no item "#{$modal-elements}" in this list; choose one of: #{$list}';
+  @return null;
+}

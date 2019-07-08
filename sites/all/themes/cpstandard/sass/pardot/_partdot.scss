@@ -1,0 +1,97 @@
+//
+// Pardot
+//
+
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: #fff;
+  font-family: sans-serif; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+body {
+  @include font-size($base__font-size_integer);
+  color: #000;
+  font-family: $base-font-family;
+  line-height: ($base__line-height/$base__font-size);
+  font-weight: 300;
+}
+
+// Resets
+input,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button,
+input {
+  line-height: normal;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+// Form
+#pardot-form {
+
+  label {
+    display: none;
+  }
+  
+  // Input/Texarea fields
+  input,
+  textarea {
+    outline: none;
+  }
+
+  input[type=text],
+  textarea {
+    @include font-size(16);
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: gray;
+    padding: 10px;
+    transition: all .3s ease;
+    width: 100%;
+        
+    &:focus {
+      border-color: blue;
+      color: #000;
+    }
+  }
+  
+  // Submit button
+  .submit {
+    text-align: center;
+  }
+  
+  input[type=submit] {
+    @extend %button;
+  }
+  
+  // First/Last name
+  .first_name,
+  .last_name {
+    @include breakpoint($bp-small, $no-query: '.no-mqs') {
+      float: left;
+      margin: 0 0 20px 0;
+      width: 49%;
+    }
+  }
+  
+  // Last name
+  .last_name {
+    margin-left: 2%;
+  }
+}

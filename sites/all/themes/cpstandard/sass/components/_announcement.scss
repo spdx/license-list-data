@@ -1,0 +1,43 @@
+/** 
+ * Author Block on Announcement nodes
+ **/
+
+.field-name-field-announcement-author {
+  border-top: $color-border 2px solid;
+  padding: 1em 0;
+  @extend %suppl-text;
+}
+
+/* Type of announcement text */
+.field-name-field-announcement-type .field-items {
+  background: $color-gray-light;
+  color: $color-neutral;
+  padding:.25em .5em;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-size: .85em;
+  @include border-radius(2px);
+}
+
+.node-author {
+  @include clearfix;
+  // @extend %grids-24;
+
+
+  .field-name-body {
+    @include span(10 of 12);
+    
+    @include bp-small {
+      width: 75%;
+    }    
+  }
+
+  .field-name-field-author-photo {
+    @include span(2 of 12);
+    @include last;
+
+    img {
+      border: 2px solid $color-neutral;
+    }
+  }  
+}
