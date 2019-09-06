@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-2-g2a14810
+The following licenses have been generated from the license list version 3.6-6-gf32e86b
 
 ## Licenses with Short Idenifiers
 
@@ -341,6 +341,7 @@ The following licenses have been generated from the license list version 3.6-2-g
 | Trusster Open Source License                                                 | [TOSL][]                                 |      |           |
 | Technische Universitaet Berlin License 1.0                                   | [TU-Berlin-1.0][]                        |      |           |
 | Technische Universitaet Berlin License 2.0                                   | [TU-Berlin-2.0][]                        |      |           |
+| Upstream Compatibility License v1.0                                          | [UCL-1.0][]                              | Y    |           |
 | Unicode License Agreement - Data Files and Software (2015)                   | [Unicode-DFS-2015][]                     |      |           |
 | Unicode License Agreement - Data Files and Software (2016)                   | [Unicode-DFS-2016][]                     |      |           |
 | Unicode Terms of Use                                                         | [Unicode-TOU][]                          |      |           |
@@ -810,6 +811,7 @@ The following licenses have been generated from the license list version 3.6-2-g
 [TOSL]: text/TOSL.txt
 [TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
 [TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
+[UCL-1.0]: text/UCL-1.0.txt
 [Unicode-DFS-2015]: text/Unicode-DFS-2015.txt
 [Unicode-DFS-2016]: text/Unicode-DFS-2016.txt
 [Unicode-TOU]: text/Unicode-TOU.txt
