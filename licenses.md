@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-6-gf32e86b
+The following licenses have been generated from the license list version 3.6-8-g53900bb
 
 ## Licenses with Short Idenifiers
 
