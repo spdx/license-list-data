@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-11-gd856581
+The following licenses have been generated from the license list version 3.6-13-g75eedc1
 
 ## Licenses with Short Idenifiers
 
@@ -111,7 +111,7 @@ The following licenses have been generated from the license list version 3.6-11-
 | CeCILL Free Software License Agreement v2.1                                  | [CECILL-2.1][]                           | Y    |           |
 | CeCILL-B Free Software License Agreement                                     | [CECILL-B][]                             |      | Y         |
 | CeCILL-C Free Software License Agreement                                     | [CECILL-C][]                             |      | Y         |
-| CERN Open Hardware License v1.1                                              | [CERN-OHL-1.1][]                         |      |           |
+| CERN Open Hardware Licence v1.1                                              | [CERN-OHL-1.1][]                         |      |           |
 | CERN Open Hardware Licence v1.2                                              | [CERN-OHL-1.2][]                         |      |           |
 | Clarified Artistic License                                                   | [ClArtistic][]                           |      | Y         |
 | CNRI Jython License                                                          | [CNRI-Jython][]                          |      |           |
