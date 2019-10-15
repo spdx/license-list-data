@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-19-g3286bd5
+The following licenses have been generated from the license list version 3.6-22-gd0c6ad7
 
 ## Licenses with Short Idenifiers
 
@@ -143,6 +143,7 @@ The following licenses have been generated from the license list version 3.6-19-
 | Eclipse Public License 1.0                                                   | [EPL-1.0][]                              | Y    | Y         |
 | Eclipse Public License 2.0                                                   | [EPL-2.0][]                              | Y    | Y         |
 | Erlang Public License v1.1                                                   | [ErlPL-1.1][]                            |      |           |
+| Etalab Open License 2.0                                                      | [etalab-2.0][]                           |      |           |
 | EU DataGrid Software License                                                 | [EUDatagrid][]                           | Y    | Y         |
 | European Union Public License 1.0                                            | [EUPL-1.0][]                             |      |           |
 | European Union Public License 1.1                                            | [EUPL-1.1][]                             | Y    | Y         |
@@ -591,6 +592,7 @@ The following licenses have been generated from the license list version 3.6-19-
 [EPL-1.0]: text/EPL-1.0.txt
 [EPL-2.0]: text/EPL-2.0.txt
 [ErlPL-1.1]: text/ErlPL-1.1.txt
+[etalab-2.0]: text/etalab-2.0.txt
 [EUDatagrid]: text/EUDatagrid.txt
 [EUPL-1.0]: text/EUPL-1.0.txt
 [EUPL-1.1]: text/EUPL-1.1.txt
