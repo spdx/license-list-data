@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-15-g0840632
+The following licenses have been generated from the license list version 3.6-19-g3286bd5
 
 ## Licenses with Short Idenifiers
 
@@ -330,6 +330,8 @@ The following licenses have been generated from the license list version 3.6-15-
 | Spencer License 94                                                           | [Spencer-94][]                           |      |           |
 | Spencer License 99                                                           | [Spencer-99][]                           |      |           |
 | Sun Public License v1.0                                                      | [SPL-1.0][]                              | Y    | Y         |
+| SSH OpenSSH license                                                          | [SSH-OpenSSH][]                          |      |           |
+| SSH short notice                                                             | [SSH-short][]                            |      |           |
 | Server Side Public License, v 1                                              | [SSPL-1.0][]                             |      |           |
 | SugarCRM Public License v1.1.3                                               | [SugarCRM-1.1.3][]                       |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                       | [SWL][]                                  |      |           |
@@ -799,6 +801,8 @@ The following licenses have been generated from the license list version 3.6-15-
 [Spencer-94]: text/Spencer-94.txt
 [Spencer-99]: text/Spencer-99.txt
 [SPL-1.0]: text/SPL-1.0.txt
+[SSH-OpenSSH]: text/SSH-OpenSSH.txt
+[SSH-short]: text/SSH-short.txt
 [SSPL-1.0]: text/SSPL-1.0.txt
 [StandardML-NJ]: text/StandardML-NJ.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
