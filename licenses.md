@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-31-g1cbcfce
+The following licenses have been generated from the license list version 3.6-36-g6b35681
 
 ## Licenses with Short Idenifiers
 
@@ -219,7 +219,7 @@ The following licenses have been generated from the license list version 3.6-31-
 | LaTeX Project Public License v1.3a                                           | [LPPL-1.3a][]                            |      | Y         |
 | LaTeX Project Public License v1.3c                                           | [LPPL-1.3c][]                            | Y    |           |
 | MakeIndex License                                                            | [MakeIndex][]                            |      |           |
-| MirOS License                                                                | [MirOS][]                                | Y    |           |
+| The MirOS Licence                                                            | [MirOS][]                                | Y    |           |
 | MIT License                                                                  | [MIT][]                                  | Y    | Y         |
 | MIT No Attribution                                                           | [MIT-0][]                                | Y    |           |
 | Enlightenment License (e16)                                                  | [MIT-advertising][]                      |      |           |
