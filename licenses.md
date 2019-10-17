@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-39-g194a081
+The following licenses have been generated from the license list version 3.6-44-g886e2a9
 
 ## Licenses with Short Idenifiers
 
@@ -262,6 +262,7 @@ The following licenses have been generated from the license list version 3.6-39-
 | Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |           |
 | SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      | Y         |
 | SIL Open Font License 1.1                                                    | [OFL-1.1][]                              | Y    | Y         |
+| Open Government Licence - Canada                                             | [OGL-Canada-2.0][]                       |      |           |
 | Open Government Licence v1.0                                                 | [OGL-UK-1.0][]                           |      |           |
 | Open Government Licence v2.0                                                 | [OGL-UK-2.0][]                           |      |           |
 | Open Government Licence v3.0                                                 | [OGL-UK-3.0][]                           |      |           |
@@ -734,6 +735,7 @@ The following licenses have been generated from the license list version 3.6-39-
 [ODC-By-1.0]: text/ODC-By-1.0.txt
 [OFL-1.0]: text/OFL-1.0.txt
 [OFL-1.1]: text/OFL-1.1.txt
+[OGL-Canada-2.0]: text/OGL-Canada-2.0.txt
 [OGL-UK-1.0]: text/OGL-UK-1.0.txt
 [OGL-UK-2.0]: text/OGL-UK-2.0.txt
 [OGL-UK-3.0]: text/OGL-UK-3.0.txt
