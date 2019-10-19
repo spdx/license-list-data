@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.6-44-g886e2a9
+The following licenses have been generated from the license list version 3.6-47-g4557ddc
 
 ## Licenses with Short Idenifiers
 
@@ -236,6 +236,7 @@ The following licenses have been generated from the license list version 3.6-44-
 | Microsoft Public License                                                     | [MS-PL][]                                | Y    | Y         |
 | Microsoft Reciprocal License                                                 | [MS-RL][]                                | Y    | Y         |
 | Matrix Template Library License                                              | [MTLL][]                                 |      |           |
+| Mulan Permissive Software License, Version 1                                 | [MulanPSL-1.0][]                         |      |           |
 | Multics License                                                              | [Multics][]                              | Y    |           |
 | Mup License                                                                  | [Mup][]                                  |      |           |
 | NASA Open Source Agreement 1.3                                               | [NASA-1.3][]                             | Y    |           |
@@ -708,6 +709,7 @@ The following licenses have been generated from the license list version 3.6-44-
 [MS-PL]: text/MS-PL.txt
 [MS-RL]: text/MS-RL.txt
 [MTLL]: text/MTLL.txt
+[MulanPSL-1.0]: text/MulanPSL-1.0.txt
 [Multics]: text/Multics.txt
 [Mup]: text/Mup.txt
 [NASA-1.3]: text/NASA-1.3.txt
