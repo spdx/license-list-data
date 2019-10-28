@@ -51,4 +51,5 @@ The code that translates the license XML into the license template text is [Lice
 
 ## Licensing Information
 
-Other than the README and related documentation, all data in this repository is generated.  The source of the data is the [license list XML Repository](https://github.com/spdx/license-list-XML).  [LicenseListPublisher](https://github.com/spdx/LicenseListPublisher) is the tool used to publish the data.  Please see the respective repositories for licensing information.
+Other than the README and related documentation, all data in this repository is generated.  The source of the data is the [license list XML Repository](https://github.com/spdx/license-list-XML).  [LicenseListPublisher](https://github.com/spdx/LicenseListPublisher) is the tool used to publish the data.  
+Please see the respective repositories for licensing information.
