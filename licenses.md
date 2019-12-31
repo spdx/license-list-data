@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.7-2-g5f75bd1
+The following licenses have been generated from the license list version 3.7-4-g5a71fc7
 
 ## Licenses with Short Idenifiers
 
@@ -221,7 +221,7 @@ The following licenses have been generated from the license list version 3.7-2-g
 | MakeIndex License                                                            | [MakeIndex][]                            |      |           |
 | The MirOS Licence                                                            | [MirOS][]                                | Y    |           |
 | MIT License                                                                  | [MIT][]                                  | Y    | Y         |
-| MIT No Attribution                                                           | [MIT-0][]                                | Y    |           |
+| MIT No Attribution                                                           | [MIT-0][]                                |      |           |
 | Enlightenment License (e16)                                                  | [MIT-advertising][]                      |      |           |
 | CMU License                                                                  | [MIT-CMU][]                              |      |           |
 | enna License                                                                 | [MIT-enna][]                             |      |           |
