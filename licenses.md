@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.7-5-gebad7c9
+The following licenses have been generated from the license list version 3.7-8-gb731f6e
 
 ## Licenses with Short Idenifiers
 
@@ -262,7 +262,11 @@ The following licenses have been generated from the license list version 3.7-5-g
 | ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      | Y         |
 | Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |           |
 | SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      | Y         |
+| SIL Open Font License 1.0 with no Reserved Font Name                         | [OFL-1.0-no-RFN][]                       |      |           |
+| SIL Open Font License 1.0 with Reserved Font Name                            | [OFL-1.0-RFN][]                          |      |           |
 | SIL Open Font License 1.1                                                    | [OFL-1.1][]                              | Y    | Y         |
+| SIL Open Font License 1.1 with no Reserved Font Name                         | [OFL-1.1-no-RFN][]                       | Y    |           |
+| SIL Open Font License 1.1 with Reserved Font Name                            | [OFL-1.1-RFN][]                          | Y    |           |
 | Open Government Licence - Canada                                             | [OGL-Canada-2.0][]                       |      |           |
 | Open Government Licence v1.0                                                 | [OGL-UK-1.0][]                           |      |           |
 | Open Government Licence v2.0                                                 | [OGL-UK-2.0][]                           |      |           |
@@ -736,7 +740,11 @@ The following licenses have been generated from the license list version 3.7-5-g
 [ODbL-1.0]: text/ODbL-1.0.txt
 [ODC-By-1.0]: text/ODC-By-1.0.txt
 [OFL-1.0]: text/OFL-1.0.txt
+[OFL-1.0-no-RFN]: text/OFL-1.0-no-RFN.txt
+[OFL-1.0-RFN]: text/OFL-1.0-RFN.txt
 [OFL-1.1]: text/OFL-1.1.txt
+[OFL-1.1-no-RFN]: text/OFL-1.1-no-RFN.txt
+[OFL-1.1-RFN]: text/OFL-1.1-RFN.txt
 [OGL-Canada-2.0]: text/OGL-Canada-2.0.txt
 [OGL-UK-1.0]: text/OGL-UK-1.0.txt
 [OGL-UK-2.0]: text/OGL-UK-2.0.txt
