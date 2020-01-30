@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.7-14-g8f99e26
+The following licenses have been generated from the license list version 3.7-18-gdf135a7
 
 ## Licenses with Short Idenifiers
 
@@ -304,6 +304,7 @@ The following licenses have been generated from the license list version 3.7-14-
 | PHP License v3.01                                                            | [PHP-3.01][]                             |      | Y         |
 | Plexus Classworlds License                                                   | [Plexus][]                               |      |           |
 | PostgreSQL License                                                           | [PostgreSQL][]                           | Y    |           |
+| Python Software Foundation License 2.0                                       | [PSF-2.0][]                              |      |           |
 | psfrag License                                                               | [psfrag][]                               |      |           |
 | psutils License                                                              | [psutils][]                              |      |           |
 | Python License 2.0                                                           | [Python-2.0][]                           | Y    | Y         |
@@ -387,43 +388,45 @@ The following licenses have been generated from the license list version 3.7-14-
 
 ## Exception List
 
-| Full Name of Exception                | SPDX LicenseException                   
-|---------------------------------------|------------------------------------------|
-| 389 Directory Server Exception        | [389-exception][]                        |
-| Autoconf exception 2.0                | [Autoconf-exception-2.0][]               |
-| Autoconf exception 3.0                | [Autoconf-exception-3.0][]               |
-| Bison exception 2.2                   | [Bison-exception-2.2][]                  |
-| Bootloader Distribution Exception     | [Bootloader-exception][]                 |
-| Classpath exception 2.0               | [Classpath-exception-2.0][]              |
-| CLISP exception 2.0                   | [CLISP-exception-2.0][]                  |
-| DigiRule FOSS License Exception       | [DigiRule-FOSS-exception][]              |
-| eCos exception 2.0                    | [eCos-exception-2.0][]                   |
-| Fawkes Runtime Exception              | [Fawkes-Runtime-exception][]             |
-| FLTK exception                        | [FLTK-exception][]                       |
-| Font exception 2.0                    | [Font-exception-2.0][]                   |
-| FreeRTOS Exception 2.0                | [freertos-exception-2.0][]               |
-| GCC Runtime Library exception 2.0     | [GCC-exception-2.0][]                    |
-| GCC Runtime Library exception 3.1     | [GCC-exception-3.1][]                    |
-| GNU JavaMail exception                | [gnu-javamail-exception][]               |
-| GPL Cooperation Commitment 1.0        | [GPL-CC-1.0][]                           |
-| i2p GPL+Java Exception                | [i2p-gpl-java-exception][]               |
-| Libtool Exception                     | [Libtool-exception][]                    |
-| Linux Syscall Note                    | [Linux-syscall-note][]                   |
-| LLVM Exception                        | [LLVM-exception][]                       |
-| LZMA exception                        | [LZMA-exception][]                       |
-| Macros and Inline Functions Exception | [mif-exception][]                        |
-| OCaml LGPL Linking Exception          | [OCaml-LGPL-linking-exception][]         |
-| Open CASCADE Exception 1.0            | [OCCT-exception-1.0][]                   |
-| OpenJDK Assembly exception 1.0        | [OpenJDK-assembly-exception-1.0][]       |
-| OpenVPN OpenSSL Exception             | [openvpn-openssl-exception][]            |
-| PS/PDF font exception (2017-08-17)    | [PS-or-PDF-font-exception-20170817][]    |
-| Qt GPL exception 1.0                  | [Qt-GPL-exception-1.0][]                 |
-| Qt LGPL exception 1.1                 | [Qt-LGPL-exception-1.1][]                |
-| Qwt exception 1.0                     | [Qwt-exception-1.0][]                    |
-| Swift Exception                       | [Swift-exception][]                      |
-| U-Boot exception 2.0                  | [u-boot-exception-2.0][]                 |
-| Universal FOSS Exception, Version 1.0 | [Universal-FOSS-exception-1.0][]         |
-| WxWindows Library Exception 3.1       | [WxWindows-exception-3.1][]              |
+| Full Name of Exception                                | SPDX LicenseException                   
+|-------------------------------------------------------|------------------------------------------|
+| 389 Directory Server Exception                        | [389-exception][]                        |
+| Autoconf exception 2.0                                | [Autoconf-exception-2.0][]               |
+| Autoconf exception 3.0                                | [Autoconf-exception-3.0][]               |
+| Bison exception 2.2                                   | [Bison-exception-2.2][]                  |
+| Bootloader Distribution Exception                     | [Bootloader-exception][]                 |
+| Classpath exception 2.0                               | [Classpath-exception-2.0][]              |
+| CLISP exception 2.0                                   | [CLISP-exception-2.0][]                  |
+| DigiRule FOSS License Exception                       | [DigiRule-FOSS-exception][]              |
+| eCos exception 2.0                                    | [eCos-exception-2.0][]                   |
+| Fawkes Runtime Exception                              | [Fawkes-Runtime-exception][]             |
+| FLTK exception                                        | [FLTK-exception][]                       |
+| Font exception 2.0                                    | [Font-exception-2.0][]                   |
+| FreeRTOS Exception 2.0                                | [freertos-exception-2.0][]               |
+| GCC Runtime Library exception 2.0                     | [GCC-exception-2.0][]                    |
+| GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
+| GNU JavaMail exception                                | [gnu-javamail-exception][]               |
+| GPL-3.0 Linking Exception                             | [GPL-3.0-linking-exception][]            |
+| GPL-3.0 Linking Exception (with Corresponding Source) | [GPL-3.0-linking-source-exception][]     |
+| GPL Cooperation Commitment 1.0                        | [GPL-CC-1.0][]                           |
+| i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
+| Libtool Exception                                     | [Libtool-exception][]                    |
+| Linux Syscall Note                                    | [Linux-syscall-note][]                   |
+| LLVM Exception                                        | [LLVM-exception][]                       |
+| LZMA exception                                        | [LZMA-exception][]                       |
+| Macros and Inline Functions Exception                 | [mif-exception][]                        |
+| OCaml LGPL Linking Exception                          | [OCaml-LGPL-linking-exception][]         |
+| Open CASCADE Exception 1.0                            | [OCCT-exception-1.0][]                   |
+| OpenJDK Assembly exception 1.0                        | [OpenJDK-assembly-exception-1.0][]       |
+| OpenVPN OpenSSL Exception                             | [openvpn-openssl-exception][]            |
+| PS/PDF font exception (2017-08-17)                    | [PS-or-PDF-font-exception-20170817][]    |
+| Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
+| Qt LGPL exception 1.1                                 | [Qt-LGPL-exception-1.1][]                |
+| Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
+| Swift Exception                                       | [Swift-exception][]                      |
+| U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
+| Universal FOSS Exception, Version 1.0                 | [Universal-FOSS-exception-1.0][]         |
+| WxWindows Library Exception 3.1                       | [WxWindows-exception-3.1][]              |
 
 ## Deprecated Licenses
 
@@ -783,6 +786,7 @@ The following licenses have been generated from the license list version 3.7-14-
 [PHP-3.01]: text/PHP-3.01.txt
 [Plexus]: text/Plexus.txt
 [PostgreSQL]: text/PostgreSQL.txt
+[PSF-2.0]: text/PSF-2.0.txt
 [psfrag]: text/psfrag.txt
 [psutils]: text/psutils.txt
 [Python-2.0]: text/Python-2.0.txt
@@ -881,6 +885,8 @@ The following licenses have been generated from the license list version 3.7-14-
 [GCC-exception-2.0]: text/GCC-exception-2.0.txt
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
+[GPL-3.0-linking-exception]: text/GPL-3.0-linking-exception.txt
+[GPL-3.0-linking-source-exception]: text/GPL-3.0-linking-source-exception.txt
 [GPL-CC-1.0]: text/GPL-CC-1.0.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
