@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.7-8-gb731f6e
+The following licenses have been generated from the license list version 3.7-14-g8f99e26
 
 ## Licenses with Short Idenifiers
 
@@ -257,6 +257,7 @@ The following licenses have been generated from the license list version 3.7-8-g
 | Non-Profit Open Software License 3.0                                         | [NPOSL-3.0][]                            | Y    |           |
 | NRL License                                                                  | [NRL][]                                  |      |           |
 | NTP License                                                                  | [NTP][]                                  | Y    |           |
+| NTP No Attribution                                                           | [NTP-0][]                                |      |           |
 | Open CASCADE Technology Public License                                       | [OCCT-PL][]                              |      |           |
 | OCLC Research Public License 2.0                                             | [OCLC-2.0][]                             | Y    |           |
 | ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      | Y         |
@@ -734,6 +735,7 @@ The following licenses have been generated from the license list version 3.7-8-g
 [NPOSL-3.0]: text/NPOSL-3.0.txt
 [NRL]: text/NRL.txt
 [NTP]: text/NTP.txt
+[NTP-0]: text/NTP-0.txt
 [Nunit]: text/Nunit.txt
 [OCCT-PL]: text/OCCT-PL.txt
 [OCLC-2.0]: text/OCLC-2.0.txt
