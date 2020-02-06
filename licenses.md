@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.7-18-gdf135a7
+The following licenses have been generated from the license list version 3.7-21-g958f9ac
 
 ## Licenses with Short Idenifiers
 
