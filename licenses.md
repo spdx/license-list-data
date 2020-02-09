@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.7-21-g958f9ac
+The following licenses have been generated from the license list version 3.7-23-g3c6ce98
 
 ## Licenses with Short Idenifiers
 
@@ -206,6 +206,7 @@ The following licenses have been generated from the license list version 3.7-21-
 | Lesser General Public License For Linguistic Resources                       | [LGPLLR][]                               |      |           |
 | libpng License                                                               | [Libpng][]                               |      |           |
 | PNG Reference Library version 2                                              | [libpng-2.0][]                           |      |           |
+| libselinux public domain notice                                              | [libselinux-1.0][]                       |      |           |
 | libtiff License                                                              | [libtiff][]                              |      |           |
 | Licence Libre du Québec – Permissive version 1.1                             | [LiLiQ-P-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité version 1.1                            | [LiLiQ-R-1.1][]                          | Y    |           |
@@ -687,6 +688,7 @@ The following licenses have been generated from the license list version 3.7-21-
 [LGPLLR]: text/LGPLLR.txt
 [Libpng]: text/Libpng.txt
 [libpng-2.0]: text/libpng-2.0.txt
+[libselinux-1.0]: text/libselinux-1.0.txt
 [libtiff]: text/libtiff.txt
 [LiLiQ-P-1.1]: text/LiLiQ-P-1.1.txt
 [LiLiQ-R-1.1]: text/LiLiQ-R-1.1.txt
