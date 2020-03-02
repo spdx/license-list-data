@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-4-gd79c632
+The following licenses have been generated from the license list version 3.8-7-g04dbdeb
 
 ## Licenses with Short Idenifiers
 
