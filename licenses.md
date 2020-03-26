@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-22-gbcb6222
+The following licenses have been generated from the license list version 3.8-39-g9cb4f86
 
 ## Licenses with Short Idenifiers
 
