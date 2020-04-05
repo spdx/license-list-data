@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-39-g9cb4f86
+The following licenses have been generated from the license list version 3.8-47-g9bd47c8
 
 ## Licenses with Short Idenifiers
 
@@ -300,6 +300,7 @@ The following licenses have been generated from the license list version 3.8-39-
 | Open Software License 2.1                                                    | [OSL-2.1][]                              | Y    | Y         |
 | Open Software License 3.0                                                    | [OSL-3.0][]                              | Y    | Y         |
 | The Parity Public License 6.0.0                                              | [Parity-6.0.0][]                         |      |           |
+| The Parity Public License 7.0.0                                              | [Parity-7.0.0][]                         |      |           |
 | ODC Public Domain Dedication & License 1.0                                   | [PDDL-1.0][]                             |      |           |
 | PHP License v3.0                                                             | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                            | [PHP-3.01][]                             |      | Y         |
@@ -783,6 +784,7 @@ The following licenses have been generated from the license list version 3.8-39-
 [OSL-2.1]: text/OSL-2.1.txt
 [OSL-3.0]: text/OSL-3.0.txt
 [Parity-6.0.0]: text/Parity-6.0.0.txt
+[Parity-7.0.0]: text/Parity-7.0.0.txt
 [PDDL-1.0]: text/PDDL-1.0.txt
 [PHP-3.0]: text/PHP-3.0.txt
 [PHP-3.01]: text/PHP-3.01.txt
