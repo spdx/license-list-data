@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-51-g1665fef
+The following licenses have been generated from the license list version 3.8-57-gca4f142
 
 ## Licenses with Short Idenifiers
 
@@ -413,6 +413,7 @@ The following licenses have been generated from the license list version 3.8-51-
 | GPL-3.0 Linking Exception (with Corresponding Source) | [GPL-3.0-linking-source-exception][]     |
 | GPL Cooperation Commitment 1.0                        | [GPL-CC-1.0][]                           |
 | i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
+| LGPL-3.0 Linking Exception                            | [LGPL-3.0-linking-exception][]           |
 | Libtool Exception                                     | [Libtool-exception][]                    |
 | Linux Syscall Note                                    | [Linux-syscall-note][]                   |
 | LLVM Exception                                        | [LLVM-exception][]                       |
@@ -895,6 +896,7 @@ The following licenses have been generated from the license list version 3.8-51-
 [GPL-3.0-linking-source-exception]: text/GPL-3.0-linking-source-exception.txt
 [GPL-CC-1.0]: text/GPL-CC-1.0.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
+[LGPL-3.0-linking-exception]: text/LGPL-3.0-linking-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
 [Linux-syscall-note]: text/Linux-syscall-note.txt
 [LLVM-exception]: text/LLVM-exception.txt
