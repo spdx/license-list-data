@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-81-ge1ddff5
+The following licenses have been generated from the license list version 3.8-84-gac8bc82
 
 ## Licenses with Short Idenifiers
 
@@ -261,6 +261,7 @@ The following licenses have been generated from the license list version 3.8-81-
 | NRL License                                                                  | [NRL][]                                  |      |           |
 | NTP License                                                                  | [NTP][]                                  | Y    |           |
 | NTP No Attribution                                                           | [NTP-0][]                                |      |           |
+| Open Use of Data Agreement v1.0                                              | [O-UDA-1.0][]                            |      |           |
 | Open CASCADE Technology Public License                                       | [OCCT-PL][]                              |      |           |
 | OCLC Research Public License 2.0                                             | [OCLC-2.0][]                             | Y    |           |
 | ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      | Y         |
@@ -750,6 +751,7 @@ The following licenses have been generated from the license list version 3.8-81-
 [NTP]: text/NTP.txt
 [NTP-0]: text/NTP-0.txt
 [Nunit]: text/Nunit.txt
+[O-UDA-1.0]: text/O-UDA-1.0.txt
 [OCCT-PL]: text/OCCT-PL.txt
 [OCLC-2.0]: text/OCLC-2.0.txt
 [ODbL-1.0]: text/ODbL-1.0.txt
