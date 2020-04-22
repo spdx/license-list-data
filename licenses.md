@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-57-gca4f142
+The following licenses have been generated from the license list version 3.8-74-g1a18e4b
 
 ## Licenses with Short Idenifiers
 
@@ -50,7 +50,6 @@ The following licenses have been generated from the license list version 3.8-57-
 | BSD 1-Clause License                                                         | [BSD-1-Clause][]                         |      |           |
 | BSD 2-Clause "Simplified" License                                            | [BSD-2-Clause][]                         | Y    |           |
 | BSD 2-Clause FreeBSD License                                                 | [BSD-2-Clause-FreeBSD][]                 |      | Y         |
-| BSD 2-Clause NetBSD License                                                  | [BSD-2-Clause-NetBSD][]                  |      |           |
 | BSD-2-Clause Plus Patent License                                             | [BSD-2-Clause-Patent][]                  | Y    |           |
 | BSD 3-Clause "New" or "Revised" License                                      | [BSD-3-Clause][]                         | Y    | Y         |
 | BSD with attribution                                                         | [BSD-3-Clause-Attribution][]             |      |           |
@@ -67,6 +66,7 @@ The following licenses have been generated from the license list version 3.8-57-
 | Boost Software License 1.0                                                   | [BSL-1.0][]                              | Y    | Y         |
 | bzip2 and libbzip2 License v1.0.5                                            | [bzip2-1.0.5][]                          |      |           |
 | bzip2 and libbzip2 License v1.0.6                                            | [bzip2-1.0.6][]                          |      |           |
+| Cryptographic Autonomy License 1.0                                           | [CAL-1.0][]                              | Y    |           |
 | Caldera License                                                              | [Caldera][]                              |      |           |
 | Computer Associates Trusted Open Source License 1.1                          | [CATOSL-1.1][]                           | Y    |           |
 | Creative Commons Attribution 1.0 Generic                                     | [CC-BY-1.0][]                            |      |           |
@@ -438,6 +438,7 @@ The following licenses have been generated from the license list version 3.8-57-
 |------------------------------------------------------------------------------|------------------------------------------|
 | Affero General Public License v1.0                                           | [AGPL-1.0][]                             
 | GNU Affero General Public License v3.0                                       | [AGPL-3.0][]                             
+| BSD 2-Clause NetBSD License                                                  | [BSD-2-Clause-NetBSD][]                  
 | eCos license version 2.0                                                     | [eCos-2.0][]                             
 | GNU Free Documentation License v1.1                                          | [GFDL-1.1][]                             
 | GNU Free Documentation License v1.2                                          | [GFDL-1.2][]                             
@@ -529,6 +530,7 @@ The following licenses have been generated from the license list version 3.8-57-
 [BSL-1.0]: text/BSL-1.0.txt
 [bzip2-1.0.5]: text/bzip2-1.0.5.txt
 [bzip2-1.0.6]: text/bzip2-1.0.6.txt
+[CAL-1.0]: text/CAL-1.0.txt
 [Caldera]: text/Caldera.txt
 [CATOSL-1.1]: text/CATOSL-1.1.txt
 [CC-BY-1.0]: text/CC-BY-1.0.txt
