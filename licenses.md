@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-74-g1a18e4b
+The following licenses have been generated from the license list version 3.8-81-ge1ddff5
 
 ## Licenses with Short Idenifiers
 
@@ -67,6 +67,7 @@ The following licenses have been generated from the license list version 3.8-74-
 | bzip2 and libbzip2 License v1.0.5                                            | [bzip2-1.0.5][]                          |      |           |
 | bzip2 and libbzip2 License v1.0.6                                            | [bzip2-1.0.6][]                          |      |           |
 | Cryptographic Autonomy License 1.0                                           | [CAL-1.0][]                              | Y    |           |
+| Cryptographic Autonomy License 1.0                                           | [CAL-1.0-Combined-Work-Exception][]      | Y    |           |
 | Caldera License                                                              | [Caldera][]                              |      |           |
 | Computer Associates Trusted Open Source License 1.1                          | [CATOSL-1.1][]                           | Y    |           |
 | Creative Commons Attribution 1.0 Generic                                     | [CC-BY-1.0][]                            |      |           |
@@ -531,6 +532,7 @@ The following licenses have been generated from the license list version 3.8-74-
 [bzip2-1.0.5]: text/bzip2-1.0.5.txt
 [bzip2-1.0.6]: text/bzip2-1.0.6.txt
 [CAL-1.0]: text/CAL-1.0.txt
+[CAL-1.0-Combined-Work-Exception]: text/CAL-1.0-Combined-Work-Exception.txt
 [Caldera]: text/Caldera.txt
 [CATOSL-1.1]: text/CATOSL-1.1.txt
 [CC-BY-1.0]: text/CC-BY-1.0.txt
