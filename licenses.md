@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-86-g66ce446
+The following licenses have been generated from the license list version 3.8-88-g9da8b5f
 
 ## Licenses with Short Idenifiers
 
@@ -308,6 +308,7 @@ The following licenses have been generated from the license list version 3.8-86-
 | PHP License v3.0                                                             | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                            | [PHP-3.01][]                             |      | Y         |
 | Plexus Classworlds License                                                   | [Plexus][]                               |      |           |
+| PolyForm Noncommercial License 1.0.0                                         | [PolyForm-Noncommercial-1.0.0][]         |      |           |
 | PostgreSQL License                                                           | [PostgreSQL][]                           | Y    |           |
 | Python Software Foundation License 2.0                                       | [PSF-2.0][]                              |      |           |
 | psfrag License                                                               | [psfrag][]                               |      |           |
@@ -798,6 +799,7 @@ The following licenses have been generated from the license list version 3.8-86-
 [PHP-3.0]: text/PHP-3.0.txt
 [PHP-3.01]: text/PHP-3.01.txt
 [Plexus]: text/Plexus.txt
+[PolyForm-Noncommercial-1.0.0]: text/PolyForm-Noncommercial-1.0.0.txt
 [PostgreSQL]: text/PostgreSQL.txt
 [PSF-2.0]: text/PSF-2.0.txt
 [psfrag]: text/psfrag.txt
