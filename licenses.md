@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-92-g5120cc6
+The following licenses have been generated from the license list version 3.8-94-g76072fc
 
 ## Licenses with Short Idenifiers
 
@@ -47,7 +47,7 @@ The following licenses have been generated from the license list version 3.8-92-
 | SQLite Blessing                                                              | [blessing][]                             |      |           |
 | Blue Oak Model License 1.0.0                                                 | [BlueOak-1.0.0][]                        |      |           |
 | Borceux license                                                              | [Borceux][]                              |      |           |
-| BSD 1-Clause License                                                         | [BSD-1-Clause][]                         |      |           |
+| BSD 1-Clause License                                                         | [BSD-1-Clause][]                         | Y    |           |
 | BSD 2-Clause "Simplified" License                                            | [BSD-2-Clause][]                         | Y    |           |
 | BSD 2-Clause FreeBSD License                                                 | [BSD-2-Clause-FreeBSD][]                 |      | Y         |
 | BSD-2-Clause Plus Patent License                                             | [BSD-2-Clause-Patent][]                  | Y    |           |
