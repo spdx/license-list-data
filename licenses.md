@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-88-g9da8b5f
+The following licenses have been generated from the license list version 3.8-92-g5120cc6
 
 ## Licenses with Short Idenifiers
 
@@ -114,6 +114,9 @@ The following licenses have been generated from the license list version 3.8-88-
 | CeCILL-C Free Software License Agreement                                     | [CECILL-C][]                             |      | Y         |
 | CERN Open Hardware Licence v1.1                                              | [CERN-OHL-1.1][]                         |      |           |
 | CERN Open Hardware Licence v1.2                                              | [CERN-OHL-1.2][]                         |      |           |
+| CERN Open Hardware Licence Version 2 - Permissive                            | [CERN-OHL-P-2.0][]                       |      |           |
+| CERN Open Hardware Licence Version 2 - Strongly Reciprocal                   | [CERN-OHL-S-2.0][]                       |      |           |
+| CERN Open Hardware Licence Version 2 - Weakly Reciprocal                     | [CERN-OHL-W-2.0][]                       |      |           |
 | Clarified Artistic License                                                   | [ClArtistic][]                           |      | Y         |
 | CNRI Jython License                                                          | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                          | [CNRI-Python][]                          | Y    |           |
@@ -309,6 +312,7 @@ The following licenses have been generated from the license list version 3.8-88-
 | PHP License v3.01                                                            | [PHP-3.01][]                             |      | Y         |
 | Plexus Classworlds License                                                   | [Plexus][]                               |      |           |
 | PolyForm Noncommercial License 1.0.0                                         | [PolyForm-Noncommercial-1.0.0][]         |      |           |
+| PolyForm Small Business License 1.0.0                                        | [PolyForm-Small-Business-1.0.0][]        |      |           |
 | PostgreSQL License                                                           | [PostgreSQL][]                           | Y    |           |
 | Python Software Foundation License 2.0                                       | [PSF-2.0][]                              |      |           |
 | psfrag License                                                               | [psfrag][]                               |      |           |
@@ -581,6 +585,9 @@ The following licenses have been generated from the license list version 3.8-88-
 [CECILL-C]: text/CECILL-C.txt
 [CERN-OHL-1.1]: text/CERN-OHL-1.1.txt
 [CERN-OHL-1.2]: text/CERN-OHL-1.2.txt
+[CERN-OHL-P-2.0]: text/CERN-OHL-P-2.0.txt
+[CERN-OHL-S-2.0]: text/CERN-OHL-S-2.0.txt
+[CERN-OHL-W-2.0]: text/CERN-OHL-W-2.0.txt
 [ClArtistic]: text/ClArtistic.txt
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
@@ -800,6 +807,7 @@ The following licenses have been generated from the license list version 3.8-88-
 [PHP-3.01]: text/PHP-3.01.txt
 [Plexus]: text/Plexus.txt
 [PolyForm-Noncommercial-1.0.0]: text/PolyForm-Noncommercial-1.0.0.txt
+[PolyForm-Small-Business-1.0.0]: text/PolyForm-Small-Business-1.0.0.txt
 [PostgreSQL]: text/PostgreSQL.txt
 [PSF-2.0]: text/PSF-2.0.txt
 [psfrag]: text/psfrag.txt
