@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-94-g76072fc
+The following licenses have been generated from the license list version 3.8-96-gc54d4a8
 
 ## Licenses with Short Idenifiers
 
@@ -179,6 +179,7 @@ The following licenses have been generated from the license list version 3.8-94-
 | GNU General Public License v3.0 or later                                     | [GPL-3.0-or-later][]                     | Y    | Y         |
 | gSOAP Public License v1.3b                                                   | [gSOAP-1.3b][]                           |      |           |
 | Haskell Language Report License                                              | [HaskellReport][]                        |      |           |
+| Hippocratic License 2.1                                                      | [Hippocratic-2.1][]                      |      |           |
 | Historical Permission Notice and Disclaimer                                  | [HPND][]                                 | Y    | Y         |
 | Historical Permission Notice and Disclaimer - sell variant                   | [HPND-sell-variant][]                    |      |           |
 | IBM PowerPC Initialization and Boot Software                                 | [IBM-pibs][]                             |      |           |
@@ -667,6 +668,7 @@ The following licenses have been generated from the license list version 3.8-94-
 [GPL-3.0-with-GCC-exception]: text/GPL-3.0-with-GCC-exception.txt
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
 [HaskellReport]: text/HaskellReport.txt
+[Hippocratic-2.1]: text/Hippocratic-2.1.txt
 [HPND]: text/HPND.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
 [IBM-pibs]: text/IBM-pibs.txt
