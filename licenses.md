@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-139-g23e679c
+The following licenses have been generated from the license list version 3.9
 
 ## Licenses with Short Idenifiers
 
