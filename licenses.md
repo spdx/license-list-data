@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-117-g2d40fed
+The following licenses have been generated from the license list version 3.8-124-ga546a4d
 
 ## Licenses with Short Idenifiers
 
@@ -249,6 +249,7 @@ The following licenses have been generated from the license list version 3.8-117
 | NASA Open Source Agreement 1.3                                               | [NASA-1.3][]                             | Y    |           |
 | Naumen Public License                                                        | [Naumen][]                               | Y    |           |
 | Net Boolean Public License v1                                                | [NBPL-1.0][]                             |      |           |
+| Non-Commercial Government Licence                                            | [NCGL-UK-2.0][]                          |      |           |
 | University of Illinois/NCSA Open Source License                              | [NCSA][]                                 | Y    | Y         |
 | Net-SNMP License                                                             | [Net-SNMP][]                             |      |           |
 | NetCDF license                                                               | [NetCDF][]                               |      |           |
@@ -436,6 +437,7 @@ The following licenses have been generated from the license list version 3.8-117
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
+| Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
 | Swift Exception                                       | [Swift-exception][]                      |
 | U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
@@ -746,6 +748,7 @@ The following licenses have been generated from the license list version 3.8-117
 [NASA-1.3]: text/NASA-1.3.txt
 [Naumen]: text/Naumen.txt
 [NBPL-1.0]: text/NBPL-1.0.txt
+[NCGL-UK-2.0]: text/NCGL-UK-2.0.txt
 [NCSA]: text/NCSA.txt
 [Net-SNMP]: text/Net-SNMP.txt
 [NetCDF]: text/NetCDF.txt
@@ -932,6 +935,7 @@ The following licenses have been generated from the license list version 3.8-117
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
+[SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
 [Swift-exception]: text/Swift-exception.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
