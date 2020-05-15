@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.8-106-g4cfec76
+The following licenses have been generated from the license list version 3.8-117-g2d40fed
 
 ## Licenses with Short Idenifiers
 
@@ -436,6 +436,7 @@ The following licenses have been generated from the license list version 3.8-106
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
+| Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
 | Swift Exception                                       | [Swift-exception][]                      |
 | U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
 | Universal FOSS Exception, Version 1.0                 | [Universal-FOSS-exception-1.0][]         |
@@ -931,6 +932,7 @@ The following licenses have been generated from the license list version 3.8-106
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
+[SHL-2.1]: text/SHL-2.1.txt
 [Swift-exception]: text/Swift-exception.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
 [Universal-FOSS-exception-1.0]: text/Universal-FOSS-exception-1.0.txt
