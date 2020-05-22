@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9
+The following licenses have been generated from the license list version 3.9-2-g353d8ca
 
 ## Licenses with Short Idenifiers
 
@@ -312,7 +312,7 @@ The following licenses have been generated from the license list version 3.9
 | The Parity Public License 7.0.0                                              | [Parity-7.0.0][]                         |      |           |
 | ODC Public Domain Dedication & License 1.0                                   | [PDDL-1.0][]                             |      |           |
 | PHP License v3.0                                                             | [PHP-3.0][]                              | Y    |           |
-| PHP License v3.01                                                            | [PHP-3.01][]                             |      | Y         |
+| PHP License v3.01                                                            | [PHP-3.01][]                             | Y    | Y         |
 | Plexus Classworlds License                                                   | [Plexus][]                               |      |           |
 | PolyForm Noncommercial License 1.0.0                                         | [PolyForm-Noncommercial-1.0.0][]         |      |           |
 | PolyForm Small Business License 1.0.0                                        | [PolyForm-Small-Business-1.0.0][]        |      |           |
