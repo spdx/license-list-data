@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9-7-g9267e1f
+The following licenses have been generated from the license list version 3.9-10-gb19922e
 
 ## Licenses with Short Idenifiers
 
@@ -161,10 +161,22 @@ The following licenses have been generated from the license list version 3.9-7-g
 | FSF Unlimited License                                                        | [FSFUL][]                                |      |           |
 | FSF Unlimited License (with License Retention)                               | [FSFULLR][]                              |      |           |
 | Freetype Project License                                                     | [FTL][]                                  |      | Y         |
+| GNU Free Documentation License v1.1 only - invariants                        | [GFDL-1.1-invariants-only][]             |      |           |
+| GNU Free Documentation License v1.1 or later - invariants                    | [GFDL-1.1-invariants-or-later][]         |      |           |
+| GNU Free Documentation License v1.1 only - no invariants                     | [GFDL-1.1-no-invariants-only][]          |      |           |
+| GNU Free Documentation License v1.1 or later - no invariants                 | [GFDL-1.1-no-invariants-or-later][]      |      |           |
 | GNU Free Documentation License v1.1 only                                     | [GFDL-1.1-only][]                        |      | Y         |
 | GNU Free Documentation License v1.1 or later                                 | [GFDL-1.1-or-later][]                    |      | Y         |
+| GNU Free Documentation License v1.2 only - invariants                        | [GFDL-1.2-invariants-only][]             |      |           |
+| GNU Free Documentation License v1.2 or later - invariants                    | [GFDL-1.2-invariants-or-later][]         |      |           |
+| GNU Free Documentation License v1.2 only - no invariants                     | [GFDL-1.2-no-invariants-only][]          |      |           |
+| GNU Free Documentation License v1.2 or later - no invariants                 | [GFDL-1.2-no-invariants-or-later][]      |      |           |
 | GNU Free Documentation License v1.2 only                                     | [GFDL-1.2-only][]                        |      | Y         |
 | GNU Free Documentation License v1.2 or later                                 | [GFDL-1.2-or-later][]                    |      | Y         |
+| GNU Free Documentation License v1.3 only - invariants                        | [GFDL-1.3-invariants-only][]             |      |           |
+| GNU Free Documentation License v1.3 or later - invariants                    | [GFDL-1.3-invariants-or-later][]         |      |           |
+| GNU Free Documentation License v1.3 only - no invariants                     | [GFDL-1.3-no-invariants-only][]          |      |           |
+| GNU Free Documentation License v1.3 or later - no invariants                 | [GFDL-1.3-no-invariants-or-later][]      |      |           |
 | GNU Free Documentation License v1.3 only                                     | [GFDL-1.3-only][]                        |      | Y         |
 | GNU Free Documentation License v1.3 or later                                 | [GFDL-1.3-or-later][]                    |      | Y         |
 | Giftware License                                                             | [Giftware][]                             |      |           |
@@ -640,12 +652,24 @@ The following licenses have been generated from the license list version 3.9-7-g
 [FSFULLR]: text/FSFULLR.txt
 [FTL]: text/FTL.txt
 [GFDL-1.1]: text/GFDL-1.1.txt
+[GFDL-1.1-invariants-only]: text/GFDL-1.1-invariants-only.txt
+[GFDL-1.1-invariants-or-later]: text/GFDL-1.1-invariants-or-later.txt
+[GFDL-1.1-no-invariants-only]: text/GFDL-1.1-no-invariants-only.txt
+[GFDL-1.1-no-invariants-or-later]: text/GFDL-1.1-no-invariants-or-later.txt
 [GFDL-1.1-only]: text/GFDL-1.1-only.txt
 [GFDL-1.1-or-later]: text/GFDL-1.1-or-later.txt
 [GFDL-1.2]: text/GFDL-1.2.txt
+[GFDL-1.2-invariants-only]: text/GFDL-1.2-invariants-only.txt
+[GFDL-1.2-invariants-or-later]: text/GFDL-1.2-invariants-or-later.txt
+[GFDL-1.2-no-invariants-only]: text/GFDL-1.2-no-invariants-only.txt
+[GFDL-1.2-no-invariants-or-later]: text/GFDL-1.2-no-invariants-or-later.txt
 [GFDL-1.2-only]: text/GFDL-1.2-only.txt
 [GFDL-1.2-or-later]: text/GFDL-1.2-or-later.txt
 [GFDL-1.3]: text/GFDL-1.3.txt
+[GFDL-1.3-invariants-only]: text/GFDL-1.3-invariants-only.txt
+[GFDL-1.3-invariants-or-later]: text/GFDL-1.3-invariants-or-later.txt
+[GFDL-1.3-no-invariants-only]: text/GFDL-1.3-no-invariants-only.txt
+[GFDL-1.3-no-invariants-or-later]: text/GFDL-1.3-no-invariants-or-later.txt
 [GFDL-1.3-only]: text/GFDL-1.3-only.txt
 [GFDL-1.3-or-later]: text/GFDL-1.3-or-later.txt
 [Giftware]: text/Giftware.txt

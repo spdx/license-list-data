@@ -5,7 +5,6 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:License rdf:about="http://spdx.org/licenses/GFDL-1.3-or-later">
     <spdx:isFsfLibre>true</spdx:isFsfLibre>
-    <spdx:licenseId>GFDL-1.3-or-later</spdx:licenseId>
     <spdx:licenseText>GNU Free Documentation License
 
 Version 1.3, 3 November 2008 Copyright (C) 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;
@@ -156,7 +155,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 
 To use this License in a document you have written, include a copy of the License in the document and put the following copyright and license notices just after the title page:
 
-Copyright (c) YEAR YOUR NAME . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections , no Front-Cover Texts , and no Back-Cover Texts . A copy of the license is included in the section entitled "GNU Free Documentation License".
+Copyright (c) YEAR YOUR NAME. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".
 
 If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts, replace the "with...Texts." line with this:
 
@@ -165,7 +164,10 @@ with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts 
 If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.</spdx:licenseText>
-    <rdfs:comment>This license was released 3 November 2008.</rdfs:comment>
+    <spdx:standardLicenseHeader>Copyright (c) YEAR YOUR NAME . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with the Invariant Sections being LIST THEIR TITLES , with the Front-Cover Texts being LIST , and with the Back-Cover Texts being LIST . A copy of the license is included in the section entitled "GNU Free Documentation License".</spdx:standardLicenseHeader>
+    <spdx:licenseId>GFDL-1.3-or-later</spdx:licenseId>
+    <spdx:standardLicenseHeaderTemplate>Copyright (c) &lt;&lt;var;name="copyright";original="YEAR YOUR NAME";match=".+"&gt;&gt; . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with &lt;&lt;var;name="invariantSections";original="the Invariant Sections being LIST THEIR TITLES";match="the Invariant Sections       being .+|no Invariant Sections"&gt;&gt; , with &lt;&lt;var;name="frontCoverTexts";original="the Front-Cover Texts being LIST";match="the Front-Cover Texts being .+|no Front-Cover Texts"&gt;&gt; , and with &lt;&lt;var;name="backCoverTexts";original="the Back-Cover Texts being LIST";match="the Back-Cover Texts being .+|no Back-Cover Texts"&gt;&gt; . A copy of the license is included in the section entitled "GNU Free Documentation License".</spdx:standardLicenseHeaderTemplate>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/fdl-1.3.txt</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; GNU Free Documentation License
 
 Version 1.3, 3 November 2008&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (C) 2000, 2001, 2002, 2007, 2008 Free Software Foundation, Inc. &lt;http://fsf.org/&gt;";match=".{0,1000}"&gt;&gt;
@@ -316,7 +318,7 @@ Everyone is permitted to copy and distribute verbatim copies of this license doc
 
 To use this License in a document you have written, include a copy of the License in the document and put the following copyright and license notices just after the title page:
 
-Copyright (c) &lt;&lt;var;name="copyright";original="YEAR YOUR NAME";match=".+"&gt;&gt; . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with &lt;&lt;var;name="invariantSections";original="no Invariant Sections";match="the Invariant Sections being .*|no Invariant Sections"&gt;&gt; , &lt;&lt;var;name="frontCoverTexts";original="no Front-Cover Texts";match="with the Front-Cover Texts being .+|no Front-Cover Texts"&gt;&gt; , and &lt;&lt;var;name="backCoverTexts";original="no Back-Cover Texts";match="with the Back-Cover Texts being .+|no Back-Cover Texts"&gt;&gt; . A copy of the license is included in the section entitled "GNU Free Documentation License".
+Copyright (c) YEAR YOUR NAME. Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts. A copy of the license is included in the section entitled "GNU Free Documentation License".
 
 If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts, replace the "with...Texts." line with this:
 
@@ -325,9 +327,7 @@ with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts 
 If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <rdfs:seeAlso>https://www.gnu.org/licenses/fdl-1.3.txt</rdfs:seeAlso>
-    <spdx:standardLicenseHeaderTemplate>Copyright (c) &lt;&lt;var;name="copyright";original="YEAR YOUR NAME";match=".+"&gt;&gt; . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with &lt;&lt;var;name="invariantSections";original="no Invariant Sections";match="the Invariant Sections being .*|no Invariant Sections"&gt;&gt; , &lt;&lt;var;name="frontCoverTexts";original="no Front-Cover Texts";match="with the Front-Cover Texts being .+|no Front-Cover Texts"&gt;&gt; , and &lt;&lt;var;name="backCoverTexts";original="no Back-Cover Texts";match="with the Back-Cover Texts being .+|no Back-Cover Texts"&gt;&gt; . A copy of the license is included in the section entitled "GNU Free Documentation License".</spdx:standardLicenseHeaderTemplate>
-    <spdx:standardLicenseHeader>Copyright (c) YEAR YOUR NAME . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.3 or any later version published by the Free Software Foundation; with no Invariant Sections , no Front-Cover Texts , and no Back-Cover Texts . A copy of the license is included in the section entitled "GNU Free Documentation License".</spdx:standardLicenseHeader>
     <spdx:name>GNU Free Documentation License v1.3 or later</spdx:name>
+    <rdfs:comment>This license was released 3 November 2008. The identifier GFDL-1.3-or-later can be used to indicate that this license applies, without asserting whether or not any Invariant Sections, Front-Cover Texts or Back-Cover Texts are present. See GFDL-1.3-or-later-invariants and GFDL-1.3-or-later-no-invariants for alternative identifiers that can be used to express explicitly that these sections or cover texts are present or are not present, respectively.</rdfs:comment>
   </spdx:License>
 </rdf:RDF>
