@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9-4-g1a3102c
+The following licenses have been generated from the license list version 3.9-7-g9267e1f
 
 ## Licenses with Short Idenifiers
 
@@ -144,6 +144,7 @@ The following licenses have been generated from the license list version 3.9-4-g
 | Eiffel Forum License v2.0                                                    | [EFL-2.0][]                              | Y    | Y         |
 | eGenix.com Public License 1.1.0                                              | [eGenix][]                               |      |           |
 | Entessa Public License v1.0                                                  | [Entessa][]                              | Y    |           |
+| EPICS Open License                                                           | [EPICS][]                                |      |           |
 | Eclipse Public License 1.0                                                   | [EPL-1.0][]                              | Y    | Y         |
 | Eclipse Public License 2.0                                                   | [EPL-2.0][]                              | Y    | Y         |
 | Erlang Public License v1.1                                                   | [ErlPL-1.1][]                            |      |           |
@@ -621,6 +622,7 @@ The following licenses have been generated from the license list version 3.9-4-g
 [EFL-2.0]: text/EFL-2.0.txt
 [eGenix]: text/eGenix.txt
 [Entessa]: text/Entessa.txt
+[EPICS]: text/EPICS.txt
 [EPL-1.0]: text/EPL-1.0.txt
 [EPL-2.0]: text/EPL-2.0.txt
 [ErlPL-1.1]: text/ErlPL-1.1.txt
