@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9-10-gb19922e
+The following licenses have been generated from the license list version 3.9-13-gb7b4862
 
 ## Licenses with Short Idenifiers
 
@@ -183,6 +183,7 @@ The following licenses have been generated from the license list version 3.9-10-
 | GL2PS License                                                                | [GL2PS][]                                |      |           |
 | 3dfx Glide License                                                           | [Glide][]                                |      |           |
 | Glulxe License                                                               | [Glulxe][]                               |      |           |
+| Good Luck With That Public License                                           | [GLWTPL][]                               |      |           |
 | gnuplot License                                                              | [gnuplot][]                              |      | Y         |
 | GNU General Public License v1.0 only                                         | [GPL-1.0-only][]                         |      |           |
 | GNU General Public License v1.0 or later                                     | [GPL-1.0-or-later][]                     |      |           |
@@ -676,6 +677,7 @@ The following licenses have been generated from the license list version 3.9-10-
 [GL2PS]: text/GL2PS.txt
 [Glide]: text/Glide.txt
 [Glulxe]: text/Glulxe.txt
+[GLWTPL]: text/GLWTPL.txt
 [gnuplot]: text/gnuplot.txt
 [GPL-1.0]: text/GPL-1.0.txt
 [GPL-1.0+]: text/GPL-1.0+.txt
