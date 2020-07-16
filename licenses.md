@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9-18-ge74363e
+The following licenses have been generated from the license list version 3.9-21-g1a796c7
 
 ## Licenses with Short Idenifiers
 
@@ -74,6 +74,7 @@ The following licenses have been generated from the license list version 3.9-18-
 | Creative Commons Attribution 2.0 Generic                                     | [CC-BY-2.0][]                            |      |           |
 | Creative Commons Attribution 2.5 Generic                                     | [CC-BY-2.5][]                            |      |           |
 | Creative Commons Attribution 3.0 Unported                                    | [CC-BY-3.0][]                            |      |           |
+| Creative Commons Attribution 3.0 Austria                                     | [CC-BY-3.0-AT][]                         |      |           |
 | Creative Commons Attribution 4.0 International                               | [CC-BY-4.0][]                            |      | Y         |
 | Creative Commons Attribution Non Commercial 1.0 Generic                      | [CC-BY-NC-1.0][]                         |      |           |
 | Creative Commons Attribution Non Commercial 2.0 Generic                      | [CC-BY-NC-2.0][]                         |      |           |
@@ -99,6 +100,7 @@ The following licenses have been generated from the license list version 3.9-18-
 | Creative Commons Attribution Share Alike 2.0 Generic                         | [CC-BY-SA-2.0][]                         |      |           |
 | Creative Commons Attribution Share Alike 2.5 Generic                         | [CC-BY-SA-2.5][]                         |      |           |
 | Creative Commons Attribution Share Alike 3.0 Unported                        | [CC-BY-SA-3.0][]                         |      |           |
+| Creative Commons Attribution-Share Alike 3.0 Austria                         | [CC-BY-SA-3.0-AT][]                      |      |           |
 | Creative Commons Attribution Share Alike 4.0 International                   | [CC-BY-SA-4.0][]                         |      | Y         |
 | Creative Commons Public Domain Dedication and Certification                  | [CC-PDDC][]                              |      |           |
 | Creative Commons Zero v1.0 Universal                                         | [CC0-1.0][]                              |      | Y         |
@@ -564,6 +566,7 @@ The following licenses have been generated from the license list version 3.9-18-
 [CC-BY-2.0]: text/CC-BY-2.0.txt
 [CC-BY-2.5]: text/CC-BY-2.5.txt
 [CC-BY-3.0]: text/CC-BY-3.0.txt
+[CC-BY-3.0-AT]: text/CC-BY-3.0-AT.txt
 [CC-BY-4.0]: text/CC-BY-4.0.txt
 [CC-BY-NC-1.0]: text/CC-BY-NC-1.0.txt
 [CC-BY-NC-2.0]: text/CC-BY-NC-2.0.txt
@@ -589,6 +592,7 @@ The following licenses have been generated from the license list version 3.9-18-
 [CC-BY-SA-2.0]: text/CC-BY-SA-2.0.txt
 [CC-BY-SA-2.5]: text/CC-BY-SA-2.5.txt
 [CC-BY-SA-3.0]: text/CC-BY-SA-3.0.txt
+[CC-BY-SA-3.0-AT]: text/CC-BY-SA-3.0-AT.txt
 [CC-BY-SA-4.0]: text/CC-BY-SA-4.0.txt
 [CC-PDDC]: text/CC-PDDC.txt
 [CC0-1.0]: text/CC0-1.0.txt
