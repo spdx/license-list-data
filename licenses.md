@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9-21-g1a796c7
+The following licenses have been generated from the license list version 3.9-34-g531e5b5
 
 ## Licenses with Short Idenifiers
 
@@ -85,6 +85,7 @@ The following licenses have been generated from the license list version 3.9-21-
 | Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic       | [CC-BY-NC-ND-2.0][]                      |      |           |
 | Creative Commons Attribution Non Commercial No Derivatives 2.5 Generic       | [CC-BY-NC-ND-2.5][]                      |      |           |
 | Creative Commons Attribution Non Commercial No Derivatives 3.0 Unported      | [CC-BY-NC-ND-3.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial No Derivatives 3.0 IGO           | [CC-BY-NC-ND-3.0-IGO][]                  |      |           |
 | Creative Commons Attribution Non Commercial No Derivatives 4.0 International | [CC-BY-NC-ND-4.0][]                      |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 1.0 Generic          | [CC-BY-NC-SA-1.0][]                      |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 2.0 Generic          | [CC-BY-NC-SA-2.0][]                      |      |           |
@@ -271,6 +272,8 @@ The following licenses have been generated from the license list version 3.9-21-
 | NetCDF license                                                               | [NetCDF][]                               |      |           |
 | Newsletr License                                                             | [Newsletr][]                             |      |           |
 | Nethack General Public License                                               | [NGPL][]                                 | Y    |           |
+| NIST Public Domain Notice                                                    | [NIST-PD][]                              |      |           |
+| NIST Public Domain Notice with license fallback                              | [NIST-PD-fallback][]                     |      |           |
 | Norwegian Licence for Open Government Data                                   | [NLOD-1.0][]                             |      |           |
 | No Limit Public License                                                      | [NLPL][]                                 |      |           |
 | Nokia Open Source License                                                    | [Nokia][]                                | Y    | Y         |
@@ -577,6 +580,7 @@ The following licenses have been generated from the license list version 3.9-21-
 [CC-BY-NC-ND-2.0]: text/CC-BY-NC-ND-2.0.txt
 [CC-BY-NC-ND-2.5]: text/CC-BY-NC-ND-2.5.txt
 [CC-BY-NC-ND-3.0]: text/CC-BY-NC-ND-3.0.txt
+[CC-BY-NC-ND-3.0-IGO]: text/CC-BY-NC-ND-3.0-IGO.txt
 [CC-BY-NC-ND-4.0]: text/CC-BY-NC-ND-4.0.txt
 [CC-BY-NC-SA-1.0]: text/CC-BY-NC-SA-1.0.txt
 [CC-BY-NC-SA-2.0]: text/CC-BY-NC-SA-2.0.txt
@@ -786,6 +790,8 @@ The following licenses have been generated from the license list version 3.9-21-
 [NetCDF]: text/NetCDF.txt
 [Newsletr]: text/Newsletr.txt
 [NGPL]: text/NGPL.txt
+[NIST-PD]: text/NIST-PD.txt
+[NIST-PD-fallback]: text/NIST-PD-fallback.txt
 [NLOD-1.0]: text/NLOD-1.0.txt
 [NLPL]: text/NLPL.txt
 [Nokia]: text/Nokia.txt
