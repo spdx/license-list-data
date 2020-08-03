@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9-65-ge7e2786
+The following licenses have been generated from the license list version 3.9-68-gaa34e3c
 
 ## Licenses with Short Idenifiers
 
@@ -49,8 +49,8 @@ The following licenses have been generated from the license list version 3.9-65-
 | Borceux license                                                              | [Borceux][]                              |      |           |
 | BSD 1-Clause License                                                         | [BSD-1-Clause][]                         | Y    |           |
 | BSD 2-Clause "Simplified" License                                            | [BSD-2-Clause][]                         | Y    |           |
-| BSD 2-Clause FreeBSD License                                                 | [BSD-2-Clause-FreeBSD][]                 |      | Y         |
 | BSD-2-Clause Plus Patent License                                             | [BSD-2-Clause-Patent][]                  | Y    |           |
+| BSD 2-Clause with views sentence                                             | [BSD-2-Clause-Views][]                   |      |           |
 | BSD 3-Clause "New" or "Revised" License                                      | [BSD-3-Clause][]                         | Y    | Y         |
 | BSD with attribution                                                         | [BSD-3-Clause-Attribution][]             |      |           |
 | BSD 3-Clause Clear License                                                   | [BSD-3-Clause-Clear][]                   |      | Y         |
@@ -469,6 +469,7 @@ The following licenses have been generated from the license list version 3.9-65-
 |------------------------------------------------------------------------------|------------------------------------------|
 | Affero General Public License v1.0                                           | [AGPL-1.0][]                             
 | GNU Affero General Public License v3.0                                       | [AGPL-3.0][]                             
+| BSD 2-Clause FreeBSD License                                                 | [BSD-2-Clause-FreeBSD][]                 
 | BSD 2-Clause NetBSD License                                                  | [BSD-2-Clause-NetBSD][]                  
 | eCos license version 2.0                                                     | [eCos-2.0][]                             
 | GNU Free Documentation License v1.1                                          | [GFDL-1.1][]                             
@@ -546,6 +547,7 @@ The following licenses have been generated from the license list version 3.9-65-
 [BSD-2-Clause-FreeBSD]: text/BSD-2-Clause-FreeBSD.txt
 [BSD-2-Clause-NetBSD]: text/BSD-2-Clause-NetBSD.txt
 [BSD-2-Clause-Patent]: text/BSD-2-Clause-Patent.txt
+[BSD-2-Clause-Views]: text/BSD-2-Clause-Views.txt
 [BSD-3-Clause]: text/BSD-3-Clause.txt
 [BSD-3-Clause-Attribution]: text/BSD-3-Clause-Attribution.txt
 [BSD-3-Clause-Clear]: text/BSD-3-Clause-Clear.txt
