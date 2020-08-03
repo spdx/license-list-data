@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.9-58-gf9f0109
+The following licenses have been generated from the license list version 3.9-65-ge7e2786
 
 ## Licenses with Short Idenifiers
 
@@ -388,7 +388,7 @@ The following licenses have been generated from the license list version 3.9-58-
 | Unicode License Agreement - Data Files and Software (2015)                   | [Unicode-DFS-2015][]                     |      |           |
 | Unicode License Agreement - Data Files and Software (2016)                   | [Unicode-DFS-2016][]                     |      |           |
 | Unicode Terms of Use                                                         | [Unicode-TOU][]                          |      |           |
-| The Unlicense                                                                | [Unlicense][]                            |      | Y         |
+| The Unlicense                                                                | [Unlicense][]                            | Y    | Y         |
 | Universal Permissive License v1.0                                            | [UPL-1.0][]                              | Y    | Y         |
 | Vim License                                                                  | [Vim][]                                  |      | Y         |
 | VOSTROM Public License for Open Source                                       | [VOSTROM][]                              |      |           |
