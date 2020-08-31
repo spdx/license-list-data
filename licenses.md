@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10
+The following licenses have been generated from the license list version 3.10-3-gaf50167
 
 ## Licenses with Short Idenifiers
 
@@ -244,7 +244,7 @@ The following licenses have been generated from the license list version 3.10
 | MakeIndex License                                                            | [MakeIndex][]                            |      |           |
 | The MirOS Licence                                                            | [MirOS][]                                | Y    |           |
 | MIT License                                                                  | [MIT][]                                  | Y    | Y         |
-| MIT No Attribution                                                           | [MIT-0][]                                |      |           |
+| MIT No Attribution                                                           | [MIT-0][]                                | Y    |           |
 | Enlightenment License (e16)                                                  | [MIT-advertising][]                      |      |           |
 | CMU License                                                                  | [MIT-CMU][]                              |      |           |
 | enna License                                                                 | [MIT-enna][]                             |      |           |
