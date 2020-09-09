@@ -107,7 +107,7 @@ The license summary information contains the following fields:
 - reference – Reference to the HTML format for the license file
 - isDeprecatedLicenseId – True if the entire license is deprecated (note – this isn&#39;t actually the best name for this particular field)
 - detailsUrl – URL to a JSON file containing the license detailed information
-- referenceNumber – Generated number
+- referenceNumber – Deprecated - this field is generated and is no longer in use
 - name – License name
 - licenseId – License identifier
 - seeAlso – Cross reference URL pointing to additional copies of the license
