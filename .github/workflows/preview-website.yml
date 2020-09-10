@@ -16,4 +16,18 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: gh-pages
           FOLDER: website
-          CLEAN: true
+          CLEAN: true      
+      - name: checkout-gh-pages
+        uses: actions/checkout@v2
+        with:
+          ref: 'gh-pages'
+      - name: add-preview
+        uses: actions/checkout@v2
+        with:
+          find: "<title>SPDX License List"
+          replace: "<title>PREVIEW - SPDX License List"
+      - name: fix-breadcrumbs
+        uses: actions/checkout@v2
+        with:
+          find: "<a href="/">Home</a> » <a href="/licenses">Licenses</a>"
+          replace: "<a href="/license-list-data">Licenses</a>"
