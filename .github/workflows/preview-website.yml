@@ -24,10 +24,10 @@ jobs:
       - name: add-preview
         uses: actions/checkout@v2
         with:
-          find: "<title>SPDX License List"
-          replace: "<title>PREVIEW - SPDX License List"
+          find: '<title>SPDX License List'
+          replace: '<title>PREVIEW - SPDX License List'
       - name: fix-breadcrumbs
         uses: actions/checkout@v2
         with:
-          find: "<a href="/">Home</a> » <a href="/licenses">Licenses</a>"
-          replace: "<a href="/license-list-data">Licenses</a>"
+          find: '<a href="/">Home</a> » <a href="/licenses">Licenses</a>'
+          replace: '<a href="/license-list-data">Licenses</a>'
