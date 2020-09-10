@@ -22,12 +22,12 @@ jobs:
         with:
           ref: 'gh-pages'
       - name: add-preview
-        uses: actions/checkout@v2
+        uses: jacobtomlinson/gha-find-replace@master
         with:
           find: '<title>SPDX License List'
           replace: '<title>PREVIEW - SPDX License List'
       - name: fix-breadcrumbs
-        uses: actions/checkout@v2
+        uses: jacobtomlinson/gha-find-replace@master
         with:
           find: '<a href="/">Home</a> » <a href="/licenses">Licenses</a>'
           replace: '<a href="/license-list-data">Licenses</a>'
