@@ -24,8 +24,8 @@ jobs:
       - name: add-preview
         uses: jacobtomlinson/gha-find-replace@master
         with:
-          find: '<title>SPDX License List'
-          replace: '<title>PREVIEW - SPDX License List'
+          find: '>SPDX License List'
+          replace: '>PREVIEW - SPDX License List'
       - name: fix-breadcrumbs
         uses: jacobtomlinson/gha-find-replace@master
         with:
