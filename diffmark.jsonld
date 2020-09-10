@@ -1,0 +1,30 @@
+{
+  "@id" : "http://spdx.org/licenses/diffmark",
+  "@type" : "spdx:License",
+  "licenseId" : "diffmark",
+  "licenseText" : "\n\n   1. you can do what you want with it\n\n   2. I refuse any responsibility for the consequences",
+  "name" : "diffmark license",
+  "standardLicenseTemplate" : "\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
+  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/diffmark",
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

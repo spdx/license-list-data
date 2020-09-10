@@ -1,0 +1,30 @@
+{
+  "@id" : "http://spdx.org/licenses/Newsletr",
+  "@type" : "spdx:License",
+  "licenseId" : "Newsletr",
+  "licenseText" : "Copyright 1989--2004 by Hunter Goatley.\n\nPermission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:\n\n   1. This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n   2. Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.",
+  "name" : "Newsletr License",
+  "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1989--2004 by Hunter Goatley.\";match=\".{0,1000}\">>\n\nPermission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> This software is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.",
+  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Newsletr",
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

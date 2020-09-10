@@ -1,0 +1,34 @@
+{
+  "@id" : "http://spdx.org/licenses/GPL-3.0-linking-source-exception",
+  "@type" : "spdx:LicenseException",
+  "licenseExceptionId" : "GPL-3.0-linking-source-exception",
+  "licenseExceptionTemplate" : "<<beginOptional>> <<beginOptional>> Additional permission under GNU GPL version 3 section 7<<endOptional>><<endOptional>>\n\nIf you modify this Program, or any covered work, by linking or combining it with <<var;name=\"library1\";original=\"[name of library]\";match=\".+\">> (or a modified version of that library), containing parts covered by the terms of <<var;name=\"libraryLicense1\";original=\"[name of library's license]\";match=\".+\">> , the licensors of this Program grant you additional permission to convey the resulting work. Corresponding Source for a non-source form of such a combination shall include the source code for the parts of <<var;name=\"library2\";original=\"[name of library]\";match=\".+\">> used as well as that of the covered work.",
+  "licenseExceptionText" : "Additional permission under GNU GPL version 3 section 7\n\nIf you modify this Program, or any covered work, by linking or combining it with [name of library] (or a modified version of that library), containing parts covered by the terms of [name of library's license] , the licensors of this Program grant you additional permission to convey the resulting work. Corresponding Source for a non-source form of such a combination shall include the source code for the parts of [name of library] used as well as that of the covered work.",
+  "name" : "GPL-3.0 Linking Exception (with Corresponding Source)",
+  "comment" : "This exception is based on the suggested template from the Free Software Foundation's FAQ about the GPL. This variant includes the second optional sentence regarding Corresponding Source. For a variant without that sentence, please see GPL-3.0-linking-exception.",
+  "seeAlso" : [ "https://github.com/mirror/wget/blob/master/src/http.c#L20", "https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs" ],
+  "@context" : {
+    "licenseExceptionTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionTemplate"
+    },
+    "licenseExceptionText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseExceptionId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

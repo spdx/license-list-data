@@ -1,0 +1,34 @@
+{
+  "@id" : "http://spdx.org/licenses/HPND-sell-variant",
+  "@type" : "spdx:License",
+  "licenseId" : "HPND-sell-variant",
+  "licenseText" : "<copyright notice>\n\nPermission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appears in all copies, and that both that the copyright notice and this permission notice appear in supporting documentation, and that the name of <copyright holder> <or related entities> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission . <copyright holder> makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty. <copyright holder> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS . IN NO EVENT SHALL <copyright holder> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+  "name" : "Historical Permission Notice and Disclaimer - sell variant",
+  "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"<copyright notice>\";match=\".{0,1000}\">>\n\nPermission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appears in all copies<<beginOptional>>, <<endOptional>><<beginOptional>> and<<endOptional>> that both<<beginOptional>> that<<endOptional>><<beginOptional>> the<<endOptional>> copyright notice and this permission notice appear in supporting documentation<<beginOptional>>, and that the name<<beginOptional>> of<<endOptional>> <<var;name=\"copyrightHolder0\";original=\"<copyright holder>\";match=\".*\">> <<var;name=\"orRelated\";original=\"<or related entities>\";match=\".*\">> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission <<endOptional>> .<<beginOptional>> <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.<<endOptional>><<beginOptional>> <<var;name=\"copyrightHolder2\";original=\"<copyright holder>\";match=\".*\">> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS <<var;name=\"period\";original=\".\";match=\"[.,]?\">> IN NO EVENT SHALL <<var;name=\"copyrightHolder3\";original=\"<copyright holder>\";match=\".*\">> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.<<endOptional>>",
+  "comment" : "This license is a variant of HPND (https://spdx.org/licenses/HPND.html). This variant explicitly includes the permission to \"sell\" the software, which is not explicitly referenced in the HPND template, and makes a few other minor changes. It otherwise retains the optional templated formatting from HPND.",
+  "seeAlso" : "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/net/sunrpc/auth_gss/gss_generic_token.c?h=v4.19",
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

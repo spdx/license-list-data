@@ -1,0 +1,30 @@
+{
+  "@id" : "http://spdx.org/licenses/GL2PS",
+  "@type" : "spdx:License",
+  "licenseId" : "GL2PS",
+  "licenseText" : "GL2PS LICENSE Version 2, November 2003 Copyright (C) 2003, Christophe Geuzaine\n\nPermission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nPermission to modify and distribute modified versions of this software is granted, provided that:\n\n   1) the modifications are licensed under the same terms as this software;\n\n   2) you make available the source code of any modifications that you distribute, either on the same media as you distribute any executable or other form of this software, or via a mechanism generally accepted in the software development community for the electronic transfer of data.\n\nThis software is provided \"as is\" without express or implied warranty.",
+  "name" : "GL2PS License",
+  "standardLicenseTemplate" : "<<beginOptional>> GL2PS LICENSE Version 2, November 2003<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (C) 2003, Christophe Geuzaine\";match=\".{0,1000}\">>\n\nPermission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nPermission to modify and distribute modified versions of this software is granted, provided that:\n\n   <<var;name=\"bullet\";original=\"1)\";match=\".{0,20}\">> the modifications are licensed under the same terms as this software;\n\n   <<var;name=\"bullet\";original=\"2)\";match=\".{0,20}\">> you make available the source code of any modifications that you distribute, either on the same media as you distribute any executable or other form of this software, or via a mechanism generally accepted in the software development community for the electronic transfer of data.\n\nThis software is provided \"as is\" without express or implied warranty.",
+  "seeAlso" : "http://www.geuz.org/gl2ps/COPYING.GL2PS",
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

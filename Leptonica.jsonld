@@ -1,0 +1,34 @@
+{
+  "@id" : "http://spdx.org/licenses/Leptonica",
+  "@type" : "spdx:License",
+  "licenseId" : "Leptonica",
+  "licenseText" : "Copyright (C) 2001 Leptonica. All rights reserved.\n\nThis software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.\n\nNo author or distributor accepts responsibility to anyone for the consequences of using this software, or for whether it serves any particular purpose or works at all, unless he or she says so in writing. Everyone is granted permission to copy, modify and redistribute this source code, for commercial or non-commercial purposes, with the following restrictions:\n\n   (1) the origin of this source code must not be misrepresented;\n\n   (2) modified versions must be plainly marked as such; and\n\n   (3) this notice may not be removed or altered from any source or modified source distribution.",
+  "name" : "Leptonica License",
+  "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 2001 Leptonica. All rights reserved.\";match=\".{0,1000}\">>\n\nThis software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.\n\nNo author or distributor accepts responsibility to anyone for the consequences of using this software, or for whether it serves any particular purpose or works at all, unless he or she says so in writing. Everyone is granted permission to copy, modify and redistribute this source code, for commercial or non-commercial purposes, with the following restrictions:\n\n   <<var;name=\"bullet\";original=\"(1)\";match=\".{0,20}\">> the origin of this source code must not be misrepresented;\n\n   <<var;name=\"bullet\";original=\"(2)\";match=\".{0,20}\">> modified versions must be plainly marked as such; and\n\n   <<var;name=\"bullet\";original=\"(3)\";match=\".{0,20}\">> this notice may not be removed or altered from any source or modified source distribution.",
+  "comment" : "This is an older license for Leptonica. Currently, it uses BSD-2-Clause (see http://www.leptonica.com/about-the-license.html)",
+  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Leptonica",
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

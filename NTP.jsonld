@@ -1,0 +1,34 @@
+{
+  "@id" : "http://spdx.org/licenses/NTP",
+  "@type" : "spdx:License",
+  "isOsiApproved" : "true",
+  "licenseId" : "NTP",
+  "licenseText" : "NTP License (NTP) Copyright (c) (CopyrightHoldersName) (From 4-digit-year)-(To 4-digit-year)\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appears in all copies and that both the copyright notice and this permission notice appear in supporting documentation, and that the name (TrademarkedName) not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. (TrademarkedName) makes no representations about the suitability this software for any purpose. It is provided \"as is\" without express or implied warranty.",
+  "name" : "NTP License",
+  "standardLicenseTemplate" : "<<beginOptional>> NTP License (NTP)<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) (CopyrightHoldersName) (From 4-digit-year)-(To 4-digit-year)\";match=\".{0,1000}\">>\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appears in all copies and that both the copyright notice and this permission notice appear in supporting documentation, and that the name <<var;name=\"TMname\";original=\"(TrademarkedName)\";match=\".+\">> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. <<var;name=\"TMname\";original=\"(TrademarkedName)\";match=\".+\">> makes no representations about the suitability this software for any purpose. It is provided \"as is\" without express or implied warranty.",
+  "seeAlso" : "https://opensource.org/licenses/NTP",
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "@id" : "http://spdx.org/licenses/MIT-CMU",
+  "@type" : "spdx:License",
+  "licenseId" : "MIT-CMU",
+  "licenseText" : "<copyright notice> By obtaining, using, and/or copying this software and/or its associated documentation, you agree that you have read, understood, and will comply with the following terms and conditions:\n\nPermission to use, copy, modify, and distribute this software and its associated documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies, and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of the copyright holder not be used in advertising or publicity pertaining to distribution of the software without specific, written permission.\n\nTHE COPYRIGHT HOLDER DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM THE LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+  "name" : "CMU License",
+  "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"<copyright notice>\";match=\".{0,1000}\">><<beginOptional>> By obtaining, using, and/or copying this software and/or its associated documentation, you agree that you have read, understood, and will comply with the following terms and conditions:<<endOptional>>\n\nPermission to use, copy, modify<<beginOptional>>, <<endOptional>> and distribute this software and its<<beginOptional>> associated<<endOptional>> documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies<<beginOptional>>, <<endOptional>> and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of <<var;name=\"copyrightHolder1\";original=\"the copyright holder\";match=\".+\">> not be used in advertising or publicity pertaining to distribution of the software without specific<<beginOptional>>, <<endOptional>> written permission.\n\n<<var;name=\"copyrightHolder2\";original=\"THE COPYRIGHT HOLDER\";match=\".+\">> <<var;name=\"disclaim\";original=\"DISCLAIM\";match=\"DISCLAIM(S)?\">> ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL <<var;name=\"copyrightHolder3\";original=\"THE COPYRIGHT HOLDER\";match=\".+\">> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM<<beginOptional>> THE<<endOptional>> LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
+  "seeAlso" : [ "https://github.com/python-pillow/Pillow/blob/fffb426092c8db24a5f4b6df243a8a3c01fb63cd/LICENSE", "https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style" ],
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

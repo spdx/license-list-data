@@ -1,0 +1,34 @@
+{
+  "@id" : "http://spdx.org/licenses/u-boot-exception-2.0",
+  "@type" : "spdx:LicenseException",
+  "licenseExceptionId" : "u-boot-exception-2.0",
+  "licenseExceptionTemplate" : "<<beginOptional>> <<var;name=\"title\";original=\"GPL\";match=\"The U-Boot|GPL\">> License Exception:<<endOptional>>\n\nEven though U-Boot in general is covered by the GPL-2.0/GPL-2.0+, this does *not* cover the so-called \"standalone\" applications that use U-Boot services by means of the jump table provided by U-Boot exactly for this purpose - this is merely considered normal use of U-Boot, and does *not* fall under the heading of \"derived work\".\n\nThe header files \"include/image.h\" and \"arch/*/include/asm/u-boot.h\" define interfaces to U-Boot. Including these (unmodified) header files in another file is considered normal use of U-Boot, and does *not* fall under the heading of \"derived work\".\n\n-- Wolfgang Denk",
+  "licenseExceptionText" : "GPL License Exception:\n\nEven though U-Boot in general is covered by the GPL-2.0/GPL-2.0+, this does *not* cover the so-called \"standalone\" applications that use U-Boot services by means of the jump table provided by U-Boot exactly for this purpose - this is merely considered normal use of U-Boot, and does *not* fall under the heading of \"derived work\".\n\nThe header files \"include/image.h\" and \"arch/*/include/asm/u-boot.h\" define interfaces to U-Boot. Including these (unmodified) header files in another file is considered normal use of U-Boot, and does *not* fall under the heading of \"derived work\".\n\n-- Wolfgang Denk",
+  "name" : "U-Boot exception 2.0",
+  "comment" : "Typically used with GPL-2.0+",
+  "seeAlso" : "http://git.denx.de/?p=u-boot.git;a=blob;f=Licenses/Exceptions",
+  "@context" : {
+    "licenseExceptionTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionTemplate"
+    },
+    "licenseExceptionText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseExceptionId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionId"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}
