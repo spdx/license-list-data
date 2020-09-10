@@ -1,6 +1,10 @@
 # License List Data
 
-See [the contributing document](CONTRIBUTING.md) for information on requesting new licenses, reporting issues or contributing pull requests related to this repository.
+Please do not submit pull requests or issues against this generated data repository.  We appreciate all contributions, see [the contributing document](CONTRIBUTING.md) for information on requesting new licenses, reporting issues or contributing pull requests related to this repository.
+
+## Preview of License List Data
+
+An HTML website containing the of the contents of this repository is available at https://spdx.github.io/license-list-data/.
 
 ## Data Formats
 
