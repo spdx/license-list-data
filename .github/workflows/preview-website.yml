@@ -31,6 +31,6 @@ jobs:
         with:
           find: '<a href="/">Home</a> » <a href="/licenses">Licenses</a>'
           replace: '<a href="/license-list-data">Licenses</a>'
-      - uses: stefanzweifel/git-auto-commit-action@v4
+      - uses: stefanzweifel/git-auto-commit-action@v4.4.1
         with:
           commit_message: Update preview and breadcrumbs for github.io web pages
