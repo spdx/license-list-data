@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10-3-gaf50167
+The following licenses have been generated from the license list version 3.10-5-ga5221ac
 
 ## Licenses with Short Idenifiers
 
