@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10-14-g0fb8a59
+The following licenses have been generated from the license list version 3.10-16-gd252819
 
 ## Licenses with Short Idenifiers
 
@@ -317,7 +317,7 @@ The following licenses have been generated from the license list version 3.10-14
 | Open LDAP Public License v2.5                                                | [OLDAP-2.5][]                            |      |           |
 | Open LDAP Public License v2.6                                                | [OLDAP-2.6][]                            |      |           |
 | Open LDAP Public License v2.7                                                | [OLDAP-2.7][]                            |      | Y         |
-| Open LDAP Public License v2.8                                                | [OLDAP-2.8][]                            |      |           |
+| Open LDAP Public License v2.8                                                | [OLDAP-2.8][]                            | Y    |           |
 | Open Market License                                                          | [OML][]                                  |      |           |
 | OpenSSL License                                                              | [OpenSSL][]                              |      | Y         |
 | Open Public License v1.0                                                     | [OPL-1.0][]                              |      |           |
