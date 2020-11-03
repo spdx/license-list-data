@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10-18-gc58d420
+The following licenses have been generated from the license list version 3.10-22-g7e1ee7b
 
 ## Licenses with Short Idenifiers
 
@@ -99,6 +99,7 @@ The following licenses have been generated from the license list version 3.10-18
 | Creative Commons Attribution No Derivatives 4.0 International                | [CC-BY-ND-4.0][]                         |      |           |
 | Creative Commons Attribution Share Alike 1.0 Generic                         | [CC-BY-SA-1.0][]                         |      |           |
 | Creative Commons Attribution Share Alike 2.0 Generic                         | [CC-BY-SA-2.0][]                         |      |           |
+| Creative Commons Attribution Share Alike 2.0 England and Wales               | [CC-BY-SA-2.0-UK][]                      |      |           |
 | Creative Commons Attribution Share Alike 2.5 Generic                         | [CC-BY-SA-2.5][]                         |      |           |
 | Creative Commons Attribution Share Alike 3.0 Unported                        | [CC-BY-SA-3.0][]                         |      |           |
 | Creative Commons Attribution-Share Alike 3.0 Austria                         | [CC-BY-SA-3.0-AT][]                      |      |           |
@@ -386,7 +387,7 @@ The following licenses have been generated from the license list version 3.10-18
 | Technische Universitaet Berlin License 2.0                                   | [TU-Berlin-2.0][]                        |      |           |
 | Upstream Compatibility License v1.0                                          | [UCL-1.0][]                              | Y    |           |
 | Unicode License Agreement - Data Files and Software (2015)                   | [Unicode-DFS-2015][]                     |      |           |
-| Unicode License Agreement - Data Files and Software (2016)                   | [Unicode-DFS-2016][]                     |      |           |
+| Unicode License Agreement - Data Files and Software (2016)                   | [Unicode-DFS-2016][]                     | Y    |           |
 | Unicode Terms of Use                                                         | [Unicode-TOU][]                          |      |           |
 | The Unlicense                                                                | [Unlicense][]                            | Y    | Y         |
 | Universal Permissive License v1.0                                            | [UPL-1.0][]                              | Y    | Y         |
@@ -596,6 +597,7 @@ The following licenses have been generated from the license list version 3.10-18
 [CC-BY-ND-4.0]: text/CC-BY-ND-4.0.txt
 [CC-BY-SA-1.0]: text/CC-BY-SA-1.0.txt
 [CC-BY-SA-2.0]: text/CC-BY-SA-2.0.txt
+[CC-BY-SA-2.0-UK]: text/CC-BY-SA-2.0-UK.txt
 [CC-BY-SA-2.5]: text/CC-BY-SA-2.5.txt
 [CC-BY-SA-3.0]: text/CC-BY-SA-3.0.txt
 [CC-BY-SA-3.0-AT]: text/CC-BY-SA-3.0-AT.txt
