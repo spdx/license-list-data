@@ -1,17 +1,34 @@
 {
-  "@id" : "http://spdx.org/licenses/ADSL",
-  "@type" : "spdx:License",
-  "licenseId" : "ADSL",
-  "licenseText" : "This software code is made available \"AS IS\" without warranties of any kind. You may copy, display, modify and redistribute the software code either by itself or as incorporated into your code; provided that you do not remove any proprietary notices. Your use of this software code is at your own risk and you waive any claim against Amazon Digital Services, Inc. or its affiliates with respect to your use of this software code. (c) 2006 Amazon Digital Services, Inc. or its affiliates.",
-  "name" : "Amazon Digital Services License",
-  "standardLicenseTemplate" : "This software code is made available \"AS IS\" without warranties of any kind. You may copy, display, modify and redistribute the software code either by itself or as incorporated into your code; provided that you do not remove any proprietary notices. Your use of this software code is at your own risk and you waive any claim against Amazon Digital Services, Inc. or its affiliates with respect to your use of this software code. (c) 2006 Amazon Digital Services, Inc. or its affiliates.",
-  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:55:26",
+    "url" : "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense"
+  }, {
+    "@id" : "http://spdx.org/licenses/ADSL",
+    "@type" : "spdx:License",
+    "licenseId" : "ADSL",
+    "licenseText" : "This software code is made available \"AS IS\" without warranties of any kind. You may copy, display, modify and redistribute the software code either by itself or as incorporated into your code; provided that you do not remove any proprietary notices. Your use of this software code is at your own risk and you waive any claim against Amazon Digital Services, Inc. or its affiliates with respect to your use of this software code. (c) 2006 Amazon Digital Services, Inc. or its affiliates.\n",
+    "name" : "Amazon Digital Services License",
+    "standardLicenseTemplate" : "This software code is made available \"AS IS\" without warranties of any kind. You may copy, display, modify and redistribute the software code either by itself or as incorporated into your code; provided that you do not remove any proprietary notices. Your use of this software code is at your own risk and you waive any claim against Amazon Digital Services, Inc. or its affiliates with respect to your use of this software code. (c) 2006 Amazon Digital Services, Inc. or its affiliates.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://fedoraproject.org/wiki/Licensing/AmazonDigitalServicesLicense"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -21,6 +38,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

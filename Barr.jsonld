@@ -1,17 +1,34 @@
 {
-  "@id" : "http://spdx.org/licenses/Barr",
-  "@type" : "spdx:License",
-  "licenseId" : "Barr",
-  "licenseText" : "This is a package of commutative diagram macros built on top of Xy-pic by Michael Barr (email: barr@barrs.org). Its use is unrestricted. It may be freely distributed, unchanged, for non-commercial or commercial use. If changed, it must be renamed. Inclusion in a commercial software package is also permitted, but I would appreciate receiving a free copy for my personal examination and use. There are no guarantees that this package is good for anything. I have tested it with LaTeX 2e, LaTeX 2.09 and Plain TeX. Although I know of no reason it will not work with AMSTeX, I have not tested it.",
-  "name" : "Barr License",
-  "standardLicenseTemplate" : "This is a package of commutative diagram macros built on top of Xy-pic by Michael Barr (email: barr@barrs.org). Its use is unrestricted. It may be freely distributed, unchanged, for non-commercial or commercial use. If changed, it must be renamed. Inclusion in a commercial software package is also permitted, but I would appreciate receiving a free copy for my personal examination and use. There are no guarantees that this package is good for anything. I have tested it with LaTeX 2e, LaTeX 2.09 and Plain TeX. Although I know of no reason it will not work with AMSTeX, I have not tested it.",
-  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Barr",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:53:40",
+    "url" : "https://fedoraproject.org/wiki/Licensing/Barr"
+  }, {
+    "@id" : "http://spdx.org/licenses/Barr",
+    "@type" : "spdx:License",
+    "licenseId" : "Barr",
+    "licenseText" : "This is a package of commutative diagram macros built on top of Xy-pic  by Michael Barr (email: barr@barrs.org). Its use is unrestricted. It  may be freely distributed, unchanged, for non-commercial or commercial  use. If changed, it must be renamed. Inclusion in a commercial  software package is also permitted, but I would appreciate receiving a  free copy for my personal examination and use. There are no guarantees  that this package is good for anything. I have tested it with LaTeX 2e,  LaTeX 2.09 and Plain TeX. Although I know of no reason it will not work  with AMSTeX, I have not tested it.\n",
+    "name" : "Barr License",
+    "standardLicenseTemplate" : "This is a package of commutative diagram macros built on top of Xy-pic by Michael Barr (email: barr@barrs.org). Its use is unrestricted. It may be freely distributed, unchanged, for non-commercial or commercial use. If changed, it must be renamed. Inclusion in a commercial software package is also permitted, but I would appreciate receiving a free copy for my personal examination and use. There are no guarantees that this package is good for anything. I have tested it with LaTeX 2e, LaTeX 2.09 and Plain TeX. Although I know of no reason it will not work with AMSTeX, I have not tested it.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Barr"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -21,6 +38,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

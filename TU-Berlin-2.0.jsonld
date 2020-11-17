@@ -1,17 +1,34 @@
 {
-  "@id" : "http://spdx.org/licenses/TU-Berlin-2.0",
-  "@type" : "spdx:License",
-  "licenseId" : "TU-Berlin-2.0",
-  "licenseText" : "Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,\n\nTechnische Universitaet Berlin\n\nAny use of this software is permitted provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.\n\nAs a matter of courtesy, the authors request to be informed about uses this software has found, about bugs in this software, and about any improvements that may be of general interest. Berlin, 28.11.1994\n\nJutta Degener\n\nCarsten Bormann oOo\n\nSince the original terms of 15 years ago maybe do not make our intentions completely clear given today's refined usage of the legal terms, we append this additional permission:\n\nPermission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE. Berkeley/Bremen, 05.04.2009\n\nJutta Degener\n\nCarsten Bormann",
-  "name" : "Technische Universitaet Berlin License 2.0",
-  "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,\n\nTechnische Universitaet Berlin\";match=\".{0,1000}\">>\n\nAny use of this software is permitted provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.\n\nAs a matter of courtesy, the authors request to be informed about uses this software has found, about bugs in this software, and about any improvements that may be of general interest.<<beginOptional>> Berlin, <<var;name=\"footerDate\";original=\"28.11.1994\";match=\".+\">>\n\nJutta Degener\n\nCarsten Bormann<<endOptional>><<beginOptional>> oOo<<endOptional>>\n\nSince the original terms of 15 years ago maybe do not make our intentions completely clear given today's refined usage of the legal terms, we append this additional permission:\n\nPermission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.<<beginOptional>> Berkeley/Bremen, <<var;name=\"footerDate2\";original=\"05.04.2009\";match=\".+\">>\n\nJutta Degener\n\nCarsten Bormann<<endOptional>>",
-  "seeAlso" : "https://github.com/CorsixTH/deps/blob/fd339a9f526d1d9c9f01ccf39e438a015da50035/licences/libgsm.txt",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2020-11-17 - 00:01:22",
+    "url" : "https://github.com/CorsixTH/deps/blob/fd339a9f526d1d9c9f01ccf39e438a015da50035/licences/libgsm.txt"
+  }, {
+    "@id" : "http://spdx.org/licenses/TU-Berlin-2.0",
+    "@type" : "spdx:License",
+    "licenseId" : "TU-Berlin-2.0",
+    "licenseText" : "Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,\nTechnische Universitaet Berlin\n\nAny use of this software is permitted provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software.  THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.\n\nAs a matter of courtesy, the authors request to be informed about uses this software has found, about bugs in this software, and about any improvements that may be of general interest.\n\nBerlin, 28.11.1994\nJutta Degener\nCarsten Bormann\n\noOo\n\nSince the original terms of 15 years ago maybe do not make our intentions completely clear given today's refined usage of the legal terms, we append this additional permission:\n\nPermission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software.  THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.\n\nBerkeley/Bremen, 05.04.2009\nJutta Degener\nCarsten Bormann\n",
+    "name" : "Technische Universitaet Berlin License 2.0",
+    "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,\n\nTechnische Universitaet Berlin\";match=\".{0,1000}\">>\n\nAny use of this software is permitted provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.\n\nAs a matter of courtesy, the authors request to be informed about uses this software has found, about bugs in this software, and about any improvements that may be of general interest.<<beginOptional>> Berlin, <<var;name=\"footerDate\";original=\"28.11.1994\";match=\".+\">>\n\nJutta Degener\n\nCarsten Bormann<<endOptional>><<beginOptional>> oOo<<endOptional>>\n\nSince the original terms of 15 years ago maybe do not make our intentions completely clear given today's refined usage of the legal terms, we append this additional permission:\n\nPermission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.<<beginOptional>> Berkeley/Bremen, <<var;name=\"footerDate2\";original=\"05.04.2009\";match=\".+\">>\n\nJutta Degener\n\nCarsten Bormann<<endOptional>>",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://github.com/CorsixTH/deps/blob/fd339a9f526d1d9c9f01ccf39e438a015da50035/licences/libgsm.txt"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -21,6 +38,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
