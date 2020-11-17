@@ -1,17 +1,34 @@
 {
-  "@id" : "http://spdx.org/licenses/Glulxe",
-  "@type" : "spdx:License",
-  "licenseId" : "Glulxe",
-  "licenseText" : "The source code in this package is copyright 1999-2010 by Andrew Plotkin.\n\nYou may copy and distribute it freely, by any means and under any conditions, as long as the code and documentation is not changed. You may also incorporate this code into your own program and distribute that, or modify this code and use and distribute the modified version, as long as you retain a notice in your program or documentation which mentions my name and the URL shown above.",
-  "name" : "Glulxe License",
-  "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"The source code in this package is copyright 1999-2010 by Andrew Plotkin.\";match=\".{0,1000}\">>\n\nYou may copy and distribute it freely, by any means and under any conditions, as long as the code and documentation is not changed. You may also incorporate this code into your own program and distribute that, or modify this code and use and distribute the modified version, as long as you retain a notice in your program or documentation which mentions my name and the URL shown above.",
-  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Glulxe",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:55:15",
+    "url" : "https://fedoraproject.org/wiki/Licensing/Glulxe"
+  }, {
+    "@id" : "http://spdx.org/licenses/Glulxe",
+    "@type" : "spdx:License",
+    "licenseId" : "Glulxe",
+    "licenseText" : "The source code in this package is copyright 1999-2010 by Andrew Plotkin.\n\nYou may copy and distribute it freely, by any means and under any conditions, as long as the code and documentation is not changed. You may also incorporate this code into your own program and distribute that, or modify this code and use and distribute the modified version, as long as you retain a notice in your program or documentation which mentions my name and the URL shown above.\n",
+    "name" : "Glulxe License",
+    "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"The source code in this package is copyright 1999-2010 by Andrew Plotkin.\";match=\".{0,1000}\">>\n\nYou may copy and distribute it freely, by any means and under any conditions, as long as the code and documentation is not changed. You may also incorporate this code into your own program and distribute that, or modify this code and use and distribute the modified version, as long as you retain a notice in your program or documentation which mentions my name and the URL shown above.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Glulxe"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -21,6 +38,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

@@ -1,13 +1,47 @@
 {
-  "@id" : "http://spdx.org/licenses/GPL-2.0-with-font-exception",
-  "@type" : "spdx:License",
-  "isDeprecatedLicenseId" : "true",
-  "licenseId" : "GPL-2.0-with-font-exception",
-  "licenseText" : "insert GPL v2 license text here\n\nFont Exception\n\nAs a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.",
-  "name" : "GNU General Public License v2.0 w/Font exception",
-  "standardLicenseTemplate" : "insert GPL v2 license text here\n\nFont Exception\n\nAs a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.",
-  "seeAlso" : "https://www.gnu.org/licenses/gpl-faq.html#FontException",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:52:35",
+    "url" : "https://www.gnu.org/licenses/gpl-faq.html#FontException"
+  }, {
+    "@id" : "http://spdx.org/licenses/GPL-2.0-with-font-exception",
+    "@type" : "spdx:License",
+    "isDeprecatedLicenseId" : "true",
+    "licenseId" : "GPL-2.0-with-font-exception",
+    "licenseText" : "insert GPL v2 license text here\n\nFont Exception\n\nAs a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.",
+    "name" : "GNU General Public License v2.0 w/Font exception",
+    "standardLicenseTemplate" : "insert GPL v2 license text here\n\nFont Exception\n\nAs a special exception, if you create a document which uses this font, and embed this font or unaltered portions of this font into the document, this font does not by itself cause the resulting document to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the document might be covered by the GNU General Public License. If you modify this font, you may extend this exception to your version of the font, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://www.gnu.org/licenses/gpl-faq.html#FontException"
+  } ],
   "@context" : {
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId"
     },
@@ -16,6 +50,10 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"

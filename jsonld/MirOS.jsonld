@@ -1,12 +1,25 @@
 {
-  "@id" : "http://spdx.org/licenses/MirOS",
-  "@type" : "spdx:License",
-  "isOsiApproved" : "true",
-  "licenseId" : "MirOS",
-  "licenseText" : "The MirOS Licence Copyright [YEAR] [NAME] [EMAIL]\n\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.",
-  "name" : "The MirOS Licence",
-  "standardLicenseTemplate" : "<<beginOptional>> The MirOS Licence<<endOptional>> <<var;name=\"copyright\";original=\"Copyright [YEAR] [NAME] [EMAIL]\";match=\".{0,1000}\">>\n\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.",
-  "seeAlso" : "https://opensource.org/licenses/MirOS",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-17 - 00:00:30",
+    "url" : "https://opensource.org/licenses/MirOS"
+  }, {
+    "@id" : "http://spdx.org/licenses/MirOS",
+    "@type" : "spdx:License",
+    "isOsiApproved" : "true",
+    "licenseId" : "MirOS",
+    "licenseText" : "The MirOS Licence\n\nCopyright [YEAR] [NAME] [EMAIL]\n\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.\n\n",
+    "name" : "The MirOS Licence",
+    "standardLicenseTemplate" : "<<beginOptional>> The MirOS Licence<<endOptional>> <<var;name=\"copyright\";original=\"Copyright [YEAR] [NAME] [EMAIL]\";match=\".{0,1000}\">>\n\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://opensource.org/licenses/MirOS"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
@@ -17,6 +30,10 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -25,6 +42,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

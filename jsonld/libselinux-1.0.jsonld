@@ -1,17 +1,34 @@
 {
-  "@id" : "http://spdx.org/licenses/libselinux-1.0",
-  "@type" : "spdx:License",
-  "licenseId" : "libselinux-1.0",
-  "licenseText" : "This library (libselinux) is public domain software, i.e. not copyrighted.\n\nWarranty Exclusion ------------------\n\nYou agree that this software is a non-commercially developed program that may contain \"bugs\" (as that term is used in the industry) and that it may not function as intended. The software is licensed \"as is\". NSA makes no, and hereby expressly disclaims all, warranties, express, implied, statutory, or otherwise with respect to the software, including noninfringement and the implied warranties of merchantability and fitness for a particular purpose.\n\nLimitation of Liability -----------------------\n\nIn no event will NSA be liable for any damages, including loss of data, lost profits, cost of cover, or other special, incidental, consequential, direct or indirect damages arising from the software or the use thereof, however caused and on any theory of liability. This limitation will apply even if NSA has been advised of the possibility of such damage. You acknowledge that this is a reasonable allocation of risk.",
-  "name" : "libselinux public domain notice",
-  "standardLicenseTemplate" : "This library (libselinux) is public domain software, i.e. not copyrighted.\n\nWarranty Exclusion<<beginOptional>> ------------------<<endOptional>>\n\nYou agree that this software is a non-commercially developed program that may contain \"bugs\" (as that term is used in the industry) and that it may not function as intended. The software is licensed \"as is\". NSA makes no, and hereby expressly disclaims all, warranties, express, implied, statutory, or otherwise with respect to the software, including noninfringement and the implied warranties of merchantability and fitness for a particular purpose.\n\nLimitation of Liability<<beginOptional>> -----------------------<<endOptional>>\n\nIn no event will NSA be liable for any damages, including loss of data, lost profits, cost of cover, or other special, incidental, consequential, direct or indirect damages arising from the software or the use thereof, however caused and on any theory of liability. This limitation will apply even if NSA has been advised of the possibility of such damage. You acknowledge that this is a reasonable allocation of risk.",
-  "seeAlso" : "https://github.com/SELinuxProject/selinux/blob/master/libselinux/LICENSE",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:52:34",
+    "url" : "https://github.com/SELinuxProject/selinux/blob/master/libselinux/LICENSE"
+  }, {
+    "@id" : "http://spdx.org/licenses/libselinux-1.0",
+    "@type" : "spdx:License",
+    "licenseId" : "libselinux-1.0",
+    "licenseText" : "This library (libselinux) is public domain software, i.e. not copyrighted.\n\nWarranty Exclusion\n------------------\nYou agree that this software is a\nnon-commercially developed program that may contain \"bugs\" (as that\nterm is used in the industry) and that it may not function as intended.\nThe software is licensed \"as is\". NSA makes no, and hereby expressly\ndisclaims all, warranties, express, implied, statutory, or otherwise\nwith respect to the software, including noninfringement and the implied\nwarranties of merchantability and fitness for a particular purpose.\n\nLimitation of Liability\n-----------------------\nIn no event will NSA be liable for any damages, including loss of data,\nlost profits, cost of cover, or other special, incidental,\nconsequential, direct or indirect damages arising from the software or\nthe use thereof, however caused and on any theory of liability. This\nlimitation will apply even if NSA has been advised of the possibility\nof such damage. You acknowledge that this is a reasonable allocation of\nrisk.\n",
+    "name" : "libselinux public domain notice",
+    "standardLicenseTemplate" : "This library (libselinux) is public domain software, i.e. not copyrighted.\n\nWarranty Exclusion<<beginOptional>> ------------------<<endOptional>>\n\nYou agree that this software is a non-commercially developed program that may contain \"bugs\" (as that term is used in the industry) and that it may not function as intended. The software is licensed \"as is\". NSA makes no, and hereby expressly disclaims all, warranties, express, implied, statutory, or otherwise with respect to the software, including noninfringement and the implied warranties of merchantability and fitness for a particular purpose.\n\nLimitation of Liability<<beginOptional>> -----------------------<<endOptional>>\n\nIn no event will NSA be liable for any damages, including loss of data, lost profits, cost of cover, or other special, incidental, consequential, direct or indirect damages arising from the software or the use thereof, however caused and on any theory of liability. This limitation will apply even if NSA has been advised of the possibility of such damage. You acknowledge that this is a reasonable allocation of risk.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://github.com/SELinuxProject/selinux/blob/master/libselinux/LICENSE"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -21,6 +38,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

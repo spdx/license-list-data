@@ -5,8 +5,17 @@
 
 <http://spdx.org/licenses/Zed>
         a                             spdx:License ;
+        rdfs:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         "true" ;
+                                        spdx:isValid        "true" ;
+                                        spdx:isWayBackLink  "false" ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0" ;
+                                        spdx:timestamp      "2020-11-16 - 23:53:29" ;
+                                        spdx:url            "https://fedoraproject.org/wiki/Licensing/Zed"
+                                      ] ;
         rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing/Zed" ;
         spdx:licenseId                "Zed" ;
-        spdx:licenseText              "(c) Jim Davies, January 1995\n\nYou may copy and distribute this file freely. Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\n\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'." ;
+        spdx:licenseText              "(c) Jim Davies, January 1995\nYou may copy and distribute this file freely.  Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.\n" ;
         spdx:name                     "Zed License" ;
         spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"(c) Jim Davies, January 1995\";match=\".{0,1000}\">>\n\nYou may copy and distribute this file freely. Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\n\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'." .

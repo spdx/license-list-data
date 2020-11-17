@@ -1,17 +1,55 @@
 {
-  "@id" : "http://spdx.org/licenses/TCP-wrappers",
-  "@type" : "spdx:License",
-  "licenseId" : "TCP-wrappers",
-  "licenseText" : "Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.",
-  "name" : "TCP Wrappers License",
-  "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.\";match=\".{0,1000}\">>\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.",
-  "seeAlso" : "http://rc.quest.com/topics/openssh/license.php#tcpwrappers",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "false",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:55:59",
+    "url" : "http://rc.quest.com/topics/openssh/license.php#tcpwrappers"
+  }, {
+    "@id" : "http://spdx.org/licenses/TCP-wrappers",
+    "@type" : "spdx:License",
+    "licenseId" : "TCP-wrappers",
+    "licenseText" : "Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.\n",
+    "name" : "TCP Wrappers License",
+    "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.\";match=\".{0,1000}\">>\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "http://rc.quest.com/topics/openssh/license.php#tcpwrappers"
+  } ],
   "@context" : {
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"

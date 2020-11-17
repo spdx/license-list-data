@@ -1,17 +1,34 @@
 {
-  "@id" : "http://spdx.org/licenses/HaskellReport",
-  "@type" : "spdx:License",
-  "licenseId" : "HaskellReport",
-  "licenseText" : "Code derived from the document \"Report on the Programming Language\n\nHaskell 2010\", is distributed under the following license:\n\nCopyright (c) 2010 Simon Marlow\n\nThe authors intend this Report to belong to the entire Haskell community, and so we grant permission to copy and distribute it for any purpose, provided that it is reproduced in its entirety, including this Notice. Modified versions of this Report may also be copied and distributed for any purpose, provided that the modified version is clearly presented as such, and that it does not claim to be a definition of the Haskell 2010 Language.",
-  "name" : "Haskell Language Report License",
-  "standardLicenseTemplate" : "Code derived from the document \"Report on the Programming Language\n\nHaskell 2010\", is distributed under the following license:\n\n<<var;name=\"copyright\";original=\"Copyright (c) 2010 Simon Marlow\";match=\".{0,1000}\">>\n\nThe authors intend this Report to belong to the entire Haskell community, and so we grant permission to copy and distribute it for any purpose, provided that it is reproduced in its entirety, including this Notice. Modified versions of this Report may also be copied and distributed for any purpose, provided that the modified version is clearly presented as such, and that it does not claim to be a definition of the Haskell 2010 Language.",
-  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Haskell_Language_Report_License",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:55:20",
+    "url" : "https://fedoraproject.org/wiki/Licensing/Haskell_Language_Report_License"
+  }, {
+    "@id" : "http://spdx.org/licenses/HaskellReport",
+    "@type" : "spdx:License",
+    "licenseId" : "HaskellReport",
+    "licenseText" : "Code derived from the document \"Report on the Programming Language\nHaskell 2010\", is distributed under the following license:\n\nCopyright (c) 2010 Simon Marlow\n\nThe authors intend this Report to belong to the entire Haskell community, and so we grant permission to copy and distribute it for any purpose, provided that it is reproduced in its entirety, including this Notice.  Modified versions of this Report may also be copied and distributed for any purpose, provided that the modified version is clearly presented as such, and that it does not claim to be a definition of the Haskell 2010 Language.\n",
+    "name" : "Haskell Language Report License",
+    "standardLicenseTemplate" : "Code derived from the document \"Report on the Programming Language\n\nHaskell 2010\", is distributed under the following license:\n\n<<var;name=\"copyright\";original=\"Copyright (c) 2010 Simon Marlow\";match=\".{0,1000}\">>\n\nThe authors intend this Report to belong to the entire Haskell community, and so we grant permission to copy and distribute it for any purpose, provided that it is reproduced in its entirety, including this Notice. Modified versions of this Report may also be copied and distributed for any purpose, provided that the modified version is clearly presented as such, and that it does not claim to be a definition of the Haskell 2010 Language.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Haskell_Language_Report_License"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -21,6 +38,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

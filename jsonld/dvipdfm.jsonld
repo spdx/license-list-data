@@ -1,17 +1,34 @@
 {
-  "@id" : "http://spdx.org/licenses/dvipdfm",
-  "@type" : "spdx:License",
-  "licenseId" : "dvipdfm",
-  "licenseText" : "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.",
-  "name" : "dvipdfm License",
-  "standardLicenseTemplate" : "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.",
-  "seeAlso" : "https://fedoraproject.org/wiki/Licensing/dvipdfm",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-16 - 23:52:34",
+    "url" : "https://fedoraproject.org/wiki/Licensing/dvipdfm"
+  }, {
+    "@id" : "http://spdx.org/licenses/dvipdfm",
+    "@type" : "spdx:License",
+    "licenseId" : "dvipdfm",
+    "licenseText" : "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.\n",
+    "name" : "dvipdfm License",
+    "standardLicenseTemplate" : "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://fedoraproject.org/wiki/Licensing/dvipdfm"
+  } ],
   "@context" : {
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -21,6 +38,27 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

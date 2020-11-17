@@ -1,13 +1,47 @@
 {
-  "@id" : "http://spdx.org/licenses/GPL-2.0-with-bison-exception",
-  "@type" : "spdx:License",
-  "isDeprecatedLicenseId" : "true",
-  "licenseId" : "GPL-2.0-with-bison-exception",
-  "licenseText" : "Bison Exception\n\nAs a special exception, you may create a larger work that contains part or all of the Bison parser skeleton and distribute that work under terms of your choice, so long as that work isn't itself a parser generator using the skeleton or a modified version thereof as a parser skeleton. Alternatively, if you modify or redistribute the parser skeleton itself, you may (at your option) remove this special exception, which will cause the skeleton and the resulting Bison output files to be licensed under the GNU General Public License without this special exception.\n\nThis special exception was added by the Free Software Foundation in version 2.2 of Bison.",
-  "name" : "GNU General Public License v2.0 w/Bison exception",
-  "standardLicenseTemplate" : "<<beginOptional>> Bison Exception<<endOptional>>\n\nAs a special exception, you may create a larger work that contains part or all of the Bison parser skeleton and distribute that work under terms of your choice, so long as that work isn't itself a parser generator using the skeleton or a modified version thereof as a parser skeleton. Alternatively, if you modify or redistribute the parser skeleton itself, you may (at your option) remove this special exception, which will cause the skeleton and the resulting Bison output files to be licensed under the GNU General Public License without this special exception.\n\nThis special exception was added by the Free Software Foundation in version 2.2 of Bison.",
-  "seeAlso" : "http://git.savannah.gnu.org/cgit/bison.git/tree/data/yacc.c?id=193d7c7054ba7197b0789e14965b739162319b5e#n141",
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2020-11-17 - 00:00:11",
+    "url" : "http://git.savannah.gnu.org/cgit/bison.git/tree/data/yacc.c?id=193d7c7054ba7197b0789e14965b739162319b5e#n141"
+  }, {
+    "@id" : "http://spdx.org/licenses/GPL-2.0-with-bison-exception",
+    "@type" : "spdx:License",
+    "isDeprecatedLicenseId" : "true",
+    "licenseId" : "GPL-2.0-with-bison-exception",
+    "licenseText" : "Bison Exception\n\nAs a special exception, you may create a larger work that contains part or all of the Bison parser skeleton and distribute that work under terms of your choice, so long as that work isn't itself a parser generator using the skeleton or a modified version thereof as a parser skeleton. Alternatively, if you modify or redistribute the parser skeleton itself, you may (at your option) remove this special exception, which will cause the skeleton and the resulting Bison output files to be licensed under the GNU General Public License without this special exception.\n\nThis special exception was added by the Free Software Foundation in version 2.2 of Bison.",
+    "name" : "GNU General Public License v2.0 w/Bison exception",
+    "standardLicenseTemplate" : "<<beginOptional>> Bison Exception<<endOptional>>\n\nAs a special exception, you may create a larger work that contains part or all of the Bison parser skeleton and distribute that work under terms of your choice, so long as that work isn't itself a parser generator using the skeleton or a modified version thereof as a parser skeleton. Alternatively, if you modify or redistribute the parser skeleton itself, you may (at your option) remove this special exception, which will cause the skeleton and the resulting Bison output files to be licensed under the GNU General Public License without this special exception.\n\nThis special exception was added by the Free Software Foundation in version 2.2 of Bison.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "http://git.savannah.gnu.org/cgit/bison.git/tree/data/yacc.c?id=193d7c7054ba7197b0789e14965b739162319b5e#n141"
+  } ],
   "@context" : {
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId"
     },
@@ -16,6 +50,10 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"

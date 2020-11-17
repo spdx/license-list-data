@@ -5,8 +5,17 @@
 
 <http://spdx.org/licenses/FSFULLR>
         a                             spdx:License ;
+        rdfs:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         "true" ;
+                                        spdx:isValid        "true" ;
+                                        spdx:isWayBackLink  "false" ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0" ;
+                                        spdx:timestamp      "2020-11-16 - 23:57:58" ;
+                                        spdx:url            "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License#License_Retention_Variant"
+                                      ] ;
         rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License#License_Retention_Variant" ;
         spdx:licenseId                "FSFULLR" ;
-        spdx:licenseText              "Copyright 1996-2006 Free Software Foundation, Inc.\n\nThis file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved." ;
+        spdx:licenseText              "Copyright 1996-2006 Free Software Foundation, Inc.\n\nThis file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.\n" ;
         spdx:name                     "FSF Unlimited License (with License Retention)" ;
         spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright 1996-2006 Free Software Foundation, Inc.\";match=\".{0,1000}\">>\n\nThis file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved." .
