@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2020-11-17 - 05:43:56",
+    "timestamp" : "2020-11-19 - 16:13:01",
     "url" : "https://opensource.org/licenses/Zlib"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2020-11-17 - 05:43:56",
+    "timestamp" : "2020-11-19 - 16:13:00",
     "url" : "http://www.zlib.net/zlib_license.html"
   }, {
     "@id" : "http://spdx.org/licenses/Zlib",
@@ -28,7 +28,7 @@
     "licenseText" : "zlib License\n\nThis software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     3. This notice may not be removed or altered from any source distribution.\n",
     "name" : "zlib License",
     "standardLicenseTemplate" : "<<beginOptional>> zlib License<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>\";match=\".{0,1000}\">>\n\nThis software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This notice may not be removed or altered from any source distribution.",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "seeAlso" : [ "https://opensource.org/licenses/Zlib", "http://www.zlib.net/zlib_license.html" ]
   } ],
   "@context" : {
@@ -71,12 +71,12 @@
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
     },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
     "crossRef" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
       "@type" : "@id"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

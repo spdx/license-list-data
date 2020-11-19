@@ -5,20 +5,20 @@
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2020-11-17 - 05:48:08",
-    "url" : "https://opensource.org/licenses/Fair"
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-19 - 16:16:50",
+    "url" : "http://fairlicense.org/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2020-11-17 - 05:48:08",
-    "url" : "http://fairlicense.org/"
+    "match" : "true",
+    "order" : "1",
+    "timestamp" : "2020-11-19 - 16:16:51",
+    "url" : "https://opensource.org/licenses/Fair"
   }, {
     "@id" : "http://spdx.org/licenses/Fair",
     "@type" : "spdx:License",
@@ -27,7 +27,7 @@
     "licenseText" : "Fair License\n\n<Copyright Information>\n\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\n\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.\n\n[2004, Fair License: rhid.com/fair (this URL no longer works)]\n",
     "name" : "Fair License",
     "standardLicenseTemplate" : "<<beginOptional>> Fair License<<endOptional>> <<var;name=\"copyright\";original=\"<Copyright Information>\";match=\".{0,1000}\">>\n\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\n\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "seeAlso" : [ "http://fairlicense.org/", "https://opensource.org/licenses/Fair" ]
   } ],
   "@context" : {
@@ -67,12 +67,12 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
     },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
     "crossRef" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
       "@type" : "@id"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
