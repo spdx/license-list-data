@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10-29-g80ed4bb
+The following licenses have been generated from the license list version 3.10-32-g7f396e2
 
 ## Licenses with Short Idenifiers
 
@@ -26,6 +26,7 @@ The following licenses have been generated from the license list version 3.10-29
 | Apple MIT License                                                            | [AML][]                                  |      |           |
 | Academy of Motion Picture Arts and Sciences BSD                              | [AMPAS][]                                |      |           |
 | ANTLR Software Rights Notice                                                 | [ANTLR-PD][]                             |      |           |
+| ANTLR Software Rights Notice with license fallback                           | [ANTLR-PD-fallback][]                    |      |           |
 | Apache License 1.0                                                           | [Apache-1.0][]                           |      | Y         |
 | Apache License 1.1                                                           | [Apache-1.1][]                           | Y    | Y         |
 | Apache License 2.0                                                           | [Apache-2.0][]                           | Y    | Y         |
@@ -523,6 +524,7 @@ The following licenses have been generated from the license list version 3.10-29
 [AML]: text/AML.txt
 [AMPAS]: text/AMPAS.txt
 [ANTLR-PD]: text/ANTLR-PD.txt
+[ANTLR-PD-fallback]: text/ANTLR-PD-fallback.txt
 [Apache-1.0]: text/Apache-1.0.txt
 [Apache-1.1]: text/Apache-1.1.txt
 [Apache-2.0]: text/Apache-2.0.txt
