@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2020-11-19 - 19:00:55",
+    "timestamp" : "2020-11-23 - 15:13:30",
     "url" : "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.2"
   }, {
     "@id" : "http://spdx.org/licenses/CERN-OHL-1.2",
@@ -23,6 +23,34 @@
     "seeAlso" : "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.2"
   } ],
   "@context" : {
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "standardLicenseHeader" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
+    "standardLicenseHeaderTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
+    },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"
     },
@@ -43,34 +71,6 @@
     },
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "standardLicenseHeader" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "standardLicenseHeaderTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

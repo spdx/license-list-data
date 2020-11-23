@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2020-11-19 - 19:04:12",
-    "url" : "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "isLive" : "false",
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2020-11-19 - 19:04:13",
+    "timestamp" : "2020-11-23 - 15:16:45",
     "url" : "http://opensource.org/licenses/LiLiQ-R-1.1"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-23 - 15:16:45",
+    "url" : "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/"
   }, {
     "@id" : "http://spdx.org/licenses/LiLiQ-R-1.1",
     "@type" : "spdx:License",
@@ -32,6 +32,31 @@
     "seeAlso" : [ "http://opensource.org/licenses/LiLiQ-R-1.1", "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/" ]
   } ],
   "@context" : {
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"
     },
@@ -52,31 +77,6 @@
     },
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

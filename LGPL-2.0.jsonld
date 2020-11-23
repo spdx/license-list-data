@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2020-11-19 - 19:03:43",
+    "timestamp" : "2020-11-23 - 15:16:15",
     "url" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-2.0",
@@ -24,6 +24,37 @@
     "seeAlso" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
   } ],
   "@context" : {
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "standardLicenseHeader" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId"
+    },
+    "standardLicenseHeaderTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"
     },
@@ -44,37 +75,6 @@
     },
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "standardLicenseHeader" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId"
-    },
-    "standardLicenseHeaderTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
