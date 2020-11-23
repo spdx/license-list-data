@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2020-11-19 - 19:03:17",
+    "timestamp" : "2020-11-23 - 15:15:51",
     "url" : "https://opensource.org/licenses/Apache-1.1"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2020-11-19 - 19:03:17",
+    "timestamp" : "2020-11-23 - 15:15:50",
     "url" : "http://apache.org/licenses/LICENSE-1.1"
   }, {
     "@id" : "http://spdx.org/licenses/Apache-1.1",
@@ -33,6 +33,27 @@
     "seeAlso" : [ "http://apache.org/licenses/LICENSE-1.1", "https://opensource.org/licenses/Apache-1.1" ]
   } ],
   "@context" : {
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -60,27 +81,6 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

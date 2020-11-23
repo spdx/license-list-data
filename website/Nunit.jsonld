@@ -2,12 +2,12 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "false",
+    "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "true",
+    "match" : "false",
     "order" : "0",
-    "timestamp" : "2020-11-19 - 18:59:47",
+    "timestamp" : "2020-11-23 - 15:12:19",
     "url" : "https://fedoraproject.org/wiki/Licensing/Nunit"
   }, {
     "@id" : "http://spdx.org/licenses/Nunit",
@@ -22,6 +22,27 @@
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Nunit"
   } ],
   "@context" : {
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId"
     },
@@ -46,27 +67,6 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
