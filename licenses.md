@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10-36-gc25253b
+The following licenses have been generated from the license list version 3.10-45-g872b48e
 
 ## Licenses with Short Idenifiers
 
@@ -65,6 +65,7 @@ The following licenses have been generated from the license list version 3.10-36
 | BSD Protection License                                                       | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                  | [BSD-Source-Code][]                      |      |           |
 | Boost Software License 1.0                                                   | [BSL-1.0][]                              | Y    | Y         |
+| Business Source License 1.1                                                  | [BUSL-1.1][]                             |      |           |
 | bzip2 and libbzip2 License v1.0.5                                            | [bzip2-1.0.5][]                          |      |           |
 | bzip2 and libbzip2 License v1.0.6                                            | [bzip2-1.0.6][]                          |      |           |
 | Cryptographic Autonomy License 1.0                                           | [CAL-1.0][]                              | Y    |           |
@@ -202,6 +203,7 @@ The following licenses have been generated from the license list version 3.10-36
 | Hippocratic License 2.1                                                      | [Hippocratic-2.1][]                      |      |           |
 | Historical Permission Notice and Disclaimer                                  | [HPND][]                                 | Y    | Y         |
 | Historical Permission Notice and Disclaimer - sell variant                   | [HPND-sell-variant][]                    |      |           |
+| HTML Tidy License                                                            | [HTMLTIDY][]                             |      |           |
 | IBM PowerPC Initialization and Boot Software                                 | [IBM-pibs][]                             |      |           |
 | ICU License                                                                  | [ICU][]                                  |      |           |
 | Independent JPEG Group License                                               | [IJG][]                                  |      | Y         |
@@ -565,6 +567,7 @@ The following licenses have been generated from the license list version 3.10-36
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSL-1.0]: text/BSL-1.0.txt
+[BUSL-1.1]: text/BUSL-1.1.txt
 [bzip2-1.0.5]: text/bzip2-1.0.5.txt
 [bzip2-1.0.6]: text/bzip2-1.0.6.txt
 [CAL-1.0]: text/CAL-1.0.txt
@@ -719,6 +722,7 @@ The following licenses have been generated from the license list version 3.10-36
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
 [HPND]: text/HPND.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
+[HTMLTIDY]: text/HTMLTIDY.txt
 [IBM-pibs]: text/IBM-pibs.txt
 [ICU]: text/ICU.txt
 [IJG]: text/IJG.txt
