@@ -5,20 +5,20 @@
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2020-11-23 - 15:17:10",
-    "url" : "https://sqlite.org/src/artifact/df5091916dbb40e6"
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2020-11-24 - 20:47:48",
+    "url" : "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2020-11-23 - 15:17:09",
-    "url" : "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9"
+    "match" : "true",
+    "order" : "1",
+    "timestamp" : "2020-11-24 - 20:47:48",
+    "url" : "https://sqlite.org/src/artifact/df5091916dbb40e6"
   }, {
     "@id" : "http://spdx.org/licenses/blessing",
     "@type" : "spdx:License",
@@ -26,29 +26,10 @@
     "licenseText" : "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\nMay you do good and not evil.\nMay you find forgiveness for yourself and forgive others.\nMay you share freely, never taking more than you give.\n",
     "name" : "SQLite Blessing",
     "standardLicenseTemplate" : "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\n   \n\n   May you do good and not evil.\n\n   \n\n   May you find forgiveness for yourself and forgive others.\n\n   \n\n   May you share freely, never taking more than you give.",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "seeAlso" : [ "https://sqlite.org/src/artifact/df5091916dbb40e6", "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9" ]
   } ],
   "@context" : {
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"
     },
@@ -69,6 +50,25 @@
     },
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
