@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10-58-ga32a839
+The following licenses have been generated from the license list version 3.11
 
 ## Licenses with Short Idenifiers
 
