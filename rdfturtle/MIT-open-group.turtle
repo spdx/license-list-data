@@ -1,0 +1,48 @@
+@prefix spdx:  <http://spdx.org/rdf/terms#> .
+@prefix doap:  <http://usefulinc.com/ns/doap#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://spdx.org/licenses/MIT-open-group>
+        a                             spdx:License ;
+        rdfs:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         "true" ;
+                                        spdx:isValid        "true" ;
+                                        spdx:isWayBackLink  "false" ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "3" ;
+                                        spdx:timestamp      "2020-11-25 - 14:32:06" ;
+                                        spdx:url            "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
+                                      ] ;
+        rdfs:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         "true" ;
+                                        spdx:isValid        "true" ;
+                                        spdx:isWayBackLink  "false" ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "2" ;
+                                        spdx:timestamp      "2020-11-25 - 14:32:05" ;
+                                        spdx:url            "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING"
+                                      ] ;
+        rdfs:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         "true" ;
+                                        spdx:isValid        "true" ;
+                                        spdx:isWayBackLink  "false" ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "1" ;
+                                        spdx:timestamp      "2020-11-25 - 14:32:05" ;
+                                        spdx:url            "https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING"
+                                      ] ;
+        rdfs:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         "true" ;
+                                        spdx:isValid        "true" ;
+                                        spdx:isWayBackLink  "false" ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0" ;
+                                        spdx:timestamp      "2020-11-25 - 14:32:04" ;
+                                        spdx:url            "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING"
+                                      ] ;
+        rdfs:seeAlso                  "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING" , "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING" , "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING" , "https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING" ;
+        spdx:licenseId                "MIT-open-group" ;
+        spdx:licenseText              "Copyright <yyyy, yyyy> The Open Group\n\nPermission to use, copy, modify, distribute, and sell this software and\nits documentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation.\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES\nOR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR\nOTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR\nTHE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nfrom The Open Group.\n" ;
+        spdx:name                     "MIT Open Group variant" ;
+        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright <yyyy, yyyy> The Open Group\";match=\".{0,1000}\">>\n\nPermission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of <<var;name=\"name1\";original=\"The Open Group\";match=\".+\">> shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from <<var;name=\"name2\";original=\"The Open Group\";match=\".+\">> ." .

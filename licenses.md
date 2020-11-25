@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.10-45-g872b48e
+The following licenses have been generated from the license list version 3.10-52-gc4b7ce7
 
 ## Licenses with Short Idenifiers
 
@@ -254,6 +254,7 @@ The following licenses have been generated from the license list version 3.10-45
 | CMU License                                                                  | [MIT-CMU][]                              |      |           |
 | enna License                                                                 | [MIT-enna][]                             |      |           |
 | feh License                                                                  | [MIT-feh][]                              |      |           |
+| MIT Open Group variant                                                       | [MIT-open-group][]                       |      |           |
 | MIT +no-false-attribs license                                                | [MITNFA][]                               |      |           |
 | Motosoto License                                                             | [Motosoto][]                             | Y    |           |
 | mpich2 License                                                               | [mpich2][]                               |      |           |
@@ -779,6 +780,7 @@ The following licenses have been generated from the license list version 3.10-45
 [MIT-CMU]: text/MIT-CMU.txt
 [MIT-enna]: text/MIT-enna.txt
 [MIT-feh]: text/MIT-feh.txt
+[MIT-open-group]: text/MIT-open-group.txt
 [MITNFA]: text/MITNFA.txt
 [Motosoto]: text/Motosoto.txt
 [mpich2]: text/mpich2.txt

@@ -5,20 +5,20 @@
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2020-11-24 - 20:44:16",
-    "url" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2020-11-25 - 14:28:49",
+    "url" : "https://opensource.org/licenses/LGPL-2.1"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2020-11-24 - 20:44:16",
-    "url" : "https://opensource.org/licenses/LGPL-2.1"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2020-11-25 - 14:28:49",
+    "url" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-2.1",
     "@type" : "spdx:License",
@@ -35,10 +35,6 @@
     "seeAlso" : [ "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html", "https://opensource.org/licenses/LGPL-2.1" ]
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
     },
@@ -47,6 +43,10 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "standardLicenseHeader" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
