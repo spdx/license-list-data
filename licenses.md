@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.11
+The following licenses have been generated from the license list version 3.11-1-g6e80799
 
 ## Licenses with Short Idenifiers
 
@@ -159,7 +159,7 @@ The following licenses have been generated from the license list version 3.11
 | EU DataGrid Software License                                                 | [EUDatagrid][]                           | Y    | Y         |
 | European Union Public License 1.0                                            | [EUPL-1.0][]                             |      |           |
 | European Union Public License 1.1                                            | [EUPL-1.1][]                             | Y    | Y         |
-| European Union Public License 1.2                                            | [EUPL-1.2][]                             | Y    | Y         |
+| European Union Public License 1.2                                            | [EUPL-1.2][]                             | Y    |           |
 | Eurosym License                                                              | [Eurosym][]                              |      |           |
 | Fair License                                                                 | [Fair][]                                 | Y    |           |
 | Frameworx Open License 1.0                                                   | [Frameworx-1.0][]                        | Y    |           |
@@ -296,7 +296,7 @@ The following licenses have been generated from the license list version 3.11
 | OCLC Research Public License 2.0                                             | [OCLC-2.0][]                             | Y    |           |
 | ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      | Y         |
 | Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |           |
-| SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      | Y         |
+| SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      |           |
 | SIL Open Font License 1.0 with no Reserved Font Name                         | [OFL-1.0-no-RFN][]                       |      |           |
 | SIL Open Font License 1.0 with Reserved Font Name                            | [OFL-1.0-RFN][]                          |      |           |
 | SIL Open Font License 1.1                                                    | [OFL-1.1][]                              | Y    | Y         |
