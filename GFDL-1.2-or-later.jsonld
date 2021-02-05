@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-02-05 - 17:29:58",
+    "timestamp" : "2021-02-05 - 20:21:35",
     "url" : "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
   }, {
     "@id" : "http://spdx.org/licenses/GFDL-1.2-or-later",
@@ -24,6 +24,10 @@
     "seeAlso" : "https://www.gnu.org/licenses/old-licenses/fdl-1.2.txt"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
     },
@@ -47,10 +51,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
