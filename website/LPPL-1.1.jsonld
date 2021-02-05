@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-02-05 - 06:31:43",
+    "timestamp" : "2021-02-05 - 17:30:48",
     "url" : "http://www.latex-project.org/lppl/lppl-1-1.txt"
   }, {
     "@id" : "http://spdx.org/licenses/LPPL-1.1",
@@ -23,6 +23,10 @@
     "seeAlso" : "http://www.latex-project.org/lppl/lppl-1-1.txt"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -32,11 +36,11 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
@@ -46,10 +50,6 @@
     },
     "standardLicenseHeader" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
     },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"

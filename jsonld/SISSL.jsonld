@@ -6,19 +6,19 @@
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-02-05 - 06:30:17",
-    "url" : "http://www.openoffice.org/licenses/sissl_license.html"
+    "order" : "1",
+    "timestamp" : "2021-02-05 - 17:29:47",
+    "url" : "https://opensource.org/licenses/SISSL"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
+    "isLive" : "false",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-02-05 - 06:30:17",
-    "url" : "https://opensource.org/licenses/SISSL"
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2021-02-05 - 17:29:17",
+    "url" : "http://www.openoffice.org/licenses/sissl_license.html"
   }, {
     "@id" : "http://spdx.org/licenses/SISSL",
     "@type" : "spdx:License",
@@ -34,6 +34,27 @@
     "seeAlso" : [ "http://www.openoffice.org/licenses/sissl_license.html", "https://opensource.org/licenses/SISSL" ]
   } ],
   "@context" : {
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
     },
@@ -64,27 +85,6 @@
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
