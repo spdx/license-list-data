@@ -6,9 +6,9 @@
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-02-05 - 17:28:42",
-    "url" : "https://opensource.org/licenses/EFL-2.0"
+    "order" : "0",
+    "timestamp" : "2021-02-05 - 20:20:15",
+    "url" : "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-02-05 - 17:28:42",
-    "url" : "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html"
+    "order" : "1",
+    "timestamp" : "2021-02-05 - 20:20:16",
+    "url" : "https://opensource.org/licenses/EFL-2.0"
   }, {
     "@id" : "http://spdx.org/licenses/EFL-2.0",
     "@type" : "spdx:License",
@@ -28,10 +28,35 @@
     "licenseText" : "Eiffel Forum License, version 2\n\n1. Permission is hereby granted to use, copy, modify and/or distribute this package, provided that:\n     - copyright notices are retained unchanged,\n     - any distribution of this package, whether modified or not, includes this license text.\n\n2. Permission is hereby also granted to distribute binary programs which depend on this package. If the binary program depends on a modified version of this package, you are encouraged to publicly release the modified version of this package.\n\nTHIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.\n",
     "name" : "Eiffel Forum License v2.0",
     "standardLicenseTemplate" : "<<beginOptional>> Eiffel Forum License, version 2<<endOptional>>\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Permission is hereby granted to use, copy, modify and/or distribute this package, provided that:\n\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> copyright notices are retained unchanged,\n\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> any distribution of this package, whether modified or not, includes this license text.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Permission is hereby also granted to distribute binary programs which depend on this package. If the binary program depends on a modified version of this package, you are encouraged to publicly release the modified version of this package.\n\nTHIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "seeAlso" : [ "https://opensource.org/licenses/EFL-2.0", "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html" ]
   } ],
   "@context" : {
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "isFsfLibre" : {
+      "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"
     },
@@ -52,31 +77,6 @@
     },
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "isFsfLibre" : {
-      "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

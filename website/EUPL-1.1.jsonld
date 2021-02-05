@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "2",
-    "timestamp" : "2021-02-05 - 17:38:17",
+    "timestamp" : "2021-02-05 - 20:29:26",
     "url" : "https://opensource.org/licenses/EUPL-1.1"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-02-05 - 17:38:17",
+    "timestamp" : "2021-02-05 - 20:29:26",
     "url" : "https://joinup.ec.europa.eu/sites/default/files/custom-page/attachment/eupl1.1.-licence-en_0.pdf"
   }, {
     "@id" : "_:b2",
@@ -27,7 +27,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-02-05 - 17:38:16",
+    "timestamp" : "2021-02-05 - 20:29:25",
     "url" : "https://joinup.ec.europa.eu/software/page/eupl/licence-eupl"
   }, {
     "@id" : "http://spdx.org/licenses/EUPL-1.1",
@@ -64,8 +64,9 @@
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
     },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
@@ -75,10 +76,6 @@
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
@@ -91,6 +88,9 @@
     },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

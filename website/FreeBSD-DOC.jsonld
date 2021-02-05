@@ -1,0 +1,68 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2021-02-05 - 20:22:48",
+    "url" : "https://www.freebsd.org/copyright/freebsd-doc-license/"
+  }, {
+    "@id" : "http://spdx.org/licenses/FreeBSD-DOC",
+    "@type" : "spdx:License",
+    "licenseId" : "FreeBSD-DOC",
+    "licenseText" : "The FreeBSD Documentation License\n\nCopyright 1994-2021 The FreeBSD Project. All rights reserved.\n\nRedistribution and use in source (SGML DocBook) and 'compiled' forms (SGML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are permitted provided that the following conditions are met:\n\n    1. Redistributions of source code (SGML DocBook) must retain the above copyright notice, this list of conditions and the following disclaimer as the first lines of this file unmodified.\n\n    2. Redistributions in compiled form (transformed to other DTDs, converted to PDF, PostScript, RTF and other formats) must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS DOCUMENTATION IS PROVIDED BY THE FREEBSD DOCUMENTATION PROJECT \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FREEBSD DOCUMENTATION PROJECT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nManual Pages\n\nSome FreeBSD manual pages contain text from the IEEE Std 1003.1, 2004 Edition, Standard for Information Technology — Portable Operating System Interface (POSIX®) specification. These manual pages are subject to the following terms:\n\n    The Institute of Electrical and Electronics Engineers and The Open Group, have given us permission to reprint portions of their documentation.\n\n    In the following statement, the phrase \"this text\" refers to portions of the system documentation.\n\n    Portions of this text are reprinted and reproduced in electronic form in the FreeBSD manual pages, from IEEE Std 1003.1, 2004 Edition, Standard for Information Technology — Portable Operating System Interface (POSIX), The Open Group Base Specifications Issue 6, Copyright© 2001-2004 by the Institute of Electrical and Electronics Engineers, Inc and The Open Group. In the event of any discrepancy between these versions and the original IEEE and The Open Group Standard, the original IEEE and The Open Group Standard is the referee document. The original Standard can be obtained online at https://www.opengroup.org/membership/forums/platform/unix.\n\n    This notice shall appear on any product containing this material.\n",
+    "name" : "FreeBSD Documentation License",
+    "standardLicenseTemplate" : "<<beginOptional>> The FreeBSD Documentation License<<endOptional>> <<var;name=\"copyright\";original=\"Copyright 1994-2021 The FreeBSD Project. All rights reserved.\";match=\".{0,1000}\">>\n\nRedistribution and use in source (SGML DocBook) and 'compiled' forms (SGML, HTML, PDF, PostScript, RTF and so forth) with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code (SGML DocBook) must retain the above copyright notice, this list of conditions and the following disclaimer as the first lines of this file unmodified.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in compiled form (transformed to other DTDs, converted to PDF, PostScript, RTF and other formats) must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS DOCUMENTATION IS PROVIDED BY THE FREEBSD DOCUMENTATION PROJECT \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FREEBSD DOCUMENTATION PROJECT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS DOCUMENTATION, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nManual Pages\n\nSome FreeBSD manual pages contain text from the IEEE Std 1003.1, 2004 Edition, Standard for Information Technology - Portable Operating System Interface (POSIX®) specification. These manual pages are subject to the following terms:\n\n   The Institute of Electrical and Electronics Engineers and The Open Group, have given us permission to reprint portions of their documentation.\n\n   In the following statement, the phrase \"this text\" refers to portions of the system documentation.\n\n   Portions of this text are reprinted and reproduced in electronic form in the FreeBSD manual pages, from IEEE Std 1003.1, 2004 Edition, Standard for Information Technology — Portable Operating System Interface (POSIX), The Open Group Base Specifications Issue 6, Copyright© 2001-2004 by the Institute of Electrical and Electronics Engineers, Inc and The Open Group. In the event of any discrepancy between these versions and the original IEEE and The Open Group Standard, the original IEEE and The Open Group Standard is the referee document. The original Standard can be obtained online at https://www.opengroup.org/membership/forums/platform/unix.\n\n   This notice shall appear on any product containing this material.",
+    "crossRef" : "_:b0",
+    "seeAlso" : "https://www.freebsd.org/copyright/freebsd-doc-license/"
+  } ],
+  "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+  }
+}

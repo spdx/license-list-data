@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-02-05 - 17:32:55",
-    "url" : "https://opensource.org/licenses/EUDatagrid"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "isLive" : "false",
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-02-05 - 17:32:53",
+    "timestamp" : "2021-02-05 - 20:24:17",
     "url" : "http://eu-datagrid.web.cern.ch/eu-datagrid/license.html"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "true",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2021-02-05 - 20:24:20",
+    "url" : "https://opensource.org/licenses/EUDatagrid"
   }, {
     "@id" : "http://spdx.org/licenses/EUDatagrid",
     "@type" : "spdx:License",
@@ -32,27 +32,6 @@
     "seeAlso" : [ "http://eu-datagrid.web.cern.ch/eu-datagrid/license.html", "https://opensource.org/licenses/EUDatagrid" ]
   } ],
   "@context" : {
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
     "crossRef" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
       "@type" : "@id"
@@ -77,6 +56,27 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

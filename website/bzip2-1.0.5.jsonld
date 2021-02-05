@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-02-05 - 17:31:17",
+    "timestamp" : "2021-02-05 - 20:22:51",
     "url" : "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-02-05 - 17:31:17",
+    "timestamp" : "2021-02-05 - 20:22:51",
     "url" : "https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html"
   }, {
     "@id" : "http://spdx.org/licenses/bzip2-1.0.5",
@@ -30,6 +30,25 @@
     "seeAlso" : [ "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html", "https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html" ]
   } ],
   "@context" : {
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"
     },
@@ -50,25 +69,6 @@
     },
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

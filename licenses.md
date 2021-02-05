@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.11-12-gf09a412
+The following licenses have been generated from the license list version 3.11-18-g34fae30
 
 ## Licenses with Short Idenifiers
 
@@ -163,6 +163,7 @@ The following licenses have been generated from the license list version 3.11-12
 | Eurosym License                                                              | [Eurosym][]                              |      |           |
 | Fair License                                                                 | [Fair][]                                 | Y    |           |
 | Frameworx Open License 1.0                                                   | [Frameworx-1.0][]                        | Y    |           |
+| FreeBSD Documentation License                                                | [FreeBSD-DOC][]                          |      |           |
 | FreeImage Public License v1.0                                                | [FreeImage][]                            |      |           |
 | FSF All Permissive License                                                   | [FSFAP][]                                |      | Y         |
 | FSF Unlimited License                                                        | [FSFUL][]                                |      |           |
@@ -667,6 +668,7 @@ The following licenses have been generated from the license list version 3.11-12
 [Eurosym]: text/Eurosym.txt
 [Fair]: text/Fair.txt
 [Frameworx-1.0]: text/Frameworx-1.0.txt
+[FreeBSD-DOC]: text/FreeBSD-DOC.txt
 [FreeImage]: text/FreeImage.txt
 [FSFAP]: text/FSFAP.txt
 [FSFUL]: text/FSFUL.txt
