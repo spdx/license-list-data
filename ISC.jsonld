@@ -6,9 +6,9 @@
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-02-04 - 21:21:36",
-    "url" : "https://opensource.org/licenses/ISC"
+    "order" : "0",
+    "timestamp" : "2021-02-05 - 06:37:21",
+    "url" : "https://www.isc.org/downloads/software-support-policy/isc-license/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-02-04 - 21:21:36",
-    "url" : "https://www.isc.org/downloads/software-support-policy/isc-license/"
+    "order" : "1",
+    "timestamp" : "2021-02-05 - 06:37:22",
+    "url" : "https://opensource.org/licenses/ISC"
   }, {
     "@id" : "http://spdx.org/licenses/ISC",
     "@type" : "spdx:License",
@@ -32,6 +32,31 @@
     "seeAlso" : [ "https://www.isc.org/downloads/software-support-policy/isc-license/", "https://opensource.org/licenses/ISC" ]
   } ],
   "@context" : {
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
+    "isFsfLibre" : {
+      "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"
     },
@@ -52,31 +77,6 @@
     },
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
-    },
-    "isFsfLibre" : {
-      "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

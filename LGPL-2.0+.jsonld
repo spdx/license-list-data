@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-02-04 - 21:15:06",
+    "timestamp" : "2021-02-05 - 06:31:10",
     "url" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-2.0+",
@@ -24,9 +24,26 @@
     "seeAlso" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -49,32 +66,15 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
