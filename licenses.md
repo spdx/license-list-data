@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.11-21-g7aaf522
+The following licenses have been generated from the license list version 3.11-26-g1343ad7
 
 ## Licenses with Short Idenifiers
 
@@ -295,7 +295,7 @@ The following licenses have been generated from the license list version 3.11-21
 | Open Use of Data Agreement v1.0                                              | [O-UDA-1.0][]                            |      |           |
 | Open CASCADE Technology Public License                                       | [OCCT-PL][]                              |      |           |
 | OCLC Research Public License 2.0                                             | [OCLC-2.0][]                             | Y    |           |
-| ODC Open Database License v1.0                                               | [ODbL-1.0][]                             |      | Y         |
+| Open Data Commons Open Database License v1.0                                 | [ODbL-1.0][]                             |      | Y         |
 | Open Data Commons Attribution License v1.0                                   | [ODC-By-1.0][]                           |      |           |
 | SIL Open Font License 1.0                                                    | [OFL-1.0][]                              |      |           |
 | SIL Open Font License 1.0 with no Reserved Font Name                         | [OFL-1.0-no-RFN][]                       |      |           |
@@ -336,7 +336,7 @@ The following licenses have been generated from the license list version 3.11-21
 | Open Software License 3.0                                                    | [OSL-3.0][]                              | Y    | Y         |
 | The Parity Public License 6.0.0                                              | [Parity-6.0.0][]                         |      |           |
 | The Parity Public License 7.0.0                                              | [Parity-7.0.0][]                         |      |           |
-| ODC Public Domain Dedication & License 1.0                                   | [PDDL-1.0][]                             |      |           |
+| Open Data Commons Public Domain Dedication & License 1.0                     | [PDDL-1.0][]                             |      |           |
 | PHP License v3.0                                                             | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                            | [PHP-3.01][]                             | Y    | Y         |
 | Plexus Classworlds License                                                   | [Plexus][]                               |      |           |
