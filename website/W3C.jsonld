@@ -5,20 +5,20 @@
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-02-07 - 13:52:02",
-    "url" : "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2021-02-08 - 02:40:45",
+    "url" : "https://opensource.org/licenses/W3C"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-02-07 - 13:52:02",
-    "url" : "https://opensource.org/licenses/W3C"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2021-02-08 - 02:40:45",
+    "url" : "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html"
   }, {
     "@id" : "http://spdx.org/licenses/W3C",
     "@type" : "spdx:License",
@@ -31,7 +31,7 @@
     "standardLicenseHeaderTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) <<var;name=\"year\";original=\"[$date-of-software]\";match=\".+\">> World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University). All Rights Reserved.\";match=\".{0,1000}\">>\n\nThis work is distributed under the W3C® Software License in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
     "standardLicenseTemplate" : "<<beginOptional>> W3C SOFTWARE NOTICE AND LICENSE<<endOptional>>\n\nThis work (and included software, documentation such as READMEs, or other related items) is being provided by the copyright holders under the following license.\n\nLicense\n\nBy obtaining, using and/or copying this work, you (the licensee) agree that you have read, understood, and will comply with the following terms and conditions.\n\nPermission to copy, modify, and distribute this software and its documentation, with or without modification, for any purpose and without fee or royalty is hereby granted, provided that you include the following on ALL copies of the software and documentation or portions thereof, including modifications:\n\nThe full text of this NOTICE in a location viewable to users of the redistributed or derivative work.\n\nAny pre-existing intellectual property disclaimers, notices, or terms and conditions. If none exist, the W3C Software Short Notice should be included (hypertext is preferred, text is permitted) within the body of any redistributed or derivative code.\n\nNotice of any changes or modifications to the files, including the date changes were made. (We recommend you provide URIs to the location from which the code is derived.)\n\nDisclaimers\n\nTHIS SOFTWARE AND DOCUMENTATION IS PROVIDED \"AS IS,\" AND COPYRIGHT HOLDERS MAKE NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE OR DOCUMENTATION WILL NOT INFRINGE ANY THIRD PARTY PATENTS, COPYRIGHTS, TRADEMARKS OR OTHER RIGHTS.\n\nCOPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF ANY USE OF THE SOFTWARE OR DOCUMENTATION.\n\nThe name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the software without specific, written prior permission. Title to copyright in this software and any associated documentation will at all times remain with copyright holders.<<beginOptional>> Notes\n\nThis version: http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231\n\nThis formulation of W3C's notice and license became active on December 31 2002. This version removes the copyright ownership notice such that this license can be used with materials other than those owned by the W3C, reflects that ERCIM is now a host of the W3C, includes references to this specific dated version of the license, and removes the ambiguous grant of \"use\". Otherwise, this version is the same as the previous version and is written so as to preserve the Free Software Foundation's assessment of GPL compatibility and OSI's certification under the Open Source Definition.<<endOptional>>",
     "comment" : "This license was released: 13 December 2002. The standard header is provided via a link from the original license page.",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "seeAlso" : [ "https://opensource.org/licenses/W3C", "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html" ]
   } ],
   "@context" : {
@@ -59,10 +59,6 @@
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
@@ -77,6 +73,10 @@
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
