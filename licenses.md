@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.11-47-g87c43ff
+The following licenses have been generated from the license list version 3.11-54-g1d17200
 
 ## Licenses with Short Idenifiers
 
@@ -144,6 +144,7 @@ The following licenses have been generated from the license list version 3.11-47
 | diffmark license                                                             | [diffmark][]                             |      |           |
 | DOC License                                                                  | [DOC][]                                  |      |           |
 | Dotseqn License                                                              | [Dotseqn][]                              |      |           |
+| Detection Rule License 1.0                                                   | [DRL-1.0][]                              |      |           |
 | DSDP License                                                                 | [DSDP][]                                 |      |           |
 | dvipdfm License                                                              | [dvipdfm][]                              |      |           |
 | Educational Community License v1.0                                           | [ECL-1.0][]                              | Y    |           |
@@ -649,6 +650,7 @@ The following licenses have been generated from the license list version 3.11-47
 [diffmark]: text/diffmark.txt
 [DOC]: text/DOC.txt
 [Dotseqn]: text/Dotseqn.txt
+[DRL-1.0]: text/DRL-1.0.txt
 [DSDP]: text/DSDP.txt
 [dvipdfm]: text/dvipdfm.txt
 [ECL-1.0]: text/ECL-1.0.txt
