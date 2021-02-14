@@ -7,7 +7,7 @@
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2021-02-08 - 02:43:57",
+    "timestamp" : "2021-02-14 - 21:55:27",
     "url" : "https://opensource.org/licenses/Fair"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "isWayBackLink" : "false",
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-02-08 - 02:43:57",
+    "timestamp" : "2021-02-14 - 21:55:27",
     "url" : "http://fairlicense.org/"
   }, {
     "@id" : "http://spdx.org/licenses/Fair",
@@ -27,7 +27,7 @@
     "licenseText" : "Fair License\n\n<Copyright Information>\n\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\n\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.\n\n[2004, Fair License: rhid.com/fair (this URL no longer works)]\n",
     "name" : "Fair License",
     "standardLicenseTemplate" : "<<beginOptional>> Fair License<<endOptional>> <<var;name=\"copyright\";original=\"<Copyright Information>\";match=\".{0,1000}\">>\n\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\n\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "seeAlso" : [ "http://fairlicense.org/", "https://opensource.org/licenses/Fair" ]
   } ],
   "@context" : {
@@ -52,10 +52,6 @@
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
     },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
@@ -67,6 +63,10 @@
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
