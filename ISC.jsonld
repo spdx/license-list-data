@@ -6,9 +6,9 @@
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-02-14 - 22:38:55",
-    "url" : "https://opensource.org/licenses/ISC"
+    "order" : "0",
+    "timestamp" : "2021-02-22 - 18:12:56",
+    "url" : "https://www.isc.org/downloads/software-support-policy/isc-license/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-02-14 - 22:38:55",
-    "url" : "https://www.isc.org/downloads/software-support-policy/isc-license/"
+    "order" : "1",
+    "timestamp" : "2021-02-22 - 18:12:57",
+    "url" : "https://opensource.org/licenses/ISC"
   }, {
     "@id" : "http://spdx.org/licenses/ISC",
     "@type" : "spdx:License",
@@ -28,7 +28,7 @@
     "licenseText" : "ISC License:\n\nCopyright (c) 2004-2010 by Internet Systems Consortium, Inc. (\"ISC\")\nCopyright (c) 1995-2003 by Internet Software Consortium\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n",
     "name" : "ISC License",
     "standardLicenseTemplate" : "<<beginOptional>> <<var;name=\"title\";original=\"ISC License\";match=\"(The )?ISC License( \\(ISC[L]?\\))?:?\">><<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) 2004-2010 by Internet Systems Consortium, Inc. (\"ISC\")\n\nCopyright (c) 1995-2003 by Internet Software Consortium\";match=\".{0,1000}\">>\n\nPermission to use, copy, modify, and<<beginOptional>> /or<<endOptional>> distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND <<var;name=\"copyrightHolder\";original=\"ISC\";match=\".+\">> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"ISC\";match=\".+\">> BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "seeAlso" : [ "https://www.isc.org/downloads/software-support-policy/isc-license/", "https://opensource.org/licenses/ISC" ]
   } ],
   "@context" : {
@@ -53,15 +53,15 @@
     "url" : {
       "@id" : "http://spdx.org/rdf/terms#url"
     },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
     },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
-    },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
