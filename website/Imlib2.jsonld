@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "false",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-02-14 - 22:32:51",
-    "url" : "http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "isLive" : "true",
     "isValid" : "true",
     "isWayBackLink" : "false",
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2021-02-14 - 22:32:51",
+    "timestamp" : "2021-02-22 - 18:10:51",
     "url" : "https://git.enlightenment.org/legacy/imlib2.git/tree/COPYING"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "isLive" : "false",
+    "isValid" : "true",
+    "isWayBackLink" : "false",
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2021-02-22 - 18:10:51",
+    "url" : "http://trac.enlightenment.org/e/browser/trunk/imlib2/COPYING"
   }, {
     "@id" : "http://spdx.org/licenses/Imlib2",
     "@type" : "spdx:License",
@@ -34,10 +34,6 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -52,6 +48,10 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "crossRef" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
+      "@type" : "@id"
     },
     "order" : {
       "@id" : "http://spdx.org/rdf/terms#order"

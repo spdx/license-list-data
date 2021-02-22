@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.11-54-g1d17200
+The following licenses have been generated from the license list version c447544
 
 ## Licenses with Short Idenifiers
 
@@ -306,6 +306,7 @@ The following licenses have been generated from the license list version 3.11-54
 | SIL Open Font License 1.1 with no Reserved Font Name                         | [OFL-1.1-no-RFN][]                       | Y    |           |
 | SIL Open Font License 1.1 with Reserved Font Name                            | [OFL-1.1-RFN][]                          | Y    |           |
 | OGC Software License, Version 1.0                                            | [OGC-1.0][]                              |      |           |
+| Taiwan Open Government Data License, version 1.0                             | [OGDL-Taiwan-1.0][]                      |      |           |
 | Open Government Licence - Canada                                             | [OGL-Canada-2.0][]                       |      |           |
 | Open Government Licence v1.0                                                 | [OGL-UK-1.0][]                           |      |           |
 | Open Government Licence v2.0                                                 | [OGL-UK-2.0][]                           |      |           |
@@ -836,6 +837,7 @@ The following licenses have been generated from the license list version 3.11-54
 [OFL-1.1-no-RFN]: text/OFL-1.1-no-RFN.txt
 [OFL-1.1-RFN]: text/OFL-1.1-RFN.txt
 [OGC-1.0]: text/OGC-1.0.txt
+[OGDL-Taiwan-1.0]: text/OGDL-Taiwan-1.0.txt
 [OGL-Canada-2.0]: text/OGL-Canada-2.0.txt
 [OGL-UK-1.0]: text/OGL-UK-1.0.txt
 [OGL-UK-2.0]: text/OGL-UK-2.0.txt
