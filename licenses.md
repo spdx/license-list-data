@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version c447544
+The following licenses have been generated from the license list version 38e840c
 
 ## Licenses with Short Idenifiers
 
@@ -122,8 +122,8 @@ The following licenses have been generated from the license list version c447544
 | CeCILL-C Free Software License Agreement                                     | [CECILL-C][]                             |      | Y         |
 | CERN Open Hardware Licence v1.1                                              | [CERN-OHL-1.1][]                         |      |           |
 | CERN Open Hardware Licence v1.2                                              | [CERN-OHL-1.2][]                         |      |           |
-| CERN Open Hardware Licence Version 2 - Permissive                            | [CERN-OHL-P-2.0][]                       |      |           |
-| CERN Open Hardware Licence Version 2 - Strongly Reciprocal                   | [CERN-OHL-S-2.0][]                       |      |           |
+| CERN Open Hardware Licence Version 2 - Permissive                            | [CERN-OHL-P-2.0][]                       | Y    |           |
+| CERN Open Hardware Licence Version 2 - Strongly Reciprocal                   | [CERN-OHL-S-2.0][]                       | Y    |           |
 | CERN Open Hardware Licence Version 2 - Weakly Reciprocal                     | [CERN-OHL-W-2.0][]                       |      |           |
 | Clarified Artistic License                                                   | [ClArtistic][]                           |      | Y         |
 | CNRI Jython License                                                          | [CNRI-Jython][]                          |      |           |
