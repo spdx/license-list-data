@@ -2,44 +2,67 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-02-23 - 20:53:13",
+    "timestamp" : "2021-02-28 - 03:25:52",
     "url" : "https://fedoraproject.org/wiki/Licensing/NLPL"
   }, {
     "@id" : "http://spdx.org/licenses/NLPL",
-    "@type" : "spdx:License",
-    "licenseId" : "NLPL",
-    "licenseText" : "NO LIMIT PUBLIC LICENSE\n     Version 0, June 2012\n\nGilles LAMIRAL\nLa Billais\n35580 Baulon\nFrance\n\nNO LIMIT PUBLIC LICENSE\n\nTerms and conditions for copying, distribution, modification\nor anything else.\n\n     0. No limit to do anything with this work and this license.\n",
-    "name" : "No Limit Public License",
-    "standardLicenseTemplate" : "<<beginOptional>> NO LIMIT PUBLIC LICENSE\n\nVersion 0, June 2012<<endOptional>><<beginOptional>> Gilles LAMIRAL\n\nLa Billais\n\n35580 Baulon\n\nFrance<<endOptional>><<beginOptional>> NO LIMIT PUBLIC LICENSE<<endOptional>>\n\nTerms and conditions for copying, distribution, modification or anything else.\n\n   <<var;name=\"bullet\";original=\"0.\";match=\".{0,20}\">> No limit to do anything with this work and this license.",
+    "@type" : "spdx:ListedLicense",
     "crossRef" : "_:b0",
+    "spdx:isDeprecatedLicenseId" : false,
+    "spdx:isOsiApproved" : false,
+    "licenseText" : "NO LIMIT PUBLIC LICENSE\n     Version 0, June 2012\n\nGilles LAMIRAL\nLa Billais\n35580 Baulon\nFrance\n\nNO LIMIT PUBLIC LICENSE\n\nTerms and conditions for copying, distribution, modification\nor anything else.\n\n     0. No limit to do anything with this work and this license.\n",
+    "licenseTextHtml" : "\n      <div class=\"optional-license-text\">\n         <p>NO LIMIT PUBLIC LICENSE</p>\n\n         <p>Version 0, June 2012</p>\n\n      </div>\n      <div class=\"optional-license-text\">\n         <p>Gilles LAMIRAL</p>\n\n         <p>La Billais</p>\n\n         <p>35580 Baulon</p>\n\n         <p>France</p>\n\n      </div>\n      <div class=\"optional-license-text\">\n         <p>NO LIMIT PUBLIC LICENSE</p>\n\n      </div>\n\n      <p>Terms and conditions for copying, distribution, modification or anything else.</p>\n\n<ul style=\"list-style:none\">\n<li>\n            <var class=\"replacable-license-text\">0.</var>\n          No limit to do anything with this work and this license.\n        </li>\n</ul>\n    ",
+    "name" : "No Limit Public License",
+    "standardLicenseTemplate" : "<<beginOptional>> NO LIMIT PUBLIC LICENSE\n\nVersion 0, June 2012\n\n<<endOptional>><<beginOptional>> Gilles LAMIRAL\n\nLa Billais\n\n35580 Baulon\n\nFrance\n\n<<endOptional>><<beginOptional>> NO LIMIT PUBLIC LICENSE\n\n<<endOptional>>\n\nTerms and conditions for copying, distribution, modification or anything else.\n\n   <<var;name=\"bullet\";original=\"0.\";match=\".{0,20}\">> No limit to do anything with this work and this license.",
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/NLPL"
   } ],
   "@context" : {
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "match" : {
       "@id" : "http://spdx.org/rdf/terms#match"
     },
     "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
@@ -47,22 +70,12 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
-    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

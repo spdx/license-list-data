@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">BSD-4-Clause (University of California-Specific)</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,7 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               http://www.freebsd.org/copyright/license.html [no longer live]
+               <a href="http://www.freebsd.org/copyright/license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2021-02-28 - 03:14:26>http://www.freebsd.org/copyright/license.html</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2021-02-28 - 03:14:26</p> -->
              </li>
            </ul>
           </div>
@@ -160,38 +161,31 @@
          <p>BSD-4-Clause (University of California-Specific)</p>
 
       </div>
-         <p>Copyright 
-<var class="replacable-license-text">[various years]</var> The Regents of the University of California. All rights reserved.</p>
-
+         <p>Copyright <var class="replacable-license-text">[various years]</var> The Regents of the University of California. All rights reserved.</p>
 
       <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided
          that the following conditions are met:</p>
 
-      
 <ul style="list-style:none">
 <li>
-            
-<var class="replacable-license-text">1.</var>
+            <var class="replacable-license-text">1.</var>
           Redistributions of source code must retain the above copyright notice, this list of conditions
              and the following disclaimer.
         </li>
 <li>
-            
-<var class="replacable-license-text">2.</var>
+            <var class="replacable-license-text">2.</var>
           Redistributions in binary form must reproduce the above copyright notice, this list of conditions
              and the following disclaimer in the documentation and/or other materials provided with the
              distribution.
         </li>
 <li>
-            
-<var class="replacable-license-text">3.</var>
+            <var class="replacable-license-text">3.</var>
           All advertising materials mentioning features or use of this software must display the following
              acknowledgement: This product includes software developed by the University of California,
              Berkeley and its contributors.
         </li>
 <li>
-            
-<var class="replacable-license-text">4.</var>
+            <var class="replacable-license-text">4.</var>
           Neither the name of the University nor the names of its contributors may be used to endorse or
              promote products derived from this software without specific prior written permission.
         </li>
@@ -214,7 +208,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;beginOptional&gt;&gt; BSD-4-Clause (University of California-Specific)&lt;&lt;endOptional&gt;&gt;&#10;&#10;Copyright &lt;&lt;var;name=&quot;cyears&quot;;original=&quot;[various years]&quot;;match=&quot;.+&quot;&gt;&gt; The Regents of the University of California. All rights reserved.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the University of California, Berkeley and its contributors.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Neither the name of the University nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.&#10;&#10;THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+      &lt;&lt;beginOptional&gt;&gt; BSD-4-Clause (University of California-Specific)&#10;&#10;&lt;&lt;endOptional&gt;&gt;&#10;&#10;Copyright &lt;&lt;var;name=&quot;cyears&quot;;original=&quot;[various years]&quot;;match=&quot;.+&quot;&gt;&gt; The Regents of the University of California. All rights reserved.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgement: This product includes software developed by the University of California, Berkeley and its contributors.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Neither the name of the University nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.&#10;&#10;THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

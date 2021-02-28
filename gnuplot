@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">gnuplot License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing/Gnuplot" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2021-02-23 - 20:48:13>https://fedoraproject.org/wiki/Licensing/Gnuplot</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2021-02-23 - 20:48:13</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing/Gnuplot" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2021-02-28 - 03:19:24>https://fedoraproject.org/wiki/Licensing/Gnuplot</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2021-02-28 - 03:19:24</p> -->
              </li>
            </ul>
           </div>
@@ -157,8 +157,7 @@
 
       <div property="spdx:licenseText" class="license-text">
       
-      
-<div class="replacable-license-text">
+      <div class="replacable-license-text">
          <p>Copyright 1986 - 1993, 1998, 2004 Thomas Williams, Colin Kelley</p>
 
       </div>
@@ -171,28 +170,23 @@
          source code. Modifications are to be distributed as patches to the released version. Permission to
          distribute binaries produced by compiling modified sources is granted, provided you</p>
 
-      
 <ul style="list-style:none">
 <li>
-            
-<var class="replacable-license-text">1.</var>
+            <var class="replacable-license-text">1.</var>
           distribute the corresponding source modifications from the released version in the form of a
              patch file along with the binaries,
         </li>
 <li>
-            
-<var class="replacable-license-text">2.</var>
+            <var class="replacable-license-text">2.</var>
           add special version identification to distinguish your version in addition to the base
              release version number,
         </li>
 <li>
-            
-<var class="replacable-license-text">3.</var>
+            <var class="replacable-license-text">3.</var>
           provide your name and address as the primary contact for the support of your modified version, and
         </li>
 <li>
-            
-<var class="replacable-license-text">4.</var>
+            <var class="replacable-license-text">4.</var>
           retain our contact information in regard to use of the base software.
         </li>
 </ul>
@@ -212,7 +206,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1986 - 1993, 1998, 2004 Thomas Williams, Colin Kelley&quot;;match=&quot;.{0,1000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.&#10;&#10;Permission to modify the software is granted, but not the right to distribute the complete modified source code. Modifications are to be distributed as patches to the released version. Permission to distribute binaries produced by compiling modified sources is granted, provided you&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; distribute the corresponding source modifications from the released version in the form of a patch file along with the binaries,&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; add special version identification to distinguish your version in addition to the base release version number,&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; provide your name and address as the primary contact for the support of your modified version, and&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; retain our contact information in regard to use of the base software.&#10;&#10;Permission to distribute the released version of the source code along with corresponding source modifications in the form of a patch file is granted with same provisions 2 through 4 for binary distributions.&#10;&#10;This software is provided &quot;as is&quot; without express or implied warranty to the extent permitted by applicable law.
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1986 - 1993, 1998, 2004 Thomas Williams, Colin Kelley  &quot;;match=&quot;.{0,1000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.&#10;&#10;Permission to modify the software is granted, but not the right to distribute the complete modified source code. Modifications are to be distributed as patches to the released version. Permission to distribute binaries produced by compiling modified sources is granted, provided you&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; distribute the corresponding source modifications from the released version in the form of a patch file along with the binaries,&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; add special version identification to distinguish your version in addition to the base release version number,&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; provide your name and address as the primary contact for the support of your modified version, and&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; retain our contact information in regard to use of the base software.&#10;&#10;Permission to distribute the released version of the source code along with corresponding source modifications in the form of a patch file is granted with same provisions 2 through 4 for binary distributions.&#10;&#10;This software is provided &quot;as is&quot; without express or implied warranty to the extent permitted by applicable law.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

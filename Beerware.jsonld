@@ -2,54 +2,63 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-02-23 - 20:50:39",
+    "timestamp" : "2021-02-28 - 03:22:28",
     "url" : "https://fedoraproject.org/wiki/Licensing/Beerware"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-02-23 - 20:50:40",
+    "timestamp" : "2021-02-28 - 03:22:28",
     "url" : "https://people.freebsd.org/~phk/"
   }, {
     "@id" : "http://spdx.org/licenses/Beerware",
-    "@type" : "spdx:License",
-    "licenseId" : "Beerware",
+    "@type" : "spdx:ListedLicense",
+    "crossRef" : [ "_:b0", "_:b1" ],
+    "spdx:isDeprecatedLicenseId" : false,
+    "spdx:isOsiApproved" : false,
     "licenseText" : "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n",
+    "licenseTextHtml" : "\n      <p>&quot;THE BEER-WARE LICENSE&quot; (Revision 42):\n      <br />\n\n&lt;phk@FreeBSD.ORG&gt; wrote this file. As long as you retain\n         this notice you can do whatever you want with this stuff. If we meet some day, and you think this\n         stuff is worth it, you can buy me a beer in return Poul-Henning Kamp</p>\n\n    ",
     "name" : "Beerware License",
-    "standardLicenseTemplate" : "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "standardLicenseTemplate" : "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n",
     "seeAlso" : [ "https://people.freebsd.org/~phk/", "https://fedoraproject.org/wiki/Licensing/Beerware" ]
   } ],
   "@context" : {
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "match" : {
       "@id" : "http://spdx.org/rdf/terms#match"
     },
     "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
@@ -57,22 +66,26 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
-    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }
