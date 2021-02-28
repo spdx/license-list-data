@@ -1,30 +1,32 @@
 @prefix spdx:  <http://spdx.org/rdf/terms#> .
 @prefix doap:  <http://usefulinc.com/ns/doap#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ptr:   <http://www.w3.org/2009/pointers#> .
 
 <http://spdx.org/licenses/Beerware>
-        a                             spdx:License ;
-        rdfs:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         "true" ;
-                                        spdx:isValid        "true" ;
-                                        spdx:isWayBackLink  "false" ;
+        a                             spdx:ListedLicense ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+                "https://people.freebsd.org/~phk/" , "https://fedoraproject.org/wiki/Licensing/Beerware" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
                                         spdx:match          "false" ;
-                                        spdx:order          "1" ;
-                                        spdx:timestamp      "2021-02-23 - 20:50:40" ;
-                                        spdx:url            "https://people.freebsd.org/~phk/"
-                                      ] ;
-        rdfs:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         "true" ;
-                                        spdx:isValid        "true" ;
-                                        spdx:isWayBackLink  "false" ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0" ;
-                                        spdx:timestamp      "2021-02-23 - 20:50:39" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2021-02-28 - 03:22:28" ;
                                         spdx:url            "https://fedoraproject.org/wiki/Licensing/Beerware"
                                       ] ;
-        rdfs:seeAlso                  "https://people.freebsd.org/~phk/" , "https://fedoraproject.org/wiki/Licensing/Beerware" ;
-        spdx:licenseId                "Beerware" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2021-02-28 - 03:22:28" ;
+                                        spdx:url            "https://people.freebsd.org/~phk/"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
         spdx:licenseText              "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n" ;
+        spdx:licenseTextHtml          "\n      <p>&quot;THE BEER-WARE LICENSE&quot; (Revision 42):\n      <br />\n\n&lt;phk@FreeBSD.ORG&gt; wrote this file. As long as you retain\n         this notice you can do whatever you want with this stuff. If we meet some day, and you think this\n         stuff is worth it, you can buy me a beer in return Poul-Henning Kamp</p>\n\n    " ;
         spdx:name                     "Beerware License" ;
-        spdx:standardLicenseTemplate  "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp" .
+        spdx:standardLicenseTemplate  "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n" .

@@ -2,20 +2,50 @@
     xmlns:spdx="http://spdx.org/rdf/terms#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-  <spdx:License rdf:about="http://spdx.org/licenses/BSD-2-Clause-FreeBSD">
-    <rdfs:crossRef>
-      <spdx:CrossRef>
-        <spdx:order>0</spdx:order>
-        <spdx:timestamp>2021-02-23 - 20:46:26</spdx:timestamp>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink>false</spdx:isWayBackLink>
-        <spdx:isLive>false</spdx:isLive>
-        <spdx:isValid>true</spdx:isValid>
-        <spdx:url>http://www.freebsd.org/copyright/freebsd-license.html</spdx:url>
-      </spdx:CrossRef>
-    </rdfs:crossRef>
-    <spdx:isDeprecatedLicenseId>true</spdx:isDeprecatedLicenseId>
+  <spdx:ListedLicense rdf:about="http://spdx.org/licenses/BSD-2-Clause-FreeBSD">
+    <spdx:licenseTextHtml>
+      &lt;div class="optional-license-text"&gt;
+         &lt;p&gt;The FreeBSD Copyright&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;div class="replacable-license-text"&gt;
+         &lt;p&gt;Copyright 1992-2012 The FreeBSD Project. All rights reserved.&lt;/p&gt;
+
+      &lt;/div&gt;
+
+      &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided
+         that the following conditions are met:&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;1.&lt;/var&gt;
+          Redistributions of source code must retain the above copyright notice, this list of conditions
+             and the following disclaimer.
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;2.&lt;/var&gt;
+          Redistributions in binary form must reproduce the above copyright notice, this list of conditions
+             and the following disclaimer in the documentation and/or other materials provided with the
+             distribution.
+        &lt;/li&gt;
+&lt;/ul&gt;
+      &lt;p&gt;THIS SOFTWARE IS PROVIDED BY THE FREEBSD PROJECT ``AS IS&amp;apos;&amp;apos; AND ANY EXPRESS OR IMPLIED WARRANTIES,
+         INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+         PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FREEBSD PROJECT OR CONTRIBUTORS BE LIABLE FOR ANY
+         DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+         TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+         INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+         TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF
+         ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p&gt;
+
+      &lt;p&gt;The views and conclusions contained in the software and documentation are those of the authors and should
+         not be interpreted as representing official policies, either expressed or implied, of the FreeBSD
+         Project.&lt;/p&gt;
+
+    </spdx:licenseTextHtml>
+    <spdx:deprecatedVersion>3.10</spdx:deprecatedVersion>
     <spdx:licenseText>The FreeBSD Copyright
 
 Copyright 1992-2012 The FreeBSD Project. All rights reserved.
@@ -30,10 +60,9 @@ THIS SOFTWARE IS PROVIDED BY THE FREEBSD PROJECT ``AS IS'' AND ANY EXPRESS OR IM
 
 The views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the FreeBSD Project.
 </spdx:licenseText>
-    <spdx:licenseId>BSD-2-Clause-FreeBSD</spdx:licenseId>
-    <rdfs:comment>This license was deprecated because BSD-2-Clause-Views has been added, as a more generalized version; and because FreeBSD project community members have indicated that the final sentence is not part of that project's code license.</rdfs:comment>
-    <spdx:isFsfLibre>true</spdx:isFsfLibre>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; The FreeBSD Copyright&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright 1992-2012 The FreeBSD Project. All rights reserved.";match=".{0,1000}"&gt;&gt;
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; The FreeBSD Copyright
+
+&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright 1992-2012 The FreeBSD Project. All rights reserved.  ";match=".{0,1000}"&gt;&gt;
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -43,8 +72,32 @@ Redistribution and use in source and binary forms, with or without modification,
 
 THIS SOFTWARE IS PROVIDED BY THE FREEBSD PROJECT ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE FREEBSD PROJECT OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-The views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the FreeBSD Project.</spdx:standardLicenseTemplate>
+The views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the FreeBSD Project.
+
+</spdx:standardLicenseTemplate>
+    <rdfs:comment>This license was deprecated because BSD-2-Clause-Views has been added, as a more generalized version; and because FreeBSD project community members have indicated that the final sentence is not part of that project's code license.</rdfs:comment>
     <rdfs:seeAlso>http://www.freebsd.org/copyright/freebsd-license.html</rdfs:seeAlso>
     <spdx:name>BSD 2-Clause FreeBSD License</spdx:name>
-  </spdx:License>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2021-02-28 - 03:17:00</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:url>http://www.freebsd.org/copyright/freebsd-license.html</spdx:url>
+        <spdx:match>false</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+  </spdx:ListedLicense>
 </rdf:RDF>

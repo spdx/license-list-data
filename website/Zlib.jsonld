@@ -2,65 +2,71 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-02-23 - 20:44:38",
-    "url" : "http://www.zlib.net/zlib_license.html"
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "true",
+    "order" : "1",
+    "timestamp" : "2021-02-28 - 03:14:39",
+    "url" : "https://opensource.org/licenses/Zlib"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
-    "isLive" : "true",
-    "isValid" : "true",
-    "isWayBackLink" : "false",
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-02-23 - 20:44:38",
-    "url" : "https://opensource.org/licenses/Zlib"
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2021-02-28 - 03:14:39",
+    "url" : "http://www.zlib.net/zlib_license.html"
   }, {
     "@id" : "http://spdx.org/licenses/Zlib",
-    "@type" : "spdx:License",
-    "isFsfLibre" : "true",
-    "isOsiApproved" : "true",
-    "licenseId" : "Zlib",
-    "licenseText" : "zlib License\n\nThis software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     3. This notice may not be removed or altered from any source distribution.\n",
-    "name" : "zlib License",
-    "standardLicenseTemplate" : "<<beginOptional>> zlib License<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>\";match=\".{0,1000}\">>\n\nThis software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This notice may not be removed or altered from any source distribution.",
+    "@type" : "spdx:ListedLicense",
     "crossRef" : [ "_:b0", "_:b1" ],
+    "spdx:isDeprecatedLicenseId" : false,
+    "spdx:isFsfLibre" : true,
+    "spdx:isOsiApproved" : true,
+    "licenseText" : "zlib License\n\nThis software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     3. This notice may not be removed or altered from any source distribution.\n",
+    "licenseTextHtml" : "\n      <div class=\"optional-license-text\">\n         <p>zlib License</p>\n\n      </div>\n      <div class=\"replacable-license-text\">\n         <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;</p>\n\n      </div>\n      <p>This software is provided &apos;as-is&apos;, without any express or implied warranty. In no event will the authors\n         be held liable for any damages arising from the use of this software.</p>\n\n      <p>Permission is granted to anyone to use this software for any purpose, including commercial applications,\n         and to alter it and redistribute it freely, subject to the following restrictions:</p>\n\n<ul style=\"list-style:none\">\n<li>\n            <var class=\"replacable-license-text\">1.</var>\n          The origin of this software must not be misrepresented; you must not claim that you wrote the\n             original software. If you use this software in a product, an acknowledgment in the product\n             documentation would be appreciated but is not required.\n        </li>\n<li>\n            <var class=\"replacable-license-text\">2.</var>\n          Altered source versions must be plainly marked as such, and must not be misrepresented as being\n             the original software.\n        </li>\n<li>\n            <var class=\"replacable-license-text\">3.</var>\n          This notice may not be removed or altered from any source distribution.\n        </li>\n</ul>\n    ",
+    "name" : "zlib License",
+    "standardLicenseTemplate" : "<<beginOptional>> zlib License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>  \";match=\".{0,1000}\">>\n\nThis software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This notice may not be removed or altered from any source distribution.",
     "seeAlso" : [ "https://opensource.org/licenses/Zlib", "http://www.zlib.net/zlib_license.html" ]
   } ],
   "@context" : {
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order"
-    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
     },
     "match" : {
       "@id" : "http://spdx.org/rdf/terms#match"
     },
     "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive"
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid"
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
@@ -68,19 +74,23 @@
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
-    "crossRef" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#crossRef",
-      "@type" : "@id"
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "isFsfLibre" : {
-      "@id" : "http://spdx.org/rdf/terms#isFsfLibre"
+      "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
-    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

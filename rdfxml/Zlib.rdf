@@ -2,22 +2,26 @@
     xmlns:spdx="http://spdx.org/rdf/terms#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-  <spdx:License rdf:about="http://spdx.org/licenses/Zlib">
-    <rdfs:crossRef>
-      <spdx:CrossRef>
-        <spdx:order>0</spdx:order>
-        <spdx:timestamp>2021-02-23 - 20:44:38</spdx:timestamp>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink>false</spdx:isWayBackLink>
-        <spdx:isLive>true</spdx:isLive>
-        <spdx:isValid>true</spdx:isValid>
-        <spdx:url>http://www.zlib.net/zlib_license.html</spdx:url>
-      </spdx:CrossRef>
-    </rdfs:crossRef>
+  <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Zlib">
     <spdx:name>zlib License</spdx:name>
-    <spdx:isOsiApproved>true</spdx:isOsiApproved>
     <rdfs:seeAlso>https://opensource.org/licenses/Zlib</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2021-02-28 - 03:14:39</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:url>http://www.zlib.net/zlib_license.html</spdx:url>
+        <spdx:match>false</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseText>zlib License
 
 This software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.
@@ -30,7 +34,9 @@ Permission is granted to anyone to use this software for any purpose, including 
 
      3. This notice may not be removed or altered from any source distribution.
 </spdx:licenseText>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; zlib License&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) &lt;year&gt; &lt;copyright holders&gt;";match=".{0,1000}"&gt;&gt;
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; zlib License
+
+&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) &lt;year&gt; &lt;copyright holders&gt;  ";match=".{0,1000}"&gt;&gt;
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
@@ -41,19 +47,60 @@ Permission is granted to anyone to use this software for any purpose, including 
    &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
 
    &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; This notice may not be removed or altered from any source distribution.</spdx:standardLicenseTemplate>
-    <spdx:isFsfLibre>true</spdx:isFsfLibre>
-    <spdx:licenseId>Zlib</spdx:licenseId>
-    <rdfs:crossRef>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
+    <spdx:licenseTextHtml>
+      &lt;div class="optional-license-text"&gt;
+         &lt;p&gt;zlib License&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;div class="replacable-license-text"&gt;
+         &lt;p&gt;Copyright (c) &amp;lt;year&amp;gt; &amp;lt;copyright holders&amp;gt;&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;p&gt;This software is provided &amp;apos;as-is&amp;apos;, without any express or implied warranty. In no event will the authors
+         be held liable for any damages arising from the use of this software.&lt;/p&gt;
+
+      &lt;p&gt;Permission is granted to anyone to use this software for any purpose, including commercial applications,
+         and to alter it and redistribute it freely, subject to the following restrictions:&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;1.&lt;/var&gt;
+          The origin of this software must not be misrepresented; you must not claim that you wrote the
+             original software. If you use this software in a product, an acknowledgment in the product
+             documentation would be appreciated but is not required.
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;2.&lt;/var&gt;
+          Altered source versions must be plainly marked as such, and must not be misrepresented as being
+             the original software.
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;3.&lt;/var&gt;
+          This notice may not be removed or altered from any source distribution.
+        &lt;/li&gt;
+&lt;/ul&gt;
+    </spdx:licenseTextHtml>
+    <spdx:crossRef>
       <spdx:CrossRef>
-        <spdx:order>1</spdx:order>
-        <spdx:timestamp>2021-02-23 - 20:44:38</spdx:timestamp>
-        <spdx:match>true</spdx:match>
-        <spdx:isWayBackLink>false</spdx:isWayBackLink>
-        <spdx:isLive>true</spdx:isLive>
-        <spdx:isValid>true</spdx:isValid>
+        <spdx:timestamp>2021-02-28 - 03:14:39</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</spdx:order>
         <spdx:url>https://opensource.org/licenses/Zlib</spdx:url>
+        <spdx:match>true</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
       </spdx:CrossRef>
-    </rdfs:crossRef>
+    </spdx:crossRef>
     <rdfs:seeAlso>http://www.zlib.net/zlib_license.html</rdfs:seeAlso>
-  </spdx:License>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+  </spdx:ListedLicense>
 </rdf:RDF>

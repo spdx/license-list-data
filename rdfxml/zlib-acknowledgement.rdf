@@ -2,13 +2,65 @@
     xmlns:spdx="http://spdx.org/rdf/terms#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-  <spdx:License rdf:about="http://spdx.org/licenses/zlib-acknowledgement">
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 2002-2007 Charlie Poole
+  <spdx:ListedLicense rdf:about="http://spdx.org/licenses/zlib-acknowledgement">
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2021-02-28 - 03:16:33</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:url>https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement</spdx:url>
+        <spdx:match>true</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:name>zlib/libpng License with Acknowledgement</spdx:name>
+    <spdx:licenseTextHtml>
+      &lt;div class="replacable-license-text"&gt;
+         &lt;p&gt;Copyright (c) 2002-2007 Charlie Poole&lt;/p&gt;
 
-Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov
+         &lt;p&gt;Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov&lt;/p&gt;
 
-Copyright (c) 2000-2002 Philip A. Craig";match=".{0,1000}"&gt;&gt;
+         &lt;p&gt;Copyright (c) 2000-2002 Philip A. Craig&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;p&gt;This software is provided &amp;apos;as-is&amp;apos;, without any express or implied warranty. In no event will the authors
+         be held liable for any damages arising from the use of this software.&lt;/p&gt;
+
+      &lt;p&gt;Permission is granted to anyone to use this software for any purpose, including commercial applications,
+         and to alter it and redistribute it freely, subject to the following restrictions:&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;1.&lt;/var&gt;
+          The origin of this software must not be misrepresented; you must not claim that you wrote the
+             original software. If you use this software in a product, an acknowledgment (see the
+             following) in the product documentation is required.
+          &lt;p&gt;Portions Copyright (c) 2002-2007 Charlie Poole or Copyright (c) 2002-2004 James W. Newkirk,
+             Michael C. Two, Alexei A. Vorontsov or Copyright (c) 2000-2002 Philip A. Craig&lt;/p&gt;
+
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;2.&lt;/var&gt;
+          Altered source versions must be plainly marked as such, and must not be misrepresented as being
+             the original software.
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;3.&lt;/var&gt;
+          This notice may not be removed or altered from any source distribution.
+        &lt;/li&gt;
+&lt;/ul&gt;
+    </spdx:licenseTextHtml>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 2002-2007 Charlie Poole    Copyright (c) 2002-2004 James W. Newkirk, Michael C. Two, Alexei A. Vorontsov    Copyright (c) 2000-2002 Philip A. Craig  ";match=".{0,1000}"&gt;&gt;
 
 This software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.
 
@@ -37,19 +89,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 3. This notice may not be removed or altered from any source distribution.
 </spdx:licenseText>
-    <rdfs:crossRef>
-      <spdx:CrossRef>
-        <spdx:order>0</spdx:order>
-        <spdx:timestamp>2021-02-23 - 20:46:09</spdx:timestamp>
-        <spdx:match>true</spdx:match>
-        <spdx:isWayBackLink>false</spdx:isWayBackLink>
-        <spdx:isLive>true</spdx:isLive>
-        <spdx:isValid>true</spdx:isValid>
-        <spdx:url>https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement</spdx:url>
-      </spdx:CrossRef>
-    </rdfs:crossRef>
-    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/ZlibWithAcknowledgement</rdfs:seeAlso>
-    <spdx:name>zlib/libpng License with Acknowledgement</spdx:name>
-    <spdx:licenseId>zlib-acknowledgement</spdx:licenseId>
-  </spdx:License>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+  </spdx:ListedLicense>
 </rdf:RDF>

@@ -1,30 +1,32 @@
 @prefix spdx:  <http://spdx.org/rdf/terms#> .
 @prefix doap:  <http://usefulinc.com/ns/doap#> .
-@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ptr:   <http://www.w3.org/2009/pointers#> .
 
 <http://spdx.org/licenses/blessing>
-        a                             spdx:License ;
-        rdfs:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         "true" ;
-                                        spdx:isValid        "true" ;
-                                        spdx:isWayBackLink  "false" ;
-                                        spdx:match          "true" ;
-                                        spdx:order          "1" ;
-                                        spdx:timestamp      "2021-02-23 - 20:52:48" ;
-                                        spdx:url            "https://sqlite.org/src/artifact/df5091916dbb40e6"
-                                      ] ;
-        rdfs:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         "true" ;
-                                        spdx:isValid        "true" ;
-                                        spdx:isWayBackLink  "false" ;
+        a                             spdx:ListedLicense ;
+        <http://www.w3.org/2000/01/rdf-schema#seeAlso>
+                "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9" , "https://sqlite.org/src/artifact/df5091916dbb40e6" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
                                         spdx:match          "false" ;
-                                        spdx:order          "0" ;
-                                        spdx:timestamp      "2021-02-23 - 20:52:48" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2021-02-28 - 03:25:17" ;
                                         spdx:url            "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9"
                                       ] ;
-        rdfs:seeAlso                  "https://sqlite.org/src/artifact/df5091916dbb40e6" , "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9" ;
-        spdx:licenseId                "blessing" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "true" ;
+                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2021-02-28 - 03:25:18" ;
+                                        spdx:url            "https://sqlite.org/src/artifact/df5091916dbb40e6"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
         spdx:licenseText              "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\nMay you do good and not evil.\nMay you find forgiveness for yourself and forgive others.\nMay you share freely, never taking more than you give.\n" ;
+        spdx:licenseTextHtml          "\n        <p>The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:</p>\n\n<ul style=\"list-style:none\">\n<li><p>May you do good and not evil.</p>\n</li>\n<li><p>May you find forgiveness for yourself and forgive others.</p>\n</li>\n<li><p>May you share freely, never taking more than you give.</p>\n</li>\n</ul>\n    " ;
         spdx:name                     "SQLite Blessing" ;
-        spdx:standardLicenseTemplate  "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\n   \n\n   May you do good and not evil.\n\n   \n\n   May you find forgiveness for yourself and forgive others.\n\n   \n\n   May you share freely, never taking more than you give." .
+        spdx:standardLicenseTemplate  "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\n   May you do good and not evil.\n\n   May you find forgiveness for yourself and forgive others.\n\n   May you share freely, never taking more than you give.\n\n   " .

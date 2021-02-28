@@ -2,9 +2,93 @@
     xmlns:spdx="http://spdx.org/rdf/terms#"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
     xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-  <spdx:License rdf:about="http://spdx.org/licenses/xinetd">
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; ORIGINAL LICENSE: This software is&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="(c) Copyright 1992 by Panagiotis Tsirigotis";match=".{0,1000}"&gt;&gt;
+  <spdx:ListedLicense rdf:about="http://spdx.org/licenses/xinetd">
+    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/Xinetd_License</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2021-02-28 - 03:24:18</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:url>https://fedoraproject.org/wiki/Licensing/Xinetd_License</spdx:url>
+        <spdx:match>true</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:name>xinetd License</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:licenseTextHtml>
+      &lt;div class="optional-license-text"&gt;
+         &lt;p&gt;ORIGINAL LICENSE: This software is&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;div class="replacable-license-text"&gt;
+         &lt;p&gt;(c) Copyright 1992 by Panagiotis Tsirigotis&lt;/p&gt;
+
+      &lt;/div&gt;
+      &lt;p&gt;The author (Panagiotis Tsirigotis) grants permission to use, copy, and distribute this software and its
+         documentation for any purpose and without fee, provided that the above copyright notice extant in
+         files in this distribution is not removed from files included in any redistribution and that this
+         copyright notice is also included in any redistribution.&lt;/p&gt;
+
+      &lt;p&gt;Modifications to this software may be distributed, either by distributing the modified software or by
+         distributing patches to the original software, under the following additional terms:&lt;/p&gt;
+
+&lt;ul style="list-style:none"&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;1.&lt;/var&gt;
+          The version number will be modified as follows:
+          
+&lt;ul style="list-style:none"&gt;
+&lt;li&gt;
+                  &lt;var class="replacable-license-text"&gt;a.&lt;/var&gt;
+              The first 3 components of the version number (i.e &amp;lt;number&amp;gt;.&amp;lt;number&amp;gt;.&amp;lt;number&amp;gt;)
+                 will remain unchanged.
+            &lt;/li&gt;
+&lt;li&gt;
+                  &lt;var class="replacable-license-text"&gt;b.&lt;/var&gt;
+              A new component will be appended to the version number to indicate the modification level. The
+                 form of this component is up to the author of the modifications.
+            &lt;/li&gt;
+&lt;/ul&gt;
+        &lt;/li&gt;
+&lt;li&gt;
+            &lt;var class="replacable-license-text"&gt;2.&lt;/var&gt;
+          The author of the modifications will include his/her name by appending it along with the new
+             version number to this file and will be responsible for any wrong behavior of the modified
+             software.
+        &lt;/li&gt;
+&lt;/ul&gt;
+        &lt;p&gt;The author makes no representations about the suitability of this software for any purpose. It is
+           provided &amp;quot;as is&amp;quot; without any express or implied warranty.&lt;/p&gt;
+
+        &lt;p&gt;Modifications: Version: 2.1.8.7-current Copyright 1998-2001 by Rob Braun&lt;/p&gt;
+
+        &lt;p&gt;Sensor Addition Version: 2.1.8.9pre14a Copyright 2001 by Steve Grubb&lt;/p&gt;
+
+        &lt;p&gt;This is an exerpt from an email I recieved from the original author, allowing xinetd as maintained by me
+           (Rob Braun), to use the higher version numbers:&lt;/p&gt;
+
+        &lt;p&gt;I appreciate your maintaining the version string guidelines as specified in the copyright. But I did not
+           mean them to last as long as they did.&lt;/p&gt;
+
+        &lt;p&gt;So, if you want, you may use any 2.N.* (N &amp;gt;= 3) version string for future xinetd versions that you
+           release. Note that I am excluding the 2.2.* line; using that would only create confusion. Naming the
+           next release 2.3.0 would put to rest the confusion about 2.2.1 and 2.1.8.*.&lt;/p&gt;
+
+    </spdx:licenseTextHtml>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; ORIGINAL LICENSE: This software is
+
+&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="(c) Copyright 1992 by Panagiotis Tsirigotis  ";match=".{0,1000}"&gt;&gt;
 
 The author (Panagiotis Tsirigotis) grants permission to use, copy, and distribute this software and its documentation for any purpose and without fee, provided that the above copyright notice extant in files in this distribution is not removed from files included in any redistribution and that this copyright notice is also included in any redistribution.
 
@@ -28,8 +112,9 @@ This is an exerpt from an email I recieved from the original author, allowing xi
 
 I appreciate your maintaining the version string guidelines as specified in the copyright. But I did not mean them to last as long as they did.
 
-So, if you want, you may use any 2.N.* (N &gt;= 3) version string for future xinetd versions that you release. Note that I am excluding the 2.2.* line; using that would only create confusion. Naming the next release 2.3.0 would put to rest the confusion about 2.2.1 and 2.1.8.*.</spdx:standardLicenseTemplate>
-    <spdx:isFsfLibre>true</spdx:isFsfLibre>
+So, if you want, you may use any 2.N.* (N &gt;= 3) version string for future xinetd versions that you release. Note that I am excluding the 2.2.* line; using that would only create confusion. Naming the next release 2.3.0 would put to rest the confusion about 2.2.1 and 2.1.8.*.
+
+</spdx:standardLicenseTemplate>
     <spdx:licenseText>ORIGINAL LICENSE: This software is
 
 (c) Copyright 1992 by Panagiotis Tsirigotis
@@ -56,19 +141,7 @@ I appreciate your maintaining the version string guidelines as specified in the 
 
 So, if you want, you may use any 2.N.* (N &gt;= 3) version string for future xinetd versions that you release. Note that I am excluding the 2.2.* line; using that would only create confusion. Naming the next release 2.3.0 would put to rest the confusion about 2.2.1 and 2.1.8.*.
 </spdx:licenseText>
-    <rdfs:crossRef>
-      <spdx:CrossRef>
-        <spdx:order>0</spdx:order>
-        <spdx:timestamp>2021-02-23 - 20:52:04</spdx:timestamp>
-        <spdx:match>true</spdx:match>
-        <spdx:isWayBackLink>false</spdx:isWayBackLink>
-        <spdx:isLive>true</spdx:isLive>
-        <spdx:isValid>true</spdx:isValid>
-        <spdx:url>https://fedoraproject.org/wiki/Licensing/Xinetd_License</spdx:url>
-      </spdx:CrossRef>
-    </rdfs:crossRef>
-    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/Xinetd_License</rdfs:seeAlso>
-    <spdx:name>xinetd License</spdx:name>
-    <spdx:licenseId>xinetd</spdx:licenseId>
-  </spdx:License>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
+  </spdx:ListedLicense>
 </rdf:RDF>
