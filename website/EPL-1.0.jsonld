@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-02-28 - 03:17:48",
-    "url" : "https://opensource.org/licenses/EPL-1.0"
+    "order" : "0",
+    "timestamp" : "2021-03-01 - 16:34:08",
+    "url" : "http://www.eclipse.org/legal/epl-v10.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,13 +16,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-02-28 - 03:17:48",
-    "url" : "http://www.eclipse.org/legal/epl-v10.html"
+    "order" : "1",
+    "timestamp" : "2021-03-01 - 16:34:08",
+    "url" : "https://opensource.org/licenses/EPL-1.0"
   }, {
     "@id" : "http://spdx.org/licenses/EPL-1.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -63,10 +63,6 @@
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
@@ -85,6 +81,10 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",

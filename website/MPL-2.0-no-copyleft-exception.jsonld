@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-02-28 - 03:16:29",
-    "url" : "https://opensource.org/licenses/MPL-2.0"
+    "order" : "0",
+    "timestamp" : "2021-03-01 - 16:32:59",
+    "url" : "http://www.mozilla.org/MPL/2.0/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-02-28 - 03:16:29",
-    "url" : "http://www.mozilla.org/MPL/2.0/"
+    "order" : "1",
+    "timestamp" : "2021-03-01 - 16:32:59",
+    "url" : "https://opensource.org/licenses/MPL-2.0"
   }, {
     "@id" : "http://spdx.org/licenses/MPL-2.0-no-copyleft-exception",
     "@type" : "spdx:ListedLicense",
@@ -52,6 +52,10 @@
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
@@ -64,10 +68,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"

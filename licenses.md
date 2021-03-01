@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version a3d43ca
+The following licenses have been generated from the license list version c79b346
 
 ## Licenses with Short Idenifiers
 
@@ -272,6 +272,7 @@ The following licenses have been generated from the license list version a3d43ca
 | Mulan Permissive Software License, Version 2                                 | [MulanPSL-2.0][]                         | Y    |           |
 | Multics License                                                              | [Multics][]                              | Y    |           |
 | Mup License                                                                  | [Mup][]                                  |      |           |
+| Nara Institute of Science and Technology License (2003)                      | [NAIST-2003][]                           |      |           |
 | NASA Open Source Agreement 1.3                                               | [NASA-1.3][]                             | Y    |           |
 | Naumen Public License                                                        | [Naumen][]                               | Y    |           |
 | Net Boolean Public License v1                                                | [NBPL-1.0][]                             |      |           |
@@ -802,6 +803,7 @@ The following licenses have been generated from the license list version a3d43ca
 [MulanPSL-2.0]: text/MulanPSL-2.0.txt
 [Multics]: text/Multics.txt
 [Mup]: text/Mup.txt
+[NAIST-2003]: text/NAIST-2003.txt
 [NASA-1.3]: text/NASA-1.3.txt
 [Naumen]: text/Naumen.txt
 [NBPL-1.0]: text/NBPL-1.0.txt

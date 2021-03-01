@@ -2,27 +2,27 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
-    "spdx:isValid" : false,
-    "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2021-02-28 - 03:18:52",
-    "url" : "http://web.archive.org/web/20050212003940/http://www.rosenlaw.com/osl21.htm"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-02-28 - 03:18:52",
+    "timestamp" : "2021-03-01 - 16:35:06",
     "url" : "https://opensource.org/licenses/OSL-2.1"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : false,
+    "spdx:isValid" : false,
+    "spdx:isWayBackLink" : false,
+    "match" : "N/A",
+    "order" : "0",
+    "timestamp" : "2021-03-01 - 16:35:06",
+    "url" : "http://web.archive.org/web/20050212003940/http://www.rosenlaw.com/osl21.htm"
   }, {
     "@id" : "http://spdx.org/licenses/OSL-2.1",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -62,10 +62,6 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -98,6 +94,10 @@
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
