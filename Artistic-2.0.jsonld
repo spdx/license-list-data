@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2021-02-28 - 03:14:28",
-    "url" : "https://opensource.org/licenses/artistic-license-2.0"
+    "order" : "0",
+    "timestamp" : "2021-03-01 - 16:31:11",
+    "url" : "http://www.perlfoundation.org/artistic_license_2_0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-02-28 - 03:14:26",
+    "timestamp" : "2021-03-01 - 16:31:14",
     "url" : "https://www.perlfoundation.org/artistic-license-20.html"
   }, {
     "@id" : "_:b2",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-02-28 - 03:14:23",
-    "url" : "http://www.perlfoundation.org/artistic_license_2_0"
+    "order" : "2",
+    "timestamp" : "2021-03-01 - 16:31:16",
+    "url" : "https://opensource.org/licenses/artistic-license-2.0"
   }, {
     "@id" : "http://spdx.org/licenses/Artistic-2.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
+    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -69,15 +69,11 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
@@ -99,6 +95,10 @@
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"

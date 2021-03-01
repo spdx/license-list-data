@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-02-28 - 03:17:05",
+    "timestamp" : "2021-03-01 - 16:33:34",
     "url" : "https://fedoraproject.org/wiki/Licensing/MIT_With_Advertising"
   }, {
     "@id" : "http://spdx.org/licenses/MIT-advertising",
@@ -23,6 +23,10 @@
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/MIT_With_Advertising"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -39,10 +43,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
