@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2021-03-07 - 20:08:39",
+    "timestamp" : "2021-03-07 - 20:22:40",
     "url" : "https://github.com/tcheneau/Routing/blob/f09f46fcfe636107f22f2c98348188a65a135d98/README.md"
   }, {
     "@id" : "_:b1",
@@ -17,12 +17,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-03-07 - 20:08:39",
+    "timestamp" : "2021-03-07 - 20:22:40",
     "url" : "https://github.com/tcheneau/simpleRPL/blob/e645e69e38dd4e3ccfeceb2db8cba05b7c2e0cd3/LICENSE.txt"
   }, {
     "@id" : "http://spdx.org/licenses/NIST-PD",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseText" : "Terms Of Use\n\nThis software was developed by employees of the National Institute of Standards\nand Technology (NIST), and others. This software has been contributed to the\npublic domain. Pursuant to title 15 Untied States Code Section 105, works of\nNIST employees are not subject to copyright protection in the United States and\nare considered to be in the public domain. As a result, a formal license is\nnot needed to use this software.\n\nThis software is provided \"AS IS.\" NIST MAKES NO WARRANTY OF ANY KIND, EXPRESS,\nIMPLIED OR STATUTORY, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA\nACCURACY. NIST does not warrant or make any representations regarding the use\nof the software or the results thereof, including but not limited to the\ncorrectness, accuracy, reliability or usefulness of this software.\n",
@@ -67,15 +67,15 @@
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"

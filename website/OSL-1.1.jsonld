@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-03-07 - 20:05:11",
+    "timestamp" : "2021-03-07 - 20:19:38",
     "url" : "https://fedoraproject.org/wiki/Licensing/OSL1.1"
   }, {
     "@id" : "http://spdx.org/licenses/OSL-1.1",
@@ -26,15 +26,40 @@
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/OSL1.1"
   } ],
   "@context" : {
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
     "standardLicenseHeaderHtml" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderHtml"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
     },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
@@ -64,31 +89,6 @@
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",

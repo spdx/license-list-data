@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-03-07 - 20:05:08",
+    "timestamp" : "2021-03-07 - 20:19:34",
     "url" : "http://directory.fsf.org/wiki/License:BitTorrentOSL1.1"
   }, {
     "@id" : "http://spdx.org/licenses/BitTorrent-1.1",
@@ -27,31 +27,6 @@
     "seeAlso" : "http://directory.fsf.org/wiki/License:BitTorrentOSL1.1"
   } ],
   "@context" : {
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
@@ -78,6 +53,10 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
@@ -91,9 +70,30 @@
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
