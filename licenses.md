@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b8562bf
+The following licenses have been generated from the license list version c68b8c8
 
 ## Licenses with Short Idenifiers
 
@@ -106,6 +106,7 @@ The following licenses have been generated from the license list version b8562bf
 | Creative Commons Attribution Share Alike 1.0 Generic                         | [CC-BY-SA-1.0][]                         |      |           |
 | Creative Commons Attribution Share Alike 2.0 Generic                         | [CC-BY-SA-2.0][]                         |      |           |
 | Creative Commons Attribution Share Alike 2.0 England and Wales               | [CC-BY-SA-2.0-UK][]                      |      |           |
+| Creative Commons Attribution Share Alike 2.1 Japan                           | [CC-BY-SA-2.1-JP][]                      |      |           |
 | Creative Commons Attribution Share Alike 2.5 Generic                         | [CC-BY-SA-2.5][]                         |      |           |
 | Creative Commons Attribution Share Alike 3.0 Unported                        | [CC-BY-SA-3.0][]                         |      |           |
 | Creative Commons Attribution-Share Alike 3.0 Austria                         | [CC-BY-SA-3.0-AT][]                      |      |           |
@@ -617,6 +618,7 @@ The following licenses have been generated from the license list version b8562bf
 [CC-BY-SA-1.0]: text/CC-BY-SA-1.0.txt
 [CC-BY-SA-2.0]: text/CC-BY-SA-2.0.txt
 [CC-BY-SA-2.0-UK]: text/CC-BY-SA-2.0-UK.txt
+[CC-BY-SA-2.1-JP]: text/CC-BY-SA-2.1-JP.txt
 [CC-BY-SA-2.5]: text/CC-BY-SA-2.5.txt
 [CC-BY-SA-3.0]: text/CC-BY-SA-3.0.txt
 [CC-BY-SA-3.0-AT]: text/CC-BY-SA-3.0-AT.txt
