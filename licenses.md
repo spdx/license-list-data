@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8d141c1
+The following licenses have been generated from the license list version 8f2772c
 
 ## Licenses with Short Idenifiers
 
@@ -173,6 +173,7 @@ The following licenses have been generated from the license list version 8d141c1
 | FSF Unlimited License                                                        | [FSFUL][]                                |      |           |
 | FSF Unlimited License (with License Retention)                               | [FSFULLR][]                              |      |           |
 | Freetype Project License                                                     | [FTL][]                                  |      | Y         |
+| GD License                                                                   | [GD][]                                   |      |           |
 | GNU Free Documentation License v1.1 only - invariants                        | [GFDL-1.1-invariants-only][]             |      |           |
 | GNU Free Documentation License v1.1 or later - invariants                    | [GFDL-1.1-invariants-or-later][]         |      |           |
 | GNU Free Documentation License v1.1 only - no invariants                     | [GFDL-1.1-no-invariants-only][]          |      |           |
@@ -684,6 +685,7 @@ The following licenses have been generated from the license list version 8d141c1
 [FSFUL]: text/FSFUL.txt
 [FSFULLR]: text/FSFULLR.txt
 [FTL]: text/FTL.txt
+[GD]: text/GD.txt
 [GFDL-1.1]: text/GFDL-1.1.txt
 [GFDL-1.1-invariants-only]: text/GFDL-1.1-invariants-only.txt
 [GFDL-1.1-invariants-or-later]: text/GFDL-1.1-invariants-or-later.txt

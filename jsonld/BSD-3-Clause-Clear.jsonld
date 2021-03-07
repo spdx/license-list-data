@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2021-03-07 - 16:10:15",
+    "timestamp" : "2021-03-07 - 16:21:36",
     "url" : "http://labs.metacarta.com/license-explanation.html#license"
   }, {
     "@id" : "http://spdx.org/licenses/BSD-3-Clause-Clear",
@@ -49,8 +49,9 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
@@ -66,22 +67,21 @@
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
