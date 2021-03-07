@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 0f94236
+The following licenses have been generated from the license list version 8d141c1
 
 ## Licenses with Short Idenifiers
 
@@ -70,6 +70,7 @@ The following licenses have been generated from the license list version 0f94236
 | Business Source License 1.1                                                  | [BUSL-1.1][]                             |      |           |
 | bzip2 and libbzip2 License v1.0.5                                            | [bzip2-1.0.5][]                          |      |           |
 | bzip2 and libbzip2 License v1.0.6                                            | [bzip2-1.0.6][]                          |      |           |
+| Computational Use of Data Agreement v1.0                                     | [C-UDA-1.0][]                            |      |           |
 | Cryptographic Autonomy License 1.0                                           | [CAL-1.0][]                              | Y    |           |
 | Cryptographic Autonomy License 1.0 (Combined Work Exception)                 | [CAL-1.0-Combined-Work-Exception][]      | Y    |           |
 | Caldera License                                                              | [Caldera][]                              |      |           |
@@ -579,6 +580,7 @@ The following licenses have been generated from the license list version 0f94236
 [BUSL-1.1]: text/BUSL-1.1.txt
 [bzip2-1.0.5]: text/bzip2-1.0.5.txt
 [bzip2-1.0.6]: text/bzip2-1.0.6.txt
+[C-UDA-1.0]: text/C-UDA-1.0.txt
 [CAL-1.0]: text/CAL-1.0.txt
 [CAL-1.0-Combined-Work-Exception]: text/CAL-1.0-Combined-Work-Exception.txt
 [Caldera]: text/Caldera.txt
