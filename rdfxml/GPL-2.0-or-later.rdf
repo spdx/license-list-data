@@ -5,6 +5,21 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/GPL-2.0-or-later">
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2021-03-08 - 18:35:56</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:url>https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html</spdx:url>
+        <spdx:match>true</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:standardLicenseHeaderTemplate>&lt;&lt;var;name="description";original="&lt;one line to give the program's name and an idea of what it does.&gt;";match=".+"&gt;&gt;
 
 Copyright (C) &lt;&lt;var;name="copyright";original="&lt;yyyy&gt; &lt;name of author&gt;";match=".+"&gt;&gt;
@@ -16,21 +31,6 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301&lt;&lt;beginOptional&gt;&gt;, &lt;&lt;endOptional&gt;&gt; USA.
 
 </spdx:standardLicenseHeaderTemplate>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2021-03-07 - 21:33:20</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >1</spdx:order>
-        <spdx:url>https://opensource.org/licenses/GPL-2.0</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:standardLicenseHeaderHtml>
       &lt;p&gt;
         &lt;var class="replacable-license-text"&gt;&amp;lt;one line to give the program&amp;apos;s name and an idea of what it does.&amp;gt;&lt;/var&gt;&lt;br /&gt;
@@ -805,13 +805,16 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 &lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; This General Public License does not permit incorporating your program into proprietary programs. If your program is a subroutine library, you may consider it more useful to permit linking proprietary applications with the library. If this is what you want to do, use the GNU Lesser General Public License instead of this License.
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html</rdfs:seeAlso>
+    <rdfs:seeAlso>https://opensource.org/licenses/GPL-2.0</rdfs:seeAlso>
+    <spdx:name>GNU General Public License v2.0 or later</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
-        <spdx:timestamp>2021-03-07 - 21:33:20</spdx:timestamp>
+        <spdx:timestamp>2021-03-08 - 18:35:56</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html</spdx:url>
-        <spdx:match>true</spdx:match>
+        >1</spdx:order>
+        <spdx:url>https://opensource.org/licenses/GPL-2.0</spdx:url>
+        <spdx:match>false</spdx:match>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >false</spdx:isWayBackLink>
         <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -820,8 +823,5 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
         >true</spdx:isLive>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:seeAlso>https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html</rdfs:seeAlso>
-    <rdfs:seeAlso>https://opensource.org/licenses/GPL-2.0</rdfs:seeAlso>
-    <spdx:name>GNU General Public License v2.0 or later</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>
