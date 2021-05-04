@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-04-29 - 15:50:21",
+    "timestamp" : "2021-05-04 - 21:05:33",
     "url" : "http://www.latex-project.org/lppl/lppl-1-3a.txt"
   }, {
     "@id" : "http://spdx.org/licenses/LPPL-1.3a",
@@ -27,6 +27,10 @@
     "seeAlso" : "http://www.latex-project.org/lppl/lppl-1-3a.txt"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -65,10 +69,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
