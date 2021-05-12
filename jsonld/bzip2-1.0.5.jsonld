@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-05-12 - 18:17:49",
-    "url" : "https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html"
+    "order" : "1",
+    "timestamp" : "2021-05-12 - 18:31:21",
+    "url" : "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-05-12 - 18:17:50",
-    "url" : "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
+    "order" : "0",
+    "timestamp" : "2021-05-12 - 18:31:20",
+    "url" : "https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html"
   }, {
     "@id" : "http://spdx.org/licenses/bzip2-1.0.5",
     "@type" : "spdx:ListedLicense",
@@ -32,16 +32,16 @@
     "seeAlso" : [ "https://sourceware.org/bzip2/1.0.5/bzip2-manual-1.0.5.html", "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html" ]
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"

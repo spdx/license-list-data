@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2021-05-12 - 18:14:01",
+    "timestamp" : "2021-05-12 - 18:27:03",
     "url" : "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.2"
   }, {
     "@id" : "http://spdx.org/licenses/CERN-OHL-1.2",
@@ -26,6 +26,10 @@
     "seeAlso" : "https://www.ohwr.org/project/licenses/wikis/cern-ohl-v1.2"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -57,10 +61,6 @@
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
