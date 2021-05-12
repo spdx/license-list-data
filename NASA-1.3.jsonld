@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-05-12 - 18:31:48",
-    "url" : "https://opensource.org/licenses/NASA-1.3"
+    "order" : "0",
+    "timestamp" : "2021-05-12 - 18:46:17",
+    "url" : "http://ti.arc.nasa.gov/opensource/nosa/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-05-12 - 18:31:45",
-    "url" : "http://ti.arc.nasa.gov/opensource/nosa/"
+    "order" : "1",
+    "timestamp" : "2021-05-12 - 18:46:20",
+    "url" : "https://opensource.org/licenses/NASA-1.3"
   }, {
     "@id" : "http://spdx.org/licenses/NASA-1.3",
     "@type" : "spdx:ListedLicense",
@@ -60,6 +60,10 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -76,10 +80,6 @@
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
