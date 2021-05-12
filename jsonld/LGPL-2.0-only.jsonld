@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-05-04 - 21:54:01",
+    "timestamp" : "2021-05-12 - 18:12:08",
     "url" : "https://www.gnu.org/licenses/old-licenses/lgpl-2.0-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-2.0-only",
@@ -28,6 +28,10 @@
   "@context" : {
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -60,10 +64,6 @@
     },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"

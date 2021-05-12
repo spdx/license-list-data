@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2021-05-04 - 21:53:26",
-    "url" : "http://www.rosenlaw.com/AFL3.0.htm"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2021-05-04 - 21:53:26",
+    "timestamp" : "2021-05-12 - 18:09:47",
     "url" : "https://opensource.org/licenses/afl-3.0"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : false,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "N/A",
+    "order" : "0",
+    "timestamp" : "2021-05-12 - 18:09:47",
+    "url" : "http://www.rosenlaw.com/AFL3.0.htm"
   }, {
     "@id" : "http://spdx.org/licenses/AFL-3.0",
     "@type" : "spdx:ListedLicense",
@@ -75,15 +75,15 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
