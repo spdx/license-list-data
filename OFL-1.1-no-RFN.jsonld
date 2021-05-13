@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-05-13 - 15:53:03",
+    "timestamp" : "2021-05-13 - 16:27:50",
     "url" : "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-05-13 - 15:53:04",
+    "timestamp" : "2021-05-13 - 16:27:51",
     "url" : "https://opensource.org/licenses/OFL-1.1"
   }, {
     "@id" : "http://spdx.org/licenses/OFL-1.1-no-RFN",
@@ -33,6 +33,10 @@
     "seeAlso" : [ "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web", "https://opensource.org/licenses/OFL-1.1" ]
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
@@ -42,10 +46,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
