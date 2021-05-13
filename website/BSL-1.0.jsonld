@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-05-12 - 18:38:32",
-    "url" : "http://www.boost.org/LICENSE_1_0.txt"
+    "order" : "1",
+    "timestamp" : "2021-05-13 - 15:52:10",
+    "url" : "https://opensource.org/licenses/BSL-1.0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-05-12 - 18:38:32",
-    "url" : "https://opensource.org/licenses/BSL-1.0"
+    "order" : "0",
+    "timestamp" : "2021-05-13 - 15:52:10",
+    "url" : "http://www.boost.org/LICENSE_1_0.txt"
   }, {
     "@id" : "http://spdx.org/licenses/BSL-1.0",
     "@type" : "spdx:ListedLicense",
@@ -34,10 +34,6 @@
     "seeAlso" : [ "http://www.boost.org/LICENSE_1_0.txt", "https://opensource.org/licenses/BSL-1.0" ]
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
@@ -60,6 +56,10 @@
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
