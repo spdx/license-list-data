@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2021-05-13 - 16:34:48",
-    "url" : "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp"
+    "order" : "0",
+    "timestamp" : "2021-05-14 - 18:01:51",
+    "url" : "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-05-13 - 16:34:48",
-    "url" : "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h"
+    "order" : "2",
+    "timestamp" : "2021-05-14 - 18:01:52",
+    "url" : "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -27,12 +27,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-05-13 - 16:34:48",
+    "timestamp" : "2021-05-14 - 18:01:52",
     "url" : "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1"
   }, {
     "@id" : "http://spdx.org/licenses/SSH-short",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b2", "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b2", "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseText" : "As far as I am concerned, the code I have written for this software\ncan be used freely for any purpose.  Any derived versions of this\nsoftware must be clearly marked as such, and if the derived work is\nincompatible with the protocol description in the RFC file, it must be\ncalled by a name other than \"ssh\" or \"Secure Shell\".\n",
@@ -68,6 +68,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -80,10 +84,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
