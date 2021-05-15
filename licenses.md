@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b2ebc17
+The following licenses have been generated from the license list version a0ad361
 
 ## Licenses with Short Idenifiers
 
@@ -57,6 +57,7 @@ The following licenses have been generated from the license list version b2ebc17
 | BSD 3-Clause Clear License                                                   | [BSD-3-Clause-Clear][]                   |      | Y         |
 | Lawrence Berkeley National Labs BSD variant license                          | [BSD-3-Clause-LBNL][]                    | Y    |           |
 | BSD 3-Clause Modification                                                    | [BSD-3-Clause-Modification][]            |      |           |
+| BSD 3-Clause No Military License                                             | [BSD-3-Clause-No-Military-License][]     |      |           |
 | BSD 3-Clause No Nuclear License                                              | [BSD-3-Clause-No-Nuclear-License][]      |      |           |
 | BSD 3-Clause No Nuclear License 2014                                         | [BSD-3-Clause-No-Nuclear-License-2014][] |      |           |
 | BSD 3-Clause No Nuclear Warranty                                             | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
@@ -571,6 +572,7 @@ The following licenses have been generated from the license list version b2ebc17
 [BSD-3-Clause-Clear]: text/BSD-3-Clause-Clear.txt
 [BSD-3-Clause-LBNL]: text/BSD-3-Clause-LBNL.txt
 [BSD-3-Clause-Modification]: text/BSD-3-Clause-Modification.txt
+[BSD-3-Clause-No-Military-License]: text/BSD-3-Clause-No-Military-License.txt
 [BSD-3-Clause-No-Nuclear-License]: text/BSD-3-Clause-No-Nuclear-License.txt
 [BSD-3-Clause-No-Nuclear-License-2014]: text/BSD-3-Clause-No-Nuclear-License-2014.txt
 [BSD-3-Clause-No-Nuclear-Warranty]: text/BSD-3-Clause-No-Nuclear-Warranty.txt
