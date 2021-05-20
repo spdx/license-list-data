@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-05-16 - 01:35:50",
+    "timestamp" : "2021-05-20 - 16:34:56",
     "url" : "https://opensource.org/licenses/LPL-1.02"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2021-05-16 - 01:35:50",
+    "timestamp" : "2021-05-20 - 16:34:56",
     "url" : "http://plan9.bell-labs.com/plan9/license.html"
   }, {
     "@id" : "http://spdx.org/licenses/LPL-1.02",
@@ -33,9 +33,8 @@
     "seeAlso" : [ "https://opensource.org/licenses/LPL-1.02", "http://plan9.bell-labs.com/plan9/license.html" ]
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
@@ -43,6 +42,10 @@
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
@@ -60,9 +63,6 @@
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
