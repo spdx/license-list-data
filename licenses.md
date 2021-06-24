@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.13
+The following licenses have been generated from the license list version 3c0d2e5
 
 ## Licenses with Short Idenifiers
 
@@ -79,6 +79,7 @@ The following licenses have been generated from the license list version 3.13
 | Creative Commons Attribution 1.0 Generic                                     | [CC-BY-1.0][]                            |      |           |
 | Creative Commons Attribution 2.0 Generic                                     | [CC-BY-2.0][]                            |      |           |
 | Creative Commons Attribution 2.5 Generic                                     | [CC-BY-2.5][]                            |      |           |
+| Creative Commons Attribution 2.5 Australia                                   | [CC-BY-2.5-AU][]                         |      |           |
 | Creative Commons Attribution 3.0 Unported                                    | [CC-BY-3.0][]                            |      |           |
 | Creative Commons Attribution 3.0 Austria                                     | [CC-BY-3.0-AT][]                         |      |           |
 | Creative Commons Attribution 3.0 United States                               | [CC-BY-3.0-US][]                         |      |           |
@@ -594,6 +595,7 @@ The following licenses have been generated from the license list version 3.13
 [CC-BY-1.0]: text/CC-BY-1.0.txt
 [CC-BY-2.0]: text/CC-BY-2.0.txt
 [CC-BY-2.5]: text/CC-BY-2.5.txt
+[CC-BY-2.5-AU]: text/CC-BY-2.5-AU.txt
 [CC-BY-3.0]: text/CC-BY-3.0.txt
 [CC-BY-3.0-AT]: text/CC-BY-3.0-AT.txt
 [CC-BY-3.0-US]: text/CC-BY-3.0-US.txt
