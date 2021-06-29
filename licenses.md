@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3c0d2e5
+The following licenses have been generated from the license list version c55a5c9
 
 ## Licenses with Short Idenifiers
 
@@ -435,7 +435,7 @@ The following licenses have been generated from the license list version 3c0d2e5
 | zlib/libpng License with Acknowledgement                                     | [zlib-acknowledgement][]                 |      |           |
 | Zope Public License 1.1                                                      | [ZPL-1.1][]                              |      |           |
 | Zope Public License 2.0                                                      | [ZPL-2.0][]                              | Y    | Y         |
-| Zope Public License 2.1                                                      | [ZPL-2.1][]                              |      | Y         |
+| Zope Public License 2.1                                                      | [ZPL-2.1][]                              | Y    | Y         |
 
 ## Exception List
 
