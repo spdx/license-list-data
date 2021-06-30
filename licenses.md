@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version c55a5c9
+The following licenses have been generated from the license list version be2bce7
 
 ## Licenses with Short Idenifiers
 
@@ -340,6 +340,7 @@ The following licenses have been generated from the license list version c55a5c9
 | Open Market License                                                          | [OML][]                                  |      |           |
 | OpenSSL License                                                              | [OpenSSL][]                              |      | Y         |
 | Open Public License v1.0                                                     | [OPL-1.0][]                              |      |           |
+| Open Publication License v1.0                                                | [OPUBL-1.0][]                            |      |           |
 | OSET Public License version 2.1                                              | [OSET-PL-2.1][]                          | Y    |           |
 | Open Software License 1.0                                                    | [OSL-1.0][]                              | Y    | Y         |
 | Open Software License 1.1                                                    | [OSL-1.1][]                              |      | Y         |
@@ -880,6 +881,7 @@ The following licenses have been generated from the license list version c55a5c9
 [OML]: text/OML.txt
 [OpenSSL]: text/OpenSSL.txt
 [OPL-1.0]: text/OPL-1.0.txt
+[OPUBL-1.0]: text/OPUBL-1.0.txt
 [OSET-PL-2.1]: text/OSET-PL-2.1.txt
 [OSL-1.0]: text/OSL-1.0.txt
 [OSL-1.1]: text/OSL-1.1.txt
