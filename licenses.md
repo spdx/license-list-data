@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e0b157f
+The following licenses have been generated from the license list version c122673
 
 ## Licenses with Short Idenifiers
 
@@ -119,6 +119,7 @@ The following licenses have been generated from the license list version e0b157f
 | Common Development and Distribution License 1.1                              | [CDDL-1.1][]                             |      |           |
 | Common Documentation License 1.0                                             | [CDL-1.0][]                              |      |           |
 | Community Data License Agreement Permissive 1.0                              | [CDLA-Permissive-1.0][]                  |      |           |
+| Community Data License Agreement Permissive 2.0                              | [CDLA-Permissive-2.0][]                  |      |           |
 | Community Data License Agreement Sharing 1.0                                 | [CDLA-Sharing-1.0][]                     |      |           |
 | CeCILL Free Software License Agreement v1.0                                  | [CECILL-1.0][]                           |      |           |
 | CeCILL Free Software License Agreement v1.1                                  | [CECILL-1.1][]                           |      |           |
@@ -636,6 +637,7 @@ The following licenses have been generated from the license list version e0b157f
 [CDDL-1.1]: text/CDDL-1.1.txt
 [CDL-1.0]: text/CDL-1.0.txt
 [CDLA-Permissive-1.0]: text/CDLA-Permissive-1.0.txt
+[CDLA-Permissive-2.0]: text/CDLA-Permissive-2.0.txt
 [CDLA-Sharing-1.0]: text/CDLA-Sharing-1.0.txt
 [CECILL-1.0]: text/CECILL-1.0.txt
 [CECILL-1.1]: text/CECILL-1.1.txt
