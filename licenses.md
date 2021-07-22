@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6fa41ad
+The following licenses have been generated from the license list version 99ac407
 
 ## Licenses with Short Idenifiers
 
@@ -293,7 +293,7 @@ The following licenses have been generated from the license list version 6fa41ad
 | Nethack General Public License                                               | [NGPL][]                                 | Y    |           |
 | NIST Public Domain Notice                                                    | [NIST-PD][]                              |      |           |
 | NIST Public Domain Notice with license fallback                              | [NIST-PD-fallback][]                     |      |           |
-| Norwegian Licence for Open Government Data                                   | [NLOD-1.0][]                             |      |           |
+| Norwegian Licence for Open Government Data (NLOD) 1.0                        | [NLOD-1.0][]                             |      |           |
 | Norwegian Licence for Open Government Data (NLOD) 2.0                        | [NLOD-2.0][]                             |      |           |
 | No Limit Public License                                                      | [NLPL][]                                 |      |           |
 | Nokia Open Source License                                                    | [Nokia][]                                | Y    | Y         |
