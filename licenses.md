@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version c122673
+The following licenses have been generated from the license list version 6fa41ad
 
 ## Licenses with Short Idenifiers
 
@@ -294,6 +294,7 @@ The following licenses have been generated from the license list version c122673
 | NIST Public Domain Notice                                                    | [NIST-PD][]                              |      |           |
 | NIST Public Domain Notice with license fallback                              | [NIST-PD-fallback][]                     |      |           |
 | Norwegian Licence for Open Government Data                                   | [NLOD-1.0][]                             |      |           |
+| Norwegian Licence for Open Government Data (NLOD) 2.0                        | [NLOD-2.0][]                             |      |           |
 | No Limit Public License                                                      | [NLPL][]                                 |      |           |
 | Nokia Open Source License                                                    | [Nokia][]                                | Y    | Y         |
 | Netizen Open Source License                                                  | [NOSL][]                                 |      | Y         |
@@ -835,6 +836,7 @@ The following licenses have been generated from the license list version c122673
 [NIST-PD]: text/NIST-PD.txt
 [NIST-PD-fallback]: text/NIST-PD-fallback.txt
 [NLOD-1.0]: text/NLOD-1.0.txt
+[NLOD-2.0]: text/NLOD-2.0.txt
 [NLPL]: text/NLPL.txt
 [Nokia]: text/Nokia.txt
 [NOSL]: text/NOSL.txt
