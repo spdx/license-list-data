@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-07-22 - 16:29:08",
-    "url" : "https://github.com/DISIC/politique-de-contribution-open-source/blob/master/LICENSE.pdf"
+    "order" : "1",
+    "timestamp" : "2021-07-22 - 16:40:24",
+    "url" : "https://raw.githubusercontent.com/DISIC/politique-de-contribution-open-source/master/LICENSE"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-07-22 - 16:29:08",
-    "url" : "https://raw.githubusercontent.com/DISIC/politique-de-contribution-open-source/master/LICENSE"
+    "order" : "0",
+    "timestamp" : "2021-07-22 - 16:40:24",
+    "url" : "https://github.com/DISIC/politique-de-contribution-open-source/blob/master/LICENSE.pdf"
   }, {
     "@id" : "http://spdx.org/licenses/etalab-2.0",
     "@type" : "spdx:ListedLicense",
@@ -64,12 +64,16 @@
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
@@ -83,10 +87,6 @@
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
