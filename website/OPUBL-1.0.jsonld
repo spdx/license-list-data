@@ -6,29 +6,29 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2021-07-22 - 16:25:45",
-    "url" : "https://www.ctan.org/license/opl"
+    "order" : "1",
+    "timestamp" : "2021-07-22 - 16:36:08",
+    "url" : "https://www.debian.org/opl"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-07-22 - 16:25:43",
-    "url" : "http://opencontent.org/openpub/"
+    "match" : "false",
+    "order" : "2",
+    "timestamp" : "2021-07-22 - 16:36:09",
+    "url" : "https://www.ctan.org/license/opl"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-07-22 - 16:25:44",
-    "url" : "https://www.debian.org/opl"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2021-07-22 - 16:36:07",
+    "url" : "http://opencontent.org/openpub/"
   }, {
     "@id" : "http://spdx.org/licenses/OPUBL-1.0",
     "@type" : "spdx:ListedLicense",
@@ -47,6 +47,10 @@
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
@@ -55,10 +59,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
