@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-07-22 - 16:15:15",
-    "url" : "https://opensource.org/licenses/EPL-1.0"
+    "order" : "0",
+    "timestamp" : "2021-07-22 - 16:31:09",
+    "url" : "http://www.eclipse.org/legal/epl-v10.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,13 +16,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-07-22 - 16:15:15",
-    "url" : "http://www.eclipse.org/legal/epl-v10.html"
+    "order" : "1",
+    "timestamp" : "2021-07-22 - 16:31:09",
+    "url" : "https://opensource.org/licenses/EPL-1.0"
   }, {
     "@id" : "http://spdx.org/licenses/EPL-1.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -69,16 +69,16 @@
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
