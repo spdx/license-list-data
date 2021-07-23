@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-07-22 - 16:37:43",
-    "url" : "https://license.coscl.org.cn/MulanPSL/"
+    "order" : "1",
+    "timestamp" : "2021-07-23 - 03:12:12",
+    "url" : "https://github.com/yuwenlong/longphp/blob/25dfb70cc2a466dc4bb55ba30901cbce08d164b5/LICENSE"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-07-22 - 16:37:44",
-    "url" : "https://github.com/yuwenlong/longphp/blob/25dfb70cc2a466dc4bb55ba30901cbce08d164b5/LICENSE"
+    "order" : "0",
+    "timestamp" : "2021-07-23 - 03:12:11",
+    "url" : "https://license.coscl.org.cn/MulanPSL/"
   }, {
     "@id" : "http://spdx.org/licenses/MulanPSL-1.0",
     "@type" : "spdx:ListedLicense",
@@ -36,6 +36,10 @@
     "seeAlso" : [ "https://license.coscl.org.cn/MulanPSL/", "https://github.com/yuwenlong/longphp/blob/25dfb70cc2a466dc4bb55ba30901cbce08d164b5/LICENSE" ]
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -61,10 +65,6 @@
     },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
