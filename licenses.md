@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 4e15a35
+The following licenses have been generated from the license list version 0c2b120
 
 ## Licenses with Short Idenifiers
 
@@ -106,6 +106,7 @@ The following licenses have been generated from the license list version 4e15a35
 | Creative Commons Attribution Non Commercial Share Alike 2.5 Generic           | [CC-BY-NC-SA-2.5][]                      |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 3.0 Unported          | [CC-BY-NC-SA-3.0][]                      |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 3.0 Germany           | [CC-BY-NC-SA-3.0-DE][]                   |      |           |
+| Creative Commons Attribution Non Commercial Share Alike 3.0 IGO               | [CC-BY-NC-SA-3.0-IGO][]                  |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 4.0 International     | [CC-BY-NC-SA-4.0][]                      |      |           |
 | Creative Commons Attribution No Derivatives 1.0 Generic                       | [CC-BY-ND-1.0][]                         |      |           |
 | Creative Commons Attribution No Derivatives 2.0 Generic                       | [CC-BY-ND-2.0][]                         |      |           |
@@ -634,6 +635,7 @@ The following licenses have been generated from the license list version 4e15a35
 [CC-BY-NC-SA-2.5]: text/CC-BY-NC-SA-2.5.txt
 [CC-BY-NC-SA-3.0]: text/CC-BY-NC-SA-3.0.txt
 [CC-BY-NC-SA-3.0-DE]: text/CC-BY-NC-SA-3.0-DE.txt
+[CC-BY-NC-SA-3.0-IGO]: text/CC-BY-NC-SA-3.0-IGO.txt
 [CC-BY-NC-SA-4.0]: text/CC-BY-NC-SA-4.0.txt
 [CC-BY-ND-1.0]: text/CC-BY-ND-1.0.txt
 [CC-BY-ND-2.0]: text/CC-BY-ND-2.0.txt
