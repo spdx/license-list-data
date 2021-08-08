@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">BSD Zero Clause License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="http://landley.net/toybox/license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2021-08-05 - 16:38:56>http://landley.net/toybox/license.html</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2021-08-05 - 16:38:56</p> -->
+               <a href="http://landley.net/toybox/license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2021-08-08 - 20:11:54>http://landley.net/toybox/license.html</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2021-08-08 - 20:11:54</p> -->
              </li>
            </ul>
           </div>
@@ -157,6 +157,10 @@
 
       <div property="spdx:licenseText" class="license-text">
       
+      <div class="optional-license-text">
+         <p><var class="replacable-license-text">BSD Zero Clause License</var></p>
+
+      </div>
       <div class="replacable-license-text">
          <p>Copyright (C) YEAR by AUTHOR EMAIL</p>
 
@@ -180,7 +184,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) YEAR by AUTHOR EMAIL  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.&#10;&#10;
+      &lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name=&quot;title&quot;;original=&quot;BSD Zero Clause License&quot;;match=&quot;(BSD Zero[ -]Clause|Zero[ -]Clause BSD)( License)?( \\(0BSD\\))?&quot;&gt;&gt;&#10;&#10;&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) YEAR by AUTHOR EMAIL  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->
