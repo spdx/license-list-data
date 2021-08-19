@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-08-18 - 21:52:58",
+    "timestamp" : "2021-08-19 - 15:26:22",
     "url" : "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web"
   }, {
     "@id" : "http://spdx.org/licenses/OFL-1.0-RFN",
@@ -23,6 +23,10 @@
     "seeAlso" : "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -48,10 +52,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
