@@ -5,20 +5,20 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-08-19 - 15:24:33",
-    "url" : "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf"
+    "match" : "true",
+    "order" : "1",
+    "timestamp" : "2021-09-02 - 16:48:28",
+    "url" : "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-08-19 - 15:24:34",
-    "url" : "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0"
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2021-09-02 - 16:48:27",
+    "url" : "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf"
   }, {
     "@id" : "http://spdx.org/licenses/eGenix",
     "@type" : "spdx:ListedLicense",
@@ -67,6 +67,10 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -75,10 +79,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
