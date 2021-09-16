@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f7de5a3
+The following licenses have been generated from the license list version fafa781
 
 ## Licenses with Short Idenifiers
 
@@ -422,6 +422,7 @@ The following licenses have been generated from the license list version f7de5a3
 | Unicode Terms of Use                                                          | [Unicode-TOU][]                          |      |           |
 | The Unlicense                                                                 | [Unlicense][]                            | Y    | Y         |
 | Universal Permissive License v1.0                                             | [UPL-1.0][]                              | Y    | Y         |
+| The "Verbatim" License (man-pages)                                            | [Verbatim-man-pages][]                   |      |           |
 | Vim License                                                                   | [Vim][]                                  |      | Y         |
 | VOSTROM Public License for Open Source                                        | [VOSTROM][]                              |      |           |
 | Vovida Software License v1.0                                                  | [VSL-1.0][]                              | Y    |           |
@@ -976,6 +977,7 @@ The following licenses have been generated from the license list version f7de5a3
 [Unicode-TOU]: text/Unicode-TOU.txt
 [Unlicense]: text/Unlicense.txt
 [UPL-1.0]: text/UPL-1.0.txt
+[Verbatim-man-pages]: text/Verbatim-man-pages.txt
 [Vim]: text/Vim.txt
 [VOSTROM]: text/VOSTROM.txt
 [VSL-1.0]: text/VSL-1.0.txt

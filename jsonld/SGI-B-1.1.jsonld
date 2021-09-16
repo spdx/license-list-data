@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2021-09-02 - 16:51:59",
+    "timestamp" : "2021-09-16 - 18:02:51",
     "url" : "http://oss.sgi.com/projects/FreeB/"
   }, {
     "@id" : "http://spdx.org/licenses/SGI-B-1.1",
@@ -26,6 +26,31 @@
     "seeAlso" : "http://oss.sgi.com/projects/FreeB/"
   } ],
   "@context" : {
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
@@ -64,31 +89,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
