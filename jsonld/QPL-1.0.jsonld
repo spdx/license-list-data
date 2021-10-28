@@ -2,33 +2,33 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "true",
+    "order" : "2",
+    "timestamp" : "2021-10-28 - 15:04:54",
+    "url" : "https://doc.qt.io/archives/3.3/license.html"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
     "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2021-09-16 - 17:58:55",
+    "timestamp" : "2021-10-28 - 15:04:53",
     "url" : "http://doc.qt.nokia.com/3.3/license.html"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-09-16 - 17:58:55",
-    "url" : "https://opensource.org/licenses/QPL-1.0"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "2",
-    "timestamp" : "2021-09-16 - 17:58:55",
-    "url" : "https://doc.qt.io/archives/3.3/license.html"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2021-10-28 - 15:04:53",
+    "url" : "https://opensource.org/licenses/QPL-1.0"
   }, {
     "@id" : "http://spdx.org/licenses/QPL-1.0",
     "@type" : "spdx:ListedLicense",
@@ -68,6 +68,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -84,10 +88,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
