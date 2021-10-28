@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e618438
+The following licenses have been generated from the license list version 563a5ad
 
 ## Licenses with Short Idenifiers
 
@@ -259,6 +259,7 @@ The following licenses have been generated from the license list version e618438
 | Licence Libre du Québec – Permissive version 1.1                              | [LiLiQ-P-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité version 1.1                             | [LiLiQ-R-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité forte version 1.1                       | [LiLiQ-Rplus-1.1][]                      | Y    |           |
+| Linux man-pages Copyleft                                                      | [Linux-man-pages-copyleft][]             |      |           |
 | Linux Kernel Variant of OpenIB.org license                                    | [Linux-OpenIB][]                         |      |           |
 | Lucent Public License Version 1.0                                             | [LPL-1.0][]                              | Y    |           |
 | Lucent Public License v1.02                                                   | [LPL-1.02][]                             | Y    | Y         |
@@ -422,7 +423,6 @@ The following licenses have been generated from the license list version e618438
 | Unicode Terms of Use                                                          | [Unicode-TOU][]                          |      |           |
 | The Unlicense                                                                 | [Unlicense][]                            | Y    | Y         |
 | Universal Permissive License v1.0                                             | [UPL-1.0][]                              | Y    | Y         |
-| The "Verbatim" License (man-pages)                                            | [Verbatim-man-pages][]                   |      |           |
 | Vim License                                                                   | [Vim][]                                  |      | Y         |
 | VOSTROM Public License for Open Source                                        | [VOSTROM][]                              |      |           |
 | Vovida Software License v1.0                                                  | [VSL-1.0][]                              | Y    |           |
@@ -812,6 +812,7 @@ The following licenses have been generated from the license list version e618438
 [LiLiQ-P-1.1]: text/LiLiQ-P-1.1.txt
 [LiLiQ-R-1.1]: text/LiLiQ-R-1.1.txt
 [LiLiQ-Rplus-1.1]: text/LiLiQ-Rplus-1.1.txt
+[Linux-man-pages-copyleft]: text/Linux-man-pages-copyleft.txt
 [Linux-OpenIB]: text/Linux-OpenIB.txt
 [LPL-1.0]: text/LPL-1.0.txt
 [LPL-1.02]: text/LPL-1.02.txt
@@ -977,7 +978,6 @@ The following licenses have been generated from the license list version e618438
 [Unicode-TOU]: text/Unicode-TOU.txt
 [Unlicense]: text/Unlicense.txt
 [UPL-1.0]: text/UPL-1.0.txt
-[Verbatim-man-pages]: text/Verbatim-man-pages.txt
 [Vim]: text/Vim.txt
 [VOSTROM]: text/VOSTROM.txt
 [VSL-1.0]: text/VSL-1.0.txt
