@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-10-28 - 16:51:07",
+    "timestamp" : "2021-10-28 - 17:38:43",
     "url" : "http://vimdoc.sourceforge.net/htmldoc/uganda.html"
   }, {
     "@id" : "http://spdx.org/licenses/Vim",
@@ -23,10 +23,6 @@
     "seeAlso" : "http://vimdoc.sourceforge.net/htmldoc/uganda.html"
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -47,12 +43,16 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
