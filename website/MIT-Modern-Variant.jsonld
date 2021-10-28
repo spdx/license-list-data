@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2021-10-28 - 16:33:48",
-    "url" : "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html"
+    "order" : "1",
+    "timestamp" : "2021-10-28 - 16:47:01",
+    "url" : "https://ptolemy.berkeley.edu/copyright.htm"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-10-28 - 16:33:47",
-    "url" : "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants"
+    "order" : "2",
+    "timestamp" : "2021-10-28 - 16:47:01",
+    "url" : "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-10-28 - 16:33:47",
-    "url" : "https://ptolemy.berkeley.edu/copyright.htm"
+    "order" : "0",
+    "timestamp" : "2021-10-28 - 16:47:00",
+    "url" : "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants"
   }, {
     "@id" : "http://spdx.org/licenses/MIT-Modern-Variant",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b2", "_:b1" ],
+    "crossRef" : [ "_:b2", "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseText" : "Permission is hereby granted, without written agreement and without\nlicense or royalty fees, to use, copy, modify, and distribute this\nsoftware and its documentation for any purpose, provided that the\nabove copyright notice and the following two paragraphs appear in\nall copies of this software.\n\nIN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR\nDIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES\nARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN\nIF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\nDAMAGE.\n\nTHE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,\nBUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS\nON AN \"AS IS\" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO\nPROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n",
@@ -71,13 +71,13 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
