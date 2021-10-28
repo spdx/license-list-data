@@ -5,20 +5,20 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-10-28 - 16:33:49",
-    "url" : "https://opensource.org/licenses/GPL-3.0"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2021-10-28 - 16:47:03",
+    "url" : "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-10-28 - 16:33:49",
-    "url" : "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2021-10-28 - 16:47:04",
+    "url" : "https://opensource.org/licenses/GPL-3.0"
   }, {
     "@id" : "http://spdx.org/licenses/GPL-3.0",
     "@type" : "spdx:ListedLicense",
@@ -39,10 +39,6 @@
   "@context" : {
     "standardLicenseHeader" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "deprecatedVersion" : {
       "@id" : "http://spdx.org/rdf/terms#deprecatedVersion"
@@ -70,6 +66,10 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
