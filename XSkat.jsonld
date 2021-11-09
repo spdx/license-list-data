@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-11-09 - 16:56:39",
+    "timestamp" : "2021-11-09T19:59:26Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/XSkat_License"
   }, {
     "@id" : "http://spdx.org/licenses/XSkat",
@@ -15,39 +15,43 @@
     "crossRef" : "_:b0",
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
+    "licenseId" : "XSkat",
     "licenseText" : "This program is free software; you can redistribute it freely.\nUse it at your own risk; there is NO WARRANTY.\n\nRedistribution of modified versions is permitted provided that the following conditions are met:\n\n1. All copyright & permission notices are preserved.\n\n2.a) Only changes required for packaging or porting are made.\n     or\n2.b) It is clearly stated who last changed the program. The program is renamed or the version number is of the form x.y.z, where x.y is the version of the original program and z is an arbitrary suffix.\n",
-    "licenseTextHtml" : "\n      <p>This program is free software; you can redistribute it freely.\n        <br />\n\nUse it at your own risk; there is NO WARRANTY.\n      </p>\n\n      <p>Redistribution of modified versions is permitted provided that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n<li>\n            <var class=\"replacable-license-text\">1.</var>\n          All copyright &amp; permission notices are preserved.\n        </li>\n<li>\n            <var class=\"replacable-license-text\">2.a)</var>\n          Only changes required for packaging or porting are made.<br />\n\n   or\n        </li>\n<li>\n            <var class=\"replacable-license-text\">2.b)</var>\n          It is clearly stated who last changed the program. The program is renamed or the version\n             number is of the form x.y.z, where x.y is the version of the original program and z is an\n             arbitrary suffix.\n        </li>\n</ul>\n    ",
+    "licenseTextHtml" : "\n      <p>This program is free software; you can redistribute it freely.\n        <br />\n\nUse it at your own risk; there is NO WARRANTY.\n      </p>\n\n      <p>Redistribution of modified versions is permitted provided that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replacable-license-text\"> 1.</var>\n          All copyright &amp; permission notices are preserved.\n        </li>\n        \n<li>\n            <var class=\"replacable-license-text\"> 2.a)</var>\n          Only changes required for packaging or porting are made.<br />\n\n   or\n        </li>\n        \n<li>\n            <var class=\"replacable-license-text\"> 2.b)</var>\n          It is clearly stated who last changed the program. The program is renamed or the version\n             number is of the form x.y.z, where x.y is the version of the original program and z is an\n             arbitrary suffix.\n        </li>\n      \n</ul>\n    ",
     "name" : "XSkat License",
     "standardLicenseTemplate" : "This program is free software; you can redistribute it freely.\n\nUse it at your own risk; there is NO WARRANTY.\n\nRedistribution of modified versions is permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> All copyright & permission notices are preserved.\n\n   <<var;name=\"bullet\";original=\"2.a)\";match=\".{0,20}\">> Only changes required for packaging or porting are made.\n\n   or\n\n   <<var;name=\"bullet\";original=\"2.b)\";match=\".{0,20}\">> It is clearly stated who last changed the program. The program is renamed or the version number is of the form x.y.z, where x.y is the version of the original program and z is an arbitrary suffix.",
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/XSkat_License"
   } ],
   "@context" : {
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
     },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
@@ -76,6 +80,7 @@
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

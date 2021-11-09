@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-11-09 - 16:53:44",
+    "timestamp" : "2021-11-09T19:56:41Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/Glulxe"
   }, {
     "@id" : "http://spdx.org/licenses/Glulxe",
@@ -15,40 +15,14 @@
     "crossRef" : "_:b0",
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
+    "licenseId" : "Glulxe",
     "licenseText" : "The source code in this package is copyright 1999-2010 by Andrew Plotkin.\n\nYou may copy and distribute it freely, by any means and under any conditions, as long as the code and documentation is not changed. You may also incorporate this code into your own program and distribute that, or modify this code and use and distribute the modified version, as long as you retain a notice in your program or documentation which mentions my name and the URL shown above.\n",
-    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\">\n         <p>The source code in this package is copyright 1999-2010 by Andrew Plotkin.</p>\n\n      </div>\n\n      <p>You may copy and distribute it freely, by any means and under any conditions, as long as the code and\n         documentation is not changed. You may also incorporate this code into your own program and distribute\n         that, or modify this code and use and distribute the modified version, as long as you retain a notice\n         in your program or documentation which mentions my name and the URL shown above.</p>\n\n    ",
+    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\"> \n         <p>The source code in this package is copyright 1999-2010 by Andrew Plotkin.</p>\n\n      </div>\n\n      <p>You may copy and distribute it freely, by any means and under any conditions, as long as the code and\n         documentation is not changed. You may also incorporate this code into your own program and distribute\n         that, or modify this code and use and distribute the modified version, as long as you retain a notice\n         in your program or documentation which mentions my name and the URL shown above.</p>\n\n    ",
     "name" : "Glulxe License",
     "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"The source code in this package is copyright 1999-2010 by Andrew Plotkin.  \";match=\".{0,5000}\">>\n\nYou may copy and distribute it freely, by any means and under any conditions, as long as the code and documentation is not changed. You may also incorporate this code into your own program and distribute that, or modify this code and use and distribute the modified version, as long as you retain a notice in your program or documentation which mentions my name and the URL shown above.\n\n",
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Glulxe"
   } ],
   "@context" : {
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
     },
@@ -74,8 +48,39 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

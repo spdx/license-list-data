@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-11-09 - 16:53:13",
+    "timestamp" : "2021-11-09T19:56:09Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/Latex2e"
   }, {
     "@id" : "http://spdx.org/licenses/Latex2e",
@@ -15,8 +15,9 @@
     "crossRef" : "_:b0",
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
+    "licenseId" : "Latex2e",
     "licenseText" : "Copyright (C) 2007, 2008, 2009, 2010 Karl Berry.\nCopyright (C) 1988, 1994, 2007 Stephen Gilmore.\nCopyright (C) 1994, 1995, 1996 Torsten Martinsen.\n\nPermission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.\n\nPermission is granted to copy and distribute translations of this manual into another language, under the above conditions for modified versions.\n",
-    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\">\n         <p>Copyright (C) 2007, 2008, 2009, 2010 Karl Berry.\n        <br />\n\nCopyright (C) 1988, 1994, 2007 Stephen Gilmore.\n        <br />\n\nCopyright (C) 1994, 1995, 1996 Torsten Martinsen.\n      </p>\n\n      </div>\n\n      <p>Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice\n         and this permission notice are preserved on all copies.</p>\n\n      <p>Permission is granted to copy and distribute modified versions of this manual under the conditions for\n         verbatim copying, provided that the entire resulting derived work is distributed under the terms of a\n         permission notice identical to this one.</p>\n\n      <p>Permission is granted to copy and distribute translations of this manual into another language, under the\n         above conditions for modified versions.</p>\n\n    ",
+    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\"> \n         <p>Copyright (C) 2007, 2008, 2009, 2010 Karl Berry.\n        <br />\n\nCopyright (C) 1988, 1994, 2007 Stephen Gilmore.\n        <br />\n\nCopyright (C) 1994, 1995, 1996 Torsten Martinsen.\n      </p>\n\n      </div>\n\n      <p>Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice\n         and this permission notice are preserved on all copies.</p>\n\n      <p>Permission is granted to copy and distribute modified versions of this manual under the conditions for\n         verbatim copying, provided that the entire resulting derived work is distributed under the terms of a\n         permission notice identical to this one.</p>\n\n      <p>Permission is granted to copy and distribute translations of this manual into another language, under the\n         above conditions for modified versions.</p>\n\n    ",
     "name" : "Latex2e License",
     "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 2007, 2008, 2009, 2010 Karl Berry.  Copyright (C) 1988, 1994, 2007 Stephen Gilmore.  Copyright (C) 1994, 1995, 1996 Torsten Martinsen.  \";match=\".{0,5000}\">>\n\nPermission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.\n\nPermission is granted to copy and distribute translations of this manual into another language, under the above conditions for modified versions.\n\n",
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Latex2e"
@@ -47,22 +48,20 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
@@ -70,12 +69,18 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

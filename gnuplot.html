@@ -41,7 +41,7 @@
       }
 
       .page h2, h3, h4, h5 {
-        color: #4597cb;
+        color: #00416b;
       }
 
       .page h1 {
@@ -53,7 +53,7 @@
       }
 
       a, a:visited, a:hover {
-        color: #4597cb;
+        color: #00416b;
       }
 
       #footer-copyright {
@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">gnuplot License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing/Gnuplot" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2021-11-09 - 16:58:01>https://fedoraproject.org/wiki/Licensing/Gnuplot</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2021-11-09 - 16:58:01</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing/Gnuplot" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2021-11-09T20:00:52Z>https://fedoraproject.org/wiki/Licensing/Gnuplot</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2021-11-09T20:00:52Z</p> -->
              </li>
            </ul>
           </div>
@@ -157,7 +157,7 @@
 
       <div property="spdx:licenseText" class="license-text">
       
-      <div class="replacable-license-text">
+      <div class="replacable-license-text"> 
          <p>Copyright 1986 - 1993, 1998, 2004 Thomas Williams, Colin Kelley</p>
 
       </div>
@@ -171,24 +171,29 @@
          distribute binaries produced by compiling modified sources is granted, provided you</p>
 
 <ul style="list-style:none">
+        
 <li>
-            <var class="replacable-license-text">1.</var>
+            <var class="replacable-license-text"> 1.</var>
           distribute the corresponding source modifications from the released version in the form of a
              patch file along with the binaries,
         </li>
+        
 <li>
-            <var class="replacable-license-text">2.</var>
+            <var class="replacable-license-text"> 2.</var>
           add special version identification to distinguish your version in addition to the base
              release version number,
         </li>
+        
 <li>
-            <var class="replacable-license-text">3.</var>
+            <var class="replacable-license-text"> 3.</var>
           provide your name and address as the primary contact for the support of your modified version, and
         </li>
+        
 <li>
-            <var class="replacable-license-text">4.</var>
+            <var class="replacable-license-text"> 4.</var>
           retain our contact information in regard to use of the base software.
         </li>
+      
 </ul>
       <p>Permission to distribute the released version of the source code along with corresponding source
          modifications in the form of a patch file is granted with same provisions 2 through 4 for binary
