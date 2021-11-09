@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-11-09 - 16:56:18",
+    "timestamp" : "2021-11-09T19:59:06Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/Dotseqn"
   }, {
     "@id" : "http://spdx.org/licenses/Dotseqn",
@@ -15,8 +15,9 @@
     "crossRef" : "_:b0",
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
+    "licenseId" : "Dotseqn",
     "licenseText" : "Copyright (C) 1995 by Donald Arseneau\n\nThis file may be freely transmitted and reproduced, but it may not be changed unless the name is changed also (except that you may freely change the paper-size option for \\documentclass).\n\nThis notice must be left intact.\n",
-    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\">\n         <p>Copyright (C) 1995 by Donald Arseneau</p>\n\n      </div>\n\n      <p>This file may be freely transmitted and reproduced, but it may not be changed unless the name is changed\n         also (except that you may freely change the paper-size option for \\documentclass).</p>\n\n      <p>This notice must be left intact.</p>\n\n    ",
+    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\"> \n         <p>Copyright (C) 1995 by Donald Arseneau</p>\n\n      </div>\n\n      <p>This file may be freely transmitted and reproduced, but it may not be changed unless the name is changed\n         also (except that you may freely change the paper-size option for \\documentclass).</p>\n\n      <p>This notice must be left intact.</p>\n\n    ",
     "name" : "Dotseqn License",
     "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 1995 by Donald Arseneau  \";match=\".{0,5000}\">>\n\nThis file may be freely transmitted and reproduced, but it may not be changed unless the name is changed also (except that you may freely change the paper-size option for \\documentclass).\n\nThis notice must be left intact.\n\n",
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Dotseqn"
@@ -47,28 +48,31 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
     },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
@@ -76,6 +80,7 @@
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

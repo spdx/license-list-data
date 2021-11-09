@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-11-09 - 16:53:48",
+    "timestamp" : "2021-11-09T19:56:44Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License"
   }, {
     "@id" : "http://spdx.org/licenses/FSFUL",
@@ -15,8 +15,9 @@
     "crossRef" : "_:b0",
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
+    "licenseId" : "FSFUL",
     "licenseText" : "Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.\n\nThis configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.\n",
-    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\">\n         <p>Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.</p>\n\n      </div>\n\n      <p>This configure script is free software; the Free Software Foundation gives unlimited permission to copy,\n         distribute and modify it.</p>\n\n    ",
+    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\"> \n         <p>Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.</p>\n\n      </div>\n\n      <p>This configure script is free software; the Free Software Foundation gives unlimited permission to copy,\n         distribute and modify it.</p>\n\n    ",
     "name" : "FSF Unlimited License",
     "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.  \";match=\".{0,5000}\">>\n\nThis configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.\n\n",
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License"
@@ -47,35 +48,39 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
     },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

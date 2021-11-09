@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/diffmark>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing/diffmark" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "true" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2021-11-09T19:56:08Z" ;
+                                        spdx:url            "https://fedoraproject.org/wiki/Licensing/diffmark"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "diffmark" ;
+        spdx:licenseText              "1. you can do what you want with it\n2. I refuse any responsibility for the consequences\n" ;
+        spdx:licenseTextHtml          "\n      \n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replacable-license-text\"> 1.</var>\n          you can do what you want with it\n        </li>\n        \n<li>\n            <var class=\"replacable-license-text\"> 2.</var>\n          I refuse any responsibility for the consequences\n        </li>\n      \n</ul>\n    " ;
+        spdx:name                     "diffmark license" ;
+        spdx:standardLicenseTemplate  "\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences" .

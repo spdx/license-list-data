@@ -6,17 +6,8 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/BUSL-1.1">
     <rdfs:seeAlso>https://mariadb.com/bsl11/</rdfs:seeAlso>
-    <spdx:standardLicenseHeaderTemplate>Copyright (C) &lt;&lt;var;name="copyright";original="yyyy name of author";match=".+"&gt;&gt;
-
-Use of this software is govered by the Business Source License included in the LICENSE.TXT file and at www.mariadb.com/bsl11.
-
-Change Date:
-
-On the date above, in accordance with the Business Source License, use of this software will be governed by the open source license specified in the LICENSE.TXT file.
-
-</spdx:standardLicenseHeaderTemplate>
     <spdx:licenseTextHtml>
-      &lt;var class="optional-license-text"&gt;
+      &lt;var class="optional-license-text"&gt; 
         Business Source License 1.1
       &lt;/var&gt;
       &lt;p&gt;
@@ -101,28 +92,91 @@ On the date above, in accordance with the Business Source License, use of this s
       &lt;/p&gt;
 
 &lt;ul style="list-style:none"&gt;
+       
 &lt;li&gt;
-         &lt;var class="replacable-license-text"&gt;1.&lt;/var&gt; To specify as the Change License the GPL Version 2.0 or
+         &lt;var class="replacable-license-text"&gt; 1.&lt;/var&gt; To specify as the Change License the GPL Version 2.0 or
          any later version, or a license that is compatible with GPL Version 2.0 or
          a later version, where &amp;quot;compatible&amp;quot; means that software provided under the
          Change License can be included in a program with software provided under GPL
          Version 2.0 or a later version. Licensor may specify additional Change
          Licenses without limitation.
        &lt;/li&gt;
+       
 &lt;li&gt;
-         &lt;var class="replacable-license-text"&gt;2.&lt;/var&gt; To either: (a) specify an additional grant of rights to
+         &lt;var class="replacable-license-text"&gt; 2.&lt;/var&gt; To either: (a) specify an additional grant of rights to
          use that does not impose any additional restriction on the right granted in
          this License, as the Additional Use Grant; or (b) insert the text &amp;quot;None&amp;quot;.
        &lt;/li&gt;
+       
 &lt;li&gt;
-         &lt;var class="replacable-license-text"&gt;3.&lt;/var&gt; To specify a Change Date.
+         &lt;var class="replacable-license-text"&gt; 3.&lt;/var&gt; To specify a Change Date.
        &lt;/li&gt;
+       
 &lt;li&gt;
-         &lt;var class="replacable-license-text"&gt;4.&lt;/var&gt; Not to modify this License in any other way.
+         &lt;var class="replacable-license-text"&gt; 4.&lt;/var&gt; Not to modify this License in any other way.
        &lt;/li&gt;
+      
 &lt;/ul&gt;
    </spdx:licenseTextHtml>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; Business Source License 1.1&lt;&lt;endOptional&gt;&gt;
+    <spdx:standardLicenseHeaderTemplate>Copyright (C) &lt;&lt;var;name="copyright";original="yyyy name of author";match=".+"&gt;&gt;
+
+Use of this software is govered by the Business Source License included in the LICENSE.TXT file and at www.mariadb.com/bsl11.
+
+Change Date:
+
+On the date above, in accordance with the Business Source License, use of this software will be governed by the open source license specified in the LICENSE.TXT file.
+
+</spdx:standardLicenseHeaderTemplate>
+    <spdx:licenseId>BUSL-1.1</spdx:licenseId>
+    <spdx:standardLicenseHeaderHtml>
+      Copyright (C) &lt;var class="replacable-license-text"&gt; yyyy name of author&lt;/var&gt;
+      &lt;p&gt;
+        Use of this software is govered by the Business Source License included
+        in the LICENSE.TXT file and at www.mariadb.com/bsl11.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Change Date:
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        On the date above, in accordance with the Business Source License,
+        use of this software will be governed by the open source license specified
+        in the LICENSE.TXT file.
+      &lt;/p&gt;
+
+    </spdx:standardLicenseHeaderHtml>
+    <spdx:name>Business Source License 1.1</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2021-11-09T20:01:12Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:url>https://mariadb.com/bsl11/</spdx:url>
+        <spdx:match>false</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:standardLicenseHeader>Copyright (C) yyyy name of author
+
+Use of this software is govered by the Business Source License included in the LICENSE.TXT file and at www.mariadb.com/bsl11.
+
+Change Date:
+
+On the date above, in accordance with the Business Source License, use of this software will be governed by the open source license specified in the LICENSE.TXT file.
+
+</spdx:standardLicenseHeader>
+    <rdfs:comment>The Business Source License (this document, or the “License”) is not an Open Source license. However, the Licensed Work will eventually be made available under an Open Source License, as stated in this License. This is a paramaterized license. The license parameters are: restrictions on usage, a change date, and the open source license that will govern usage of the software after the change date.</rdfs:comment>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Business Source License 1.1&lt;&lt;endOptional&gt;&gt;
 
 License text copyright © 2017 MariaDB Corporation Ab, All Rights Reserved. "Business Source License" is a trademark of MariaDB Corporation Ab.
 
@@ -157,54 +211,6 @@ In consideration of the right to use this License's text and the "Business Sourc
    &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; To specify a Change Date.
 
    &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; Not to modify this License in any other way.</spdx:standardLicenseTemplate>
-    <spdx:name>Business Source License 1.1</spdx:name>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:standardLicenseHeaderHtml>
-      Copyright (C) &lt;var class="replacable-license-text"&gt;yyyy name of author&lt;/var&gt;
-      &lt;p&gt;
-        Use of this software is govered by the Business Source License included
-        in the LICENSE.TXT file and at www.mariadb.com/bsl11.
-      &lt;/p&gt;
-
-      &lt;p&gt;
-        Change Date:
-      &lt;/p&gt;
-
-      &lt;p&gt;
-        On the date above, in accordance with the Business Source License,
-        use of this software will be governed by the open source license specified
-        in the LICENSE.TXT file.
-      &lt;/p&gt;
-
-    </spdx:standardLicenseHeaderHtml>
-    <spdx:standardLicenseHeader>Copyright (C) yyyy name of author
-
-Use of this software is govered by the Business Source License included in the LICENSE.TXT file and at www.mariadb.com/bsl11.
-
-Change Date:
-
-On the date above, in accordance with the Business Source License, use of this software will be governed by the open source license specified in the LICENSE.TXT file.
-
-</spdx:standardLicenseHeader>
-    <rdfs:comment>The Business Source License (this document, or the “License”) is not an Open Source license. However, the Licensed Work will eventually be made available under an Open Source License, as stated in this License. This is a paramaterized license. The license parameters are: restrictions on usage, a change date, and the open source license that will govern usage of the software after the change date.</rdfs:comment>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2021-11-09 - 16:58:19</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>https://mariadb.com/bsl11/</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:licenseText>Business Source License 1.1
 
 License text copyright © 2017 MariaDB Corporation Ab, All Rights Reserved.

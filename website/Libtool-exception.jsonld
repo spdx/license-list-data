@@ -3,11 +3,15 @@
   "@type" : "spdx:LicenseException",
   "exceptionTextHtml" : "\n      <p>As a special exception to the GNU General Public License, if you\n         distribute this file as part of a program or library that is\n         built using GNU Libtool, you may include this file under the\n         same distribution terms that you use for the rest of that\n         program.</p>\n\n    ",
   "spdx:isDeprecatedLicenseId" : false,
+  "licenseExceptionId" : "Libtool-exception",
   "licenseExceptionTemplate" : "As a special exception to the GNU General Public License, if you distribute this file as part of a program or library that is built using GNU Libtool, you may include this file under the same distribution terms that you use for the rest of that program.\n\n",
   "licenseExceptionText" : "As a special exception to the GNU General Public License, if you distribute this file as part of a program or library that is built using GNU Libtool, you may include this file under the same distribution terms that you use for the rest of that program.\n",
   "name" : "Libtool Exception",
   "seeAlso" : "http://git.savannah.gnu.org/cgit/libtool.git/tree/m4/libtool.m4",
   "@context" : {
+    "licenseExceptionId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionId"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -29,6 +33,7 @@
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

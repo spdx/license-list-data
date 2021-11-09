@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2021-11-09 - 16:58:13",
+    "timestamp" : "2021-11-09T20:01:05Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/Zed"
   }, {
     "@id" : "http://spdx.org/licenses/Zed",
@@ -15,35 +15,39 @@
     "crossRef" : "_:b0",
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
+    "licenseId" : "Zed",
     "licenseText" : "(c) Jim Davies, January 1995\nYou may copy and distribute this file freely.  Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.\n",
-    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\">\n         <p>(c) Jim Davies, January 1995</p>\n\n      </div>\n\n      <p>You may copy and distribute this file freely. Any queries and complaints should be forwarded to\n         Jim.Davies@comlab.ox.ac.uk.</p>\n\n      <p>If you make any changes to this file, please do not distribute the results under the name `zed-csp.sty&apos;.</p>\n\n    ",
+    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\"> \n         <p>(c) Jim Davies, January 1995</p>\n\n      </div>\n\n      <p>You may copy and distribute this file freely. Any queries and complaints should be forwarded to\n         Jim.Davies@comlab.ox.ac.uk.</p>\n\n      <p>If you make any changes to this file, please do not distribute the results under the name `zed-csp.sty&apos;.</p>\n\n    ",
     "name" : "Zed License",
     "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"(c) Jim Davies, January 1995  \";match=\".{0,5000}\">>\n\nYou may copy and distribute this file freely. Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\n\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.\n\n",
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Zed"
   } ],
   "@context" : {
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
@@ -76,6 +80,7 @@
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
     "ptr" : "http://www.w3.org/2009/pointers#"
   }
 }

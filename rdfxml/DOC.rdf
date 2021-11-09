@@ -9,7 +9,7 @@
     >false</spdx:isDeprecatedLicenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
-        <spdx:timestamp>2021-11-09 - 16:53:23</spdx:timestamp>
+        <spdx:timestamp>2021-11-09T19:56:18Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:url>http://www.cs.wustl.edu/~schmidt/ACE-copying.html</spdx:url>
@@ -20,21 +20,6 @@
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2021-11-09 - 16:53:24</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >1</spdx:order>
-        <spdx:url>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</spdx:url>
-        <spdx:match>N/A</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isLive>
       </spdx:CrossRef>
     </spdx:crossRef>
     <spdx:licenseText>Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)
@@ -54,7 +39,12 @@ If you have any suggestions, additions, comments, or questions, please let me kn
 Douglas C. Schmidt
 </spdx:licenseText>
     <spdx:name>DOC License</spdx:name>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt; Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:licenseId>DOC</spdx:licenseId>
+    <rdfs:seeAlso>http://www.cs.wustl.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
+    <rdfs:seeAlso>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)
 
 &lt;&lt;endOptional&gt;&gt;
 
@@ -73,18 +63,30 @@ If you have any suggestions, additions, comments, or questions, please let me kn
 Douglas C. Schmidt
 
 </spdx:standardLicenseTemplate>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <rdfs:seeAlso>http://www.cs.wustl.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2021-11-09T19:56:18Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</spdx:order>
+        <spdx:url>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</spdx:url>
+        <spdx:match>N/A</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseTextHtml>
-      &lt;div class="optional-license-text"&gt;
+      &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)&lt;/p&gt;
 
       &lt;/div&gt;
 
       &lt;p&gt;ACE(TM), TAO(TM), CIAO(TM), DAnCE&amp;gt;(TM), and CoSMIC(TM) (henceforth referred to as &amp;quot;DOC software&amp;quot;) are
          copyrighted by Douglas C. Schmidt and his research group at Washington University, University of
-         California, Irvine, and Vanderbilt University, &lt;var class="replacable-license-text"&gt;Copyright (c) 1993-2009, all rights reserved.&lt;/var&gt; Since DOC
+         California, Irvine, and Vanderbilt University, &lt;var class="replacable-license-text"&gt; Copyright (c) 1993-2009, all rights reserved.&lt;/var&gt; Since DOC
          software is open-source, freely available software, you are free to use, modify, copy, and
          distribute--perpetually and irrevocably--the DOC software source code and object code produced from
          the source, as well as copy and distribute modified versions of this software. You must, however,
@@ -138,6 +140,5 @@ Douglas C. Schmidt
       &lt;p&gt;Douglas C. Schmidt&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <rdfs:seeAlso>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

@@ -5,12 +5,13 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:LicenseException rdf:about="http://spdx.org/licenses/u-boot-exception-2.0">
+    <spdx:licenseExceptionId>u-boot-exception-2.0</spdx:licenseExceptionId>
     <rdfs:seeAlso>http://git.denx.de/?p=u-boot.git;a=blob;f=Licenses/Exceptions</rdfs:seeAlso>
     <rdfs:comment>Typically used with GPL-2.0+</rdfs:comment>
     <spdx:name>U-Boot exception 2.0</spdx:name>
     <spdx:exceptionTextHtml>
-      &lt;div class="optional-license-text"&gt;
-         &lt;p&gt;&lt;var class="replacable-license-text"&gt;GPL&lt;/var&gt; License Exception:&lt;/p&gt;
+      &lt;div class="optional-license-text"&gt; 
+         &lt;p&gt;&lt;var class="replacable-license-text"&gt; GPL&lt;/var&gt; License Exception:&lt;/p&gt;
 
       &lt;/div&gt;
       &lt;p&gt;Even though U-Boot in general is covered by the GPL-2.0/GPL-2.0+,
@@ -40,7 +41,7 @@ The header files "include/image.h" and "arch/*/include/asm/u-boot.h" define inte
 </spdx:licenseExceptionText>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name="title";original="GPL";match="The U-Boot|GPL"&gt;&gt; License Exception:
+    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;var;name="title";original="GPL";match="The U-Boot|GPL"&gt;&gt; License Exception:
 
 &lt;&lt;endOptional&gt;&gt;
 

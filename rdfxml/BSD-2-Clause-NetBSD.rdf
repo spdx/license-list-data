@@ -6,40 +6,44 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/BSD-2-Clause-NetBSD">
     <rdfs:comment>NetBSD adopted this 2-clause license in 2008 for code contributed to NetBSD Foundation. It is being deprecated as a separate license because it is a match to BSD-2-Clause. The line describing that the code is derived from software contributed to NetBSD is not viewed as being a substantive part of the license text.</rdfs:comment>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
-    <rdfs:seeAlso>http://www.netbsd.org/about/redistribution.html#default</rdfs:seeAlso>
     <spdx:licenseTextHtml>
-      &lt;div class="replacable-license-text"&gt;
+      &lt;div class="replacable-license-text"&gt; 
          &lt;p&gt;Copyright (c) 2008 The NetBSD Foundation, Inc. All rights reserved.&lt;/p&gt;
 
       &lt;/div&gt;
 
       &lt;p&gt;This code is derived from software contributed to The NetBSD Foundation by
-        &lt;var class="replacable-license-text"&gt;&lt;/var&gt;
+        &lt;var class="replacable-license-text"&gt; &lt;/var&gt;
       &lt;/p&gt;
 
       &lt;p&gt;Redistribution and use in source and binary forms, with or without modification, are permitted provided
          that the following conditions are met:&lt;/p&gt;
 
 &lt;ul style="list-style:none"&gt;
+        
 &lt;li&gt;
-            &lt;var class="replacable-license-text"&gt;1.&lt;/var&gt;
+            &lt;var class="replacable-license-text"&gt; 1.&lt;/var&gt;
           Redistributions of source code must retain the above copyright notice, this list of conditions
              and the following disclaimer.
         &lt;/li&gt;
+        
 &lt;li&gt;
-            &lt;var class="replacable-license-text"&gt;2.&lt;/var&gt;
+            &lt;var class="replacable-license-text"&gt; 2.&lt;/var&gt;
           Redistributions in binary form must reproduce the above copyright notice, this list of conditions
              and the following disclaimer in the documentation and/or other materials provided with the
              distribution.
         &lt;/li&gt;
+      
 &lt;/ul&gt;
       &lt;p&gt;THIS SOFTWARE IS PROVIDED BY
-        &lt;var class="replacable-license-text"&gt;THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS&lt;/var&gt; ``AS IS&amp;apos;&amp;apos;
+        &lt;var class="replacable-license-text"&gt; THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS&lt;/var&gt; ``AS IS&amp;apos;&amp;apos;
         AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
         MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
-        &lt;var class="replacable-license-text"&gt;THE FOUNDATION OR CONTRIBUTORS&lt;/var&gt; BE LIABLE FOR ANY
+        &lt;var class="replacable-license-text"&gt; THE FOUNDATION OR CONTRIBUTORS&lt;/var&gt; BE LIABLE FOR ANY
         DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
         TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
         INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
@@ -48,11 +52,12 @@
       &lt;/p&gt;
 
     </spdx:licenseTextHtml>
+    <rdfs:seeAlso>http://www.netbsd.org/about/redistribution.html#default</rdfs:seeAlso>
     <spdx:name>BSD 2-Clause NetBSD License</spdx:name>
     <spdx:deprecatedVersion>3.9</spdx:deprecatedVersion>
     <spdx:crossRef>
       <spdx:CrossRef>
-        <spdx:timestamp>2021-11-09 - 17:01:03</spdx:timestamp>
+        <spdx:timestamp>2021-11-09T20:03:54Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:url>http://www.netbsd.org/about/redistribution.html#default</spdx:url>
@@ -92,5 +97,6 @@ THIS SOFTWARE IS PROVIDED BY THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS ``AS I
 </spdx:licenseText>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</spdx:isDeprecatedLicenseId>
+    <spdx:licenseId>BSD-2-Clause-NetBSD</spdx:licenseId>
   </spdx:ListedLicense>
 </rdf:RDF>
