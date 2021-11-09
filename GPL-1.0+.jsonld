@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-10-28 - 17:34:04",
+    "timestamp" : "2021-11-09 - 17:01:42",
     "url" : "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/GPL-1.0+",
@@ -26,6 +26,10 @@
     "seeAlso" : "https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -53,10 +57,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
