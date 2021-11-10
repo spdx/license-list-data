@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 0c160c4
+The following licenses have been generated from the license list version 1fb9b63
 
 ## Licenses with Short Idenifiers
 
@@ -146,6 +146,7 @@ The following licenses have been generated from the license list version 0c160c4
 | CNRI Jython License                                                           | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                           | [CNRI-Python][]                          | Y    |           |
 | CNRI Python Open Source GPL Compatible License Agreement                      | [CNRI-Python-GPL-Compatible][]           |      |           |
+| Community Specification License 1.0                                           | [Community-Spec-1.0][]                   |      |           |
 | Condor Public License v1.1                                                    | [Condor-1.1][]                           |      | Y         |
 | copyleft-next 0.3.0                                                           | [copyleft-next-0.3.0][]                  |      |           |
 | copyleft-next 0.3.1                                                           | [copyleft-next-0.3.1][]                  |      |           |
@@ -676,6 +677,7 @@ The following licenses have been generated from the license list version 0c160c4
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
 [CNRI-Python-GPL-Compatible]: text/CNRI-Python-GPL-Compatible.txt
+[Community-Spec-1.0]: text/Community-Spec-1.0.txt
 [Condor-1.1]: text/Condor-1.1.txt
 [copyleft-next-0.3.0]: text/copyleft-next-0.3.0.txt
 [copyleft-next-0.3.1]: text/copyleft-next-0.3.1.txt
