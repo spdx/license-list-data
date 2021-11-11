@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 1fb9b63
+The following licenses have been generated from the license list version 76d5dc0
 
 ## Licenses with Short Idenifiers
 
@@ -146,6 +146,7 @@ The following licenses have been generated from the license list version 1fb9b63
 | CNRI Jython License                                                           | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                           | [CNRI-Python][]                          | Y    |           |
 | CNRI Python Open Source GPL Compatible License Agreement                      | [CNRI-Python-GPL-Compatible][]           |      |           |
+| Copyfree Open Innovation License                                              | [COIL-1.0][]                             |      |           |
 | Community Specification License 1.0                                           | [Community-Spec-1.0][]                   |      |           |
 | Condor Public License v1.1                                                    | [Condor-1.1][]                           |      | Y         |
 | copyleft-next 0.3.0                                                           | [copyleft-next-0.3.0][]                  |      |           |
@@ -182,6 +183,7 @@ The following licenses have been generated from the license list version 1fb9b63
 | European Union Public License 1.2                                             | [EUPL-1.2][]                             | Y    | Y         |
 | Eurosym License                                                               | [Eurosym][]                              |      |           |
 | Fair License                                                                  | [Fair][]                                 | Y    |           |
+| Fraunhofer FDK AAC Codec Library                                              | [FDK-AAC][]                              |      |           |
 | Frameworx Open License 1.0                                                    | [Frameworx-1.0][]                        | Y    |           |
 | FreeBSD Documentation License                                                 | [FreeBSD-DOC][]                          |      |           |
 | FreeImage Public License v1.0                                                 | [FreeImage][]                            |      |           |
@@ -677,6 +679,7 @@ The following licenses have been generated from the license list version 1fb9b63
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
 [CNRI-Python-GPL-Compatible]: text/CNRI-Python-GPL-Compatible.txt
+[COIL-1.0]: text/COIL-1.0.txt
 [Community-Spec-1.0]: text/Community-Spec-1.0.txt
 [Condor-1.1]: text/Condor-1.1.txt
 [copyleft-next-0.3.0]: text/copyleft-next-0.3.0.txt
@@ -714,6 +717,7 @@ The following licenses have been generated from the license list version 1fb9b63
 [EUPL-1.2]: text/EUPL-1.2.txt
 [Eurosym]: text/Eurosym.txt
 [Fair]: text/Fair.txt
+[FDK-AAC]: text/FDK-AAC.txt
 [Frameworx-1.0]: text/Frameworx-1.0.txt
 [FreeBSD-DOC]: text/FreeBSD-DOC.txt
 [FreeImage]: text/FreeImage.txt
