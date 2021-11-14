@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-11-14T17:14:01Z",
-    "url" : "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
+    "order" : "1",
+    "timestamp" : "2021-11-14T17:29:05Z",
+    "url" : "https://opensource.org/licenses/OFL-1.1"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "1",
-    "timestamp" : "2021-11-14T17:14:03Z",
-    "url" : "https://opensource.org/licenses/OFL-1.1"
+    "order" : "0",
+    "timestamp" : "2021-11-14T17:29:04Z",
+    "url" : "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web"
   }, {
     "@id" : "http://spdx.org/licenses/OFL-1.1-RFN",
     "@type" : "spdx:ListedLicense",
@@ -65,6 +65,10 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -77,10 +81,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
