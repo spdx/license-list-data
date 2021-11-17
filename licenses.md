@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.15
+The following licenses have been generated from the license list version 344edcf
 
 ## Licenses with Short Idenifiers
 
@@ -389,6 +389,7 @@ The following licenses have been generated from the license list version 3.15
 | Sax Public Domain Notice                                                      | [SAX-PD][]                               |      |           |
 | Saxpath License                                                               | [Saxpath][]                              |      |           |
 | SCEA Shared Source License                                                    | [SCEA][]                                 |      |           |
+| Scheme Language Report License                                                | [SchemeReport][]                         |      |           |
 | Sendmail License                                                              | [Sendmail][]                             |      |           |
 | Sendmail License 8.23                                                         | [Sendmail-8.23][]                        |      |           |
 | SGI Free Software License B v1.0                                              | [SGI-B-1.0][]                            |      |           |
@@ -946,6 +947,7 @@ The following licenses have been generated from the license list version 3.15
 [SAX-PD]: text/SAX-PD.txt
 [Saxpath]: text/Saxpath.txt
 [SCEA]: text/SCEA.txt
+[SchemeReport]: text/SchemeReport.txt
 [Sendmail]: text/Sendmail.txt
 [Sendmail-8.23]: text/Sendmail-8.23.txt
 [SGI-B-1.0]: text/SGI-B-1.0.txt
