@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-11-19T15:02:39Z",
+    "timestamp" : "2021-12-28T16:20:23Z",
     "url" : "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "2",
-    "timestamp" : "2021-11-19T15:02:41Z",
+    "timestamp" : "2021-12-28T16:20:24Z",
     "url" : "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT"
   }, {
     "@id" : "_:b2",
@@ -27,12 +27,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2021-11-19T15:02:39Z",
+    "timestamp" : "2021-12-28T16:20:23Z",
     "url" : "http://freetype.fis.uniroma2.it/FTL.TXT"
   }, {
     "@id" : "http://spdx.org/licenses/FTL",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
+    "crossRef" : [ "_:b1", "_:b0", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : false,
@@ -70,10 +70,6 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -82,6 +78,10 @@
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"

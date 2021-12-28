@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f9911cd
+The following licenses have been generated from the license list version d40e47b
 
 ## Licenses with Short Idenifiers
 
@@ -161,6 +161,7 @@ The following licenses have been generated from the license list version f9911cd
 | curl License                                                                  | [curl][]                                 |      |           |
 | Deutsche Freie Software Lizenz                                                | [D-FSL-1.0][]                            |      |           |
 | diffmark license                                                              | [diffmark][]                             |      |           |
+| Data licence Germany – attribution – version 2.0                              | [DL-DE-BY-2.0][]                         |      |           |
 | DOC License                                                                   | [DOC][]                                  |      |           |
 | Dotseqn License                                                               | [Dotseqn][]                              |      |           |
 | Detection Rule License 1.0                                                    | [DRL-1.0][]                              |      |           |
@@ -695,6 +696,7 @@ The following licenses have been generated from the license list version f9911cd
 [curl]: text/curl.txt
 [D-FSL-1.0]: text/D-FSL-1.0.txt
 [diffmark]: text/diffmark.txt
+[DL-DE-BY-2.0]: text/DL-DE-BY-2.0.txt
 [DOC]: text/DOC.txt
 [Dotseqn]: text/Dotseqn.txt
 [DRL-1.0]: text/DRL-1.0.txt
