@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-12-30T04:38:31Z",
+    "timestamp" : "2021-12-30T15:37:06Z",
     "url" : "https://opensource.org/licenses/W3C"
   }, {
     "@id" : "_:b1",
@@ -17,12 +17,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-12-30T04:38:30Z",
+    "timestamp" : "2021-12-30T15:37:05Z",
     "url" : "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html"
   }, {
     "@id" : "http://spdx.org/licenses/W3C",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -83,16 +83,16 @@
     "standardLicenseHeaderTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseHeaderHtml" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderHtml"

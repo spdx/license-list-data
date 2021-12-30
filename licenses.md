@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 075bf0c
+The following licenses have been generated from the license list version fc2944e
 
 ## Licenses with Short Idenifiers
 
@@ -32,6 +32,7 @@ The following licenses have been generated from the license list version 075bf0c
 | Apache License 2.0                                                            | [Apache-2.0][]                           | Y    | Y         |
 | Adobe Postscript AFM License                                                  | [APAFML][]                               |      |           |
 | Adaptive Public License 1.0                                                   | [APL-1.0][]                              | Y    |           |
+| App::s2p License                                                              | [App-s2p][]                              |      |           |
 | Apple Public Source License 1.0                                               | [APSL-1.0][]                             | Y    |           |
 | Apple Public Source License 1.1                                               | [APSL-1.1][]                             | Y    |           |
 | Apple Public Source License 1.2                                               | [APSL-1.2][]                             | Y    |           |
@@ -565,6 +566,7 @@ The following licenses have been generated from the license list version 075bf0c
 [Apache-2.0]: text/Apache-2.0.txt
 [APAFML]: text/APAFML.txt
 [APL-1.0]: text/APL-1.0.txt
+[App-s2p]: text/App-s2p.txt
 [APSL-1.0]: text/APSL-1.0.txt
 [APSL-1.1]: text/APSL-1.1.txt
 [APSL-1.2]: text/APSL-1.2.txt

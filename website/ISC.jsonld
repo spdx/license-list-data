@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2021-12-30T04:39:09Z",
+    "timestamp" : "2021-12-30T15:37:44Z",
     "url" : "https://www.isc.org/downloads/software-support-policy/isc-license/"
   }, {
     "@id" : "_:b1",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2021-12-30T04:39:09Z",
-    "url" : "https://opensource.org/licenses/ISC"
+    "order" : "0",
+    "timestamp" : "2021-12-30T15:37:44Z",
+    "url" : "https://www.isc.org/licenses/"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -26,9 +26,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-12-30T04:39:09Z",
-    "url" : "https://www.isc.org/licenses/"
+    "order" : "2",
+    "timestamp" : "2021-12-30T15:37:45Z",
+    "url" : "https://opensource.org/licenses/ISC"
   }, {
     "@id" : "http://spdx.org/licenses/ISC",
     "@type" : "spdx:ListedLicense",
@@ -45,6 +45,43 @@
     "seeAlso" : [ "https://www.isc.org/licenses/", "https://www.isc.org/downloads/software-support-policy/isc-license/", "https://opensource.org/licenses/ISC" ]
   } ],
   "@context" : {
+    "isFsfLibre" : {
+      "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
     },
@@ -69,43 +106,6 @@
     "isLive" : {
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isFsfLibre" : {
-      "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

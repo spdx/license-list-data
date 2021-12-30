@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2021-12-30T04:32:22Z",
+    "timestamp" : "2021-12-30T15:31:24Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/Gnuplot"
   }, {
     "@id" : "http://spdx.org/licenses/gnuplot",
@@ -24,6 +24,10 @@
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Gnuplot"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
@@ -33,10 +37,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
