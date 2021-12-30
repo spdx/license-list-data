@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-12-28T16:12:25Z",
-    "url" : "https://forge.gouv.qc.ca/licence/fr/liliq-v1-1/"
+    "order" : "1",
+    "timestamp" : "2021-12-30T04:31:06Z",
+    "url" : "http://opensource.org/licenses/LiLiQ-P-1.1"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,13 +16,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-12-28T16:12:25Z",
-    "url" : "http://opensource.org/licenses/LiLiQ-P-1.1"
+    "order" : "0",
+    "timestamp" : "2021-12-30T04:31:06Z",
+    "url" : "https://forge.gouv.qc.ca/licence/fr/liliq-v1-1/"
   }, {
     "@id" : "http://spdx.org/licenses/LiLiQ-P-1.1",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseId" : "LiLiQ-P-1.1",
@@ -76,15 +76,15 @@
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
