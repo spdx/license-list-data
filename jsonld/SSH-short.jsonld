@@ -2,13 +2,13 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
+    "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "1",
-    "timestamp" : "2021-12-30T15:38:04Z",
-    "url" : "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1"
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2022-01-08T20:54:31Z",
+    "url" : "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -17,22 +17,22 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "2",
-    "timestamp" : "2021-12-30T15:38:04Z",
+    "timestamp" : "2022-01-08T20:54:36Z",
     "url" : "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
+    "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2021-12-30T15:38:03Z",
-    "url" : "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h"
+    "match" : "N/A",
+    "order" : "1",
+    "timestamp" : "2022-01-08T20:54:31Z",
+    "url" : "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1"
   }, {
     "@id" : "http://spdx.org/licenses/SSH-short",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
+    "crossRef" : [ "_:b2", "_:b1", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "SSH-short",
@@ -82,15 +82,15 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"

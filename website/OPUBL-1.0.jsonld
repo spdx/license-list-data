@@ -6,33 +6,33 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2021-12-30T15:29:57Z",
-    "url" : "https://www.ctan.org/license/opl"
+    "order" : "1",
+    "timestamp" : "2022-01-08T20:46:31Z",
+    "url" : "https://www.debian.org/opl"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2021-12-30T15:29:55Z",
-    "url" : "http://opencontent.org/openpub/"
+    "match" : "false",
+    "order" : "2",
+    "timestamp" : "2022-01-08T20:46:34Z",
+    "url" : "https://www.ctan.org/license/opl"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2021-12-30T15:29:55Z",
-    "url" : "https://www.debian.org/opl"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2022-01-08T20:46:30Z",
+    "url" : "http://opencontent.org/openpub/"
   }, {
     "@id" : "http://spdx.org/licenses/OPUBL-1.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "OPUBL-1.0",
@@ -79,12 +79,12 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
