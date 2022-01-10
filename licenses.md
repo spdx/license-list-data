@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8c2e1e9
+The following licenses have been generated from the license list version 4a53770
 
 ## Licenses with Short Idenifiers
 
@@ -173,6 +173,7 @@ The following licenses have been generated from the license list version 8c2e1e9
 | Eiffel Forum License v1.0                                                     | [EFL-1.0][]                              | Y    |           |
 | Eiffel Forum License v2.0                                                     | [EFL-2.0][]                              | Y    | Y         |
 | eGenix.com Public License 1.1.0                                               | [eGenix][]                               |      |           |
+| Elastic License 2.0                                                           | [Elastic-2.0][]                          |      |           |
 | Entessa Public License v1.0                                                   | [Entessa][]                              | Y    |           |
 | EPICS Open License                                                            | [EPICS][]                                |      |           |
 | Eclipse Public License 1.0                                                    | [EPL-1.0][]                              | Y    | Y         |
@@ -710,6 +711,7 @@ The following licenses have been generated from the license list version 8c2e1e9
 [EFL-1.0]: text/EFL-1.0.txt
 [EFL-2.0]: text/EFL-2.0.txt
 [eGenix]: text/eGenix.txt
+[Elastic-2.0]: text/Elastic-2.0.txt
 [Entessa]: text/Entessa.txt
 [EPICS]: text/EPICS.txt
 [EPL-1.0]: text/EPL-1.0.txt
