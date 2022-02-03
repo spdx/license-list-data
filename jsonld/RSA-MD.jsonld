@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-02-03T15:18:24Z",
+    "timestamp" : "2022-02-03T16:37:32Z",
     "url" : "http://www.faqs.org/rfcs/rfc1321.html"
   }, {
     "@id" : "http://spdx.org/licenses/RSA-MD",
@@ -23,6 +23,10 @@
     "seeAlso" : "http://www.faqs.org/rfcs/rfc1321.html"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -32,10 +36,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"

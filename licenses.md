@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version c144f39
+The following licenses have been generated from the license list version e83f77a
 
 ## Licenses with Short Idenifiers
 
@@ -244,6 +244,7 @@ The following licenses have been generated from the license list version c144f39
 | IPA Font License                                                              | [IPA][]                                  | Y    | Y         |
 | IBM Public License v1.0                                                       | [IPL-1.0][]                              | Y    | Y         |
 | ISC License                                                                   | [ISC][]                                  | Y    | Y         |
+| Jam License                                                                   | [Jam][]                                  |      |           |
 | JasPer License                                                                | [JasPer-2.0][]                           |      |           |
 | Japan Network Information Center License                                      | [JPNIC][]                                |      |           |
 | JSON License                                                                  | [JSON][]                                 |      |           |
@@ -798,6 +799,7 @@ The following licenses have been generated from the license list version c144f39
 [IPA]: text/IPA.txt
 [IPL-1.0]: text/IPL-1.0.txt
 [ISC]: text/ISC.txt
+[Jam]: text/Jam.txt
 [JasPer-2.0]: text/JasPer-2.0.txt
 [JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
