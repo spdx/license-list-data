@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-01-10T15:36:23Z",
-    "url" : "http://www.perlfoundation.org/artistic_license_2_0"
+    "order" : "2",
+    "timestamp" : "2022-02-03T15:19:58Z",
+    "url" : "https://opensource.org/licenses/artistic-license-2.0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-01-10T15:36:25Z",
+    "timestamp" : "2022-02-03T15:19:56Z",
     "url" : "https://www.perlfoundation.org/artistic-license-20.html"
   }, {
     "@id" : "_:b2",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2022-01-10T15:36:26Z",
-    "url" : "https://opensource.org/licenses/artistic-license-2.0"
+    "order" : "0",
+    "timestamp" : "2022-02-03T15:19:51Z",
+    "url" : "http://www.perlfoundation.org/artistic_license_2_0"
   }, {
     "@id" : "http://spdx.org/licenses/Artistic-2.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b2", "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b2", "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -70,10 +70,6 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -90,6 +86,10 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
