@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-01-10T15:42:03Z",
+    "timestamp" : "2022-02-03T15:23:57Z",
     "url" : "http://www.opensource.apple.com/source/tcl/tcl-5/tcl/generic/regfronts.c"
   }, {
     "@id" : "http://spdx.org/licenses/Spencer-99",
@@ -23,6 +23,10 @@
     "seeAlso" : "http://www.opensource.apple.com/source/tcl/tcl-5/tcl/generic/regfronts.c"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -45,10 +49,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
