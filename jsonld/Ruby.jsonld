@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-02-03T16:40:07Z",
+    "timestamp" : "2022-02-06T19:57:02Z",
     "url" : "http://www.ruby-lang.org/en/LICENSE.txt"
   }, {
     "@id" : "http://spdx.org/licenses/Ruby",
@@ -25,6 +25,10 @@
     "seeAlso" : "http://www.ruby-lang.org/en/LICENSE.txt"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -54,10 +58,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
