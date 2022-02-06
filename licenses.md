@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 077af2e
+The following licenses have been generated from the license list version d005eab
 
 ## Licenses with Short Idenifiers
 
@@ -441,6 +441,7 @@ The following licenses have been generated from the license list version 077af2e
 | Wsuipa License                                                                | [Wsuipa][]                               |      |           |
 | Do What The F*ck You Want To Public License                                   | [WTFPL][]                                |      | Y         |
 | X11 License                                                                   | [X11][]                                  |      | Y         |
+| X11 License Distribution Modification Variant                                 | [X11-distribute-modifications-variant][] |      |           |
 | Xerox License                                                                 | [Xerox][]                                |      |           |
 | XFree86 License 1.1                                                           | [XFree86-1.1][]                          |      | Y         |
 | xinetd License                                                                | [xinetd][]                               |      | Y         |
@@ -1005,6 +1006,7 @@ The following licenses have been generated from the license list version 077af2e
 [WTFPL]: text/WTFPL.txt
 [wxWindows]: text/wxWindows.txt
 [X11]: text/X11.txt
+[X11-distribute-modifications-variant]: text/X11-distribute-modifications-variant.txt
 [Xerox]: text/Xerox.txt
 [XFree86-1.1]: text/XFree86-1.1.txt
 [xinetd]: text/xinetd.txt
