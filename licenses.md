@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d005eab
+The following licenses have been generated from the license list version a424b81
 
 ## Licenses with Short Idenifiers
 
@@ -70,7 +70,6 @@ The following licenses have been generated from the license list version d005eab
 | BSD Source Code Attribution                                                   | [BSD-Source-Code][]                      |      |           |
 | Boost Software License 1.0                                                    | [BSL-1.0][]                              | Y    | Y         |
 | Business Source License 1.1                                                   | [BUSL-1.1][]                             |      |           |
-| bzip2 and libbzip2 License v1.0.5                                             | [bzip2-1.0.5][]                          |      |           |
 | bzip2 and libbzip2 License v1.0.6                                             | [bzip2-1.0.6][]                          |      |           |
 | Computational Use of Data Agreement v1.0                                      | [C-UDA-1.0][]                            |      |           |
 | Cryptographic Autonomy License 1.0                                            | [CAL-1.0][]                              | Y    |           |
@@ -513,6 +512,7 @@ The following licenses have been generated from the license list version d005eab
 | GNU Affero General Public License v3.0                                        | [AGPL-3.0][]                             
 | BSD 2-Clause FreeBSD License                                                  | [BSD-2-Clause-FreeBSD][]                 
 | BSD 2-Clause NetBSD License                                                   | [BSD-2-Clause-NetBSD][]                  
+| bzip2 and libbzip2 License v1.0.5                                             | [bzip2-1.0.5][]                          
 | eCos license version 2.0                                                      | [eCos-2.0][]                             
 | GNU Free Documentation License v1.1                                           | [GFDL-1.1][]                             
 | GNU Free Documentation License v1.2                                           | [GFDL-1.2][]                             
