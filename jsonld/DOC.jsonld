@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-02-06T21:18:35Z",
-    "url" : "http://www.cs.wustl.edu/~schmidt/ACE-copying.html"
+    "order" : "1",
+    "timestamp" : "2022-02-06T21:57:14Z",
+    "url" : "https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,13 +16,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-02-06T21:18:35Z",
-    "url" : "https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html"
+    "order" : "0",
+    "timestamp" : "2022-02-06T21:57:14Z",
+    "url" : "http://www.cs.wustl.edu/~schmidt/ACE-copying.html"
   }, {
     "@id" : "http://spdx.org/licenses/DOC",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "DOC",
@@ -68,16 +68,16 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
