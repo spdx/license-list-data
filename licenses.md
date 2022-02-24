@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.16
+The following licenses have been generated from the license list version 978a356
 
 ## Licenses with Short Idenifiers
 
@@ -37,6 +37,7 @@ The following licenses have been generated from the license list version 3.16
 | Apple Public Source License 1.1                                               | [APSL-1.1][]                             | Y    |           |
 | Apple Public Source License 1.2                                               | [APSL-1.2][]                             | Y    |           |
 | Apple Public Source License 2.0                                               | [APSL-2.0][]                             | Y    | Y         |
+| Arphic Public License                                                         | [Arphic-1999][]                          |      |           |
 | Artistic License 1.0                                                          | [Artistic-1.0][]                         | Y    |           |
 | Artistic License 1.0 w/clause 8                                               | [Artistic-1.0-cl8][]                     | Y    |           |
 | Artistic License 1.0 (Perl)                                                   | [Artistic-1.0-Perl][]                    | Y    |           |
@@ -574,6 +575,7 @@ The following licenses have been generated from the license list version 3.16
 [APSL-1.1]: text/APSL-1.1.txt
 [APSL-1.2]: text/APSL-1.2.txt
 [APSL-2.0]: text/APSL-2.0.txt
+[Arphic-1999]: text/Arphic-1999.txt
 [Artistic-1.0]: text/Artistic-1.0.txt
 [Artistic-1.0-cl8]: text/Artistic-1.0-cl8.txt
 [Artistic-1.0-Perl]: text/Artistic-1.0-Perl.txt
