@@ -7,32 +7,32 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "2",
-    "timestamp" : "2022-03-10T03:07:58Z",
+    "timestamp" : "2022-03-10T15:35:08Z",
     "url" : "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT"
   }, {
     "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2022-03-10T03:07:56Z",
-    "url" : "http://freetype.fis.uniroma2.it/FTL.TXT"
-  }, {
-    "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-03-10T03:07:57Z",
+    "timestamp" : "2022-03-10T15:35:06Z",
     "url" : "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT"
+  }, {
+    "@id" : "_:b2",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : false,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "N/A",
+    "order" : "0",
+    "timestamp" : "2022-03-10T15:35:06Z",
+    "url" : "http://freetype.fis.uniroma2.it/FTL.TXT"
   }, {
     "@id" : "http://spdx.org/licenses/FTL",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
+    "crossRef" : [ "_:b1", "_:b0", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : false,
@@ -73,10 +73,6 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
@@ -85,6 +81,10 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"

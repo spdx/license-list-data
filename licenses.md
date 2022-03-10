@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 9e2591d
+The following licenses have been generated from the license list version 7f0efb7
 
 ## Licenses with Short Idenifiers
 
@@ -42,6 +42,7 @@ The following licenses have been generated from the license list version 9e2591d
 | Artistic License 1.0 w/clause 8                                               | [Artistic-1.0-cl8][]                     | Y    |           |
 | Artistic License 1.0 (Perl)                                                   | [Artistic-1.0-Perl][]                    | Y    |           |
 | Artistic License 2.0                                                          | [Artistic-2.0][]                         | Y    | Y         |
+| Baekmuk License                                                               | [Baekmuk][]                              |      |           |
 | Bahyph License                                                                | [Bahyph][]                               |      |           |
 | Barr License                                                                  | [Barr][]                                 |      |           |
 | Beerware License                                                              | [Beerware][]                             |      |           |
@@ -580,6 +581,7 @@ The following licenses have been generated from the license list version 9e2591d
 [Artistic-1.0-cl8]: text/Artistic-1.0-cl8.txt
 [Artistic-1.0-Perl]: text/Artistic-1.0-Perl.txt
 [Artistic-2.0]: text/Artistic-2.0.txt
+[Baekmuk]: text/Baekmuk.txt
 [Bahyph]: text/Bahyph.txt
 [Barr]: text/Barr.txt
 [Beerware]: text/Beerware.txt
