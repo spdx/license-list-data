@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 7f0efb7
+The following licenses have been generated from the license list version e69f2e4
 
 ## Licenses with Short Idenifiers
 
@@ -245,7 +245,7 @@ The following licenses have been generated from the license list version 7f0efb7
 | IPA Font License                                                              | [IPA][]                                  | Y    | Y         |
 | IBM Public License v1.0                                                       | [IPL-1.0][]                              | Y    | Y         |
 | ISC License                                                                   | [ISC][]                                  | Y    | Y         |
-| Jam License                                                                   | [Jam][]                                  |      |           |
+| Jam License                                                                   | [Jam][]                                  | Y    |           |
 | JasPer License                                                                | [JasPer-2.0][]                           |      |           |
 | Japan Network Information Center License                                      | [JPNIC][]                                |      |           |
 | JSON License                                                                  | [JSON][]                                 |      |           |
@@ -293,6 +293,7 @@ The following licenses have been generated from the license list version 7f0efb7
 | Mozilla Public License 1.1                                                    | [MPL-1.1][]                              | Y    | Y         |
 | Mozilla Public License 2.0                                                    | [MPL-2.0][]                              | Y    | Y         |
 | Mozilla Public License 2.0 (no copyleft exception)                            | [MPL-2.0-no-copyleft-exception][]        | Y    |           |
+| mplus Font License                                                            | [mplus][]                                |      |           |
 | Microsoft Public License                                                      | [MS-PL][]                                | Y    | Y         |
 | Microsoft Reciprocal License                                                  | [MS-RL][]                                | Y    | Y         |
 | Matrix Template Library License                                               | [MTLL][]                                 |      |           |
@@ -858,6 +859,7 @@ The following licenses have been generated from the license list version 7f0efb7
 [MPL-1.1]: text/MPL-1.1.txt
 [MPL-2.0]: text/MPL-2.0.txt
 [MPL-2.0-no-copyleft-exception]: text/MPL-2.0-no-copyleft-exception.txt
+[mplus]: text/mplus.txt
 [MS-PL]: text/MS-PL.txt
 [MS-RL]: text/MS-RL.txt
 [MTLL]: text/MTLL.txt

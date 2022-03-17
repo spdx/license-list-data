@@ -1,0 +1,29 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/mplus>
+        a                               spdx:ListedLicense ;
+        rdfs:comment                    "" ;
+        rdfs:seeAlso                    "https://fedoraproject.org/wiki/Licensing:Mplus?rd=Licensing/mplus" ;
+        spdx:crossRef                   [ a                   spdx:CrossRef ;
+                                          spdx:isLive         true ;
+                                          spdx:isValid        true ;
+                                          spdx:isWayBackLink  false ;
+                                          spdx:match          "true" ;
+                                          spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                          spdx:timestamp      "2022-03-17T17:25:09Z" ;
+                                          spdx:url            "https://fedoraproject.org/wiki/Licensing:Mplus?rd=Licensing/mplus"
+                                        ] ;
+        spdx:isDeprecatedLicenseId      false ;
+        spdx:isOsiApproved              false ;
+        spdx:licenseId                  "mplus" ;
+        spdx:licenseText                "\nThese fonts are free softwares. Unlimited permission is\ngranted to use, copy, and distribute it, with or without\nmodification, either commercially and noncommercially.\nTHESE FONTS ARE PROVIDED \"AS IS\" WITHOUT WARRANTY.\n     \n" ;
+        spdx:licenseTextHtml            "\n         <p>\n            These fonts are free softwares. Unlimited permission is\n            granted to use, copy, and distribute it, with or without\n            modification, either commercially and noncommercially.\n            THESE FONTS ARE PROVIDED &quot;AS IS&quot; WITHOUT WARRANTY.\n         </p>\n\n      " ;
+        spdx:name                       "mplus Font License" ;
+        spdx:standardLicenseHeader      "none" ;
+        spdx:standardLicenseHeaderHtml  "\n         none\n      " ;
+        spdx:standardLicenseHeaderTemplate
+                "none" ;
+        spdx:standardLicenseTemplate    "These fonts are free softwares. Unlimited permission is granted to use, copy, and distribute it, with or without modification, either commercially and noncommercially. THESE FONTS ARE PROVIDED \"AS IS\" WITHOUT WARRANTY.\n\n" .
