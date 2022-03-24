@@ -5,20 +5,20 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-03-17T17:21:01Z",
-    "url" : "https://romanrm.net/mit-zero"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2022-03-24T13:38:17Z",
+    "url" : "https://github.com/aws/mit-0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-03-17T17:21:01Z",
-    "url" : "https://github.com/aws/mit-0"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2022-03-24T13:38:17Z",
+    "url" : "https://romanrm.net/mit-zero"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -27,7 +27,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "2",
-    "timestamp" : "2022-03-17T17:21:02Z",
+    "timestamp" : "2022-03-24T13:38:18Z",
     "url" : "https://github.com/awsdocs/aws-cloud9-user-guide/blob/master/LICENSE-SAMPLECODE"
   }, {
     "@id" : "http://spdx.org/licenses/MIT-0",
@@ -69,6 +69,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
@@ -77,10 +81,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"

@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-03-17T17:26:19Z",
+    "timestamp" : "2022-03-24T13:43:02Z",
     "url" : "https://opensource.org/licenses/NCSA"
   }, {
     "@id" : "_:b1",
@@ -17,12 +17,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-03-17T17:26:18Z",
+    "timestamp" : "2022-03-24T13:43:01Z",
     "url" : "http://otm.illinois.edu/uiuc_openSource"
   }, {
     "@id" : "http://spdx.org/licenses/NCSA",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -73,10 +73,6 @@
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
@@ -92,6 +88,10 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

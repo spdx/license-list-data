@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e69f2e4
+The following licenses have been generated from the license list version a317da0
 
 ## Licenses with Short Idenifiers
 
@@ -249,6 +249,7 @@ The following licenses have been generated from the license list version e69f2e4
 | JasPer License                                                                | [JasPer-2.0][]                           |      |           |
 | Japan Network Information Center License                                      | [JPNIC][]                                |      |           |
 | JSON License                                                                  | [JSON][]                                 |      |           |
+| KiCad Libraries Exception                                                     | [KiCad-libraries-exception][]            |      |           |
 | Licence Art Libre 1.2                                                         | [LAL-1.2][]                              |      |           |
 | Licence Art Libre 1.3                                                         | [LAL-1.3][]                              |      |           |
 | Latex2e License                                                               | [Latex2e][]                              |      |           |
@@ -809,6 +810,7 @@ The following licenses have been generated from the license list version e69f2e4
 [JasPer-2.0]: text/JasPer-2.0.txt
 [JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
+[KiCad-libraries-exception]: text/KiCad-libraries-exception.txt
 [LAL-1.2]: text/LAL-1.2.txt
 [LAL-1.3]: text/LAL-1.3.txt
 [Latex2e]: text/Latex2e.txt
