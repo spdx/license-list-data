@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/KiCad-libraries-exception>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://www.kicad.org/libraries/license/" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "true" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2022-03-24T13:38:02Z" ;
+                                        spdx:url            "https://www.kicad.org/libraries/license/"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "KiCad-libraries-exception" ;
+        spdx:licenseText              "To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided as part of the 'Licensed Material'.\n" ;
+        spdx:licenseTextHtml          "\n      <p>To the extent that the creation of electronic designs that use &apos;Licensed Material&apos; can be considered to be &apos;Adapted Material&apos;, then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided as part of the &apos;Licensed Material&apos;.</p>\n\n    " ;
+        spdx:name                     "KiCad Libraries Exception" ;
+        spdx:standardLicenseTemplate  "To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided as part of the 'Licensed Material'.\n\n" .
