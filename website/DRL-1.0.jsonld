@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-03-24T14:45:26Z",
+    "timestamp" : "2022-03-24T16:51:33Z",
     "url" : "https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md"
   }, {
     "@id" : "http://spdx.org/licenses/DRL-1.0",
@@ -23,6 +23,10 @@
     "seeAlso" : "https://github.com/Neo23x0/sigma/blob/master/LICENSE.Detection.Rules.md"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -31,10 +35,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
