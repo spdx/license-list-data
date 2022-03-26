@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-03-24T16:51:18Z",
+    "timestamp" : "2022-03-26T20:46:07Z",
     "url" : "https://www.freebsd.org/copyright/freebsd-doc-license/"
   }, {
     "@id" : "http://spdx.org/licenses/FreeBSD-DOC",
@@ -23,6 +23,10 @@
     "seeAlso" : "https://www.freebsd.org/copyright/freebsd-doc-license/"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -41,10 +45,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
