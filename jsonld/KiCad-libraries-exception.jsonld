@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-03-24T16:49:35Z",
+    "timestamp" : "2022-03-26T20:44:23Z",
     "url" : "https://www.kicad.org/libraries/license/"
   }, {
     "@id" : "http://spdx.org/licenses/KiCad-libraries-exception",
@@ -20,13 +20,10 @@
     "licenseTextHtml" : "\n      <p>To the extent that the creation of electronic designs that use &apos;Licensed Material&apos; can be considered to be &apos;Adapted Material&apos;, then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided as part of the &apos;Licensed Material&apos;.</p>\n\n    ",
     "name" : "KiCad Libraries Exception",
     "standardLicenseTemplate" : "To the extent that the creation of electronic designs that use 'Licensed Material' can be considered to be 'Adapted Material', then the copyright holder waives article 3 of the license with respect to these designs and any generated files which use data provided as part of the 'Licensed Material'.\n\n",
+    "comment" : "Typically used with CC-BY-SA-4.0",
     "seeAlso" : "https://www.kicad.org/libraries/license/"
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -34,9 +31,16 @@
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
