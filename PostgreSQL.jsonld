@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-04-26T04:11:19Z",
-    "url" : "http://www.postgresql.org/about/licence"
+    "order" : "1",
+    "timestamp" : "2022-04-28T15:26:07Z",
+    "url" : "https://opensource.org/licenses/PostgreSQL"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-04-26T04:11:20Z",
-    "url" : "https://opensource.org/licenses/PostgreSQL"
+    "order" : "0",
+    "timestamp" : "2022-04-28T15:26:06Z",
+    "url" : "http://www.postgresql.org/about/licence"
   }, {
     "@id" : "http://spdx.org/licenses/PostgreSQL",
     "@type" : "spdx:ListedLicense",
@@ -58,6 +58,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -77,10 +81,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
