@@ -5,20 +5,20 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-04-28T15:25:08Z",
-    "url" : "https://www.gnu.org/licenses/agpl.txt"
+    "match" : "true",
+    "order" : "1",
+    "timestamp" : "2022-04-28T21:35:22Z",
+    "url" : "https://opensource.org/licenses/AGPL-3.0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2022-04-28T15:25:13Z",
-    "url" : "https://opensource.org/licenses/AGPL-3.0"
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2022-04-28T21:35:21Z",
+    "url" : "https://www.gnu.org/licenses/agpl.txt"
   }, {
     "@id" : "http://spdx.org/licenses/AGPL-3.0",
     "@type" : "spdx:ListedLicense",
@@ -38,28 +38,28 @@
     "seeAlso" : [ "https://opensource.org/licenses/AGPL-3.0", "https://www.gnu.org/licenses/agpl.txt" ]
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "deprecatedVersion" : {
       "@id" : "http://spdx.org/rdf/terms#deprecatedVersion"
     },
     "standardLicenseHeader" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
     },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
     "standardLicenseHeaderHtml" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderHtml"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"

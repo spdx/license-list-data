@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-04-28T15:23:52Z",
+    "timestamp" : "2022-04-28T21:33:39Z",
     "url" : "https://opensource.org/licenses/MIT"
   }, {
     "@id" : "http://spdx.org/licenses/MIT",
@@ -24,6 +24,10 @@
     "seeAlso" : "https://opensource.org/licenses/MIT"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
@@ -47,10 +51,6 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
