@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "2",
-    "timestamp" : "2022-04-28T15:21:39Z",
+    "timestamp" : "2022-04-28T21:30:45Z",
     "url" : "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-04-28T15:21:38Z",
+    "timestamp" : "2022-04-28T21:30:44Z",
     "url" : "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants"
   }, {
     "@id" : "_:b2",
@@ -27,12 +27,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-04-28T15:21:39Z",
+    "timestamp" : "2022-04-28T21:30:45Z",
     "url" : "https://ptolemy.berkeley.edu/copyright.htm"
   }, {
     "@id" : "http://spdx.org/licenses/MIT-Modern-Variant",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b2", "_:b1" ],
+    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseId" : "MIT-Modern-Variant",
@@ -44,35 +44,6 @@
     "seeAlso" : [ "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants", "https://ptolemy.berkeley.edu/copyright.htm", "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html" ]
   } ],
   "@context" : {
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -99,8 +70,37 @@
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

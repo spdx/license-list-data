@@ -2,12 +2,12 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
+    "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "N/A",
+    "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-04-28T15:15:51Z",
+    "timestamp" : "2022-04-28T21:22:48Z",
     "url" : "https://coil.apotheon.org/plaintext/01.0.txt"
   }, {
     "@id" : "http://spdx.org/licenses/COIL-1.0",
@@ -23,6 +23,10 @@
     "seeAlso" : "https://coil.apotheon.org/plaintext/01.0.txt"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -41,10 +45,6 @@
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
