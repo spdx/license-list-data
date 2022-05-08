@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-05-08T22:44:50Z",
+    "timestamp" : "2022-05-08T23:33:24Z",
     "url" : "http://bits.netizen.com.au/licenses/NOSL/nosl.txt"
   }, {
     "@id" : "http://spdx.org/licenses/NOSL",
@@ -25,9 +25,8 @@
     "seeAlso" : "http://bits.netizen.com.au/licenses/NOSL/nosl.txt"
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
@@ -59,8 +58,9 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"

@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-05-08T22:52:17Z",
+    "timestamp" : "2022-05-08T23:39:18Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/Cube"
   }, {
     "@id" : "http://spdx.org/licenses/Cube",
@@ -23,6 +23,10 @@
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Cube"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -48,10 +52,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
