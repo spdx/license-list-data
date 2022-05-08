@@ -6,29 +6,29 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-05-08T22:13:39Z",
-    "url" : "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt"
+    "order" : "0",
+    "timestamp" : "2022-05-08T22:27:54Z",
+    "url" : "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "2",
-    "timestamp" : "2022-05-08T22:13:39Z",
-    "url" : "https://opensource.org/licenses/LGPL-3.0"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2022-05-08T22:27:54Z",
+    "url" : "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-05-08T22:13:38Z",
-    "url" : "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
+    "match" : "true",
+    "order" : "2",
+    "timestamp" : "2022-05-08T22:27:54Z",
+    "url" : "https://opensource.org/licenses/LGPL-3.0"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-3.0",
     "@type" : "spdx:ListedLicense",
@@ -46,10 +46,6 @@
     "seeAlso" : [ "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt", "https://www.gnu.org/licenses/lgpl-3.0-standalone.html", "https://opensource.org/licenses/LGPL-3.0" ]
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -62,6 +58,10 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"

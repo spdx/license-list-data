@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f164e12
+The following licenses have been generated from the license list version 3041e55
 
 ## Licenses with Short Idenifiers
 
@@ -46,6 +46,7 @@ The following licenses have been generated from the license list version f164e12
 | Bahyph License                                                                | [Bahyph][]                               |      |           |
 | Barr License                                                                  | [Barr][]                                 |      |           |
 | Beerware License                                                              | [Beerware][]                             |      |           |
+| Bitstream Vera Font License                                                   | [Bitstream-Vera][]                       |      |           |
 | BitTorrent Open Source License v1.0                                           | [BitTorrent-1.0][]                       |      |           |
 | BitTorrent Open Source License v1.1                                           | [BitTorrent-1.1][]                       |      | Y         |
 | SQLite Blessing                                                               | [blessing][]                             |      |           |
@@ -587,6 +588,7 @@ The following licenses have been generated from the license list version f164e12
 [Bahyph]: text/Bahyph.txt
 [Barr]: text/Barr.txt
 [Beerware]: text/Beerware.txt
+[Bitstream-Vera]: text/Bitstream-Vera.txt
 [BitTorrent-1.0]: text/BitTorrent-1.0.txt
 [BitTorrent-1.1]: text/BitTorrent-1.1.txt
 [blessing]: text/blessing.txt
