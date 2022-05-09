@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2022-05-08T23:33:07Z",
+    "timestamp" : "2022-05-08T23:56:35Z",
     "url" : "https://opensource.org/licenses/OGTSL"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-05-08T23:33:04Z",
+    "timestamp" : "2022-05-08T23:56:35Z",
     "url" : "http://www.opengroup.org/testing/downloads/The_Open_Group_TSL.txt"
   }, {
     "@id" : "http://spdx.org/licenses/OGTSL",
@@ -33,6 +33,10 @@
     "seeAlso" : [ "https://opensource.org/licenses/OGTSL", "http://www.opengroup.org/testing/downloads/The_Open_Group_TSL.txt" ]
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -54,10 +58,6 @@
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",

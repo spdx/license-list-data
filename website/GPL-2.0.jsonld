@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-05-08T23:42:40Z",
+    "timestamp" : "2022-05-09T00:09:01Z",
     "url" : "https://opensource.org/licenses/GPL-2.0"
   }, {
     "@id" : "_:b1",
@@ -17,12 +17,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-05-08T23:42:38Z",
+    "timestamp" : "2022-05-09T00:09:00Z",
     "url" : "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/GPL-2.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "deprecatedVersion" : "3.0",
     "spdx:isDeprecatedLicenseId" : true,
     "spdx:isFsfLibre" : true,
@@ -66,6 +66,10 @@
     "deprecatedVersion" : {
       "@id" : "http://spdx.org/rdf/terms#deprecatedVersion"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -101,10 +105,6 @@
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
