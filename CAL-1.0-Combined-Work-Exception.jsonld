@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-05-08T23:39:10Z",
-    "url" : "https://opensource.org/licenses/CAL-1.0"
+    "order" : "0",
+    "timestamp" : "2022-05-09T00:04:35Z",
+    "url" : "http://cryptographicautonomylicense.com/license-text.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,13 +16,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-05-08T23:39:06Z",
-    "url" : "http://cryptographicautonomylicense.com/license-text.html"
+    "order" : "1",
+    "timestamp" : "2022-05-09T00:04:35Z",
+    "url" : "https://opensource.org/licenses/CAL-1.0"
   }, {
     "@id" : "http://spdx.org/licenses/CAL-1.0-Combined-Work-Exception",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseId" : "CAL-1.0-Combined-Work-Exception",
@@ -59,6 +59,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -84,10 +88,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
