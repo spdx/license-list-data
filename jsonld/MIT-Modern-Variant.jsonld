@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-05-09T00:03:06Z",
-    "url" : "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants"
+    "order" : "1",
+    "timestamp" : "2022-05-10T17:48:10Z",
+    "url" : "https://ptolemy.berkeley.edu/copyright.htm"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2022-05-09T00:03:07Z",
-    "url" : "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html"
+    "order" : "0",
+    "timestamp" : "2022-05-10T17:48:09Z",
+    "url" : "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-05-09T00:03:07Z",
-    "url" : "https://ptolemy.berkeley.edu/copyright.htm"
+    "order" : "2",
+    "timestamp" : "2022-05-10T17:48:11Z",
+    "url" : "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html"
   }, {
     "@id" : "http://spdx.org/licenses/MIT-Modern-Variant",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
+    "crossRef" : [ "_:b1", "_:b0", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseId" : "MIT-Modern-Variant",
@@ -72,6 +72,10 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
@@ -81,10 +85,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
