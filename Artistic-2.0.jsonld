@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2022-05-08T23:58:03Z",
-    "url" : "https://opensource.org/licenses/artistic-license-2.0"
+    "order" : "1",
+    "timestamp" : "2022-05-10T17:44:15Z",
+    "url" : "https://www.perlfoundation.org/artistic-license-20.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-05-08T23:58:00Z",
-    "url" : "https://www.perlfoundation.org/artistic-license-20.html"
+    "order" : "2",
+    "timestamp" : "2022-05-10T17:44:16Z",
+    "url" : "https://opensource.org/licenses/artistic-license-2.0"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -27,12 +27,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-05-08T23:57:58Z",
+    "timestamp" : "2022-05-10T17:44:13Z",
     "url" : "http://www.perlfoundation.org/artistic_license_2_0"
   }, {
     "@id" : "http://spdx.org/licenses/Artistic-2.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
+    "crossRef" : [ "_:b2", "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -76,10 +76,6 @@
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
@@ -90,6 +86,10 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
