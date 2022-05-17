@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-05-10T17:44:30Z",
+    "timestamp" : "2022-05-17T01:47:15Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/diffmark"
   }, {
     "@id" : "http://spdx.org/licenses/diffmark",
@@ -23,6 +23,36 @@
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/diffmark"
   } ],
   "@context" : {
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
     },
@@ -47,36 +77,6 @@
     "isLive" : {
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",

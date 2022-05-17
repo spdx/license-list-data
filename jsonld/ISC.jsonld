@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-05-10T17:42:43Z",
-    "url" : "https://www.isc.org/licenses/"
+    "order" : "1",
+    "timestamp" : "2022-05-17T01:50:04Z",
+    "url" : "https://www.isc.org/downloads/software-support-policy/isc-license/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-05-10T17:42:44Z",
-    "url" : "https://www.isc.org/downloads/software-support-policy/isc-license/"
+    "order" : "0",
+    "timestamp" : "2022-05-17T01:50:03Z",
+    "url" : "https://www.isc.org/licenses/"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -27,12 +27,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "2",
-    "timestamp" : "2022-05-10T17:42:44Z",
+    "timestamp" : "2022-05-17T01:50:04Z",
     "url" : "https://opensource.org/licenses/ISC"
   }, {
     "@id" : "http://spdx.org/licenses/ISC",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
+    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -70,6 +70,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -77,17 +81,13 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"

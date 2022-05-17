@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-05-10T17:50:02Z",
+    "timestamp" : "2022-05-17T01:47:19Z",
     "url" : "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "1",
-    "timestamp" : "2022-05-10T17:50:03Z",
+    "timestamp" : "2022-05-17T01:47:20Z",
     "url" : "http://www.ncftp.com/ncftp/doc/LICENSE.txt"
   }, {
     "@id" : "http://spdx.org/licenses/ClArtistic",
@@ -34,6 +34,10 @@
     "seeAlso" : [ "http://www.ncftp.com/ncftp/doc/LICENSE.txt", "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/" ]
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
@@ -53,10 +57,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
