@@ -289,3 +289,5 @@ To determine if the license text in the string licenseTxt is equivalent to the l
 # Accessing Older Versions of the License List
 
 An archive of the older versions of the HTML pages for the SPDX License List, starting with version 1.17, can be found at http://spdx.org/licenses/archive/archived\_ll\_vX.XX where vX.XX is the version of the license list.
+
+
