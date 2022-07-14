@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-07-14T16:22:32Z",
+    "timestamp" : "2022-07-14T16:58:11Z",
     "url" : "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
   }, {
     "@id" : "http://spdx.org/licenses/CC-BY-SA-3.0",
@@ -23,6 +23,10 @@
     "seeAlso" : "https://creativecommons.org/licenses/by-sa/3.0/legalcode"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -32,10 +36,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"

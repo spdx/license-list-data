@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
-    "order" : "2",
-    "timestamp" : "2022-07-14T16:27:10Z",
-    "url" : "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT"
+    "order" : "0",
+    "timestamp" : "2022-07-14T17:03:04Z",
+    "url" : "http://freetype.fis.uniroma2.it/FTL.TXT"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-07-14T16:27:09Z",
+    "timestamp" : "2022-07-14T17:03:08Z",
     "url" : "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT"
   }, {
     "@id" : "_:b2",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2022-07-14T16:27:09Z",
-    "url" : "http://freetype.fis.uniroma2.it/FTL.TXT"
+    "order" : "2",
+    "timestamp" : "2022-07-14T17:03:09Z",
+    "url" : "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT"
   }, {
     "@id" : "http://spdx.org/licenses/FTL",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
+    "crossRef" : [ "_:b1", "_:b0", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : false,
@@ -45,12 +45,37 @@
     "seeAlso" : [ "http://freetype.fis.uniroma2.it/FTL.TXT", "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT", "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT" ]
   } ],
   "@context" : {
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
@@ -81,31 +106,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
