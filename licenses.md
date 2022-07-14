@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version cb1d51e
+The following licenses have been generated from the license list version 81faf7b
 
 ## Licenses with Short Idenifiers
 
@@ -250,7 +250,6 @@ The following licenses have been generated from the license list version cb1d51e
 | JasPer License                                                                | [JasPer-2.0][]                           |      |           |
 | Japan Network Information Center License                                      | [JPNIC][]                                |      |           |
 | JSON License                                                                  | [JSON][]                                 |      |           |
-| KiCad Libraries Exception                                                     | [KiCad-libraries-exception][]            |      |           |
 | Licence Art Libre 1.2                                                         | [LAL-1.2][]                              |      |           |
 | Licence Art Libre 1.3                                                         | [LAL-1.3][]                              |      |           |
 | Latex2e License                                                               | [Latex2e][]                              |      |           |
@@ -279,6 +278,7 @@ The following licenses have been generated from the license list version cb1d51e
 | LaTeX Project Public License v1.3a                                            | [LPPL-1.3a][]                            |      | Y         |
 | LaTeX Project Public License v1.3c                                            | [LPPL-1.3c][]                            | Y    |           |
 | MakeIndex License                                                             | [MakeIndex][]                            |      |           |
+| Minpack License                                                               | [Minpack][]                              |      |           |
 | The MirOS Licence                                                             | [MirOS][]                                | Y    |           |
 | MIT License                                                                   | [MIT][]                                  | Y    | Y         |
 | MIT No Attribution                                                            | [MIT-0][]                                | Y    |           |
@@ -490,6 +490,7 @@ The following licenses have been generated from the license list version cb1d51e
 | GStreamer Exception (2005)                            | [GStreamer-exception-2005][]             |
 | GStreamer Exception (2008)                            | [GStreamer-exception-2008][]             |
 | i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
+| KiCad Libraries Exception                             | [KiCad-libraries-exception][]            |
 | LGPL-3.0 Linking Exception                            | [LGPL-3.0-linking-exception][]           |
 | Libtool Exception                                     | [Libtool-exception][]                    |
 | Linux Syscall Note                                    | [Linux-syscall-note][]                   |
@@ -814,7 +815,6 @@ The following licenses have been generated from the license list version cb1d51e
 [JasPer-2.0]: text/JasPer-2.0.txt
 [JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
-[KiCad-libraries-exception]: text/KiCad-libraries-exception.txt
 [LAL-1.2]: text/LAL-1.2.txt
 [LAL-1.3]: text/LAL-1.3.txt
 [Latex2e]: text/Latex2e.txt
@@ -849,6 +849,7 @@ The following licenses have been generated from the license list version cb1d51e
 [LPPL-1.3a]: text/LPPL-1.3a.txt
 [LPPL-1.3c]: text/LPPL-1.3c.txt
 [MakeIndex]: text/MakeIndex.txt
+[Minpack]: text/Minpack.txt
 [MirOS]: text/MirOS.txt
 [MIT]: text/MIT.txt
 [MIT-0]: text/MIT-0.txt
@@ -1058,6 +1059,7 @@ The following licenses have been generated from the license list version cb1d51e
 [GStreamer-exception-2005]: text/GStreamer-exception-2005.txt
 [GStreamer-exception-2008]: text/GStreamer-exception-2008.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
+[KiCad-libraries-exception]: text/KiCad-libraries-exception.txt
 [LGPL-3.0-linking-exception]: text/LGPL-3.0-linking-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
 [Linux-syscall-note]: text/Linux-syscall-note.txt

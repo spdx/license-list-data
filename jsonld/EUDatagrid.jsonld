@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
-    "order" : "1",
-    "timestamp" : "2022-07-14T16:20:35Z",
-    "url" : "https://opensource.org/licenses/EUDatagrid"
+    "order" : "0",
+    "timestamp" : "2022-07-14T16:56:05Z",
+    "url" : "http://eu-datagrid.web.cern.ch/eu-datagrid/license.html"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,13 +16,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2022-07-14T16:20:35Z",
-    "url" : "http://eu-datagrid.web.cern.ch/eu-datagrid/license.html"
+    "order" : "1",
+    "timestamp" : "2022-07-14T16:56:05Z",
+    "url" : "https://opensource.org/licenses/EUDatagrid"
   }, {
     "@id" : "http://spdx.org/licenses/EUDatagrid",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -70,6 +70,10 @@
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -79,10 +83,6 @@
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
