@@ -1,0 +1,43 @@
+{
+  "@id" : "http://spdx.org/licenses/GStreamer-exception-2008",
+  "@type" : "spdx:LicenseException",
+  "exceptionTextHtml" : "\n      <p>\n\t<var class=\"replacable-license-text\"> This project</var> hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and <var class=\"replacable-license-text\"> this project</var>. This permission is above and beyond the permissions granted by the GPL license by which <var class=\"replacable-license-text\"> this project</var> is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version.\n      </p>\n\n    ",
+  "spdx:isDeprecatedLicenseId" : false,
+  "licenseExceptionId" : "GStreamer-exception-2008",
+  "licenseExceptionTemplate" : "<<var;name=\"project\";original=\"This project\";match=\".+\">> hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and <<var;name=\"project\";original=\"this project\";match=\".+\">> . This permission is above and beyond the permissions granted by the GPL license by which <<var;name=\"project\";original=\"this project\";match=\".+\">> is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.\n\n",
+  "licenseExceptionText" : "This project hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and this project. This permission is above and beyond the permissions granted by the GPL license by which this project is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version.\n",
+  "name" : "GStreamer Exception (2008)",
+  "comment" : "This exception is based on the exception added to the GNOME Videos (né “totem”) project in 2005. Earlier versions of the exception had the project name hard-coded in the exception, and only implicitly mentioned the ability to reuse code without carrying the exception.",
+  "seeAlso" : "https://gstreamer.freedesktop.org/documentation/frequently-asked-questions/licensing.html?gi-language=c#licensing-of-applications-using-gstreamer",
+  "@context" : {
+    "licenseExceptionId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionId"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "exceptionTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#exceptionTextHtml"
+    },
+    "licenseExceptionText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionText"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "licenseExceptionTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseExceptionTemplate"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "ptr" : "http://www.w3.org/2009/pointers#"
+  }
+}
