@@ -1,0 +1,15 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/GStreamer-exception-2005>
+        a                              spdx:LicenseException ;
+        rdfs:comment                   "This exception is the original exception added to the GNOME Videos (né totem\") project in 2005. Use GStreamer-exception-2008 instead." ;
+        rdfs:seeAlso                   "https://gstreamer.freedesktop.org/documentation/frequently-asked-questions/licensing.html?gi-language=c#licensing-of-applications-using-gstreamer" ;
+        spdx:exceptionTextHtml         "\n      <p>\n\tThe Totem project hereby grant permission for non-gpl compatible GStreamer plugins to be used and distributed together with GStreamer and Totem. This permission are above and beyond the permissions granted by the GPL license Totem is covered by.\n      </p>\n\n    " ;
+        spdx:isDeprecatedLicenseId     false ;
+        spdx:licenseExceptionId        "GStreamer-exception-2005" ;
+        spdx:licenseExceptionTemplate  "The Totem project hereby grant permission for non-gpl compatible GStreamer plugins to be used and distributed together with GStreamer and Totem. This permission are above and beyond the permissions granted by the GPL license Totem is covered by.\n\n" ;
+        spdx:licenseExceptionText      "The Totem project hereby grant permission for non-gpl compatible GStreamer plugins to be used and distributed together with GStreamer and Totem. This permission are above and beyond the permissions granted by the GPL license Totem is covered by.\n" ;
+        spdx:name                      "GStreamer Exception (2005)" .

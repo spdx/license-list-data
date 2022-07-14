@@ -1,0 +1,26 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:LicenseException rdf:about="http://spdx.org/licenses/GStreamer-exception-2008">
+    <spdx:licenseExceptionId>GStreamer-exception-2008</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://gstreamer.freedesktop.org/documentation/frequently-asked-questions/licensing.html?gi-language=c#licensing-of-applications-using-gstreamer</rdfs:seeAlso>
+    <rdfs:comment>This exception is based on the exception added to the GNOME Videos (né “totem”) project in 2005. Earlier versions of the exception had the project name hard-coded in the exception, and only implicitly mentioned the ability to reuse code without carrying the exception.</rdfs:comment>
+    <spdx:name>GStreamer Exception (2008)</spdx:name>
+    <spdx:exceptionTextHtml>
+      &lt;p&gt;
+	&lt;var class="replacable-license-text"&gt; This project&lt;/var&gt; hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and &lt;var class="replacable-license-text"&gt; this project&lt;/var&gt;. This permission is above and beyond the permissions granted by the GPL license by which &lt;var class="replacable-license-text"&gt; this project&lt;/var&gt; is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version.
+      &lt;/p&gt;
+
+    </spdx:exceptionTextHtml>
+    <spdx:licenseExceptionText>This project hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and this project. This permission is above and beyond the permissions granted by the GPL license by which this project is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version.
+</spdx:licenseExceptionText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionTemplate>&lt;&lt;var;name="project";original="This project";match=".+"&gt;&gt; hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and &lt;&lt;var;name="project";original="this project";match=".+"&gt;&gt; . This permission is above and beyond the permissions granted by the GPL license by which &lt;&lt;var;name="project";original="this project";match=".+"&gt;&gt; is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
+
+</spdx:licenseExceptionTemplate>
+  </spdx:LicenseException>
+</rdf:RDF>

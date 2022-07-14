@@ -2,13 +2,13 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
+    "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2022-05-17T01:52:52Z",
-    "url" : "https://opensource.org/licenses/Fair"
+    "match" : "N/A",
+    "order" : "0",
+    "timestamp" : "2022-07-14T16:26:36Z",
+    "url" : "http://fairlicense.org/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2022-05-17T01:52:52Z",
-    "url" : "http://fairlicense.org/"
+    "order" : "1",
+    "timestamp" : "2022-07-14T16:26:36Z",
+    "url" : "https://opensource.org/licenses/Fair"
   }, {
     "@id" : "http://spdx.org/licenses/Fair",
     "@type" : "spdx:ListedLicense",
@@ -37,10 +37,6 @@
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
@@ -53,6 +49,10 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"

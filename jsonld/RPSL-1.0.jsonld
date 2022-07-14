@@ -2,13 +2,13 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
+    "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2022-05-17T01:55:57Z",
-    "url" : "https://opensource.org/licenses/RPSL-1.0"
+    "match" : "N/A",
+    "order" : "0",
+    "timestamp" : "2022-07-14T16:21:15Z",
+    "url" : "https://helixcommunity.org/content/rpsl"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2022-05-17T01:55:57Z",
-    "url" : "https://helixcommunity.org/content/rpsl"
+    "order" : "1",
+    "timestamp" : "2022-07-14T16:21:15Z",
+    "url" : "https://opensource.org/licenses/RPSL-1.0"
   }, {
     "@id" : "http://spdx.org/licenses/RPSL-1.0",
     "@type" : "spdx:ListedLicense",
@@ -37,6 +37,10 @@
     "seeAlso" : [ "https://helixcommunity.org/content/rpsl", "https://opensource.org/licenses/RPSL-1.0" ]
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseHeader" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
     },
@@ -56,10 +60,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"

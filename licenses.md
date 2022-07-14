@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 65dd995
+The following licenses have been generated from the license list version cb1d51e
 
 ## Licenses with Short Idenifiers
 
@@ -487,6 +487,8 @@ The following licenses have been generated from the license list version 65dd995
 | GPL-3.0 Linking Exception                             | [GPL-3.0-linking-exception][]            |
 | GPL-3.0 Linking Exception (with Corresponding Source) | [GPL-3.0-linking-source-exception][]     |
 | GPL Cooperation Commitment 1.0                        | [GPL-CC-1.0][]                           |
+| GStreamer Exception (2005)                            | [GStreamer-exception-2005][]             |
+| GStreamer Exception (2008)                            | [GStreamer-exception-2008][]             |
 | i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
 | LGPL-3.0 Linking Exception                            | [LGPL-3.0-linking-exception][]           |
 | Libtool Exception                                     | [Libtool-exception][]                    |
@@ -1053,6 +1055,8 @@ The following licenses have been generated from the license list version 65dd995
 [GPL-3.0-linking-exception]: text/GPL-3.0-linking-exception.txt
 [GPL-3.0-linking-source-exception]: text/GPL-3.0-linking-source-exception.txt
 [GPL-CC-1.0]: text/GPL-CC-1.0.txt
+[GStreamer-exception-2005]: text/GStreamer-exception-2005.txt
+[GStreamer-exception-2008]: text/GStreamer-exception-2008.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
 [LGPL-3.0-linking-exception]: text/LGPL-3.0-linking-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
