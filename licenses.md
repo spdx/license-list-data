@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 81faf7b
+The following licenses have been generated from the license list version f6917d8
 
 ## Licenses with Short Idenifiers
 
@@ -296,6 +296,7 @@ The following licenses have been generated from the license list version 81faf7b
 | Mozilla Public License 2.0                                                    | [MPL-2.0][]                              | Y    | Y         |
 | Mozilla Public License 2.0 (no copyleft exception)                            | [MPL-2.0-no-copyleft-exception][]        | Y    |           |
 | mplus Font License                                                            | [mplus][]                                |      |           |
+| Microsoft Limited Public License                                              | [MS-LPL][]                               |      |           |
 | Microsoft Public License                                                      | [MS-PL][]                                | Y    | Y         |
 | Microsoft Reciprocal License                                                  | [MS-RL][]                                | Y    | Y         |
 | Matrix Template Library License                                               | [MTLL][]                                 |      |           |
@@ -867,6 +868,7 @@ The following licenses have been generated from the license list version 81faf7b
 [MPL-2.0]: text/MPL-2.0.txt
 [MPL-2.0-no-copyleft-exception]: text/MPL-2.0-no-copyleft-exception.txt
 [mplus]: text/mplus.txt
+[MS-LPL]: text/MS-LPL.txt
 [MS-PL]: text/MS-PL.txt
 [MS-RL]: text/MS-RL.txt
 [MTLL]: text/MTLL.txt
