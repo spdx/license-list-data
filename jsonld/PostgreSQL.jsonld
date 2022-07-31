@@ -2,27 +2,27 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "1",
-    "timestamp" : "2022-07-31T18:13:47Z",
-    "url" : "https://opensource.org/licenses/PostgreSQL"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-07-31T18:13:46Z",
+    "timestamp" : "2022-07-31T20:26:29Z",
     "url" : "http://www.postgresql.org/about/licence"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : false,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "N/A",
+    "order" : "1",
+    "timestamp" : "2022-07-31T20:26:30Z",
+    "url" : "https://opensource.org/licenses/PostgreSQL"
   }, {
     "@id" : "http://spdx.org/licenses/PostgreSQL",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseId" : "PostgreSQL",

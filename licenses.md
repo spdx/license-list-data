@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3058d17
+The following licenses have been generated from the license list version c47fffa
 
 ## Licenses with Short Idenifiers
 
@@ -314,6 +314,7 @@ The following licenses have been generated from the license list version 3058d17
 | NetCDF license                                                                | [NetCDF][]                               |      |           |
 | Newsletr License                                                              | [Newsletr][]                             |      |           |
 | Nethack General Public License                                                | [NGPL][]                                 | Y    |           |
+| NICTA Public Software License, Version 1.0                                    | [NICTA-1.0][]                            |      |           |
 | NIST Public Domain Notice                                                     | [NIST-PD][]                              |      |           |
 | NIST Public Domain Notice with license fallback                               | [NIST-PD-fallback][]                     |      |           |
 | Norwegian Licence for Open Government Data (NLOD) 1.0                         | [NLOD-1.0][]                             |      |           |
@@ -886,6 +887,7 @@ The following licenses have been generated from the license list version 3058d17
 [NetCDF]: text/NetCDF.txt
 [Newsletr]: text/Newsletr.txt
 [NGPL]: text/NGPL.txt
+[NICTA-1.0]: text/NICTA-1.0.txt
 [NIST-PD]: text/NIST-PD.txt
 [NIST-PD-fallback]: text/NIST-PD-fallback.txt
 [NLOD-1.0]: text/NLOD-1.0.txt
