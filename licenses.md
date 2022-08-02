@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version c47fffa
+The following licenses have been generated from the license list version 868cf0e
 
 ## Licenses with Short Idenifiers
 
@@ -86,6 +86,7 @@ The following licenses have been generated from the license list version c47fffa
 | Creative Commons Attribution 3.0 Unported                                     | [CC-BY-3.0][]                            |      |           |
 | Creative Commons Attribution 3.0 Austria                                      | [CC-BY-3.0-AT][]                         |      |           |
 | Creative Commons Attribution 3.0 Germany                                      | [CC-BY-3.0-DE][]                         |      |           |
+| Creative Commons Attribution 3.0 IGO                                          | [CC-BY-3.0-IGO][]                        |      |           |
 | Creative Commons Attribution 3.0 Netherlands                                  | [CC-BY-3.0-NL][]                         |      |           |
 | Creative Commons Attribution 3.0 United States                                | [CC-BY-3.0-US][]                         |      |           |
 | Creative Commons Attribution 4.0 International                                | [CC-BY-4.0][]                            |      | Y         |
@@ -277,6 +278,8 @@ The following licenses have been generated from the license list version c47fffa
 | LaTeX Project Public License v1.2                                             | [LPPL-1.2][]                             |      | Y         |
 | LaTeX Project Public License v1.3a                                            | [LPPL-1.3a][]                            |      | Y         |
 | LaTeX Project Public License v1.3c                                            | [LPPL-1.3c][]                            | Y    |           |
+| LZMA SDK License (versions 9.11 to 9.20)                                      | [LZMA-SDK-9.11-to-9.20][]                |      |           |
+| LZMA SDK License (versions 9.22 and beyond)                                   | [LZMA-SDK-9.22][]                        |      |           |
 | MakeIndex License                                                             | [MakeIndex][]                            |      |           |
 | Minpack License                                                               | [Minpack][]                              |      |           |
 | The MirOS Licence                                                             | [MirOS][]                                | Y    |           |
@@ -636,6 +639,7 @@ The following licenses have been generated from the license list version c47fffa
 [CC-BY-3.0]: text/CC-BY-3.0.txt
 [CC-BY-3.0-AT]: text/CC-BY-3.0-AT.txt
 [CC-BY-3.0-DE]: text/CC-BY-3.0-DE.txt
+[CC-BY-3.0-IGO]: text/CC-BY-3.0-IGO.txt
 [CC-BY-3.0-NL]: text/CC-BY-3.0-NL.txt
 [CC-BY-3.0-US]: text/CC-BY-3.0-US.txt
 [CC-BY-4.0]: text/CC-BY-4.0.txt
@@ -850,6 +854,8 @@ The following licenses have been generated from the license list version c47fffa
 [LPPL-1.2]: text/LPPL-1.2.txt
 [LPPL-1.3a]: text/LPPL-1.3a.txt
 [LPPL-1.3c]: text/LPPL-1.3c.txt
+[LZMA-SDK-9.11-to-9.20]: text/LZMA-SDK-9.11-to-9.20.txt
+[LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
 [MakeIndex]: text/MakeIndex.txt
 [Minpack]: text/Minpack.txt
 [MirOS]: text/MirOS.txt

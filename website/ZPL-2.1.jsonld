@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-07-31T20:24:27Z",
+    "timestamp" : "2022-08-02T22:06:27Z",
     "url" : "http://old.zope.org/Resources/ZPL/"
   }, {
     "@id" : "http://spdx.org/licenses/ZPL-2.1",
@@ -25,6 +25,43 @@
     "seeAlso" : "http://old.zope.org/Resources/ZPL/"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "isFsfLibre" : {
+      "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
     },
@@ -48,43 +85,6 @@
     },
     "isLive" : {
       "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "isFsfLibre" : {
-      "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
