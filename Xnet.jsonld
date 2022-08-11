@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2022-08-02T22:05:27Z",
+    "timestamp" : "2022-08-11T14:30:04Z",
     "url" : "https://opensource.org/licenses/Xnet"
   }, {
     "@id" : "http://spdx.org/licenses/Xnet",
@@ -24,6 +24,10 @@
     "seeAlso" : "https://opensource.org/licenses/Xnet"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
@@ -35,10 +39,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
