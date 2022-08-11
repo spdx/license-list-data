@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 201cae9
+The following licenses have been generated from the license list version e70f6e7
 
 ## Licenses with Short Idenifiers
 
@@ -293,6 +293,7 @@ The following licenses have been generated from the license list version 201cae9
 | MIT Open Group variant                                                        | [MIT-open-group][]                       |      |           |
 | MIT +no-false-attribs license                                                 | [MITNFA][]                               |      |           |
 | Motosoto License                                                              | [Motosoto][]                             | Y    |           |
+| mpi Permissive License                                                        | [mpi-permissive][]                       |      |           |
 | mpich2 License                                                                | [mpich2][]                               |      |           |
 | Mozilla Public License 1.0                                                    | [MPL-1.0][]                              | Y    |           |
 | Mozilla Public License 1.1                                                    | [MPL-1.1][]                              | Y    | Y         |
@@ -870,6 +871,7 @@ The following licenses have been generated from the license list version 201cae9
 [MIT-open-group]: text/MIT-open-group.txt
 [MITNFA]: text/MITNFA.txt
 [Motosoto]: text/Motosoto.txt
+[mpi-permissive]: text/mpi-permissive.txt
 [mpich2]: text/mpich2.txt
 [MPL-1.0]: text/MPL-1.0.txt
 [MPL-1.1]: text/MPL-1.1.txt

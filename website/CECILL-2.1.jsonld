@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-08-11T14:33:43Z",
+    "timestamp" : "2022-08-11T15:38:41Z",
     "url" : "http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html"
   }, {
     "@id" : "http://spdx.org/licenses/CECILL-2.1",
@@ -24,9 +24,9 @@
     "seeAlso" : "http://www.cecill.info/licences/Licence_CeCILL_V2.1-en.html"
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
@@ -53,9 +53,9 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"

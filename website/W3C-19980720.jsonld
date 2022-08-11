@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-08-11T14:32:41Z",
+    "timestamp" : "2022-08-11T15:37:27Z",
     "url" : "http://www.w3.org/Consortium/Legal/copyright-software-19980720.html"
   }, {
     "@id" : "http://spdx.org/licenses/W3C-19980720",
@@ -23,6 +23,10 @@
     "seeAlso" : "http://www.w3.org/Consortium/Legal/copyright-software-19980720.html"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
@@ -48,10 +52,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
