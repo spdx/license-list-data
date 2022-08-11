@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 868cf0e
+The following licenses have been generated from the license list version 201cae9
 
 ## Licenses with Short Idenifiers
 
@@ -389,6 +389,7 @@ The following licenses have been generated from the license list version 868cf0e
 | psfrag License                                                                | [psfrag][]                               |      |           |
 | psutils License                                                               | [psutils][]                              |      |           |
 | Python License 2.0                                                            | [Python-2.0][]                           | Y    | Y         |
+| Python License 2.0.1                                                          | [Python-2.0.1][]                         |      |           |
 | Qhull License                                                                 | [Qhull][]                                |      |           |
 | Q Public License 1.0                                                          | [QPL-1.0][]                              | Y    | Y         |
 | Rdisc License                                                                 | [Rdisc][]                                |      |           |
@@ -966,6 +967,7 @@ The following licenses have been generated from the license list version 868cf0e
 [psfrag]: text/psfrag.txt
 [psutils]: text/psutils.txt
 [Python-2.0]: text/Python-2.0.txt
+[Python-2.0.1]: text/Python-2.0.1.txt
 [Qhull]: text/Qhull.txt
 [QPL-1.0]: text/QPL-1.0.txt
 [Rdisc]: text/Rdisc.txt
