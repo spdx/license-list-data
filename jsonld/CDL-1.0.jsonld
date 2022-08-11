@@ -5,10 +5,10 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "2",
-    "timestamp" : "2022-08-11T15:42:24Z",
-    "url" : "https://www.gnu.org/licenses/license-list.html#ACDL"
+    "match" : "true",
+    "order" : "1",
+    "timestamp" : "2022-08-11T16:06:35Z",
+    "url" : "https://fedoraproject.org/wiki/Licensing/Common_Documentation_License"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-08-11T15:42:23Z",
+    "timestamp" : "2022-08-11T16:06:33Z",
     "url" : "http://www.opensource.apple.com/cdl/"
   }, {
     "@id" : "_:b2",
@@ -25,14 +25,14 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "1",
-    "timestamp" : "2022-08-11T15:42:24Z",
-    "url" : "https://fedoraproject.org/wiki/Licensing/Common_Documentation_License"
+    "match" : "false",
+    "order" : "2",
+    "timestamp" : "2022-08-11T16:06:35Z",
+    "url" : "https://www.gnu.org/licenses/license-list.html#ACDL"
   }, {
     "@id" : "http://spdx.org/licenses/CDL-1.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b2", "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "CDL-1.0",
@@ -72,15 +72,15 @@
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
