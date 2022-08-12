@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "1",
-    "timestamp" : "2022-08-11T15:59:51Z",
-    "url" : "https://directory.fsf.org/wiki/License:Fdk"
+    "order" : "0",
+    "timestamp" : "2022-08-11T23:58:21Z",
+    "url" : "https://fedoraproject.org/wiki/Licensing/FDK-AAC"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-08-11T15:59:51Z",
-    "url" : "https://fedoraproject.org/wiki/Licensing/FDK-AAC"
+    "order" : "1",
+    "timestamp" : "2022-08-11T23:58:21Z",
+    "url" : "https://directory.fsf.org/wiki/License:Fdk"
   }, {
     "@id" : "http://spdx.org/licenses/FDK-AAC",
     "@type" : "spdx:ListedLicense",
@@ -33,10 +33,6 @@
     "seeAlso" : [ "https://fedoraproject.org/wiki/Licensing/FDK-AAC", "https://directory.fsf.org/wiki/License:Fdk" ]
   } ],
   "@context" : {
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -52,6 +48,10 @@
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
