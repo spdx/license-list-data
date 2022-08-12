@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-08-11T23:58:34Z",
+    "timestamp" : "2022-08-12T00:17:11Z",
     "url" : "http://net-snmp.sourceforge.net/about/license.html"
   }, {
     "@id" : "http://spdx.org/licenses/Net-SNMP",
@@ -24,6 +24,10 @@
     "seeAlso" : "http://net-snmp.sourceforge.net/about/license.html"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -43,10 +47,6 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"

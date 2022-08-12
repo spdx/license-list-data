@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version feef39a
+The following licenses have been generated from the license list version 3.18
 
 ## Licenses with Short Idenifiers
 

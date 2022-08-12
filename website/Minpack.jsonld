@@ -5,24 +5,24 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-08-11T23:57:33Z",
-    "url" : "http://www.netlib.org/minpack/disclaimer"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2022-08-12T00:15:59Z",
+    "url" : "https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-08-11T23:57:34Z",
-    "url" : "https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2022-08-12T00:15:58Z",
+    "url" : "http://www.netlib.org/minpack/disclaimer"
   }, {
     "@id" : "http://spdx.org/licenses/Minpack",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "Minpack",
@@ -61,10 +61,6 @@
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -77,6 +73,10 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
