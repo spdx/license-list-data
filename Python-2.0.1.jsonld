@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-08-12T00:15:45Z",
-    "url" : "https://docs.python.org/3/license.html"
+    "order" : "0",
+    "timestamp" : "2022-08-22T17:01:53Z",
+    "url" : "https://www.python.org/download/releases/2.0.1/license/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "2",
-    "timestamp" : "2022-08-12T00:15:46Z",
+    "timestamp" : "2022-08-22T17:01:53Z",
     "url" : "https://github.com/python/cpython/blob/main/LICENSE"
   }, {
     "@id" : "_:b2",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-08-12T00:15:45Z",
-    "url" : "https://www.python.org/download/releases/2.0.1/license/"
+    "order" : "1",
+    "timestamp" : "2022-08-22T17:01:53Z",
+    "url" : "https://docs.python.org/3/license.html"
   }, {
     "@id" : "http://spdx.org/licenses/Python-2.0.1",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b2", "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "Python-2.0.1",
@@ -69,10 +69,6 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -88,6 +84,10 @@
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
