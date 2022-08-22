@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "1",
-    "timestamp" : "2022-08-12T00:16:51Z",
-    "url" : "https://opendatacommons.org/licenses/odbl/1-0/"
+    "order" : "0",
+    "timestamp" : "2022-08-22T17:02:04Z",
+    "url" : "http://www.opendatacommons.org/licenses/odbl/1.0/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,13 +16,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-08-12T00:16:50Z",
-    "url" : "http://www.opendatacommons.org/licenses/odbl/1.0/"
+    "order" : "1",
+    "timestamp" : "2022-08-22T17:02:04Z",
+    "url" : "https://opendatacommons.org/licenses/odbl/1-0/"
   }, {
     "@id" : "http://spdx.org/licenses/ODbL-1.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : false,
@@ -66,10 +66,6 @@
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -79,6 +75,10 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
