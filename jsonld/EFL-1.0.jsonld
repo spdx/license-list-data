@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "1",
-    "timestamp" : "2022-08-22T17:02:03Z",
+    "timestamp" : "2022-08-23T17:24:17Z",
     "url" : "https://opensource.org/licenses/EFL-1.0"
   }, {
     "@id" : "_:b1",
@@ -17,12 +17,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-08-22T17:02:03Z",
+    "timestamp" : "2022-08-23T17:24:16Z",
     "url" : "http://www.eiffel-nice.org/license/forum.txt"
   }, {
     "@id" : "http://spdx.org/licenses/EFL-1.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseId" : "EFL-1.0",
@@ -59,6 +59,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -84,10 +88,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
