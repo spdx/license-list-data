@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-08-25T22:12:30Z",
-    "url" : "http://www.freebsd.org/copyright/freebsd-license.html"
+    "order" : "2",
+    "timestamp" : "2022-09-01T23:57:20Z",
+    "url" : "https://github.com/protegeproject/protege/blob/master/license.txt"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-08-25T22:12:31Z",
-    "url" : "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh"
+    "order" : "0",
+    "timestamp" : "2022-09-01T23:57:19Z",
+    "url" : "http://www.freebsd.org/copyright/freebsd-license.html"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2022-08-25T22:12:32Z",
-    "url" : "https://github.com/protegeproject/protege/blob/master/license.txt"
+    "order" : "1",
+    "timestamp" : "2022-09-01T23:57:19Z",
+    "url" : "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh"
   }, {
     "@id" : "http://spdx.org/licenses/BSD-2-Clause-Views",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b2", "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b1", "_:b0", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "BSD-2-Clause-Views",
@@ -73,15 +73,15 @@
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
