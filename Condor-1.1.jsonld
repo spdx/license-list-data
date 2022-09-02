@@ -2,27 +2,27 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-09-02T00:07:44Z",
-    "url" : "http://research.cs.wisc.edu/condor/license.html#condor"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : false,
     "spdx:isValid" : false,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "1",
-    "timestamp" : "2022-09-02T00:07:44Z",
+    "timestamp" : "2022-09-02T04:11:37Z",
     "url" : "http://web.archive.org/web/20111123062036/http://research.cs.wisc.edu/condor/license.html#condor"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2022-09-02T04:11:37Z",
+    "url" : "http://research.cs.wisc.edu/condor/license.html#condor"
   }, {
     "@id" : "http://spdx.org/licenses/Condor-1.1",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : false,
@@ -70,15 +70,15 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
