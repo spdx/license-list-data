@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "2",
-    "timestamp" : "2022-09-02T04:15:35Z",
+    "timestamp" : "2022-09-02T21:18:51Z",
     "url" : "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING"
   }, {
     "@id" : "_:b1",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "3",
-    "timestamp" : "2022-09-02T04:15:37Z",
-    "url" : "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
+    "order" : "1",
+    "timestamp" : "2022-09-02T21:18:50Z",
+    "url" : "https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -27,7 +27,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-09-02T04:15:33Z",
+    "timestamp" : "2022-09-02T21:18:49Z",
     "url" : "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING"
   }, {
     "@id" : "_:b3",
@@ -36,13 +36,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-09-02T04:15:34Z",
-    "url" : "https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING"
+    "order" : "3",
+    "timestamp" : "2022-09-02T21:18:52Z",
+    "url" : "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
   }, {
     "@id" : "http://spdx.org/licenses/MIT-open-group",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1", "_:b2", "_:b3" ],
+    "crossRef" : [ "_:b3", "_:b0", "_:b1", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "MIT-open-group",
@@ -84,6 +84,10 @@
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -99,10 +103,6 @@
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
