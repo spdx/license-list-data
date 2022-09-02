@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "true",
     "order" : "0",
-    "timestamp" : "2022-09-02T04:18:48Z",
+    "timestamp" : "2022-09-02T21:21:55Z",
     "url" : "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web"
   }, {
     "@id" : "http://spdx.org/licenses/OFL-1.0",
@@ -25,8 +25,9 @@
     "seeAlso" : "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL10_web"
   } ],
   "@context" : {
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
@@ -40,10 +41,6 @@
     },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
@@ -61,6 +58,9 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
     },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
