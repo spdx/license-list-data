@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "2",
-    "timestamp" : "2022-09-02T21:15:43Z",
-    "url" : "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-09-02T21:15:42Z",
+    "timestamp" : "2022-09-08T04:04:22Z",
     "url" : "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : false,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "N/A",
+    "order" : "0",
+    "timestamp" : "2022-09-08T04:04:22Z",
+    "url" : "http://freetype.fis.uniroma2.it/FTL.TXT"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -26,13 +26,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
-    "order" : "0",
-    "timestamp" : "2022-09-02T21:15:37Z",
-    "url" : "http://freetype.fis.uniroma2.it/FTL.TXT"
+    "order" : "2",
+    "timestamp" : "2022-09-08T04:04:24Z",
+    "url" : "http://gitlab.freedesktop.org/freetype/freetype/-/raw/master/docs/FTL.TXT"
   }, {
     "@id" : "http://spdx.org/licenses/FTL",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b2", "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : false,
@@ -70,6 +70,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -81,10 +85,6 @@
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"

@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2022-09-02T21:22:49Z",
-    "url" : "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)"
+    "order" : "1",
+    "timestamp" : "2022-09-08T04:11:35Z",
+    "url" : "https://github.com/gabegundy/atlserver/blob/master/License.txt"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-09-02T21:22:48Z",
-    "url" : "https://www.openhub.net/licenses/mslpl"
+    "order" : "2",
+    "timestamp" : "2022-09-08T04:11:36Z",
+    "url" : "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -26,9 +26,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-09-02T21:22:48Z",
-    "url" : "https://github.com/gabegundy/atlserver/blob/master/License.txt"
+    "order" : "0",
+    "timestamp" : "2022-09-08T04:11:35Z",
+    "url" : "https://www.openhub.net/licenses/mslpl"
   }, {
     "@id" : "http://spdx.org/licenses/MS-LPL",
     "@type" : "spdx:ListedLicense",
@@ -68,6 +68,10 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
@@ -84,10 +88,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
