@@ -6,9 +6,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-09-08T04:07:38Z",
-    "url" : "https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING"
+    "order" : "0",
+    "timestamp" : "2022-09-12T16:39:03Z",
+    "url" : "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,9 +16,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "3",
-    "timestamp" : "2022-09-08T04:07:41Z",
-    "url" : "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
+    "order" : "1",
+    "timestamp" : "2022-09-12T16:39:04Z",
+    "url" : "https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
@@ -26,9 +26,9 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "2",
-    "timestamp" : "2022-09-08T04:07:39Z",
-    "url" : "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING"
+    "order" : "3",
+    "timestamp" : "2022-09-12T16:39:06Z",
+    "url" : "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
   }, {
     "@id" : "_:b3",
     "@type" : "spdx:CrossRef",
@@ -36,13 +36,13 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-09-08T04:07:37Z",
-    "url" : "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING"
+    "order" : "2",
+    "timestamp" : "2022-09-12T16:39:05Z",
+    "url" : "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING"
   }, {
     "@id" : "http://spdx.org/licenses/MIT-open-group",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b2", "_:b1", "_:b3", "_:b0" ],
+    "crossRef" : [ "_:b3", "_:b1", "_:b0", "_:b2" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : false,
     "licenseId" : "MIT-open-group",
@@ -81,15 +81,15 @@
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
