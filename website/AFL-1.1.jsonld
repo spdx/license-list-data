@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-09-12T16:34:19Z",
-    "url" : "http://opensource.linux-mirror.org/licenses/afl-1.1.txt"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : false,
     "spdx:isValid" : false,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "1",
-    "timestamp" : "2022-09-12T16:34:21Z",
+    "timestamp" : "2022-09-17T03:25:54Z",
     "url" : "http://wayback.archive.org/web/20021004124254/http://www.opensource.org/licenses/academic.php"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2022-09-17T03:25:52Z",
+    "url" : "http://opensource.linux-mirror.org/licenses/afl-1.1.txt"
   }, {
     "@id" : "http://spdx.org/licenses/AFL-1.1",
     "@type" : "spdx:ListedLicense",
@@ -47,10 +47,6 @@
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
@@ -70,6 +66,10 @@
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
