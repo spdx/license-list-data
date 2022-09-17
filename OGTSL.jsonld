@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-09-12T16:35:58Z",
-    "url" : "http://www.opengroup.org/testing/downloads/The_Open_Group_TSL.txt"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "1",
-    "timestamp" : "2022-09-12T16:35:58Z",
+    "timestamp" : "2022-09-17T03:27:47Z",
     "url" : "https://opensource.org/licenses/OGTSL"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2022-09-17T03:27:46Z",
+    "url" : "http://www.opengroup.org/testing/downloads/The_Open_Group_TSL.txt"
   }, {
     "@id" : "http://spdx.org/licenses/OGTSL",
     "@type" : "spdx:ListedLicense",
@@ -58,15 +58,15 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
