@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b9fdeea
+The following licenses have been generated from the license list version 8b6d88a
 
 ## Licenses with Short Idenifiers
 
@@ -146,6 +146,7 @@ The following licenses have been generated from the license list version b9fdeea
 | CERN Open Hardware Licence Version 2 - Permissive                             | [CERN-OHL-P-2.0][]                       | Y    |           |
 | CERN Open Hardware Licence Version 2 - Strongly Reciprocal                    | [CERN-OHL-S-2.0][]                       | Y    |           |
 | CERN Open Hardware Licence Version 2 - Weakly Reciprocal                      | [CERN-OHL-W-2.0][]                       | Y    |           |
+| Checkmk License                                                               | [checkmk][]                              |      |           |
 | Clarified Artistic License                                                    | [ClArtistic][]                           |      | Y         |
 | CNRI Jython License                                                           | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                           | [CNRI-Python][]                          | Y    |           |
@@ -701,6 +702,7 @@ The following licenses have been generated from the license list version b9fdeea
 [CERN-OHL-P-2.0]: text/CERN-OHL-P-2.0.txt
 [CERN-OHL-S-2.0]: text/CERN-OHL-S-2.0.txt
 [CERN-OHL-W-2.0]: text/CERN-OHL-W-2.0.txt
+[checkmk]: text/checkmk.txt
 [ClArtistic]: text/ClArtistic.txt
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
