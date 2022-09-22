@@ -5,24 +5,24 @@
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-09-22T14:33:46Z",
-    "url" : "http://sam.zoy.org/wtfpl/COPYING"
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2022-09-22T16:34:49Z",
+    "url" : "http://www.wtfpl.net/about/"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-09-22T14:33:44Z",
-    "url" : "http://www.wtfpl.net/about/"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2022-09-22T16:34:50Z",
+    "url" : "http://sam.zoy.org/wtfpl/COPYING"
   }, {
     "@id" : "http://spdx.org/licenses/WTFPL",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0" ],
+    "crossRef" : [ "_:b0", "_:b1" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : false,
@@ -59,16 +59,16 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isFsfLibre" : {
       "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"

@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "1",
-    "timestamp" : "2022-09-22T14:32:58Z",
+    "timestamp" : "2022-09-22T16:34:03Z",
     "url" : "https://opensource.org/licenses/RSCPL"
   }, {
     "@id" : "_:b1",
@@ -17,12 +17,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2022-09-22T14:32:58Z",
+    "timestamp" : "2022-09-22T16:34:02Z",
     "url" : "http://wayback.archive.org/web/20060715140826/http://www.risource.org/RPL/RPL-1.0A.shtml"
   }, {
     "@id" : "http://spdx.org/licenses/RSCPL",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b0", "_:b1" ],
+    "crossRef" : [ "_:b1", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isOsiApproved" : true,
     "licenseId" : "RSCPL",
@@ -65,19 +65,19 @@
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
