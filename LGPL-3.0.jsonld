@@ -2,13 +2,13 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
+    "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-09-22T14:35:10Z",
-    "url" : "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
+    "match" : "N/A",
+    "order" : "2",
+    "timestamp" : "2022-09-22T16:36:13Z",
+    "url" : "https://opensource.org/licenses/LGPL-3.0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -17,18 +17,18 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-09-22T14:35:10Z",
+    "timestamp" : "2022-09-22T16:36:13Z",
     "url" : "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
+    "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "2",
-    "timestamp" : "2022-09-22T14:35:10Z",
-    "url" : "https://opensource.org/licenses/LGPL-3.0"
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2022-09-22T16:36:13Z",
+    "url" : "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-3.0",
     "@type" : "spdx:ListedLicense",
@@ -53,15 +53,15 @@
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "comment" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
