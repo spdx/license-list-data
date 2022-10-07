@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-10-07T01:43:48Z",
-    "url" : "http://www.boost.org/LICENSE_1_0.txt"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "1",
-    "timestamp" : "2022-10-07T01:43:48Z",
+    "timestamp" : "2022-10-07T02:00:53Z",
     "url" : "https://opensource.org/licenses/BSL-1.0"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "true",
+    "order" : "0",
+    "timestamp" : "2022-10-07T02:00:53Z",
+    "url" : "http://www.boost.org/LICENSE_1_0.txt"
   }, {
     "@id" : "http://spdx.org/licenses/BSL-1.0",
     "@type" : "spdx:ListedLicense",
@@ -35,12 +35,12 @@
     "seeAlso" : [ "http://www.boost.org/LICENSE_1_0.txt", "https://opensource.org/licenses/BSL-1.0" ]
   } ],
   "@context" : {
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
     "crossRef" : {
       "@id" : "http://spdx.org/rdf/terms#crossRef",
       "@type" : "@id"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
