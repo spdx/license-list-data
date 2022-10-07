@@ -2,13 +2,13 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
+    "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-09-22T18:03:47Z",
-    "url" : "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
+    "match" : "N/A",
+    "order" : "2",
+    "timestamp" : "2022-10-07T01:33:57Z",
+    "url" : "https://opensource.org/licenses/LGPL-3.0"
   }, {
     "@id" : "_:b1",
     "@type" : "spdx:CrossRef",
@@ -16,23 +16,23 @@
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
-    "order" : "1",
-    "timestamp" : "2022-09-22T18:03:48Z",
-    "url" : "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt"
+    "order" : "0",
+    "timestamp" : "2022-10-07T01:33:57Z",
+    "url" : "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
   }, {
     "@id" : "_:b2",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
+    "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "2",
-    "timestamp" : "2022-09-22T18:03:48Z",
-    "url" : "https://opensource.org/licenses/LGPL-3.0"
+    "match" : "false",
+    "order" : "1",
+    "timestamp" : "2022-10-07T01:33:57Z",
+    "url" : "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-3.0+",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b0", "_:b2" ],
+    "crossRef" : [ "_:b0", "_:b1", "_:b2" ],
     "deprecatedVersion" : "2.0rc2",
     "spdx:isDeprecatedLicenseId" : true,
     "spdx:isFsfLibre" : true,
@@ -46,35 +46,6 @@
     "seeAlso" : [ "https://opensource.org/licenses/LGPL-3.0", "https://www.gnu.org/licenses/lgpl-3.0-standalone.html", "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt" ]
   } ],
   "@context" : {
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
     },
@@ -104,12 +75,41 @@
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
