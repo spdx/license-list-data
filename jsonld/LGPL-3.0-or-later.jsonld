@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-10-13T16:54:35Z",
+    "timestamp" : "2022-10-26T21:58:54Z",
     "url" : "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "2",
-    "timestamp" : "2022-10-13T16:54:35Z",
+    "timestamp" : "2022-10-26T21:58:54Z",
     "url" : "https://opensource.org/licenses/LGPL-3.0"
   }, {
     "@id" : "_:b2",
@@ -27,12 +27,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-10-13T16:54:34Z",
+    "timestamp" : "2022-10-26T21:58:54Z",
     "url" : "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
   }, {
     "@id" : "http://spdx.org/licenses/LGPL-3.0-or-later",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
+    "crossRef" : [ "_:b2", "_:b1", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -82,6 +82,10 @@
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
@@ -89,10 +93,6 @@
     "isOsiApproved" : {
       "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"

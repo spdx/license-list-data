@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "N/A",
     "order" : "2",
-    "timestamp" : "2022-10-13T16:59:46Z",
+    "timestamp" : "2022-10-26T22:02:44Z",
     "url" : "https://opensource.org/licenses/artistic-license-2.0"
   }, {
     "@id" : "_:b1",
@@ -17,7 +17,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "1",
-    "timestamp" : "2022-10-13T16:59:45Z",
+    "timestamp" : "2022-10-26T22:02:43Z",
     "url" : "https://www.perlfoundation.org/artistic-license-20.html"
   }, {
     "@id" : "_:b2",
@@ -27,12 +27,12 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-10-13T16:59:43Z",
+    "timestamp" : "2022-10-26T22:02:42Z",
     "url" : "http://www.perlfoundation.org/artistic_license_2_0"
   }, {
     "@id" : "http://spdx.org/licenses/Artistic-2.0",
     "@type" : "spdx:ListedLicense",
-    "crossRef" : [ "_:b1", "_:b2", "_:b0" ],
+    "crossRef" : [ "_:b2", "_:b1", "_:b0" ],
     "spdx:isDeprecatedLicenseId" : false,
     "spdx:isFsfLibre" : true,
     "spdx:isOsiApproved" : true,
@@ -70,10 +70,6 @@
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
     },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
     },
@@ -96,6 +92,10 @@
     },
     "licenseTextHtml" : {
       "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
     },
     "isDeprecatedLicenseId" : {
       "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",

@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version a8f83ee
+The following licenses have been generated from the license list version 593a976
 
 ## Licenses with Short Idenifiers
 
@@ -519,6 +519,7 @@ The following licenses have been generated from the license list version a8f83ee
 | U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
 | Universal FOSS Exception, Version 1.0                 | [Universal-FOSS-exception-1.0][]         |
 | WxWindows Library Exception 3.1                       | [WxWindows-exception-3.1][]              |
+| x11vnc OpenSSL Exception                              | [x11vnc-openssl-exception][]             |
 
 ## Deprecated Licenses
 
@@ -1097,3 +1098,4 @@ The following licenses have been generated from the license list version a8f83ee
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
 [Universal-FOSS-exception-1.0]: text/Universal-FOSS-exception-1.0.txt
 [WxWindows-exception-3.1]: text/WxWindows-exception-3.1.txt
+[x11vnc-openssl-exception]: text/x11vnc-openssl-exception.txt
