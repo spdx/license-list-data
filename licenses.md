@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 593a976
+The following licenses have been generated from the license list version b439085
 
 ## Licenses with Short Idenifiers
 
@@ -197,6 +197,7 @@ The following licenses have been generated from the license list version 593a976
 | FSF All Permissive License                                                    | [FSFAP][]                                |      | Y         |
 | FSF Unlimited License                                                         | [FSFUL][]                                |      |           |
 | FSF Unlimited License (with License Retention)                                | [FSFULLR][]                              |      |           |
+| FSF Unlimited License (With License Retention    and Warranty Disclaimer)     | [FSFULLRWD][]                            |      |           |
 | Freetype Project License                                                      | [FTL][]                                  |      | Y         |
 | GD License                                                                    | [GD][]                                   |      |           |
 | GNU Free Documentation License v1.1 only - invariants                         | [GFDL-1.1-invariants-only][]             |      |           |
@@ -755,6 +756,7 @@ The following licenses have been generated from the license list version 593a976
 [FSFAP]: text/FSFAP.txt
 [FSFUL]: text/FSFUL.txt
 [FSFULLR]: text/FSFULLR.txt
+[FSFULLRWD]: text/FSFULLRWD.txt
 [FTL]: text/FTL.txt
 [GD]: text/GD.txt
 [GFDL-1.1]: text/GFDL-1.1.txt

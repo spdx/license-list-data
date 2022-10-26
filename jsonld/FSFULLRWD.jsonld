@@ -1,0 +1,86 @@
+{
+  "@graph" : [ {
+    "@id" : "_:b0",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : true,
+    "spdx:isValid" : true,
+    "spdx:isWayBackLink" : false,
+    "match" : "false",
+    "order" : "0",
+    "timestamp" : "2022-10-26T22:14:33Z",
+    "url" : "https://lists.gnu.org/archive/html/autoconf/2012-04/msg00061.html"
+  }, {
+    "@id" : "http://spdx.org/licenses/FSFULLRWD",
+    "@type" : "spdx:ListedLicense",
+    "crossRef" : "_:b0",
+    "spdx:isDeprecatedLicenseId" : false,
+    "spdx:isOsiApproved" : false,
+    "licenseId" : "FSFULLRWD",
+    "licenseText" : "Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,\n2003, 2004, 2005, 2006, 2007, 2008, 2009  Free Software Foundation, Inc.\n\nThis Makefile.in is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY, to the extent permitted by law; without\neven the implied warranty of MERCHANTABILITY or FITNESS FOR A\nPARTICULAR PURPOSE.\n",
+    "licenseTextHtml" : "\n         <var class=\"replacable-license-text\"> \n            Copyright (C) 1994, 1995, 1996, 1997, 1998,\n            1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006,\n            2007, 2008, 2009 Free Software Foundation, Inc.\n         </var>\n         <p>\n            This<var class=\"replacable-license-text\"> Makefile.in</var>\n            is free software; the Free Software Foundation gives\n            unlimited permission to copy and/or distribute it, with or\n            without modifications, as long as this notice is preserved.\n         </p>\n\n         <p>\n            This program is distributed in the hope that it will\n            be useful, but WITHOUT ANY WARRANTY, to the extent\n            permitted by law; without even the implied warranty of\n            MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n         </p>\n\n      ",
+    "name" : "FSF Unlimited License (With License Retention    and Warranty Disclaimer)",
+    "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.\";match=\".{0,5000}\">>\n\nThis <<var;name=\"file\";original=\"Makefile.in\";match=\"Makefile.in|file\">> is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY, to the extent permitted by law; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+    "seeAlso" : "https://lists.gnu.org/archive/html/autoconf/2012-04/msg00061.html"
+  } ],
+  "@context" : {
+    "timestamp" : {
+      "@id" : "http://spdx.org/rdf/terms#timestamp"
+    },
+    "order" : {
+      "@id" : "http://spdx.org/rdf/terms#order",
+      "@type" : "http://www.w3.org/2001/XMLSchema#int"
+    },
+    "url" : {
+      "@id" : "http://spdx.org/rdf/terms#url"
+    },
+    "match" : {
+      "@id" : "http://spdx.org/rdf/terms#match"
+    },
+    "isWayBackLink" : {
+      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isValid" : {
+      "@id" : "http://spdx.org/rdf/terms#isValid",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isLive" : {
+      "@id" : "http://spdx.org/rdf/terms#isLive",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "spdx" : "http://spdx.org/rdf/terms#",
+    "doap" : "http://usefulinc.com/ns/doap#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "ptr" : "http://www.w3.org/2009/pointers#"
+  }
+}
