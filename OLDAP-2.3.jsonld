@@ -7,7 +7,7 @@
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-10-26T22:20:07Z",
+    "timestamp" : "2022-10-27T16:40:55Z",
     "url" : "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=d32cf54a32d581ab475d23c810b0a7fbaf8d63c3"
   }, {
     "@id" : "http://spdx.org/licenses/OLDAP-2.3",
@@ -25,6 +25,43 @@
     "seeAlso" : "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=d32cf54a32d581ab475d23c810b0a7fbaf8d63c3"
   } ],
   "@context" : {
+    "isOsiApproved" : {
+      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "licenseTextHtml" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
+    },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
+    "licenseText" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseText"
+    },
+    "seeAlso" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
+    },
+    "isFsfLibre" : {
+      "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "isDeprecatedLicenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "name" : {
+      "@id" : "http://spdx.org/rdf/terms#name"
+    },
+    "standardLicenseTemplate" : {
+      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "licenseId" : {
+      "@id" : "http://spdx.org/rdf/terms#licenseId"
+    },
     "timestamp" : {
       "@id" : "http://spdx.org/rdf/terms#timestamp"
     },
@@ -49,43 +86,6 @@
     "isLive" : {
       "@id" : "http://spdx.org/rdf/terms#isLive",
       "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "isFsfLibre" : {
-      "@id" : "http://spdx.org/rdf/terms#isFsfLibre",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
     "spdx" : "http://spdx.org/rdf/terms#",
     "doap" : "http://usefulinc.com/ns/doap#",
