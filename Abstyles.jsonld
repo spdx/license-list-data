@@ -2,12 +2,12 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
+    "spdx:isLive" : false,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
-    "match" : "false",
+    "match" : "N/A",
     "order" : "0",
-    "timestamp" : "2022-10-27T16:34:17Z",
+    "timestamp" : "2022-10-27T16:49:15Z",
     "url" : "https://fedoraproject.org/wiki/Licensing/Abstyles"
   }, {
     "@id" : "http://spdx.org/licenses/Abstyles",
@@ -23,6 +23,10 @@
     "seeAlso" : "https://fedoraproject.org/wiki/Licensing/Abstyles"
   } ],
   "@context" : {
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
     },
@@ -41,10 +45,6 @@
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "standardLicenseTemplate" : {
       "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
