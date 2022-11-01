@@ -2,23 +2,23 @@
   "@graph" : [ {
     "@id" : "_:b0",
     "@type" : "spdx:CrossRef",
-    "spdx:isLive" : false,
-    "spdx:isValid" : false,
-    "spdx:isWayBackLink" : false,
-    "match" : "N/A",
-    "order" : "1",
-    "timestamp" : "2022-10-29T04:21:42Z",
-    "url" : "http://web.archive.org/web/20111123062036/http://research.cs.wisc.edu/condor/license.html#condor"
-  }, {
-    "@id" : "_:b1",
-    "@type" : "spdx:CrossRef",
     "spdx:isLive" : true,
     "spdx:isValid" : true,
     "spdx:isWayBackLink" : false,
     "match" : "false",
     "order" : "0",
-    "timestamp" : "2022-10-29T04:21:42Z",
+    "timestamp" : "2022-11-01T19:23:12Z",
     "url" : "http://research.cs.wisc.edu/condor/license.html#condor"
+  }, {
+    "@id" : "_:b1",
+    "@type" : "spdx:CrossRef",
+    "spdx:isLive" : false,
+    "spdx:isValid" : false,
+    "spdx:isWayBackLink" : false,
+    "match" : "N/A",
+    "order" : "1",
+    "timestamp" : "2022-11-01T19:23:13Z",
+    "url" : "http://web.archive.org/web/20111123062036/http://research.cs.wisc.edu/condor/license.html#condor"
   }, {
     "@id" : "http://spdx.org/licenses/Condor-1.1",
     "@type" : "spdx:ListedLicense",
@@ -67,15 +67,15 @@
     "name" : {
       "@id" : "http://spdx.org/rdf/terms#name"
     },
+    "crossRef" : {
+      "@id" : "http://spdx.org/rdf/terms#crossRef",
+      "@type" : "@id"
+    },
     "licenseText" : {
       "@id" : "http://spdx.org/rdf/terms#licenseText"
     },
     "licenseId" : {
       "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
     },
     "seeAlso" : {
       "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
