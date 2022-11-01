@@ -1,86 +1,54 @@
 {
-  "@graph" : [ {
-    "@id" : "_:b0",
-    "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "false",
-    "order" : "0",
-    "timestamp" : "2022-11-01T19:18:41Z",
-    "url" : "http://rc.quest.com/topics/openssh/license.php#tcpwrappers"
-  }, {
-    "@id" : "http://spdx.org/licenses/TCP-wrappers",
-    "@type" : "spdx:ListedLicense",
-    "crossRef" : "_:b0",
-    "spdx:isDeprecatedLicenseId" : false,
-    "spdx:isOsiApproved" : false,
-    "licenseId" : "TCP-wrappers",
-    "licenseText" : "Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.\n",
-    "licenseTextHtml" : "\n      <div class=\"replacable-license-text\"> \n         <p>Copyright 1995 by Wietse Venema. All rights reserved. Some\n         individual files may be covered by other copyrights.</p>\n\n      </div>\n      <p>This material was originally written and compiled by Wietse\n         Venema at Eindhoven University of Technology, The Netherlands,\n         in 1990, 1991, 1992, 1993, 1994 and 1995.</p>\n\n      <p>Redistribution and use in source and binary forms, with or\n         without modification, are permitted provided that this entire\n         copyright notice is duplicated in all such copies.</p>\n\n      <p>This software is provided &quot;as is&quot; and without any expressed or\n         implied warranties, including, without limitation, the implied\n         warranties of merchantibility and fitness for any particular\n         purpose.</p>\n\n    ",
-    "name" : "TCP Wrappers License",
-    "standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.  \";match=\".{0,5000}\">>\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.\n\n",
-    "seeAlso" : "http://rc.quest.com/topics/openssh/license.php#tcpwrappers"
-  } ],
-  "@context" : {
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "spdx" : "http://spdx.org/rdf/terms#",
-    "doap" : "http://usefulinc.com/ns/doap#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-    "ptr" : "http://www.w3.org/2009/pointers#"
-  }
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "spdx:timestamp": "2022-11-01T19:40:44Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "http://rc.quest.com/topics/openssh/license.php#tcpwrappers",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/TCP-wrappers",
+            "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"> \n         <p>Copyright 1995 by Wietse Venema. All rights reserved. Some\n         individual files may be covered by other copyrights.</p>\n\n      </div>\n      <p>This material was originally written and compiled by Wietse\n         Venema at Eindhoven University of Technology, The Netherlands,\n         in 1990, 1991, 1992, 1993, 1994 and 1995.</p>\n\n      <p>Redistribution and use in source and binary forms, with or\n         without modification, are permitted provided that this entire\n         copyright notice is duplicated in all such copies.</p>\n\n      <p>This software is provided &quot;as is&quot; and without any expressed or\n         implied warranties, including, without limitation, the implied\n         warranties of merchantibility and fitness for any particular\n         purpose.</p>\n\n    ",
+            "rdfs:seeAlso": "http://rc.quest.com/topics/openssh/license.php#tcpwrappers",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.  \";match=\".{0,5000}\">>\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.\n\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "TCP Wrappers License",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseId": "TCP-wrappers",
+            "spdx:licenseText": "Copyright 1995 by Wietse Venema. All rights reserved. Some individual files may be covered by other copyrights.\n\nThis material was originally written and compiled by Wietse Venema at Eindhoven University of Technology, The Netherlands, in 1990, 1991, 1992, 1993, 1994 and 1995.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this entire copyright notice is duplicated in all such copies.\n\nThis software is provided \"as is\" and without any expressed or implied warranties, including, without limitation, the implied warranties of merchantibility and fitness for any particular purpose.\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "doap": "http://usefulinc.com/ns/doap#",
+        "ptr": "http://www.w3.org/2009/pointers#"
+    }
 }

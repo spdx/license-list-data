@@ -1,86 +1,54 @@
 {
-  "@graph" : [ {
-    "@id" : "_:b0",
-    "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-11-01T19:16:22Z",
-    "url" : "https://fedoraproject.org/wiki/Licensing/diffmark"
-  }, {
-    "@id" : "http://spdx.org/licenses/diffmark",
-    "@type" : "spdx:ListedLicense",
-    "crossRef" : "_:b0",
-    "spdx:isDeprecatedLicenseId" : false,
-    "spdx:isOsiApproved" : false,
-    "licenseId" : "diffmark",
-    "licenseText" : "1. you can do what you want with it\n2. I refuse any responsibility for the consequences\n",
-    "licenseTextHtml" : "\n      \n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replacable-license-text\"> 1.</var>\n          you can do what you want with it\n        </li>\n        \n<li>\n            <var class=\"replacable-license-text\"> 2.</var>\n          I refuse any responsibility for the consequences\n        </li>\n      \n</ul>\n    ",
-    "name" : "diffmark license",
-    "standardLicenseTemplate" : "\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
-    "seeAlso" : "https://fedoraproject.org/wiki/Licensing/diffmark"
-  } ],
-  "@context" : {
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "spdx" : "http://spdx.org/rdf/terms#",
-    "doap" : "http://usefulinc.com/ns/doap#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-    "ptr" : "http://www.w3.org/2009/pointers#"
-  }
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "spdx:timestamp": "2022-11-01T19:38:46Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/diffmark",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/diffmark",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/diffmark",
+            "spdx:standardLicenseTemplate": "\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseText": "1. you can do what you want with it\n2. I refuse any responsibility for the consequences\n",
+            "spdx:name": "diffmark license",
+            "spdx:licenseTextHtml": "\n      \n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"> 1.</var>\n          you can do what you want with it\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"> 2.</var>\n          I refuse any responsibility for the consequences\n        </li>\n      \n</ul>\n    ",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseId": "diffmark"
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "doap": "http://usefulinc.com/ns/doap#",
+        "ptr": "http://www.w3.org/2009/pointers#"
+    }
 }

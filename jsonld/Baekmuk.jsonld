@@ -1,102 +1,58 @@
 {
-  "@graph" : [ {
-    "@id" : "_:b0",
-    "@type" : "spdx:CrossRef",
-    "spdx:isLive" : true,
-    "spdx:isValid" : true,
-    "spdx:isWayBackLink" : false,
-    "match" : "true",
-    "order" : "0",
-    "timestamp" : "2022-11-01T19:26:01Z",
-    "url" : "https://fedoraproject.org/wiki/Licensing:Baekmuk?rd=Licensing/Baekmuk"
-  }, {
-    "@id" : "http://spdx.org/licenses/Baekmuk",
-    "@type" : "spdx:ListedLicense",
-    "crossRef" : "_:b0",
-    "spdx:isDeprecatedLicenseId" : false,
-    "spdx:isOsiApproved" : false,
-    "licenseId" : "Baekmuk",
-    "licenseText" : "Copyright (c) 1986-2002 Kim Jeong-Hwan All rights reserved.\n         \nPermission to use, copy, modify and distribute this font\nis hereby granted, provided that both the copyright notice\nand this permission notice appear in all copies of the\nfont, derivative works or modified versions, and that the\nfollowing acknowledgement appear in supporting documentation:\nBaekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and Baekmuk\nHeadline are registered trademarks owned by Kim Jeong-Hwan.\n",
-    "licenseTextHtml" : "\n         <p>\n            Copyright (c) 1986-2002 Kim Jeong-Hwan All rights reserved.\n         </p>\n\n         <p>\n            Permission to use, copy, modify and distribute this font\n            is hereby granted, provided that both the copyright notice\n            and this permission notice appear in all copies of the\n            font, derivative works or modified versions, and that the\n            following acknowledgement appear in supporting documentation:\n            Baekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and Baekmuk\n            Headline are registered trademarks owned by Kim Jeong-Hwan.\n         </p>\n\n      ",
-    "name" : "Baekmuk License",
-    "standardLicenseHeader" : "none",
-    "standardLicenseHeaderHtml" : "\n         none\n      ",
-    "standardLicenseHeaderTemplate" : "none",
-    "standardLicenseTemplate" : "Copyright (c) 1986-2002 Kim Jeong-Hwan All rights reserved.\n\nPermission to use, copy, modify and distribute this font is hereby granted, provided that both the copyright notice and this permission notice appear in all copies of the font, derivative works or modified versions, and that the following acknowledgement appear in supporting documentation: Baekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and Baekmuk Headline are registered trademarks owned by Kim Jeong-Hwan.\n\n",
-    "comment" : "",
-    "seeAlso" : "https://fedoraproject.org/wiki/Licensing:Baekmuk?rd=Licensing/Baekmuk"
-  } ],
-  "@context" : {
-    "timestamp" : {
-      "@id" : "http://spdx.org/rdf/terms#timestamp"
-    },
-    "order" : {
-      "@id" : "http://spdx.org/rdf/terms#order",
-      "@type" : "http://www.w3.org/2001/XMLSchema#int"
-    },
-    "url" : {
-      "@id" : "http://spdx.org/rdf/terms#url"
-    },
-    "match" : {
-      "@id" : "http://spdx.org/rdf/terms#match"
-    },
-    "isWayBackLink" : {
-      "@id" : "http://spdx.org/rdf/terms#isWayBackLink",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isValid" : {
-      "@id" : "http://spdx.org/rdf/terms#isValid",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "isLive" : {
-      "@id" : "http://spdx.org/rdf/terms#isLive",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseId"
-    },
-    "name" : {
-      "@id" : "http://spdx.org/rdf/terms#name"
-    },
-    "comment" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
-    },
-    "standardLicenseHeaderHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderHtml"
-    },
-    "seeAlso" : {
-      "@id" : "http://www.w3.org/2000/01/rdf-schema#seeAlso"
-    },
-    "licenseText" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseText"
-    },
-    "isOsiApproved" : {
-      "@id" : "http://spdx.org/rdf/terms#isOsiApproved",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "standardLicenseHeader" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeader"
-    },
-    "standardLicenseHeaderTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseHeaderTemplate"
-    },
-    "standardLicenseTemplate" : {
-      "@id" : "http://spdx.org/rdf/terms#standardLicenseTemplate"
-    },
-    "crossRef" : {
-      "@id" : "http://spdx.org/rdf/terms#crossRef",
-      "@type" : "@id"
-    },
-    "isDeprecatedLicenseId" : {
-      "@id" : "http://spdx.org/rdf/terms#isDeprecatedLicenseId",
-      "@type" : "http://www.w3.org/2001/XMLSchema#boolean"
-    },
-    "licenseTextHtml" : {
-      "@id" : "http://spdx.org/rdf/terms#licenseTextHtml"
-    },
-    "spdx" : "http://spdx.org/rdf/terms#",
-    "doap" : "http://usefulinc.com/ns/doap#",
-    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
-    "ptr" : "http://www.w3.org/2009/pointers#"
-  }
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "spdx:timestamp": "2022-11-01T19:47:06Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing:Baekmuk?rd=Licensing/Baekmuk",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/Baekmuk",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:licenseId": "Baekmuk",
+            "spdx:name": "Baekmuk License",
+            "@type": "spdx:ListedLicense",
+            "rdfs:comment": "",
+            "spdx:standardLicenseHeaderHtml": "\n         none\n      ",
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing:Baekmuk?rd=Licensing/Baekmuk",
+            "spdx:licenseText": "Copyright (c) 1986-2002 Kim Jeong-Hwan All rights reserved.\n         \nPermission to use, copy, modify and distribute this font\nis hereby granted, provided that both the copyright notice\nand this permission notice appear in all copies of the\nfont, derivative works or modified versions, and that the\nfollowing acknowledgement appear in supporting documentation:\nBaekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and Baekmuk\nHeadline are registered trademarks owned by Kim Jeong-Hwan.\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseHeader": "none",
+            "spdx:standardLicenseHeaderTemplate": "none",
+            "spdx:standardLicenseTemplate": "Copyright (c) 1986-2002 Kim Jeong-Hwan All rights reserved.\n\nPermission to use, copy, modify and distribute this font is hereby granted, provided that both the copyright notice and this permission notice appear in all copies of the font, derivative works or modified versions, and that the following acknowledgement appear in supporting documentation: Baekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and Baekmuk Headline are registered trademarks owned by Kim Jeong-Hwan.\n\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n         <p>\n            Copyright (c) 1986-2002 Kim Jeong-Hwan All rights reserved.\n         </p>\n\n         <p>\n            Permission to use, copy, modify and distribute this font\n            is hereby granted, provided that both the copyright notice\n            and this permission notice appear in all copies of the\n            font, derivative works or modified versions, and that the\n            following acknowledgement appear in supporting documentation:\n            Baekmuk Batang, Baekmuk Dotum, Baekmuk Gulim, and Baekmuk\n            Headline are registered trademarks owned by Kim Jeong-Hwan.\n         </p>\n\n      "
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "doap": "http://usefulinc.com/ns/doap#",
+        "ptr": "http://www.w3.org/2009/pointers#"
+    }
 }
