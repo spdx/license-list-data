@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-11-11T16:32:12Z",
+            "spdx:timestamp": "2022-11-15T21:22:08Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2022-11-11T16:32:12Z",
+            "spdx:timestamp": "2022-11-15T21:22:08Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/GPL-3.0-only",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
                 "https://opensource.org/licenses/GPL-3.0"
@@ -61,14 +69,6 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
