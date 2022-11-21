@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 4ceaf0e
+The following licenses have been generated from the license list version 9c1a5c4
 
 ## Licenses with Short Idenifiers
 
@@ -269,6 +269,7 @@ The following licenses have been generated from the license list version 4ceaf0e
 | PNG Reference Library version 2                                               | [libpng-2.0][]                           |      |           |
 | libselinux public domain notice                                               | [libselinux-1.0][]                       |      |           |
 | libtiff License                                                               | [libtiff][]                              |      |           |
+| libutil David Nugent License                                                  | [libutil-David-Nugent][]                 |      |           |
 | Licence Libre du Québec – Permissive version 1.1                              | [LiLiQ-P-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité version 1.1                             | [LiLiQ-R-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité forte version 1.1                       | [LiLiQ-Rplus-1.1][]                      | Y    |           |
@@ -851,6 +852,7 @@ The following licenses have been generated from the license list version 4ceaf0e
 [libpng-2.0]: text/libpng-2.0.txt
 [libselinux-1.0]: text/libselinux-1.0.txt
 [libtiff]: text/libtiff.txt
+[libutil-David-Nugent]: text/libutil-David-Nugent.txt
 [LiLiQ-P-1.1]: text/LiLiQ-P-1.1.txt
 [LiLiQ-R-1.1]: text/LiLiQ-R-1.1.txt
 [LiLiQ-Rplus-1.1]: text/LiLiQ-Rplus-1.1.txt
