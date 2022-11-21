@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 61894c2
+The following licenses have been generated from the license list version 4ceaf0e
 
 ## Licenses with Short Idenifiers
 
@@ -253,6 +253,7 @@ The following licenses have been generated from the license list version 61894c2
 | JasPer License                                                                | [JasPer-2.0][]                           |      |           |
 | Japan Network Information Center License                                      | [JPNIC][]                                |      |           |
 | JSON License                                                                  | [JSON][]                                 |      |           |
+| Knuth CTAN License                                                            | [Knuth-CTAN][]                           |      |           |
 | Licence Art Libre 1.2                                                         | [LAL-1.2][]                              |      |           |
 | Licence Art Libre 1.3                                                         | [LAL-1.3][]                              |      |           |
 | Latex2e License                                                               | [Latex2e][]                              |      |           |
@@ -828,6 +829,7 @@ The following licenses have been generated from the license list version 61894c2
 [JasPer-2.0]: text/JasPer-2.0.txt
 [JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
+[Knuth-CTAN]: text/Knuth-CTAN.txt
 [LAL-1.2]: text/LAL-1.2.txt
 [LAL-1.3]: text/LAL-1.3.txt
 [Latex2e]: text/Latex2e.txt

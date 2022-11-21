@@ -1,13 +1,36 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "spdx:timestamp": "2022-11-21T02:48:53Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/FTL",
             "spdx:crossRef": [
                 {
-                    "@id": "_:b0"
+                    "@id": "_:b1"
                 },
                 {
-                    "@id": "_:b1"
+                    "@id": "_:b0"
                 },
                 {
                     "@id": "_:b2"
@@ -39,31 +62,8 @@
             }
         },
         {
-            "@id": "_:b0",
-            "spdx:timestamp": "2022-11-16T16:46:33Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "http://git.savannah.gnu.org/cgit/freetype/freetype2.git/tree/docs/FTL.TXT",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "_:b1",
-            "spdx:timestamp": "2022-11-16T16:46:32Z",
+            "spdx:timestamp": "2022-11-21T02:48:52Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -86,7 +86,7 @@
         },
         {
             "@id": "_:b2",
-            "spdx:timestamp": "2022-11-16T16:46:34Z",
+            "spdx:timestamp": "2022-11-21T02:48:54Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
