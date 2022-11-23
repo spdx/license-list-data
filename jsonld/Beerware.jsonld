@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-11-21T15:54:42Z",
+            "spdx:timestamp": "2022-11-23T22:18:20Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,17 @@
         },
         {
             "@id": "http://spdx.org/licenses/Beerware",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:name": "Beerware License",
+            "spdx:licenseTextHtml": "\n       <p>&quot;THE BEER-WARE LICENSE&quot; (Revision 42):</p>\n\n      <p><var class=\"replaceable-license-text\"> &lt;phk@FreeBSD.ORG&gt;</var> wrote this file. As long as you retain\n         this notice you can do whatever you want with this stuff. If we meet some day, and you think this\n         stuff is worth it, you can buy me a beer in return Poul-Henning Kamp</p>\n\n    ",
             "spdx:licenseText": "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n",
-            "spdx:standardLicenseTemplate": "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n",
             "rdfs:seeAlso": [
                 "https://people.freebsd.org/~phk/",
                 "https://fedoraproject.org/wiki/Licensing/Beerware"
@@ -37,24 +45,16 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
+            "spdx:standardLicenseTemplate": "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<<var;name=\"email\";original=\"<phk@FreeBSD.ORG>\";match=\"<phk@FreeBSD.ORG>|<phk@login.dkuug.dk>\">> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseTextHtml": "\n      <p>&quot;THE BEER-WARE LICENSE&quot; (Revision 42):\n      <br />\n\n&lt;phk@FreeBSD.ORG&gt; wrote this file. As long as you retain\n         this notice you can do whatever you want with this stuff. If we meet some day, and you think this\n         stuff is worth it, you can buy me a beer in return Poul-Henning Kamp</p>\n\n    ",
             "spdx:licenseId": "Beerware"
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2022-11-21T15:54:41Z",
+            "spdx:timestamp": "2022-11-23T22:18:20Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
