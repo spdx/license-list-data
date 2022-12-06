@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.19
+The following licenses have been generated from the license list version d0f6824
 
 ## Licenses with Short Idenifiers
 
@@ -432,6 +432,7 @@ The following licenses have been generated from the license list version 3.19
 | Server Side Public License, v 1                                               | [SSPL-1.0][]                             |      |           |
 | SugarCRM Public License v1.1.3                                                | [SugarCRM-1.1.3][]                       |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                        | [SWL][]                                  |      |           |
+| Symlinks License                                                              | [Symlinks][]                             |      |           |
 | TAPR Open Hardware License v1.0                                               | [TAPR-OHL-1.0][]                         |      |           |
 | TCL/TK License                                                                | [TCL][]                                  |      |           |
 | TCP Wrappers License                                                          | [TCP-wrappers][]                         |      |           |
@@ -1017,6 +1018,7 @@ The following licenses have been generated from the license list version 3.19
 [StandardML-NJ]: text/StandardML-NJ.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
 [SWL]: text/SWL.txt
+[Symlinks]: text/Symlinks.txt
 [TAPR-OHL-1.0]: text/TAPR-OHL-1.0.txt
 [TCL]: text/TCL.txt
 [TCP-wrappers]: text/TCP-wrappers.txt
