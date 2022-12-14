@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-12-14T14:45:08Z",
+            "spdx:timestamp": "2022-12-14T22:08:42Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,10 +25,13 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-3-Clause-LBNL",
-            "spdx:licenseId": "BSD-3-Clause-LBNL",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseId": "BSD-3-Clause-LBNL",
+            "spdx:crossRef": {
+                "@id": "_:b0"
             },
             "rdfs:comment": "This license is the same as BSD-3-Clause, but with an additional default contribution licensing clause",
             "spdx:name": "Lawrence Berkeley National Labs BSD variant license",
@@ -40,9 +43,6 @@
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             }
         }
     ],
