@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-12-14T22:07:51Z",
+            "spdx:timestamp": "2022-12-15T22:37:43Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,12 +25,12 @@
         },
         {
             "@id": "http://spdx.org/licenses/Crossword",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Crossword",
