@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 4bbc8ca
+The following licenses have been generated from the license list version b0ef20d
 
 ## Licenses with Short Idenifiers
 
@@ -444,6 +444,7 @@ The following licenses have been generated from the license list version 4bbc8ca
 | TMate Open Source License                                                     | [TMate][]                                |      |           |
 | TORQUE v2.5+ Software License v1.1                                            | [TORQUE-1.1][]                           |      |           |
 | Trusster Open Source License                                                  | [TOSL][]                                 |      |           |
+| Text-Tabs+Wrap License                                                        | [TTWL][]                                 |      |           |
 | Technische Universitaet Berlin License 1.0                                    | [TU-Berlin-1.0][]                        |      |           |
 | Technische Universitaet Berlin License 2.0                                    | [TU-Berlin-2.0][]                        |      |           |
 | Upstream Compatibility License v1.0                                           | [UCL-1.0][]                              | Y    |           |
@@ -1035,6 +1036,7 @@ The following licenses have been generated from the license list version 4bbc8ca
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
+[TTWL]: text/TTWL.txt
 [TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
 [TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
 [UCL-1.0]: text/UCL-1.0.txt

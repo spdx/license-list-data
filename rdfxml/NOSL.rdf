@@ -5,7 +5,21 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/NOSL">
-    <spdx:licenseId>NOSL</spdx:licenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:timestamp>2022-12-22T19:26:48Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:url>http://bits.netizen.com.au/licenses/NOSL/nosl.txt</spdx:url>
+        <spdx:match>false</spdx:match>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;NETIZEN OPEN SOURCE LICENSE
 
 Version 1.0
@@ -348,21 +362,6 @@ EXHIBIT A - Netizen Open Source License
      [NOTE: The text of this Exhibit A may differ slightly from the text of the notices in the Source Code files of the Original Code. You should use the text of this Exhibit A rather than the text found in the Original Code Source Code for Your Modifications.]
 </spdx:licenseText>
     <rdfs:comment>This license is essentially a rebranded version of MPL-1.1, but with some important changes. The added §7.1 expands on the warranty disclaimer. The change in §11 moves the forum and the jurisdiction to Victoria, Australia (from California, USA in MPL-1.1). Section 3.7 of this license contains the word "LEDs" which appears to be a typo in the upstream version, at https://directory.fsf.org/wiki/License:NOSL. It is retained here as optional text, so that it will still match in case others have used the license text with this typo.</rdfs:comment>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2022-12-22T18:00:25Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>http://bits.netizen.com.au/licenses/NOSL/nosl.txt</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <rdfs:seeAlso>http://bits.netizen.com.au/licenses/NOSL/nosl.txt</rdfs:seeAlso>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
@@ -1036,5 +1035,6 @@ Version 1.0
 
      &lt;/div&gt;
     </spdx:licenseTextHtml>
+    <spdx:licenseId>NOSL</spdx:licenseId>
   </spdx:ListedLicense>
 </rdf:RDF>
