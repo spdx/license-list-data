@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f77c85d
+The following licenses have been generated from the license list version e9bce3e
 
 ## Licenses with Short Idenifiers
 
@@ -46,6 +46,7 @@ The following licenses have been generated from the license list version f77c85d
 | Bahyph License                                                                | [Bahyph][]                               |      |           |
 | Barr License                                                                  | [Barr][]                                 |      |           |
 | Beerware License                                                              | [Beerware][]                             |      |           |
+| Bitstream Charter Font License                                                | [Bitstream-Charter][]                    |      |           |
 | Bitstream Vera Font License                                                   | [Bitstream-Vera][]                       |      |           |
 | BitTorrent Open Source License v1.0                                           | [BitTorrent-1.0][]                       |      |           |
 | BitTorrent Open Source License v1.1                                           | [BitTorrent-1.1][]                       |      | Y         |
@@ -607,6 +608,7 @@ The following licenses have been generated from the license list version f77c85d
 [Bahyph]: text/Bahyph.txt
 [Barr]: text/Barr.txt
 [Beerware]: text/Beerware.txt
+[Bitstream-Charter]: text/Bitstream-Charter.txt
 [Bitstream-Vera]: text/Bitstream-Vera.txt
 [BitTorrent-1.0]: text/BitTorrent-1.0.txt
 [BitTorrent-1.1]: text/BitTorrent-1.1.txt
