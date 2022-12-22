@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 461bd3b
+The following licenses have been generated from the license list version f77c85d
 
 ## Licenses with Short Idenifiers
 
@@ -230,6 +230,7 @@ The following licenses have been generated from the license list version 461bd3b
 | GNU General Public License v2.0 or later                                      | [GPL-2.0-or-later][]                     | Y    | Y         |
 | GNU General Public License v3.0 only                                          | [GPL-3.0-only][]                         | Y    | Y         |
 | GNU General Public License v3.0 or later                                      | [GPL-3.0-or-later][]                     | Y    | Y         |
+| Graphics Gems License                                                         | [Graphics-Gems][]                        |      |           |
 | gSOAP Public License v1.3b                                                    | [gSOAP-1.3b][]                           |      |           |
 | Haskell Language Report License                                               | [HaskellReport][]                        |      |           |
 | Hippocratic License 2.1                                                       | [Hippocratic-2.1][]                      |      |           |
@@ -810,6 +811,7 @@ The following licenses have been generated from the license list version 461bd3b
 [GPL-3.0-or-later]: text/GPL-3.0-or-later.txt
 [GPL-3.0-with-autoconf-exception]: text/GPL-3.0-with-autoconf-exception.txt
 [GPL-3.0-with-GCC-exception]: text/GPL-3.0-with-GCC-exception.txt
+[Graphics-Gems]: text/Graphics-Gems.txt
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
 [HaskellReport]: text/HaskellReport.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
