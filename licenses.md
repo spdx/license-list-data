@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version c757242
+The following licenses have been generated from the license list version 461bd3b
 
 ## Licenses with Short Idenifiers
 
@@ -239,6 +239,7 @@ The following licenses have been generated from the license list version c757242
 | IBM PowerPC Initialization and Boot Software                                  | [IBM-pibs][]                             |      |           |
 | ICU License                                                                   | [ICU][]                                  |      |           |
 | Independent JPEG Group License                                                | [IJG][]                                  |      | Y         |
+| Independent JPEG Group License - short                                        | [IJG-short][]                            |      |           |
 | ImageMagick License                                                           | [ImageMagick][]                          |      |           |
 | iMatix Standard Function Library Agreement                                    | [iMatix][]                               |      | Y         |
 | Imlib2 License                                                                | [Imlib2][]                               |      | Y         |
@@ -555,7 +556,7 @@ The following licenses have been generated from the license list version c757242
 | GNU Library General Public License v2 only                                    | [LGPL-2.0][]                             
 | GNU Library General Public License v2 or later                                | [LGPL-2.0+][]                            
 | GNU Lesser General Public License v2.1 only                                   | [LGPL-2.1][]                             
-| GNU Library General Public License v2.1 or later                              | [LGPL-2.1+][]                            
+| GNU Lesser General Public License v2.1 or later                               | [LGPL-2.1+][]                            
 | GNU Lesser General Public License v3.0 only                                   | [LGPL-3.0][]                             
 | GNU Lesser General Public License v3.0 or later                               | [LGPL-3.0+][]                            
 | Nunit License                                                                 | [Nunit][]                                
@@ -818,6 +819,7 @@ The following licenses have been generated from the license list version c757242
 [IBM-pibs]: text/IBM-pibs.txt
 [ICU]: text/ICU.txt
 [IJG]: text/IJG.txt
+[IJG-short]: text/IJG-short.txt
 [ImageMagick]: text/ImageMagick.txt
 [iMatix]: text/iMatix.txt
 [Imlib2]: text/Imlib2.txt
