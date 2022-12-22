@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e9bce3e
+The following licenses have been generated from the license list version 4bbc8ca
 
 ## Licenses with Short Idenifiers
 
@@ -299,6 +299,7 @@ The following licenses have been generated from the license list version e9bce3e
 | feh License                                                                   | [MIT-feh][]                              |      |           |
 | MIT License Modern Variant                                                    | [MIT-Modern-Variant][]                   | Y    |           |
 | MIT Open Group variant                                                        | [MIT-open-group][]                       |      |           |
+| MIT Tom Wu Variant                                                            | [MIT-Wu][]                               |      |           |
 | MIT +no-false-attribs license                                                 | [MITNFA][]                               |      |           |
 | Motosoto License                                                              | [Motosoto][]                             | Y    |           |
 | mpi Permissive License                                                        | [mpi-permissive][]                       |      |           |
@@ -887,6 +888,7 @@ The following licenses have been generated from the license list version e9bce3e
 [MIT-feh]: text/MIT-feh.txt
 [MIT-Modern-Variant]: text/MIT-Modern-Variant.txt
 [MIT-open-group]: text/MIT-open-group.txt
+[MIT-Wu]: text/MIT-Wu.txt
 [MITNFA]: text/MITNFA.txt
 [Motosoto]: text/Motosoto.txt
 [mpi-permissive]: text/mpi-permissive.txt

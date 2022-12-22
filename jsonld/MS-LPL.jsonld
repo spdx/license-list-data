@@ -2,7 +2,30 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-12-22T16:46:48Z",
+            "spdx:timestamp": "2022-12-22T18:06:48Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2022-12-22T18:06:47Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,40 +47,17 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b1",
-            "spdx:timestamp": "2022-12-22T16:46:48Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://github.com/gabegundy/atlserver/blob/master/License.txt",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/MS-LPL",
             "@type": "spdx:ListedLicense",
             "spdx:crossRef": [
                 {
-                    "@id": "_:b2"
+                    "@id": "_:b0"
                 },
                 {
                     "@id": "_:b1"
                 },
                 {
-                    "@id": "_:b0"
+                    "@id": "_:b2"
                 }
             ],
             "spdx:licenseId": "MS-LPL",
@@ -81,12 +81,12 @@
         },
         {
             "@id": "_:b2",
-            "spdx:timestamp": "2022-12-22T16:46:49Z",
+            "spdx:timestamp": "2022-12-22T18:06:48Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)",
+            "spdx:url": "https://github.com/gabegundy/atlserver/blob/master/License.txt",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
