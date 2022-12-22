@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/XSkat",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/XSkat_License",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -16,14 +19,11 @@
             },
             "spdx:name": "XSkat License",
             "spdx:licenseId": "XSkat",
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
+            "@type": "spdx:ListedLicense"
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-12-22T14:13:35Z",
+            "spdx:timestamp": "2022-12-22T16:40:57Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
