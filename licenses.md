@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 219451d
+The following licenses have been generated from the license list version 15088ab
 
 ## Licenses with Short Idenifiers
 
@@ -236,6 +236,7 @@ The following licenses have been generated from the license list version 219451d
 | Haskell Language Report License                                               | [HaskellReport][]                        |      |           |
 | Hippocratic License 2.1                                                       | [Hippocratic-2.1][]                      |      |           |
 | Historical Permission Notice and Disclaimer                                   | [HPND][]                                 | Y    | Y         |
+| HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                    | [HPND-sell-variant][]                    |      |           |
 | HTML Tidy License                                                             | [HTMLTIDY][]                             |      |           |
 | IBM PowerPC Initialization and Boot Software                                  | [IBM-pibs][]                             |      |           |
@@ -821,6 +822,7 @@ The following licenses have been generated from the license list version 219451d
 [HaskellReport]: text/HaskellReport.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
 [HPND]: text/HPND.txt
+[HPND-export-US]: text/HPND-export-US.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
 [IBM-pibs]: text/IBM-pibs.txt
