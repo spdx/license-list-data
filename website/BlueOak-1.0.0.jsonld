@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-12-27T18:14:08Z",
+            "spdx:timestamp": "2022-12-30T06:33:50Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/BlueOak-1.0.0",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -43,7 +40,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "rdfs:comment": "This license was released on March 6, 2019."
+            "rdfs:comment": "This license was released on March 6, 2019.",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {

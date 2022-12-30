@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2022-12-27T18:21:30Z",
+            "spdx:timestamp": "2022-12-30T06:41:09Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/iMatix",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:licenseId": "iMatix",
             "spdx:isFsfLibre": {
                 "@value": "true",
@@ -33,9 +36,6 @@
             },
             "spdx:name": "iMatix Standard Function Library Agreement",
             "rdfs:seeAlso": "http://legacy.imatix.com/html/sfl/sfl4.htm#license",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
