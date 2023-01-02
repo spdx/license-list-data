@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d270784
+The following licenses have been generated from the license list version 166e97c
 
 ## Licenses with Short Idenifiers
 
@@ -106,6 +106,7 @@ The following licenses have been generated from the license list version d270784
 | Creative Commons Attribution Non Commercial No Derivatives 4.0 International  | [CC-BY-NC-ND-4.0][]                      |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 1.0 Generic           | [CC-BY-NC-SA-1.0][]                      |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 2.0 Generic           | [CC-BY-NC-SA-2.0][]                      |      |           |
+| Creative Commons Attribution Non Commercial Share Alike 2.0 Germany           | [CC-BY-NC-SA-2.0-DE][]                   |      |           |
 | Creative Commons Attribution-NonCommercial-ShareAlike 2.0 France              | [CC-BY-NC-SA-2.0-FR][]                   |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 2.0 England and Wales | [CC-BY-NC-SA-2.0-UK][]                   |      |           |
 | Creative Commons Attribution Non Commercial Share Alike 2.5 Generic           | [CC-BY-NC-SA-2.5][]                      |      |           |
@@ -675,6 +676,7 @@ The following licenses have been generated from the license list version d270784
 [CC-BY-NC-ND-4.0]: text/CC-BY-NC-ND-4.0.txt
 [CC-BY-NC-SA-1.0]: text/CC-BY-NC-SA-1.0.txt
 [CC-BY-NC-SA-2.0]: text/CC-BY-NC-SA-2.0.txt
+[CC-BY-NC-SA-2.0-DE]: text/CC-BY-NC-SA-2.0-DE.txt
 [CC-BY-NC-SA-2.0-FR]: text/CC-BY-NC-SA-2.0-FR.txt
 [CC-BY-NC-SA-2.0-UK]: text/CC-BY-NC-SA-2.0-UK.txt
 [CC-BY-NC-SA-2.5]: text/CC-BY-NC-SA-2.5.txt

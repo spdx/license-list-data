@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-01-01T17:55:52Z",
+            "spdx:timestamp": "2023-01-02T15:35:40Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-01-01T17:55:52Z",
+            "spdx:timestamp": "2023-01-02T15:35:40Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -58,6 +58,10 @@
                 "http://fairlicense.org/",
                 "https://opensource.org/licenses/Fair"
             ],
+            "spdx:isOsiApproved": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
             "spdx:crossRef": [
                 {
                     "@id": "_:b1"
@@ -66,10 +70,6 @@
                     "@id": "_:b0"
                 }
             ],
-            "spdx:isOsiApproved": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
             "spdx:name": "Fair License",
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<beginOptional>>Fair License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"<Copyright Information>  \";match=\".{0,5000}\">>\n\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\n\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.\n\n",
