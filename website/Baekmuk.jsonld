@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-01-02T15:34:26Z",
+            "spdx:timestamp": "2023-01-05T16:32:47Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/Baekmuk",
             "spdx:licenseId": "Baekmuk",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:name": "Baekmuk License",
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "",
@@ -35,9 +38,6 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:standardLicenseHeader": "none",
             "spdx:standardLicenseHeaderTemplate": "none",
