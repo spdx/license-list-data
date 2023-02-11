@@ -2,30 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-02-11T00:01:17Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://opensource.org/licenses/PostgreSQL",
-            "spdx:match": "N/A",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-02-11T00:01:16Z",
+            "spdx:timestamp": "2023-02-11T00:16:37Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,11 +24,30 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-02-11T00:16:38Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://opensource.org/licenses/PostgreSQL",
+            "spdx:match": "N/A",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/PostgreSQL",
-            "rdfs:seeAlso": [
-                "http://www.postgresql.org/about/licence",
-                "https://opensource.org/licenses/PostgreSQL"
-            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -59,6 +55,10 @@
                 {
                     "@id": "_:b1"
                 }
+            ],
+            "rdfs:seeAlso": [
+                "http://www.postgresql.org/about/licence",
+                "https://opensource.org/licenses/PostgreSQL"
             ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
