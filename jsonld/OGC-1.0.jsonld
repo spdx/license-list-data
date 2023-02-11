@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-02-10T21:42:29Z",
+            "spdx:timestamp": "2023-02-10T23:59:53Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/OGC-1.0",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:name": "OGC Software License, Version 1.0",
             "rdfs:seeAlso": "https://www.ogc.org/ogc/software/1.0",
             "spdx:licenseId": "OGC-1.0",
@@ -42,7 +39,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {

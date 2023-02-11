@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version dfb4ac3
+The following licenses have been generated from the license list version 9a19077
 
 ## Licenses with Short Idenifiers
 
@@ -462,6 +462,7 @@ The following licenses have been generated from the license list version dfb4ac3
 | W3C Software Notice and License (2002-12-31)                                  | [W3C][]                                  | Y    | Y         |
 | W3C Software Notice and License (1998-07-20)                                  | [W3C-19980720][]                         |      |           |
 | W3C Software Notice and Document License (2015-05-13)                         | [W3C-20150513][]                         |      |           |
+| w3m License                                                                   | [w3m][]                                  |      |           |
 | Sybase Open Watcom Public License 1.0                                         | [Watcom-1.0][]                           | Y    |           |
 | Wsuipa License                                                                | [Wsuipa][]                               |      |           |
 | Do What The F*ck You Want To Public License                                   | [WTFPL][]                                |      | Y         |
@@ -1057,6 +1058,7 @@ The following licenses have been generated from the license list version dfb4ac3
 [W3C]: text/W3C.txt
 [W3C-19980720]: text/W3C-19980720.txt
 [W3C-20150513]: text/W3C-20150513.txt
+[w3m]: text/w3m.txt
 [Watcom-1.0]: text/Watcom-1.0.txt
 [Wsuipa]: text/Wsuipa.txt
 [WTFPL]: text/WTFPL.txt
