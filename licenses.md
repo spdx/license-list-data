@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3259537
+The following licenses have been generated from the license list version a4acb3c
 
 ## Licenses with Short Idenifiers
 
@@ -70,6 +70,7 @@ The following licenses have been generated from the license list version 3259537
 | BSD 4-Clause "Original" or "Old" License                                      | [BSD-4-Clause][]                         |      | Y         |
 | BSD 4 Clause Shortened                                                        | [BSD-4-Clause-Shortened][]               |      |           |
 | BSD-4-Clause (University of California-Specific)                              | [BSD-4-Clause-UC][]                      |      |           |
+| BSD 4.3 TAHOE License                                                         | [BSD-4.3TAHOE][]                         |      |           |
 | BSD Protection License                                                        | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                   | [BSD-Source-Code][]                      |      |           |
 | Boost Software License 1.0                                                    | [BSL-1.0][]                              | Y    | Y         |
@@ -642,6 +643,7 @@ The following licenses have been generated from the license list version 3259537
 [BSD-4-Clause]: text/BSD-4-Clause.txt
 [BSD-4-Clause-Shortened]: text/BSD-4-Clause-Shortened.txt
 [BSD-4-Clause-UC]: text/BSD-4-Clause-UC.txt
+[BSD-4.3TAHOE]: text/BSD-4.3TAHOE.txt
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSL-1.0]: text/BSL-1.0.txt
