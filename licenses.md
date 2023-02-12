@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3cf8240
+The following licenses have been generated from the license list version f05d4c8
 
 ## Licenses with Short Idenifiers
 
@@ -261,8 +261,10 @@ The following licenses have been generated from the license list version 3cf8240
 | ISC License                                                                   | [ISC][]                                  | Y    | Y         |
 | Jam License                                                                   | [Jam][]                                  | Y    |           |
 | JasPer License                                                                | [JasPer-2.0][]                           |      |           |
+| JPL Image Use Policy                                                          | [JPL-image][]                            |      |           |
 | Japan Network Information Center License                                      | [JPNIC][]                                |      |           |
 | JSON License                                                                  | [JSON][]                                 |      |           |
+| Kazlib License                                                                | [Kazlib][]                               |      |           |
 | Knuth CTAN License                                                            | [Knuth-CTAN][]                           |      |           |
 | Licence Art Libre 1.2                                                         | [LAL-1.2][]                              |      |           |
 | Licence Art Libre 1.3                                                         | [LAL-1.3][]                              |      |           |
@@ -540,6 +542,7 @@ The following licenses have been generated from the license list version 3cf8240
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
+| SWI exception                                         | [SWI-exception][]                        |
 | Swift Exception                                       | [Swift-exception][]                      |
 | U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
 | Universal FOSS Exception, Version 1.0                 | [Universal-FOSS-exception-1.0][]         |
@@ -860,8 +863,10 @@ The following licenses have been generated from the license list version 3cf8240
 [ISC]: text/ISC.txt
 [Jam]: text/Jam.txt
 [JasPer-2.0]: text/JasPer-2.0.txt
+[JPL-image]: text/JPL-image.txt
 [JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
+[Kazlib]: text/Kazlib.txt
 [Knuth-CTAN]: text/Knuth-CTAN.txt
 [LAL-1.2]: text/LAL-1.2.txt
 [LAL-1.3]: text/LAL-1.3.txt
@@ -1144,6 +1149,7 @@ The following licenses have been generated from the license list version 3cf8240
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
 [SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
+[SWI-exception]: text/SWI-exception.txt
 [Swift-exception]: text/Swift-exception.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
 [Universal-FOSS-exception-1.0]: text/Universal-FOSS-exception-1.0.txt
