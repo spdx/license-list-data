@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version dab4d60
+The following licenses have been generated from the license list version 7e5527c
 
 ## Licenses with Short Idenifiers
 
@@ -352,6 +352,7 @@ The following licenses have been generated from the license list version dab4d60
 | OCLC Research Public License 2.0                                              | [OCLC-2.0][]                             | Y    |           |
 | Open Data Commons Open Database License v1.0                                  | [ODbL-1.0][]                             |      | Y         |
 | Open Data Commons Attribution License v1.0                                    | [ODC-By-1.0][]                           |      |           |
+| OFFIS License                                                                 | [OFFIS][]                                |      |           |
 | SIL Open Font License 1.0                                                     | [OFL-1.0][]                              |      | Y         |
 | SIL Open Font License 1.0 with no Reserved Font Name                          | [OFL-1.0-no-RFN][]                       |      |           |
 | SIL Open Font License 1.0 with Reserved Font Name                             | [OFL-1.0-RFN][]                          |      |           |
@@ -953,6 +954,7 @@ The following licenses have been generated from the license list version dab4d60
 [OCLC-2.0]: text/OCLC-2.0.txt
 [ODbL-1.0]: text/ODbL-1.0.txt
 [ODC-By-1.0]: text/ODC-By-1.0.txt
+[OFFIS]: text/OFFIS.txt
 [OFL-1.0]: text/OFL-1.0.txt
 [OFL-1.0-no-RFN]: text/OFL-1.0-no-RFN.txt
 [OFL-1.0-RFN]: text/OFL-1.0-RFN.txt
