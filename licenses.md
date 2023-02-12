@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version a4acb3c
+The following licenses have been generated from the license list version dab4d60
 
 ## Licenses with Short Idenifiers
 
@@ -152,6 +152,7 @@ The following licenses have been generated from the license list version a4acb3c
 | CFITSIO License                                                               | [CFITSIO][]                              |      |           |
 | Checkmk License                                                               | [checkmk][]                              |      |           |
 | Clarified Artistic License                                                    | [ClArtistic][]                           |      | Y         |
+| CMU Mach License                                                              | [CMU-Mach][]                             |      |           |
 | CNRI Jython License                                                           | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                           | [CNRI-Python][]                          | Y    |           |
 | CNRI Python Open Source GPL Compatible License Agreement                      | [CNRI-Python-GPL-Compatible][]           |      |           |
@@ -432,6 +433,7 @@ The following licenses have been generated from the license list version a4acb3c
 | Standard ML of New Jersey License                                             | [SMLNJ][]                                |      | Y         |
 | Secure Messaging Protocol Public License                                      | [SMPPL][]                                |      |           |
 | SNIA Public License 1.1                                                       | [SNIA][]                                 |      |           |
+| snprintf License                                                              | [snprintf][]                             |      |           |
 | Spencer License 86                                                            | [Spencer-86][]                           |      |           |
 | Spencer License 94                                                            | [Spencer-94][]                           |      |           |
 | Spencer License 99                                                            | [Spencer-99][]                           |      |           |
@@ -474,6 +476,7 @@ The following licenses have been generated from the license list version a4acb3c
 | Xerox License                                                                 | [Xerox][]                                |      |           |
 | XFree86 License 1.1                                                           | [XFree86-1.1][]                          |      | Y         |
 | xinetd License                                                                | [xinetd][]                               |      | Y         |
+| xlock License                                                                 | [xlock][]                                |      |           |
 | X.Net License                                                                 | [Xnet][]                                 | Y    |           |
 | XPP License                                                                   | [xpp][]                                  |      |           |
 | XSkat License                                                                 | [XSkat][]                                |      |           |
@@ -726,6 +729,7 @@ The following licenses have been generated from the license list version a4acb3c
 [CFITSIO]: text/CFITSIO.txt
 [checkmk]: text/checkmk.txt
 [ClArtistic]: text/ClArtistic.txt
+[CMU-Mach]: text/CMU-Mach.txt
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
 [CNRI-Python-GPL-Compatible]: text/CNRI-Python-GPL-Compatible.txt
@@ -1030,6 +1034,7 @@ The following licenses have been generated from the license list version a4acb3c
 [SMLNJ]: text/SMLNJ.txt
 [SMPPL]: text/SMPPL.txt
 [SNIA]: text/SNIA.txt
+[snprintf]: text/snprintf.txt
 [Spencer-86]: text/Spencer-86.txt
 [Spencer-94]: text/Spencer-94.txt
 [Spencer-99]: text/Spencer-99.txt
@@ -1074,6 +1079,7 @@ The following licenses have been generated from the license list version a4acb3c
 [Xerox]: text/Xerox.txt
 [XFree86-1.1]: text/XFree86-1.1.txt
 [xinetd]: text/xinetd.txt
+[xlock]: text/xlock.txt
 [Xnet]: text/Xnet.txt
 [xpp]: text/xpp.txt
 [XSkat]: text/XSkat.txt
