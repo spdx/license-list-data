@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 7e5527c
+The following licenses have been generated from the license list version 3cf8240
 
 ## Licenses with Short Idenifiers
 
@@ -70,6 +70,7 @@ The following licenses have been generated from the license list version 7e5527c
 | BSD 4-Clause "Original" or "Old" License                                      | [BSD-4-Clause][]                         |      | Y         |
 | BSD 4 Clause Shortened                                                        | [BSD-4-Clause-Shortened][]               |      |           |
 | BSD-4-Clause (University of California-Specific)                              | [BSD-4-Clause-UC][]                      |      |           |
+| BSD 4.3 RENO License                                                          | [BSD-4.3RENO][]                          |      |           |
 | BSD 4.3 TAHOE License                                                         | [BSD-4.3TAHOE][]                         |      |           |
 | BSD Protection License                                                        | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                   | [BSD-Source-Code][]                      |      |           |
@@ -239,6 +240,7 @@ The following licenses have been generated from the license list version 7e5527c
 | gSOAP Public License v1.3b                                                    | [gSOAP-1.3b][]                           |      |           |
 | Haskell Language Report License                                               | [HaskellReport][]                        |      |           |
 | Hippocratic License 2.1                                                       | [Hippocratic-2.1][]                      |      |           |
+| Hewlett-Packard 1986 License                                                  | [HP-1986][]                              |      |           |
 | Historical Permission Notice and Disclaimer                                   | [HPND][]                                 | Y    | Y         |
 | HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                    | [HPND-sell-variant][]                    |      |           |
@@ -294,6 +296,7 @@ The following licenses have been generated from the license list version 7e5527c
 | LZMA SDK License (versions 9.11 to 9.20)                                      | [LZMA-SDK-9.11-to-9.20][]                |      |           |
 | LZMA SDK License (versions 9.22 and beyond)                                   | [LZMA-SDK-9.22][]                        |      |           |
 | MakeIndex License                                                             | [MakeIndex][]                            |      |           |
+| Martin Birgmeier License                                                      | [Martin-Birgmeier][]                     |      |           |
 | Minpack License                                                               | [Minpack][]                              |      |           |
 | The MirOS Licence                                                             | [MirOS][]                                | Y    |           |
 | MIT License                                                                   | [MIT][]                                  | Y    | Y         |
@@ -456,6 +459,7 @@ The following licenses have been generated from the license list version 7e5527c
 | Text-Tabs+Wrap License                                                        | [TTWL][]                                 |      |           |
 | Technische Universitaet Berlin License 1.0                                    | [TU-Berlin-1.0][]                        |      |           |
 | Technische Universitaet Berlin License 2.0                                    | [TU-Berlin-2.0][]                        |      |           |
+| UCAR License                                                                  | [UCAR][]                                 |      |           |
 | Upstream Compatibility License v1.0                                           | [UCL-1.0][]                              | Y    |           |
 | Unicode License Agreement - Data Files and Software (2015)                    | [Unicode-DFS-2015][]                     |      |           |
 | Unicode License Agreement - Data Files and Software (2016)                    | [Unicode-DFS-2016][]                     | Y    |           |
@@ -647,6 +651,7 @@ The following licenses have been generated from the license list version 7e5527c
 [BSD-4-Clause]: text/BSD-4-Clause.txt
 [BSD-4-Clause-Shortened]: text/BSD-4-Clause-Shortened.txt
 [BSD-4-Clause-UC]: text/BSD-4-Clause-UC.txt
+[BSD-4.3RENO]: text/BSD-4.3RENO.txt
 [BSD-4.3TAHOE]: text/BSD-4.3TAHOE.txt
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
@@ -834,6 +839,7 @@ The following licenses have been generated from the license list version 7e5527c
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
 [HaskellReport]: text/HaskellReport.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
+[HP-1986]: text/HP-1986.txt
 [HPND]: text/HPND.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
@@ -895,6 +901,7 @@ The following licenses have been generated from the license list version 7e5527c
 [LZMA-SDK-9.11-to-9.20]: text/LZMA-SDK-9.11-to-9.20.txt
 [LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
 [MakeIndex]: text/MakeIndex.txt
+[Martin-Birgmeier]: text/Martin-Birgmeier.txt
 [Minpack]: text/Minpack.txt
 [MirOS]: text/MirOS.txt
 [MIT]: text/MIT.txt
@@ -1059,6 +1066,7 @@ The following licenses have been generated from the license list version 7e5527c
 [TTWL]: text/TTWL.txt
 [TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
 [TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
+[UCAR]: text/UCAR.txt
 [UCL-1.0]: text/UCL-1.0.txt
 [Unicode-DFS-2015]: text/Unicode-DFS-2015.txt
 [Unicode-DFS-2016]: text/Unicode-DFS-2016.txt

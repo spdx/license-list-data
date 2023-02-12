@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/Martin-Birgmeier>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://github.com/Perl/perl5/blob/blead/util.c#L6136" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-02-12T23:10:44Z" ;
+                                        spdx:url            "https://github.com/Perl/perl5/blob/blead/util.c#L6136"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "Martin-Birgmeier" ;
+        spdx:licenseText              "Copyright (c) 1993 Martin Birgmeier All rights reserved. \n\nYou may redistribute unmodified or modified versions of this source code provided that the above copyright notice and this and the following conditions are retained. \n\nThis software is provided ``as is'', and comes with no warranties of any kind. I shall in no event be liable for anything that happens to anyone/anything when using this software.\n" ;
+        spdx:licenseTextHtml          "\n         <var class=\"replaceable-license-text\"> \n            Copyright (c) 1993 Martin Birgmeier All rights reserved.\n         </var>\n         <p>\n            You may redistribute unmodified or modified versions of\n            this source code provided that the above copyright notice\n            and this and the following conditions are retained.\n         </p>\n\n         <p>\n            This software is provided ``as is&apos;&apos;, and comes with no warranties\n            of any kind. I shall in no event be liable for anything\n            that happens to anyone/anything when using this software.\n         </p>\n\n      " ;
+        spdx:name                     "Martin Birgmeier License" ;
+        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright (c) 1993 Martin Birgmeier All rights reserved.\";match=\".{0,5000}\">>\n\nYou may redistribute unmodified or modified versions of this source code provided that the above copyright notice and this and the following conditions are retained.\n\nThis software is provided ``as is'', and comes with no warranties of any kind. I shall in no event be liable for anything that happens to anyone/anything when using this software.\n\n" .
