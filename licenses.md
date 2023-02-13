@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 64b5989
+The following licenses have been generated from the license list version d485ee5
 
 ## Licenses with Short Idenifiers
 
@@ -8,6 +8,7 @@ The following licenses have been generated from the license list version 64b5989
 | BSD Zero Clause License                                                       | [0BSD][]                                 | Y    |           |
 | Attribution Assurance License                                                 | [AAL][]                                  | Y    |           |
 | Abstyles License                                                              | [Abstyles][]                             |      |           |
+| AdaCore Doc License                                                           | [AdaCore-doc][]                          |      |           |
 | Adobe Systems Incorporated Source Code License Agreement                      | [Adobe-2006][]                           |      |           |
 | Adobe Glyph List License                                                      | [Adobe-Glyph][]                          |      |           |
 | Amazon Digital Services License                                               | [ADSL][]                                 |      |           |
@@ -461,6 +462,7 @@ The following licenses have been generated from the license list version 64b5989
 | TORQUE v2.5+ Software License v1.1                                            | [TORQUE-1.1][]                           |      |           |
 | Trusster Open Source License                                                  | [TOSL][]                                 |      |           |
 | Time::ParseDate License                                                       | [TPDL][]                                 |      |           |
+| THOR Public License 1.0                                                       | [TPL-1.0][]                              |      |           |
 | Text-Tabs+Wrap License                                                        | [TTWL][]                                 |      |           |
 | Technische Universitaet Berlin License 1.0                                    | [TU-Berlin-1.0][]                        |      |           |
 | Technische Universitaet Berlin License 2.0                                    | [TU-Berlin-2.0][]                        |      |           |
@@ -540,6 +542,7 @@ The following licenses have been generated from the license list version 64b5989
 | OpenJDK Assembly exception 1.0                        | [OpenJDK-assembly-exception-1.0][]       |
 | OpenVPN OpenSSL Exception                             | [openvpn-openssl-exception][]            |
 | PS/PDF font exception (2017-08-17)                    | [PS-or-PDF-font-exception-20170817][]    |
+| INRIA QPL 1.0 2004 variant exception                  | [QPL-1.0-INRIA-2004-exception][]         |
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
@@ -591,6 +594,7 @@ The following licenses have been generated from the license list version 64b5989
 [0BSD]: text/0BSD.txt
 [AAL]: text/AAL.txt
 [Abstyles]: text/Abstyles.txt
+[AdaCore-doc]: text/AdaCore-doc.txt
 [Adobe-2006]: text/Adobe-2006.txt
 [Adobe-Glyph]: text/Adobe-Glyph.txt
 [ADSL]: text/ADSL.txt
@@ -1074,6 +1078,7 @@ The following licenses have been generated from the license list version 64b5989
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
 [TPDL]: text/TPDL.txt
+[TPL-1.0]: text/TPL-1.0.txt
 [TTWL]: text/TTWL.txt
 [TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
 [TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
@@ -1150,6 +1155,7 @@ The following licenses have been generated from the license list version 64b5989
 [OpenJDK-assembly-exception-1.0]: text/OpenJDK-assembly-exception-1.0.txt
 [openvpn-openssl-exception]: text/openvpn-openssl-exception.txt
 [PS-or-PDF-font-exception-20170817]: text/PS-or-PDF-font-exception-20170817.txt
+[QPL-1.0-INRIA-2004-exception]: text/QPL-1.0-INRIA-2004-exception.txt
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
