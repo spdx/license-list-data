@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f05d4c8
+The following licenses have been generated from the license list version 64b5989
 
 ## Licenses with Short Idenifiers
 
@@ -72,6 +72,7 @@ The following licenses have been generated from the license list version f05d4c8
 | BSD-4-Clause (University of California-Specific)                              | [BSD-4-Clause-UC][]                      |      |           |
 | BSD 4.3 RENO License                                                          | [BSD-4.3RENO][]                          |      |           |
 | BSD 4.3 TAHOE License                                                         | [BSD-4.3TAHOE][]                         |      |           |
+| BSD Advertising Acknowledgement License                                       | [BSD-Advertising-Acknowledgement][]      |      |           |
 | BSD Protection License                                                        | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                   | [BSD-Source-Code][]                      |      |           |
 | Boost Software License 1.0                                                    | [BSL-1.0][]                              | Y    | Y         |
@@ -244,6 +245,7 @@ The following licenses have been generated from the license list version f05d4c8
 | Historical Permission Notice and Disclaimer                                   | [HPND][]                                 | Y    | Y         |
 | HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                    | [HPND-sell-variant][]                    |      |           |
+| HPND sell variant with MIT disclaimer                                         | [HPND-sell-variant-MIT-disclaimer][]     |      |           |
 | HTML Tidy License                                                             | [HTMLTIDY][]                             |      |           |
 | IBM PowerPC Initialization and Boot Software                                  | [IBM-pibs][]                             |      |           |
 | ICU License                                                                   | [ICU][]                                  |      |           |
@@ -388,6 +390,7 @@ The following licenses have been generated from the license list version f05d4c8
 | Open LDAP Public License v2.7                                                 | [OLDAP-2.7][]                            |      | Y         |
 | Open LDAP Public License v2.8                                                 | [OLDAP-2.8][]                            | Y    |           |
 | Open Market License                                                           | [OML][]                                  |      |           |
+| OpenPBS v2.3 Software License                                                 | [OpenPBS-2.3][]                          |      |           |
 | OpenSSL License                                                               | [OpenSSL][]                              |      | Y         |
 | Open Public License v1.0                                                      | [OPL-1.0][]                              |      |           |
 | Open Publication License v1.0                                                 | [OPUBL-1.0][]                            |      |           |
@@ -656,6 +659,7 @@ The following licenses have been generated from the license list version f05d4c8
 [BSD-4-Clause-UC]: text/BSD-4-Clause-UC.txt
 [BSD-4.3RENO]: text/BSD-4.3RENO.txt
 [BSD-4.3TAHOE]: text/BSD-4.3TAHOE.txt
+[BSD-Advertising-Acknowledgement]: text/BSD-Advertising-Acknowledgement.txt
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSL-1.0]: text/BSL-1.0.txt
@@ -846,6 +850,7 @@ The following licenses have been generated from the license list version f05d4c8
 [HPND]: text/HPND.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
+[HPND-sell-variant-MIT-disclaimer]: text/HPND-sell-variant-MIT-disclaimer.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
 [IBM-pibs]: text/IBM-pibs.txt
 [ICU]: text/ICU.txt
@@ -997,6 +1002,7 @@ The following licenses have been generated from the license list version f05d4c8
 [OLDAP-2.7]: text/OLDAP-2.7.txt
 [OLDAP-2.8]: text/OLDAP-2.8.txt
 [OML]: text/OML.txt
+[OpenPBS-2.3]: text/OpenPBS-2.3.txt
 [OpenSSL]: text/OpenSSL.txt
 [OPL-1.0]: text/OPL-1.0.txt
 [OPUBL-1.0]: text/OPUBL-1.0.txt
