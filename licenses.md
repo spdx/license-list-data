@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 60a63d7
+The following licenses have been generated from the license list version 9b52a73
 
 ## Licenses with Short Idenifiers
 
@@ -74,6 +74,7 @@ The following licenses have been generated from the license list version 60a63d7
 | BSD 4.3 RENO License                                                          | [BSD-4.3RENO][]                          |      |           |
 | BSD 4.3 TAHOE License                                                         | [BSD-4.3TAHOE][]                         |      |           |
 | BSD Advertising Acknowledgement License                                       | [BSD-Advertising-Acknowledgement][]      |      |           |
+| BSD with Attribution and HPND disclaimer                                      | [BSD-Attribution-HPND-disclaimer][]      |      |           |
 | BSD Protection License                                                        | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                   | [BSD-Source-Code][]                      |      |           |
 | Boost Software License 1.0                                                    | [BSL-1.0][]                              | Y    | Y         |
@@ -664,6 +665,7 @@ The following licenses have been generated from the license list version 60a63d7
 [BSD-4.3RENO]: text/BSD-4.3RENO.txt
 [BSD-4.3TAHOE]: text/BSD-4.3TAHOE.txt
 [BSD-Advertising-Acknowledgement]: text/BSD-Advertising-Acknowledgement.txt
+[BSD-Attribution-HPND-disclaimer]: text/BSD-Attribution-HPND-disclaimer.txt
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSL-1.0]: text/BSL-1.0.txt

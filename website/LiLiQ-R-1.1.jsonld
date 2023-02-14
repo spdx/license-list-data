@@ -1,29 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "spdx:timestamp": "2023-02-13T16:51:01Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/",
-            "spdx:match": "N/A",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/LiLiQ-R-1.1",
             "spdx:isOsiApproved": {
                 "@value": "true",
@@ -33,6 +10,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "rdfs:seeAlso": [
+                "http://opensource.org/licenses/LiLiQ-R-1.1",
+                "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/"
+            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -40,10 +21,6 @@
                 {
                     "@id": "_:b1"
                 }
-            ],
-            "rdfs:seeAlso": [
-                "http://opensource.org/licenses/LiLiQ-R-1.1",
-                "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/"
             ],
             "rdfs:comment": "French is the canonical language for this license. An English translation is provided here: https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-in-english/quebec-free-and-open-source-licence-reciprocity-liliq-r-v1-1/",
             "spdx:name": "Licence Libre du Québec – Réciprocité version 1.1",
@@ -54,8 +31,8 @@
             "@type": "spdx:ListedLicense"
         },
         {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-02-13T16:51:01Z",
+            "@id": "_:b0",
+            "spdx:timestamp": "2023-02-14T03:42:32Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -72,6 +49,29 @@
             },
             "spdx:isLive": {
                 "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-02-14T03:42:32Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://www.forge.gouv.qc.ca/participez/licence-logicielle/licence-libre-du-quebec-liliq-en-francais/licence-libre-du-quebec-reciprocite-liliq-r-v1-1/",
+            "spdx:match": "N/A",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
