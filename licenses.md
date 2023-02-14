@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 9b52a73
+The following licenses have been generated from the license list version 164e6f1
 
 ## Licenses with Short Idenifiers
 
@@ -54,6 +54,7 @@ The following licenses have been generated from the license list version 9b52a73
 | SQLite Blessing                                                               | [blessing][]                             |      |           |
 | Blue Oak Model License 1.0.0                                                  | [BlueOak-1.0.0][]                        |      |           |
 | Borceux license                                                               | [Borceux][]                              |      |           |
+| Brian Gladman 3-Clause License                                                | [Brian-Gladman-3-Clause][]               |      |           |
 | BSD 1-Clause License                                                          | [BSD-1-Clause][]                         | Y    |           |
 | BSD 2-Clause "Simplified" License                                             | [BSD-2-Clause][]                         | Y    | Y         |
 | BSD-2-Clause Plus Patent License                                              | [BSD-2-Clause-Patent][]                  | Y    |           |
@@ -156,6 +157,7 @@ The following licenses have been generated from the license list version 9b52a73
 | CFITSIO License                                                               | [CFITSIO][]                              |      |           |
 | Checkmk License                                                               | [checkmk][]                              |      |           |
 | Clarified Artistic License                                                    | [ClArtistic][]                           |      | Y         |
+| Clips License                                                                 | [Clips][]                                |      |           |
 | CMU Mach License                                                              | [CMU-Mach][]                             |      |           |
 | CNRI Jython License                                                           | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                           | [CNRI-Python][]                          | Y    |           |
@@ -246,6 +248,7 @@ The following licenses have been generated from the license list version 9b52a73
 | Hewlett-Packard 1986 License                                                  | [HP-1986][]                              |      |           |
 | Historical Permission Notice and Disclaimer                                   | [HPND][]                                 | Y    | Y         |
 | HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
+| Historical Permission Notice and Disclaimer - Markus Kuhn variant             | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                    | [HPND-sell-variant][]                    |      |           |
 | HPND sell variant with MIT disclaimer                                         | [HPND-sell-variant-MIT-disclaimer][]     |      |           |
 | HTML Tidy License                                                             | [HTMLTIDY][]                             |      |           |
@@ -524,6 +527,7 @@ The following licenses have been generated from the license list version 9b52a73
 | FreeRTOS Exception 2.0                                | [freertos-exception-2.0][]               |
 | GCC Runtime Library exception 2.0                     | [GCC-exception-2.0][]                    |
 | GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
+| GNAT exception                                        | [GNAT-exception][]                       |
 | GNU JavaMail exception                                | [gnu-javamail-exception][]               |
 | GPL-3.0 Linking Exception                             | [GPL-3.0-linking-exception][]            |
 | GPL-3.0 Linking Exception (with Corresponding Source) | [GPL-3.0-linking-source-exception][]     |
@@ -643,6 +647,7 @@ The following licenses have been generated from the license list version 9b52a73
 [blessing]: text/blessing.txt
 [BlueOak-1.0.0]: text/BlueOak-1.0.0.txt
 [Borceux]: text/Borceux.txt
+[Brian-Gladman-3-Clause]: text/Brian-Gladman-3-Clause.txt
 [BSD-1-Clause]: text/BSD-1-Clause.txt
 [BSD-2-Clause]: text/BSD-2-Clause.txt
 [BSD-2-Clause-FreeBSD]: text/BSD-2-Clause-FreeBSD.txt
@@ -748,6 +753,7 @@ The following licenses have been generated from the license list version 9b52a73
 [CFITSIO]: text/CFITSIO.txt
 [checkmk]: text/checkmk.txt
 [ClArtistic]: text/ClArtistic.txt
+[Clips]: text/Clips.txt
 [CMU-Mach]: text/CMU-Mach.txt
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
@@ -855,6 +861,7 @@ The following licenses have been generated from the license list version 9b52a73
 [HP-1986]: text/HP-1986.txt
 [HPND]: text/HPND.txt
 [HPND-export-US]: text/HPND-export-US.txt
+[HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
 [HPND-sell-variant-MIT-disclaimer]: text/HPND-sell-variant-MIT-disclaimer.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
@@ -1137,6 +1144,7 @@ The following licenses have been generated from the license list version 9b52a73
 [freertos-exception-2.0]: text/freertos-exception-2.0.txt
 [GCC-exception-2.0]: text/GCC-exception-2.0.txt
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
+[GNAT-exception]: text/GNAT-exception.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
 [GPL-3.0-linking-exception]: text/GPL-3.0-linking-exception.txt
 [GPL-3.0-linking-source-exception]: text/GPL-3.0-linking-source-exception.txt
