@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8cfeceb
+The following licenses have been generated from the license list version 3523687
 
 ## Licenses with Short Idenifiers
 
@@ -254,6 +254,7 @@ The following licenses have been generated from the license list version 8cfeceb
 | HTML Tidy License                                                             | [HTMLTIDY][]                             |      |           |
 | IBM PowerPC Initialization and Boot Software                                  | [IBM-pibs][]                             |      |           |
 | ICU License                                                                   | [ICU][]                                  |      |           |
+| IEC    Code Components End-user licence agreement                             | [IEC-Code-Components-EULA][]             |      |           |
 | Independent JPEG Group License                                                | [IJG][]                                  |      | Y         |
 | Independent JPEG Group License - short                                        | [IJG-short][]                            |      |           |
 | ImageMagick License                                                           | [ImageMagick][]                          |      |           |
@@ -868,6 +869,7 @@ The following licenses have been generated from the license list version 8cfeceb
 [HTMLTIDY]: text/HTMLTIDY.txt
 [IBM-pibs]: text/IBM-pibs.txt
 [ICU]: text/ICU.txt
+[IEC-Code-Components-EULA]: text/IEC-Code-Components-EULA.txt
 [IJG]: text/IJG.txt
 [IJG-short]: text/IJG-short.txt
 [ImageMagick]: text/ImageMagick.txt
