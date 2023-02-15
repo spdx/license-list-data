@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3523687
+The following licenses have been generated from the license list version fa74ec0
 
 ## Licenses with Short Idenifiers
 
@@ -517,6 +517,7 @@ The following licenses have been generated from the license list version 3523687
 | 389 Directory Server Exception                        | [389-exception][]                        |
 | Autoconf exception 2.0                                | [Autoconf-exception-2.0][]               |
 | Autoconf exception 3.0                                | [Autoconf-exception-3.0][]               |
+| Autoconf generic exception                            | [Autoconf-exception-generic][]           |
 | Bison exception 2.2                                   | [Bison-exception-2.2][]                  |
 | Bootloader Distribution Exception                     | [Bootloader-exception][]                 |
 | Classpath exception 2.0                               | [Classpath-exception-2.0][]              |
@@ -1136,6 +1137,7 @@ The following licenses have been generated from the license list version 3523687
 [389-exception]: text/389-exception.txt
 [Autoconf-exception-2.0]: text/Autoconf-exception-2.0.txt
 [Autoconf-exception-3.0]: text/Autoconf-exception-3.0.txt
+[Autoconf-exception-generic]: text/Autoconf-exception-generic.txt
 [Bison-exception-2.2]: text/Bison-exception-2.2.txt
 [Bootloader-exception]: text/Bootloader-exception.txt
 [Classpath-exception-2.0]: text/Classpath-exception-2.0.txt
