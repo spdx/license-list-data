@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e1b9486
+The following licenses have been generated from the license list version 8cfeceb
 
 ## Licenses with Short Idenifiers
 
@@ -421,6 +421,7 @@ The following licenses have been generated from the license list version e1b9486
 | Python License 2.0.1                                                          | [Python-2.0.1][]                         |      |           |
 | Qhull License                                                                 | [Qhull][]                                |      |           |
 | Q Public License 1.0                                                          | [QPL-1.0][]                              | Y    | Y         |
+| Q Public License 1.0 - INRIA 2004 variant                                     | [QPL-1.0-INRIA-2004][]                   |      |           |
 | Rdisc License                                                                 | [Rdisc][]                                |      |           |
 | Red Hat eCos Public License v1.1                                              | [RHeCos-1.1][]                           |      |           |
 | Reciprocal Public License 1.1                                                 | [RPL-1.1][]                              | Y    |           |
@@ -1041,6 +1042,7 @@ The following licenses have been generated from the license list version e1b9486
 [Python-2.0.1]: text/Python-2.0.1.txt
 [Qhull]: text/Qhull.txt
 [QPL-1.0]: text/QPL-1.0.txt
+[QPL-1.0-INRIA-2004]: text/QPL-1.0-INRIA-2004.txt
 [Rdisc]: text/Rdisc.txt
 [RHeCos-1.1]: text/RHeCos-1.1.txt
 [RPL-1.1]: text/RPL-1.1.txt
