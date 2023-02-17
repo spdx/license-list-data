@@ -1,8 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/BSD-4.3RENO",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:name": "BSD 4.3 RENO License",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseText": "Copyright (c) 1987 Regents of the University of California.\nAll rights reserved.\n\nRedistribution and use in source and binary forms are permitted\nprovided that this notice is preserved and that due credit is given\nto the University of California at Berkeley. The name of the University\nmay not be used to endorse or promote products derived from this\nsoftware without specific written prior permission. This software\nis provided ``as is'' without express or implied warranty.\n",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright (c) 1987 Regents of the University\n            of California. All rights reserved.\n         </var>\n         <p>\n            Redistribution and use in source and binary forms are permitted\n            provided that this notice is preserved and that due credit is\n            given to the University of California at Berkeley. The name of the\n            University may not be used to endorse or promote products derived\n            from this software without specific written prior permission. This\n            software is provided ``as is&apos;&apos; without express or implied warranty.\n         </p>\n\n      ",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseId": "BSD-4.3RENO",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1987 Regents of the University of California. All rights reserved.\";match=\".{0,5000}\">>\n\nRedistribution and use in source and binary forms are permitted provided that this notice is preserved and that due credit is given to the University of California at Berkeley. The name of the University may not be used to endorse or promote products derived from this software without specific written prior permission. This software is provided ``as is'' without express or implied warranty.\n\n"
+        },
+        {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-02-17T18:55:00Z",
+            "spdx:timestamp": "2023-02-17T20:37:35Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -22,27 +43,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/BSD-4.3RENO",
-            "spdx:licenseId": "BSD-4.3RENO",
-            "spdx:name": "BSD 4.3 RENO License",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseText": "Copyright (c) 1987 Regents of the University of California.\nAll rights reserved.\n\nRedistribution and use in source and binary forms are permitted\nprovided that this notice is preserved and that due credit is given\nto the University of California at Berkeley. The name of the University\nmay not be used to endorse or promote products derived from this\nsoftware without specific written prior permission. This software\nis provided ``as is'' without express or implied warranty.\n",
-            "@type": "spdx:ListedLicense",
-            "rdfs:seeAlso": "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright (c) 1987 Regents of the University\n            of California. All rights reserved.\n         </var>\n         <p>\n            Redistribution and use in source and binary forms are permitted\n            provided that this notice is preserved and that due credit is\n            given to the University of California at Berkeley. The name of the\n            University may not be used to endorse or promote products derived\n            from this software without specific written prior permission. This\n            software is provided ``as is&apos;&apos; without express or implied warranty.\n         </p>\n\n      ",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1987 Regents of the University of California. All rights reserved.\";match=\".{0,5000}\">>\n\nRedistribution and use in source and binary forms are permitted provided that this notice is preserved and that due credit is given to the University of California at Berkeley. The name of the University may not be used to endorse or promote products derived from this software without specific written prior permission. This software is provided ``as is'' without express or implied warranty.\n\n"
         }
     ],
     "@context": {
