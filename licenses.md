@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 872d7f5
+The following licenses have been generated from the license list version a032a3e
 
 ## Licenses with Short Idenifiers
 
@@ -167,6 +167,7 @@ The following licenses have been generated from the license list version 872d7f5
 | Condor Public License v1.1                                                    | [Condor-1.1][]                           |      | Y         |
 | copyleft-next 0.3.0                                                           | [copyleft-next-0.3.0][]                  |      |           |
 | copyleft-next 0.3.1                                                           | [copyleft-next-0.3.1][]                  |      |           |
+| Cornell Lossless JPEG License                                                 | [Cornell-Lossless-JPEG][]                |      |           |
 | Common Public Attribution License 1.0                                         | [CPAL-1.0][]                             | Y    | Y         |
 | Common Public License 1.0                                                     | [CPL-1.0][]                              | Y    | Y         |
 | Code Project Open License 1.02                                                | [CPOL-1.02][]                            |      |           |
@@ -766,6 +767,7 @@ The following licenses have been generated from the license list version 872d7f5
 [Condor-1.1]: text/Condor-1.1.txt
 [copyleft-next-0.3.0]: text/copyleft-next-0.3.0.txt
 [copyleft-next-0.3.1]: text/copyleft-next-0.3.1.txt
+[Cornell-Lossless-JPEG]: text/Cornell-Lossless-JPEG.txt
 [CPAL-1.0]: text/CPAL-1.0.txt
 [CPL-1.0]: text/CPL-1.0.txt
 [CPOL-1.02]: text/CPOL-1.02.txt

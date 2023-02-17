@@ -1,12 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/MPL-1.1",
-            "spdx:isOsiApproved": {
+            "@id": "_:b0",
+            "spdx:timestamp": "2023-02-17T18:57:30Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "http://www.mozilla.org/MPL/MPL-1.1.html",
+            "spdx:match": "true",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "rdfs:comment": "This license has been superseded by v2.0",
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/MPL-1.1",
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -15,6 +33,11 @@
                     "@id": "_:b1"
                 }
             ],
+            "spdx:isOsiApproved": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:comment": "This license has been superseded by v2.0",
             "rdfs:seeAlso": [
                 "http://www.mozilla.org/MPL/MPL-1.1.html",
                 "https://opensource.org/licenses/MPL-1.1"
@@ -38,31 +61,8 @@
             }
         },
         {
-            "@id": "_:b0",
-            "spdx:timestamp": "2023-02-16T23:41:43Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "http://www.mozilla.org/MPL/MPL-1.1.html",
-            "spdx:match": "true",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-02-16T23:41:43Z",
+            "spdx:timestamp": "2023-02-17T18:57:30Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
