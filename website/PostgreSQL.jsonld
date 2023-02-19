@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-02-17T21:00:34Z",
+            "spdx:timestamp": "2023-02-19T23:09:58Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/PostgreSQL",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "rdfs:seeAlso": [
                 "http://www.postgresql.org/about/licence",
                 "https://opensource.org/licenses/PostgreSQL"
@@ -34,14 +42,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseId": "PostgreSQL",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -54,7 +54,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-02-17T21:00:34Z",
+            "spdx:timestamp": "2023-02-19T23:09:58Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

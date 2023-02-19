@@ -1,41 +1,8 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/Zlib",
-            "spdx:name": "zlib License",
-            "rdfs:seeAlso": [
-                "https://opensource.org/licenses/Zlib",
-                "http://www.zlib.net/zlib_license.html"
-            ],
-            "spdx:standardLicenseTemplate": "<<beginOptional>>zlib License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>  \";match=\".{0,5000}\">>\n\nThis software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This notice may not be removed or altered from any source distribution.",
-            "spdx:licenseText": "zlib License\n\nThis software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     3. This notice may not be removed or altered from any source distribution.\n",
-            "spdx:isOsiApproved": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>zlib License</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"> \n         <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;</p>\n\n      </div>\n      <p>This software is provided &apos;as-is&apos;, without any express or implied warranty. In no event will the authors\n         be held liable for any damages arising from the use of this software.</p>\n\n      <p>Permission is granted to anyone to use this software for any purpose, including commercial applications,\n         and to alter it and redistribute it freely, subject to the following restrictions:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"> 1.</var>\n          The origin of this software must not be misrepresented; you must not claim that you wrote the\n             original software. If you use this software in a product, an acknowledgment in the product\n             documentation would be appreciated but is not required.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"> 2.</var>\n          Altered source versions must be plainly marked as such, and must not be misrepresented as being\n             the original software.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"> 3.</var>\n          This notice may not be removed or altered from any source distribution.\n        </li>\n      \n</ul>\n    ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
-            "spdx:isFsfLibre": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseId": "Zlib",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
-        },
-        {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-02-17T20:55:11Z",
+            "spdx:timestamp": "2023-02-19T23:04:25Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -57,8 +24,41 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "http://spdx.org/licenses/Zlib",
+            "spdx:name": "zlib License",
+            "rdfs:seeAlso": [
+                "https://opensource.org/licenses/Zlib",
+                "http://www.zlib.net/zlib_license.html"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "spdx:standardLicenseTemplate": "<<beginOptional>>zlib License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>  \";match=\".{0,5000}\">>\n\nThis software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This notice may not be removed or altered from any source distribution.",
+            "spdx:licenseText": "zlib License\n\nThis software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     3. This notice may not be removed or altered from any source distribution.\n",
+            "spdx:isOsiApproved": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>zlib License</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"> \n         <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;</p>\n\n      </div>\n      <p>This software is provided &apos;as-is&apos;, without any express or implied warranty. In no event will the authors\n         be held liable for any damages arising from the use of this software.</p>\n\n      <p>Permission is granted to anyone to use this software for any purpose, including commercial applications,\n         and to alter it and redistribute it freely, subject to the following restrictions:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"> 1.</var>\n          The origin of this software must not be misrepresented; you must not claim that you wrote the\n             original software. If you use this software in a product, an acknowledgment in the product\n             documentation would be appreciated but is not required.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"> 2.</var>\n          Altered source versions must be plainly marked as such, and must not be misrepresented as being\n             the original software.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"> 3.</var>\n          This notice may not be removed or altered from any source distribution.\n        </li>\n      \n</ul>\n    ",
+            "spdx:isFsfLibre": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseId": "Zlib",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        },
+        {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-02-17T20:55:11Z",
+            "spdx:timestamp": "2023-02-19T23:04:25Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
