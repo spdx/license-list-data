@@ -1,7 +1,38 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "spdx:timestamp": "2023-03-08T22:58:26Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://www.eclipse.org/org/documents/edl-v10.php",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/BSD-3-Clause",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -20,14 +51,6 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "rdfs:comment": "Note that the Eclipse Distribution License - v 1.0 (EDL 1.0) is a match to BSD-3-Clause, even though it uses a different name.",
             "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"> \n        <p>Copyright (c) &lt;year&gt; &lt;owner&gt;. </p>\n\n      </div>\n\n        <p>Redistribution and use in source and binary forms, with or without modification, <var class=\"replaceable-license-text\"> are</var> permitted provided\n         that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n            \n<li>\n                <var class=\"replaceable-license-text\"> 1.</var>\n                Redistributions of source code must retain the above copyright notice, this list of conditions\n                 and the following disclaimer.\n            </li>\n            \n<li>\n                <var class=\"replaceable-license-text\"> 2.</var>\n                Redistributions in binary form must reproduce the above copyright notice, this list of conditions\n                 and the following disclaimer in the documentation and/or other materials provided with the\n                 distribution.\n            </li>\n            \n<li>\n                <var class=\"replaceable-license-text\"> 3.</var>\n                <var class=\"replaceable-license-text\"> \n                 Neither the name of the copyright holder nor the names of its contributors may</var>\n                 be used to endorse or promote products derived from this\n                 software without specific prior written permission.\n            </li>\n        \n</ul>\n        <p>THIS SOFTWARE IS PROVIDED <var class=\"replaceable-license-text\"> BY THE COPYRIGHT HOLDERS AND\n         CONTRIBUTORS</var> &quot;AS IS&quot; AND ANY <var class=\"replaceable-license-text\"> EXPRESS</var> OR IMPLIED\n         WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\n         PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <var class=\"replaceable-license-text\"> THE\n         COPYRIGHT HOLDER OR CONTRIBUTORS</var> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY,\n         OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\n         LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n         WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY\n         OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>\n\n    ",
             "spdx:licenseText": "Copyright (c) <year> <owner>. \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
@@ -35,8 +58,8 @@
             "@type": "spdx:ListedLicense"
         },
         {
-            "@id": "_:b0",
-            "spdx:timestamp": "2023-03-08T19:14:55Z",
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-03-08T22:58:25Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -53,29 +76,6 @@
             },
             "spdx:isLive": {
                 "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-03-08T19:14:56Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://www.eclipse.org/org/documents/edl-v10.php",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
