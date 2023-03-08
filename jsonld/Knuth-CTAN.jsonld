@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-03-07T17:52:39Z",
+            "spdx:timestamp": "2023-03-08T19:08:57Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/Knuth-CTAN",
             "rdfs:seeAlso": "https://ctan.org/license/knuth",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -36,9 +39,6 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "rdfs:comment": "This license is very similar to Wsuipa.",
             "spdx:standardLicenseTemplate": "This software is copyrighted. Unlimited copying and redistribution of this package and/or its individual files are permitted as long as there are no modifications. Modifications, and redistribution of modifications, are also permitted, but only if the resulting package and/or files are renamed.\n\n",
