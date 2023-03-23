@@ -2,13 +2,13 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-03-22T15:30:37Z",
+            "spdx:timestamp": "2023-03-23T16:15:56Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://www.zlib.net/zlib_license.html",
-            "spdx:match": "false",
+            "spdx:url": "https://opensource.org/licenses/Zlib",
+            "spdx:match": "N/A",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -18,22 +18,22 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/Zlib",
+            "spdx:name": "zlib License",
             "spdx:crossRef": [
                 {
-                    "@id": "_:b0"
+                    "@id": "_:b1"
                 },
                 {
-                    "@id": "_:b1"
+                    "@id": "_:b0"
                 }
             ],
-            "spdx:name": "zlib License",
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/Zlib",
                 "http://www.zlib.net/zlib_license.html"
@@ -58,13 +58,13 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-03-22T15:30:37Z",
+            "spdx:timestamp": "2023-03-23T16:15:56Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://opensource.org/licenses/Zlib",
-            "spdx:match": "N/A",
+            "spdx:url": "http://www.zlib.net/zlib_license.html",
+            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -74,7 +74,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
