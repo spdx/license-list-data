@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-03-23T16:15:59Z",
+            "spdx:timestamp": "2023-04-04T13:17:38Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,51 +24,28 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-03-23T16:15:59Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://opensource.org/licenses/ISC",
-            "spdx:match": "N/A",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/ISC",
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b2"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://www.isc.org/licenses/",
                 "https://www.isc.org/downloads/software-support-policy/isc-license/",
                 "https://opensource.org/licenses/ISC"
             ],
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p><var class=\"replaceable-license-text\"> ISC License</var></p>\n\n      </div>\n      <div class=\"replaceable-license-text\"> \n         <p>&lt;copyright notice&gt;</p>\n\n      </div>\n\n      <p>Permission to use, copy, modify, and<var class=\"optional-license-text\"> /or</var> distribute this software for any purpose with or without fee is\n         hereby granted, provided that the above copyright notice and this permission notice appear in all\n         copies.</p>\n\n      <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND <var class=\"replaceable-license-text\"> THE AUTHOR</var> DISCLAIMS ALL\n         WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\n         FITNESS. IN NO EVENT SHALL <var class=\"replaceable-license-text\"> THE AUTHOR</var> BE LIABLE FOR ANY\n         SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF\n         USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING\n         OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>\n\n    ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b2"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -85,8 +62,8 @@
             "rdfs:comment": "The ISC License text changed 'and' to 'and/or' in July 2007."
         },
         {
-            "@id": "_:b2",
-            "spdx:timestamp": "2023-03-23T16:15:59Z",
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-04-04T13:17:38Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -103,6 +80,29 @@
             },
             "spdx:isLive": {
                 "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b2",
+            "spdx:timestamp": "2023-04-04T13:17:38Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://opensource.org/licenses/ISC",
+            "spdx:match": "N/A",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
