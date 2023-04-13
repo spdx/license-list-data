@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-13T15:35:12Z",
+            "spdx:timestamp": "2023-04-13T15:56:32Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/ErlPL-1.1",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "http://www.erlang.org/EPLICENSE",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -34,9 +37,6 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:licenseId": "ErlPL-1.1",
             "spdx:name": "Erlang Public License v1.1",

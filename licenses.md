@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version bac3542
+The following licenses have been generated from the license list version a45db74
 
 ## Licenses with Short Idenifiers
 
@@ -316,6 +316,7 @@ The following licenses have been generated from the license list version bac3542
 | CMU License                                                                   | [MIT-CMU][]                              |      |           |
 | enna License                                                                  | [MIT-enna][]                             |      |           |
 | feh License                                                                   | [MIT-feh][]                              |      |           |
+| MIT Festival Variant                                                          | [MIT-Festival][]                         |      |           |
 | MIT License Modern Variant                                                    | [MIT-Modern-Variant][]                   | Y    |           |
 | MIT Open Group variant                                                        | [MIT-open-group][]                       |      |           |
 | MIT Tom Wu Variant                                                            | [MIT-Wu][]                               |      |           |
@@ -942,6 +943,7 @@ The following licenses have been generated from the license list version bac3542
 [MIT-CMU]: text/MIT-CMU.txt
 [MIT-enna]: text/MIT-enna.txt
 [MIT-feh]: text/MIT-feh.txt
+[MIT-Festival]: text/MIT-Festival.txt
 [MIT-Modern-Variant]: text/MIT-Modern-Variant.txt
 [MIT-open-group]: text/MIT-open-group.txt
 [MIT-Wu]: text/MIT-Wu.txt
