@@ -2,7 +2,30 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-13T11:49:29Z",
+            "spdx:timestamp": "2023-04-13T12:15:36Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://docubrain.com/sites/default/files/licenses/bitstream-vera.html",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-04-13T12:15:36Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +48,10 @@
         },
         {
             "@id": "http://spdx.org/licenses/Bitstream-Vera",
+            "rdfs:seeAlso": [
+                "https://docubrain.com/sites/default/files/licenses/bitstream-vera.html",
+                "https://web.archive.org/web/20080207013128/http://www.gnome.org/fonts/"
+            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b1"
@@ -32,10 +59,6 @@
                 {
                     "@id": "_:b0"
                 }
-            ],
-            "rdfs:seeAlso": [
-                "https://docubrain.com/sites/default/files/licenses/bitstream-vera.html",
-                "https://web.archive.org/web/20080207013128/http://www.gnome.org/fonts/"
             ],
             "spdx:standardLicenseHeaderTemplate": "none",
             "spdx:name": "Bitstream Vera Font License",
@@ -55,29 +78,6 @@
             "spdx:standardLicenseHeaderHtml": "none",
             "spdx:licenseId": "Bitstream-Vera",
             "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-04-13T11:49:29Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://docubrain.com/sites/default/files/licenses/bitstream-vera.html",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
