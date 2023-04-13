@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-13T16:00:46Z",
+            "spdx:timestamp": "2023-04-13T16:30:08Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,13 +25,12 @@
         },
         {
             "@id": "http://spdx.org/licenses/SNIA",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/SNIA_Public_License",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:licenseId": "SNIA",
             "rdfs:comment": "This is MPL-1.1 with some edits.",
@@ -43,7 +42,8 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
+            },
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/SNIA_Public_License"
         }
     ],
     "@context": {
