@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 1c6d1d2
+The following licenses have been generated from the license list version bac3542
 
 ## Licenses with Short Idenifiers
 
@@ -479,6 +479,7 @@ The following licenses have been generated from the license list version 1c6d1d2
 | Unicode License Agreement - Data Files and Software (2015)                    | [Unicode-DFS-2015][]                     |      |           |
 | Unicode License Agreement - Data Files and Software (2016)                    | [Unicode-DFS-2016][]                     | Y    |           |
 | Unicode Terms of Use                                                          | [Unicode-TOU][]                          |      |           |
+| UnixCrypt License                                                             | [UnixCrypt][]                            |      |           |
 | The Unlicense                                                                 | [Unlicense][]                            | Y    | Y         |
 | Universal Permissive License v1.0                                             | [UPL-1.0][]                              | Y    | Y         |
 | Vim License                                                                   | [Vim][]                                  |      | Y         |
@@ -1106,6 +1107,7 @@ The following licenses have been generated from the license list version 1c6d1d2
 [Unicode-DFS-2015]: text/Unicode-DFS-2015.txt
 [Unicode-DFS-2016]: text/Unicode-DFS-2016.txt
 [Unicode-TOU]: text/Unicode-TOU.txt
+[UnixCrypt]: text/UnixCrypt.txt
 [Unlicense]: text/Unlicense.txt
 [UPL-1.0]: text/UPL-1.0.txt
 [Vim]: text/Vim.txt
