@@ -2,53 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-04T13:17:51Z",
-            "spdx:order": {
-                "@value": "3",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://github.com/cl-adams/adams/blob/master/LICENSE.md",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-04-04T13:17:42Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://sourceforge.net/p/sbcl/sbcl/ci/master/tree/src/code/loop.lisp",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b2",
-            "spdx:timestamp": "2023-04-04T13:17:48Z",
+            "spdx:timestamp": "2023-04-13T11:45:43Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,8 +24,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b3",
-            "spdx:timestamp": "2023-04-04T13:17:50Z",
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-04-13T11:45:41Z",
             "spdx:order": {
                 "@value": "4",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -93,8 +47,54 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:b2",
+            "spdx:timestamp": "2023-04-13T11:45:44Z",
+            "spdx:order": {
+                "@value": "3",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://github.com/cl-adams/adams/blob/master/LICENSE.md",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b3",
+            "spdx:timestamp": "2023-04-13T11:45:45Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://sourceforge.net/p/sbcl/sbcl/ci/master/tree/src/code/loop.lisp",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "_:b4",
-            "spdx:timestamp": "2023-04-04T13:17:49Z",
+            "spdx:timestamp": "2023-04-13T11:45:40Z",
             "spdx:order": {
                 "@value": "5",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -117,7 +117,7 @@
         },
         {
             "@id": "_:b5",
-            "spdx:timestamp": "2023-04-04T13:17:47Z",
+            "spdx:timestamp": "2023-04-13T11:45:42Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -140,6 +140,26 @@
         },
         {
             "@id": "http://spdx.org/licenses/LOOP",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b4"
+                },
+                {
+                    "@id": "_:b5"
+                },
+                {
+                    "@id": "_:b2"
+                },
+                {
+                    "@id": "_:b3"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/cl-adams/adams/blob/master/LICENSE.md",
                 "http://git.savannah.gnu.org/cgit/gcl.git/tree/gcl/lsp/gcl_loop.lsp?h=Version_2_6_13pre",
@@ -149,26 +169,6 @@
                 "https://gitlab.com/embeddable-common-lisp/ecl/-/blob/develop/src/lsp/loop.lsp"
             ],
             "spdx:licenseId": "LOOP",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b3"
-                },
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b4"
-                },
-                {
-                    "@id": "_:b2"
-                },
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b5"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
