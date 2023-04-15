@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/OLDAP-2.3",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -12,9 +15,6 @@
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "@type": "spdx:ListedLicense",
             "spdx:isDeprecatedLicenseId": {
@@ -28,7 +28,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-15T16:33:46Z",
+            "spdx:timestamp": "2023-04-15T16:49:50Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
