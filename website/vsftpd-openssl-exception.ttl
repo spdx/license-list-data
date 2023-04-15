@@ -1,0 +1,14 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/vsftpd-openssl-exception>
+        a                              spdx:ListedLicenseException ;
+        rdfs:seeAlso                   "https://github.com/richardcochran/vsftpd/blob/master/COPYING" , "https://launchpad.net/debian/squeeze/+source/vsftpd/+copyright" , "https://git.stg.centos.org/source-git/vsftpd/blob/f727873674d9c9cd7afcae6677aa782eb54c8362/f/LICENSE" ;
+        spdx:exceptionTextHtml         "\n      <var class=\"optional-license-text\"> \n         vsftpd is licensed under version 2 of the GNU GPL.\n      </var>\n      <p>\n         As copyright holder, I give permission for vsftpd to be\n         linked to the OpenSSL libraries. This includes permission for\n         vsftpd binaries to be distributed linked against the OpenSSL\n         libraries. All other obligations under the GPL v2 remain intact.\n      </p>\n\n   " ;
+        spdx:isDeprecatedLicenseId     false ;
+        spdx:licenseExceptionId        "vsftpd-openssl-exception" ;
+        spdx:licenseExceptionTemplate  "<<beginOptional>>vsftpd is licensed under version 2 of the GNU GPL.<<endOptional>>\n\nAs copyright holder, I give permission for vsftpd to be linked to the OpenSSL libraries. This includes permission for vsftpd binaries to be distributed linked against the OpenSSL libraries. All other obligations under the GPL v2 remain intact.\n\n" ;
+        spdx:licenseExceptionText      "vsftpd is licensed under version 2 of the GNU GPL.\nAs copyright holder, I give permission for vsftpd to be linked to the OpenSSL\nlibraries. This includes permission for vsftpd binaries to be distributed\nlinked against the OpenSSL libraries. All other obligations under the GPL v2\nremain intact.\n" ;
+        spdx:name                      "vsftpd OpenSSL exception" .

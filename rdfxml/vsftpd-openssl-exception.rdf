@@ -1,0 +1,39 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/vsftpd-openssl-exception">
+    <rdfs:seeAlso>https://github.com/richardcochran/vsftpd/blob/master/COPYING</rdfs:seeAlso>
+    <spdx:exceptionTextHtml>
+      &lt;var class="optional-license-text"&gt; 
+         vsftpd is licensed under version 2 of the GNU GPL.
+      &lt;/var&gt;
+      &lt;p&gt;
+         As copyright holder, I give permission for vsftpd to be
+         linked to the OpenSSL libraries. This includes permission for
+         vsftpd binaries to be distributed linked against the OpenSSL
+         libraries. All other obligations under the GPL v2 remain intact.
+      &lt;/p&gt;
+
+   </spdx:exceptionTextHtml>
+    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;vsftpd is licensed under version 2 of the GNU GPL.&lt;&lt;endOptional&gt;&gt;
+
+As copyright holder, I give permission for vsftpd to be linked to the OpenSSL libraries. This includes permission for vsftpd binaries to be distributed linked against the OpenSSL libraries. All other obligations under the GPL v2 remain intact.
+
+</spdx:licenseExceptionTemplate>
+    <spdx:name>vsftpd OpenSSL exception</spdx:name>
+    <spdx:licenseExceptionText>vsftpd is licensed under version 2 of the GNU GPL.
+As copyright holder, I give permission for vsftpd to be linked to the OpenSSL
+libraries. This includes permission for vsftpd binaries to be distributed
+linked against the OpenSSL libraries. All other obligations under the GPL v2
+remain intact.
+</spdx:licenseExceptionText>
+    <spdx:licenseExceptionId>vsftpd-openssl-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://launchpad.net/debian/squeeze/+source/vsftpd/+copyright</rdfs:seeAlso>
+    <rdfs:seeAlso>https://git.stg.centos.org/source-git/vsftpd/blob/f727873674d9c9cd7afcae6677aa782eb54c8362/f/LICENSE</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+  </spdx:ListedLicenseException>
+</rdf:RDF>

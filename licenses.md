@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f39bc3b
+The following licenses have been generated from the license list version 90afad8
 
 ## Licenses with Short Idenifiers
 
@@ -565,6 +565,7 @@ The following licenses have been generated from the license list version f39bc3b
 | Swift Exception                                       | [Swift-exception][]                      |
 | U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
 | Universal FOSS Exception, Version 1.0                 | [Universal-FOSS-exception-1.0][]         |
+| vsftpd OpenSSL exception                              | [vsftpd-openssl-exception][]             |
 | WxWindows Library Exception 3.1                       | [WxWindows-exception-3.1][]              |
 | x11vnc OpenSSL Exception                              | [x11vnc-openssl-exception][]             |
 
@@ -1191,5 +1192,6 @@ The following licenses have been generated from the license list version f39bc3b
 [Swift-exception]: text/Swift-exception.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
 [Universal-FOSS-exception-1.0]: text/Universal-FOSS-exception-1.0.txt
+[vsftpd-openssl-exception]: text/vsftpd-openssl-exception.txt
 [WxWindows-exception-3.1]: text/WxWindows-exception-3.1.txt
 [x11vnc-openssl-exception]: text/x11vnc-openssl-exception.txt
