@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 19282d1
+The following licenses have been generated from the license list version f49822c
 
 ## Licenses with Short Idenifiers
 
@@ -278,6 +278,7 @@ The following licenses have been generated from the license list version 19282d1
 | Licence Art Libre 1.2                                                         | [LAL-1.2][]                              |      |           |
 | Licence Art Libre 1.3                                                         | [LAL-1.3][]                              |      |           |
 | Latex2e License                                                               | [Latex2e][]                              |      |           |
+| Latex2e with translated notice permission                                     | [Latex2e-translated-notice][]            |      |           |
 | Leptonica License                                                             | [Leptonica][]                            |      |           |
 | GNU Library General Public License v2 only                                    | [LGPL-2.0-only][]                        | Y    |           |
 | GNU Library General Public License v2 or later                                | [LGPL-2.0-or-later][]                    | Y    |           |
@@ -900,6 +901,7 @@ The following licenses have been generated from the license list version 19282d1
 [LAL-1.2]: text/LAL-1.2.txt
 [LAL-1.3]: text/LAL-1.3.txt
 [Latex2e]: text/Latex2e.txt
+[Latex2e-translated-notice]: text/Latex2e-translated-notice.txt
 [Leptonica]: text/Leptonica.txt
 [LGPL-2.0]: text/LGPL-2.0.txt
 [LGPL-2.0+]: text/LGPL-2.0+.txt
