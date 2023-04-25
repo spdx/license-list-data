@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-18T14:39:48Z",
+            "spdx:timestamp": "2023-04-25T03:40:58Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/OSL-2.0",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -37,6 +34,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

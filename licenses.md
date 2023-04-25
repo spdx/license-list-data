@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f49822c
+The following licenses have been generated from the license list version acb4e57
 
 ## Licenses with Short Idenifiers
 
@@ -399,6 +399,7 @@ The following licenses have been generated from the license list version f49822c
 | Open LDAP Public License v2.6                                                 | [OLDAP-2.6][]                            |      |           |
 | Open LDAP Public License v2.7                                                 | [OLDAP-2.7][]                            |      | Y         |
 | Open LDAP Public License v2.8                                                 | [OLDAP-2.8][]                            | Y    |           |
+| Open Logistics Foundation License Version 1.3                                 | [OLFL-1.3][]                             | Y    |           |
 | Open Market License                                                           | [OML][]                                  |      |           |
 | OpenPBS v2.3 Software License                                                 | [OpenPBS-2.3][]                          |      |           |
 | OpenSSL License                                                               | [OpenSSL][]                              |      | Y         |
@@ -1029,6 +1030,7 @@ The following licenses have been generated from the license list version f49822c
 [OLDAP-2.6]: text/OLDAP-2.6.txt
 [OLDAP-2.7]: text/OLDAP-2.7.txt
 [OLDAP-2.8]: text/OLDAP-2.8.txt
+[OLFL-1.3]: text/OLFL-1.3.txt
 [OML]: text/OML.txt
 [OpenPBS-2.3]: text/OpenPBS-2.3.txt
 [OpenSSL]: text/OpenSSL.txt

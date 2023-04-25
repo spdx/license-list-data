@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-18T14:40:38Z",
+            "spdx:timestamp": "2023-04-25T03:41:38Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -33,6 +33,9 @@
             },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1990 by the Massachusetts Institute of Technology\";match=\".{0,5000}\">>\n\nExport of this software from the United States of America may require a specific license from the United States Government. It is the responsibility of any person or organization contemplating export to obtain such a license before exporting.\n\nWITHIN THAT CONSTRAINT, permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of M.I.T. not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. M.I.T. makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\n",
             "spdx:name": "HPND with US Government export control warning",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://www.kermitproject.org/ck90.html#source",
             "rdfs:comment": "This license is found in the Kermit project. It is similar to HPND, with an additional initial statement regarding export control laws.",
             "@type": "spdx:ListedLicense",
@@ -40,10 +43,7 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseId": "HPND-export-US",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
+            "spdx:licenseId": "HPND-export-US"
         }
     ],
     "@context": {

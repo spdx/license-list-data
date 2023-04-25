@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-04-18T14:47:19Z",
+            "spdx:timestamp": "2023-04-25T03:47:10Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"> \n            <p>Copyright (c) &lt;year&gt;, &lt;owner&gt;.</p>\n\n         </div>\n         <p>Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.</p>\n\n         <p>Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.</p>\n\n         <p>Since the Linux kernel and libraries are constantly changing, this manual page may be incorrect or out-of-date. The author(s)\n         <var class=\"replaceable-license-text\"> assume </var>no responsibility for errors or omissions, or for damages\n         <var class=\"replaceable-license-text\"> resulting </var>from the use of the information contained herein. The author(s)\n         <var class=\"replaceable-license-text\"> may </var>not have taken the same level of care in the production of\n         <var class=\"replaceable-license-text\"> this </var>manual, which is licensed free of charge, as they might when\n         <var class=\"replaceable-license-text\"> working </var>professionally.</p>\n\n         <p>Formatted or processed versions of this manual, if unaccompanied by the source, must acknowledge the copyright and authors of this work.</p>\n\n      ",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -38,9 +41,6 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "@type": "spdx:ListedLicense"
         }
