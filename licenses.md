@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version acb4e57
+The following licenses have been generated from the license list version 49ad853
 
 ## Licenses with Short Idenifiers
 
@@ -309,6 +309,7 @@ The following licenses have been generated from the license list version acb4e57
 | LZMA SDK License (versions 9.22 and beyond)                                   | [LZMA-SDK-9.22][]                        |      |           |
 | MakeIndex License                                                             | [MakeIndex][]                            |      |           |
 | Martin Birgmeier License                                                      | [Martin-Birgmeier][]                     |      |           |
+| metamail License                                                              | [metamail][]                             |      |           |
 | Minpack License                                                               | [Minpack][]                              |      |           |
 | The MirOS Licence                                                             | [MirOS][]                                | Y    |           |
 | MIT License                                                                   | [MIT][]                                  | Y    | Y         |
@@ -939,6 +940,7 @@ The following licenses have been generated from the license list version acb4e57
 [LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
 [MakeIndex]: text/MakeIndex.txt
 [Martin-Birgmeier]: text/Martin-Birgmeier.txt
+[metamail]: text/metamail.txt
 [Minpack]: text/Minpack.txt
 [MirOS]: text/MirOS.txt
 [MIT]: text/MIT.txt
