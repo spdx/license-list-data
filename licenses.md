@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 0451126
+The following licenses have been generated from the license list version 895b7c3
 
 ## Licenses with Short Idenifiers
 
@@ -134,6 +134,7 @@ The following licenses have been generated from the license list version 0451126
 | Creative Commons Attribution Share Alike 3.0 Unported                         | [CC-BY-SA-3.0][]                         |      |           |
 | Creative Commons Attribution Share Alike 3.0 Austria                          | [CC-BY-SA-3.0-AT][]                      |      |           |
 | Creative Commons Attribution Share Alike 3.0 Germany                          | [CC-BY-SA-3.0-DE][]                      |      |           |
+| Creative Commons Attribution-ShareAlike 3.0 IGO                               | [CC-BY-SA-3.0-IGO][]                     |      |           |
 | Creative Commons Attribution Share Alike 4.0 International                    | [CC-BY-SA-4.0][]                         |      | Y         |
 | Creative Commons Public Domain Dedication and Certification                   | [CC-PDDC][]                              |      |           |
 | Creative Commons Zero v1.0 Universal                                          | [CC0-1.0][]                              |      | Y         |
@@ -743,6 +744,7 @@ The following licenses have been generated from the license list version 0451126
 [CC-BY-SA-3.0]: text/CC-BY-SA-3.0.txt
 [CC-BY-SA-3.0-AT]: text/CC-BY-SA-3.0-AT.txt
 [CC-BY-SA-3.0-DE]: text/CC-BY-SA-3.0-DE.txt
+[CC-BY-SA-3.0-IGO]: text/CC-BY-SA-3.0-IGO.txt
 [CC-BY-SA-4.0]: text/CC-BY-SA-4.0.txt
 [CC-PDDC]: text/CC-PDDC.txt
 [CC0-1.0]: text/CC0-1.0.txt
