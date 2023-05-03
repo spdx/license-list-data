@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">gnuplot License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing/Gnuplot" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2023-05-02T17:50:17Z>https://fedoraproject.org/wiki/Licensing/Gnuplot</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2023-05-02T17:50:17Z</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing/Gnuplot" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2023-05-03T00:18:43Z>https://fedoraproject.org/wiki/Licensing/Gnuplot</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2023-05-03T00:18:43Z</p> -->
              </li>
            </ul>
           </div>
