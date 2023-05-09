@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e9849fd
+The following licenses have been generated from the license list version 73cfa7f
 
 ## Licenses with Short Idenifiers
 
@@ -497,6 +497,7 @@ The following licenses have been generated from the license list version e9849fd
 | W3C Software Notice and Document License (2015-05-13)                         | [W3C-20150513][]                         |      |           |
 | w3m License                                                                   | [w3m][]                                  |      |           |
 | Sybase Open Watcom Public License 1.0                                         | [Watcom-1.0][]                           | Y    |           |
+| Widget Workshop License                                                       | [Widget-Workshop][]                      |      |           |
 | Wsuipa License                                                                | [Wsuipa][]                               |      |           |
 | Do What The F*ck You Want To Public License                                   | [WTFPL][]                                |      | Y         |
 | X11 License                                                                   | [X11][]                                  |      | Y         |
@@ -1133,6 +1134,7 @@ The following licenses have been generated from the license list version e9849fd
 [W3C-20150513]: text/W3C-20150513.txt
 [w3m]: text/w3m.txt
 [Watcom-1.0]: text/Watcom-1.0.txt
+[Widget-Workshop]: text/Widget-Workshop.txt
 [Wsuipa]: text/Wsuipa.txt
 [WTFPL]: text/WTFPL.txt
 [wxWindows]: text/wxWindows.txt

@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-05-03T00:21:09Z",
+            "spdx:timestamp": "2023-05-09T18:01:21Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,13 +25,13 @@
         },
         {
             "@id": "http://spdx.org/licenses/X11-distribute-modifications-variant",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:name": "X11 License Distribution Modification Variant",
             "rdfs:seeAlso": "https://github.com/mirror/ncurses/blob/master/COPYING",
             "rdfs:comment": "This is same as X11, but with an additional \"distribute with modifications\" grant and does not have the trademark at the end.",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
