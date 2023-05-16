@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/CC-BY-SA-3.0",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "@type": "spdx:ListedLicense",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -19,11 +16,14 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:name": "Creative Commons Attribution Share Alike 3.0 Unported"
+            "spdx:name": "Creative Commons Attribution Share Alike 3.0 Unported",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-05-09T18:05:37Z",
+            "spdx:timestamp": "2023-05-16T02:52:10Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

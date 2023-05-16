@@ -1,8 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/snprintf",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "snprintf License",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright Patrick Powell 1995\";match=\".{0,5000}\">>\n\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": "https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2",
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright Patrick Powell 1995\n         </var>\n         <p>\n            This code is based on code written by Patrick Powell\n            (papowell@astart.com) It may be used for any purpose as long\n            as this notice remains intact on all source code distributions\n         </p>\n\n      ",
+            "spdx:licenseId": "snprintf",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:licenseText": "Copyright Patrick Powell 1995 \n\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n"
+        },
+        {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-05-09T18:04:40Z",
+            "spdx:timestamp": "2023-05-16T02:52:07Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -22,27 +43,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/snprintf",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "snprintf License",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright Patrick Powell 1995\";match=\".{0,5000}\">>\n\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n\n",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "rdfs:seeAlso": "https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright Patrick Powell 1995\n         </var>\n         <p>\n            This code is based on code written by Patrick Powell\n            (papowell@astart.com) It may be used for any purpose as long\n            as this notice remains intact on all source code distributions\n         </p>\n\n      ",
-            "spdx:licenseId": "snprintf",
-            "spdx:licenseText": "Copyright Patrick Powell 1995 \n\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n"
         }
     ],
     "@context": {
