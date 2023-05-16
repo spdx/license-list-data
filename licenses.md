@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e60e2c1
+The following licenses have been generated from the license list version 43a0eaa
 
 ## Licenses with Short Idenifiers
 
@@ -503,6 +503,7 @@ The following licenses have been generated from the license list version e60e2c1
 | Do What The F*ck You Want To Public License                                   | [WTFPL][]                                |      | Y         |
 | X11 License                                                                   | [X11][]                                  |      | Y         |
 | X11 License Distribution Modification Variant                                 | [X11-distribute-modifications-variant][] |      |           |
+| Xdebug License v 1.03                                                         | [Xdebug-1.03][]                          |      |           |
 | Xerox License                                                                 | [Xerox][]                                |      |           |
 | Xfig License                                                                  | [Xfig][]                                 |      |           |
 | XFree86 License 1.1                                                           | [XFree86-1.1][]                          |      | Y         |
@@ -1143,6 +1144,7 @@ The following licenses have been generated from the license list version e60e2c1
 [wxWindows]: text/wxWindows.txt
 [X11]: text/X11.txt
 [X11-distribute-modifications-variant]: text/X11-distribute-modifications-variant.txt
+[Xdebug-1.03]: text/Xdebug-1.03.txt
 [Xerox]: text/Xerox.txt
 [Xfig]: text/Xfig.txt
 [XFree86-1.1]: text/XFree86-1.1.txt
