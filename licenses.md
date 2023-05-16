@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 73cfa7f
+The following licenses have been generated from the license list version e60e2c1
 
 ## Licenses with Short Idenifiers
 
@@ -473,6 +473,7 @@ The following licenses have been generated from the license list version 73cfa7f
 | TAPR Open Hardware License v1.0                                               | [TAPR-OHL-1.0][]                         |      |           |
 | TCL/TK License                                                                | [TCL][]                                  |      |           |
 | TCP Wrappers License                                                          | [TCP-wrappers][]                         |      |           |
+| TermReadKey License                                                           | [TermReadKey][]                          |      |           |
 | TMate Open Source License                                                     | [TMate][]                                |      |           |
 | TORQUE v2.5+ Software License v1.1                                            | [TORQUE-1.1][]                           |      |           |
 | Trusster Open Source License                                                  | [TOSL][]                                 |      |           |
@@ -503,6 +504,7 @@ The following licenses have been generated from the license list version 73cfa7f
 | X11 License                                                                   | [X11][]                                  |      | Y         |
 | X11 License Distribution Modification Variant                                 | [X11-distribute-modifications-variant][] |      |           |
 | Xerox License                                                                 | [Xerox][]                                |      |           |
+| Xfig License                                                                  | [Xfig][]                                 |      |           |
 | XFree86 License 1.1                                                           | [XFree86-1.1][]                          |      | Y         |
 | xinetd License                                                                | [xinetd][]                               |      | Y         |
 | xlock License                                                                 | [xlock][]                                |      |           |
@@ -1110,6 +1112,7 @@ The following licenses have been generated from the license list version 73cfa7f
 [TAPR-OHL-1.0]: text/TAPR-OHL-1.0.txt
 [TCL]: text/TCL.txt
 [TCP-wrappers]: text/TCP-wrappers.txt
+[TermReadKey]: text/TermReadKey.txt
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
@@ -1141,6 +1144,7 @@ The following licenses have been generated from the license list version 73cfa7f
 [X11]: text/X11.txt
 [X11-distribute-modifications-variant]: text/X11-distribute-modifications-variant.txt
 [Xerox]: text/Xerox.txt
+[Xfig]: text/Xfig.txt
 [XFree86-1.1]: text/XFree86-1.1.txt
 [xinetd]: text/xinetd.txt
 [xlock]: text/xlock.txt
