@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 43a0eaa
+The following licenses have been generated from the license list version 23a010c
 
 ## Licenses with Short Idenifiers
 
@@ -298,6 +298,7 @@ The following licenses have been generated from the license list version 43a0eaa
 | Licence Libre du Québec – Réciprocité version 1.1                             | [LiLiQ-R-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité forte version 1.1                       | [LiLiQ-Rplus-1.1][]                      | Y    |           |
 | Linux man-pages Copyleft                                                      | [Linux-man-pages-copyleft][]             |      |           |
+| Linux man-pages One Paragraph                                                 | [Linux-man-pages-one-para][]             |      |           |
 | Linux Kernel Variant of OpenIB.org license                                    | [Linux-OpenIB][]                         |      |           |
 | Common Lisp LOOP License                                                      | [LOOP][]                                 |      |           |
 | Lucent Public License Version 1.0                                             | [LPL-1.0][]                              | Y    |           |
@@ -936,6 +937,7 @@ The following licenses have been generated from the license list version 43a0eaa
 [LiLiQ-R-1.1]: text/LiLiQ-R-1.1.txt
 [LiLiQ-Rplus-1.1]: text/LiLiQ-Rplus-1.1.txt
 [Linux-man-pages-copyleft]: text/Linux-man-pages-copyleft.txt
+[Linux-man-pages-one-para]: text/Linux-man-pages-one-para.txt
 [Linux-OpenIB]: text/Linux-OpenIB.txt
 [LOOP]: text/LOOP.txt
 [LPL-1.0]: text/LPL-1.0.txt
