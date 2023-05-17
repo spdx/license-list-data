@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/Linux-man-pages-one-para>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://github.com/mkerrisk/man-pages/blob/master/man2/getcpu.2#L4-L7" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-05-17T14:12:25Z" ;
+                                        spdx:url            "https://github.com/mkerrisk/man-pages/blob/master/man2/getcpu.2#L4-L7"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "Linux-man-pages-one-para" ;
+        spdx:licenseText              "Permission is granted to distribute possibly modified\ncopies of this page provided the header is included\nverbatim, and in case of nontrivial modification author\nand date of the modification is added to the header.\n" ;
+        spdx:licenseTextHtml          "\n         <p>\n            Permission is granted to distribute possibly modified\n            copies of this page provided the header is included\n            verbatim, and in case of nontrivial modification author\n            and date of the modification is added to the header.\n         </p>\n\n      " ;
+        spdx:name                     "Linux man-pages One Paragraph" ;
+        spdx:standardLicenseTemplate  "Permission is granted to distribute possibly modified copies of this page provided the header is included verbatim, and in case of nontrivial modification author and date of the modification is added to the header.\n\n" .
