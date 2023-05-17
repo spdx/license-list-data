@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 23a010c
+The following licenses have been generated from the license list version 4fe3e61
 
 ## Licenses with Short Idenifiers
 
@@ -174,6 +174,7 @@ The following licenses have been generated from the license list version 23a010c
 | Common Public License 1.0                                                     | [CPL-1.0][]                              | Y    | Y         |
 | Code Project Open License 1.02                                                | [CPOL-1.02][]                            |      |           |
 | Crossword License                                                             | [Crossword][]                            |      |           |
+| cryptsetup OpenSSL exception                                                  | [cryptsetup-OpenSSL-exception][]         |      |           |
 | CrystalStacker License                                                        | [CrystalStacker][]                       |      |           |
 | CUA Office Public License v1.0                                                | [CUA-OPL-1.0][]                          | Y    |           |
 | Cube License                                                                  | [Cube][]                                 |      |           |
@@ -291,6 +292,7 @@ The following licenses have been generated from the license list version 23a010c
 | Lesser General Public License For Linguistic Resources                        | [LGPLLR][]                               |      |           |
 | libpng License                                                                | [Libpng][]                               |      |           |
 | PNG Reference Library version 2                                               | [libpng-2.0][]                           |      |           |
+| libpri OpenH323 exception                                                     | [libpri-OpenH323-exception][]            |      |           |
 | libselinux public domain notice                                               | [libselinux-1.0][]                       |      |           |
 | libtiff License                                                               | [libtiff][]                              |      |           |
 | libutil David Nugent License                                                  | [libutil-David-Nugent][]                 |      |           |
@@ -790,6 +792,7 @@ The following licenses have been generated from the license list version 23a010c
 [CPL-1.0]: text/CPL-1.0.txt
 [CPOL-1.02]: text/CPOL-1.02.txt
 [Crossword]: text/Crossword.txt
+[cryptsetup-OpenSSL-exception]: text/cryptsetup-OpenSSL-exception.txt
 [CrystalStacker]: text/CrystalStacker.txt
 [CUA-OPL-1.0]: text/CUA-OPL-1.0.txt
 [Cube]: text/Cube.txt
@@ -930,6 +933,7 @@ The following licenses have been generated from the license list version 23a010c
 [LGPLLR]: text/LGPLLR.txt
 [Libpng]: text/Libpng.txt
 [libpng-2.0]: text/libpng-2.0.txt
+[libpri-OpenH323-exception]: text/libpri-OpenH323-exception.txt
 [libselinux-1.0]: text/libselinux-1.0.txt
 [libtiff]: text/libtiff.txt
 [libutil-David-Nugent]: text/libutil-David-Nugent.txt

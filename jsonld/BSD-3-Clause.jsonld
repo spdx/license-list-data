@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-05-17T14:15:49Z",
+            "spdx:timestamp": "2023-05-17T15:00:33Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-3-Clause",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -37,14 +45,6 @@
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/BSD-3-Clause",
                 "https://www.eclipse.org/org/documents/edl-v10.php"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
             ],
             "spdx:licenseId": "BSD-3-Clause",
             "spdx:isOsiApproved": {
@@ -59,7 +59,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-05-17T14:15:49Z",
+            "spdx:timestamp": "2023-05-17T15:00:33Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
