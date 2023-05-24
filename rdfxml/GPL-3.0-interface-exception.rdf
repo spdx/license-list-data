@@ -1,0 +1,50 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/GPL-3.0-interface-exception">
+    <spdx:licenseExceptionId>GPL-3.0-interface-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/gpl-faq.en.html#LinkingOverControlledInterface</rdfs:seeAlso>
+    <rdfs:comment>This exception is based on the suggested template from the Free Software Foundation's FAQ about the GPL. This exception enables linking with differently licensed modules over the specified interface, while ensuring that users would still receive source code as they normally would under the GPL.</rdfs:comment>
+    <spdx:name>GPL-3.0 Interface Exception</spdx:name>
+    <spdx:exceptionTextHtml>
+      &lt;p&gt;
+        Linking &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt; statically or dynamically with other modules is making a combined work based on &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt;. Thus, the terms and conditions of the GNU General Public License cover the whole combination.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        As a special exception, the copyright holders of &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt; give you permission to combine &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt; program with free software programs or libraries that are released under the GNU LGPL and with independent modules that communicate with &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt; solely through the &lt;var class="replaceable-license-text"&gt; [name of library&amp;apos;s interface]&lt;/var&gt; interface. You may copy and distribute such a system following the terms of the GNU GPL for &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt; and the licenses of the other code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code and provided that you do not modify the &lt;var class="replaceable-license-text"&gt; [name of library&amp;apos;s interface]&lt;/var&gt; interface.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Note that people who make modified versions of &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt; are not obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this exception; this exception also makes it possible to release a modified version which carries forward this exception. If you modify the &lt;var class="replaceable-license-text"&gt; [name of library&amp;apos;s interface]&lt;/var&gt; interface, this exception does not apply to your modified version of &lt;var class="replaceable-license-text"&gt; [name of library]&lt;/var&gt;, and you must remove this exception when you distribute your modified version.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        This exception is an additional permission under section 7 of the GNU General Public License, version 3 (&amp;quot;GPLv3&amp;quot;)
+      &lt;/p&gt;
+
+    </spdx:exceptionTextHtml>
+    <spdx:licenseExceptionText>Linking [name of library] statically or dynamically with other modules is making a combined work based on [name of library]. Thus, the terms and conditions of the GNU General Public License cover the whole combination.
+
+As a special exception, the copyright holders of [name of library] give you permission to combine [name of library] program with free software programs or libraries that are released under the GNU LGPL and with independent modules that communicate with [name of library] solely through the [name of library's interface] interface. You may copy and distribute such a system following the terms of the GNU GPL for [name of library] and the licenses of the other code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code and provided that you do not modify the [name of library's interface] interface.
+
+Note that people who make modified versions of [name of library] are not obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this exception; this exception also makes it possible to release a modified version which carries forward this exception. If you modify the [name of library's interface] interface, this exception does not apply to your modified version of [name of library], and you must remove this exception when you distribute your modified version.
+
+This exception is an additional permission under section 7 of the GNU General Public License, version 3 ("GPLv3")
+</spdx:licenseExceptionText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionTemplate>Linking &lt;&lt;var;name="library1";original="[name of library]";match=".+"&gt;&gt; statically or dynamically with other modules is making a combined work based on &lt;&lt;var;name="library2";original="[name of library]";match=".+"&gt;&gt; . Thus, the terms and conditions of the GNU General Public License cover the whole combination.
+
+As a special exception, the copyright holders of &lt;&lt;var;name="library3";original="[name of library]";match=".+"&gt;&gt; give you permission to combine &lt;&lt;var;name="library4";original="[name of library]";match=".+"&gt;&gt; program with free software programs or libraries that are released under the GNU LGPL and with independent modules that communicate with &lt;&lt;var;name="library5";original="[name of library]";match=".+"&gt;&gt; solely through the &lt;&lt;var;name="libraryInterface1";original="[name of library's interface]";match=".+"&gt;&gt; interface. You may copy and distribute such a system following the terms of the GNU GPL for &lt;&lt;var;name="library6";original="[name of library]";match=".+"&gt;&gt; and the licenses of the other code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code and provided that you do not modify the &lt;&lt;var;name="libraryInterface2";original="[name of library's interface]";match=".+"&gt;&gt; interface.
+
+Note that people who make modified versions of &lt;&lt;var;name="library7";original="[name of library]";match=".+"&gt;&gt; are not obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this exception; this exception also makes it possible to release a modified version which carries forward this exception. If you modify the &lt;&lt;var;name="libraryInterface3";original="[name of library's interface]";match=".+"&gt;&gt; interface, this exception does not apply to your modified version of &lt;&lt;var;name="library8";original="[name of library]";match=".+"&gt;&gt; , and you must remove this exception when you distribute your modified version.
+
+This exception is an additional permission under section 7 of the GNU General Public License, version 3 ("GPLv3")
+
+</spdx:licenseExceptionTemplate>
+  </spdx:ListedLicenseException>
+</rdf:RDF>

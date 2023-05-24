@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 4fe3e61
+The following licenses have been generated from the license list version 770db11
 
 ## Licenses with Short Idenifiers
 
@@ -550,6 +550,7 @@ The following licenses have been generated from the license list version 4fe3e61
 | GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
 | GNAT exception                                        | [GNAT-exception][]                       |
 | GNU JavaMail exception                                | [gnu-javamail-exception][]               |
+| GPL-3.0 Interface Exception                           | [GPL-3.0-interface-exception][]          |
 | GPL-3.0 Linking Exception                             | [GPL-3.0-linking-exception][]            |
 | GPL-3.0 Linking Exception (with Corresponding Source) | [GPL-3.0-linking-source-exception][]     |
 | GPL Cooperation Commitment 1.0                        | [GPL-CC-1.0][]                           |
@@ -1189,6 +1190,7 @@ The following licenses have been generated from the license list version 4fe3e61
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
 [GNAT-exception]: text/GNAT-exception.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
+[GPL-3.0-interface-exception]: text/GPL-3.0-interface-exception.txt
 [GPL-3.0-linking-exception]: text/GPL-3.0-linking-exception.txt
 [GPL-3.0-linking-source-exception]: text/GPL-3.0-linking-source-exception.txt
 [GPL-CC-1.0]: text/GPL-CC-1.0.txt

@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-05-17T15:06:49Z",
+            "spdx:timestamp": "2023-05-24T22:31:15Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/JSON",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isFsfLibre": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -46,7 +43,10 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseId": "JSON",
-            "rdfs:seeAlso": "http://www.json.org/license.html"
+            "rdfs:seeAlso": "http://www.json.org/license.html",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {
