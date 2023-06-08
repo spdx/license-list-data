@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 55b0bee
+The following licenses have been generated from the license list version 3518bed
 
 ## Licenses with Short Idenifiers
 
@@ -44,6 +44,7 @@ The following licenses have been generated from the license list version 55b0bee
 | Artistic License 1.0 (Perl)                                                   | [Artistic-1.0-Perl][]                    | Y    |           |
 | Artistic License 2.0                                                          | [Artistic-2.0][]                         | Y    | Y         |
 | ASWF Digital Assets License version 1.0                                       | [ASWF-Digital-Assets-1.0][]              |      |           |
+| ASWF Digital Assets License 1.1                                               | [ASWF-Digital-Assets-1.1][]              |      |           |
 | Baekmuk License                                                               | [Baekmuk][]                              |      |           |
 | Bahyph License                                                                | [Bahyph][]                               |      |           |
 | Barr License                                                                  | [Barr][]                                 |      |           |
@@ -660,6 +661,7 @@ The following licenses have been generated from the license list version 55b0bee
 [Artistic-1.0-Perl]: text/Artistic-1.0-Perl.txt
 [Artistic-2.0]: text/Artistic-2.0.txt
 [ASWF-Digital-Assets-1.0]: text/ASWF-Digital-Assets-1.0.txt
+[ASWF-Digital-Assets-1.1]: text/ASWF-Digital-Assets-1.1.txt
 [Baekmuk]: text/Baekmuk.txt
 [Bahyph]: text/Bahyph.txt
 [Barr]: text/Barr.txt
