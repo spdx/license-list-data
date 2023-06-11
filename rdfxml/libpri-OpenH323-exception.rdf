@@ -4,13 +4,11 @@
     xmlns:doap="http://usefulinc.com/ns/doap#"
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-  <spdx:ListedLicense rdf:about="http://spdx.org/licenses/libpri-OpenH323-exception">
-    <spdx:standardLicenseTemplate>As a special exception, libpri may also be linked to the OpenH323 library, so long as the entirity of the derivative work (as defined within the GPL) is licensed either under the MPL of the OpenH323 license or the GPL of libpri.
-
-</spdx:standardLicenseTemplate>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:licenseTextHtml>
+  <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/libpri-OpenH323-exception">
+    <spdx:licenseExceptionId>libpri-OpenH323-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://github.com/asterisk/libpri/blob/1.6.0/README#L19-L22</rdfs:seeAlso>
+    <spdx:name>libpri OpenH323 exception</spdx:name>
+    <spdx:exceptionTextHtml>
          &lt;p&gt;
             As a special exception, libpri may also be linked to the
             OpenH323 library, so long as the entirity of the derivative
@@ -18,31 +16,16 @@
             the MPL of the OpenH323 license or the GPL of libpri.
          &lt;/p&gt;
 
-      </spdx:licenseTextHtml>
-    <spdx:licenseId>libpri-OpenH323-exception</spdx:licenseId>
-    <spdx:name>libpri OpenH323 exception</spdx:name>
-    <spdx:licenseText>As a special exception, libpri may also be linked to the
+      </spdx:exceptionTextHtml>
+    <spdx:licenseExceptionText>As a special exception, libpri may also be linked to the
 OpenH323 library, so long as the entirity of the derivative
 work (as defined within the GPL) is licensed either under
 the MPL of the OpenH323 license or the GPL of libpri.
-</spdx:licenseText>
+</spdx:licenseExceptionText>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>https://github.com/asterisk/libpri/blob/1.6.0/README#L19-L22</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2023-06-09T02:39:55Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>https://github.com/asterisk/libpri/blob/1.6.0/README#L19-L22</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-  </spdx:ListedLicense>
+    <spdx:licenseExceptionTemplate>As a special exception, libpri may also be linked to the OpenH323 library, so long as the entirity of the derivative work (as defined within the GPL) is licensed either under the MPL of the OpenH323 license or the GPL of libpri.
+
+</spdx:licenseExceptionTemplate>
+  </spdx:ListedLicenseException>
 </rdf:RDF>

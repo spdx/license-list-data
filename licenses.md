@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6067f08
+The following licenses have been generated from the license list version 35a6aaf
 
 ## Licenses with Short Idenifiers
 
@@ -175,7 +175,6 @@ The following licenses have been generated from the license list version 6067f08
 | Common Public License 1.0                                                     | [CPL-1.0][]                              | Y    | Y         |
 | Code Project Open License 1.02                                                | [CPOL-1.02][]                            |      |           |
 | Crossword License                                                             | [Crossword][]                            |      |           |
-| cryptsetup OpenSSL exception                                                  | [cryptsetup-OpenSSL-exception][]         |      |           |
 | CrystalStacker License                                                        | [CrystalStacker][]                       |      |           |
 | CUA Office Public License v1.0                                                | [CUA-OPL-1.0][]                          | Y    |           |
 | Cube License                                                                  | [Cube][]                                 |      |           |
@@ -293,7 +292,6 @@ The following licenses have been generated from the license list version 6067f08
 | Lesser General Public License For Linguistic Resources                        | [LGPLLR][]                               |      |           |
 | libpng License                                                                | [Libpng][]                               |      |           |
 | PNG Reference Library version 2                                               | [libpng-2.0][]                           |      |           |
-| libpri OpenH323 exception                                                     | [libpri-OpenH323-exception][]            |      |           |
 | libselinux public domain notice                                               | [libselinux-1.0][]                       |      |           |
 | libtiff License                                                               | [libtiff][]                              |      |           |
 | libutil David Nugent License                                                  | [libutil-David-Nugent][]                 |      |           |
@@ -541,6 +539,7 @@ The following licenses have been generated from the license list version 6067f08
 | Bootloader Distribution Exception                     | [Bootloader-exception][]                 |
 | Classpath exception 2.0                               | [Classpath-exception-2.0][]              |
 | CLISP exception 2.0                                   | [CLISP-exception-2.0][]                  |
+| cryptsetup OpenSSL exception                          | [cryptsetup-OpenSSL-exception][]         |
 | DigiRule FOSS License Exception                       | [DigiRule-FOSS-exception][]              |
 | eCos exception 2.0                                    | [eCos-exception-2.0][]                   |
 | Fawkes Runtime Exception                              | [Fawkes-Runtime-exception][]             |
@@ -560,6 +559,7 @@ The following licenses have been generated from the license list version 6067f08
 | i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
 | KiCad Libraries Exception                             | [KiCad-libraries-exception][]            |
 | LGPL-3.0 Linking Exception                            | [LGPL-3.0-linking-exception][]           |
+| libpri OpenH323 exception                             | [libpri-OpenH323-exception][]            |
 | Libtool Exception                                     | [Libtool-exception][]                    |
 | Linux Syscall Note                                    | [Linux-syscall-note][]                   |
 | LLVM Exception                                        | [LLVM-exception][]                       |
@@ -795,7 +795,6 @@ The following licenses have been generated from the license list version 6067f08
 [CPL-1.0]: text/CPL-1.0.txt
 [CPOL-1.02]: text/CPOL-1.02.txt
 [Crossword]: text/Crossword.txt
-[cryptsetup-OpenSSL-exception]: text/cryptsetup-OpenSSL-exception.txt
 [CrystalStacker]: text/CrystalStacker.txt
 [CUA-OPL-1.0]: text/CUA-OPL-1.0.txt
 [Cube]: text/Cube.txt
@@ -936,7 +935,6 @@ The following licenses have been generated from the license list version 6067f08
 [LGPLLR]: text/LGPLLR.txt
 [Libpng]: text/Libpng.txt
 [libpng-2.0]: text/libpng-2.0.txt
-[libpri-OpenH323-exception]: text/libpri-OpenH323-exception.txt
 [libselinux-1.0]: text/libselinux-1.0.txt
 [libtiff]: text/libtiff.txt
 [libutil-David-Nugent]: text/libutil-David-Nugent.txt
@@ -1182,6 +1180,7 @@ The following licenses have been generated from the license list version 6067f08
 [Bootloader-exception]: text/Bootloader-exception.txt
 [Classpath-exception-2.0]: text/Classpath-exception-2.0.txt
 [CLISP-exception-2.0]: text/CLISP-exception-2.0.txt
+[cryptsetup-OpenSSL-exception]: text/cryptsetup-OpenSSL-exception.txt
 [DigiRule-FOSS-exception]: text/DigiRule-FOSS-exception.txt
 [eCos-exception-2.0]: text/eCos-exception-2.0.txt
 [Fawkes-Runtime-exception]: text/Fawkes-Runtime-exception.txt
@@ -1201,6 +1200,7 @@ The following licenses have been generated from the license list version 6067f08
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
 [KiCad-libraries-exception]: text/KiCad-libraries-exception.txt
 [LGPL-3.0-linking-exception]: text/LGPL-3.0-linking-exception.txt
+[libpri-OpenH323-exception]: text/libpri-OpenH323-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
 [Linux-syscall-note]: text/Linux-syscall-note.txt
 [LLVM-exception]: text/LLVM-exception.txt
