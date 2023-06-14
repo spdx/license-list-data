@@ -1,0 +1,14 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/Asterisk-exception>
+        a                              spdx:ListedLicenseException ;
+        rdfs:seeAlso                   "https://github.com/asterisk/libss7/blob/03e81bcd0d28ff25d4c77c78351ddadc82ff5c3f/ss7.c#L24" , "https://github.com/asterisk/libpri/blob/7f91151e6bd10957c746c031c1f4a030e8146e9a/pri.c#L22" ;
+        spdx:exceptionTextHtml         "\n         <p>\n            In addition, when this program is distributed with Asterisk in any\n            form that would qualify as a &apos;combined work&apos; or as a &apos;derivative\n            work&apos; (but not mere aggregation), you can redistribute and/or\n            modify the combination under the terms of the license provided with\n            that copy of Asterisk, instead of the license terms granted here.\n         </p>\n\n      " ;
+        spdx:isDeprecatedLicenseId     false ;
+        spdx:licenseExceptionId        "Asterisk-exception" ;
+        spdx:licenseExceptionTemplate  "In addition, when this program is distributed with Asterisk in any form that would qualify as a 'combined work' or as a 'derivative work' (but not mere aggregation), you can redistribute and/or modify the combination under the terms of the license provided with that copy of Asterisk, instead of the license terms granted here.\n\n" ;
+        spdx:licenseExceptionText      "In addition, when this program is distributed with Asterisk in any \nform that would qualify as a 'combined work' or as a 'derivative work' \n(but not mere aggregation), you can redistribute and/or modify the \ncombination under the terms of the license provided with that copy \nof Asterisk, instead of the license terms granted here.\n" ;
+        spdx:name                      "Asterisk exception" .

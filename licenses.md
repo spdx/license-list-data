@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 0f2b5bd
+The following licenses have been generated from the license list version 5bd0c1c
 
 ## Licenses with Short Idenifiers
 
@@ -186,6 +186,7 @@ The following licenses have been generated from the license list version 0f2b5bd
 | Dotseqn License                                                               | [Dotseqn][]                              |      |           |
 | Detection Rule License 1.0                                                    | [DRL-1.0][]                              |      |           |
 | DSDP License                                                                  | [DSDP][]                                 |      |           |
+| David M. Gay dtoa License                                                     | [dtoa][]                                 |      |           |
 | dvipdfm License                                                               | [dvipdfm][]                              |      |           |
 | Educational Community License v1.0                                            | [ECL-1.0][]                              | Y    |           |
 | Educational Community License v2.0                                            | [ECL-2.0][]                              | Y    | Y         |
@@ -298,8 +299,10 @@ The following licenses have been generated from the license list version 0f2b5bd
 | Licence Libre du Québec – Permissive version 1.1                              | [LiLiQ-P-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité version 1.1                             | [LiLiQ-R-1.1][]                          | Y    |           |
 | Licence Libre du Québec – Réciprocité forte version 1.1                       | [LiLiQ-Rplus-1.1][]                      | Y    |           |
+| Linux man-pages - 1 paragraph                                                 | [Linux-man-pages-1-para][]               |      |           |
 | Linux man-pages Copyleft                                                      | [Linux-man-pages-copyleft][]             |      |           |
-| Linux man-pages One Paragraph                                                 | [Linux-man-pages-one-para][]             |      |           |
+| Linux man-pages Copyleft - 2 paragraphs                                       | [Linux-man-pages-copyleft-2-para][]      |      |           |
+| Linux man-pages Copyleft Variant                                              | [Linux-man-pages-copyleft-var][]         |      |           |
 | Linux Kernel Variant of OpenIB.org license                                    | [Linux-OpenIB][]                         |      |           |
 | Common Lisp LOOP License                                                      | [LOOP][]                                 |      |           |
 | Lucent Public License Version 1.0                                             | [LPL-1.0][]                              | Y    |           |
@@ -409,6 +412,7 @@ The following licenses have been generated from the license list version 0f2b5bd
 | OpenPBS v2.3 Software License                                                 | [OpenPBS-2.3][]                          |      |           |
 | OpenSSL License                                                               | [OpenSSL][]                              |      | Y         |
 | Open Public License v1.0                                                      | [OPL-1.0][]                              |      |           |
+| United    Kingdom Open Parliament Licence v3.0                                | [OPL-UK-3.0][]                           |      |           |
 | Open Publication License v1.0                                                 | [OPUBL-1.0][]                            |      |           |
 | OSET Public License version 2.1                                               | [OSET-PL-2.1][]                          | Y    |           |
 | Open Software License 1.0                                                     | [OSL-1.0][]                              | Y    | Y         |
@@ -531,6 +535,7 @@ The following licenses have been generated from the license list version 0f2b5bd
 | Full Name of Exception                                | SPDX LicenseException                   
 |-------------------------------------------------------|------------------------------------------|
 | 389 Directory Server Exception                        | [389-exception][]                        |
+| Asterisk exception                                    | [Asterisk-exception][]                   |
 | Autoconf exception 2.0                                | [Autoconf-exception-2.0][]               |
 | Autoconf exception 3.0                                | [Autoconf-exception-3.0][]               |
 | Autoconf generic exception                            | [Autoconf-exception-generic][]           |
@@ -806,6 +811,7 @@ The following licenses have been generated from the license list version 0f2b5bd
 [Dotseqn]: text/Dotseqn.txt
 [DRL-1.0]: text/DRL-1.0.txt
 [DSDP]: text/DSDP.txt
+[dtoa]: text/dtoa.txt
 [dvipdfm]: text/dvipdfm.txt
 [ECL-1.0]: text/ECL-1.0.txt
 [ECL-2.0]: text/ECL-2.0.txt
@@ -941,8 +947,10 @@ The following licenses have been generated from the license list version 0f2b5bd
 [LiLiQ-P-1.1]: text/LiLiQ-P-1.1.txt
 [LiLiQ-R-1.1]: text/LiLiQ-R-1.1.txt
 [LiLiQ-Rplus-1.1]: text/LiLiQ-Rplus-1.1.txt
+[Linux-man-pages-1-para]: text/Linux-man-pages-1-para.txt
 [Linux-man-pages-copyleft]: text/Linux-man-pages-copyleft.txt
-[Linux-man-pages-one-para]: text/Linux-man-pages-one-para.txt
+[Linux-man-pages-copyleft-2-para]: text/Linux-man-pages-copyleft-2-para.txt
+[Linux-man-pages-copyleft-var]: text/Linux-man-pages-copyleft-var.txt
 [Linux-OpenIB]: text/Linux-OpenIB.txt
 [LOOP]: text/LOOP.txt
 [LPL-1.0]: text/LPL-1.0.txt
@@ -1053,6 +1061,7 @@ The following licenses have been generated from the license list version 0f2b5bd
 [OpenPBS-2.3]: text/OpenPBS-2.3.txt
 [OpenSSL]: text/OpenSSL.txt
 [OPL-1.0]: text/OPL-1.0.txt
+[OPL-UK-3.0]: text/OPL-UK-3.0.txt
 [OPUBL-1.0]: text/OPUBL-1.0.txt
 [OSET-PL-2.1]: text/OSET-PL-2.1.txt
 [OSL-1.0]: text/OSL-1.0.txt
@@ -1172,6 +1181,7 @@ The following licenses have been generated from the license list version 0f2b5bd
 [ZPL-2.0]: text/ZPL-2.0.txt
 [ZPL-2.1]: text/ZPL-2.1.txt
 [389-exception]: text/389-exception.txt
+[Asterisk-exception]: text/Asterisk-exception.txt
 [Autoconf-exception-2.0]: text/Autoconf-exception-2.0.txt
 [Autoconf-exception-3.0]: text/Autoconf-exception-3.0.txt
 [Autoconf-exception-generic]: text/Autoconf-exception-generic.txt
