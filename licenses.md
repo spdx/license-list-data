@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ef5a479
+The following licenses have been generated from the license list version 6c860c0
 
 ## Licenses with Short Idenifiers
 
@@ -266,6 +266,7 @@ The following licenses have been generated from the license list version ef5a479
 | iMatix Standard Function Library Agreement                                    | [iMatix][]                               |      | Y         |
 | Imlib2 License                                                                | [Imlib2][]                               |      | Y         |
 | Info-ZIP License                                                              | [Info-ZIP][]                             |      |           |
+| Inner Net License v2.0                                                        | [Inner-Net-2.0][]                        |      |           |
 | Intel Open Source License                                                     | [Intel][]                                | Y    | Y         |
 | Intel ACPI Software License Agreement                                         | [Intel-ACPI][]                           |      |           |
 | Interbase Public License v1.0                                                 | [Interbase-1.0][]                        |      |           |
@@ -908,6 +909,7 @@ The following licenses have been generated from the license list version ef5a479
 [iMatix]: text/iMatix.txt
 [Imlib2]: text/Imlib2.txt
 [Info-ZIP]: text/Info-ZIP.txt
+[Inner-Net-2.0]: text/Inner-Net-2.0.txt
 [Intel]: text/Intel.txt
 [Intel-ACPI]: text/Intel-ACPI.txt
 [Interbase-1.0]: text/Interbase-1.0.txt
