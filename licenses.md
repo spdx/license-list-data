@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6c860c0
+The following licenses have been generated from the license list version 817b99a
 
 ## Licenses with Short Idenifiers
 
@@ -568,6 +568,7 @@ The following licenses have been generated from the license list version 6c860c0
 | libpri OpenH323 exception                             | [libpri-OpenH323-exception][]            |
 | Libtool Exception                                     | [Libtool-exception][]                    |
 | Linux Syscall Note                                    | [Linux-syscall-note][]                   |
+| LLGPL Preamble                                        | [LLGPL][]                                |
 | LLVM Exception                                        | [LLVM-exception][]                       |
 | LZMA exception                                        | [LZMA-exception][]                       |
 | Macros and Inline Functions Exception                 | [mif-exception][]                        |
@@ -1215,6 +1216,7 @@ The following licenses have been generated from the license list version 6c860c0
 [libpri-OpenH323-exception]: text/libpri-OpenH323-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
 [Linux-syscall-note]: text/Linux-syscall-note.txt
+[LLGPL]: text/LLGPL.txt
 [LLVM-exception]: text/LLVM-exception.txt
 [LZMA-exception]: text/LZMA-exception.txt
 [mif-exception]: text/mif-exception.txt

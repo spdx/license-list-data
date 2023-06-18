@@ -1,0 +1,174 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/LLGPL">
+    <spdx:licenseExceptionId>LLGPL</spdx:licenseExceptionId>
+    <rdfs:seeAlso>http://opensource.franz.com/preamble.html</rdfs:seeAlso>
+    <rdfs:comment>Typically used with LGPL-2.1</rdfs:comment>
+    <spdx:name>LLGPL Preamble</spdx:name>
+    <spdx:exceptionTextHtml>
+         &lt;var class="optional-license-text"&gt; Preamble to the Gnu Lesser General Public License
+         &lt;/var&gt;
+         &lt;var class="replaceable-license-text"&gt; 
+            Copyright (c) 2000 Franz Incorporated, Berkeley, CA 94704
+         &lt;/var&gt;
+         &lt;p&gt;
+	    &lt;var class="optional-license-text"&gt; Franz Inc. has adopted the concept of the GNU Lesser General Public License version 2.1 (&amp;quot;LGPL&amp;quot;) to govern the use and distribution of AllegroServe.&lt;/var&gt;
+	    &lt;var class="optional-license-text"&gt; The concept of the GNU Lesser General Public License version 2.1 (&amp;quot;LGPL&amp;quot;) has been adopted to govern the use and distribution of above-mentioned application&lt;/var&gt;.
+	    However, &lt;var class="optional-license-text"&gt; the&lt;/var&gt; LGPL uses terminology
+            that is more appropriate for a program written in C than one
+	    written in Lisp. Nevertheless, &lt;var class="optional-license-text"&gt; the&lt;/var&gt; LGPL can still be applied to
+            a Lisp program if certain clarifications are made. This document
+            details those clarifications. Accordingly, the license for
+            &lt;var class="replaceable-license-text"&gt; the
+            open-source Lisp applications&lt;/var&gt; consists of this document plus
+	    &lt;var class="optional-license-text"&gt; the&lt;/var&gt; LGPL. Wherever there is a conflict between this document
+	    and the LGPL, this document takes precedence over &lt;var class="optional-license-text"&gt; the&lt;/var&gt; LGPL.
+         &lt;/p&gt;
+
+         &lt;p&gt;
+            A &amp;quot;Library&amp;quot; in Lisp is a collection of Lisp functions, data and
+            foreign modules. The form of the Library can be Lisp source code
+            (for processing by an interpreter) or object code (usually the
+            result of compilation of source code or built with some other
+            mechanisms). Foreign modules are object code in a form that can
+            be linked into a Lisp executable. When we speak of functions we
+            do so in the most general way to include, in addition, methods
+            and unnamed functions. Lisp &amp;quot;data&amp;quot; is also a general term that
+            includes the data structures resulting from defining Lisp classes.
+            A Lisp application may include the same set of Lisp objects
+            as does a Library, but this does not mean that the application
+            is necessarily a &amp;quot;work based on the Library&amp;quot; it contains.
+         &lt;/p&gt;
+
+         &lt;p&gt;
+            The &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt; 
+            consists of everything in the distribution file set
+            before any modifications are made to the files. If any of the
+            functions or classes in the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt; 
+            are redefined in other files,
+            then those redefinitions ARE considered a work based on the
+            &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;. 
+            If additional methods are added to generic functions in
+            the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;, 
+            those additional methods are NOT considered a work
+            based on the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;. 
+            If &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt; classes are subclassed, these
+            subclasses are NOT considered a work based on the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;. 
+            If the Library is modified to explicitly call other functions that are
+            neither part of Lisp itself nor an available add-on module to Lisp,
+            then the functions called by the modified 
+            &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt; 
+            ARE considered a work based on the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;. 
+            The goal is to ensure that the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;
+            will compile and run without getting undefined function errors.
+         &lt;/p&gt;
+
+         &lt;p&gt;
+            It is permitted to add proprietary source code to the 
+            &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;,
+            but it must be done in a way such that the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt; 
+            will still run without that proprietary code present. Section 5 of the LGPL
+            distinguishes between the case of a library being dynamically linked
+            at runtime and one being statically linked at build time. Section
+            5 of the LGPL states that the former results in an executable
+            that is a &amp;quot;work that uses the Library.&amp;quot; Section 5 of the LGPL
+            states that the latter results in one that is a &amp;quot;derivative of the
+	    Library&amp;quot;, which is therefore covered by &lt;var class="optional-license-text"&gt; the&lt;/var&gt; LGPL. Since Lisp only
+            offers one choice, which is to link the Library into an executable
+            at build time, we declare that, for the purpose applying the LGPL
+            to the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;, 
+            an executable that results from linking a &amp;quot;work
+            that uses the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;&amp;quot; 
+            with the Library is considered a &amp;quot;work
+            that uses the Library&amp;quot; and is therefore NOT covered by the LGPL.
+         &lt;/p&gt;
+
+         &lt;p&gt;
+            Because of this declaration, section 6 of LGPL is not applicable
+            to the &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt;. 
+            However, in connection with each distribution of
+            this executable, you must also deliver, in accordance with the
+            terms and conditions of the LGPL, the source code of 
+            &lt;var class="replaceable-license-text"&gt; Library&lt;/var&gt; (or
+            your derivative thereof) that is incorporated into this executable.
+         &lt;/p&gt;
+
+      </spdx:exceptionTextHtml>
+    <spdx:licenseExceptionText>Preamble to the Gnu Lesser General Public License
+
+Copyright (c) 2016 Franz Inc., Berkeley, CA 94704
+
+The concept of the GNU Lesser General Public License version 2.1 ("LGPL") 
+has been adopted to govern the use and distribution of above-mentioned 
+application. However, the LGPL uses terminology that is more appropriate 
+for a program written in C than one written in Lisp. Nevertheless, the
+LGPL can still be applied to a Lisp program if certain clarifications 
+are made. This document details those clarifications. Accordingly, the 
+license for the open-source Lisp applications consists of this document 
+plus the LGPL. Wherever there is a conflict between this document and 
+the LGPL, this document takes precedence over the LGPL.
+
+A "Library" in Lisp is a collection of Lisp functions, data and foreign 
+modules. The form of the Library can be Lisp source code (for processing 
+by an interpreter) or object code (usually the result of compilation of 
+source code or built with some other mechanisms). Foreign modules are 
+object code in a form that can be linked into a Lisp executable. When 
+we speak of functions we do so in the most general way to include, in 
+addition, methods and unnamed functions. Lisp "data" is also a general 
+term that includes the data structures resulting from defining Lisp 
+classes. A Lisp application may include the same set of Lisp objects 
+as does a Library, but this does not mean that the application is 
+necessarily a "work based on the Library" it contains.
+
+The Library consists of everything in the distribution file set before 
+any modifications are made to the files. If any of the functions or 
+classes in the Library are redefined in other files, then those 
+redefinitions ARE considered a work based on the Library. If additional 
+methods are added to generic functions in the Library, those additional 
+methods are NOT considered a work based on the Library. If Library classes 
+are subclassed, these subclasses are NOT considered a work based on the Library. 
+If the Library is modified to explicitly call other functions that are neither 
+part of Lisp itself nor an available add-on module to Lisp, then the functions 
+called by the modified Library ARE considered a work based on the Library. 
+The goal is to ensure that the Library will compile and run without getting 
+undefined function errors.
+
+It is permitted to add proprietary source code to the Library, but it must 
+be done in a way such that the Library will still run without that proprietary 
+code present. Section 5 of the LGPL distinguishes between the case of a 
+library being dynamically linked at runtime and one being statically linked 
+at build time. Section 5 of the LGPL states that the former results in an 
+executable that is a "work that uses the Library." Section 5 of the LGPL 
+states that the latter results in one that is a "derivative of the Library", 
+which is therefore covered by the LGPL. Since Lisp only offers one choice, 
+which is to link the Library into an executable at build time, we declare that, 
+for the purpose applying the LGPL to the Library, an executable that results 
+from linking a "work that uses the Library" with the Library is considered a 
+"work that uses the Library" and is therefore NOT covered by the LGPL.
+
+Because of this declaration, section 6 of LGPL is not applicable to the Library. 
+However, in connection with each distribution of this executable, you must also 
+deliver, in accordance with the terms and conditions of the LGPL, the source code 
+of Library (or your derivative thereof) that is incorporated into this executable.
+</spdx:licenseExceptionText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;Preamble to the Gnu Lesser General Public License&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 2000 Franz Incorporated, Berkeley, CA 94704";match=".{0,5000}"&gt;&gt;
+
+&lt;&lt;beginOptional&gt;&gt;Franz Inc. has adopted the concept of the GNU Lesser General Public License version 2.1 ("LGPL") to govern the use and distribution of AllegroServe.&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; The concept of the GNU Lesser General Public License version 2.1 ("LGPL") has been adopted to govern the use and distribution of above-mentioned application&lt;&lt;endOptional&gt;&gt; . However,&lt;&lt;beginOptional&gt;&gt; the&lt;&lt;endOptional&gt;&gt; LGPL uses terminology that is more appropriate for a program written in C than one written in Lisp. Nevertheless,&lt;&lt;beginOptional&gt;&gt; the&lt;&lt;endOptional&gt;&gt; LGPL can still be applied to a Lisp program if certain clarifications are made. This document details those clarifications. Accordingly, the license for &lt;&lt;var;name="app";original="the open-source Lisp applications";match="the open-source Lisp applications|AllegroServe"&gt;&gt; consists of this document plus&lt;&lt;beginOptional&gt;&gt; the&lt;&lt;endOptional&gt;&gt; LGPL. Wherever there is a conflict between this document and the LGPL, this document takes precedence over&lt;&lt;beginOptional&gt;&gt; the&lt;&lt;endOptional&gt;&gt; LGPL.
+
+A "Library" in Lisp is a collection of Lisp functions, data and foreign modules. The form of the Library can be Lisp source code (for processing by an interpreter) or object code (usually the result of compilation of source code or built with some other mechanisms). Foreign modules are object code in a form that can be linked into a Lisp executable. When we speak of functions we do so in the most general way to include, in addition, methods and unnamed functions. Lisp "data" is also a general term that includes the data structures resulting from defining Lisp classes. A Lisp application may include the same set of Lisp objects as does a Library, but this does not mean that the application is necessarily a "work based on the Library" it contains.
+
+The &lt;&lt;var;name="library1";original="Library";match="Library|AllegroServe Library"&gt;&gt; consists of everything in the distribution file set before any modifications are made to the files. If any of the functions or classes in the &lt;&lt;var;name="library2";original="Library";match="Library|AllegroServe Library"&gt;&gt; are redefined in other files, then those redefinitions ARE considered a work based on the &lt;&lt;var;name="library3";original="Library";match="Library|AllegroServe Library"&gt;&gt; . If additional methods are added to generic functions in the &lt;&lt;var;name="library4";original="Library";match="Library|AllegroServe Library"&gt;&gt; , those additional methods are NOT considered a work based on the &lt;&lt;var;name="library5";original="Library";match="Library|AllegroServe Library"&gt;&gt; . If &lt;&lt;var;name="library6";original="Library";match="Library|AllegroServe Library"&gt;&gt; classes are subclassed, these subclasses are NOT considered a work based on the &lt;&lt;var;name="library7";original="Library";match="Library|AllegroServe Library"&gt;&gt; . If the Library is modified to explicitly call other functions that are neither part of Lisp itself nor an available add-on module to Lisp, then the functions called by the modified &lt;&lt;var;name="library8";original="Library";match="Library|AllegroServe Library"&gt;&gt; ARE considered a work based on the &lt;&lt;var;name="library9";original="Library";match="Library|AllegroServe Library"&gt;&gt; . The goal is to ensure that the &lt;&lt;var;name="library10";original="Library";match="Library|AllegroServe Library"&gt;&gt; will compile and run without getting undefined function errors.
+
+It is permitted to add proprietary source code to the &lt;&lt;var;name="library11";original="Library";match="Library|AllegroServe Library"&gt;&gt; , but it must be done in a way such that the &lt;&lt;var;name="library12";original="Library";match="Library|AllegroServe Library"&gt;&gt; will still run without that proprietary code present. Section 5 of the LGPL distinguishes between the case of a library being dynamically linked at runtime and one being statically linked at build time. Section 5 of the LGPL states that the former results in an executable that is a "work that uses the Library." Section 5 of the LGPL states that the latter results in one that is a "derivative of the Library", which is therefore covered by&lt;&lt;beginOptional&gt;&gt; the&lt;&lt;endOptional&gt;&gt; LGPL. Since Lisp only offers one choice, which is to link the Library into an executable at build time, we declare that, for the purpose applying the LGPL to the &lt;&lt;var;name="library13";original="Library";match="Library|AllegroServe Library"&gt;&gt; , an executable that results from linking a "work that uses the &lt;&lt;var;name="library14";original="Library";match="Library|AllegroServe Library"&gt;&gt; " with the Library is considered a "work that uses the Library" and is therefore NOT covered by the LGPL.
+
+Because of this declaration, section 6 of LGPL is not applicable to the &lt;&lt;var;name="library15";original="Library";match="Library|AllegroServe Library"&gt;&gt; . However, in connection with each distribution of this executable, you must also deliver, in accordance with the terms and conditions of the LGPL, the source code of &lt;&lt;var;name="library16";original="Library";match="Library|AllegroServe Library"&gt;&gt; (or your derivative thereof) that is incorporated into this executable.
+
+</spdx:licenseExceptionTemplate>
+  </spdx:ListedLicenseException>
+</rdf:RDF>

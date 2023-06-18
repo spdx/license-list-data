@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SPDXLicenseCollection xmlns="http://www.spdx.org/license">
+   <exception licenseId="LLGPL"
+   name="LLGPL Preamble" listVersionAdded="3.21">
+      <crossRefs>
+         <crossRef>http://opensource.franz.com/preamble.html</crossRef>
+      </crossRefs>
+      <notes>
+         Typically used with LGPL-2.1
+      </notes>
+      <text>
+         <titleText>Preamble to the Gnu Lesser General Public License
+         </titleText>
+         <copyrightText>
+            Copyright (c) 2000 Franz Incorporated, Berkeley, CA 94704
+         </copyrightText>
+         <p>
+	    <optional>Franz Inc. has adopted the concept of the GNU Lesser General Public License version 2.1 ("LGPL") to govern the use and distribution of AllegroServe.</optional>
+	    <optional>The concept of the GNU Lesser General Public License version 2.1 ("LGPL") has been adopted to govern the use and distribution of above-mentioned application</optional>.
+	    However, <optional>the</optional> LGPL uses terminology
+            that is more appropriate for a program written in C than one
+	    written in Lisp. Nevertheless, <optional>the</optional> LGPL can still be applied to
+            a Lisp program if certain clarifications are made. This document
+            details those clarifications. Accordingly, the license for
+            <alt match="the open-source Lisp applications|AllegroServe" name="app">the
+            open-source Lisp applications</alt> consists of this document plus
+	    <optional>the</optional> LGPL. Wherever there is a conflict between this document
+	    and the LGPL, this document takes precedence over <optional>the</optional> LGPL.
+         </p>
+         <p>
+            A "Library" in Lisp is a collection of Lisp functions, data and
+            foreign modules. The form of the Library can be Lisp source code
+            (for processing by an interpreter) or object code (usually the
+            result of compilation of source code or built with some other
+            mechanisms). Foreign modules are object code in a form that can
+            be linked into a Lisp executable. When we speak of functions we
+            do so in the most general way to include, in addition, methods
+            and unnamed functions. Lisp "data" is also a general term that
+            includes the data structures resulting from defining Lisp classes.
+            A Lisp application may include the same set of Lisp objects
+            as does a Library, but this does not mean that the application
+            is necessarily a "work based on the Library" it contains.
+         </p>
+         <p>
+            The <alt match="Library|AllegroServe Library" name="library1">Library</alt> 
+            consists of everything in the distribution file set
+            before any modifications are made to the files. If any of the
+            functions or classes in the <alt match="Library|AllegroServe Library" name="library2">Library</alt> 
+            are redefined in other files,
+            then those redefinitions ARE considered a work based on the
+            <alt match="Library|AllegroServe Library" name="library3">Library</alt>. 
+            If additional methods are added to generic functions in
+            the <alt match="Library|AllegroServe Library" name="library4">Library</alt>, 
+            those additional methods are NOT considered a work
+            based on the <alt match="Library|AllegroServe Library" name="library5">Library</alt>. 
+            If <alt match="Library|AllegroServe Library" name="library6">Library</alt> classes are subclassed, these
+            subclasses are NOT considered a work based on the <alt match="Library|AllegroServe Library" name="library7">Library</alt>. 
+            If the Library is modified to explicitly call other functions that are
+            neither part of Lisp itself nor an available add-on module to Lisp,
+            then the functions called by the modified 
+            <alt match="Library|AllegroServe Library" name="library8">Library</alt> 
+            ARE considered a work based on the <alt match="Library|AllegroServe Library" name="library9">Library</alt>. 
+            The goal is to ensure that the <alt match="Library|AllegroServe Library" name="library10">Library</alt>
+            will compile and run without getting undefined function errors.
+         </p>
+         <p>
+            It is permitted to add proprietary source code to the 
+            <alt match="Library|AllegroServe Library" name="library11">Library</alt>,
+            but it must be done in a way such that the <alt match="Library|AllegroServe Library" name="library12">Library</alt> 
+            will still run without that proprietary code present. Section 5 of the LGPL
+            distinguishes between the case of a library being dynamically linked
+            at runtime and one being statically linked at build time. Section
+            5 of the LGPL states that the former results in an executable
+            that is a "work that uses the Library." Section 5 of the LGPL
+            states that the latter results in one that is a "derivative of the
+	    Library", which is therefore covered by <optional>the</optional> LGPL. Since Lisp only
+            offers one choice, which is to link the Library into an executable
+            at build time, we declare that, for the purpose applying the LGPL
+            to the <alt match="Library|AllegroServe Library" name="library13">Library</alt>, 
+            an executable that results from linking a "work
+            that uses the <alt match="Library|AllegroServe Library" name="library14">Library</alt>" 
+            with the Library is considered a "work
+            that uses the Library" and is therefore NOT covered by the LGPL.
+         </p>
+         <p>
+            Because of this declaration, section 6 of LGPL is not applicable
+            to the <alt match="Library|AllegroServe Library" name="library15">Library</alt>. 
+            However, in connection with each distribution of
+            this executable, you must also deliver, in accordance with the
+            terms and conditions of the LGPL, the source code of 
+            <alt match="Library|AllegroServe Library" name="library16">Library</alt> (or
+            your derivative thereof) that is incorporated into this executable.
+         </p>
+      </text>
+   </exception>
+</SPDXLicenseCollection>
