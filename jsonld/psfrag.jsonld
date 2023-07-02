@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-06-21T23:40:05Z",
+            "spdx:timestamp": "2023-07-02T17:59:50Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -30,6 +30,9 @@
             "@type": "spdx:ListedLicense",
             "spdx:name": "psfrag License",
             "spdx:licenseId": "psfrag",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:licenseText": "psfrag.dtx\nCopyright (C) 1996 Craig Barratt, Michael C. Grant, and David Carlisle.\nAll rights are reserved.\n\nThis system is distributed in the hope that it will be  useful, but WITHOUT ANY WARRANTY; without even the  implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. Don't come complaining to us if you modify this file and it doesn't work! If this file is modified by anyone but the authors, those changes and their authors must be explicitly stated HERE.\n",
             "spdx:standardLicenseTemplate": "<<beginOptional>>psfrag.dtx\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (C) 1996 Craig Barratt, Michael C. Grant, and David Carlisle.    All rights are reserved.  \";match=\".{0,5000}\">>\n\nThis system is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. Don't come complaining to us if you modify this file and it doesn't work! If this file is modified by anyone but the authors, those changes and their authors must be explicitly stated HERE.\n\n",
             "spdx:isOsiApproved": {
@@ -39,9 +42,6 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             }
         }
     ],
