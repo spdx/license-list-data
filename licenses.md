@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version c2dbc5a
+The following licenses have been generated from the license list version d4d421d
 
 ## Licenses with Short Idenifiers
 
@@ -544,6 +544,7 @@ The following licenses have been generated from the license list version c2dbc5a
 | Autoconf exception 2.0                                | [Autoconf-exception-2.0][]               |
 | Autoconf exception 3.0                                | [Autoconf-exception-3.0][]               |
 | Autoconf generic exception                            | [Autoconf-exception-generic][]           |
+| Autoconf generic exception for GPL-3.0                | [Autoconf-exception-generic-3.0][]       |
 | Autoconf macro exception                              | [Autoconf-exception-macro][]             |
 | Bison exception 2.2                                   | [Bison-exception-2.2][]                  |
 | Bootloader Distribution Exception                     | [Bootloader-exception][]                 |
@@ -1196,6 +1197,7 @@ The following licenses have been generated from the license list version c2dbc5a
 [Autoconf-exception-2.0]: text/Autoconf-exception-2.0.txt
 [Autoconf-exception-3.0]: text/Autoconf-exception-3.0.txt
 [Autoconf-exception-generic]: text/Autoconf-exception-generic.txt
+[Autoconf-exception-generic-3.0]: text/Autoconf-exception-generic-3.0.txt
 [Autoconf-exception-macro]: text/Autoconf-exception-macro.txt
 [Bison-exception-2.2]: text/Bison-exception-2.2.txt
 [Bootloader-exception]: text/Bootloader-exception.txt

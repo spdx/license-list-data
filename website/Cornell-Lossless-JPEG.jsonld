@@ -2,12 +2,58 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-07-27T13:17:19Z",
+            "spdx:timestamp": "2023-07-27T15:42:24Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-07-27T15:42:25Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b2",
+            "spdx:timestamp": "2023-07-27T15:42:24Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -32,17 +78,6 @@
                 "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
                 "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h"
             ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b2"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -50,57 +85,22 @@
             "spdx:name": "Cornell Lossless JPEG License",
             "spdx:licenseTextHtml": "\n\t\t<var class=\"replaceable-license-text\"> \n\t\t\tCopyright (c) 1993 Cornell University, Kongji Huang<br />\n\n\t\t\tAll rights reserved.\n\t\t</var>\n\n\t\t<p>Permission to use, copy, modify, and distribute this software and its\n\t\tdocumentation for any purpose, without fee, and without written\n\t\tagreement is hereby granted, provided that the above copyright notice\n\t\tand the following two paragraphs appear in all copies of this\n\t\tsoftware.</p>\n\n\t\t<p>IN NO EVENT SHALL <var class=\"replaceable-license-text\"> THE CORNELL UNIVERSITY</var> BE LIABLE TO ANY PARTY FOR\n\t\tDIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING\n\t\tOUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF <var class=\"replaceable-license-text\"> CORNELL\n\t\tUNIVERSITY</var> HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>\n\n\t\t<p><var class=\"replaceable-license-text\"> THE CORNELL UNIVERSITY</var> SPECIFICALLY DISCLAIMS ANY WARRANTIES,\n\t\tINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n\t\tMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE\n\t\tPROVIDED HEREUNDER IS ON AN &quot;AS IS&quot; BASIS, AND <var class=\"replaceable-license-text\"> CORNELL UNIVERSITY</var> HAS\n\t\tNO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS,\n\t\tOR MODIFICATIONS.</p>\n\n\t",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b2"
+                },
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1993 Cornell University, Kongji Huang  All rights reserved.\";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, and without written agreement is hereby granted, provided that the above copyright notice and the following two paragraphs appear in all copies of this software.\n\nIN NO EVENT SHALL <<var;name=\"disclaimer1\";original=\"THE CORNELL UNIVERSITY\";match=\".+\">> BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF <<var;name=\"disclaimer2\";original=\"CORNELL UNIVERSITY\";match=\".+\">> HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n<<var;name=\"disclaimer3\";original=\"THE CORNELL UNIVERSITY\";match=\".+\">> SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN \"AS IS\" BASIS, AND <<var;name=\"disclaimer4\";original=\"CORNELL UNIVERSITY\";match=\".+\">> HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-07-27T13:17:18Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b2",
-            "spdx:timestamp": "2023-07-27T13:17:18Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
