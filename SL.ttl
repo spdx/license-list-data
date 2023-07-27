@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/SL>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://github.com/mtoyoda/sl/blob/master/LICENSE" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-07-27T04:12:09Z" ;
+                                        spdx:url            "https://github.com/mtoyoda/sl/blob/master/LICENSE"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "SL" ;
+        spdx:licenseText              "Everyone is permitted to do anything on this program including copying,\nmodifying, and improving, unless you try to pretend that you wrote it.\ni.e., the above copyright notice has to appear in all copies.\nTHE AUTHOR DISCLAIMS ANY RESPONSIBILITY WITH REGARD TO THIS SOFTWARE.\n" ;
+        spdx:licenseTextHtml          "\n         <var class=\"optional-license-text\"> \n            SL License\n         </var>\n         <p>\n            Everyone is permitted to do anything on this program including copying,\n            modifying, and improving, unless you try to pretend that you wrote it.\n            i.e., the above copyright notice has to appear in all copies.\n            THE AUTHOR DISCLAIMS ANY RESPONSIBILITY WITH REGARD TO THIS SOFTWARE.\n         </p>\n\n      " ;
+        spdx:name                     "SL License" ;
+        spdx:standardLicenseTemplate  "<<beginOptional>>SL License<<endOptional>>\n\nEveryone is permitted to do anything on this program including copying, modifying, and improving, unless you try to pretend that you wrote it. i.e., the above copyright notice has to appear in all copies. THE AUTHOR DISCLAIMS ANY RESPONSIBILITY WITH REGARD TO THIS SOFTWARE.\n\n" .
