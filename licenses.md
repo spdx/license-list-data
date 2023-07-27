@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 33043db
+The following licenses have been generated from the license list version ca1693f
 
 ## Licenses with Short Idenifiers
 
@@ -462,6 +462,7 @@ The following licenses have been generated from the license list version 33043db
 | Simple Public License 2.0                                                     | [SimPL-2.0][]                            | Y    |           |
 | Sun Industry Standards Source License v1.1                                    | [SISSL][]                                | Y    | Y         |
 | Sun Industry Standards Source License v1.2                                    | [SISSL-1.2][]                            |      |           |
+| SL License                                                                    | [SL][]                                   |      |           |
 | Sleepycat License                                                             | [Sleepycat][]                            | Y    | Y         |
 | Standard ML of New Jersey License                                             | [SMLNJ][]                                |      | Y         |
 | Secure Messaging Protocol Public License                                      | [SMPPL][]                                |      |           |
@@ -1114,6 +1115,7 @@ The following licenses have been generated from the license list version 33043db
 [SimPL-2.0]: text/SimPL-2.0.txt
 [SISSL]: text/SISSL.txt
 [SISSL-1.2]: text/SISSL-1.2.txt
+[SL]: text/SL.txt
 [Sleepycat]: text/Sleepycat.txt
 [SMLNJ]: text/SMLNJ.txt
 [SMPPL]: text/SMPPL.txt

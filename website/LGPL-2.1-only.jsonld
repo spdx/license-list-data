@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-07-02T17:50:56Z",
+            "spdx:timestamp": "2023-07-27T04:11:55Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,10 @@
         },
         {
             "@id": "http://spdx.org/licenses/LGPL-2.1-only",
+            "rdfs:seeAlso": [
+                "https://opensource.org/licenses/LGPL-2.1",
+                "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
+            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -33,15 +37,11 @@
                     "@id": "_:b1"
                 }
             ],
-            "rdfs:seeAlso": [
-                "https://opensource.org/licenses/LGPL-2.1",
-                "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
-            ],
-            "spdx:isFsfLibre": {
+            "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isOsiApproved": {
+            "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
@@ -62,7 +62,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-07-02T17:50:56Z",
+            "spdx:timestamp": "2023-07-27T04:11:55Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
