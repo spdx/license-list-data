@@ -1,0 +1,25 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/check-cvs>
+        a                             spdx:ListedLicense ;
+        rdfs:comment                  "This license is similar to FSFULLR." ;
+        rdfs:seeAlso                  "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-07-27T13:16:13Z" ;
+                                        spdx:url            "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "check-cvs" ;
+        spdx:licenseText              "Permission is granted to copy and/or distribute this file, with or\nwithout modifications, provided this notice is preserved.\n" ;
+        spdx:licenseTextHtml          "\n         <p>\n            Permission is granted to copy and/or distribute this file, with\n            or without modifications, provided this notice is preserved.\n         </p>\n\n      " ;
+        spdx:name                     "check-cvs License" ;
+        spdx:standardLicenseTemplate  "Permission is granted to copy and/or distribute this file, with or without modifications, provided this notice is preserved.\n\n" .

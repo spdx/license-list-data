@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-07-27T04:02:53Z",
+            "spdx:timestamp": "2023-07-27T13:16:12Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/FSFULLRWD",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.\";match=\".{0,5000}\">>\n\nThis <<var;name=\"file\";original=\"Makefile.in\";match=\"Makefile.in|file\">> is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY, to the extent permitted by law; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
             "spdx:licenseText": "Copyright (C) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002,\n2003, 2004, 2005, 2006, 2007, 2008, 2009  Free Software Foundation, Inc.\n\nThis Makefile.in is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\n\nThis program is distributed in the hope that it will be useful,\nbut WITHOUT ANY WARRANTY, to the extent permitted by law; without\neven the implied warranty of MERCHANTABILITY or FITNESS FOR A\nPARTICULAR PURPOSE.\n",
             "spdx:isDeprecatedLicenseId": {
@@ -36,6 +33,9 @@
             },
             "spdx:licenseId": "FSFULLRWD",
             "rdfs:seeAlso": "https://lists.gnu.org/archive/html/autoconf/2012-04/msg00061.html",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
