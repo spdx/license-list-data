@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ca1693f
+The following licenses have been generated from the license list version c2dbc5a
 
 ## Licenses with Short Idenifiers
 
@@ -159,6 +159,7 @@ The following licenses have been generated from the license list version ca1693f
 | CERN Open Hardware Licence Version 2 - Strongly Reciprocal                    | [CERN-OHL-S-2.0][]                       | Y    |           |
 | CERN Open Hardware Licence Version 2 - Weakly Reciprocal                      | [CERN-OHL-W-2.0][]                       | Y    |           |
 | CFITSIO License                                                               | [CFITSIO][]                              |      |           |
+| check-cvs License                                                             | [check-cvs][]                            |      |           |
 | Checkmk License                                                               | [checkmk][]                              |      |           |
 | Clarified Artistic License                                                    | [ClArtistic][]                           |      | Y         |
 | Clips License                                                                 | [Clips][]                                |      |           |
@@ -524,6 +525,7 @@ The following licenses have been generated from the license list version ca1693f
 | Yahoo! Public License v1.0                                                    | [YPL-1.0][]                              |      |           |
 | Yahoo! Public License v1.1                                                    | [YPL-1.1][]                              |      | Y         |
 | Zed License                                                                   | [Zed][]                                  |      |           |
+| Zeeff License                                                                 | [Zeeff][]                                |      |           |
 | Zend License v2.0                                                             | [Zend-2.0][]                             |      | Y         |
 | Zimbra Public License v1.3                                                    | [Zimbra-1.3][]                           |      | Y         |
 | Zimbra Public License v1.4                                                    | [Zimbra-1.4][]                           |      |           |
@@ -788,6 +790,7 @@ The following licenses have been generated from the license list version ca1693f
 [CERN-OHL-S-2.0]: text/CERN-OHL-S-2.0.txt
 [CERN-OHL-W-2.0]: text/CERN-OHL-W-2.0.txt
 [CFITSIO]: text/CFITSIO.txt
+[check-cvs]: text/check-cvs.txt
 [checkmk]: text/checkmk.txt
 [ClArtistic]: text/ClArtistic.txt
 [Clips]: text/Clips.txt
@@ -1179,6 +1182,7 @@ The following licenses have been generated from the license list version ca1693f
 [YPL-1.0]: text/YPL-1.0.txt
 [YPL-1.1]: text/YPL-1.1.txt
 [Zed]: text/Zed.txt
+[Zeeff]: text/Zeeff.txt
 [Zend-2.0]: text/Zend-2.0.txt
 [Zimbra-1.3]: text/Zimbra-1.3.txt
 [Zimbra-1.4]: text/Zimbra-1.4.txt

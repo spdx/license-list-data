@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-07-27T04:14:02Z",
+            "spdx:timestamp": "2023-07-27T13:26:38Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/dtoa",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -42,7 +39,10 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseText": "The author of this software is David M. Gay.\n\nCopyright (c) 1991, 2000, 2001 by Lucent Technologies.\n\nPermission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software and in all copies of the supporting\ndocumentation for such software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR, NEITHER THE AUTHOR NOR LUCENT MAKES ANY\nREPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY\nOF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n",
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {
