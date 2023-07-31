@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d4d421d
+The following licenses have been generated from the license list version cf06ec4
 
 ## Licenses with Short Idenifiers
 
@@ -253,6 +253,7 @@ The following licenses have been generated from the license list version d4d421d
 | Haskell Language Report License                                               | [HaskellReport][]                        |      |           |
 | Hippocratic License 2.1                                                       | [Hippocratic-2.1][]                      |      |           |
 | Hewlett-Packard 1986 License                                                  | [HP-1986][]                              |      |           |
+| Hewlett-Packard 1989 License                                                  | [HP-1989][]                              |      |           |
 | Historical Permission Notice and Disclaimer                                   | [HPND][]                                 | Y    | Y         |
 | HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant             | [HPND-Markus-Kuhn][]                     |      |           |
@@ -469,6 +470,7 @@ The following licenses have been generated from the license list version d4d421d
 | Secure Messaging Protocol Public License                                      | [SMPPL][]                                |      |           |
 | SNIA Public License 1.1                                                       | [SNIA][]                                 |      |           |
 | snprintf License                                                              | [snprintf][]                             |      |           |
+| Soundex License                                                               | [Soundex][]                              |      |           |
 | Spencer License 86                                                            | [Spencer-86][]                           |      |           |
 | Spencer License 94                                                            | [Spencer-94][]                           |      |           |
 | Spencer License 99                                                            | [Spencer-99][]                           |      |           |
@@ -902,6 +904,7 @@ The following licenses have been generated from the license list version d4d421d
 [HaskellReport]: text/HaskellReport.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
 [HP-1986]: text/HP-1986.txt
+[HP-1989]: text/HP-1989.txt
 [HPND]: text/HPND.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
@@ -1125,6 +1128,7 @@ The following licenses have been generated from the license list version d4d421d
 [SMPPL]: text/SMPPL.txt
 [SNIA]: text/SNIA.txt
 [snprintf]: text/snprintf.txt
+[Soundex]: text/Soundex.txt
 [Spencer-86]: text/Spencer-86.txt
 [Spencer-94]: text/Spencer-94.txt
 [Spencer-99]: text/Spencer-99.txt
