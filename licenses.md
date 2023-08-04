@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version cf06ec4
+The following licenses have been generated from the license list version 6aedbdf
 
 ## Licenses with Short Idenifiers
 
@@ -486,6 +486,7 @@ The following licenses have been generated from the license list version cf06ec4
 | TCL/TK License                                                                | [TCL][]                                  |      |           |
 | TCP Wrappers License                                                          | [TCP-wrappers][]                         |      |           |
 | TermReadKey License                                                           | [TermReadKey][]                          |      |           |
+| Texinfo exception                                                             | [Texinfo-exception][]                    |      |           |
 | TMate Open Source License                                                     | [TMate][]                                |      |           |
 | TORQUE v2.5+ Software License v1.1                                            | [TORQUE-1.1][]                           |      |           |
 | Trusster Open Source License                                                  | [TOSL][]                                 |      |           |
@@ -1145,6 +1146,7 @@ The following licenses have been generated from the license list version cf06ec4
 [TCL]: text/TCL.txt
 [TCP-wrappers]: text/TCP-wrappers.txt
 [TermReadKey]: text/TermReadKey.txt
+[Texinfo-exception]: text/Texinfo-exception.txt
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
