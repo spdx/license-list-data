@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version de550d9
+The following licenses have been generated from the license list version 5f2a867
 
 ## Licenses with Short Idenifiers
 
@@ -450,6 +450,7 @@ The following licenses have been generated from the license list version de550d9
 | RSA Message-Digest License                                                    | [RSA-MD][]                               |      |           |
 | Ricoh Source Code Public License                                              | [RSCPL][]                                | Y    |           |
 | Ruby License                                                                  | [Ruby][]                                 |      | Y         |
+| SANE Exception                                                                | [SANE-exception][]                       |      |           |
 | Sax Public Domain Notice                                                      | [SAX-PD][]                               |      |           |
 | Saxpath License                                                               | [Saxpath][]                              |      |           |
 | SCEA Shared Source License                                                    | [SCEA][]                                 |      |           |
@@ -479,6 +480,7 @@ The following licenses have been generated from the license list version de550d9
 | SSH OpenSSH license                                                           | [SSH-OpenSSH][]                          |      |           |
 | SSH short notice                                                              | [SSH-short][]                            |      |           |
 | Server Side Public License, v 1                                               | [SSPL-1.0][]                             |      |           |
+| stunnel Exception                                                             | [stunnel-exception][]                    |      |           |
 | SugarCRM Public License v1.1.3                                                | [SugarCRM-1.1.3][]                       |      |           |
 | SunPro License                                                                | [SunPro][]                               |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                        | [SWL][]                                  |      |           |
@@ -494,6 +496,7 @@ The following licenses have been generated from the license list version de550d9
 | Time::ParseDate License                                                       | [TPDL][]                                 |      |           |
 | THOR Public License 1.0                                                       | [TPL-1.0][]                              |      |           |
 | Text-Tabs+Wrap License                                                        | [TTWL][]                                 |      |           |
+| TTYP0 License                                                                 | [TTYP0][]                                |      |           |
 | Technische Universitaet Berlin License 1.0                                    | [TU-Berlin-1.0][]                        |      |           |
 | Technische Universitaet Berlin License 2.0                                    | [TU-Berlin-2.0][]                        |      |           |
 | UCAR License                                                                  | [UCAR][]                                 |      |           |
@@ -1110,6 +1113,7 @@ The following licenses have been generated from the license list version de550d9
 [RSA-MD]: text/RSA-MD.txt
 [RSCPL]: text/RSCPL.txt
 [Ruby]: text/Ruby.txt
+[SANE-exception]: text/SANE-exception.txt
 [SAX-PD]: text/SAX-PD.txt
 [Saxpath]: text/Saxpath.txt
 [SCEA]: text/SCEA.txt
@@ -1140,6 +1144,7 @@ The following licenses have been generated from the license list version de550d9
 [SSH-short]: text/SSH-short.txt
 [SSPL-1.0]: text/SSPL-1.0.txt
 [StandardML-NJ]: text/StandardML-NJ.txt
+[stunnel-exception]: text/stunnel-exception.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
 [SunPro]: text/SunPro.txt
 [SWL]: text/SWL.txt
@@ -1155,6 +1160,7 @@ The following licenses have been generated from the license list version de550d9
 [TPDL]: text/TPDL.txt
 [TPL-1.0]: text/TPL-1.0.txt
 [TTWL]: text/TTWL.txt
+[TTYP0]: text/TTYP0.txt
 [TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
 [TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
 [UCAR]: text/UCAR.txt
