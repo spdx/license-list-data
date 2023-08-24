@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-08-24T04:57:02Z",
+            "spdx:timestamp": "2023-08-24T05:22:09Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/w3m",
             "spdx:name": "w3m License",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -35,9 +38,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseText": "(C) Copyright 1994-2002 by Akinori Ito\n(C) Copyright 2002-2011 by Akinori Ito, Hironori Sakamoto, Fumitoshi Ukai\n\nUse, modification and redistribution of this software is hereby granted,\nprovided that this entire copyright notice is included on any copies of\nthis software and applications and derivations thereof.\n\nThis software is provided on an \"as is\" basis, without warranty of any\nkind, either expressed or implied, as to any matter including, but not\nlimited to warranty of fitness of purpose, or merchantability, or\nresults obtained from use of this software.\n",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "rdfs:seeAlso": "https://github.com/tats/w3m/blob/master/COPYING",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(C) Copyright 1994-2002 by Akinori Ito  (C) Copyright 2002-2011 by Akinori Ito, Hironori Sakamoto, Fumitoshi Ukai\";match=\".{0,5000}\">>\n\nUse, modification and redistribution of this software is hereby granted, provided that this entire copyright notice is included on any copies of this software and applications and derivations thereof.\n\nThis software is provided on an \"as is\" basis, without warranty of any kind, either expressed or implied, as to any matter including, but not limited to warranty of fitness of purpose, or merchantability, or results obtained from use of this software.\n\n",
             "@type": "spdx:ListedLicense",
