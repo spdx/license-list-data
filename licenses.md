@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6aedbdf
+The following licenses have been generated from the license list version de550d9
 
 ## Licenses with Short Idenifiers
 
@@ -332,6 +332,7 @@ The following licenses have been generated from the license list version 6aedbdf
 | MIT Festival Variant                                                          | [MIT-Festival][]                         |      |           |
 | MIT License Modern Variant                                                    | [MIT-Modern-Variant][]                   | Y    |           |
 | MIT Open Group variant                                                        | [MIT-open-group][]                       |      |           |
+| MIT testregex Variant                                                         | [MIT-testregex][]                        |      |           |
 | MIT Tom Wu Variant                                                            | [MIT-Wu][]                               |      |           |
 | MIT +no-false-attribs license                                                 | [MITNFA][]                               |      |           |
 | Motosoto License                                                              | [Motosoto][]                             | Y    |           |
@@ -990,6 +991,7 @@ The following licenses have been generated from the license list version 6aedbdf
 [MIT-Festival]: text/MIT-Festival.txt
 [MIT-Modern-Variant]: text/MIT-Modern-Variant.txt
 [MIT-open-group]: text/MIT-open-group.txt
+[MIT-testregex]: text/MIT-testregex.txt
 [MIT-Wu]: text/MIT-Wu.txt
 [MITNFA]: text/MITNFA.txt
 [Motosoto]: text/Motosoto.txt
