@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 5f2a867
+The following licenses have been generated from the license list version 79ef836
 
 ## Licenses with Short Idenifiers
 
@@ -241,6 +241,7 @@ The following licenses have been generated from the license list version 5f2a867
 | 3dfx Glide License                                                            | [Glide][]                                |      |           |
 | Glulxe License                                                                | [Glulxe][]                               |      |           |
 | Good Luck With That Public License                                            | [GLWTPL][]                               |      |           |
+| GNU Compiler Exception                                                        | [GNU-compiler-exception][]               |      |           |
 | gnuplot License                                                               | [gnuplot][]                              |      | Y         |
 | GNU General Public License v1.0 only                                          | [GPL-1.0-only][]                         |      |           |
 | GNU General Public License v1.0 or later                                      | [GPL-1.0-or-later][]                     |      |           |
@@ -884,6 +885,7 @@ The following licenses have been generated from the license list version 5f2a867
 [Glide]: text/Glide.txt
 [Glulxe]: text/Glulxe.txt
 [GLWTPL]: text/GLWTPL.txt
+[GNU-compiler-exception]: text/GNU-compiler-exception.txt
 [gnuplot]: text/gnuplot.txt
 [GPL-1.0]: text/GPL-1.0.txt
 [GPL-1.0+]: text/GPL-1.0+.txt

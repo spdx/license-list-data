@@ -1,0 +1,25 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/GNU-compiler-exception>
+        a                             spdx:ListedLicense ;
+        rdfs:comment                  "This exception is the same as SWI-exception but delineates that the library is compiled with a GNU compiler, which is narrower than a or any free software compiler." ;
+        rdfs:seeAlso                  "https://sourceware.org/git?p=binutils-gdb.git;a=blob;f=libiberty/unlink-if-ordinary.c;h=e49f2f2f67bfdb10d6b2bd579b0e01cad0fd708e;hb=HEAD#l19" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-08-25T20:11:20Z" ;
+                                        spdx:url            "https://sourceware.org/git?p=binutils-gdb.git;a=blob;f=libiberty/unlink-if-ordinary.c;h=e49f2f2f67bfdb10d6b2bd579b0e01cad0fd708e;hb=HEAD#l19"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "GNU-compiler-exception" ;
+        spdx:licenseText              "As a special exception, if you link this library with files\ncompiled with a GNU compiler to produce an executable, this\ndoes not cause the resulting executable to be covered by\nthe GNU General Public License. This exception does not\nhowever invalidate any other reasons why the executable\nfile might be covered by the GNU General Public License.\n" ;
+        spdx:licenseTextHtml          "\n         <p>\n            As a special exception, if you link this library with files\n            compiled with a GNU compiler to produce an executable, this\n            does not cause the resulting executable to be covered by\n            the GNU General Public License. This exception does not\n            however invalidate any other reasons why the executable\n            file might be covered by the GNU General Public License.\n         </p>\n\n      " ;
+        spdx:name                     "GNU Compiler Exception" ;
+        spdx:standardLicenseTemplate  "As a special exception, if you link this library with files compiled with a GNU compiler to produce an executable, this does not cause the resulting executable to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the executable file might be covered by the GNU General Public License.\n\n" .
