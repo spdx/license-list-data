@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 79ef836
+The following licenses have been generated from the license list version 6433d71
 
 ## Licenses with Short Idenifiers
 
@@ -336,6 +336,7 @@ The following licenses have been generated from the license list version 79ef836
 | MIT testregex Variant                                                         | [MIT-testregex][]                        |      |           |
 | MIT Tom Wu Variant                                                            | [MIT-Wu][]                               |      |           |
 | MIT +no-false-attribs license                                                 | [MITNFA][]                               |      |           |
+| MMIXware License                                                              | [MMIXware][]                             |      |           |
 | Motosoto License                                                              | [Motosoto][]                             | Y    |           |
 | mpi Permissive License                                                        | [mpi-permissive][]                       |      |           |
 | mpich2 License                                                                | [mpich2][]                               |      |           |
@@ -999,6 +1000,7 @@ The following licenses have been generated from the license list version 79ef836
 [MIT-testregex]: text/MIT-testregex.txt
 [MIT-Wu]: text/MIT-Wu.txt
 [MITNFA]: text/MITNFA.txt
+[MMIXware]: text/MMIXware.txt
 [Motosoto]: text/Motosoto.txt
 [mpi-permissive]: text/mpi-permissive.txt
 [mpich2]: text/mpich2.txt
