@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6433d71
+The following licenses have been generated from the license list version 68df0e5
 
 ## Licenses with Short Idenifiers
 
@@ -509,6 +509,7 @@ The following licenses have been generated from the license list version 6433d71
 | UnixCrypt License                                                             | [UnixCrypt][]                            |      |           |
 | The Unlicense                                                                 | [Unlicense][]                            | Y    | Y         |
 | Universal Permissive License v1.0                                             | [UPL-1.0][]                              | Y    | Y         |
+| Utah Raster Toolkit Run Length Encoded License                                | [URT-RLE][]                              |      |           |
 | Vim License                                                                   | [Vim][]                                  |      | Y         |
 | VOSTROM Public License for Open Source                                        | [VOSTROM][]                              |      |           |
 | Vovida Software License v1.0                                                  | [VSL-1.0][]                              | Y    |           |
@@ -1175,6 +1176,7 @@ The following licenses have been generated from the license list version 6433d71
 [UnixCrypt]: text/UnixCrypt.txt
 [Unlicense]: text/Unlicense.txt
 [UPL-1.0]: text/UPL-1.0.txt
+[URT-RLE]: text/URT-RLE.txt
 [Vim]: text/Vim.txt
 [VOSTROM]: text/VOSTROM.txt
 [VSL-1.0]: text/VSL-1.0.txt
