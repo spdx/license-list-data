@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 68df0e5
+The following licenses have been generated from the license list version 7054899
 
 ## Licenses with Short Idenifiers
 
@@ -184,6 +184,7 @@ The following licenses have been generated from the license list version 68df0e5
 | Deutsche Freie Software Lizenz                                                | [D-FSL-1.0][]                            |      |           |
 | diffmark license                                                              | [diffmark][]                             |      |           |
 | Data licence Germany – attribution – version 2.0                              | [DL-DE-BY-2.0][]                         |      |           |
+| Data licence Germany – zero – version 2.0                                     | [DL-DE-ZERO-2.0][]                       |      |           |
 | DOC License                                                                   | [DOC][]                                  |      |           |
 | Dotseqn License                                                               | [Dotseqn][]                              |      |           |
 | Detection Rule License 1.0                                                    | [DRL-1.0][]                              |      |           |
@@ -826,6 +827,7 @@ The following licenses have been generated from the license list version 68df0e5
 [D-FSL-1.0]: text/D-FSL-1.0.txt
 [diffmark]: text/diffmark.txt
 [DL-DE-BY-2.0]: text/DL-DE-BY-2.0.txt
+[DL-DE-ZERO-2.0]: text/DL-DE-ZERO-2.0.txt
 [DOC]: text/DOC.txt
 [Dotseqn]: text/Dotseqn.txt
 [DRL-1.0]: text/DRL-1.0.txt
