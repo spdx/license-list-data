@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 253729c
+The following licenses have been generated from the license list version 2616654
 
 ## Licenses with Short Idenifiers
 
@@ -339,6 +339,7 @@ The following licenses have been generated from the license list version 253729c
 | MIT +no-false-attribs license                                                 | [MITNFA][]                               |      |           |
 | MMIXware License                                                              | [MMIXware][]                             |      |           |
 | Motosoto License                                                              | [Motosoto][]                             | Y    |           |
+| MPEG Software Simulation                                                      | [MPEG-Software-Simulation][]             |      |           |
 | mpi Permissive License                                                        | [mpi-permissive][]                       |      |           |
 | mpich2 License                                                                | [mpich2][]                               |      |           |
 | Mozilla Public License 1.0                                                    | [MPL-1.0][]                              | Y    |           |
@@ -1005,6 +1006,7 @@ The following licenses have been generated from the license list version 253729c
 [MITNFA]: text/MITNFA.txt
 [MMIXware]: text/MMIXware.txt
 [Motosoto]: text/Motosoto.txt
+[MPEG-Software-Simulation]: text/MPEG-Software-Simulation.txt
 [mpi-permissive]: text/mpi-permissive.txt
 [mpich2]: text/mpich2.txt
 [MPL-1.0]: text/MPL-1.0.txt
