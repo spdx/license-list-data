@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2616654
+The following licenses have been generated from the license list version 2490678
 
 ## Licenses with Short Idenifiers
 
@@ -435,6 +435,7 @@ The following licenses have been generated from the license list version 2616654
 | PHP License v3.0                                                              | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                             | [PHP-3.01][]                             | Y    | Y         |
 | Plexus Classworlds License                                                    | [Plexus][]                               |      |           |
+| pnmstitch License                                                             | [pnmstitch][]                            |      |           |
 | PolyForm Noncommercial License 1.0.0                                          | [PolyForm-Noncommercial-1.0.0][]         |      |           |
 | PolyForm Small Business License 1.0.0                                         | [PolyForm-Small-Business-1.0.0][]        |      |           |
 | PostgreSQL License                                                            | [PostgreSQL][]                           | Y    |           |
@@ -1103,6 +1104,7 @@ The following licenses have been generated from the license list version 2616654
 [PHP-3.0]: text/PHP-3.0.txt
 [PHP-3.01]: text/PHP-3.01.txt
 [Plexus]: text/Plexus.txt
+[pnmstitch]: text/pnmstitch.txt
 [PolyForm-Noncommercial-1.0.0]: text/PolyForm-Noncommercial-1.0.0.txt
 [PolyForm-Small-Business-1.0.0]: text/PolyForm-Small-Business-1.0.0.txt
 [PostgreSQL]: text/PostgreSQL.txt
