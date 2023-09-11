@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 7fc0ca3
+The following licenses have been generated from the license list version 3bc60ab
 
 ## Licenses with Short Idenifiers
 
@@ -210,6 +210,7 @@ The following licenses have been generated from the license list version 7fc0ca3
 | Eurosym License                                                               | [Eurosym][]                              |      |           |
 | Fair License                                                                  | [Fair][]                                 | Y    |           |
 | Fraunhofer FDK AAC Codec Library                                              | [FDK-AAC][]                              |      |           |
+| Ferguson Twofish License                                                      | [Ferguson-Twofish][]                     |      |           |
 | Frameworx Open License 1.0                                                    | [Frameworx-1.0][]                        | Y    |           |
 | FreeBSD Documentation License                                                 | [FreeBSD-DOC][]                          |      |           |
 | FreeImage Public License v1.0                                                 | [FreeImage][]                            |      |           |
@@ -339,7 +340,7 @@ The following licenses have been generated from the license list version 7fc0ca3
 | MIT +no-false-attribs license                                                 | [MITNFA][]                               |      |           |
 | MMIXware License                                                              | [MMIXware][]                             |      |           |
 | Motosoto License                                                              | [Motosoto][]                             | Y    |           |
-| MPEG Software Simulation                                                      | [MPEG-Software-Simulation][]             |      |           |
+| MPEG Software Simulation                                                      | [MPEG-SSG][]                             |      |           |
 | mpi Permissive License                                                        | [mpi-permissive][]                       |      |           |
 | mpich2 License                                                                | [mpich2][]                               |      |           |
 | Mozilla Public License 1.0                                                    | [MPL-1.0][]                              | Y    |           |
@@ -856,6 +857,7 @@ The following licenses have been generated from the license list version 7fc0ca3
 [Eurosym]: text/Eurosym.txt
 [Fair]: text/Fair.txt
 [FDK-AAC]: text/FDK-AAC.txt
+[Ferguson-Twofish]: text/Ferguson-Twofish.txt
 [Frameworx-1.0]: text/Frameworx-1.0.txt
 [FreeBSD-DOC]: text/FreeBSD-DOC.txt
 [FreeImage]: text/FreeImage.txt
@@ -1007,7 +1009,7 @@ The following licenses have been generated from the license list version 7fc0ca3
 [MITNFA]: text/MITNFA.txt
 [MMIXware]: text/MMIXware.txt
 [Motosoto]: text/Motosoto.txt
-[MPEG-Software-Simulation]: text/MPEG-Software-Simulation.txt
+[MPEG-SSG]: text/MPEG-SSG.txt
 [mpi-permissive]: text/mpi-permissive.txt
 [mpich2]: text/mpich2.txt
 [MPL-1.0]: text/MPL-1.0.txt
