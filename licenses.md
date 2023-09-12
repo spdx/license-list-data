@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3bc60ab
+The following licenses have been generated from the license list version 7cb12db
 
 ## Licenses with Short Idenifiers
 
@@ -72,6 +72,7 @@ The following licenses have been generated from the license list version 3bc60ab
 | BSD 3-Clause No Nuclear License 2014                                          | [BSD-3-Clause-No-Nuclear-License-2014][] |      |           |
 | BSD 3-Clause No Nuclear Warranty                                              | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
 | BSD 3-Clause Open MPI variant                                                 | [BSD-3-Clause-Open-MPI][]                |      |           |
+| BSD 3-Clause Sun Microsystems                                                 | [BSD-3-Clause-Sun][]                     |      |           |
 | BSD 4-Clause "Original" or "Old" License                                      | [BSD-4-Clause][]                         |      | Y         |
 | BSD 4 Clause Shortened                                                        | [BSD-4-Clause-Shortened][]               |      |           |
 | BSD-4-Clause (University of California-Specific)                              | [BSD-4-Clause-UC][]                      |      |           |
@@ -717,6 +718,7 @@ The following licenses have been generated from the license list version 3bc60ab
 [BSD-3-Clause-No-Nuclear-License-2014]: text/BSD-3-Clause-No-Nuclear-License-2014.txt
 [BSD-3-Clause-No-Nuclear-Warranty]: text/BSD-3-Clause-No-Nuclear-Warranty.txt
 [BSD-3-Clause-Open-MPI]: text/BSD-3-Clause-Open-MPI.txt
+[BSD-3-Clause-Sun]: text/BSD-3-Clause-Sun.txt
 [BSD-4-Clause]: text/BSD-4-Clause.txt
 [BSD-4-Clause-Shortened]: text/BSD-4-Clause-Shortened.txt
 [BSD-4-Clause-UC]: text/BSD-4-Clause-UC.txt
