@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 7cb12db
+The following licenses have been generated from the license list version dad07b2
 
 ## Licenses with Short Idenifiers
 
@@ -82,6 +82,7 @@ The following licenses have been generated from the license list version 7cb12db
 | BSD with Attribution and HPND disclaimer                                      | [BSD-Attribution-HPND-disclaimer][]      |      |           |
 | BSD Protection License                                                        | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                   | [BSD-Source-Code][]                      |      |           |
+| Systemics BSD variant license                                                 | [BSD-Systemics][]                        |      |           |
 | Boost Software License 1.0                                                    | [BSL-1.0][]                              | Y    | Y         |
 | Business Source License 1.1                                                   | [BUSL-1.1][]                             |      |           |
 | bzip2 and libbzip2 License v1.0.6                                             | [bzip2-1.0.6][]                          |      |           |
@@ -210,6 +211,7 @@ The following licenses have been generated from the license list version 7cb12db
 | European Union Public License 1.2                                             | [EUPL-1.2][]                             | Y    | Y         |
 | Eurosym License                                                               | [Eurosym][]                              |      |           |
 | Fair License                                                                  | [Fair][]                                 | Y    |           |
+| Fuzzy Bitmap License                                                          | [FBM][]                                  |      |           |
 | Fraunhofer FDK AAC Codec Library                                              | [FDK-AAC][]                              |      |           |
 | Ferguson Twofish License                                                      | [Ferguson-Twofish][]                     |      |           |
 | Frameworx Open License 1.0                                                    | [Frameworx-1.0][]                        | Y    |           |
@@ -728,6 +730,7 @@ The following licenses have been generated from the license list version 7cb12db
 [BSD-Attribution-HPND-disclaimer]: text/BSD-Attribution-HPND-disclaimer.txt
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
+[BSD-Systemics]: text/BSD-Systemics.txt
 [BSL-1.0]: text/BSL-1.0.txt
 [BUSL-1.1]: text/BUSL-1.1.txt
 [bzip2-1.0.5]: text/bzip2-1.0.5.txt
@@ -858,6 +861,7 @@ The following licenses have been generated from the license list version 7cb12db
 [EUPL-1.2]: text/EUPL-1.2.txt
 [Eurosym]: text/Eurosym.txt
 [Fair]: text/Fair.txt
+[FBM]: text/FBM.txt
 [FDK-AAC]: text/FDK-AAC.txt
 [Ferguson-Twofish]: text/Ferguson-Twofish.txt
 [Frameworx-1.0]: text/Frameworx-1.0.txt
