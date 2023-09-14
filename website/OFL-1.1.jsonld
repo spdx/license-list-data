@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-09-14T03:50:12Z",
+            "spdx:timestamp": "2023-09-14T11:03:37Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-09-14T03:50:11Z",
+            "spdx:timestamp": "2023-09-14T11:03:36Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/OFL-1.1",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -60,14 +68,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "rdfs:comment": "This license was released 26 February 2007. The identifier OFL-1.1 can be used to indicate that version 1.1 of the SIL Open Font License applies, without asserting whether or not a Reserved Font Name is used. See OFL-1.1-RFN and OFL-1.1-no-RFN for alternative identifiers that can be used to express explicitly that a Reserved Font Name is used or is not used, respectively.",
             "rdfs:seeAlso": [
                 "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web",

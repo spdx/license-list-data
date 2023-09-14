@@ -2,6 +2,14 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/ClArtistic",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:licenseId": "ClArtistic",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -12,14 +20,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "Clarified Artistic License",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "rdfs:seeAlso": [
                 "http://www.ncftp.com/ncftp/doc/LICENSE.txt",
                 "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/"
@@ -35,12 +35,12 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-09-14T04:01:01Z",
+            "spdx:timestamp": "2023-09-14T11:03:10Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/",
+            "spdx:url": "http://www.ncftp.com/ncftp/doc/LICENSE.txt",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -58,12 +58,12 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-09-14T04:01:00Z",
+            "spdx:timestamp": "2023-09-14T11:03:10Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://www.ncftp.com/ncftp/doc/LICENSE.txt",
+            "spdx:url": "http://gianluca.dellavedova.org/2011/01/03/clarified-artistic-license/",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
