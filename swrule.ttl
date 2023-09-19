@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/swrule>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/misc/swrule.sty" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-09-19T15:54:39Z" ;
+                                        spdx:url            "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/misc/swrule.sty"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "swrule" ;
+        spdx:licenseText              "The style package is copyrighted but may be used and extended in any way, as long as a pointer to the original author is maintained. The author is not liable for any problem that may or may not result from using this package. Use at your own risk.\n" ;
+        spdx:licenseTextHtml          "\n         <p>\n            The style package is copyrighted but may be used and extended\n            in any way, as long as a pointer to the original author is\n            maintained. The author is not liable for any problem that may\n            or may not result from using this package. Use at your own risk.\n         </p>\n\n      " ;
+        spdx:name                     "swrule License" ;
+        spdx:standardLicenseTemplate  "The style package is copyrighted but may be used and extended in any way, as long as a pointer to the original author is maintained. The author is not liable for any problem that may or may not result from using this package. Use at your own risk.\n\n" .
