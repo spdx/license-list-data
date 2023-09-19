@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 445ce7e
+The following licenses have been generated from the license list version b9adae1
 
 ## Licenses with Short Idenifiers
 
@@ -80,6 +80,7 @@ The following licenses have been generated from the license list version 445ce7e
 | BSD 4.3 TAHOE License                                                         | [BSD-4.3TAHOE][]                         |      |           |
 | BSD Advertising Acknowledgement License                                       | [BSD-Advertising-Acknowledgement][]      |      |           |
 | BSD with Attribution and HPND disclaimer                                      | [BSD-Attribution-HPND-disclaimer][]      |      |           |
+| BSD-Inferno-Nettverk                                                          | [BSD-Inferno-Nettverk][]                 |      |           |
 | BSD Protection License                                                        | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                   | [BSD-Source-Code][]                      |      |           |
 | Systemics BSD variant license                                                 | [BSD-Systemics][]                        |      |           |
@@ -486,6 +487,7 @@ The following licenses have been generated from the license list version 445ce7e
 | Spencer License 94                                                            | [Spencer-94][]                           |      |           |
 | Spencer License 99                                                            | [Spencer-99][]                           |      |           |
 | Sun Public License v1.0                                                       | [SPL-1.0][]                              | Y    | Y         |
+| ssh-keyscan License                                                           | [ssh-keyscan][]                          |      |           |
 | SSH OpenSSH license                                                           | [SSH-OpenSSH][]                          |      |           |
 | SSH short notice                                                              | [SSH-short][]                            |      |           |
 | Server Side Public License, v 1                                               | [SSPL-1.0][]                             |      |           |
@@ -729,6 +731,7 @@ The following licenses have been generated from the license list version 445ce7e
 [BSD-4.3TAHOE]: text/BSD-4.3TAHOE.txt
 [BSD-Advertising-Acknowledgement]: text/BSD-Advertising-Acknowledgement.txt
 [BSD-Attribution-HPND-disclaimer]: text/BSD-Attribution-HPND-disclaimer.txt
+[BSD-Inferno-Nettverk]: text/BSD-Inferno-Nettverk.txt
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSD-Systemics]: text/BSD-Systemics.txt
@@ -1160,6 +1163,7 @@ The following licenses have been generated from the license list version 445ce7e
 [Spencer-94]: text/Spencer-94.txt
 [Spencer-99]: text/Spencer-99.txt
 [SPL-1.0]: text/SPL-1.0.txt
+[ssh-keyscan]: text/ssh-keyscan.txt
 [SSH-OpenSSH]: text/SSH-OpenSSH.txt
 [SSH-short]: text/SSH-short.txt
 [SSPL-1.0]: text/SSPL-1.0.txt
