@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 57927ac
+The following licenses have been generated from the license list version 445ce7e
 
 ## Licenses with Short Idenifiers
 
@@ -493,6 +493,7 @@ The following licenses have been generated from the license list version 57927ac
 | SugarCRM Public License v1.1.3                                                | [SugarCRM-1.1.3][]                       |      |           |
 | SunPro License                                                                | [SunPro][]                               |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                        | [SWL][]                                  |      |           |
+| swrule License                                                                | [swrule][]                               |      |           |
 | Symlinks License                                                              | [Symlinks][]                             |      |           |
 | TAPR Open Hardware License v1.0                                               | [TAPR-OHL-1.0][]                         |      |           |
 | TCL/TK License                                                                | [TCL][]                                  |      |           |
@@ -1167,6 +1168,7 @@ The following licenses have been generated from the license list version 57927ac
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
 [SunPro]: text/SunPro.txt
 [SWL]: text/SWL.txt
+[swrule]: text/swrule.txt
 [Symlinks]: text/Symlinks.txt
 [TAPR-OHL-1.0]: text/TAPR-OHL-1.0.txt
 [TCL]: text/TCL.txt

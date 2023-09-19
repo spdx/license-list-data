@@ -2,14 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Jam",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:licenseText": "License is hereby granted to use this software and distribute it freely,\nas long as this copyright notice is retained and modifications are\nclearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -24,6 +16,14 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:name": "Jam License",
             "spdx:licenseTextHtml": "\n        <div class=\"replaceable-license-text\"> \n\t    <p>Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.</p>\n\n        </div>\n\n\t<p>\n            License is hereby granted to use this software and distribute it\n            freely, as long as this copyright notice is retained and modifications\n            are clearly marked.\n\t</p>\n\n\t<p>\n            ALL WARRANTIES ARE HEREBY DISCLAIMED.\n\t</p>\n\n    ",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.  \";match=\".{0,5000}\">>\n\nLicense is hereby granted to use this software and distribute it freely, as long as this copyright notice is retained and modifications are clearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n\n",
@@ -31,30 +31,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-09-18T03:08:09Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-09-18T03:08:09Z",
+            "spdx:timestamp": "2023-09-19T16:07:31Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -71,6 +48,29 @@
             },
             "spdx:isLive": {
                 "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-09-19T16:07:31Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
