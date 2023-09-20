@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b9adae1
+The following licenses have been generated from the license list version 2cd7d5b
 
 ## Licenses with Short Idenifiers
 
@@ -179,6 +179,7 @@ The following licenses have been generated from the license list version b9adae1
 | Common Public Attribution License 1.0                                         | [CPAL-1.0][]                             | Y    | Y         |
 | Common Public License 1.0                                                     | [CPL-1.0][]                              | Y    | Y         |
 | Code Project Open License 1.02                                                | [CPOL-1.02][]                            |      |           |
+| Cronyx License                                                                | [Cronyx][]                               |      |           |
 | Crossword License                                                             | [Crossword][]                            |      |           |
 | CrystalStacker License                                                        | [CrystalStacker][]                       |      |           |
 | CUA Office Public License v1.0                                                | [CUA-OPL-1.0][]                          | Y    |           |
@@ -264,6 +265,7 @@ The following licenses have been generated from the license list version b9adae1
 | Historical Permission Notice and Disclaimer                                   | [HPND][]                                 | Y    | Y         |
 | HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant             | [HPND-Markus-Kuhn][]                     |      |           |
+| Historical Permission Notice and Disclaimer - Pbmplus variant                 | [HPND-Pbmplus][]                         |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                    | [HPND-sell-variant][]                    |      |           |
 | HPND sell variant with MIT disclaimer                                         | [HPND-sell-variant-MIT-disclaimer][]     |      |           |
 | HTML Tidy License                                                             | [HTMLTIDY][]                             |      |           |
@@ -831,6 +833,7 @@ The following licenses have been generated from the license list version b9adae1
 [CPAL-1.0]: text/CPAL-1.0.txt
 [CPL-1.0]: text/CPL-1.0.txt
 [CPOL-1.02]: text/CPOL-1.02.txt
+[Cronyx]: text/Cronyx.txt
 [Crossword]: text/Crossword.txt
 [CrystalStacker]: text/CrystalStacker.txt
 [CUA-OPL-1.0]: text/CUA-OPL-1.0.txt
@@ -933,6 +936,7 @@ The following licenses have been generated from the license list version b9adae1
 [HPND]: text/HPND.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
+[HPND-Pbmplus]: text/HPND-Pbmplus.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
 [HPND-sell-variant-MIT-disclaimer]: text/HPND-sell-variant-MIT-disclaimer.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
