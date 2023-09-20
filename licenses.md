@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2cd7d5b
+The following licenses have been generated from the license list version b399d53
 
 ## Licenses with Short Idenifiers
 
@@ -325,6 +325,7 @@ The following licenses have been generated from the license list version 2cd7d5b
 | LaTeX Project Public License v1.2                                             | [LPPL-1.2][]                             |      | Y         |
 | LaTeX Project Public License v1.3a                                            | [LPPL-1.3a][]                            |      | Y         |
 | LaTeX Project Public License v1.3c                                            | [LPPL-1.3c][]                            | Y    |           |
+| Lucida Bitmap Fonts License                                                   | [Lucida-Bitmap-Fonts][]                  |      |           |
 | LZMA SDK License (versions 9.11 to 9.20)                                      | [LZMA-SDK-9.11-to-9.20][]                |      |           |
 | LZMA SDK License (versions 9.22 and beyond)                                   | [LZMA-SDK-9.22][]                        |      |           |
 | MakeIndex License                                                             | [MakeIndex][]                            |      |           |
@@ -1002,6 +1003,7 @@ The following licenses have been generated from the license list version 2cd7d5b
 [LPPL-1.2]: text/LPPL-1.2.txt
 [LPPL-1.3a]: text/LPPL-1.3a.txt
 [LPPL-1.3c]: text/LPPL-1.3c.txt
+[Lucida-Bitmap-Fonts]: text/Lucida-Bitmap-Fonts.txt
 [LZMA-SDK-9.11-to-9.20]: text/LZMA-SDK-9.11-to-9.20.txt
 [LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
 [MakeIndex]: text/MakeIndex.txt
