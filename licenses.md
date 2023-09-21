@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b399d53
+The following licenses have been generated from the license list version 15aae11
 
 ## Licenses with Short Idenifiers
 
@@ -266,6 +266,7 @@ The following licenses have been generated from the license list version b399d53
 | HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant             | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer - Pbmplus variant                 | [HPND-Pbmplus][]                         |      |           |
+| Historical Permission Notice and Disclaimer - sell regexpr variant            | [HPND-sell-regexpr][]                    |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                    | [HPND-sell-variant][]                    |      |           |
 | HPND sell variant with MIT disclaimer                                         | [HPND-sell-variant-MIT-disclaimer][]     |      |           |
 | HTML Tidy License                                                             | [HTMLTIDY][]                             |      |           |
@@ -938,6 +939,7 @@ The following licenses have been generated from the license list version b399d53
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-Pbmplus]: text/HPND-Pbmplus.txt
+[HPND-sell-regexpr]: text/HPND-sell-regexpr.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
 [HPND-sell-variant-MIT-disclaimer]: text/HPND-sell-variant-MIT-disclaimer.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
