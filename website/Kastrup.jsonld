@@ -1,0 +1,55 @@
+{
+    "@graph": [
+        {
+            "@id": "_:b0",
+            "spdx:timestamp": "2023-09-24T18:01:22Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/Kastrup",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright(c) 2001 by David Kastrup\";match=\".{0,5000}\">>\n\nAny use of the code is permitted as long as this copyright notice is preserved in the code.\n\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n           Copyright(c) 2001 by David Kastrup\n         </var>\n         <p>\n            Any use of the code is permitted\n            as long as this copyright notice is preserved in the code.\n         </p>\n\n      ",
+            "spdx:licenseText": "Copyright(c) 2001 by David Kastrup\nAny use of the code is permitted as long as this copyright \nnotice is preserved in the code.\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx",
+            "spdx:licenseId": "Kastrup",
+            "spdx:name": "Kastrup License",
+            "rdfs:comment": "",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        }
+    ],
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "doap": "http://usefulinc.com/ns/doap#",
+        "ptr": "http://www.w3.org/2009/pointers#"
+    }
+}

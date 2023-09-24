@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2fd5cb7
+The following licenses have been generated from the license list version acbb32f
 
 ## Licenses with Short Idenifiers
 
@@ -224,6 +224,8 @@ The following licenses have been generated from the license list version 2fd5cb7
 | FSF Unlimited License (with License Retention)                                | [FSFULLR][]                              |      |           |
 | FSF Unlimited License (With License Retention and Warranty Disclaimer)        | [FSFULLRWD][]                            |      |           |
 | Freetype Project License                                                      | [FTL][]                                  |      | Y         |
+| Furuseth License                                                              | [Furuseth][]                             |      |           |
+| fwlw License                                                                  | [fwlw][]                                 |      |           |
 | GD License                                                                    | [GD][]                                   |      |           |
 | GNU Free Documentation License v1.1 only - invariants                         | [GFDL-1.1-invariants-only][]             |      |           |
 | GNU Free Documentation License v1.1 or later - invariants                     | [GFDL-1.1-invariants-or-later][]         |      |           |
@@ -263,6 +265,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 | Hewlett-Packard 1986 License                                                  | [HP-1986][]                              |      |           |
 | Hewlett-Packard 1989 License                                                  | [HP-1989][]                              |      |           |
 | Historical Permission Notice and Disclaimer                                   | [HPND][]                                 | Y    | Y         |
+| Historical Permission Notice and Disclaimer - DEC variant                     | [HPND-DEC][]                             |      |           |
 | HPND with US Government export control warning                                | [HPND-export-US][]                       |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant             | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer - Pbmplus variant                 | [HPND-Pbmplus][]                         |      |           |
@@ -291,6 +294,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 | JPL Image Use Policy                                                          | [JPL-image][]                            |      |           |
 | Japan Network Information Center License                                      | [JPNIC][]                                |      |           |
 | JSON License                                                                  | [JSON][]                                 |      |           |
+| Kastrup License                                                               | [Kastrup][]                              |      |           |
 | Kazlib License                                                                | [Kazlib][]                               |      |           |
 | Knuth CTAN License                                                            | [Knuth-CTAN][]                           |      |           |
 | Licence Art Libre 1.2                                                         | [LAL-1.2][]                              |      |           |
@@ -329,6 +333,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 | Lucida Bitmap Fonts License                                                   | [Lucida-Bitmap-Fonts][]                  |      |           |
 | LZMA SDK License (versions 9.11 to 9.20)                                      | [LZMA-SDK-9.11-to-9.20][]                |      |           |
 | LZMA SDK License (versions 9.22 and beyond)                                   | [LZMA-SDK-9.22][]                        |      |           |
+| magaz License                                                                 | [magaz][]                                |      |           |
 | MakeIndex License                                                             | [MakeIndex][]                            |      |           |
 | Martin Birgmeier License                                                      | [Martin-Birgmeier][]                     |      |           |
 | metamail License                                                              | [metamail][]                             |      |           |
@@ -517,6 +522,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 | Technische Universitaet Berlin License 2.0                                    | [TU-Berlin-2.0][]                        |      |           |
 | UCAR License                                                                  | [UCAR][]                                 |      |           |
 | Upstream Compatibility License v1.0                                           | [UCL-1.0][]                              | Y    |           |
+| ulem License                                                                  | [ulem][]                                 |      |           |
 | Unicode License Agreement - Data Files and Software (2015)                    | [Unicode-DFS-2015][]                     |      |           |
 | Unicode License Agreement - Data Files and Software (2016)                    | [Unicode-DFS-2016][]                     | Y    |           |
 | Unicode Terms of Use                                                          | [Unicode-TOU][]                          |      |           |
@@ -881,6 +887,8 @@ The following licenses have been generated from the license list version 2fd5cb7
 [FSFULLR]: text/FSFULLR.txt
 [FSFULLRWD]: text/FSFULLRWD.txt
 [FTL]: text/FTL.txt
+[Furuseth]: text/Furuseth.txt
+[fwlw]: text/fwlw.txt
 [GD]: text/GD.txt
 [GFDL-1.1]: text/GFDL-1.1.txt
 [GFDL-1.1-invariants-only]: text/GFDL-1.1-invariants-only.txt
@@ -936,6 +944,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 [HP-1986]: text/HP-1986.txt
 [HP-1989]: text/HP-1989.txt
 [HPND]: text/HPND.txt
+[HPND-DEC]: text/HPND-DEC.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-Pbmplus]: text/HPND-Pbmplus.txt
@@ -964,6 +973,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 [JPL-image]: text/JPL-image.txt
 [JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
+[Kastrup]: text/Kastrup.txt
 [Kazlib]: text/Kazlib.txt
 [Knuth-CTAN]: text/Knuth-CTAN.txt
 [LAL-1.2]: text/LAL-1.2.txt
@@ -1008,6 +1018,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 [Lucida-Bitmap-Fonts]: text/Lucida-Bitmap-Fonts.txt
 [LZMA-SDK-9.11-to-9.20]: text/LZMA-SDK-9.11-to-9.20.txt
 [LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
+[magaz]: text/magaz.txt
 [MakeIndex]: text/MakeIndex.txt
 [Martin-Birgmeier]: text/Martin-Birgmeier.txt
 [metamail]: text/metamail.txt
@@ -1198,6 +1209,7 @@ The following licenses have been generated from the license list version 2fd5cb7
 [TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
 [UCAR]: text/UCAR.txt
 [UCL-1.0]: text/UCL-1.0.txt
+[ulem]: text/ulem.txt
 [Unicode-DFS-2015]: text/Unicode-DFS-2015.txt
 [Unicode-DFS-2016]: text/Unicode-DFS-2016.txt
 [Unicode-TOU]: text/Unicode-TOU.txt
