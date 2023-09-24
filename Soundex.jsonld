@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-09-24T17:51:14Z",
+            "spdx:timestamp": "2023-09-24T18:16:15Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -30,6 +30,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(c) Copyright 1998-2007 by Mark Mielke  \";match=\".{0,5000}\">>\n\nFreedom to use these sources for whatever you want, as long as credit is given where credit is due, is hereby granted. You may make modifications where you see fit but leave this copyright somewhere visible. As well, try to initial any changes you make so that if I like the changes I can incorporate them into later versions.\n\n- Mark Mielke <mark@mielke.cc>\n\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:licenseId": "Soundex",
             "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"> \n            <p>(c) Copyright 1998-2007 by Mark Mielke</p>\n\n         </div>\n         <p>\n            Freedom to use\n            these sources for whatever you want, as long as credit is\n            given where credit is due, is hereby granted. You may make\n            modifications where you see fit but leave this copyright\n            somewhere visible. As well, try to initial any changes you\n            make so that if I like the changes I can incorporate them\n            into later versions.\n         </p>\n\n         <p>\n            - Mark Mielke &lt;mark@mielke.cc&gt;\n         </p>\n\n      ",
@@ -37,9 +40,6 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:name": "Soundex License",
             "rdfs:seeAlso": "https://metacpan.org/release/RJBS/Text-Soundex-3.05/source/Soundex.pm#L3-11"

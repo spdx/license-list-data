@@ -1,0 +1,25 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/Kastrup>
+        a                             spdx:ListedLicense ;
+        rdfs:comment                  "" ;
+        rdfs:seeAlso                  "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-09-24T18:01:22Z" ;
+                                        spdx:url            "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "Kastrup" ;
+        spdx:licenseText              "Copyright(c) 2001 by David Kastrup\nAny use of the code is permitted as long as this copyright \nnotice is preserved in the code.\n" ;
+        spdx:licenseTextHtml          "\n         <var class=\"replaceable-license-text\"> \n           Copyright(c) 2001 by David Kastrup\n         </var>\n         <p>\n            Any use of the code is permitted\n            as long as this copyright notice is preserved in the code.\n         </p>\n\n      " ;
+        spdx:name                     "Kastrup License" ;
+        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright(c) 2001 by David Kastrup\";match=\".{0,5000}\">>\n\nAny use of the code is permitted as long as this copyright notice is preserved in the code.\n\n" .
