@@ -2,6 +2,12 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/SANE-exception",
+            "spdx:licenseTextHtml": "\n         <p>\n            As a special exception, the authors of <var class=\"replaceable-license-text\"> SANE</var> give permission for\n            additional uses of the libraries contained in this release of <var class=\"replaceable-license-text\"> SANE</var>.\n         </p>\n\n         <p>\n            The exception is that, if you link a <var class=\"replaceable-license-text\"> SANE</var> library with other files\n            to produce an executable, this does not by itself cause the\n            resulting executable to be covered by the GNU General Public\n            License. Your use of that executable is in no way restricted on\n            account of linking the <var class=\"replaceable-license-text\"> SANE</var> library code into it.\n         </p>\n\n         <p>\n            This exception does not, however, invalidate any other reasons why\n            the executable file might be covered by the GNU General Public\n            License.\n         </p>\n\n         <p>\n            If you submit changes to <var class=\"replaceable-license-text\"> SANE</var> to the maintainers to be included in\n            a subsequent release, you agree by submitting the changes that\n            those changes may be distributed with this exception intact.\n         </p>\n\n         <p>\n            If you write modifications of your own for <var class=\"replaceable-license-text\"> SANE</var>, it is your choice\n            whether to permit this exception to apply to your modifications.\n            If you do not wish that, delete this exception notice.\n         </p>\n\n      ",
+            "rdfs:seeAlso": [
+                "https://gitlab.com/sane-project/backends/-/blob/master/sanei/sanei_pp.c?ref_type=heads",
+                "https://gitlab.com/sane-project/frontends/-/blob/master/sanei/sanei_codec_ascii.c?ref_type=heads",
+                "https://github.com/alexpevzner/sane-airscan/blob/master/LICENSE"
+            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -12,12 +18,6 @@
                 {
                     "@id": "_:b2"
                 }
-            ],
-            "spdx:licenseTextHtml": "\n         <p>\n            As a special exception, the authors of <var class=\"replaceable-license-text\"> SANE</var> give permission for\n            additional uses of the libraries contained in this release of <var class=\"replaceable-license-text\"> SANE</var>.\n         </p>\n\n         <p>\n            The exception is that, if you link a <var class=\"replaceable-license-text\"> SANE</var> library with other files\n            to produce an executable, this does not by itself cause the\n            resulting executable to be covered by the GNU General Public\n            License. Your use of that executable is in no way restricted on\n            account of linking the <var class=\"replaceable-license-text\"> SANE</var> library code into it.\n         </p>\n\n         <p>\n            This exception does not, however, invalidate any other reasons why\n            the executable file might be covered by the GNU General Public\n            License.\n         </p>\n\n         <p>\n            If you submit changes to <var class=\"replaceable-license-text\"> SANE</var> to the maintainers to be included in\n            a subsequent release, you agree by submitting the changes that\n            those changes may be distributed with this exception intact.\n         </p>\n\n         <p>\n            If you write modifications of your own for <var class=\"replaceable-license-text\"> SANE</var>, it is your choice\n            whether to permit this exception to apply to your modifications.\n            If you do not wish that, delete this exception notice.\n         </p>\n\n      ",
-            "rdfs:seeAlso": [
-                "https://gitlab.com/sane-project/backends/-/blob/master/sanei/sanei_pp.c?ref_type=heads",
-                "https://gitlab.com/sane-project/frontends/-/blob/master/sanei/sanei_codec_ascii.c?ref_type=heads",
-                "https://github.com/alexpevzner/sane-airscan/blob/master/LICENSE"
             ],
             "spdx:standardLicenseTemplate": "As a special exception, the authors of <<var;name=\"projectName\";original=\"SANE\";match=\".+\">> give permission for additional uses of the libraries contained in this release of <<var;name=\"projectName\";original=\"SANE\";match=\".+\">> .\n\nThe exception is that, if you link a <<var;name=\"projectName\";original=\"SANE\";match=\".+\">> library with other files to produce an executable, this does not by itself cause the resulting executable to be covered by the GNU General Public License. Your use of that executable is in no way restricted on account of linking the <<var;name=\"projectName\";original=\"SANE\";match=\".+\">> library code into it.\n\nThis exception does not, however, invalidate any other reasons why the executable file might be covered by the GNU General Public License.\n\nIf you submit changes to <<var;name=\"projectName\";original=\"SANE\";match=\".+\">> to the maintainers to be included in a subsequent release, you agree by submitting the changes that those changes may be distributed with this exception intact.\n\nIf you write modifications of your own for <<var;name=\"projectName\";original=\"SANE\";match=\".+\">> , it is your choice whether to permit this exception to apply to your modifications. If you do not wish that, delete this exception notice.\n\n",
             "spdx:licenseId": "SANE-exception",
@@ -35,12 +35,12 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-09-25T20:43:54Z",
+            "spdx:timestamp": "2023-09-25T21:07:24Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://github.com/alexpevzner/sane-airscan/blob/master/LICENSE",
+            "spdx:url": "https://gitlab.com/sane-project/backends/-/blob/master/sanei/sanei_pp.c?ref_type=heads",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -58,7 +58,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-09-25T20:43:53Z",
+            "spdx:timestamp": "2023-09-25T21:07:23Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -81,12 +81,12 @@
         },
         {
             "@id": "_:b2",
-            "spdx:timestamp": "2023-09-25T20:43:54Z",
+            "spdx:timestamp": "2023-09-25T21:07:25Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://gitlab.com/sane-project/backends/-/blob/master/sanei/sanei_pp.c?ref_type=heads",
+            "spdx:url": "https://github.com/alexpevzner/sane-airscan/blob/master/LICENSE",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
