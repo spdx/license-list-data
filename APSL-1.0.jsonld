@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-09-24T18:04:54Z",
+            "spdx:timestamp": "2023-09-25T20:48:31Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -31,9 +31,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -47,7 +44,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {
