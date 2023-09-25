@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version acbb32f
+The following licenses have been generated from the license list version f010b83
 
 ## Licenses with Short Idenifiers
 
@@ -479,6 +479,7 @@ The following licenses have been generated from the license list version acbb32f
 | SGI Free Software License B v1.0                                              | [SGI-B-1.0][]                            |      |           |
 | SGI Free Software License B v1.1                                              | [SGI-B-1.1][]                            |      |           |
 | SGI Free Software License B v2.0                                              | [SGI-B-2.0][]                            |      | Y         |
+| SGI OpenGL License                                                            | [SGI-OpenGL][]                           |      |           |
 | SGP4 Permission Notice                                                        | [SGP4][]                                 |      |           |
 | Solderpad Hardware License v0.5                                               | [SHL-0.5][]                              |      |           |
 | Solderpad Hardware License, Version 0.51                                      | [SHL-0.51][]                             |      |           |
@@ -1165,6 +1166,7 @@ The following licenses have been generated from the license list version acbb32f
 [SGI-B-1.0]: text/SGI-B-1.0.txt
 [SGI-B-1.1]: text/SGI-B-1.1.txt
 [SGI-B-2.0]: text/SGI-B-2.0.txt
+[SGI-OpenGL]: text/SGI-OpenGL.txt
 [SGP4]: text/SGP4.txt
 [SHL-0.5]: text/SHL-0.5.txt
 [SHL-0.51]: text/SHL-0.51.txt
