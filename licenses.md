@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 90bbbbd
+The following licenses have been generated from the license list version 2c42c70
 
 ## Licenses with Short Idenifiers
 
@@ -267,6 +267,7 @@ The following licenses have been generated from the license list version 90bbbbd
 | Historical Permission Notice and Disclaimer                                    | [HPND][]                                 | Y    | Y         |
 | Historical Permission Notice and Disclaimer - DEC variant                      | [HPND-DEC][]                             |      |           |
 | HPND with US Government export control warning                                 | [HPND-export-US][]                       |      |           |
+| HPND with US Government export control warning and modification rqmt           | [HPND-export-US-modify][]                |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant              | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer - Pbmplus variant                  | [HPND-Pbmplus][]                         |      |           |
 | Historical Permission Notice and Disclaimer - sell regexpr variant             | [HPND-sell-regexpr][]                    |      |           |
@@ -950,6 +951,7 @@ The following licenses have been generated from the license list version 90bbbbd
 [HPND]: text/HPND.txt
 [HPND-DEC]: text/HPND-DEC.txt
 [HPND-export-US]: text/HPND-export-US.txt
+[HPND-export-US-modify]: text/HPND-export-US-modify.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-Pbmplus]: text/HPND-Pbmplus.txt
 [HPND-sell-regexpr]: text/HPND-sell-regexpr.txt
