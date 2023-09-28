@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2c42c70
+The following licenses have been generated from the license list version fc02c0b
 
 ## Licenses with Short Idenifiers
 
@@ -11,6 +11,7 @@ The following licenses have been generated from the license list version 2c42c70
 | AdaCore Doc License                                                            | [AdaCore-doc][]                          |      |           |
 | Adobe Systems Incorporated Source Code License Agreement                       | [Adobe-2006][]                           |      |           |
 | Adobe Glyph List License                                                       | [Adobe-Glyph][]                          |      |           |
+| Adobe Utopia Font License                                                      | [Adobe-Utopia][]                         |      |           |
 | Amazon Digital Services License                                                | [ADSL][]                                 |      |           |
 | Academic Free License v1.1                                                     | [AFL-1.1][]                              | Y    | Y         |
 | Academic Free License v1.2                                                     | [AFL-1.2][]                              | Y    | Y         |
@@ -673,6 +674,7 @@ The following licenses have been generated from the license list version 2c42c70
 [AdaCore-doc]: text/AdaCore-doc.txt
 [Adobe-2006]: text/Adobe-2006.txt
 [Adobe-Glyph]: text/Adobe-Glyph.txt
+[Adobe-Utopia]: text/Adobe-Utopia.txt
 [ADSL]: text/ADSL.txt
 [AFL-1.1]: text/AFL-1.1.txt
 [AFL-1.2]: text/AFL-1.2.txt
