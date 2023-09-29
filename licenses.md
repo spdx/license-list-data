@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version fc02c0b
+The following licenses have been generated from the license list version 204b740
 
 ## Licenses with Short Idenifiers
 
@@ -333,6 +333,7 @@ The following licenses have been generated from the license list version fc02c0b
 | LaTeX Project Public License v1.2                                              | [LPPL-1.2][]                             |      | Y         |
 | LaTeX Project Public License v1.3a                                             | [LPPL-1.3a][]                            |      | Y         |
 | LaTeX Project Public License v1.3c                                             | [LPPL-1.3c][]                            | Y    |           |
+| lsof License                                                                   | [lsof][]                                 |      |           |
 | Lucida Bitmap Fonts License                                                    | [Lucida-Bitmap-Fonts][]                  |      |           |
 | LZMA SDK License (versions 9.11 to 9.20)                                       | [LZMA-SDK-9.11-to-9.20][]                |      |           |
 | LZMA SDK License (versions 9.22 and beyond)                                    | [LZMA-SDK-9.22][]                        |      |           |
@@ -1024,6 +1025,7 @@ The following licenses have been generated from the license list version fc02c0b
 [LPPL-1.2]: text/LPPL-1.2.txt
 [LPPL-1.3a]: text/LPPL-1.3a.txt
 [LPPL-1.3c]: text/LPPL-1.3c.txt
+[lsof]: text/lsof.txt
 [Lucida-Bitmap-Fonts]: text/Lucida-Bitmap-Fonts.txt
 [LZMA-SDK-9.11-to-9.20]: text/LZMA-SDK-9.11-to-9.20.txt
 [LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
