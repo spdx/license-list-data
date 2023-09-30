@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e67d8af
+The following licenses have been generated from the license list version 8166122
 
 ## Licenses with Short Idenifiers
 
@@ -66,6 +66,7 @@ The following licenses have been generated from the license list version e67d8af
 | BSD 3-Clause "New" or "Revised" License                                        | [BSD-3-Clause][]                         | Y    | Y         |
 | BSD with attribution                                                           | [BSD-3-Clause-Attribution][]             |      |           |
 | BSD 3-Clause Clear License                                                     | [BSD-3-Clause-Clear][]                   |      | Y         |
+| Hewlett-Packard BSD variant license                                            | [BSD-3-Clause-HP][]                      |      |           |
 | Lawrence Berkeley National Labs BSD variant license                            | [BSD-3-Clause-LBNL][]                    | Y    |           |
 | BSD 3-Clause Modification                                                      | [BSD-3-Clause-Modification][]            |      |           |
 | BSD 3-Clause No Military License                                               | [BSD-3-Clause-No-Military-License][]     |      |           |
@@ -735,6 +736,7 @@ The following licenses have been generated from the license list version e67d8af
 [BSD-3-Clause]: text/BSD-3-Clause.txt
 [BSD-3-Clause-Attribution]: text/BSD-3-Clause-Attribution.txt
 [BSD-3-Clause-Clear]: text/BSD-3-Clause-Clear.txt
+[BSD-3-Clause-HP]: text/BSD-3-Clause-HP.txt
 [BSD-3-Clause-LBNL]: text/BSD-3-Clause-LBNL.txt
 [BSD-3-Clause-Modification]: text/BSD-3-Clause-Modification.txt
 [BSD-3-Clause-No-Military-License]: text/BSD-3-Clause-No-Military-License.txt
