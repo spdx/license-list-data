@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 204b740
+The following licenses have been generated from the license list version e67d8af
 
 ## Licenses with Short Idenifiers
 
@@ -463,6 +463,7 @@ The following licenses have been generated from the license list version 204b740
 | psutils License                                                                | [psutils][]                              |      |           |
 | Python License 2.0                                                             | [Python-2.0][]                           | Y    | Y         |
 | Python License 2.0.1                                                           | [Python-2.0.1][]                         |      |           |
+| Python ldap License                                                            | [python-ldap][]                          |      |           |
 | Qhull License                                                                  | [Qhull][]                                |      |           |
 | Q Public License 1.0                                                           | [QPL-1.0][]                              | Y    | Y         |
 | Q Public License 1.0 - INRIA 2004 variant                                      | [QPL-1.0-INRIA-2004][]                   |      |           |
@@ -1156,6 +1157,7 @@ The following licenses have been generated from the license list version 204b740
 [psutils]: text/psutils.txt
 [Python-2.0]: text/Python-2.0.txt
 [Python-2.0.1]: text/Python-2.0.1.txt
+[python-ldap]: text/python-ldap.txt
 [Qhull]: text/Qhull.txt
 [QPL-1.0]: text/QPL-1.0.txt
 [QPL-1.0-INRIA-2004]: text/QPL-1.0-INRIA-2004.txt
