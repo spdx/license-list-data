@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/BUSL-1.1",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://mariadb.com/bsl11/",
             "spdx:standardLicenseHeaderTemplate": "Copyright (C) <<var;name=\"copyright\";original=\"yyyy name of author\";match=\".+\">>\n\nUse of this software is govered by the Business Source License included in the LICENSE.TXT file and at www.mariadb.com/bsl11.\n\nChange Date:\n\nOn the date above, in accordance with the Business Source License, use of this software will be governed by the open source license specified in the LICENSE.TXT file.\n\n",
             "spdx:standardLicenseHeaderHtml": "\n      Copyright (C) <var class=\"replaceable-license-text\"> yyyy name of author</var>\n      <p>\n        Use of this software is govered by the Business Source License included\n        in the LICENSE.TXT file and at www.mariadb.com/bsl11.\n      </p>\n\n      <p>\n        Change Date:\n      </p>\n\n      <p>\n        On the date above, in accordance with the Business Source License,\n        use of this software will be governed by the open source license specified\n        in the LICENSE.TXT file.\n      </p>\n\n    ",
@@ -16,9 +19,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:standardLicenseHeader": "Copyright (C) yyyy name of author\n\nUse of this software is govered by the Business Source License included in the LICENSE.TXT file and at www.mariadb.com/bsl11.\n\nChange Date:\n\nOn the date above, in accordance with the Business Source License, use of this software will be governed by the open source license specified in the LICENSE.TXT file.\n\n",
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "The Business Source License (this document, or the “License”) is not an Open Source license. However, the Licensed Work will eventually be made available under an Open Source License, as stated in this License. This is a paramaterized license. The license parameters are: restrictions on usage, a change date, and the open source license that will govern usage of the software after the change date.",
@@ -27,7 +27,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-09-29T13:46:55Z",
+            "spdx:timestamp": "2023-09-30T12:48:24Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
