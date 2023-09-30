@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 87d7f4b
+The following licenses have been generated from the license list version b31139a
 
 ## Licenses with Short Idenifiers
 
@@ -268,6 +268,7 @@ The following licenses have been generated from the license list version 87d7f4b
 | Hewlett-Packard 1989 License                                                   | [HP-1989][]                              |      |           |
 | Historical Permission Notice and Disclaimer                                    | [HPND][]                                 | Y    | Y         |
 | Historical Permission Notice and Disclaimer - DEC variant                      | [HPND-DEC][]                             |      |           |
+| Historical Permission Notice and Disclaimer - documentation sell variant       | [HPND-doc-sell][]                        |      |           |
 | HPND with US Government export control warning                                 | [HPND-export-US][]                       |      |           |
 | HPND with US Government export control warning and modification rqmt           | [HPND-export-US-modify][]                |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant              | [HPND-Markus-Kuhn][]                     |      |           |
@@ -449,6 +450,7 @@ The following licenses have been generated from the license list version 87d7f4b
 | Open Software License 2.0                                                      | [OSL-2.0][]                              | Y    | Y         |
 | Open Software License 2.1                                                      | [OSL-2.1][]                              | Y    | Y         |
 | Open Software License 3.0                                                      | [OSL-3.0][]                              | Y    | Y         |
+| PADL License                                                                   | [PADL][]                                 |      |           |
 | The Parity Public License 6.0.0                                                | [Parity-6.0.0][]                         |      |           |
 | The Parity Public License 7.0.0                                                | [Parity-7.0.0][]                         |      |           |
 | Open Data Commons Public Domain Dedication & License 1.0                       | [PDDL-1.0][]                             |      |           |
@@ -956,6 +958,7 @@ The following licenses have been generated from the license list version 87d7f4b
 [HP-1989]: text/HP-1989.txt
 [HPND]: text/HPND.txt
 [HPND-DEC]: text/HPND-DEC.txt
+[HPND-doc-sell]: text/HPND-doc-sell.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-export-US-modify]: text/HPND-export-US-modify.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
@@ -1144,6 +1147,7 @@ The following licenses have been generated from the license list version 87d7f4b
 [OSL-2.0]: text/OSL-2.0.txt
 [OSL-2.1]: text/OSL-2.1.txt
 [OSL-3.0]: text/OSL-3.0.txt
+[PADL]: text/PADL.txt
 [Parity-6.0.0]: text/Parity-6.0.0.txt
 [Parity-7.0.0]: text/Parity-7.0.0.txt
 [PDDL-1.0]: text/PDDL-1.0.txt

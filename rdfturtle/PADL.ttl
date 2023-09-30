@@ -1,0 +1,25 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/PADL>
+        a                             spdx:ListedLicense ;
+        rdfs:comment                  "This is similar to BSD-4.3RENO and Furuseth" ;
+        rdfs:seeAlso                  "https://git.openldap.org/openldap/openldap/-/blob/master/libraries/libldap/os-local.c?ref_type=heads#L19-23" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2023-09-30T17:03:58Z" ;
+                                        spdx:url            "https://git.openldap.org/openldap/openldap/-/blob/master/libraries/libldap/os-local.c?ref_type=heads#L19-23"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "PADL" ;
+        spdx:licenseText              "Portions (C) Copyright PADL Software Pty Ltd. 1999\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that this notice is preserved\nand that due credit is given to PADL Software Pty Ltd. This software\nis provided ``as is'' without express or implied warranty.\n" ;
+        spdx:licenseTextHtml          "\n        <var class=\"replaceable-license-text\"> \n                Portions (C) Copyright PADL Software Pty Ltd. 1999\n        </var>\n        <p>\n                Redistribution and use in source and binary forms,\n                with or without modification, are permitted provided\n                that this notice is preserved and that due credit\n                is given to PADL Software Pty Ltd. This software is\n                provided ``as is&apos;&apos; without express or implied warranty.\n        </p>\n\n      " ;
+        spdx:name                     "PADL License" ;
+        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Portions (C) Copyright PADL Software Pty Ltd. 1999\";match=\".{0,5000}\">>\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this notice is preserved and that due credit is given to PADL Software Pty Ltd. This software is provided ``as is'' without express or implied warranty.\n\n" .
