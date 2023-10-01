@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b31139a
+The following licenses have been generated from the license list version fb42d72
 
 ## Licenses with Short Idenifiers
 
@@ -268,6 +268,7 @@ The following licenses have been generated from the license list version b31139a
 | Hewlett-Packard 1989 License                                                   | [HP-1989][]                              |      |           |
 | Historical Permission Notice and Disclaimer                                    | [HPND][]                                 | Y    | Y         |
 | Historical Permission Notice and Disclaimer - DEC variant                      | [HPND-DEC][]                             |      |           |
+| Historical Permission Notice and Disclaimer - documentation variant            | [HPND-doc][]                             |      |           |
 | Historical Permission Notice and Disclaimer - documentation sell variant       | [HPND-doc-sell][]                        |      |           |
 | HPND with US Government export control warning                                 | [HPND-export-US][]                       |      |           |
 | HPND with US Government export control warning and modification rqmt           | [HPND-export-US-modify][]                |      |           |
@@ -958,6 +959,7 @@ The following licenses have been generated from the license list version b31139a
 [HP-1989]: text/HP-1989.txt
 [HPND]: text/HPND.txt
 [HPND-DEC]: text/HPND-DEC.txt
+[HPND-doc]: text/HPND-doc.txt
 [HPND-doc-sell]: text/HPND-doc-sell.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-export-US-modify]: text/HPND-export-US-modify.txt
