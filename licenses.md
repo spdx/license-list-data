@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version fb42d72
+The following licenses have been generated from the license list version 594a4b9
 
 ## Licenses with Short Idenifiers
 
@@ -66,6 +66,7 @@ The following licenses have been generated from the license list version fb42d72
 | BSD 3-Clause "New" or "Revised" License                                        | [BSD-3-Clause][]                         | Y    | Y         |
 | BSD with attribution                                                           | [BSD-3-Clause-Attribution][]             |      |           |
 | BSD 3-Clause Clear License                                                     | [BSD-3-Clause-Clear][]                   |      | Y         |
+| BSD 3-Clause Flex variant                                                      | [BSD-3-Clause-flex][]                    |      |           |
 | Hewlett-Packard BSD variant license                                            | [BSD-3-Clause-HP][]                      |      |           |
 | Lawrence Berkeley National Labs BSD variant license                            | [BSD-3-Clause-LBNL][]                    | Y    |           |
 | BSD 3-Clause Modification                                                      | [BSD-3-Clause-Modification][]            |      |           |
@@ -511,7 +512,6 @@ The following licenses have been generated from the license list version fb42d72
 | SSH OpenSSH license                                                            | [SSH-OpenSSH][]                          |      |           |
 | SSH short notice                                                               | [SSH-short][]                            |      |           |
 | Server Side Public License, v 1                                                | [SSPL-1.0][]                             |      |           |
-| stunnel Exception                                                              | [stunnel-exception][]                    |      |           |
 | SugarCRM Public License v1.1.3                                                 | [SugarCRM-1.1.3][]                       |      |           |
 | SunPro License                                                                 | [SunPro][]                               |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                         | [SWL][]                                  |      |           |
@@ -599,6 +599,7 @@ The following licenses have been generated from the license list version fb42d72
 | Font exception 2.0                                    | [Font-exception-2.0][]                   |
 | FreeRTOS Exception 2.0                                | [freertos-exception-2.0][]               |
 | GCC Runtime Library exception 2.0                     | [GCC-exception-2.0][]                    |
+| GCC    Runtime Library exception 2.0 - note variant   | [GCC-exception-2.0-note][]               |
 | GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
 | GNAT exception                                        | [GNAT-exception][]                       |
 | GNU JavaMail exception                                | [gnu-javamail-exception][]               |
@@ -629,6 +630,7 @@ The following licenses have been generated from the license list version fb42d72
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
+| stunnel Exception                                     | [stunnel-exception][]                    |
 | SWI exception                                         | [SWI-exception][]                        |
 | Swift Exception                                       | [Swift-exception][]                      |
 | U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
@@ -739,6 +741,7 @@ The following licenses have been generated from the license list version fb42d72
 [BSD-3-Clause]: text/BSD-3-Clause.txt
 [BSD-3-Clause-Attribution]: text/BSD-3-Clause-Attribution.txt
 [BSD-3-Clause-Clear]: text/BSD-3-Clause-Clear.txt
+[BSD-3-Clause-flex]: text/BSD-3-Clause-flex.txt
 [BSD-3-Clause-HP]: text/BSD-3-Clause-HP.txt
 [BSD-3-Clause-LBNL]: text/BSD-3-Clause-LBNL.txt
 [BSD-3-Clause-Modification]: text/BSD-3-Clause-Modification.txt
@@ -1210,7 +1213,6 @@ The following licenses have been generated from the license list version fb42d72
 [SSH-short]: text/SSH-short.txt
 [SSPL-1.0]: text/SSPL-1.0.txt
 [StandardML-NJ]: text/StandardML-NJ.txt
-[stunnel-exception]: text/stunnel-exception.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
 [SunPro]: text/SunPro.txt
 [SWL]: text/SWL.txt
@@ -1294,6 +1296,7 @@ The following licenses have been generated from the license list version fb42d72
 [Font-exception-2.0]: text/Font-exception-2.0.txt
 [freertos-exception-2.0]: text/freertos-exception-2.0.txt
 [GCC-exception-2.0]: text/GCC-exception-2.0.txt
+[GCC-exception-2.0-note]: text/GCC-exception-2.0-note.txt
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
 [GNAT-exception]: text/GNAT-exception.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
@@ -1325,6 +1328,7 @@ The following licenses have been generated from the license list version fb42d72
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
 [SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
+[stunnel-exception]: text/stunnel-exception.txt
 [SWI-exception]: text/SWI-exception.txt
 [Swift-exception]: text/Swift-exception.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
