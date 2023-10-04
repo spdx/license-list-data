@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 594a4b9
+The following licenses have been generated from the license list version 824875a
 
 ## Licenses with Short Idenifiers
 
@@ -253,7 +253,6 @@ The following licenses have been generated from the license list version 594a4b9
 | 3dfx Glide License                                                             | [Glide][]                                |      |           |
 | Glulxe License                                                                 | [Glulxe][]                               |      |           |
 | Good Luck With That Public License                                             | [GLWTPL][]                               |      |           |
-| GNU Compiler Exception                                                         | [GNU-compiler-exception][]               |      |           |
 | gnuplot License                                                                | [gnuplot][]                              |      | Y         |
 | GNU General Public License v1.0 only                                           | [GPL-1.0-only][]                         |      |           |
 | GNU General Public License v1.0 or later                                       | [GPL-1.0-or-later][]                     |      |           |
@@ -480,7 +479,6 @@ The following licenses have been generated from the license list version 594a4b9
 | RSA Message-Digest License                                                     | [RSA-MD][]                               |      |           |
 | Ricoh Source Code Public License                                               | [RSCPL][]                                | Y    |           |
 | Ruby License                                                                   | [Ruby][]                                 |      | Y         |
-| SANE Exception                                                                 | [SANE-exception][]                       |      |           |
 | Sax Public Domain Notice                                                       | [SAX-PD][]                               |      |           |
 | Saxpath License                                                                | [Saxpath][]                              |      |           |
 | SCEA Shared Source License                                                     | [SCEA][]                                 |      |           |
@@ -521,7 +519,6 @@ The following licenses have been generated from the license list version 594a4b9
 | TCL/TK License                                                                 | [TCL][]                                  |      |           |
 | TCP Wrappers License                                                           | [TCP-wrappers][]                         |      |           |
 | TermReadKey License                                                            | [TermReadKey][]                          |      |           |
-| Texinfo exception                                                              | [Texinfo-exception][]                    |      |           |
 | TMate Open Source License                                                      | [TMate][]                                |      |           |
 | TORQUE v2.5+ Software License v1.1                                             | [TORQUE-1.1][]                           |      |           |
 | Trusster Open Source License                                                   | [TOSL][]                                 |      |           |
@@ -602,6 +599,7 @@ The following licenses have been generated from the license list version 594a4b9
 | GCC    Runtime Library exception 2.0 - note variant   | [GCC-exception-2.0-note][]               |
 | GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
 | GNAT exception                                        | [GNAT-exception][]                       |
+| GNU Compiler Exception                                | [GNU-compiler-exception][]               |
 | GNU JavaMail exception                                | [gnu-javamail-exception][]               |
 | GPL-3.0 Interface Exception                           | [GPL-3.0-interface-exception][]          |
 | GPL-3.0 Linking Exception                             | [GPL-3.0-linking-exception][]            |
@@ -628,11 +626,13 @@ The following licenses have been generated from the license list version 594a4b9
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
+| SANE Exception                                        | [SANE-exception][]                       |
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
 | stunnel Exception                                     | [stunnel-exception][]                    |
 | SWI exception                                         | [SWI-exception][]                        |
 | Swift Exception                                       | [Swift-exception][]                      |
+| Texinfo exception                                     | [Texinfo-exception][]                    |
 | U-Boot exception 2.0                                  | [u-boot-exception-2.0][]                 |
 | Unmodified Binary Distribution exception              | [UBDL-exception][]                       |
 | Universal FOSS Exception, Version 1.0                 | [Universal-FOSS-exception-1.0][]         |
@@ -933,7 +933,6 @@ The following licenses have been generated from the license list version 594a4b9
 [Glide]: text/Glide.txt
 [Glulxe]: text/Glulxe.txt
 [GLWTPL]: text/GLWTPL.txt
-[GNU-compiler-exception]: text/GNU-compiler-exception.txt
 [gnuplot]: text/gnuplot.txt
 [GPL-1.0]: text/GPL-1.0.txt
 [GPL-1.0+]: text/GPL-1.0+.txt
@@ -1180,7 +1179,6 @@ The following licenses have been generated from the license list version 594a4b9
 [RSA-MD]: text/RSA-MD.txt
 [RSCPL]: text/RSCPL.txt
 [Ruby]: text/Ruby.txt
-[SANE-exception]: text/SANE-exception.txt
 [SAX-PD]: text/SAX-PD.txt
 [Saxpath]: text/Saxpath.txt
 [SCEA]: text/SCEA.txt
@@ -1222,7 +1220,6 @@ The following licenses have been generated from the license list version 594a4b9
 [TCL]: text/TCL.txt
 [TCP-wrappers]: text/TCP-wrappers.txt
 [TermReadKey]: text/TermReadKey.txt
-[Texinfo-exception]: text/Texinfo-exception.txt
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
@@ -1299,6 +1296,7 @@ The following licenses have been generated from the license list version 594a4b9
 [GCC-exception-2.0-note]: text/GCC-exception-2.0-note.txt
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
 [GNAT-exception]: text/GNAT-exception.txt
+[GNU-compiler-exception]: text/GNU-compiler-exception.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
 [GPL-3.0-interface-exception]: text/GPL-3.0-interface-exception.txt
 [GPL-3.0-linking-exception]: text/GPL-3.0-linking-exception.txt
@@ -1326,11 +1324,13 @@ The following licenses have been generated from the license list version 594a4b9
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
+[SANE-exception]: text/SANE-exception.txt
 [SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
 [stunnel-exception]: text/stunnel-exception.txt
 [SWI-exception]: text/SWI-exception.txt
 [Swift-exception]: text/Swift-exception.txt
+[Texinfo-exception]: text/Texinfo-exception.txt
 [u-boot-exception-2.0]: text/u-boot-exception-2.0.txt
 [UBDL-exception]: text/UBDL-exception.txt
 [Universal-FOSS-exception-1.0]: text/Universal-FOSS-exception-1.0.txt

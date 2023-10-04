@@ -4,8 +4,8 @@
     xmlns:doap="http://usefulinc.com/ns/doap#"
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
-  <spdx:ListedLicense rdf:about="http://spdx.org/licenses/SANE-exception">
-    <spdx:licenseTextHtml>
+  <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/SANE-exception">
+    <spdx:exceptionTextHtml>
          &lt;p&gt;
             As a special exception, the authors of &lt;var class="replaceable-license-text"&gt; SANE&lt;/var&gt; give permission for
             additional uses of the libraries contained in this release of &lt;var class="replaceable-license-text"&gt; SANE&lt;/var&gt;.
@@ -37,58 +37,10 @@
             If you do not wish that, delete this exception notice.
          &lt;/p&gt;
 
-      </spdx:licenseTextHtml>
+      </spdx:exceptionTextHtml>
     <rdfs:seeAlso>https://gitlab.com/sane-project/backends/-/blob/master/sanei/sanei_pp.c?ref_type=heads</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2023-10-04T11:45:51Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >2</spdx:order>
-        <spdx:url>https://gitlab.com/sane-project/frontends/-/blob/master/sanei/sanei_codec_ascii.c?ref_type=heads</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:standardLicenseTemplate>As a special exception, the authors of &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; give permission for additional uses of the libraries contained in this release of &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; .
-
-The exception is that, if you link a &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; library with other files to produce an executable, this does not by itself cause the resulting executable to be covered by the GNU General Public License. Your use of that executable is in no way restricted on account of linking the &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; library code into it.
-
-This exception does not, however, invalidate any other reasons why the executable file might be covered by the GNU General Public License.
-
-If you submit changes to &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; to the maintainers to be included in a subsequent release, you agree by submitting the changes that those changes may be distributed with this exception intact.
-
-If you write modifications of your own for &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; , it is your choice whether to permit this exception to apply to your modifications. If you do not wish that, delete this exception notice.
-
-</spdx:standardLicenseTemplate>
-    <spdx:licenseId>SANE-exception</spdx:licenseId>
     <rdfs:seeAlso>https://gitlab.com/sane-project/frontends/-/blob/master/sanei/sanei_codec_ascii.c?ref_type=heads</rdfs:seeAlso>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:name>SANE Exception</spdx:name>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2023-10-04T11:45:52Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >1</spdx:order>
-        <spdx:url>https://gitlab.com/sane-project/backends/-/blob/master/sanei/sanei_pp.c?ref_type=heads</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <rdfs:seeAlso>https://github.com/alexpevzner/sane-airscan/blob/master/LICENSE</rdfs:seeAlso>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseText>As a special exception, the authors of sane-airscan give permission for
+    <spdx:licenseExceptionText>As a special exception, the authors of sane-airscan give permission for
 additional uses of the libraries contained in this release of sane-airscan.
 
 The exception is that, if you link a sane-airscan library with other files
@@ -108,21 +60,22 @@ those changes may be distributed with this exception intact.
 If you write modifications of your own for sane-airscan, it is your choice
 whether to permit this exception to apply to your modifications.
 If you do not wish that, delete this exception notice.
-</spdx:licenseText>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2023-10-04T11:45:53Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>https://github.com/alexpevzner/sane-airscan/blob/master/LICENSE</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-  </spdx:ListedLicense>
+</spdx:licenseExceptionText>
+    <spdx:name>SANE Exception</spdx:name>
+    <spdx:licenseExceptionTemplate>As a special exception, the authors of &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; give permission for additional uses of the libraries contained in this release of &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; .
+
+The exception is that, if you link a &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; library with other files to produce an executable, this does not by itself cause the resulting executable to be covered by the GNU General Public License. Your use of that executable is in no way restricted on account of linking the &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; library code into it.
+
+This exception does not, however, invalidate any other reasons why the executable file might be covered by the GNU General Public License.
+
+If you submit changes to &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; to the maintainers to be included in a subsequent release, you agree by submitting the changes that those changes may be distributed with this exception intact.
+
+If you write modifications of your own for &lt;&lt;var;name="projectName";original="SANE";match=".+"&gt;&gt; , it is your choice whether to permit this exception to apply to your modifications. If you do not wish that, delete this exception notice.
+
+</spdx:licenseExceptionTemplate>
+    <rdfs:seeAlso>https://github.com/alexpevzner/sane-airscan/blob/master/LICENSE</rdfs:seeAlso>
+    <spdx:licenseExceptionId>SANE-exception</spdx:licenseExceptionId>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+  </spdx:ListedLicenseException>
 </rdf:RDF>
