@@ -2,14 +2,13 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Aladdin",
-            "spdx:licenseId": "Aladdin",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:name": "Aladdin Free Public License",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "This license was released 18 Nov 1999",
@@ -24,11 +23,12 @@
             "spdx:isFsfLibre": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
+            },
+            "spdx:licenseId": "Aladdin"
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-10-04T12:51:15Z",
+            "spdx:timestamp": "2023-10-05T13:07:16Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
