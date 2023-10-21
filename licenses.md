@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 9700dd5
+The following licenses have been generated from the license list version 8347fd3
 
 ## Licenses with Short Idenifiers
 
@@ -280,7 +280,7 @@ The following licenses have been generated from the license list version 9700dd5
 | Historical Permission Notice and Disclaimer - University of California variant | [HPND-UC][]                              |      |           |
 | HTML Tidy License                                                              | [HTMLTIDY][]                             |      |           |
 | IBM PowerPC Initialization and Boot Software                                   | [IBM-pibs][]                             |      |           |
-| ICU License                                                                    | [ICU][]                                  |      |           |
+| ICU License                                                                    | [ICU][]                                  | Y    |           |
 | IEC    Code Components End-user licence agreement                              | [IEC-Code-Components-EULA][]             |      |           |
 | Independent JPEG Group License                                                 | [IJG][]                                  |      | Y         |
 | Independent JPEG Group License - short                                         | [IJG-short][]                            |      |           |
