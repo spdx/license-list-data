@@ -1,8 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/Kazlib",
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseId": "Kazlib",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright (C) 1999 Kaz Kylheku &lt;kaz@ashi.footprints.net&gt;\n         </var>\n         <p>\n            Free Software License:\n         </p>\n\n         <p>\n            All rights are reserved by the author, with the following\n            exceptions: Permission is granted to freely reproduce and distribute\n            this software, possibly in exchange for a fee, provided that\n            this copyright notice appears intact. Permission is also granted\n            to adapt this software to produce derivative works, as long as\n            the modified versions carry this copyright notice and additional\n            notices stating that the work has been modified. This source\n            code may be translated into executable form and incorporated\n            into proprietary software; there is no requirement for such\n            software to contain a copyright notice related to this source.\n         </p>\n\n      ",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "Kazlib License",
+            "rdfs:seeAlso": "http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1999 Kaz Kylheku <kaz@ashi.footprints.net>\";match=\".{0,5000}\">>\n\nFree Software License:\n\nAll rights are reserved by the author, with the following exceptions: Permission is granted to freely reproduce and distribute this software, possibly in exchange for a fee, provided that this copyright notice appears intact. Permission is also granted to adapt this software to produce derivative works, as long as the modified versions carry this copyright notice and additional notices stating that the work has been modified. This source code may be translated into executable form and incorporated into proprietary software; there is no requirement for such software to contain a copyright notice related to this source.\n\n",
+            "spdx:licenseText": "Copyright (C) 1999 Kaz Kylheku \n\nFree Software License: \nAll rights are reserved by the author, with the following exceptions: Permission is granted to freely reproduce and distribute this software, possibly in exchange for a fee, provided that this copyright notice appears intact. Permission is also granted to adapt this software to produce derivative works, as long as the modified versions carry this copyright notice and additional notices stating that the work has been modified. This source code may be translated into executable form and incorporated into proprietary software; there is no requirement for such software to contain a copyright notice related to this source.\n"
+        },
+        {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-10-21T01:52:21Z",
+            "spdx:timestamp": "2023-11-06T16:39:46Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -22,27 +43,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Kazlib",
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseId": "Kazlib",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright (C) 1999 Kaz Kylheku &lt;kaz@ashi.footprints.net&gt;\n         </var>\n         <p>\n            Free Software License:\n         </p>\n\n         <p>\n            All rights are reserved by the author, with the following\n            exceptions: Permission is granted to freely reproduce and distribute\n            this software, possibly in exchange for a fee, provided that\n            this copyright notice appears intact. Permission is also granted\n            to adapt this software to produce derivative works, as long as\n            the modified versions carry this copyright notice and additional\n            notices stating that the work has been modified. This source\n            code may be translated into executable form and incorporated\n            into proprietary software; there is no requirement for such\n            software to contain a copyright notice related to this source.\n         </p>\n\n      ",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "Kazlib License",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "rdfs:seeAlso": "http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1999 Kaz Kylheku <kaz@ashi.footprints.net>\";match=\".{0,5000}\">>\n\nFree Software License:\n\nAll rights are reserved by the author, with the following exceptions: Permission is granted to freely reproduce and distribute this software, possibly in exchange for a fee, provided that this copyright notice appears intact. Permission is also granted to adapt this software to produce derivative works, as long as the modified versions carry this copyright notice and additional notices stating that the work has been modified. This source code may be translated into executable form and incorporated into proprietary software; there is no requirement for such software to contain a copyright notice related to this source.\n\n",
-            "spdx:licenseText": "Copyright (C) 1999 Kaz Kylheku \n\nFree Software License: \nAll rights are reserved by the author, with the following exceptions: Permission is granted to freely reproduce and distribute this software, possibly in exchange for a fee, provided that this copyright notice appears intact. Permission is also granted to adapt this software to produce derivative works, as long as the modified versions carry this copyright notice and additional notices stating that the work has been modified. This source code may be translated into executable form and incorporated into proprietary software; there is no requirement for such software to contain a copyright notice related to this source.\n"
         }
     ],
     "@context": {
