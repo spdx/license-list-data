@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-11-06T16:38:46Z",
+            "spdx:timestamp": "2023-11-09T03:22:29Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -18,14 +18,14 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-11-06T16:38:46Z",
+            "spdx:timestamp": "2023-11-09T03:22:29Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -53,18 +53,19 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseId": "HPND",
-            "spdx:standardLicenseTemplate": "<<beginOptional>>Historical Permission Notice and Disclaimer\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright <year> <copyright holder>  \";match=\".{0,5000}\">>\n\nPermission to use, copy, modify<<beginOptional>>,<<endOptional>>and distribute this software and its documentation for any purpose and without fee is hereby granted<<beginOptional>>,<<endOptional>>provided that the above copyright notice <<var;name=\"appear\";original=\"appear\";match=\"appear|appears\">> in all copies<<beginOptional>>, <<endOptional>><<beginOptional>> and<<endOptional>> that both <<var;name=\"that\";original=\"that\";match=\"that|the\">> copyright notice and this permission notice appear in supporting documentation<<beginOptional>> , and that the name<<beginOptional>> of<<endOptional>> <<var;name=\"copyrightHolder0\";original=\"<copyright holder>\";match=\".*\">> <<var;name=\"orRelated\";original=\"<or related entities>\";match=\".*\">> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission<<endOptional>> .<<beginOptional>> <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability of this software for any purpose. <<var;name=\"subject\";original=\"It\";match=\"It|This software\">> is provided \"as is\" without express or implied warranty.<<endOptional>>\n\n<<beginOptional>><<var;name=\"copyrightHolder2\";original=\"<copyright holder>\";match=\".*\">> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS <<var;name=\"period\";original=\".\";match=\"[.,]*\">> IN NO EVENT SHALL <<var;name=\"copyrightHolder3\";original=\"<copyright holder>\";match=\".*\">> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n<<endOptional>>",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
+            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>Historical Permission Notice and Disclaimer</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"> \n         <p>Copyright &lt;year&gt; &lt;copyright holder&gt;</p>\n\n      </div>\n\n      <p>Permission to use, copy, modify<var class=\"optional-license-text\">,</var> and distribute this software and its documentation for any purpose and\n         without fee is hereby granted<var class=\"optional-license-text\">,</var> provided that the above copyright notice <var class=\"replaceable-license-text\"> appear</var> in all copies<var class=\"optional-license-text\">, </var>\n         <var class=\"optional-license-text\"> and</var> that both <var class=\"replaceable-license-text\"> that</var>\n          copyright notice\n         and this permission notice appear in supporting documentation<var class=\"optional-license-text\"> , and that the <var class=\"replaceable-license-text\"> name</var> <var class=\"optional-license-text\"> of</var>\n            <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var>\n            <var class=\"replaceable-license-text\"> &lt;or related entities&gt;</var>\n         not be used in advertising or publicity pertaining to distribution of the software without specific, written\n         prior permission</var>. \n         <var class=\"optional-license-text\"> <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var> \n         makes no representations about the suitability of this software for any purpose. \n         <var class=\"replaceable-license-text\"> It</var> \n         is provided &quot;as is&quot; without express or implied warranty.</var>\n      </p>\n\n      <div class=\"optional-license-text\"> \n        <p>\n            <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING\n           ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS<var class=\"replaceable-license-text\"> .</var> IN NO EVENT SHALL\n           <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES\n           OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,\n           NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>\n\n      </div>\n    ",
             "rdfs:seeAlso": [
                 "http://lists.opensource.org/pipermail/license-discuss_lists.opensource.org/2002-November/006304.html",
                 "https://opensource.org/licenses/HPND"
+            ],
+            "spdx:standardLicenseTemplate": "<<beginOptional>>Historical Permission Notice and Disclaimer\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright <year> <copyright holder>  \";match=\".{0,5000}\">>\n\nPermission to use, copy, modify<<beginOptional>>,<<endOptional>>and distribute this software and its documentation for any purpose and without fee is hereby granted<<beginOptional>>,<<endOptional>>provided that the above copyright notice <<var;name=\"appear\";original=\"appear\";match=\"appear|appears\">> in all copies<<beginOptional>>, <<endOptional>><<beginOptional>> and<<endOptional>> that both <<var;name=\"that\";original=\"that\";match=\"that|the\">> copyright notice and this permission notice appear in supporting documentation<<beginOptional>> , and that the <<var;name=\"name\";original=\"name\";match=\"name|names\">><<beginOptional>> of<<endOptional>> <<var;name=\"copyrightHolder0\";original=\"<copyright holder>\";match=\".*\">> <<var;name=\"orRelated\";original=\"<or related entities>\";match=\".*\">> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission<<endOptional>> .<<beginOptional>> <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability of this software for any purpose. <<var;name=\"subject\";original=\"It\";match=\"It|This software\">> is provided \"as is\" without express or implied warranty.<<endOptional>>\n\n<<beginOptional>><<var;name=\"copyrightHolder2\";original=\"<copyright holder>\";match=\".*\">> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS <<var;name=\"period\";original=\".\";match=\"[.,]*\">> IN NO EVENT SHALL <<var;name=\"copyrightHolder3\";original=\"<copyright holder>\";match=\".*\">> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n<<endOptional>>",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
             ],
             "@type": "spdx:ListedLicense",
             "spdx:name": "Historical Permission Notice and Disclaimer",
@@ -77,7 +78,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>Historical Permission Notice and Disclaimer</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"> \n         <p>Copyright &lt;year&gt; &lt;copyright holder&gt;</p>\n\n      </div>\n\n      <p>Permission to use, copy, modify<var class=\"optional-license-text\">,</var> and distribute this software and its documentation for any purpose and\n         without fee is hereby granted<var class=\"optional-license-text\">,</var> provided that the above copyright notice <var class=\"replaceable-license-text\"> appear</var> in all copies<var class=\"optional-license-text\">, </var>\n         <var class=\"optional-license-text\"> and</var> that both <var class=\"replaceable-license-text\"> that</var>\n          copyright notice\n         and this permission notice appear in supporting documentation<var class=\"optional-license-text\"> , and that the name <var class=\"optional-license-text\"> of</var>\n            <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var>\n            <var class=\"replaceable-license-text\"> &lt;or related entities&gt;</var>\n         not be used in advertising or publicity pertaining to distribution of the software without specific, written\n         prior permission</var>. \n         <var class=\"optional-license-text\"> <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var> \n         makes no representations about the suitability of this software for any purpose. \n         <var class=\"replaceable-license-text\"> It</var> \n         is provided &quot;as is&quot; without express or implied warranty.</var>\n      </p>\n\n      <div class=\"optional-license-text\"> \n        <p>\n            <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING\n           ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS<var class=\"replaceable-license-text\"> .</var> IN NO EVENT SHALL\n           <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES\n           OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,\n           NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>\n\n      </div>\n    ",
             "rdfs:comment": "This license has been voluntarily deprecated by its author. Original license submission in 2002 was intended to provide a template distilled from permission notices used in many packages. As per the original notes, \"It may be possible to construct a grammatically incorrect license from this template, or one that lacks a disclaimer, or one that includes a double-disclaimer. That is acceptable, as long as it remains impossible to construct a non-OSD-compliant license that matches the pattern.\""
         }
     ],
