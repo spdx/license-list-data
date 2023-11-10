@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8cd678d
+The following licenses have been generated from the license list version 2502b90
 
 ## Licenses with Short Idenifiers
 
@@ -10,6 +10,7 @@ The following licenses have been generated from the license list version 8cd678d
 | Abstyles License                                                                       | [Abstyles][]                             |      |           |
 | AdaCore Doc License                                                                    | [AdaCore-doc][]                          |      |           |
 | Adobe Systems Incorporated Source Code License Agreement                               | [Adobe-2006][]                           |      |           |
+| Adobe Display PostScript License                                                       | [Adobe-Display-PostScript][]             |      |           |
 | Adobe Glyph List License                                                               | [Adobe-Glyph][]                          |      |           |
 | Adobe Utopia Font License                                                              | [Adobe-Utopia][]                         |      |           |
 | Amazon Digital Services License                                                        | [ADSL][]                                 |      |           |
@@ -190,6 +191,7 @@ The following licenses have been generated from the license list version 8cd678d
 | Cube License                                                                           | [Cube][]                                 |      |           |
 | curl License                                                                           | [curl][]                                 |      |           |
 | Deutsche Freie Software Lizenz                                                         | [D-FSL-1.0][]                            |      |           |
+| DEC 3-Clause License                                                                   | [DEC-3-Clause][]                         |      |           |
 | diffmark license                                                                       | [diffmark][]                             |      |           |
 | Data licence Germany – attribution – version 2.0                                       | [DL-DE-BY-2.0][]                         |      |           |
 | Data licence Germany – zero – version 2.0                                              | [DL-DE-ZERO-2.0][]                       |      |           |
@@ -231,6 +233,7 @@ The following licenses have been generated from the license list version 8cd678d
 | Freetype Project License                                                               | [FTL][]                                  |      | Y         |
 | Furuseth License                                                                       | [Furuseth][]                             |      |           |
 | fwlw License                                                                           | [fwlw][]                                 |      |           |
+| Gnome GCR Documentation License                                                        | [GCR-docs][]                             |      |           |
 | GD License                                                                             | [GD][]                                   |      |           |
 | GNU Free Documentation License v1.1 only - invariants                                  | [GFDL-1.1-invariants-only][]             |      |           |
 | GNU Free Documentation License v1.1 or later - invariants                              | [GFDL-1.1-invariants-or-later][]         |      |           |
@@ -686,6 +689,7 @@ The following licenses have been generated from the license list version 8cd678d
 [Abstyles]: text/Abstyles.txt
 [AdaCore-doc]: text/AdaCore-doc.txt
 [Adobe-2006]: text/Adobe-2006.txt
+[Adobe-Display-PostScript]: text/Adobe-Display-PostScript.txt
 [Adobe-Glyph]: text/Adobe-Glyph.txt
 [Adobe-Utopia]: text/Adobe-Utopia.txt
 [ADSL]: text/ADSL.txt
@@ -871,6 +875,7 @@ The following licenses have been generated from the license list version 8cd678d
 [Cube]: text/Cube.txt
 [curl]: text/curl.txt
 [D-FSL-1.0]: text/D-FSL-1.0.txt
+[DEC-3-Clause]: text/DEC-3-Clause.txt
 [diffmark]: text/diffmark.txt
 [DL-DE-BY-2.0]: text/DL-DE-BY-2.0.txt
 [DL-DE-ZERO-2.0]: text/DL-DE-ZERO-2.0.txt
@@ -913,6 +918,7 @@ The following licenses have been generated from the license list version 8cd678d
 [FTL]: text/FTL.txt
 [Furuseth]: text/Furuseth.txt
 [fwlw]: text/fwlw.txt
+[GCR-docs]: text/GCR-docs.txt
 [GD]: text/GD.txt
 [GFDL-1.1]: text/GFDL-1.1.txt
 [GFDL-1.1-invariants-only]: text/GFDL-1.1-invariants-only.txt
