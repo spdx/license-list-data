@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version cd37d79
+The following licenses have been generated from the license list version 8816872
 
 ## Licenses with Short Idenifiers
 
@@ -26,6 +26,7 @@ The following licenses have been generated from the license list version cd37d79
 | Aladdin Free Public License                                                    | [Aladdin][]                              |      |           |
 | AMD's plpa_map.c License                                                       | [AMDPLPA][]                              |      |           |
 | Apple MIT License                                                              | [AML][]                                  |      |           |
+| AML glslang variant License                                                    | [AML-glslang][]                          |      |           |
 | Academy of Motion Picture Arts and Sciences BSD                                | [AMPAS][]                                |      |           |
 | ANTLR Software Rights Notice                                                   | [ANTLR-PD][]                             |      |           |
 | ANTLR Software Rights Notice with license fallback                             | [ANTLR-PD-fallback][]                    |      |           |
@@ -263,6 +264,7 @@ The following licenses have been generated from the license list version cd37d79
 | Graphics Gems License                                                          | [Graphics-Gems][]                        |      |           |
 | gSOAP Public License v1.3b                                                     | [gSOAP-1.3b][]                           |      |           |
 | Haskell Language Report License                                                | [HaskellReport][]                        |      |           |
+| hdparm License                                                                 | [hdparm][]                               |      |           |
 | Hippocratic License 2.1                                                        | [Hippocratic-2.1][]                      |      |           |
 | Hewlett-Packard 1986 License                                                   | [HP-1986][]                              |      |           |
 | Hewlett-Packard 1989 License                                                   | [HP-1989][]                              |      |           |
@@ -457,6 +459,7 @@ The following licenses have been generated from the license list version cd37d79
 | Open Data Commons Public Domain Dedication & License 1.0                       | [PDDL-1.0][]                             |      |           |
 | PHP License v3.0                                                               | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                              | [PHP-3.01][]                             | Y    | Y         |
+| Pixar License                                                                  | [Pixar][]                                |      |           |
 | Plexus Classworlds License                                                     | [Plexus][]                               |      |           |
 | pnmstitch License                                                              | [pnmstitch][]                            |      |           |
 | PolyForm Noncommercial License 1.0.0                                           | [PolyForm-Noncommercial-1.0.0][]         |      |           |
@@ -699,6 +702,7 @@ The following licenses have been generated from the license list version cd37d79
 [Aladdin]: text/Aladdin.txt
 [AMDPLPA]: text/AMDPLPA.txt
 [AML]: text/AML.txt
+[AML-glslang]: text/AML-glslang.txt
 [AMPAS]: text/AMPAS.txt
 [ANTLR-PD]: text/ANTLR-PD.txt
 [ANTLR-PD-fallback]: text/ANTLR-PD-fallback.txt
@@ -956,6 +960,7 @@ The following licenses have been generated from the license list version cd37d79
 [Graphics-Gems]: text/Graphics-Gems.txt
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
 [HaskellReport]: text/HaskellReport.txt
+[hdparm]: text/hdparm.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
 [HP-1986]: text/HP-1986.txt
 [HP-1989]: text/HP-1989.txt
@@ -1157,6 +1162,7 @@ The following licenses have been generated from the license list version cd37d79
 [PDDL-1.0]: text/PDDL-1.0.txt
 [PHP-3.0]: text/PHP-3.0.txt
 [PHP-3.01]: text/PHP-3.01.txt
+[Pixar]: text/Pixar.txt
 [Plexus]: text/Plexus.txt
 [pnmstitch]: text/pnmstitch.txt
 [PolyForm-Noncommercial-1.0.0]: text/PolyForm-Noncommercial-1.0.0.txt
