@@ -1,31 +1,41 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "spdx:timestamp": "2023-11-10T02:31:46Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
+            "@id": "http://spdx.org/licenses/SunPro",
+            "spdx:standardLicenseHeaderHtml": "\n      ",
+            "spdx:standardLicenseHeader": "",
+            "spdx:standardLicenseHeaderTemplate": "",
+            "rdfs:comment": "",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n         </var>\n         <p>\n            Developed at<var class=\"replaceable-license-text\"> SunPro</var>\n            , a Sun Microsystems, Inc. business.\n         </p>\n\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            is freely granted, provided that this notice is preserved.\n         </p>\n\n      ",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isValid": {
-                "@value": "true",
+            "rdfs:seeAlso": [
+                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c",
+                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c"
+            ],
+            "spdx:licenseId": "SunPro",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseText": "Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n\nDeveloped at SunSoft, a Sun Microsystems, Inc. business.\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice \nis preserved.\n",
+            "spdx:name": "SunPro License",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\";match=\".{0,5000}\">>\n\nDeveloped at <<var;name=\"SunOrg\";original=\"SunPro\";match=\"SunPro|SunSoft\">> , a Sun Microsystems, Inc. business.\n\nPermission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.\n\n"
         },
         {
-            "@id": "_:b1",
-            "spdx:timestamp": "2023-11-10T02:31:45Z",
+            "@id": "_:b0",
+            "spdx:timestamp": "2023-11-10T04:42:52Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,37 +57,27 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/SunPro",
-            "spdx:standardLicenseHeaderHtml": "\n      ",
-            "spdx:standardLicenseHeader": "",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
-            "spdx:standardLicenseHeaderTemplate": "",
-            "rdfs:comment": "",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n         </var>\n         <p>\n            Developed at<var class=\"replaceable-license-text\"> SunPro</var>\n            , a Sun Microsystems, Inc. business.\n         </p>\n\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            is freely granted, provided that this notice is preserved.\n         </p>\n\n      ",
-            "spdx:isOsiApproved": {
+            "@id": "_:b1",
+            "spdx:timestamp": "2023-11-10T04:42:53Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "rdfs:seeAlso": [
-                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c",
-                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c"
-            ],
-            "spdx:licenseId": "SunPro",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
+            "spdx:isValid": {
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseText": "Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n\nDeveloped at SunSoft, a Sun Microsystems, Inc. business.\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice \nis preserved.\n",
-            "spdx:name": "SunPro License",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\";match=\".{0,5000}\">>\n\nDeveloped at <<var;name=\"SunOrg\";original=\"SunPro\";match=\"SunPro|SunSoft\">> , a Sun Microsystems, Inc. business.\n\nPermission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.\n\n"
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
