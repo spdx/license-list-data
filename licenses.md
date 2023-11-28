@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version bcc805d
+The following licenses have been generated from the license list version 12e0bf4
 
 ## Licenses with Short Idenifiers
 
@@ -489,6 +489,7 @@ The following licenses have been generated from the license list version bcc805d
 | Ricoh Source Code Public License                                                       | [RSCPL][]                                | Y    |           |
 | Ruby License                                                                           | [Ruby][]                                 |      | Y         |
 | Sax Public Domain Notice                                                               | [SAX-PD][]                               |      |           |
+| Sax Public Domain Notice 2.0                                                           | [SAX-PD-2.0][]                           |      |           |
 | Saxpath License                                                                        | [Saxpath][]                              |      |           |
 | SCEA Shared Source License                                                             | [SCEA][]                                 |      |           |
 | Scheme Language Report License                                                         | [SchemeReport][]                         |      |           |
@@ -1198,6 +1199,7 @@ The following licenses have been generated from the license list version bcc805d
 [RSCPL]: text/RSCPL.txt
 [Ruby]: text/Ruby.txt
 [SAX-PD]: text/SAX-PD.txt
+[SAX-PD-2.0]: text/SAX-PD-2.0.txt
 [Saxpath]: text/Saxpath.txt
 [SCEA]: text/SCEA.txt
 [SchemeReport]: text/SchemeReport.txt
