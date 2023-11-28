@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2502b90
+The following licenses have been generated from the license list version bcc805d
 
 ## Licenses with Short Idenifiers
 
@@ -479,6 +479,7 @@ The following licenses have been generated from the license list version 2502b90
 | Qhull License                                                                          | [Qhull][]                                |      |           |
 | Q Public License 1.0                                                                   | [QPL-1.0][]                              | Y    | Y         |
 | Q Public License 1.0 - INRIA 2004 variant                                              | [QPL-1.0-INRIA-2004][]                   |      |           |
+| radvd License                                                                          | [radvd][]                                |      |           |
 | Rdisc License                                                                          | [Rdisc][]                                |      |           |
 | Red Hat eCos Public License v1.1                                                       | [RHeCos-1.1][]                           |      |           |
 | Reciprocal Public License 1.1                                                          | [RPL-1.1][]                              | Y    |           |
@@ -1187,6 +1188,7 @@ The following licenses have been generated from the license list version 2502b90
 [Qhull]: text/Qhull.txt
 [QPL-1.0]: text/QPL-1.0.txt
 [QPL-1.0-INRIA-2004]: text/QPL-1.0-INRIA-2004.txt
+[radvd]: text/radvd.txt
 [Rdisc]: text/Rdisc.txt
 [RHeCos-1.1]: text/RHeCos-1.1.txt
 [RPL-1.1]: text/RPL-1.1.txt
