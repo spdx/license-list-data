@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 12e0bf4
+The following licenses have been generated from the license list version 79750b4
 
 ## Licenses with Short Idenifiers
 
@@ -566,6 +566,7 @@ The following licenses have been generated from the license list version 12e0bf4
 | Xfig License                                                                           | [Xfig][]                                 |      |           |
 | XFree86 License 1.1                                                                    | [XFree86-1.1][]                          |      | Y         |
 | xinetd License                                                                         | [xinetd][]                               |      | Y         |
+| xkeyboard-config Zinoviev License                                                      | [xkeyboard-config-Zinoviev][]            |      |           |
 | xlock License                                                                          | [xlock][]                                |      |           |
 | X.Net License                                                                          | [Xnet][]                                 | Y    |           |
 | XPP License                                                                            | [xpp][]                                  |      |           |
@@ -1278,6 +1279,7 @@ The following licenses have been generated from the license list version 12e0bf4
 [Xfig]: text/Xfig.txt
 [XFree86-1.1]: text/XFree86-1.1.txt
 [xinetd]: text/xinetd.txt
+[xkeyboard-config-Zinoviev]: text/xkeyboard-config-Zinoviev.txt
 [xlock]: text/xlock.txt
 [Xnet]: text/Xnet.txt
 [xpp]: text/xpp.txt
