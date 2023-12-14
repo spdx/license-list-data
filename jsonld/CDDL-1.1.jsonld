@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-12-06T22:06:09Z",
+            "spdx:timestamp": "2023-12-14T18:25:11Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2023-12-06T22:06:09Z",
+            "spdx:timestamp": "2023-12-14T18:25:11Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,19 +48,19 @@
         },
         {
             "@id": "http://spdx.org/licenses/CDDL-1.1",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:licenseId": "CDDL-1.1",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "rdfs:seeAlso": [
                 "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
                 "https://javaee.github.io/glassfish/LICENSE"

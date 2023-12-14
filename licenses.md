@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 79750b4
+The following licenses have been generated from the license list version a92d7d4
 
 ## Licenses with Short Idenifiers
 
@@ -227,6 +227,7 @@ The following licenses have been generated from the license list version 79750b4
 | FreeBSD Documentation License                                                          | [FreeBSD-DOC][]                          |      |           |
 | FreeImage Public License v1.0                                                          | [FreeImage][]                            |      |           |
 | FSF All Permissive License                                                             | [FSFAP][]                                |      | Y         |
+| FSF All Permissive License (without Warranty)                                          | [FSFAP-no-warranty-disclaimer][]         |      |           |
 | FSF Unlimited License                                                                  | [FSFUL][]                                |      |           |
 | FSF Unlimited License (with License Retention)                                         | [FSFULLR][]                              |      |           |
 | FSF Unlimited License (With License Retention and Warranty Disclaimer)                 | [FSFULLRWD][]                            |      |           |
@@ -915,6 +916,7 @@ The following licenses have been generated from the license list version 79750b4
 [FreeBSD-DOC]: text/FreeBSD-DOC.txt
 [FreeImage]: text/FreeImage.txt
 [FSFAP]: text/FSFAP.txt
+[FSFAP-no-warranty-disclaimer]: text/FSFAP-no-warranty-disclaimer.txt
 [FSFUL]: text/FSFUL.txt
 [FSFULLR]: text/FSFULLR.txt
 [FSFULLRWD]: text/FSFULLRWD.txt
