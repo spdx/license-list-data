@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version a92d7d4
+The following licenses have been generated from the license list version e907999
 
 ## Licenses with Short Idenifiers
 
@@ -279,6 +279,7 @@ The following licenses have been generated from the license list version a92d7d4
 | Historical Permission Notice and Disclaimer - documentation sell variant               | [HPND-doc-sell][]                        |      |           |
 | HPND with US Government export control warning                                         | [HPND-export-US][]                       |      |           |
 | HPND with US Government export control warning and modification rqmt                   | [HPND-export-US-modify][]                |      |           |
+| Historical Permission Notice and Disclaimer - Kevlin Henney variant                    | [HPND-Kevlin-Henney][]                   |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant                      | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer - Pbmplus variant                          | [HPND-Pbmplus][]                         |      |           |
 | Historical Permission Notice and Disclaimer - sell xserver variant with MIT disclaimer | [HPND-sell-MIT-disclaimer-xserver][]     |      |           |
@@ -984,6 +985,7 @@ The following licenses have been generated from the license list version a92d7d4
 [HPND-doc-sell]: text/HPND-doc-sell.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-export-US-modify]: text/HPND-export-US-modify.txt
+[HPND-Kevlin-Henney]: text/HPND-Kevlin-Henney.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-Pbmplus]: text/HPND-Pbmplus.txt
 [HPND-sell-MIT-disclaimer-xserver]: text/HPND-sell-MIT-disclaimer-xserver.txt
