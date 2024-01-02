@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 950ddeb
+The following licenses have been generated from the license list version c9d9cfa
 
 ## Licenses with Short Idenifiers
 
@@ -351,6 +351,7 @@ The following licenses have been generated from the license list version 950ddeb
 | LZMA SDK License (versions 9.11 to 9.20)                                               | [LZMA-SDK-9.11-to-9.20][]                |      |           |
 | LZMA SDK License (versions 9.22 and beyond)                                            | [LZMA-SDK-9.22][]                        |      |           |
 | magaz License                                                                          | [magaz][]                                |      |           |
+| mailprio License                                                                       | [mailprio][]                             |      |           |
 | MakeIndex License                                                                      | [MakeIndex][]                            |      |           |
 | Martin Birgmeier License                                                               | [Martin-Birgmeier][]                     |      |           |
 | McPhee Slideshow License                                                               | [McPhee-slideshow][]                     |      |           |
@@ -1065,6 +1066,7 @@ The following licenses have been generated from the license list version 950ddeb
 [LZMA-SDK-9.11-to-9.20]: text/LZMA-SDK-9.11-to-9.20.txt
 [LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
 [magaz]: text/magaz.txt
+[mailprio]: text/mailprio.txt
 [MakeIndex]: text/MakeIndex.txt
 [Martin-Birgmeier]: text/Martin-Birgmeier.txt
 [McPhee-slideshow]: text/McPhee-slideshow.txt
