@@ -2,7 +2,30 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-01-02T21:48:21Z",
+            "spdx:timestamp": "2024-01-02T22:09:56Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://graphics.pixar.com/opensubdiv/docs/license.html",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-01-02T22:09:55Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,36 +47,13 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-01-02T21:48:21Z",
+            "@id": "_:b2",
+            "spdx:timestamp": "2024-01-02T22:09:56Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:url": "https://github.com/PixarAnimationStudios/OpenSubdiv/raw/v3_5_0/LICENSE.txt",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b2",
-            "spdx:timestamp": "2024-01-02T21:48:21Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://graphics.pixar.com/opensubdiv/docs/license.html",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -78,13 +78,13 @@
             ],
             "spdx:crossRef": [
                 {
-                    "@id": "_:b2"
-                },
-                {
                     "@id": "_:b1"
                 },
                 {
                     "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b2"
                 }
             ],
             "spdx:isDeprecatedLicenseId": {
