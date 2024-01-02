@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2023-12-20T05:44:04Z",
+            "spdx:timestamp": "2024-01-02T18:10:53Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/AFL-2.1",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -42,9 +45,6 @@
             },
             "spdx:name": "Academic Free License v2.1",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:standardLicenseHeader": "Licensed under the Academic Free License version 2.1\n\n",
             "spdx:licenseId": "AFL-2.1",
             "spdx:standardLicenseHeaderTemplate": "Licensed under the Academic Free License version 2.1\n\n",

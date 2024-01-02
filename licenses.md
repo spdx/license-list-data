@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e907999
+The following licenses have been generated from the license list version 3690214
 
 ## Licenses with Short Idenifiers
 
@@ -543,6 +543,7 @@ The following licenses have been generated from the license list version e907999
 | UCAR License                                                                           | [UCAR][]                                 |      |           |
 | Upstream Compatibility License v1.0                                                    | [UCL-1.0][]                              | Y    |           |
 | ulem License                                                                           | [ulem][]                                 |      |           |
+| Unicode License v3                                                                     | [Unicode-3.0][]                          | Y    |           |
 | Unicode License Agreement - Data Files and Software (2015)                             | [Unicode-DFS-2015][]                     |      |           |
 | Unicode License Agreement - Data Files and Software (2016)                             | [Unicode-DFS-2016][]                     | Y    |           |
 | Unicode Terms of Use                                                                   | [Unicode-TOU][]                          |      |           |
@@ -1257,6 +1258,7 @@ The following licenses have been generated from the license list version e907999
 [UCAR]: text/UCAR.txt
 [UCL-1.0]: text/UCL-1.0.txt
 [ulem]: text/ulem.txt
+[Unicode-3.0]: text/Unicode-3.0.txt
 [Unicode-DFS-2015]: text/Unicode-DFS-2015.txt
 [Unicode-DFS-2016]: text/Unicode-DFS-2016.txt
 [Unicode-TOU]: text/Unicode-TOU.txt
