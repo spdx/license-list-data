@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-01-02T18:07:30Z",
+            "spdx:timestamp": "2024-01-02T19:25:53Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/Knuth-CTAN",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://ctan.org/license/knuth",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -40,10 +43,7 @@
             "rdfs:comment": "This license is very similar to Wsuipa.",
             "spdx:standardLicenseTemplate": "This software is copyrighted. Unlimited copying and redistribution of this package and/or its individual files are permitted as long as there are no modifications. Modifications, and redistribution of modifications, are also permitted, but only if the resulting package and/or files are renamed.\n\n",
             "spdx:licenseTextHtml": "\n         <p>\n            This software is copyrighted. Unlimited copying and redistribution\n            of this package and/or its individual files are permitted\n            as long as there are no modifications. Modifications, and\n            redistribution of modifications, are also permitted, but\n            only if the resulting package and/or files are renamed.\n         </p>\n\n      ",
-            "spdx:licenseText": "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
+            "spdx:licenseText": "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n"
         }
     ],
     "@context": {
