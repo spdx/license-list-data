@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version fb8ebfe
+The following licenses have been generated from the license list version 950ddeb
 
 ## Licenses with Short Idenifiers
 
@@ -304,6 +304,7 @@ The following licenses have been generated from the license list version fb8ebfe
 | IPA Font License                                                                       | [IPA][]                                  | Y    | Y         |
 | IBM Public License v1.0                                                                | [IPL-1.0][]                              | Y    | Y         |
 | ISC License                                                                            | [ISC][]                                  | Y    | Y         |
+| ISC Veillard variant                                                                   | [ISC-Veillard][]                         |      |           |
 | Jam License                                                                            | [Jam][]                                  | Y    |           |
 | JasPer License                                                                         | [JasPer-2.0][]                           |      |           |
 | JPL Image Use Policy                                                                   | [JPL-image][]                            |      |           |
@@ -1011,6 +1012,7 @@ The following licenses have been generated from the license list version fb8ebfe
 [IPA]: text/IPA.txt
 [IPL-1.0]: text/IPL-1.0.txt
 [ISC]: text/ISC.txt
+[ISC-Veillard]: text/ISC-Veillard.txt
 [Jam]: text/Jam.txt
 [JasPer-2.0]: text/JasPer-2.0.txt
 [JPL-image]: text/JPL-image.txt
