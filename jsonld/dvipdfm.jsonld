@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/dvipdfm",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:licenseTextHtml": "\n      <p>A modified version of this file may be distributed, but it should be distributed with a *different* name.\n         Changed files must be distributed *together with a complete and unchanged* distribution of these\n         files.</p>\n\n    ",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -16,14 +13,17 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:standardLicenseTemplate": "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.\n\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/dvipdfm",
+            "spdx:standardLicenseTemplate": "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.\n\n",
             "@type": "spdx:ListedLicense",
             "spdx:licenseId": "dvipdfm"
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-01-02T22:25:20Z",
+            "spdx:timestamp": "2024-01-03T03:38:33Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

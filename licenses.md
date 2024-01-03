@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d101de6
+The following licenses have been generated from the license list version fcb4c75
 
 ## Licenses with Short Idenifiers
 
@@ -89,6 +89,7 @@ The following licenses have been generated from the license list version d101de6
 | BSD Protection License                                                                 | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution                                                            | [BSD-Source-Code][]                      |      |           |
 | Systemics BSD variant license                                                          | [BSD-Systemics][]                        |      |           |
+| Systemics W3Works BSD variant license                                                  | [BSD-Systemics-W3Works][]                |      |           |
 | Boost Software License 1.0                                                             | [BSL-1.0][]                              | Y    | Y         |
 | Business Source License 1.1                                                            | [BUSL-1.1][]                             |      |           |
 | bzip2 and libbzip2 License v1.0.6                                                      | [bzip2-1.0.6][]                          |      |           |
@@ -780,6 +781,7 @@ The following licenses have been generated from the license list version d101de6
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSD-Systemics]: text/BSD-Systemics.txt
+[BSD-Systemics-W3Works]: text/BSD-Systemics-W3Works.txt
 [BSL-1.0]: text/BSL-1.0.txt
 [BUSL-1.1]: text/BUSL-1.1.txt
 [bzip2-1.0.5]: text/bzip2-1.0.5.txt
