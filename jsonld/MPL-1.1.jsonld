@@ -2,6 +2,14 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/MPL-1.1",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -10,14 +18,6 @@
             "rdfs:seeAlso": [
                 "http://www.mozilla.org/MPL/MPL-1.1.html",
                 "https://opensource.org/licenses/MPL-1.1"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
             ],
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseHeaderTemplate": "<<beginOptional>>\"<<endOptional>>The contents of this file are subject to the Mozilla Public License Version 1.1 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.mozilla.org/MPL/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is <<var;name=\"code\";original=\"______________________________________\";match=\".+\">> .\n\nThe Initial Developer of the Original Code is <<var;name=\"initialDeveloper\";original=\"________________________\";match=\".+\">> .\n\nPortions created by <<var;name=\"creator\";original=\"______________________\";match=\".+\">> are Copyright (C) <<var;name=\"copyright\";original=\"______\";match=\".+\">> . All Rights Reserved.\n\nContributor(s): <<var;name=\"contributor\";original=\"______________________________________\";match=\".+\">> .\n\nAlternatively, the contents of this file may be used under the terms of the <<var;name=\"altLicense\";original=\"_____\";match=\".+\">> license (the \" <<var;name=\"altLicenseShort1\";original=\"[___]\";match=\".+\">> License\"), in which case the provisions of <<var;name=\"altLicenseShort2\";original=\"[______]\";match=\".+\">> License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the <<var;name=\"altLicenseShort3\";original=\"[____]\";match=\".+\">> License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the <<var;name=\"altLicenseShort4\";original=\"[___]\";match=\".+\">> License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the <<var;name=\"altLicenseShort5\";original=\"[___]\";match=\".+\">> License.<<beginOptional>>\"<<endOptional>>\n\n",
@@ -39,13 +39,13 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-01-03T19:25:39Z",
+            "spdx:timestamp": "2024-01-04T03:57:07Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://opensource.org/licenses/MPL-1.1",
-            "spdx:match": "N/A",
+            "spdx:url": "http://www.mozilla.org/MPL/MPL-1.1.html",
+            "spdx:match": "true",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -62,13 +62,13 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-01-03T19:25:40Z",
+            "spdx:timestamp": "2024-01-04T03:57:07Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://www.mozilla.org/MPL/MPL-1.1.html",
-            "spdx:match": "true",
+            "spdx:url": "https://opensource.org/licenses/MPL-1.1",
+            "spdx:match": "N/A",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
