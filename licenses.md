@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3c249b6
+The following licenses have been generated from the license list version 622da97
 
 ## Licenses with Short Idenifiers
 
@@ -104,6 +104,7 @@ The following licenses have been generated from the license list version 3c249b6
 | Creative Commons Attribution 2.5 Australia                                             | [CC-BY-2.5-AU][]                         |      |           |
 | Creative Commons Attribution 3.0 Unported                                              | [CC-BY-3.0][]                            |      |           |
 | Creative Commons Attribution 3.0 Austria                                               | [CC-BY-3.0-AT][]                         |      |           |
+| Creative Commons Attribution 3.0 Australia                                             | [CC-BY-3.0-AU][]                         |      |           |
 | Creative Commons Attribution 3.0 Germany                                               | [CC-BY-3.0-DE][]                         |      |           |
 | Creative Commons Attribution 3.0 IGO                                                   | [CC-BY-3.0-IGO][]                        |      |           |
 | Creative Commons Attribution 3.0 Netherlands                                           | [CC-BY-3.0-NL][]                         |      |           |
@@ -798,6 +799,7 @@ The following licenses have been generated from the license list version 3c249b6
 [CC-BY-2.5-AU]: text/CC-BY-2.5-AU.txt
 [CC-BY-3.0]: text/CC-BY-3.0.txt
 [CC-BY-3.0-AT]: text/CC-BY-3.0-AT.txt
+[CC-BY-3.0-AU]: text/CC-BY-3.0-AU.txt
 [CC-BY-3.0-DE]: text/CC-BY-3.0-DE.txt
 [CC-BY-3.0-IGO]: text/CC-BY-3.0-IGO.txt
 [CC-BY-3.0-NL]: text/CC-BY-3.0-NL.txt
