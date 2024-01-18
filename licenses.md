@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ae8ecc9
+The following licenses have been generated from the license list version 430aab3
 
 ## Licenses with Short Idenifiers
 
@@ -343,6 +343,7 @@ The following licenses have been generated from the license list version ae8ecc9
 | Linux man-pages Copyleft Variant                                                       | [Linux-man-pages-copyleft-var][]         |      |           |
 | Linux Kernel Variant of OpenIB.org license                                             | [Linux-OpenIB][]                         |      |           |
 | Common Lisp LOOP License                                                               | [LOOP][]                                 |      |           |
+| LPD Documentation License                                                              | [LPD-document][]                         |      |           |
 | Lucent Public License Version 1.0                                                      | [LPL-1.0][]                              | Y    |           |
 | Lucent Public License v1.02                                                            | [LPL-1.02][]                             | Y    | Y         |
 | LaTeX Project Public License v1.0                                                      | [LPPL-1.0][]                             |      |           |
@@ -1063,6 +1064,7 @@ The following licenses have been generated from the license list version ae8ecc9
 [Linux-man-pages-copyleft-var]: text/Linux-man-pages-copyleft-var.txt
 [Linux-OpenIB]: text/Linux-OpenIB.txt
 [LOOP]: text/LOOP.txt
+[LPD-document]: text/LPD-document.txt
 [LPL-1.0]: text/LPL-1.0.txt
 [LPL-1.02]: text/LPL-1.02.txt
 [LPPL-1.0]: text/LPPL-1.0.txt
