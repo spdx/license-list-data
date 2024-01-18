@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 430aab3
+The following licenses have been generated from the license list version ce28c90
 
 ## Licenses with Short Idenifiers
 
@@ -87,6 +87,7 @@ The following licenses have been generated from the license list version 430aab3
 | BSD with Attribution and HPND disclaimer                                               | [BSD-Attribution-HPND-disclaimer][]      |      |           |
 | BSD-Inferno-Nettverk                                                                   | [BSD-Inferno-Nettverk][]                 |      |           |
 | BSD Protection License                                                                 | [BSD-Protection][]                       |      |           |
+| BSD Source Code Attribution - beginning of file variant                                | [BSD-Source-beginning-file][]            |      |           |
 | BSD Source Code Attribution                                                            | [BSD-Source-Code][]                      |      |           |
 | Systemics BSD variant license                                                          | [BSD-Systemics][]                        |      |           |
 | Systemics W3Works BSD variant license                                                  | [BSD-Systemics-W3Works][]                |      |           |
@@ -538,6 +539,7 @@ The following licenses have been generated from the license list version 430aab3
 | TCL/TK License                                                                         | [TCL][]                                  |      |           |
 | TCP Wrappers License                                                                   | [TCP-wrappers][]                         |      |           |
 | TermReadKey License                                                                    | [TermReadKey][]                          |      |           |
+| Transitive Grace Period Public Licence 1.0                                             | [TGPPL-1.0][]                            |      |           |
 | TMate Open Source License                                                              | [TMate][]                                |      |           |
 | TORQUE v2.5+ Software License v1.1                                                     | [TORQUE-1.1][]                           |      |           |
 | Trusster Open Source License                                                           | [TOSL][]                                 |      |           |
@@ -784,6 +786,7 @@ The following licenses have been generated from the license list version 430aab3
 [BSD-Attribution-HPND-disclaimer]: text/BSD-Attribution-HPND-disclaimer.txt
 [BSD-Inferno-Nettverk]: text/BSD-Inferno-Nettverk.txt
 [BSD-Protection]: text/BSD-Protection.txt
+[BSD-Source-beginning-file]: text/BSD-Source-beginning-file.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSD-Systemics]: text/BSD-Systemics.txt
 [BSD-Systemics-W3Works]: text/BSD-Systemics-W3Works.txt
@@ -1261,6 +1264,7 @@ The following licenses have been generated from the license list version 430aab3
 [TCL]: text/TCL.txt
 [TCP-wrappers]: text/TCP-wrappers.txt
 [TermReadKey]: text/TermReadKey.txt
+[TGPPL-1.0]: text/TGPPL-1.0.txt
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
