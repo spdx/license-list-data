@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/GCR-docs",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -13,9 +16,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "@type": "spdx:ListedLicense",
             "spdx:licenseId": "GCR-docs",
             "rdfs:seeAlso": "https://github.com/GNOME/gcr/blob/master/docs/COPYING",
@@ -23,7 +23,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-01-25T04:54:27Z",
+            "spdx:timestamp": "2024-01-25T05:20:45Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
