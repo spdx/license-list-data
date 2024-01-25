@@ -1,0 +1,15 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/fmt-exception>
+        a                              spdx:ListedLicenseException ;
+        rdfs:comment                   "Typically used with MIT." ;
+        rdfs:seeAlso                   "https://github.com/fmtlib/fmt/blob/2eb363297b24cd71a68ccfb20ff755430f17e60f/LICENSE#L22C1-L27C62" , "https://github.com/fmtlib/fmt/blob/master/LICENSE" ;
+        spdx:exceptionTextHtml         "\n      <div class=\"optional-license-text\"> <p>--- Optional exception to the license ---</p>\n</div>\n      <p>\n\tAs an exception, if, as a result of your compiling your source code, portions\n\tof this Software are embedded into a machine-executable object form of such\n\tsource code, you may redistribute such embedded portions in such object form\n\twithout including the above copyright and permission notices.\n      </p>\n\n   " ;
+        spdx:isDeprecatedLicenseId     false ;
+        spdx:licenseExceptionId        "fmt-exception" ;
+        spdx:licenseExceptionTemplate  "<<beginOptional>>--- Optional exception to the license ---\n\n<<endOptional>>\n\nAs an exception, if, as a result of your compiling your source code, portions of this Software are embedded into a machine-executable object form of such source code, you may redistribute such embedded portions in such object form without including the above copyright and permission notices.\n\n" ;
+        spdx:licenseExceptionText      "--- Optional exception to the license ---\n\nAs an exception, if, as a result of your compiling your source code, portions\nof this Software are embedded into a machine-executable object form of such\nsource code, you may redistribute such embedded portions in such object form\nwithout including the above copyright and permission notices.\n" ;
+        spdx:name                      "fmt exception" .

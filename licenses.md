@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 390f54a
+The following licenses have been generated from the license list version db6f092
 
 ## Licenses with Short Idenifiers
 
@@ -617,6 +617,7 @@ The following licenses have been generated from the license list version 390f54a
 | eCos exception 2.0                                    | [eCos-exception-2.0][]                   |
 | Fawkes Runtime Exception                              | [Fawkes-Runtime-exception][]             |
 | FLTK exception                                        | [FLTK-exception][]                       |
+| fmt exception                                         | [fmt-exception][]                        |
 | Font exception 2.0                                    | [Font-exception-2.0][]                   |
 | FreeRTOS Exception 2.0                                | [freertos-exception-2.0][]               |
 | GCC Runtime Library exception 2.0                     | [GCC-exception-2.0][]                    |
@@ -1338,6 +1339,7 @@ The following licenses have been generated from the license list version 390f54a
 [eCos-exception-2.0]: text/eCos-exception-2.0.txt
 [Fawkes-Runtime-exception]: text/Fawkes-Runtime-exception.txt
 [FLTK-exception]: text/FLTK-exception.txt
+[fmt-exception]: text/fmt-exception.txt
 [Font-exception-2.0]: text/Font-exception-2.0.txt
 [freertos-exception-2.0]: text/freertos-exception-2.0.txt
 [GCC-exception-2.0]: text/GCC-exception-2.0.txt

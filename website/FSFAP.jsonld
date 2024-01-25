@@ -1,8 +1,33 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/FSFAP",
+            "rdfs:seeAlso": "https://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html",
+            "spdx:licenseId": "FSFAP",
+            "spdx:licenseTextHtml": "\n      <p>Copying and distribution of this file, with or without\n         modification, are permitted in any medium without royalty\n         provided the copyright notice and this notice are preserved.\n         This file is offered as-is, without <var class=\"replaceable-license-text\"> any warranty</var>.</p>\n\n    ",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseText": "Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved.  This file is offered as-is, without any warranty.\n",
+            "spdx:isFsfLibre": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved. This file is offered as-is, without <<var;name=\"warranty\";original=\"any warranty\";match=\"warranty of any kind|any warranty\">> .\n\n",
+            "spdx:name": "FSF All Permissive License"
+        },
+        {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-01-25T05:02:27Z",
+            "spdx:timestamp": "2024-01-25T05:29:11Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -22,31 +47,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/FSFAP",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "rdfs:seeAlso": "https://www.gnu.org/prep/maintain/html_node/License-Notices-for-Other-Files.html",
-            "spdx:licenseId": "FSFAP",
-            "spdx:licenseTextHtml": "\n      <p>Copying and distribution of this file, with or without\n         modification, are permitted in any medium without royalty\n         provided the copyright notice and this notice are preserved.\n         This file is offered as-is, without <var class=\"replaceable-license-text\"> any warranty</var>.</p>\n\n    ",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseText": "Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved.  This file is offered as-is, without any warranty.\n",
-            "spdx:isFsfLibre": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "Copying and distribution of this file, with or without modification, are permitted in any medium without royalty provided the copyright notice and this notice are preserved. This file is offered as-is, without <<var;name=\"warranty\";original=\"any warranty\";match=\"warranty of any kind|any warranty\">> .\n\n",
-            "spdx:name": "FSF All Permissive License"
         }
     ],
     "@context": {
