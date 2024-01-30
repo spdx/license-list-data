@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2c32347
+The following licenses have been generated from the license list version d2709ad
 
 ## Licenses with Short Idenifiers
 
@@ -57,7 +57,7 @@ The following licenses have been generated from the license list version 2c32347
 | BitTorrent Open Source License v1.0                                                    | [BitTorrent-1.0][]                       |      |           |
 | BitTorrent Open Source License v1.1                                                    | [BitTorrent-1.1][]                       |      | Y         |
 | SQLite Blessing                                                                        | [blessing][]                             |      |           |
-| Blue Oak Model License 1.0.0                                                           | [BlueOak-1.0.0][]                        |      |           |
+| Blue Oak Model License 1.0.0                                                           | [BlueOak-1.0.0][]                        | Y    |           |
 | Boehm-Demers-Weiser GC License                                                         | [Boehm-GC][]                             |      |           |
 | Borceux license                                                                        | [Borceux][]                              |      |           |
 | Brian Gladman 3-Clause License                                                         | [Brian-Gladman-3-Clause][]               |      |           |
