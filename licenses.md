@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version db6f092
+The following licenses have been generated from the license list version 2c32347
 
 ## Licenses with Short Idenifiers
 
@@ -66,6 +66,7 @@ The following licenses have been generated from the license list version db6f092
 | BSD-2-Clause Plus Patent License                                                       | [BSD-2-Clause-Patent][]                  | Y    |           |
 | BSD 2-Clause with views sentence                                                       | [BSD-2-Clause-Views][]                   |      |           |
 | BSD 3-Clause "New" or "Revised" License                                                | [BSD-3-Clause][]                         | Y    | Y         |
+| BSD 3-Clause acpica variant                                                            | [BSD-3-Clause-acpica][]                  |      |           |
 | BSD with attribution                                                                   | [BSD-3-Clause-Attribution][]             |      |           |
 | BSD 3-Clause Clear License                                                             | [BSD-3-Clause-Clear][]                   |      | Y         |
 | BSD 3-Clause Flex variant                                                              | [BSD-3-Clause-flex][]                    |      |           |
@@ -766,6 +767,7 @@ The following licenses have been generated from the license list version db6f092
 [BSD-2-Clause-Patent]: text/BSD-2-Clause-Patent.txt
 [BSD-2-Clause-Views]: text/BSD-2-Clause-Views.txt
 [BSD-3-Clause]: text/BSD-3-Clause.txt
+[BSD-3-Clause-acpica]: text/BSD-3-Clause-acpica.txt
 [BSD-3-Clause-Attribution]: text/BSD-3-Clause-Attribution.txt
 [BSD-3-Clause-Clear]: text/BSD-3-Clause-Clear.txt
 [BSD-3-Clause-flex]: text/BSD-3-Clause-flex.txt
