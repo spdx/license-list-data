@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-01-31T14:12:56Z",
+            "spdx:timestamp": "2024-02-01T04:55:08Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/FSFUL",
             "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"> \n         <p>Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.</p>\n\n      </div>\n\n      <p>This <var class=\"replaceable-license-text\"> configure</var> script is free software; the Free Software Foundation gives unlimited permission to copy,\n         distribute and modify it.</p>\n\n    ",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:licenseText": "Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.\n\nThis configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.\n",
             "spdx:licenseId": "FSFUL",
@@ -36,9 +39,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

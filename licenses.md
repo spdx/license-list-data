@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 9848c2a
+The following licenses have been generated from the license list version 9ec9145
 
 ## Licenses with Short Idenifiers
 
@@ -460,6 +460,7 @@ The following licenses have been generated from the license list version 9848c2a
 | Open Market License                                                                    | [OML][]                                  |      |           |
 | OpenPBS v2.3 Software License                                                          | [OpenPBS-2.3][]                          |      |           |
 | OpenSSL License                                                                        | [OpenSSL][]                              |      | Y         |
+| OpenSSL License - standalone                                                           | [OpenSSL-standalone][]                   |      |           |
 | Open Public License v1.0                                                               | [OPL-1.0][]                              |      |           |
 | United    Kingdom Open Parliament Licence v3.0                                         | [OPL-UK-3.0][]                           |      |           |
 | Open Publication License v1.0                                                          | [OPUBL-1.0][]                            |      |           |
@@ -530,6 +531,7 @@ The following licenses have been generated from the license list version 9848c2a
 | ssh-keyscan License                                                                    | [ssh-keyscan][]                          |      |           |
 | SSH OpenSSH license                                                                    | [SSH-OpenSSH][]                          |      |           |
 | SSH short notice                                                                       | [SSH-short][]                            |      |           |
+| SSLeay License - standalone                                                            | [SSLeay-standalone][]                    |      |           |
 | Server Side Public License, v 1                                                        | [SSPL-1.0][]                             |      |           |
 | SugarCRM Public License v1.1.3                                                         | [SugarCRM-1.1.3][]                       |      |           |
 | SunPro License                                                                         | [SunPro][]                               |      |           |
@@ -1186,6 +1188,7 @@ The following licenses have been generated from the license list version 9848c2a
 [OML]: text/OML.txt
 [OpenPBS-2.3]: text/OpenPBS-2.3.txt
 [OpenSSL]: text/OpenSSL.txt
+[OpenSSL-standalone]: text/OpenSSL-standalone.txt
 [OPL-1.0]: text/OPL-1.0.txt
 [OPL-UK-3.0]: text/OPL-UK-3.0.txt
 [OPUBL-1.0]: text/OPUBL-1.0.txt
@@ -1256,6 +1259,7 @@ The following licenses have been generated from the license list version 9848c2a
 [ssh-keyscan]: text/ssh-keyscan.txt
 [SSH-OpenSSH]: text/SSH-OpenSSH.txt
 [SSH-short]: text/SSH-short.txt
+[SSLeay-standalone]: text/SSLeay-standalone.txt
 [SSPL-1.0]: text/SSPL-1.0.txt
 [StandardML-NJ]: text/StandardML-NJ.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
