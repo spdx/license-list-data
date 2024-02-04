@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 83c9f84
+The following licenses have been generated from the license list version 8f044a8
 
 ## Licenses with Short Idenifiers
 
@@ -63,6 +63,7 @@ The following licenses have been generated from the license list version 83c9f84
 | Brian Gladman 3-Clause License                                                         | [Brian-Gladman-3-Clause][]               |      |           |
 | BSD 1-Clause License                                                                   | [BSD-1-Clause][]                         | Y    |           |
 | BSD 2-Clause "Simplified" License                                                      | [BSD-2-Clause][]                         | Y    | Y         |
+| BSD 2-Clause - Ian Darwin variant                                                      | [BSD-2-Clause-Darwin][]                  |      |           |
 | BSD-2-Clause Plus Patent License                                                       | [BSD-2-Clause-Patent][]                  | Y    |           |
 | BSD 2-Clause with views sentence                                                       | [BSD-2-Clause-Views][]                   |      |           |
 | BSD 3-Clause "New" or "Revised" License                                                | [BSD-3-Clause][]                         | Y    | Y         |
@@ -764,6 +765,7 @@ The following licenses have been generated from the license list version 83c9f84
 [Brian-Gladman-3-Clause]: text/Brian-Gladman-3-Clause.txt
 [BSD-1-Clause]: text/BSD-1-Clause.txt
 [BSD-2-Clause]: text/BSD-2-Clause.txt
+[BSD-2-Clause-Darwin]: text/BSD-2-Clause-Darwin.txt
 [BSD-2-Clause-FreeBSD]: text/BSD-2-Clause-FreeBSD.txt
 [BSD-2-Clause-NetBSD]: text/BSD-2-Clause-NetBSD.txt
 [BSD-2-Clause-Patent]: text/BSD-2-Clause-Patent.txt
