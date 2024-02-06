@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8f044a8
+The following licenses have been generated from the license list version 9d21a31
 
 ## Licenses with Short Idenifiers
 
@@ -535,6 +535,7 @@ The following licenses have been generated from the license list version 8f044a8
 | SSLeay License - standalone                                                            | [SSLeay-standalone][]                    |      |           |
 | Server Side Public License, v 1                                                        | [SSPL-1.0][]                             |      |           |
 | SugarCRM Public License v1.1.3                                                         | [SugarCRM-1.1.3][]                       |      |           |
+| Sun PPP License                                                                        | [Sun-PPP][]                              |      |           |
 | SunPro License                                                                         | [SunPro][]                               |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                                 | [SWL][]                                  |      |           |
 | swrule License                                                                         | [swrule][]                               |      |           |
@@ -1265,6 +1266,7 @@ The following licenses have been generated from the license list version 8f044a8
 [SSPL-1.0]: text/SSPL-1.0.txt
 [StandardML-NJ]: text/StandardML-NJ.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
+[Sun-PPP]: text/Sun-PPP.txt
 [SunPro]: text/SunPro.txt
 [SWL]: text/SWL.txt
 [swrule]: text/swrule.txt
