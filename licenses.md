@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 1229333
+The following licenses have been generated from the license list version 6f8ecc4
 
 ## Licenses with Short Idenifiers
 
@@ -178,6 +178,7 @@ The following licenses have been generated from the license list version 1229333
 | Clarified Artistic License                                                             | [ClArtistic][]                           |      | Y         |
 | Clips License                                                                          | [Clips][]                                |      |           |
 | CMU Mach License                                                                       | [CMU-Mach][]                             |      |           |
+| CMU    Mach - no notices-in-documentation variant                                      | [CMU-Mach-nodoc][]                       |      |           |
 | CNRI Jython License                                                                    | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                                    | [CNRI-Python][]                          | Y    |           |
 | CNRI Python Open Source GPL Compatible License Agreement                               | [CNRI-Python-GPL-Compatible][]           |      |           |
@@ -889,6 +890,7 @@ The following licenses have been generated from the license list version 1229333
 [ClArtistic]: text/ClArtistic.txt
 [Clips]: text/Clips.txt
 [CMU-Mach]: text/CMU-Mach.txt
+[CMU-Mach-nodoc]: text/CMU-Mach-nodoc.txt
 [CNRI-Jython]: text/CNRI-Jython.txt
 [CNRI-Python]: text/CNRI-Python.txt
 [CNRI-Python-GPL-Compatible]: text/CNRI-Python-GPL-Compatible.txt
