@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/JSON",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isFsfLibre": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -23,11 +20,14 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseId": "JSON",
-            "rdfs:seeAlso": "http://www.json.org/license.html"
+            "rdfs:seeAlso": "http://www.json.org/license.html",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-02-07T18:09:05Z",
+            "spdx:timestamp": "2024-02-07T18:35:46Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
