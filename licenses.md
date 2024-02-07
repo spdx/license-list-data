@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d9c3d86
+The following licenses have been generated from the license list version f2716eb
 
 ## Licenses with Short Idenifiers
 
@@ -285,6 +285,7 @@ The following licenses have been generated from the license list version d9c3d86
 | Historical Permission Notice and Disclaimer - documentation sell variant               | [HPND-doc-sell][]                        |      |           |
 | HPND with US Government export control warning                                         | [HPND-export-US][]                       |      |           |
 | HPND with US Government export control warning and modification rqmt                   | [HPND-export-US-modify][]                |      |           |
+| Historical Permission Notice and Disclaimer - Fenneberg-Livingston variant             | [HPND-Fenneberg-Livingston][]            |      |           |
 | Historical Permission Notice and Disclaimer - Kevlin Henney variant                    | [HPND-Kevlin-Henney][]                   |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant                      | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer with MIT disclaimer                        | [HPND-MIT-disclaimer][]                  |      |           |
@@ -628,6 +629,7 @@ The following licenses have been generated from the license list version d9c3d86
 | GCC Runtime Library exception 2.0                     | [GCC-exception-2.0][]                    |
 | GCC    Runtime Library exception 2.0 - note variant   | [GCC-exception-2.0-note][]               |
 | GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
+| Gmsh exception>                                       | [Gmsh-exception][]                       |
 | GNAT exception                                        | [GNAT-exception][]                       |
 | GNOME examples exception                              | [GNOME-examples-exception][]             |
 | GNU Compiler Exception                                | [GNU-compiler-exception][]               |
@@ -1009,6 +1011,7 @@ The following licenses have been generated from the license list version d9c3d86
 [HPND-doc-sell]: text/HPND-doc-sell.txt
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-export-US-modify]: text/HPND-export-US-modify.txt
+[HPND-Fenneberg-Livingston]: text/HPND-Fenneberg-Livingston.txt
 [HPND-Kevlin-Henney]: text/HPND-Kevlin-Henney.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-MIT-disclaimer]: text/HPND-MIT-disclaimer.txt
@@ -1356,6 +1359,7 @@ The following licenses have been generated from the license list version d9c3d86
 [GCC-exception-2.0]: text/GCC-exception-2.0.txt
 [GCC-exception-2.0-note]: text/GCC-exception-2.0-note.txt
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
+[Gmsh-exception]: text/Gmsh-exception.txt
 [GNAT-exception]: text/GNAT-exception.txt
 [GNOME-examples-exception]: text/GNOME-examples-exception.txt
 [GNU-compiler-exception]: text/GNU-compiler-exception.txt
