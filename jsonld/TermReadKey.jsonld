@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-02-06T21:00:44Z",
+            "spdx:timestamp": "2024-02-07T00:34:17Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/TermReadKey",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:licenseText": "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -36,9 +39,6 @@
             "rdfs:seeAlso": "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10",
             "@type": "spdx:ListedLicense",
             "spdx:name": "TermReadKey License",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

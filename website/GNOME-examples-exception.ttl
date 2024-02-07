@@ -1,0 +1,15 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/GNOME-examples-exception>
+        a                              spdx:ListedLicenseException ;
+        rdfs:comment                   "This exception has been used with CC-BY-SA-3.0." ;
+        rdfs:seeAlso                   "http://meldmerge.org/help/" , "https://gitlab.gnome.org/Archive/gnome-devel-docs/-/blob/master/platform-demos/C/legal.xml?ref_type=heads" ;
+        spdx:exceptionTextHtml         "\n      <p>\n         As a special exception, the copyright holders give you permission\n         to copy, modify, and distribute the example code contained in this\n         document under the terms of your choosing, without restriction.\n      </p>\n\n   " ;
+        spdx:isDeprecatedLicenseId     false ;
+        spdx:licenseExceptionId        "GNOME-examples-exception" ;
+        spdx:licenseExceptionTemplate  "As a special exception, the copyright holders give you permission to copy, modify, and distribute the example code contained in this document under the terms of your choosing, without restriction.\n\n" ;
+        spdx:licenseExceptionText      "As a special exception, the copyright holders give you permission to copy, modify, and distribute the example code contained in this document under the terms of your choosing, without restriction.\n" ;
+        spdx:name                      "GNOME examples exception" .

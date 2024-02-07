@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 9d21a31
+The following licenses have been generated from the license list version d9c3d86
 
 ## Licenses with Short Idenifiers
 
@@ -629,6 +629,7 @@ The following licenses have been generated from the license list version 9d21a31
 | GCC    Runtime Library exception 2.0 - note variant   | [GCC-exception-2.0-note][]               |
 | GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
 | GNAT exception                                        | [GNAT-exception][]                       |
+| GNOME examples exception                              | [GNOME-examples-exception][]             |
 | GNU Compiler Exception                                | [GNU-compiler-exception][]               |
 | GNU JavaMail exception                                | [gnu-javamail-exception][]               |
 | GPL-3.0 Interface Exception                           | [GPL-3.0-interface-exception][]          |
@@ -1356,6 +1357,7 @@ The following licenses have been generated from the license list version 9d21a31
 [GCC-exception-2.0-note]: text/GCC-exception-2.0-note.txt
 [GCC-exception-3.1]: text/GCC-exception-3.1.txt
 [GNAT-exception]: text/GNAT-exception.txt
+[GNOME-examples-exception]: text/GNOME-examples-exception.txt
 [GNU-compiler-exception]: text/GNU-compiler-exception.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
 [GPL-3.0-interface-exception]: text/GPL-3.0-interface-exception.txt
