@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 15eeda3
+The following licenses have been generated from the license list version 71f7a6a
 
 ## Licenses with Short Idenifiers
 
@@ -525,6 +525,7 @@ The following licenses have been generated from the license list version 15eeda3
 | Secure Messaging Protocol Public License                                               | [SMPPL][]                                |      |           |
 | SNIA Public License 1.1                                                                | [SNIA][]                                 |      |           |
 | snprintf License                                                                       | [snprintf][]                             |      |           |
+| softSurfer License                                                                     | [softSurfer][]                           |      |           |
 | Soundex License                                                                        | [Soundex][]                              |      |           |
 | Spencer License 86                                                                     | [Spencer-86][]                           |      |           |
 | Spencer License 94                                                                     | [Spencer-94][]                           |      |           |
@@ -558,6 +559,7 @@ The following licenses have been generated from the license list version 15eeda3
 | UCAR License                                                                           | [UCAR][]                                 |      |           |
 | Upstream Compatibility License v1.0                                                    | [UCL-1.0][]                              | Y    |           |
 | ulem License                                                                           | [ulem][]                                 |      |           |
+| Michigan/Merit Networks License                                                        | [UMich-Merit][]                          |      |           |
 | Unicode License v3                                                                     | [Unicode-3.0][]                          | Y    |           |
 | Unicode License Agreement - Data Files and Software (2015)                             | [Unicode-DFS-2015][]                     |      |           |
 | Unicode License Agreement - Data Files and Software (2016)                             | [Unicode-DFS-2016][]                     | Y    |           |
@@ -1258,6 +1260,7 @@ The following licenses have been generated from the license list version 15eeda3
 [SMPPL]: text/SMPPL.txt
 [SNIA]: text/SNIA.txt
 [snprintf]: text/snprintf.txt
+[softSurfer]: text/softSurfer.txt
 [Soundex]: text/Soundex.txt
 [Spencer-86]: text/Spencer-86.txt
 [Spencer-94]: text/Spencer-94.txt
@@ -1292,6 +1295,7 @@ The following licenses have been generated from the license list version 15eeda3
 [UCAR]: text/UCAR.txt
 [UCL-1.0]: text/UCL-1.0.txt
 [ulem]: text/ulem.txt
+[UMich-Merit]: text/UMich-Merit.txt
 [Unicode-3.0]: text/Unicode-3.0.txt
 [Unicode-DFS-2015]: text/Unicode-DFS-2015.txt
 [Unicode-DFS-2016]: text/Unicode-DFS-2016.txt
