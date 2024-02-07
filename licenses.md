@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 16529cb
+The following licenses have been generated from the license list version b1dc475
 
 ## Licenses with Short Idenifiers
 
@@ -51,6 +51,7 @@ The following licenses have been generated from the license list version 16529cb
 | Baekmuk License                                                                        | [Baekmuk][]                              |      |           |
 | Bahyph License                                                                         | [Bahyph][]                               |      |           |
 | Barr License                                                                           | [Barr][]                                 |      |           |
+| bcrypt Solar Designer License                                                          | [bcrypt-Solar-Designer][]                |      |           |
 | Beerware License                                                                       | [Beerware][]                             |      |           |
 | Bitstream Charter Font License                                                         | [Bitstream-Charter][]                    |      |           |
 | Bitstream Vera Font License                                                            | [Bitstream-Vera][]                       |      |           |
@@ -60,6 +61,7 @@ The following licenses have been generated from the license list version 16529cb
 | Blue Oak Model License 1.0.0                                                           | [BlueOak-1.0.0][]                        | Y    |           |
 | Boehm-Demers-Weiser GC License                                                         | [Boehm-GC][]                             |      |           |
 | Borceux license                                                                        | [Borceux][]                              |      |           |
+| Brian Gladman 2-Clause License                                                         | [Brian-Gladman-2-Clause][]               |      |           |
 | Brian Gladman 3-Clause License                                                         | [Brian-Gladman-3-Clause][]               |      |           |
 | BSD 1-Clause License                                                                   | [BSD-1-Clause][]                         | Y    |           |
 | BSD 2-Clause "Simplified" License                                                      | [BSD-2-Clause][]                         | Y    | Y         |
@@ -761,6 +763,7 @@ The following licenses have been generated from the license list version 16529cb
 [Baekmuk]: text/Baekmuk.txt
 [Bahyph]: text/Bahyph.txt
 [Barr]: text/Barr.txt
+[bcrypt-Solar-Designer]: text/bcrypt-Solar-Designer.txt
 [Beerware]: text/Beerware.txt
 [Bitstream-Charter]: text/Bitstream-Charter.txt
 [Bitstream-Vera]: text/Bitstream-Vera.txt
@@ -770,6 +773,7 @@ The following licenses have been generated from the license list version 16529cb
 [BlueOak-1.0.0]: text/BlueOak-1.0.0.txt
 [Boehm-GC]: text/Boehm-GC.txt
 [Borceux]: text/Borceux.txt
+[Brian-Gladman-2-Clause]: text/Brian-Gladman-2-Clause.txt
 [Brian-Gladman-3-Clause]: text/Brian-Gladman-3-Clause.txt
 [BSD-1-Clause]: text/BSD-1-Clause.txt
 [BSD-2-Clause]: text/BSD-2-Clause.txt
