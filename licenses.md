@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b185ba1
+The following licenses have been generated from the license list version cb1881f
 
 ## Licenses with Short Idenifiers
 
@@ -468,6 +468,7 @@ The following licenses have been generated from the license list version b185ba1
 | OpenPBS v2.3 Software License                                                          | [OpenPBS-2.3][]                          |      |           |
 | OpenSSL License                                                                        | [OpenSSL][]                              |      | Y         |
 | OpenSSL License - standalone                                                           | [OpenSSL-standalone][]                   |      |           |
+| OpenVision License                                                                     | [OpenVision][]                           |      |           |
 | Open Public License v1.0                                                               | [OPL-1.0][]                              |      |           |
 | United    Kingdom Open Parliament Licence v3.0                                         | [OPL-UK-3.0][]                           |      |           |
 | Open Publication License v1.0                                                          | [OPUBL-1.0][]                            |      |           |
@@ -1208,6 +1209,7 @@ The following licenses have been generated from the license list version b185ba1
 [OpenPBS-2.3]: text/OpenPBS-2.3.txt
 [OpenSSL]: text/OpenSSL.txt
 [OpenSSL-standalone]: text/OpenSSL-standalone.txt
+[OpenVision]: text/OpenVision.txt
 [OPL-1.0]: text/OPL-1.0.txt
 [OPL-UK-3.0]: text/OPL-UK-3.0.txt
 [OPUBL-1.0]: text/OPUBL-1.0.txt
