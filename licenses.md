@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version cb1881f
+The following licenses have been generated from the license list version 5c04c03
 
 ## Licenses with Short Idenifiers
 
@@ -277,6 +277,7 @@ The following licenses have been generated from the license list version cb1881f
 | GNU General Public License v3.0 or later                                               | [GPL-3.0-or-later][]                     | Y    | Y         |
 | Graphics Gems License                                                                  | [Graphics-Gems][]                        |      |           |
 | gSOAP Public License v1.3b                                                             | [gSOAP-1.3b][]                           |      |           |
+| gtkbook License                                                                        | [gtkbook][]                              |      |           |
 | Haskell Language Report License                                                        | [HaskellReport][]                        |      |           |
 | hdparm License                                                                         | [hdparm][]                               |      |           |
 | Hippocratic License 2.1                                                                | [Hippocratic-2.1][]                      |      |           |
@@ -363,6 +364,7 @@ The following licenses have been generated from the license list version cb1881f
 | Lucida Bitmap Fonts License                                                            | [Lucida-Bitmap-Fonts][]                  |      |           |
 | LZMA SDK License (versions 9.11 to 9.20)                                               | [LZMA-SDK-9.11-to-9.20][]                |      |           |
 | LZMA SDK License (versions 9.22 and beyond)                                            | [LZMA-SDK-9.22][]                        |      |           |
+| Mackerras 3-Clause License                                                             | [Mackerras-3-Clause][]                   |      |           |
 | Mackerras 3-Clause - acknowledgment variant                                            | [Mackerras-3-Clause-acknowledgment][]    |      |           |
 | magaz License                                                                          | [magaz][]                                |      |           |
 | mailprio License                                                                       | [mailprio][]                             |      |           |
@@ -1011,6 +1013,7 @@ The following licenses have been generated from the license list version cb1881f
 [GPL-3.0-with-GCC-exception]: text/GPL-3.0-with-GCC-exception.txt
 [Graphics-Gems]: text/Graphics-Gems.txt
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
+[gtkbook]: text/gtkbook.txt
 [HaskellReport]: text/HaskellReport.txt
 [hdparm]: text/hdparm.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
@@ -1103,6 +1106,7 @@ The following licenses have been generated from the license list version cb1881f
 [Lucida-Bitmap-Fonts]: text/Lucida-Bitmap-Fonts.txt
 [LZMA-SDK-9.11-to-9.20]: text/LZMA-SDK-9.11-to-9.20.txt
 [LZMA-SDK-9.22]: text/LZMA-SDK-9.22.txt
+[Mackerras-3-Clause]: text/Mackerras-3-Clause.txt
 [Mackerras-3-Clause-acknowledgment]: text/Mackerras-3-Clause-acknowledgment.txt
 [magaz]: text/magaz.txt
 [mailprio]: text/mailprio.txt
