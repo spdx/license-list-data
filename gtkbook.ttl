@@ -1,0 +1,33 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/gtkbook>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11" , "https://github.com/slogan621/gtkbook" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2024-02-08T16:12:48Z" ;
+                                        spdx:url            "https://github.com/slogan621/gtkbook"
+                                      ] ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2024-02-08T16:12:48Z" ;
+                                        spdx:url            "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "gtkbook" ;
+        spdx:licenseText              "Copyright 2005 Syd Logan, All Rights Reserved\n\nThis code is distributed without warranty. You are free to use\nthis code for any purpose, however, if this code is republished or\nredistributed in its original form, as hardcopy or electronically,\nthen you must include this copyright notice along with the code.\n" ;
+        spdx:licenseTextHtml          "\n         <var class=\"replaceable-license-text\"> \n            Copyright 2005 Syd Logan, All Rights Reserved\n         </var>\n         <p>\n            This code is distributed without warranty. You are free to use\n            this code for any purpose, however, if this code is republished or\n            redistributed in its original form, as hardcopy or electronically,\n            then you must include this copyright notice along with the code.\n         </p>\n\n      " ;
+        spdx:name                     "gtkbook License" ;
+        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright 2005 Syd Logan, All Rights Reserved\";match=\".{0,5000}\">>\n\nThis code is distributed without warranty. You are free to use this code for any purpose, however, if this code is republished or redistributed in its original form, as hardcopy or electronically, then you must include this copyright notice along with the code.\n\n" .
