@@ -4,8 +4,13 @@
             name="bzip2 and libbzip2 License v1.0.6">
       <crossRefs>
          <crossRef>https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6</crossRef>
-          <crossRef>http://bzip.org/1.0.5/bzip2-manual-1.0.5.html</crossRef>
+	 <crossRef>http://bzip.org/1.0.5/bzip2-manual-1.0.5.html</crossRef>
+	 <crossRef>https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c</crossRef>
       </crossRefs>
+      <notes>
+	      The additional "Neither the names of..." optional clause at the end of the license
+	      occurs in certain uses of this license text, as described at https://github.com/spdx/license-list-XML/issues/2271
+      </notes>
     <text>
       <copyrightText>
          <p>This program, "bzip2", the associated library "libbzip2", and all documentation, are
@@ -49,7 +54,12 @@
       <optional><p>PATENTS: To the best of my knowledge, bzip2 and libbzip2 do not use any patented algorithms.
          However, I do not have the resources to carry out a patent search. Therefore I cannot give any
          guarantee of the above statement.
-         </p></optional>
+	 </p></optional>
+	 <optional><p>
+		 <alt match="(The\s+name\s+of.+may\s+not)|(Neither\s+the\s+names?\s+of.+nor\s+the\s+names\s+of\s+its\s+contributors\s+may)" name="organizationClause">Neither the names of the copyright holder nor the
+		 names of its contributors may</alt> be used to endorse or promote products derived from this software
+		without prior written permission.
+ 	 </p></optional>
      </text>
   </license>
 </SPDXLicenseCollection>

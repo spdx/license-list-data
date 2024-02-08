@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b1dc475
+The following licenses have been generated from the license list version b185ba1
 
 ## Licenses with Short Idenifiers
 
@@ -289,6 +289,7 @@ The following licenses have been generated from the license list version b1dc475
 | HPND with US Government export control warning                                         | [HPND-export-US][]                       |      |           |
 | HPND with US Government export control warning and modification rqmt                   | [HPND-export-US-modify][]                |      |           |
 | Historical Permission Notice and Disclaimer - Fenneberg-Livingston variant             | [HPND-Fenneberg-Livingston][]            |      |           |
+| Historical Permission Notice and Disclaimer    - INRIA-IMAG variant                    | [HPND-INRIA-IMAG][]                      |      |           |
 | Historical Permission Notice and Disclaimer - Kevlin Henney variant                    | [HPND-Kevlin-Henney][]                   |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant                      | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer with MIT disclaimer                        | [HPND-MIT-disclaimer][]                  |      |           |
@@ -1021,6 +1022,7 @@ The following licenses have been generated from the license list version b1dc475
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-export-US-modify]: text/HPND-export-US-modify.txt
 [HPND-Fenneberg-Livingston]: text/HPND-Fenneberg-Livingston.txt
+[HPND-INRIA-IMAG]: text/HPND-INRIA-IMAG.txt
 [HPND-Kevlin-Henney]: text/HPND-Kevlin-Henney.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-MIT-disclaimer]: text/HPND-MIT-disclaimer.txt
