@@ -1,13 +1,33 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "spdx:timestamp": "2024-02-20T20:14:57Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://metacpan.org/pod/Time::ParseDate#LICENSE",
+            "spdx:match": "N/A",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/TPDL",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:name": "Time::ParseDate License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc.\";match=\".{0,5000}\">>\n\nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n\n",
@@ -19,30 +39,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:b0",
-            "spdx:timestamp": "2024-02-20T16:41:29Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://metacpan.org/pod/Time::ParseDate#LICENSE",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {

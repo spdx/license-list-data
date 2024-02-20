@@ -2,13 +2,13 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-02-20T16:34:24Z",
+            "spdx:timestamp": "2024-02-20T20:07:43Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://opensource.org/licenses/GPL-2.0",
-            "spdx:match": "N/A",
+            "spdx:url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -18,7 +18,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
@@ -42,8 +42,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseHeaderTemplate": "<<var;name=\"description\";original=\"<one line to give the program's name and an idea of what it does.>\";match=\".+\">>\n\nCopyright (C) <<var;name=\"copyright\";original=\"<yyyy> <name of author>\";match=\".+\">>\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., <<var;name=\"freeSoftwareFoundationAddress\";original=\"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\";match=\".{54,64}\">> .\n\n",
-            "spdx:licenseId": "GPL-2.0+",
-            "@type": "spdx:ListedLicense",
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -52,6 +50,8 @@
                     "@id": "_:b1"
                 }
             ],
+            "spdx:licenseId": "GPL-2.0+",
+            "@type": "spdx:ListedLicense",
             "spdx:deprecatedVersion": "2.0rc2",
             "spdx:name": "GNU General Public License v2.0 or later",
             "spdx:isOsiApproved": {
@@ -62,13 +62,13 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-02-20T16:34:24Z",
+            "spdx:timestamp": "2024-02-20T20:07:43Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
-            "spdx:match": "false",
+            "spdx:url": "https://opensource.org/licenses/GPL-2.0",
+            "spdx:match": "N/A",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -78,7 +78,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
