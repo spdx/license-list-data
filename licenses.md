@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 0421bac
+The following licenses have been generated from the license list version 9542e0e
 
 ## Licenses with Short Idenifiers
 
@@ -381,6 +381,7 @@ The following licenses have been generated from the license list version 0421bac
 | enna License                                                                           | [MIT-enna][]                             |      |           |
 | feh License                                                                            | [MIT-feh][]                              |      |           |
 | MIT Festival Variant                                                                   | [MIT-Festival][]                         |      |           |
+| MIT Khronos - old variant                                                              | [MIT-Khronos-old][]                      |      |           |
 | MIT License Modern Variant                                                             | [MIT-Modern-Variant][]                   | Y    |           |
 | MIT Open Group variant                                                                 | [MIT-open-group][]                       |      |           |
 | MIT testregex Variant                                                                  | [MIT-testregex][]                        |      |           |
@@ -1123,6 +1124,7 @@ The following licenses have been generated from the license list version 0421bac
 [MIT-enna]: text/MIT-enna.txt
 [MIT-feh]: text/MIT-feh.txt
 [MIT-Festival]: text/MIT-Festival.txt
+[MIT-Khronos-old]: text/MIT-Khronos-old.txt
 [MIT-Modern-Variant]: text/MIT-Modern-Variant.txt
 [MIT-open-group]: text/MIT-open-group.txt
 [MIT-testregex]: text/MIT-testregex.txt
