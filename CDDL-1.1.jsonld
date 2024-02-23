@@ -2,12 +2,12 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-02-22T04:30:52Z",
+            "spdx:timestamp": "2024-02-23T11:35:38Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://javaee.github.io/glassfish/LICENSE",
+            "spdx:url": "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -25,12 +25,12 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-02-22T04:30:52Z",
+            "spdx:timestamp": "2024-02-23T11:35:39Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
+            "spdx:url": "https://javaee.github.io/glassfish/LICENSE",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -53,14 +53,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "rdfs:seeAlso": [
                 "http://glassfish.java.net/public/CDDL+GPL_1_1.html",
                 "https://javaee.github.io/glassfish/LICENSE"
@@ -74,7 +66,15 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
+            },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ]
         }
     ],
     "@context": {
