@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-02-23T11:28:28Z",
+            "spdx:timestamp": "2024-03-01T19:57:09Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -30,9 +30,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1991 by Jef Poskanzer.\";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. This software is provided \"as is\" without express or implied warranty.\n\n",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "rdfs:comment": "This license is nearly a match for HPND, but omits first sentence of third clause regarding no reps, and only includes the second sentence regarding \"as is\". In the original HPND that entire clause is optional.",
             "spdx:licenseText": "Copyright (C) 1991 by Jef Poskanzer.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted, provided\nthat the above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation.  This software is provided \"as is\" without express or\nimplied warranty.\n",
             "spdx:licenseId": "HPND-Pbmplus",
@@ -43,7 +40,10 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "Historical Permission Notice and Disclaimer - Pbmplus variant",
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {
