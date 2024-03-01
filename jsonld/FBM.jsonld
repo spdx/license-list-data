@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-02-23T11:24:16Z",
+            "spdx:timestamp": "2024-03-01T19:53:38Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/FBM",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Portions of this code Copyright (C) 1989 by Michael Mauldin.\";match=\".{0,5000}\">>\n\nPermission is granted to use this file in whole or in part for any purpose, educational, recreational or commercial, provided that this copyright notice is retained unchanged. This software is available to all free of charge by anonymous FTP and in the UUNET archives.\n\n",
             "rdfs:seeAlso": "https://github.com/SWI-Prolog/packages-xpce/blob/161a40cd82004f731ba48024f9d30af388a7edf5/src/img/gifwrite.c#L21-L26",
@@ -42,6 +39,9 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:b0"
             }
         }
     ],
