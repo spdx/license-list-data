@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version dbed02c
+The following licenses have been generated from the license list version 052ad1d
 
 ## Licenses with Short Idenifiers
 
@@ -556,6 +556,7 @@ The following licenses have been generated from the license list version dbed02c
 | TCP Wrappers License                                                                   | [TCP-wrappers][]                         |      |           |
 | TermReadKey License                                                                    | [TermReadKey][]                          |      |           |
 | Transitive Grace Period Public Licence 1.0                                             | [TGPPL-1.0][]                            |      |           |
+| threeparttable License                                                                 | [threeparttable][]                       |      |           |
 | TMate Open Source License                                                              | [TMate][]                                |      |           |
 | TORQUE v2.5+ Software License v1.1                                                     | [TORQUE-1.1][]                           |      |           |
 | Trusster Open Source License                                                           | [TOSL][]                                 |      |           |
@@ -1301,6 +1302,7 @@ The following licenses have been generated from the license list version dbed02c
 [TCP-wrappers]: text/TCP-wrappers.txt
 [TermReadKey]: text/TermReadKey.txt
 [TGPPL-1.0]: text/TGPPL-1.0.txt
+[threeparttable]: text/threeparttable.txt
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt
 [TOSL]: text/TOSL.txt
