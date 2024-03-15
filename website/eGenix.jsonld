@@ -2,13 +2,13 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-14T23:09:42Z",
+            "spdx:timestamp": "2024-03-15T03:16:06Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0",
-            "spdx:match": "true",
+            "spdx:url": "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf",
+            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -25,13 +25,13 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-03-14T23:09:43Z",
+            "spdx:timestamp": "2024-03-15T03:16:05Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf",
-            "spdx:match": "false",
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0",
+            "spdx:match": "true",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -56,6 +56,14 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "eGenix.com Public License 1.1.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0",
                 "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf"
@@ -65,15 +73,7 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseId": "eGenix",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ]
+            "spdx:licenseId": "eGenix"
         }
     ],
     "@context": {
