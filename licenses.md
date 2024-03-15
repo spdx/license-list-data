@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 052ad1d
+The following licenses have been generated from the license list version 7da30bf
 
 ## Licenses with Short Idenifiers
 
