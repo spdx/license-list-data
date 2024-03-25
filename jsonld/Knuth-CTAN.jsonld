@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Knuth-CTAN",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://ctan.org/license/knuth",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -10,9 +13,6 @@
             "spdx:licenseId": "Knuth-CTAN",
             "spdx:name": "Knuth CTAN License",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -24,7 +24,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-15T19:39:27Z",
+            "spdx:timestamp": "2024-03-25T08:45:24Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
