@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version cca0be7
+The following licenses have been generated from the license list version 46e5d21
 
 ## Licenses with Short Idenifiers
 
@@ -601,6 +601,7 @@ The following licenses have been generated from the license list version cca0be7
 | X.Net License                                                                          | [Xnet][]                                 | Y    |           |
 | XPP License                                                                            | [xpp][]                                  |      |           |
 | XSkat License                                                                          | [XSkat][]                                |      |           |
+| xzoom License                                                                          | [xzoom][]                                |      |           |
 | Yahoo! Public License v1.0                                                             | [YPL-1.0][]                              |      |           |
 | Yahoo! Public License v1.1                                                             | [YPL-1.1][]                              |      | Y         |
 | Zed License                                                                            | [Zed][]                                  |      |           |
@@ -1348,6 +1349,7 @@ The following licenses have been generated from the license list version cca0be7
 [Xnet]: text/Xnet.txt
 [xpp]: text/xpp.txt
 [XSkat]: text/XSkat.txt
+[xzoom]: text/xzoom.txt
 [YPL-1.0]: text/YPL-1.0.txt
 [YPL-1.1]: text/YPL-1.1.txt
 [Zed]: text/Zed.txt

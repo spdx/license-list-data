@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-25T08:48:53Z",
+            "spdx:timestamp": "2024-03-25T18:05:15Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-03-25T08:48:52Z",
+            "spdx:timestamp": "2024-03-25T18:05:16Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,7 +48,7 @@
         },
         {
             "@id": "_:b2",
-            "spdx:timestamp": "2024-03-25T08:48:53Z",
+            "spdx:timestamp": "2024-03-25T18:05:14Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -71,6 +71,17 @@
         },
         {
             "@id": "http://spdx.org/licenses/bzip2-1.0.6",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b2"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -90,18 +101,7 @@
                 "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
             ],
             "spdx:licenseId": "bzip2-1.0.6",
-            "spdx:name": "bzip2 and libbzip2 License v1.0.6",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b2"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ]
+            "spdx:name": "bzip2 and libbzip2 License v1.0.6"
         }
     ],
     "@context": {
