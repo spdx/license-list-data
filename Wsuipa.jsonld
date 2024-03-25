@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-15T19:44:27Z",
+            "spdx:timestamp": "2024-03-25T08:50:27Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/Wsuipa",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Wsuipa",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -39,10 +42,7 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseId": "Wsuipa",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
+            "spdx:licenseId": "Wsuipa"
         }
     ],
     "@context": {
