@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 755fe58
+The following licenses have been generated from the license list version d4209ab
 
 ## Licenses with Short Idenifiers
 
@@ -433,6 +433,7 @@ The following licenses have been generated from the license list version 755fe58
 | NTP License                                                                            | [NTP][]                                  | Y    |           |
 | NTP No Attribution                                                                     | [NTP-0][]                                |      |           |
 | Open Use of Data Agreement v1.0                                                        | [O-UDA-1.0][]                            |      |           |
+| OAR License                                                                            | [OAR][]                                  |      |           |
 | Open CASCADE Technology Public License                                                 | [OCCT-PL][]                              |      |           |
 | OCLC Research Public License 2.0                                                       | [OCLC-2.0][]                             | Y    |           |
 | Open Data Commons Open Database License v1.0                                           | [ODbL-1.0][]                             |      | Y         |
@@ -1180,6 +1181,7 @@ The following licenses have been generated from the license list version 755fe58
 [NTP-0]: text/NTP-0.txt
 [Nunit]: text/Nunit.txt
 [O-UDA-1.0]: text/O-UDA-1.0.txt
+[OAR]: text/OAR.txt
 [OCCT-PL]: text/OCCT-PL.txt
 [OCLC-2.0]: text/OCLC-2.0.txt
 [ODbL-1.0]: text/ODbL-1.0.txt
