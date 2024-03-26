@@ -1,30 +1,8 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/HPND-UC",
-            "spdx:licenseText": "Copyright 1989 Regents of the University of California \n\nPermission to use,\ncopy, modify, and distribute this software and its documentation for any\npurpose and without fee is hereby granted, provided that the above\ncopyright notice appear in all copies. The University of California makes\nno representations about the suitability of this software for any purpose.\nIt is provided \"as is\" without express or implied warranty.\n",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "rdfs:comment": "This license is similar to HPND but omits the obligation to provide the copyright notice and this permission notice appear in supporting documentation.",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1989 Regents of the University of California\";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies. <<var;name=\"copyrightHolder\";original=\"THE AUTHORS OR COPYRIGHT HOLDERS\";match=\".+\">> <<var;name=\"make\";original=\"make\";match=\"makes?\">> no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n      <var class=\"replaceable-license-text\"> \n         Copyright 1989 Regents of the University of California\n      </var>\n      <p>\n         Permission to use,\n         copy, modify, and distribute this software and its documentation for any\n         purpose and without fee is hereby granted, provided that the above\n         copyright notice appear in all copies. <var class=\"replaceable-license-text\"> THE AUTHORS OR COPYRIGHT HOLDERS</var> <var class=\"replaceable-license-text\"> make</var>\n         no representations about the suitability of this software for any purpose.\n          It is provided &quot;as is&quot; without express or implied warranty.\n      </p>\n\n    ",
-            "rdfs:seeAlso": "https://core.tcl-lang.org/tk/file?name=compat/unistd.h",
-            "spdx:licenseId": "HPND-UC",
-            "spdx:name": "Historical Permission Notice and Disclaimer - University of California variant",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense"
-        },
-        {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-25T18:04:24Z",
+            "spdx:timestamp": "2024-03-26T06:26:46Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -44,6 +22,28 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/HPND-UC",
+            "spdx:licenseText": "Copyright 1989 Regents of the University of California \n\nPermission to use,\ncopy, modify, and distribute this software and its documentation for any\npurpose and without fee is hereby granted, provided that the above\ncopyright notice appear in all copies. The University of California makes\nno representations about the suitability of this software for any purpose.\nIt is provided \"as is\" without express or implied warranty.\n",
+            "rdfs:comment": "This license is similar to HPND but omits the obligation to provide the copyright notice and this permission notice appear in supporting documentation.",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1989 Regents of the University of California\";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies. <<var;name=\"copyrightHolder\";original=\"THE AUTHORS OR COPYRIGHT HOLDERS\";match=\".+\">> <<var;name=\"make\";original=\"make\";match=\"makes?\">> no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n      <var class=\"replaceable-license-text\"> \n         Copyright 1989 Regents of the University of California\n      </var>\n      <p>\n         Permission to use,\n         copy, modify, and distribute this software and its documentation for any\n         purpose and without fee is hereby granted, provided that the above\n         copyright notice appear in all copies. <var class=\"replaceable-license-text\"> THE AUTHORS OR COPYRIGHT HOLDERS</var> <var class=\"replaceable-license-text\"> make</var>\n         no representations about the suitability of this software for any purpose.\n          It is provided &quot;as is&quot; without express or implied warranty.\n      </p>\n\n    ",
+            "rdfs:seeAlso": "https://core.tcl-lang.org/tk/file?name=compat/unistd.h",
+            "spdx:licenseId": "HPND-UC",
+            "spdx:name": "Historical Permission Notice and Disclaimer - University of California variant",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {
