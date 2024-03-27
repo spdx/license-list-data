@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-26T15:29:00Z",
+            "spdx:timestamp": "2024-03-27T21:46:22Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/SAX-PD-2.0",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -39,10 +42,7 @@
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": "http://www.saxproject.org/copying.html",
             "spdx:name": "Sax Public Domain Notice 2.0",
-            "spdx:licenseId": "SAX-PD-2.0",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
+            "spdx:licenseId": "SAX-PD-2.0"
         }
     ],
     "@context": {
