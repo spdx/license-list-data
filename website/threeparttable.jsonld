@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-29T08:08:36Z",
+            "spdx:timestamp": "2024-04-04T07:28:07Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/threeparttable",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -32,9 +35,6 @@
             },
             "spdx:name": "threeparttable License",
             "spdx:standardLicenseTemplate": "This file may be distributed, modified, and used in other works with just one restriction: modified versions must clearly indicate the modification (a name change, or a displayed message, or ?).\n\n",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:licenseText": "This file may be distributed, modified, and used in other works with just\none restriction: modified versions must clearly indicate the modification\n(a name change, or a displayed message, or ?).\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",

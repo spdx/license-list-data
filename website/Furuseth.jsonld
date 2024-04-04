@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-29T08:08:18Z",
+            "spdx:timestamp": "2024-04-04T07:27:49Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/Furuseth",
             "rdfs:seeAlso": "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT?ref_type=heads#L39-51",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -39,9 +42,6 @@
             },
             "spdx:name": "Furuseth License",
             "spdx:licenseId": "Furuseth",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "@type": "spdx:ListedLicense"
         }
     ],

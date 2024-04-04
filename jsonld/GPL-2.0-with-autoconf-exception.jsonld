@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-03-29T08:04:02Z",
+            "spdx:timestamp": "2024-04-04T07:23:31Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/GPL-2.0-with-autoconf-exception",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -44,7 +41,10 @@
             },
             "spdx:name": "GNU General Public License v2.0 w/Autoconf exception",
             "spdx:deprecatedVersion": "2.0rc2",
-            "spdx:licenseId": "GPL-2.0-with-autoconf-exception"
+            "spdx:licenseId": "GPL-2.0-with-autoconf-exception",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {
