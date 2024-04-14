@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-04-11T03:23:54Z",
+            "spdx:timestamp": "2024-04-14T17:43:59Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -29,9 +29,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:name": "xzoom License",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -42,6 +39,9 @@
             "rdfs:seeAlso": "https://metadata.ftp-master.debian.org/changelogs//main/x/xzoom/xzoom_0.3-27_copyright",
             "spdx:licenseText": "Copyright Itai Nahshon 1995, 1996.\nThis program is distributed with no warranty.\n\nSource files for this program may be distributed freely.\nModifications to this file are okay as long as:\n a. This copyright notice and comment are preserved and\n    left at the top of the file.\n b. The man page is fixed to reflect the change.\n c. The author of this change adds his name and change\n    description to the list of changes below.\nExecutable files may be distributed with sources, or with\nexact location where the source code can be obtained.\n",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright: <year> <owner>  \";match=\".{0,5000}\">>\n\nThis program is distributed with no warranty.\n\nSource files for this program may be distributed freely. Modifications to this file are okay as long as:\n\n   <<var;name=\"bullet\";original=\"a.\";match=\".{0,20}\">> This copyright notice and comment are preserved and left at the top of the file.\n\n   <<var;name=\"bullet\";original=\"b.\";match=\".{0,20}\">> The man page is fixed to reflect the change.\n\n   <<var;name=\"bullet\";original=\"c.\";match=\".{0,20}\">> The author of this change adds his name and change description to the list of changes below.\n\nExecutable files may be distributed with sources, or with exact location where the source code can be obtained.\n\n"
         }
     ],

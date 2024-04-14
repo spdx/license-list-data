@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-04-11T03:22:04Z",
+            "spdx:timestamp": "2024-04-14T17:42:04Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -30,14 +30,6 @@
                 "https://opensource.org/licenses/GPL-2.0",
                 "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
             ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -52,6 +44,14 @@
             "spdx:standardLicenseHeaderTemplate": "<<var;name=\"description\";original=\"<one line to give the program's name and an idea of what it does.>\";match=\".+\">>\n\nCopyright (C) <<var;name=\"copyright\";original=\"<yyyy> <name of author>\";match=\".+\">>\n\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., <<var;name=\"freeSoftwareFoundationAddress\";original=\"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\";match=\".{54,64}\">> .\n\n",
             "spdx:licenseId": "GPL-2.0+",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:deprecatedVersion": "2.0rc2",
             "spdx:name": "GNU General Public License v2.0 or later",
             "spdx:isOsiApproved": {
@@ -62,7 +62,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-04-11T03:22:04Z",
+            "spdx:timestamp": "2024-04-14T17:42:04Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

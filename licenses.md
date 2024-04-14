@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 50f3f52
+The following licenses have been generated from the license list version cfb18d1
 
 ## Licenses with Short Idenifiers
 
@@ -491,6 +491,7 @@ The following licenses have been generated from the license list version 50f3f52
 | PHP License v3.0                                                                       | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                                      | [PHP-3.01][]                             | Y    | Y         |
 | Pixar License                                                                          | [Pixar][]                                |      |           |
+| pkgconf License                                                                        | [pkgconf][]                              |      |           |
 | Plexus Classworlds License                                                             | [Plexus][]                               |      |           |
 | pnmstitch License                                                                      | [pnmstitch][]                            |      |           |
 | PolyForm Noncommercial License 1.0.0                                                   | [PolyForm-Noncommercial-1.0.0][]         |      |           |
@@ -550,6 +551,7 @@ The following licenses have been generated from the license list version 50f3f52
 | Server Side Public License, v 1                                                        | [SSPL-1.0][]                             |      |           |
 | SugarCRM Public License v1.1.3                                                         | [SugarCRM-1.1.3][]                       |      |           |
 | Sun PPP License                                                                        | [Sun-PPP][]                              |      |           |
+| Sun PPP License (2000)                                                                 | [Sun-PPP-2000][]                         |      |           |
 | SunPro License                                                                         | [SunPro][]                               |      |           |
 | Scheme Widget Library (SWL) Software License Agreement                                 | [SWL][]                                  |      |           |
 | swrule License                                                                         | [swrule][]                               |      |           |
@@ -1240,6 +1242,7 @@ The following licenses have been generated from the license list version 50f3f52
 [PHP-3.0]: text/PHP-3.0.txt
 [PHP-3.01]: text/PHP-3.01.txt
 [Pixar]: text/Pixar.txt
+[pkgconf]: text/pkgconf.txt
 [Plexus]: text/Plexus.txt
 [pnmstitch]: text/pnmstitch.txt
 [PolyForm-Noncommercial-1.0.0]: text/PolyForm-Noncommercial-1.0.0.txt
@@ -1300,6 +1303,7 @@ The following licenses have been generated from the license list version 50f3f52
 [StandardML-NJ]: text/StandardML-NJ.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
 [Sun-PPP]: text/Sun-PPP.txt
+[Sun-PPP-2000]: text/Sun-PPP-2000.txt
 [SunPro]: text/SunPro.txt
 [SWL]: text/SWL.txt
 [swrule]: text/swrule.txt
