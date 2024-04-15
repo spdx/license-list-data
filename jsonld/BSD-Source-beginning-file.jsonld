@@ -1,6 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "spdx:timestamp": "2024-04-15T16:43:47Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://github.com/lattera/freebsd/blob/master/sys/cam/cam.c#L4",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/BSD-Source-beginning-file",
             "spdx:licenseId": "BSD-Source-beginning-file",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1997 Justin T. Gibbs.  All rights reserved.  \";match=\".{0,5000}\">>\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer, without modification, immediately at the beginning of the file.\n\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> The name of <<var;name=\"organizationClause3\";original=\"the author\";match=\".+\">> may not be used to endorse or promote products derived from this software without specific prior written permission <<var;name=\"organizationClause2\";original=\"\";match=\".*\">> .\n\nTHIS SOFTWARE IS PROVIDED BY <<var;name=\"copyrightHolderAsIs\";original=\"THE AUTHORS AND CONTRIBUTORS\";match=\".+\">> \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"THE AUTHOR OR CONTRIBUTORS\";match=\".+\">> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n",
@@ -21,29 +44,6 @@
                 "@id": "_:b0"
             },
             "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"> \n         <p>Copyright (c) 1997 Justin T. Gibbs.\n            <br />\n\nAll rights reserved.\n      </p>\n\n      </div>\n\n      <p>Redistribution and use in source and binary forms, with or without\n         modification, are permitted provided that the following conditions\n         are met:\n      </p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"> *</var>\n            Redistributions of source code must retain the above copyright\n            notice, this list of conditions, and the following disclaimer,\n            without modification, immediately at the beginning of the file.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"> *</var>\n            The name of\n            <var class=\"replaceable-license-text\"> \n            the author</var> may not be used to endorse or promote products\n            derived from this software without specific prior written permission\n            <var class=\"replaceable-license-text\"> \n            </var>.\n\n        </li>\n      \n</ul>\n      <p>THIS SOFTWARE IS PROVIDED BY\n        <var class=\"replaceable-license-text\"> THE AUTHORS\n        AND CONTRIBUTORS</var> &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED\n        WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n        WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n        PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL\n        <var class=\"replaceable-license-text\"> THE AUTHOR\n        OR CONTRIBUTORS</var> BE LIABLE FOR ANY DIRECT, INDIRECT,\n        INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n        (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS\n        OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\n        INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n        WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n        NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\n        THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH\n        DAMAGE.\n      </p>\n\n    "
-        },
-        {
-            "@id": "_:b0",
-            "spdx:timestamp": "2024-04-14T17:42:34Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://github.com/lattera/freebsd/blob/master/sys/cam/cam.c#L4",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
