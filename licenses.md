@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 93f70ea
+The following licenses have been generated from the license list version ecc601f
 
 ## Licenses with Short Idenifiers
 
@@ -412,6 +412,7 @@ The following licenses have been generated from the license list version 93f70ea
 | Naumen Public License                                                                  | [Naumen][]                               | Y    |           |
 | Net Boolean Public License v1                                                          | [NBPL-1.0][]                             |      |           |
 | Non-Commercial Government Licence                                                      | [NCGL-UK-2.0][]                          |      |           |
+| NCL Source Code License                                                                | [NCL][]                                  |      |           |
 | University of Illinois/NCSA Open Source License                                        | [NCSA][]                                 | Y    | Y         |
 | Net-SNMP License                                                                       | [Net-SNMP][]                             |      |           |
 | NetCDF license                                                                         | [NetCDF][]                               |      |           |
@@ -1162,6 +1163,7 @@ The following licenses have been generated from the license list version 93f70ea
 [Naumen]: text/Naumen.txt
 [NBPL-1.0]: text/NBPL-1.0.txt
 [NCGL-UK-2.0]: text/NCGL-UK-2.0.txt
+[NCL]: text/NCL.txt
 [NCSA]: text/NCSA.txt
 [Net-SNMP]: text/Net-SNMP.txt
 [NetCDF]: text/NetCDF.txt
