@@ -2,7 +2,30 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-04-17T04:40:20Z",
+            "spdx:timestamp": "2024-04-17T05:00:10Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L185-197",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-04-17T05:00:05Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -33,8 +56,6 @@
             "spdx:name": "Historical Permission Notice and Disclaimer - documentation variant",
             "rdfs:comment": "This is very similar to HPND but is for documentation and alters the notice obligation.",
             "spdx:licenseText": "Copyright <year> <copyright holder>\n\nPermission to use, copy, modify, and distribute this documentation for\nany purpose and without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n<copyright holder> makes no representations about the suitability for\nany purpose of the information in this document.  This documentation is\nprovided ``as is'' without express or implied warranty.\n",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <year> <copyright holder>  \";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this documentation for any purpose and without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability for any purpose of the information in this document. This documentation is provided \"as is\" without express or implied warranty.\n\n",
-            "@type": "spdx:ListedLicense",
             "spdx:crossRef": [
                 {
                     "@id": "_:b1"
@@ -43,6 +64,8 @@
                     "@id": "_:b0"
                 }
             ],
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <year> <copyright holder>  \";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this documentation for any purpose and without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability for any purpose of the information in this document. This documentation is provided \"as is\" without express or implied warranty.\n\n",
+            "@type": "spdx:ListedLicense",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -52,29 +75,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-04-17T04:40:21Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L185-197",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
