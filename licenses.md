@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2730e34
+The following licenses have been generated from the license list version 747753e
 
 ## Licenses with Short Idenifiers
 
@@ -105,6 +105,7 @@ The following licenses have been generated from the license list version 2730e34
 | Cryptographic Autonomy License 1.0 (Combined Work Exception)                              | [CAL-1.0-Combined-Work-Exception][]      | Y    |           |
 | Caldera License                                                                           | [Caldera][]                              |      |           |
 | Caldera License (without preamble)                                                        | [Caldera-no-preamble][]                  |      |           |
+| Catharon License                                                                          | [Catharon][]                             |      |           |
 | Computer Associates Trusted Open Source License 1.1                                       | [CATOSL-1.1][]                           | Y    |           |
 | Creative Commons Attribution 1.0 Generic                                                  | [CC-BY-1.0][]                            |      |           |
 | Creative Commons Attribution 2.0 Generic                                                  | [CC-BY-2.0][]                            |      |           |
@@ -834,6 +835,7 @@ The following licenses have been generated from the license list version 2730e34
 [CAL-1.0-Combined-Work-Exception]: text/CAL-1.0-Combined-Work-Exception.txt
 [Caldera]: text/Caldera.txt
 [Caldera-no-preamble]: text/Caldera-no-preamble.txt
+[Catharon]: text/Catharon.txt
 [CATOSL-1.1]: text/CATOSL-1.1.txt
 [CC-BY-1.0]: text/CC-BY-1.0.txt
 [CC-BY-2.0]: text/CC-BY-2.0.txt

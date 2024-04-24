@@ -2,7 +2,30 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-04-17T05:08:54Z",
+            "spdx:timestamp": "2024-04-24T11:09:35Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-04-24T11:09:34Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,8 +47,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-04-17T05:08:55Z",
+            "@id": "_:b2",
+            "spdx:timestamp": "2024-04-24T11:09:33Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,21 +71,21 @@
         },
         {
             "@id": "http://spdx.org/licenses/bzip2-1.0.6",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
             "spdx:crossRef": [
                 {
-                    "@id": "_:b2"
+                    "@id": "_:b1"
                 },
                 {
-                    "@id": "_:b1"
+                    "@id": "_:b2"
                 },
                 {
                     "@id": "_:b0"
                 }
             ],
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
             "rdfs:comment": "The additional \"Neither the names of...\" optional clause at the end of the license occurs in certain uses of this license text, as described at https://github.com/spdx/license-list-XML/issues/2271",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -79,29 +102,6 @@
             ],
             "spdx:licenseId": "bzip2-1.0.6",
             "spdx:name": "bzip2 and libbzip2 License v1.0.6"
-        },
-        {
-            "@id": "_:b2",
-            "spdx:timestamp": "2024-04-17T05:08:55Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

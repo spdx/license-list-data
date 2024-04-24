@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-04-17T05:07:02Z",
+            "spdx:timestamp": "2024-04-24T11:11:48Z",
             "spdx:order": {
                 "@value": "3",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,30 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-04-17T05:07:04Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b2",
-            "spdx:timestamp": "2024-04-17T05:06:59Z",
+            "spdx:timestamp": "2024-04-24T11:11:45Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,8 +47,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b3",
-            "spdx:timestamp": "2024-04-17T05:07:00Z",
+            "@id": "_:b2",
+            "spdx:timestamp": "2024-04-24T11:11:32Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -93,13 +70,37 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:b3",
+            "spdx:timestamp": "2024-04-24T11:11:38Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/MIT-open-group",
+            "spdx:licenseId": "MIT-open-group",
             "spdx:crossRef": [
                 {
-                    "@id": "_:b3"
+                    "@id": "_:b2"
                 },
                 {
-                    "@id": "_:b2"
+                    "@id": "_:b3"
                 },
                 {
                     "@id": "_:b1"
@@ -108,7 +109,6 @@
                     "@id": "_:b0"
                 }
             ],
-            "spdx:licenseId": "MIT-open-group",
             "rdfs:seeAlso": [
                 "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING",
                 "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",

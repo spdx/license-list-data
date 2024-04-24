@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-04-17T05:03:58Z",
+            "spdx:timestamp": "2024-04-24T11:22:39Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,9 +26,6 @@
         {
             "@id": "http://spdx.org/licenses/checkmk",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,6 +35,9 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:b0"
             },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 2006, 2010 Micah Cowan  \";match=\".{0,5000}\">>\n\nRedistribution of this program in any form, with or without modifications, is permitted, provided that the above copyright is retained in distributions of this program in source form.\n\n(This is a free, non-copyleft license compatible with pretty much any other free or proprietary license, including the GPL. It's essentially a scaled-down version of the \"modified\" BSD license.)\n\n",
             "spdx:name": "Checkmk License",
