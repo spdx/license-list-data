@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Xnet",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:comment": "This license is the same as MIT, but with a choice of law clause. This License has been voluntarily deprecated by its author.",
             "rdfs:seeAlso": "https://opensource.org/licenses/Xnet",
             "spdx:licenseId": "Xnet",
@@ -17,14 +20,11 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             }
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-09T16:32:48Z",
+            "spdx:timestamp": "2024-05-09T18:03:00Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
