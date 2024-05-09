@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-09T02:23:19Z",
+            "spdx:timestamp": "2024-05-09T06:14:22Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,13 +26,13 @@
         {
             "@id": "http://spdx.org/licenses/OAR",
             "spdx:name": "OAR License",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:licenseId": "OAR",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Written by Joel Sherrill &lt;joel.sherrill@OARcorp.com&gt;.<br />\n\n            <br />\n\n            COPYRIGHT (c) 2010, 2017. <br />\n\n            On-Line Applications Research Corporation (OAR).\n         </var>\n         <p>\n            Permission to use, copy, modify, and distribute this software for any\n            purpose without fee is hereby granted, provided that this entire notice\n            is included in all copies of any software which is or includes a copy\n            or modification of this software.\n         </p>\n\n         <p>\n            THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED\n            WARRANTY.  IN PARTICULAR,  THE AUTHOR MAKES NO REPRESENTATION\n            OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS\n            SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n         </p>\n\n      ",
             "rdfs:seeAlso": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/string/strsignal.c;hb=HEAD#l35",

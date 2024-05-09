@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-09T02:28:04Z",
+            "spdx:timestamp": "2024-05-09T06:19:26Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-05-09T02:28:02Z",
+            "spdx:timestamp": "2024-05-09T06:19:06Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -55,6 +55,14 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://hstechdocs.helpsystems.com/manuals/globalscape/archive/cuteftp6/open_ssl_license_agreement.htm",
                 "https://library.netapp.com/ecm/ecm_download_file/ECMP1196395"
@@ -66,14 +74,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "@type": "spdx:ListedLicense"
         }
     ],

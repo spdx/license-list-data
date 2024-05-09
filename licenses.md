@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 352c134
+The following licenses have been generated from the license list version 1bf958d
 
 ## Licenses with Short Idenifiers
 
@@ -500,6 +500,7 @@ The following licenses have been generated from the license list version 352c134
 | PolyForm Noncommercial License 1.0.0                                                      | [PolyForm-Noncommercial-1.0.0][]         |      |           |
 | PolyForm Small Business License 1.0.0                                                     | [PolyForm-Small-Business-1.0.0][]        |      |           |
 | PostgreSQL License                                                                        | [PostgreSQL][]                           | Y    |           |
+| Peer Production License                                                                   | [PPL][]                                  |      |           |
 | Python Software Foundation License 2.0                                                    | [PSF-2.0][]                              |      |           |
 | psfrag License                                                                            | [psfrag][]                               |      |           |
 | psutils License                                                                           | [psutils][]                              |      |           |
@@ -1254,6 +1255,7 @@ The following licenses have been generated from the license list version 352c134
 [PolyForm-Noncommercial-1.0.0]: text/PolyForm-Noncommercial-1.0.0.txt
 [PolyForm-Small-Business-1.0.0]: text/PolyForm-Small-Business-1.0.0.txt
 [PostgreSQL]: text/PostgreSQL.txt
+[PPL]: text/PPL.txt
 [PSF-2.0]: text/PSF-2.0.txt
 [psfrag]: text/psfrag.txt
 [psutils]: text/psutils.txt
