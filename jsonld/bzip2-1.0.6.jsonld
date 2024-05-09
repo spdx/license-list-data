@@ -2,30 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-09T01:39:38Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-05-09T01:39:39Z",
+            "spdx:timestamp": "2024-05-09T02:14:18Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,8 +24,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b2",
-            "spdx:timestamp": "2024-05-09T01:39:36Z",
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-05-09T02:14:16Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,23 +47,46 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/bzip2-1.0.6",
-            "spdx:isDeprecatedLicenseId": {
+            "@id": "_:b2",
+            "spdx:timestamp": "2024-05-09T02:14:17Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "rdfs:comment": "The additional \"Neither the names of...\" optional clause at the end of the license occurs in certain uses of this license text, as described at https://github.com/spdx/license-list-XML/issues/2271",
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/bzip2-1.0.6",
             "spdx:crossRef": [
                 {
-                    "@id": "_:b2"
+                    "@id": "_:b0"
                 },
                 {
                     "@id": "_:b1"
                 },
                 {
-                    "@id": "_:b0"
+                    "@id": "_:b2"
                 }
             ],
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:comment": "The additional \"Neither the names of...\" optional clause at the end of the license occurs in certain uses of this license text, as described at https://github.com/spdx/license-list-XML/issues/2271",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
