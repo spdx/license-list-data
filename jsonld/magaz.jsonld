@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/magaz",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright 1999-2011, Donald Arseneau,\n            asnd@triumf.ca, Vancouver, Canada\n         </var>\n         <p>\n            This software may be freely used, transmitted,\n            reproduced, or modified provided that the\n            copyright notice and this permission is retained.\n         </p>\n\n      ",
             "@type": "spdx:ListedLicense",
             "spdx:name": "magaz License",
@@ -17,6 +14,9 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:comment": "This license is a very similar to ulem and fwlw, but has slightly different obligations.",
             "rdfs:seeAlso": "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex",
             "spdx:licenseId": "magaz",
@@ -24,7 +24,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-09T06:06:23Z",
+            "spdx:timestamp": "2024-05-09T16:28:17Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

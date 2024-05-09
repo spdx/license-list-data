@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 1bf958d
+The following licenses have been generated from the license list version 0db8733
 
 ## Licenses with Short Idenifiers
 
@@ -302,6 +302,7 @@ The following licenses have been generated from the license list version 1bf958d
 | Historical Permission Notice and Disclaimer - sell regexpr variant                        | [HPND-sell-regexpr][]                    |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                                | [HPND-sell-variant][]                    |      |           |
 | HPND sell variant with MIT disclaimer                                                     | [HPND-sell-variant-MIT-disclaimer][]     |      |           |
+| HPND sell variant with MIT disclaimer - reverse                                           | [HPND-sell-variant-MIT-disclaimer-rev][] |      |           |
 | Historical Permission Notice and Disclaimer - University of California variant            | [HPND-UC][]                              |      |           |
 | Historical Permission Notice and Disclaimer - University of California, US export warning | [HPND-UC-export-US][]                    |      |           |
 | HTML Tidy License                                                                         | [HTMLTIDY][]                             |      |           |
@@ -1050,6 +1051,7 @@ The following licenses have been generated from the license list version 1bf958d
 [HPND-sell-regexpr]: text/HPND-sell-regexpr.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
 [HPND-sell-variant-MIT-disclaimer]: text/HPND-sell-variant-MIT-disclaimer.txt
+[HPND-sell-variant-MIT-disclaimer-rev]: text/HPND-sell-variant-MIT-disclaimer-rev.txt
 [HPND-UC]: text/HPND-UC.txt
 [HPND-UC-export-US]: text/HPND-UC-export-US.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
