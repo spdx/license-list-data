@@ -1,0 +1,21 @@
+{
+    "@id": "http://spdx.org/licenses/PCRE2-exception",
+    "spdx:licenseExceptionId": "PCRE2-exception",
+    "rdfs:seeAlso": "https://www.pcre.org/licence.txt",
+    "rdfs:comment": "This exception has been used with BSD-3-Clause.",
+    "spdx:name": "PCRE2 exception",
+    "spdx:exceptionTextHtml": "\n\t<p>\n\tEXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES<br />\n\n\t------------------------------------------\n\t</p>\n\n\t<p>\n\tThe second condition in the BSD licence (covering binary redistributions) does\n\tnot apply all the way down a chain of software. If binary package A includes\n\tPCRE2, it must respect the condition, but if package B is software that\n\tincludes package A, the condition is not imposed on package B unless it uses\n\tPCRE2 independently.\n\t</p>\n\n\t",
+    "spdx:licenseExceptionText": "EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES\n------------------------------------------\n\nThe second condition in the BSD licence (covering binary redistributions) does\nnot apply all the way down a chain of software. If binary package A includes\nPCRE2, it must respect the condition, but if package B is software that\nincludes package A, the condition is not imposed on package B unless it uses\nPCRE2 independently.\n",
+    "spdx:isDeprecatedLicenseId": {
+        "@value": "false",
+        "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+    },
+    "spdx:licenseExceptionTemplate": "EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES\n\n------------------------------------------\n\nThe second condition in the BSD licence (covering binary redistributions) does not apply all the way down a chain of software. If binary package A includes PCRE2, it must respect the condition, but if package B is software that includes package A, the condition is not imposed on package B unless it uses PCRE2 independently.\n\n",
+    "@type": "spdx:ListedLicenseException",
+    "@context": {
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "spdx": "http://spdx.org/rdf/terms#",
+        "doap": "http://usefulinc.com/ns/doap#",
+        "ptr": "http://www.w3.org/2009/pointers#"
+    }
+}
