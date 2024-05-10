@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 179957b
+The following licenses have been generated from the license list version 2f5d59d
 
 ## Licenses with Short Idenifiers
 
@@ -32,6 +32,7 @@ The following licenses have been generated from the license list version 179957b
 | Academy of Motion Picture Arts and Sciences BSD                                           | [AMPAS][]                                |      |           |
 | ANTLR Software Rights Notice                                                              | [ANTLR-PD][]                             |      |           |
 | ANTLR Software Rights Notice with license fallback                                        | [ANTLR-PD-fallback][]                    |      |           |
+| Any OSI License                                                                           | [any-OSI][]                              |      |           |
 | Apache License 1.0                                                                        | [Apache-1.0][]                           |      | Y         |
 | Apache License 1.1                                                                        | [Apache-1.1][]                           | Y    | Y         |
 | Apache License 2.0                                                                        | [Apache-2.0][]                           | Y    | Y         |
@@ -678,6 +679,7 @@ The following licenses have been generated from the license list version 179957b
 | Open CASCADE Exception 1.0                            | [OCCT-exception-1.0][]                   |
 | OpenJDK Assembly exception 1.0                        | [OpenJDK-assembly-exception-1.0][]       |
 | OpenVPN OpenSSL Exception                             | [openvpn-openssl-exception][]            |
+| PCRE2 exception                                       | [PCRE2-exception][]                      |
 | PS/PDF font exception (2017-08-17)                    | [PS-or-PDF-font-exception-20170817][]    |
 | INRIA QPL 1.0 2004 variant exception                  | [QPL-1.0-INRIA-2004-exception][]         |
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
@@ -762,6 +764,7 @@ The following licenses have been generated from the license list version 179957b
 [AMPAS]: text/AMPAS.txt
 [ANTLR-PD]: text/ANTLR-PD.txt
 [ANTLR-PD-fallback]: text/ANTLR-PD-fallback.txt
+[any-OSI]: text/any-OSI.txt
 [Apache-1.0]: text/Apache-1.0.txt
 [Apache-1.1]: text/Apache-1.1.txt
 [Apache-2.0]: text/Apache-2.0.txt
@@ -1433,6 +1436,7 @@ The following licenses have been generated from the license list version 179957b
 [OCCT-exception-1.0]: text/OCCT-exception-1.0.txt
 [OpenJDK-assembly-exception-1.0]: text/OpenJDK-assembly-exception-1.0.txt
 [openvpn-openssl-exception]: text/openvpn-openssl-exception.txt
+[PCRE2-exception]: text/PCRE2-exception.txt
 [PS-or-PDF-font-exception-20170817]: text/PS-or-PDF-font-exception-20170817.txt
 [QPL-1.0-INRIA-2004-exception]: text/QPL-1.0-INRIA-2004-exception.txt
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt

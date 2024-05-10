@@ -1,0 +1,47 @@
+<rdf:RDF
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:doap="http://usefulinc.com/ns/doap#"
+    xmlns:ptr="http://www.w3.org/2009/pointers#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+  <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/PCRE2-exception">
+    <spdx:licenseExceptionId>PCRE2-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://www.pcre.org/licence.txt</rdfs:seeAlso>
+    <rdfs:comment>This exception has been used with BSD-3-Clause.</rdfs:comment>
+    <spdx:name>PCRE2 exception</spdx:name>
+    <spdx:exceptionTextHtml>
+	&lt;p&gt;
+	EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES&lt;br /&gt;
+
+	------------------------------------------
+	&lt;/p&gt;
+
+	&lt;p&gt;
+	The second condition in the BSD licence (covering binary redistributions) does
+	not apply all the way down a chain of software. If binary package A includes
+	PCRE2, it must respect the condition, but if package B is software that
+	includes package A, the condition is not imposed on package B unless it uses
+	PCRE2 independently.
+	&lt;/p&gt;
+
+	</spdx:exceptionTextHtml>
+    <spdx:licenseExceptionText>EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES
+------------------------------------------
+
+The second condition in the BSD licence (covering binary redistributions) does
+not apply all the way down a chain of software. If binary package A includes
+PCRE2, it must respect the condition, but if package B is software that
+includes package A, the condition is not imposed on package B unless it uses
+PCRE2 independently.
+</spdx:licenseExceptionText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionTemplate>EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES
+
+------------------------------------------
+
+The second condition in the BSD licence (covering binary redistributions) does not apply all the way down a chain of software. If binary package A includes PCRE2, it must respect the condition, but if package B is software that includes package A, the condition is not imposed on package B unless it uses PCRE2 independently.
+
+</spdx:licenseExceptionTemplate>
+  </spdx:ListedLicenseException>
+</rdf:RDF>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SPDXLicenseCollection xmlns="http://www.spdx.org/license">
+<exception licenseId="PCRE2-exception"
+   name="PCRE2 exception" listVersionAdded="3.24">
+	<crossRefs>
+		<crossRef>https://www.pcre.org/licence.txt</crossRef>
+	</crossRefs>
+	<notes>
+		This exception has been used with BSD-3-Clause.
+	</notes>
+	<text>
+	<p>
+	EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES<br />
+	------------------------------------------
+	</p>
+
+	<p>
+	The second condition in the BSD licence (covering binary redistributions) does
+	not apply all the way down a chain of software. If binary package A includes
+	PCRE2, it must respect the condition, but if package B is software that
+	includes package A, the condition is not imposed on package B unless it uses
+	PCRE2 independently.
+	</p>
+	</text>
+</exception>
+</SPDXLicenseCollection>
+

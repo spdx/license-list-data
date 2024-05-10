@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-09T18:09:29Z",
+            "spdx:timestamp": "2024-05-10T02:33:23Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-05-09T18:09:30Z",
+            "spdx:timestamp": "2024-05-10T02:33:24Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,17 +48,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/Boehm-GC",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b2"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "spdx:licenseId": "Boehm-GC",
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
@@ -68,6 +57,17 @@
             ],
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> Copyright (c) ...</var>\n         <p>\n            THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO\n            WARRANTY EXPRESSED OR IMPLIED. ANY USE IS AT YOUR OWN RISK.\n         </p>\n\n         <p>\n            Permission is hereby granted to use or copy this program for any\n            purpose, provided the above notices are retained on all copies.\n            Permission to modify the code and to distribute modified code is\n            granted, provided the above notices are retained, and a notice that\n            the code was modified is included with the above copyright notice.\n         </p>\n\n         <div class=\"optional-license-text\"> \n         <p>\n            A few files have other copyright holders.\n         </p>\n\n         </div>\n      ",
             "spdx:licenseText": "Copyright (c) ...\n\nTHIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED\nOR IMPLIED.  ANY USE IS AT YOUR OWN RISK.\n\nPermission is hereby granted to use or copy this program\nfor any purpose,  provided the above notices are retained on all copies.\nPermission to modify the code and to distribute modified code is granted,\nprovided the above notices are retained, and a notice that the code was\nmodified is included with the above copyright notice.\n\nA few files have other copyright holders.\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b2"
+                },
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) ...\";match=\".{0,5000}\">>\n\nTHIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED OR IMPLIED. ANY USE IS AT YOUR OWN RISK.\n\nPermission is hereby granted to use or copy this program for any purpose, provided the above notices are retained on all copies. Permission to modify the code and to distribute modified code is granted, provided the above notices are retained, and a notice that the code was modified is included with the above copyright notice.\n\n<<beginOptional>>A few files have other copyright holders.\n\n<<endOptional>>",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -81,7 +81,7 @@
         },
         {
             "@id": "_:b2",
-            "spdx:timestamp": "2024-05-09T18:09:29Z",
+            "spdx:timestamp": "2024-05-10T02:33:24Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
