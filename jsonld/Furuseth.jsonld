@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Furuseth",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "rdfs:seeAlso": "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT?ref_type=heads#L39-51",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -19,11 +16,14 @@
             },
             "spdx:name": "Furuseth License",
             "spdx:licenseId": "Furuseth",
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-10T02:23:00Z",
+            "spdx:timestamp": "2024-05-10T15:02:58Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
