@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-10T17:03:39Z",
+            "spdx:timestamp": "2024-05-14T23:23:24Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-05-10T17:03:39Z",
+            "spdx:timestamp": "2024-05-14T23:23:24Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -54,14 +54,6 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -69,6 +61,14 @@
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/W3C",
                 "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
             ],
             "spdx:standardLicenseHeaderTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) <<var;name=\"year\";original=\"[$date-of-software]\";match=\".+\">> World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University). All Rights Reserved.\";match=\".{0,5000}\">>\n\nThis work is distributed under the W3C® Software License in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
             "spdx:isOsiApproved": {
