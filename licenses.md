@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 221fe23
+The following licenses have been generated from the license list version f009406
 
 ## Licenses with Short Idenifiers
 
@@ -293,6 +293,7 @@ The following licenses have been generated from the license list version 221fe23
 | Historical Permission Notice and Disclaimer - documentation variant                       | [HPND-doc][]                             |      |           |
 | Historical Permission Notice and Disclaimer - documentation sell variant                  | [HPND-doc-sell][]                        |      |           |
 | HPND with US Government export control warning                                            | [HPND-export-US][]                       |      |           |
+| HPND with US Government export control warning and acknowledgment                         | [HPND-export-US-acknowledgement][]       |      |           |
 | HPND with US Government export control warning and modification rqmt                      | [HPND-export-US-modify][]                |      |           |
 | Historical Permission Notice and Disclaimer - Fenneberg-Livingston variant                | [HPND-Fenneberg-Livingston][]            |      |           |
 | Historical Permission Notice and Disclaimer    - INRIA-IMAG variant                       | [HPND-INRIA-IMAG][]                      |      |           |
@@ -1045,6 +1046,7 @@ The following licenses have been generated from the license list version 221fe23
 [HPND-doc]: text/HPND-doc.txt
 [HPND-doc-sell]: text/HPND-doc-sell.txt
 [HPND-export-US]: text/HPND-export-US.txt
+[HPND-export-US-acknowledgement]: text/HPND-export-US-acknowledgement.txt
 [HPND-export-US-modify]: text/HPND-export-US-modify.txt
 [HPND-Fenneberg-Livingston]: text/HPND-Fenneberg-Livingston.txt
 [HPND-INRIA-IMAG]: text/HPND-INRIA-IMAG.txt
