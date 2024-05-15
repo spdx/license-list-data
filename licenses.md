@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f009406
+The following licenses have been generated from the license list version 9a2bc24
 
 ## Licenses with Short Idenifiers
 
@@ -634,6 +634,7 @@ The following licenses have been generated from the license list version f009406
 |-------------------------------------------------------|------------------------------------------|
 | 389 Directory Server Exception                        | [389-exception][]                        |
 | Asterisk exception                                    | [Asterisk-exception][]                   |
+| Asterisk linking protocols exception                  | [Asterisk-linking-protocols-exception][] |
 | Autoconf exception 2.0                                | [Autoconf-exception-2.0][]               |
 | Autoconf exception 3.0                                | [Autoconf-exception-3.0][]               |
 | Autoconf generic exception                            | [Autoconf-exception-generic][]           |
@@ -1391,6 +1392,7 @@ The following licenses have been generated from the license list version f009406
 [ZPL-2.1]: text/ZPL-2.1.txt
 [389-exception]: text/389-exception.txt
 [Asterisk-exception]: text/Asterisk-exception.txt
+[Asterisk-linking-protocols-exception]: text/Asterisk-linking-protocols-exception.txt
 [Autoconf-exception-2.0]: text/Autoconf-exception-2.0.txt
 [Autoconf-exception-3.0]: text/Autoconf-exception-3.0.txt
 [Autoconf-exception-generic]: text/Autoconf-exception-generic.txt
