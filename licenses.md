@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ea01635
+The following licenses have been generated from the license list version 7157075
 
 ## Licenses with Short Idenifiers
 
@@ -417,6 +417,7 @@ The following licenses have been generated from the license list version ea01635
 | NASA Open Source Agreement 1.3                                                            | [NASA-1.3][]                             | Y    |           |
 | Naumen Public License                                                                     | [Naumen][]                               | Y    |           |
 | Net Boolean Public License v1                                                             | [NBPL-1.0][]                             |      |           |
+| NCBI Public Domain Notice                                                                 | [NCBI-PD][]                              |      |           |
 | Non-Commercial Government Licence                                                         | [NCGL-UK-2.0][]                          |      |           |
 | NCL Source Code License                                                                   | [NCL][]                                  |      |           |
 | University of Illinois/NCSA Open Source License                                           | [NCSA][]                                 | Y    | Y         |
@@ -1177,6 +1178,7 @@ The following licenses have been generated from the license list version ea01635
 [NASA-1.3]: text/NASA-1.3.txt
 [Naumen]: text/Naumen.txt
 [NBPL-1.0]: text/NBPL-1.0.txt
+[NCBI-PD]: text/NCBI-PD.txt
 [NCGL-UK-2.0]: text/NCGL-UK-2.0.txt
 [NCL]: text/NCL.txt
 [NCSA]: text/NCSA.txt
