@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-16T01:15:16Z",
+            "spdx:timestamp": "2024-05-18T17:20:43Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-05-16T01:15:17Z",
+            "spdx:timestamp": "2024-05-18T17:20:42Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/AFL-3.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -58,14 +66,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "Academic Free License v3.0",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/afl-3.0",
                 "http://www.rosenlaw.com/AFL3.0.htm"
