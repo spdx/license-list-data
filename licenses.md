@@ -1,11 +1,12 @@
 # License List
-The following licenses have been generated from the license list version 7af6ee3
+The following licenses have been generated from the license list version ed41458
 
 ## Licenses with Short Idenifiers
 
 | Full Name of License                                                                      | Short Identifier                         | OSI? | FSFLibre? |
 |-------------------------------------------------------------------------------------------|------------------------------------------|------|-----------|
 | BSD Zero Clause License                                                                   | [0BSD][]                                 | Y    |           |
+| 3D Slicer License v1.0                                                                    | [3D-Slicer-1.0][]                        |      |           |
 | Attribution Assurance License                                                             | [AAL][]                                  | Y    |           |
 | Abstyles License                                                                          | [Abstyles][]                             |      |           |
 | AdaCore Doc License                                                                       | [AdaCore-doc][]                          |      |           |
@@ -740,6 +741,7 @@ The following licenses have been generated from the license list version 7af6ee3
 | wxWindows Library License                                                                 | [wxWindows][]                            
 
 [0BSD]: text/0BSD.txt
+[3D-Slicer-1.0]: text/3D-Slicer-1.0.txt
 [AAL]: text/AAL.txt
 [Abstyles]: text/Abstyles.txt
 [AdaCore-doc]: text/AdaCore-doc.txt
