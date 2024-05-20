@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ed41458
+The following licenses have been generated from the license list version 24c3144
 
 ## Licenses with Short Idenifiers
 
@@ -296,6 +296,7 @@ The following licenses have been generated from the license list version ed41458
 | HPND with US Government export control warning                                            | [HPND-export-US][]                       |      |           |
 | HPND with US Government export control warning and acknowledgment                         | [HPND-export-US-acknowledgement][]       |      |           |
 | HPND with US Government export control warning and modification rqmt                      | [HPND-export-US-modify][]                |      |           |
+| HPND with US Government export control and 2 disclaimers                                  | [HPND-export2-US][]                      |      |           |
 | Historical Permission Notice and Disclaimer - Fenneberg-Livingston variant                | [HPND-Fenneberg-Livingston][]            |      |           |
 | Historical Permission Notice and Disclaimer    - INRIA-IMAG variant                       | [HPND-INRIA-IMAG][]                      |      |           |
 | Historical Permission Notice and Disclaimer - Intel variant                               | [HPND-Intel][]                           |      |           |
@@ -1053,6 +1054,7 @@ The following licenses have been generated from the license list version ed41458
 [HPND-export-US]: text/HPND-export-US.txt
 [HPND-export-US-acknowledgement]: text/HPND-export-US-acknowledgement.txt
 [HPND-export-US-modify]: text/HPND-export-US-modify.txt
+[HPND-export2-US]: text/HPND-export2-US.txt
 [HPND-Fenneberg-Livingston]: text/HPND-Fenneberg-Livingston.txt
 [HPND-INRIA-IMAG]: text/HPND-INRIA-IMAG.txt
 [HPND-Intel]: text/HPND-Intel.txt
