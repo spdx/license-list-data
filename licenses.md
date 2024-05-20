@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 24c3144
+The following licenses have been generated from the license list version 3ba09ed
 
 ## Licenses with Short Idenifiers
 
@@ -691,6 +691,7 @@ The following licenses have been generated from the license list version 24c3144
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
+| RRDtool FLOSS exception 2.0                           | [RRDtool-FLOSS-exception-2.0][]          |
 | SANE Exception                                        | [SANE-exception][]                       |
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
@@ -1454,6 +1455,7 @@ The following licenses have been generated from the license list version 24c3144
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
+[RRDtool-FLOSS-exception-2.0]: text/RRDtool-FLOSS-exception-2.0.txt
 [SANE-exception]: text/SANE-exception.txt
 [SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
