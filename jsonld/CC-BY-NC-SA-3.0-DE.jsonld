@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/CC-BY-NC-SA-3.0-DE",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -19,11 +16,14 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
-            "rdfs:seeAlso": "https://creativecommons.org/licenses/by-nc-sa/3.0/de/legalcode"
+            "rdfs:seeAlso": "https://creativecommons.org/licenses/by-nc-sa/3.0/de/legalcode",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-20T14:57:02Z",
+            "spdx:timestamp": "2024-05-21T11:10:03Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

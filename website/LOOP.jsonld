@@ -2,30 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-05-20T15:10:50Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "http://git.savannah.gnu.org/cgit/gcl.git/tree/gcl/lsp/gcl_loop.lsp?h=Version_2_6_13pre",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-05-20T15:11:06Z",
+            "spdx:timestamp": "2024-05-21T11:24:03Z",
             "spdx:order": {
                 "@value": "3",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,8 +24,54 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-05-21T11:24:06Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://sourceforge.net/p/sbcl/sbcl/ci/master/tree/src/code/loop.lisp",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "_:b2",
-            "spdx:timestamp": "2024-05-20T15:11:05Z",
+            "spdx:timestamp": "2024-05-21T11:24:08Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "http://git.savannah.gnu.org/cgit/gcl.git/tree/gcl/lsp/gcl_loop.lsp?h=Version_2_6_13pre",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b3",
+            "spdx:timestamp": "2024-05-21T11:24:02Z",
             "spdx:order": {
                 "@value": "4",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,31 +93,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b3",
-            "spdx:timestamp": "2024-05-20T15:09:14Z",
-            "spdx:order": {
-                "@value": "5",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://gitlab.common-lisp.net/cmucl/cmucl/-/blob/master/src/code/loop.lisp",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "_:b4",
-            "spdx:timestamp": "2024-05-20T15:09:13Z",
+            "spdx:timestamp": "2024-05-21T11:24:05Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -117,6 +117,26 @@
         },
         {
             "@id": "http://spdx.org/licenses/LOOP",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b3"
+                },
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b5"
+                },
+                {
+                    "@id": "_:b4"
+                },
+                {
+                    "@id": "_:b2"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/cl-adams/adams/blob/master/LICENSE.md",
                 "http://git.savannah.gnu.org/cgit/gcl.git/tree/gcl/lsp/gcl_loop.lsp?h=Version_2_6_13pre",
@@ -124,26 +144,6 @@
                 "https://github.com/blakemcbride/eclipse-lisp/blob/master/lisp/loop.lisp",
                 "https://sourceforge.net/p/sbcl/sbcl/ci/master/tree/src/code/loop.lisp",
                 "https://gitlab.com/embeddable-common-lisp/ecl/-/blob/develop/src/lsp/loop.lsp"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b4"
-                },
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b5"
-                },
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b2"
-                },
-                {
-                    "@id": "_:b3"
-                }
             ],
             "spdx:licenseId": "LOOP",
             "spdx:isDeprecatedLicenseId": {
@@ -156,18 +156,18 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "Portions of LOOP are Copyright (c) 1986 by the Massachusetts Institute of Technology. All Rights Reserved.\n\nPermission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the M.I.T. copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. The names \"M.I.T.\" and \"Massachusetts Institute of Technology\" may not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. Notice must be given in supporting documentation that copying distribution is by permission of M.I.T. M.I.T. makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\nMassachusetts Institute of Technology\n\n77 Massachusetts Avenue\n\nCambridge, Massachusetts 02139\n\nUnited States of America\n\n+1-617-253-1000\n\nPortions of LOOP are Copyright (c) 1989, 1990, 1991, 1992 by Symbolics, Inc. All Rights Reserved.\n\nPermission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the Symbolics copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. The name \"Symbolics\" may not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. Notice must be given in supporting documentation that copying distribution is by permission of Symbolics. Symbolics makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\nSymbolics, CLOE Runtime, and Minima are trademarks, and CLOE, Genera, and Zetalisp are registered trademarks of Symbolics, Inc.\n\nSymbolics, Inc.\n\n8 New England Executive Park, East\n\nBurlington, Massachusetts 01803\n\nUnited States of America\n\n+1-617-221-1000\n\n",
+            "@type": "spdx:ListedLicense",
             "spdx:name": "Common Lisp LOOP License"
         },
         {
             "@id": "_:b5",
-            "spdx:timestamp": "2024-05-20T15:09:16Z",
+            "spdx:timestamp": "2024-05-21T11:24:04Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "5",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://sourceforge.net/p/sbcl/sbcl/ci/master/tree/src/code/loop.lisp",
+            "spdx:url": "https://gitlab.common-lisp.net/cmucl/cmucl/-/blob/master/src/code/loop.lisp",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",

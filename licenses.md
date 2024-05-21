@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3ba09ed
+The following licenses have been generated from the license list version d8abdb0
 
 ## Licenses with Short Idenifiers
 
@@ -284,6 +284,7 @@ The following licenses have been generated from the license list version 3ba09ed
 | Graphics Gems License                                                                     | [Graphics-Gems][]                        |      |           |
 | gSOAP Public License v1.3b                                                                | [gSOAP-1.3b][]                           |      |           |
 | gtkbook License                                                                           | [gtkbook][]                              |      |           |
+| Gutmann License                                                                           | [Gutmann][]                              |      |           |
 | Haskell Language Report License                                                           | [HaskellReport][]                        |      |           |
 | hdparm License                                                                            | [hdparm][]                               |      |           |
 | Hippocratic License 2.1                                                                   | [Hippocratic-2.1][]                      |      |           |
@@ -302,6 +303,7 @@ The following licenses have been generated from the license list version 3ba09ed
 | Historical Permission Notice and Disclaimer - Intel variant                               | [HPND-Intel][]                           |      |           |
 | Historical Permission Notice and Disclaimer - Kevlin Henney variant                       | [HPND-Kevlin-Henney][]                   |      |           |
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant                         | [HPND-Markus-Kuhn][]                     |      |           |
+| Historical Permission Notice and Disclaimer - merchantability variant                     | [HPND-merchantability-variant][]         |      |           |
 | Historical Permission Notice and Disclaimer with MIT disclaimer                           | [HPND-MIT-disclaimer][]                  |      |           |
 | Historical Permission Notice and Disclaimer - Pbmplus variant                             | [HPND-Pbmplus][]                         |      |           |
 | Historical Permission Notice and Disclaimer - sell xserver variant with MIT disclaimer    | [HPND-sell-MIT-disclaimer-xserver][]     |      |           |
@@ -1043,6 +1045,7 @@ The following licenses have been generated from the license list version 3ba09ed
 [Graphics-Gems]: text/Graphics-Gems.txt
 [gSOAP-1.3b]: text/gSOAP-1.3b.txt
 [gtkbook]: text/gtkbook.txt
+[Gutmann]: text/Gutmann.txt
 [HaskellReport]: text/HaskellReport.txt
 [hdparm]: text/hdparm.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
@@ -1061,6 +1064,7 @@ The following licenses have been generated from the license list version 3ba09ed
 [HPND-Intel]: text/HPND-Intel.txt
 [HPND-Kevlin-Henney]: text/HPND-Kevlin-Henney.txt
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
+[HPND-merchantability-variant]: text/HPND-merchantability-variant.txt
 [HPND-MIT-disclaimer]: text/HPND-MIT-disclaimer.txt
 [HPND-Pbmplus]: text/HPND-Pbmplus.txt
 [HPND-sell-MIT-disclaimer-xserver]: text/HPND-sell-MIT-disclaimer-xserver.txt
