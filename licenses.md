@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b5a3b2e
+The following licenses have been generated from the license list version e3543ef
 
 ## Licenses with Short Idenifiers
 
@@ -287,6 +287,7 @@ The following licenses have been generated from the license list version b5a3b2e
 | Gutmann License                                                                           | [Gutmann][]                              |      |           |
 | Haskell Language Report License                                                           | [HaskellReport][]                        |      |           |
 | hdparm License                                                                            | [hdparm][]                               |      |           |
+| HIDAPI License                                                                            | [HIDAPI][]                               |      |           |
 | Hippocratic License 2.1                                                                   | [Hippocratic-2.1][]                      |      |           |
 | Hewlett-Packard 1986 License                                                              | [HP-1986][]                              |      |           |
 | Hewlett-Packard 1989 License                                                              | [HP-1989][]                              |      |           |
@@ -529,6 +530,7 @@ The following licenses have been generated from the license list version b5a3b2e
 | RSA Message-Digest License                                                                | [RSA-MD][]                               |      |           |
 | Ricoh Source Code Public License                                                          | [RSCPL][]                                | Y    |           |
 | Ruby License                                                                              | [Ruby][]                                 |      | Y         |
+| Ruby pty extension license                                                                | [Ruby-pty][]                             |      |           |
 | Sax Public Domain Notice                                                                  | [SAX-PD][]                               |      |           |
 | Sax Public Domain Notice 2.0                                                              | [SAX-PD-2.0][]                           |      |           |
 | Saxpath License                                                                           | [Saxpath][]                              |      |           |
@@ -610,6 +612,7 @@ The following licenses have been generated from the license list version b5a3b2e
 | Do What The F*ck You Want To Public License                                               | [WTFPL][]                                |      | Y         |
 | X11 License                                                                               | [X11][]                                  |      | Y         |
 | X11 License Distribution Modification Variant                                             | [X11-distribute-modifications-variant][] |      |           |
+| X11 swapped final paragraphs                                                              | [X11-swapped][]                          |      |           |
 | Xdebug License v 1.03                                                                     | [Xdebug-1.03][]                          |      |           |
 | Xerox License                                                                             | [Xerox][]                                |      |           |
 | Xfig License                                                                              | [Xfig][]                                 |      |           |
@@ -693,6 +696,7 @@ The following licenses have been generated from the license list version b5a3b2e
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
 | Qt LGPL exception 1.1                                 | [Qt-LGPL-exception-1.1][]                |
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
+| Romic Exception                                       | [romic-exception][]                      |
 | RRDtool FLOSS exception 2.0                           | [RRDtool-FLOSS-exception-2.0][]          |
 | SANE Exception                                        | [SANE-exception][]                       |
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
@@ -1048,6 +1052,7 @@ The following licenses have been generated from the license list version b5a3b2e
 [Gutmann]: text/Gutmann.txt
 [HaskellReport]: text/HaskellReport.txt
 [hdparm]: text/hdparm.txt
+[HIDAPI]: text/HIDAPI.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
 [HP-1986]: text/HP-1986.txt
 [HP-1989]: text/HP-1989.txt
@@ -1297,6 +1302,7 @@ The following licenses have been generated from the license list version b5a3b2e
 [RSA-MD]: text/RSA-MD.txt
 [RSCPL]: text/RSCPL.txt
 [Ruby]: text/Ruby.txt
+[Ruby-pty]: text/Ruby-pty.txt
 [SAX-PD]: text/SAX-PD.txt
 [SAX-PD-2.0]: text/SAX-PD-2.0.txt
 [Saxpath]: text/Saxpath.txt
@@ -1380,6 +1386,7 @@ The following licenses have been generated from the license list version b5a3b2e
 [wxWindows]: text/wxWindows.txt
 [X11]: text/X11.txt
 [X11-distribute-modifications-variant]: text/X11-distribute-modifications-variant.txt
+[X11-swapped]: text/X11-swapped.txt
 [Xdebug-1.03]: text/Xdebug-1.03.txt
 [Xerox]: text/Xerox.txt
 [Xfig]: text/Xfig.txt
@@ -1459,6 +1466,7 @@ The following licenses have been generated from the license list version b5a3b2e
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt
 [Qt-LGPL-exception-1.1]: text/Qt-LGPL-exception-1.1.txt
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
+[romic-exception]: text/romic-exception.txt
 [RRDtool-FLOSS-exception-2.0]: text/RRDtool-FLOSS-exception-2.0.txt
 [SANE-exception]: text/SANE-exception.txt
 [SHL-2.0]: text/SHL-2.0.txt

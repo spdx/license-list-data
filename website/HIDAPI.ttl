@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/HIDAPI>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "https://github.com/signal11/hidapi/blob/master/LICENSE-orig.txt" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2024-07-24T23:31:58Z" ;
+                                        spdx:url            "https://github.com/signal11/hidapi/blob/master/LICENSE-orig.txt"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "HIDAPI" ;
+        spdx:licenseText              "This software may be used by anyone for any reason so long\nas the copyright notice in the source files remains intact.\n" ;
+        spdx:licenseTextHtml          "\n         <p>\n            This software may be used by anyone for any reason so long\n            as the copyright notice in the source files remains intact.\n         </p>\n\n      " ;
+        spdx:name                     "HIDAPI License" ;
+        spdx:standardLicenseTemplate  "This software may be used by anyone for any reason so long as the copyright notice in the source files remains intact.\n\n" .

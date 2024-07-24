@@ -2,13 +2,13 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-06-28T08:45:59Z",
+            "spdx:timestamp": "2024-07-24T23:25:08Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:url": "http://www.saxproject.org/copying.html",
-            "spdx:match": "true",
+            "spdx:match": "N/A",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -18,16 +18,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/SAX-PD-2.0",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -41,6 +38,9 @@
             "spdx:standardLicenseTemplate": "<<beginOptional>><<var;name=\"header\";original=\"SAX IS FREE\";match=\"(SAX 2.0)|(SAX IS FREE)|(SAX2 is Free!)\">> <<var;name=\"underline\";original=\"-----------\";match=\"-*\">><<endOptional>>\n\nI hereby abandon any property rights to SAX 2.0 (the Simple API for XML), and release all of the SAX 2.0 source code, compiled code, and documentation contained in this distribution into the Public Domain. SAX comes with NO WARRANTY or guarantee of fitness for any purpose.\n\n<<var;name=\"copyright\";original=\"David Megginson, Megginson Technologies Ltd.    2000-05-05  \";match=\".{0,5000}\">>",
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": "http://www.saxproject.org/copying.html",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:name": "Sax Public Domain Notice 2.0",
             "spdx:licenseId": "SAX-PD-2.0"
         }
