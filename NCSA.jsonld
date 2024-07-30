@@ -1,60 +1,14 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "spdx:timestamp": "2024-07-29T13:27:55Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "http://otm.illinois.edu/uiuc_openSource",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-07-29T13:27:55Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://opensource.org/licenses/NCSA",
-            "spdx:match": "N/A",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/NCSA",
             "@type": "spdx:ListedLicense",
             "spdx:crossRef": [
                 {
-                    "@id": "_:b1"
+                    "@id": "_:b0"
                 },
                 {
-                    "@id": "_:b0"
+                    "@id": "_:b1"
                 }
             ],
             "spdx:isFsfLibre": {
@@ -78,6 +32,52 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
+        },
+        {
+            "@id": "_:b0",
+            "spdx:timestamp": "2024-07-29T23:58:00Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://opensource.org/licenses/NCSA",
+            "spdx:match": "N/A",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-07-29T23:58:00Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "http://otm.illinois.edu/uiuc_openSource",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
