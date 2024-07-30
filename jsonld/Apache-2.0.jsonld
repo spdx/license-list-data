@@ -2,30 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-07-29T13:36:18Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://opensource.org/licenses/Apache-2.0",
-            "spdx:match": "N/A",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-07-29T13:36:17Z",
+            "spdx:timestamp": "2024-07-30T00:06:43Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,38 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-07-30T00:06:43Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://opensource.org/licenses/Apache-2.0",
+            "spdx:match": "N/A",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Apache-2.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "rdfs:comment": "This license was released January 2004",
             "spdx:name": "Apache License 2.0",
             "rdfs:seeAlso": [
@@ -66,14 +74,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseHeaderHtml": "\n         <p>Copyright <var class=\"replaceable-license-text\"> [yyyy] [name of copyright owner]</var></p>\n\n         <p>Licensed under the Apache License, Version 2.0 (the &quot;License&quot;);\n        <br />\n\nyou may not use this file except in compliance with the License.\n        <br />\n\nYou may obtain a copy of the License at\n      </p>\n\n         <p>http://www.apache.org/licenses/LICENSE-2.0</p>\n\n         <p>Unless required by applicable law or agreed to in writing, software\n        <br />\n\ndistributed under the License is distributed on an &quot;AS IS&quot; BASIS,\n        <br />\n\nWITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n        <br />\n\nSee the License for the specific language governing permissions and\n        <br />\n\nlimitations under the License.\n      </p>\n\n        ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 034d78c
+The following licenses have been generated from the license list version 5f885e8
 
 ## Licenses with Short Idenifiers
 
@@ -306,6 +306,7 @@ The following licenses have been generated from the license list version 034d78c
 | Historical Permission Notice and Disclaimer - Markus Kuhn variant                         | [HPND-Markus-Kuhn][]                     |      |           |
 | Historical Permission Notice and Disclaimer - merchantability variant                     | [HPND-merchantability-variant][]         |      |           |
 | Historical Permission Notice and Disclaimer with MIT disclaimer                           | [HPND-MIT-disclaimer][]                  |      |           |
+| Historical Permission Notice and Disclaimer - Netrek variant                              | [HPND-Netrek][]                          |      |           |
 | Historical Permission Notice and Disclaimer - Pbmplus variant                             | [HPND-Pbmplus][]                         |      |           |
 | Historical Permission Notice and Disclaimer - sell xserver variant with MIT disclaimer    | [HPND-sell-MIT-disclaimer-xserver][]     |      |           |
 | Historical Permission Notice and Disclaimer - sell regexpr variant                        | [HPND-sell-regexpr][]                    |      |           |
@@ -1071,6 +1072,7 @@ The following licenses have been generated from the license list version 034d78c
 [HPND-Markus-Kuhn]: text/HPND-Markus-Kuhn.txt
 [HPND-merchantability-variant]: text/HPND-merchantability-variant.txt
 [HPND-MIT-disclaimer]: text/HPND-MIT-disclaimer.txt
+[HPND-Netrek]: text/HPND-Netrek.txt
 [HPND-Pbmplus]: text/HPND-Pbmplus.txt
 [HPND-sell-MIT-disclaimer-xserver]: text/HPND-sell-MIT-disclaimer-xserver.txt
 [HPND-sell-regexpr]: text/HPND-sell-regexpr.txt
