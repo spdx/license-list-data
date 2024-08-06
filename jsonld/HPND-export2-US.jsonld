@@ -2,35 +2,12 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-07-30T00:08:41Z",
+            "spdx:timestamp": "2024-08-06T11:20:12Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-07-30T00:08:42Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -56,6 +33,8 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "rdfs:comment": "This license is very similar to HPND-export-US, but adds a second disclaimer.",
+            "spdx:licenseId": "HPND-export2-US",
             "spdx:crossRef": [
                 {
                     "@id": "_:b1"
@@ -64,8 +43,6 @@
                     "@id": "_:b0"
                 }
             ],
-            "rdfs:comment": "This license is very similar to HPND-export-US, but adds a second disclaimer.",
-            "spdx:licenseId": "HPND-export2-US",
             "spdx:name": "HPND with US Government export control and 2 disclaimers",
             "@type": "spdx:ListedLicense",
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright 2004-2008 Apple Inc. All Rights Reserved.\n         </var>\n         <p>\n            Export of this software from the United States of America may\n            require a specific license from the United States Government.\n            It is the responsibility of any person or organization\n            contemplating export to obtain such a license before exporting.\n         </p>\n\n         <p>\n            WITHIN THAT CONSTRAINT, permission to use, copy, modify, and\n            distribute this software and its documentation for any purpose and\n            without fee is hereby granted, provided that the above copyright\n            notice appear in all copies and that both that copyright notice\n            and this permission notice appear in supporting documentation,\n            and that the name of <var class=\"replaceable-license-text\"> Apple Inc.</var> not be used in advertising or\n            publicity pertaining to distribution of the software without\n            specific, written prior permission. <var class=\"replaceable-license-text\"> Apple Inc.</var>. makes no\n            representations about the suitability of this software for any\n            purpose. It is provided &quot;as is&quot; without express or implied warranty.\n         </p>\n\n         <p>\n            THIS SOFTWARE IS PROVIDED &quot;AS IS&quot; AND WITHOUT ANY EXPRESS OR\n            IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\n            WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n         </p>\n\n      ",
@@ -75,6 +52,29 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-08-06T11:20:11Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
