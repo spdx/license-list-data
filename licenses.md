@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 9a2bc4e
+The following licenses have been generated from the license list version 9fe806f
 
 ## Licenses with Short Idenifiers
 
@@ -658,6 +658,7 @@ The following licenses have been generated from the license list version 9a2bc4e
 | cryptsetup OpenSSL exception                          | [cryptsetup-OpenSSL-exception][]         |
 | DigiRule FOSS License Exception                       | [DigiRule-FOSS-exception][]              |
 | eCos exception 2.0                                    | [eCos-exception-2.0][]                   |
+| Erlang/OTP Linking Exception                          | [erlang-otp-linking-exception][]         |
 | Fawkes Runtime Exception                              | [Fawkes-Runtime-exception][]             |
 | FLTK exception                                        | [FLTK-exception][]                       |
 | fmt exception                                         | [fmt-exception][]                        |
@@ -1428,6 +1429,7 @@ The following licenses have been generated from the license list version 9a2bc4e
 [cryptsetup-OpenSSL-exception]: text/cryptsetup-OpenSSL-exception.txt
 [DigiRule-FOSS-exception]: text/DigiRule-FOSS-exception.txt
 [eCos-exception-2.0]: text/eCos-exception-2.0.txt
+[erlang-otp-linking-exception]: text/erlang-otp-linking-exception.txt
 [Fawkes-Runtime-exception]: text/Fawkes-Runtime-exception.txt
 [FLTK-exception]: text/FLTK-exception.txt
 [fmt-exception]: text/fmt-exception.txt

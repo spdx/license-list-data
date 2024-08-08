@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-06T11:27:33Z",
+            "spdx:timestamp": "2024-08-08T13:50:54Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/check-cvs",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -40,10 +43,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to copy and/or distribute this file, with\n            or without modifications, provided this notice is preserved.\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "Permission is granted to copy and/or distribute this file, with or without modifications, provided this notice is preserved.\n\n",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
+            "spdx:standardLicenseTemplate": "Permission is granted to copy and/or distribute this file, with or without modifications, provided this notice is preserved.\n\n"
         }
     ],
     "@context": {

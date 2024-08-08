@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-06T11:27:46Z",
+            "spdx:timestamp": "2024-08-08T13:50:14Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,13 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/Apache-1.1",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
+            "rdfs:seeAlso": [
+                "http://apache.org/licenses/LICENSE-1.1",
+                "https://opensource.org/licenses/Apache-1.1"
             ],
             "rdfs:comment": "This license has been superseded by Apache License 2.0",
             "@type": "spdx:ListedLicense",
@@ -41,11 +37,15 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "rdfs:seeAlso": [
-                "https://opensource.org/licenses/Apache-1.1",
-                "http://apache.org/licenses/LICENSE-1.1"
-            ],
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>The Apache Software License, Version 1.1</p>\n\n      </div>\n         <p>Copyright (c) 2000 The Apache Software Foundation. All rights reserved.</p>\n\n      <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided\n       that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n         \n<li>\n            <var class=\"replaceable-license-text\"> 1.</var>\n        Redistributions of source code must retain the above copyright notice, this list of conditions\n           and the following disclaimer.\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"> 2.</var>\n        Redistributions in binary form must reproduce the above copyright notice, this list of conditions\n           and the following disclaimer in the documentation and/or other materials provided with the\n           distribution.\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"> 3.</var>\n        The end-user documentation included with the redistribution, if any, must include the following\n           acknowledgment:\n          <br />\n\n   &quot;This product includes software developed by\n          <var class=\"replaceable-license-text\"> the Apache Software Foundation (http://www.apache.org/)</var>.&quot;\n          <br />\n\n   Alternately, this acknowledgment may appear in the software itself, if and wherever such\n               third-party acknowledgments normally appear.\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"> 4.</var>\n        The\n          <var class=\"replaceable-license-text\"> name</var>\n            <var class=\"replaceable-license-text\"> &quot;Apache&quot; and &quot;Apache Software Foundation&quot;</var> must\n          not be used to endorse or promote products derived from this software without prior written\n          permission. <var class=\"optional-license-text\"> For written permission, please contact apache@apache.org</var>.\n\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"> 5.</var>\n        <var class=\"replaceable-license-text\"> Products derived from this software may not be called &quot;Apache&quot; \n\t\tnor may &quot;Apache&quot; [ex. the names] appear in their name, \n\t\twithout prior written permission of the Apache Software Foundation.</var>\n      </li>\n      \n</ul>\n      <p>THIS SOFTWARE IS PROVIDED ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED\n       TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN\n       NO EVENT SHALL\n      <var class=\"replaceable-license-text\"> THE APACHE SOFTWARE FOUNDATION OR ITS CONTRIBUTORS</var>\n      BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n      BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR\n      BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\n      LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n      SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n    </p>\n\n      <p>\n         <var class=\"optional-license-text\"> This software consists of voluntary contributions made by many individuals on behalf of the Apache\n       Software Foundation. For more information on the Apache Software Foundation, please see\n       &lt;http://www.apache.org/&gt;. Portions of this software are based upon public domain software originally\n       written at the National Center for Supercomputing Applications, University of Illinois,\n      Urbana-Champaign.</var>\n      </p>\n\n    ",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -59,7 +59,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-08-06T11:27:46Z",
+            "spdx:timestamp": "2024-08-08T13:50:14Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
