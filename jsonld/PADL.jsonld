@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/PADL",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:comment": "This is similar to BSD-4.3RENO and Furuseth",
             "rdfs:seeAlso": "https://git.openldap.org/openldap/openldap/-/blob/master/libraries/libldap/os-local.c?ref_type=heads#L19-23",
             "spdx:name": "PADL License",
@@ -17,14 +20,11 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Portions (C) Copyright PADL Software Pty Ltd. 1999\";match=\".{0,5000}\">>\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that this notice is preserved and that due credit is given to PADL Software Pty Ltd. This software is provided ``as is'' without express or implied warranty.\n\n"
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-08T13:47:15Z",
+            "spdx:timestamp": "2024-08-10T05:22:57Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

@@ -2,13 +2,13 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-08T13:47:19Z",
+            "spdx:timestamp": "2024-08-10T05:23:00Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://www.eiffel-nice.org/license/forum.txt",
-            "spdx:match": "false",
+            "spdx:url": "https://opensource.org/licenses/EFL-1.0",
+            "spdx:match": "N/A",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -25,13 +25,13 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-08-08T13:47:18Z",
+            "spdx:timestamp": "2024-08-10T05:23:01Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://opensource.org/licenses/EFL-1.0",
-            "spdx:match": "N/A",
+            "spdx:url": "http://www.eiffel-nice.org/license/forum.txt",
+            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -54,6 +54,14 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "Eiffel Forum License v1.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,14 +74,6 @@
             "spdx:licenseId": "EFL-1.0",
             "spdx:licenseText": "Eiffel Forum License, version 1\n\nPermission is hereby granted to use, copy, modify and/or distribute this package, provided that:\n\n     - copyright notices are retained unchanged\n\n     - any distribution of this package, whether modified or not, includes this file\n\nPermission is hereby also granted to distribute binary programs which depend on this package, provided that:\n\n     - if the binary program depends on a modified version of this package, you must publicly release the modified version of this package\n\nTHIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.\n",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "rdfs:comment": "This license has been superseded by v2.0"
         }
     ],
