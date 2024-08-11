@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3b08ac5
+The following licenses have been generated from the license list version 766e308
 
 ## Licenses with Short Idenifiers
 
@@ -605,7 +605,7 @@ The following licenses have been generated from the license list version 3b08ac5
 | Vovida Software License v1.0                                                              | [VSL-1.0][]                              | Y    |           |
 | W3C Software Notice and License (2002-12-31)                                              | [W3C][]                                  | Y    | Y         |
 | W3C Software Notice and License (1998-07-20)                                              | [W3C-19980720][]                         |      |           |
-| W3C Software Notice and Document License (2015-05-13)                                     | [W3C-20150513][]                         |      |           |
+| W3C Software Notice and Document License (2015-05-13)                                     | [W3C-20150513][]                         | Y    |           |
 | w3m License                                                                               | [w3m][]                                  |      |           |
 | Sybase Open Watcom Public License 1.0                                                     | [Watcom-1.0][]                           | Y    |           |
 | Widget Workshop License                                                                   | [Widget-Workshop][]                      |      |           |

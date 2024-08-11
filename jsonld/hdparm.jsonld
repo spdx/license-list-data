@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-10T05:27:20Z",
+            "spdx:timestamp": "2024-08-11T04:11:29Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/hdparm",
             "spdx:licenseText": "BSD-Style Open Source License:\n\nYou may freely use, modify, and redistribute the hdparm program,\nas either binary or source, or both.\n\nThe only condition is that my name and copyright notice\nremain in the source code as-is.\n\nMark Lord (mlord@pobox.com)\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://github.com/Distrotech/hdparm/blob/4517550db29a91420fb2b020349523b1b4512df2/LICENSE.TXT",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -34,9 +37,6 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:standardLicenseTemplate": "BSD-Style Open Source License:\n\nYou may freely use, modify, and redistribute the hdparm program, as either binary or source, or both.\n\nThe only condition is that my name and copyright notice remain in the source code as-is.\n\n<<var;name=\"copyright\";original=\"Mark Lord (mlord@pobox.com)  \";match=\".{0,5000}\">>",
             "@type": "spdx:ListedLicense",
