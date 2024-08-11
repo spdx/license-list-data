@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 766e308
+The following licenses have been generated from the license list version 8899596
 
 ## Licenses with Short Idenifiers
 
@@ -428,7 +428,6 @@ The following licenses have been generated from the license list version 766e308
 | Non-Commercial Government Licence                                                         | [NCGL-UK-2.0][]                          |      |           |
 | NCL Source Code License                                                                   | [NCL][]                                  |      |           |
 | University of Illinois/NCSA Open Source License                                           | [NCSA][]                                 | Y    | Y         |
-| Net-SNMP License                                                                          | [Net-SNMP][]                             |      |           |
 | NetCDF license                                                                            | [NetCDF][]                               |      |           |
 | Newsletr License                                                                          | [Newsletr][]                             |      |           |
 | Nethack General Public License                                                            | [NGPL][]                                 | Y    |           |
@@ -746,6 +745,7 @@ The following licenses have been generated from the license list version 766e308
 | GNU Lesser General Public License v2.1 or later                                           | [LGPL-2.1+][]                            
 | GNU Lesser General Public License v3.0 only                                               | [LGPL-3.0][]                             
 | GNU Lesser General Public License v3.0 or later                                           | [LGPL-3.0+][]                            
+| Net-SNMP License                                                                          | [Net-SNMP][]                             
 | Nunit License                                                                             | [Nunit][]                                
 | Standard ML of New Jersey License                                                         | [StandardML-NJ][]                        
 | wxWindows Library License                                                                 | [wxWindows][]                            

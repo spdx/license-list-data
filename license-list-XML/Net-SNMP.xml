@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SPDXLicenseCollection xmlns="http://www.spdx.org/license">
    <license isOsiApproved="false" licenseId="Net-SNMP" listVersionAdded="2.6"
-            name="Net-SNMP License">
+            name="Net-SNMP License" deprecatedVersion="3.25.0">
       <crossRefs>
          <crossRef>http://net-snmp.sourceforge.net/about/license.html</crossRef>
       </crossRefs>
-      <notes>This is the overall Net-SNMP license, which is comprised of several
-         licenses which are referred to in totality by the notices in
-         the source files.</notes>
+      <notes>DEPRECATED: The Net-SNMP license id represented the license stack 
+         of 9 licenses found at https://net-snmp.sourceforge.io/about/license.html 
+         and net-snmp-5.6.2. Since then, more licenses have been added. Retaining 
+         this license id could consequently cause confusion and all of the licenses 
+         in the stack are already on the SPDX License List, thus can be identified 
+         with an SPDX license expression.</notes>
 
     <text>
       <p>---- Part 1: CMU/UCD copyright notice: (BSD like) -----</p>
