@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-13T13:50:53Z",
+            "spdx:timestamp": "2024-08-13T14:15:26Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/CC-BY-NC-SA-1.0",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:name": "Creative Commons Attribution Non Commercial Share Alike 1.0 Generic",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -32,9 +35,6 @@
             },
             "@type": "spdx:ListedLicense",
             "spdx:licenseId": "CC-BY-NC-SA-1.0",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
