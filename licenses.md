@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 250eed6
+The following licenses have been generated from the license list version daa24ff
 
 ## Licenses with Short Idenifiers
 
@@ -212,6 +212,7 @@ The following licenses have been generated from the license list version 250eed6
 | Data licence Germany – zero – version 2.0                                                 | [DL-DE-ZERO-2.0][]                       |      |           |
 | DOC License                                                                               | [DOC][]                                  |      |           |
 | DocBook Schema License                                                                    | [DocBook-Schema][]                       |      |           |
+| DocBook XML License                                                                       | [DocBook-XML][]                          |      |           |
 | Dotseqn License                                                                           | [Dotseqn][]                              |      |           |
 | Detection Rule License 1.0                                                                | [DRL-1.0][]                              |      |           |
 | Detection Rule License 1.1                                                                | [DRL-1.1][]                              |      |           |
@@ -963,6 +964,7 @@ The following licenses have been generated from the license list version 250eed6
 [DL-DE-ZERO-2.0]: text/DL-DE-ZERO-2.0.txt
 [DOC]: text/DOC.txt
 [DocBook-Schema]: text/DocBook-Schema.txt
+[DocBook-XML]: text/DocBook-XML.txt
 [Dotseqn]: text/Dotseqn.txt
 [DRL-1.0]: text/DRL-1.0.txt
 [DRL-1.1]: text/DRL-1.1.txt

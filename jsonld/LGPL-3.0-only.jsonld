@@ -2,30 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-13T14:08:46Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-08-13T14:08:45Z",
+            "spdx:timestamp": "2024-08-13T14:37:15Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,8 +24,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b2",
-            "spdx:timestamp": "2024-08-13T14:08:45Z",
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-08-13T14:37:15Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,6 +47,29 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:b2",
+            "spdx:timestamp": "2024-08-13T14:37:15Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/LGPL-3.0-only",
             "rdfs:comment": "This license was released: 29 June 2007. This refers to when only this version of the LGPL is used (as opposed to \"or later\"). The markup includes the GPL-3.0 text as optional text, because the LGPL-3.0 is structured as a supplement to the terms of GPL-3.0.",
             "spdx:isOsiApproved": {
@@ -84,13 +84,13 @@
             ],
             "spdx:crossRef": [
                 {
+                    "@id": "_:b2"
+                },
+                {
                     "@id": "_:b0"
                 },
                 {
                     "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b2"
                 }
             ],
             "spdx:licenseId": "LGPL-3.0-only",

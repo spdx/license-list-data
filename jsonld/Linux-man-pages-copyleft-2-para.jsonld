@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-13T14:11:23Z",
+            "spdx:timestamp": "2024-08-13T14:39:58Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft-2-para",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "rdfs:comment": "",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -39,14 +47,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseId": "Linux-man-pages-copyleft-2-para",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:name": "Linux man-pages Copyleft - 2 paragraphs",
             "spdx:standardLicenseTemplate": "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.\n\n",
             "@type": "spdx:ListedLicense",
@@ -55,7 +55,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-08-13T14:11:23Z",
+            "spdx:timestamp": "2024-08-13T14:39:58Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
