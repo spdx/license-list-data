@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-19T17:12:18Z",
+            "spdx:timestamp": "2024-08-19T17:35:08Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/CPOL-1.02",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:licenseId": "CPOL-1.02",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -35,9 +38,6 @@
             "spdx:isFsfLibre": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:isOsiApproved": {
                 "@value": "false",
