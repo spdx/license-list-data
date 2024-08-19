@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 0efc39c
+The following licenses have been generated from the license list version 5f58848
 
 ## Licenses with Short Idenifiers
 
@@ -589,6 +589,7 @@ The following licenses have been generated from the license list version 0efc39c
 | TTYP0 License                                                                             | [TTYP0][]                                |      |           |
 | Technische Universitaet Berlin License 1.0                                                | [TU-Berlin-1.0][]                        |      |           |
 | Technische Universitaet Berlin License 2.0                                                | [TU-Berlin-2.0][]                        |      |           |
+| Ubuntu Font Licence v1.0                                                                  | [Ubuntu-font-1.0][]                      |      |           |
 | UCAR License                                                                              | [UCAR][]                                 |      |           |
 | Upstream Compatibility License v1.0                                                       | [UCL-1.0][]                              | Y    |           |
 | ulem License                                                                              | [ulem][]                                 |      |           |
@@ -1367,6 +1368,7 @@ The following licenses have been generated from the license list version 0efc39c
 [TTYP0]: text/TTYP0.txt
 [TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
 [TU-Berlin-2.0]: text/TU-Berlin-2.0.txt
+[Ubuntu-font-1.0]: text/Ubuntu-font-1.0.txt
 [UCAR]: text/UCAR.txt
 [UCL-1.0]: text/UCL-1.0.txt
 [ulem]: text/ulem.txt
