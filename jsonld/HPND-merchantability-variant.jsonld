@@ -1,6 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "spdx:timestamp": "2024-08-19T17:23:53Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/misc/fini.c;hb=HEAD",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/HPND-merchantability-variant",
             "rdfs:seeAlso": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/misc/fini.c;hb=HEAD",
             "spdx:crossRef": {
@@ -21,29 +44,6 @@
             "spdx:licenseId": "HPND-merchantability-variant",
             "rdfs:comment": "This is similar to the HPND grant and short disclaimer, but adds a specific disclaimer as to merchantability and fitness for a particular purpose.",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2004 Christian Groessler <chris@groessler.org>\";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this file for any purpose is hereby granted without fee, provided that the above copyright notice and this notice appears in all copies.\n\nThis file is distributed WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
-        },
-        {
-            "@id": "_:b0",
-            "spdx:timestamp": "2024-08-19T12:32:37Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/misc/fini.c;hb=HEAD",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

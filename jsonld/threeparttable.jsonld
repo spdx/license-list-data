@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-19T12:24:46Z",
+            "spdx:timestamp": "2024-08-19T17:16:02Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/threeparttable",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -39,9 +42,6 @@
             },
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Threeparttable",
             "spdx:licenseTextHtml": "\n         <p>\n            This file may be distributed, modified, and used in other works\n            with just one restriction: modified versions must clearly indicate\n            the modification (a name change, or a displayed message, or ?).\n         </p>\n\n      ",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:licenseId": "threeparttable"
         }
     ],
