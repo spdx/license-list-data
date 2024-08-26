@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.25.0
+The following licenses have been generated from the license list version 2103bda
 
 ## Licenses with Short Idenifiers
 
@@ -585,6 +585,7 @@ The following licenses have been generated from the license list version 3.25.0
 | Trusster Open Source License                                                              | [TOSL][]                                 |      |           |
 | Time::ParseDate License                                                                   | [TPDL][]                                 |      |           |
 | THOR Public License 1.0                                                                   | [TPL-1.0][]                              |      |           |
+| TrustedQSL License                                                                        | [TrustedQSL][]                           |      |           |
 | Text-Tabs+Wrap License                                                                    | [TTWL][]                                 |      |           |
 | TTYP0 License                                                                             | [TTYP0][]                                |      |           |
 | Technische Universitaet Berlin License 1.0                                                | [TU-Berlin-1.0][]                        |      |           |
@@ -1364,6 +1365,7 @@ The following licenses have been generated from the license list version 3.25.0
 [TOSL]: text/TOSL.txt
 [TPDL]: text/TPDL.txt
 [TPL-1.0]: text/TPL-1.0.txt
+[TrustedQSL]: text/TrustedQSL.txt
 [TTWL]: text/TTWL.txt
 [TTYP0]: text/TTYP0.txt
 [TU-Berlin-1.0]: text/TU-Berlin-1.0.txt
