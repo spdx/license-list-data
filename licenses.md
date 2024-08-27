@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 15cc8b4
+The following licenses have been generated from the license list version 09553c9
 
 ## Licenses with Short Idenifiers
 
@@ -212,6 +212,7 @@ The following licenses have been generated from the license list version 15cc8b4
 | Data licence Germany – zero – version 2.0                                                 | [DL-DE-ZERO-2.0][]                       |      |           |
 | DOC License                                                                               | [DOC][]                                  |      |           |
 | DocBook Schema License                                                                    | [DocBook-Schema][]                       |      |           |
+| DocBook Stylesheet License                                                                | [DocBook-Stylesheet][]                   |      |           |
 | DocBook XML License                                                                       | [DocBook-XML][]                          |      |           |
 | Dotseqn License                                                                           | [Dotseqn][]                              |      |           |
 | Detection Rule License 1.0                                                                | [DRL-1.0][]                              |      |           |
@@ -394,6 +395,7 @@ The following licenses have been generated from the license list version 15cc8b4
 | MIT License                                                                               | [MIT][]                                  | Y    | Y         |
 | MIT No Attribution                                                                        | [MIT-0][]                                | Y    |           |
 | Enlightenment License (e16)                                                               | [MIT-advertising][]                      |      |           |
+| MIT Click License                                                                         | [MIT-Click][]                            |      |           |
 | CMU License                                                                               | [MIT-CMU][]                              |      |           |
 | enna License                                                                              | [MIT-enna][]                             |      |           |
 | feh License                                                                               | [MIT-feh][]                              |      |           |
@@ -675,6 +677,7 @@ The following licenses have been generated from the license list version 15cc8b4
 | GNOME examples exception                              | [GNOME-examples-exception][]             |
 | GNU Compiler Exception                                | [GNU-compiler-exception][]               |
 | GNU JavaMail exception                                | [gnu-javamail-exception][]               |
+| GPL-3.0 389 DS Base Exception                         | [GPL-3.0-389-ds-base-exception][]        |
 | GPL-3.0 Interface Exception                           | [GPL-3.0-interface-exception][]          |
 | GPL-3.0 Linking Exception                             | [GPL-3.0-linking-exception][]            |
 | GPL-3.0 Linking Exception (with Corresponding Source) | [GPL-3.0-linking-source-exception][]     |
@@ -966,6 +969,7 @@ The following licenses have been generated from the license list version 15cc8b4
 [DL-DE-ZERO-2.0]: text/DL-DE-ZERO-2.0.txt
 [DOC]: text/DOC.txt
 [DocBook-Schema]: text/DocBook-Schema.txt
+[DocBook-Stylesheet]: text/DocBook-Stylesheet.txt
 [DocBook-XML]: text/DocBook-XML.txt
 [Dotseqn]: text/Dotseqn.txt
 [DRL-1.0]: text/DRL-1.0.txt
@@ -1171,6 +1175,7 @@ The following licenses have been generated from the license list version 15cc8b4
 [MIT]: text/MIT.txt
 [MIT-0]: text/MIT-0.txt
 [MIT-advertising]: text/MIT-advertising.txt
+[MIT-Click]: text/MIT-Click.txt
 [MIT-CMU]: text/MIT-CMU.txt
 [MIT-enna]: text/MIT-enna.txt
 [MIT-feh]: text/MIT-feh.txt
@@ -1451,6 +1456,7 @@ The following licenses have been generated from the license list version 15cc8b4
 [GNOME-examples-exception]: text/GNOME-examples-exception.txt
 [GNU-compiler-exception]: text/GNU-compiler-exception.txt
 [gnu-javamail-exception]: text/gnu-javamail-exception.txt
+[GPL-3.0-389-ds-base-exception]: text/GPL-3.0-389-ds-base-exception.txt
 [GPL-3.0-interface-exception]: text/GPL-3.0-interface-exception.txt
 [GPL-3.0-linking-exception]: text/GPL-3.0-linking-exception.txt
 [GPL-3.0-linking-source-exception]: text/GPL-3.0-linking-source-exception.txt
