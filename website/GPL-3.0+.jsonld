@@ -1,30 +1,15 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "spdx:timestamp": "2024-08-27T16:01:27Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/GPL-3.0+",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/GPL-3.0",
                 "https://www.gnu.org/licenses/gpl-3.0-standalone.html"
@@ -50,19 +35,34 @@
             },
             "spdx:standardLicenseHeaderTemplate": "<<var;name=\"description\";original=\"<one line to give the program's name and a brief idea of what it does.>\";match=\".+\">>\n\nCopyright (C) <<var;name=\"copyright\";original=\"<year> <name of author>\";match=\".+\">>\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.\n\n",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:deprecatedVersion": "2.0rc2"
         },
         {
+            "@id": "_:b0",
+            "spdx:timestamp": "2024-09-13T21:49:57Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-08-27T16:01:27Z",
+            "spdx:timestamp": "2024-09-13T21:49:57Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

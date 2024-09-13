@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 09553c9
+The following licenses have been generated from the license list version 4158543
 
 ## Licenses with Short Idenifiers
 
@@ -63,6 +63,7 @@ The following licenses have been generated from the license list version 09553c9
 | SQLite Blessing                                                                           | [blessing][]                             |      |           |
 | Blue Oak Model License 1.0.0                                                              | [BlueOak-1.0.0][]                        | Y    |           |
 | Boehm-Demers-Weiser GC License                                                            | [Boehm-GC][]                             |      |           |
+| Boehm-Demers-Weiser GC License (without fee)                                              | [Boehm-GC-without-fee][]                 |      |           |
 | Borceux license                                                                           | [Borceux][]                              |      |           |
 | Brian Gladman 2-Clause License                                                            | [Brian-Gladman-2-Clause][]               |      |           |
 | Brian Gladman 3-Clause License                                                            | [Brian-Gladman-3-Clause][]               |      |           |
@@ -817,6 +818,7 @@ The following licenses have been generated from the license list version 09553c9
 [blessing]: text/blessing.txt
 [BlueOak-1.0.0]: text/BlueOak-1.0.0.txt
 [Boehm-GC]: text/Boehm-GC.txt
+[Boehm-GC-without-fee]: text/Boehm-GC-without-fee.txt
 [Borceux]: text/Borceux.txt
 [Brian-Gladman-2-Clause]: text/Brian-Gladman-2-Clause.txt
 [Brian-Gladman-3-Clause]: text/Brian-Gladman-3-Clause.txt

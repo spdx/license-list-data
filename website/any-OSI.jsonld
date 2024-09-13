@@ -2,15 +2,15 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/any-OSI",
-            "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
             "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:name": "Any OSI License",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "spdx:licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n",
             "spdx:licenseTextHtml": "\n         <p>\n            Pick your favourite OSI approved license :)\n         </p>\n\n         <p>\n            http://www.opensource.org/licenses/alphabetical\n         </p>\n\n      ",
@@ -23,7 +23,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-08-27T15:52:48Z",
+            "spdx:timestamp": "2024-09-13T21:40:53Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
