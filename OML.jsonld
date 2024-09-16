@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-09-13T21:50:31Z",
+            "spdx:timestamp": "2024-09-16T05:06:04Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/OML",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Open_Market_License",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -42,7 +39,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         }
     ],
     "@context": {
