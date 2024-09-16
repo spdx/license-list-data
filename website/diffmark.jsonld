@@ -2,12 +2,12 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/diffmark",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/diffmark",
             "spdx:standardLicenseTemplate": "\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
@@ -23,7 +23,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-09-13T21:45:06Z",
+            "spdx:timestamp": "2024-09-16T05:00:36Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
