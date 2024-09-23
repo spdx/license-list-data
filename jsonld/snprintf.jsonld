@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-09-16T04:53:37Z",
+            "spdx:timestamp": "2024-09-23T12:59:35Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/snprintf",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -39,6 +36,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "rdfs:seeAlso": "https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            Copyright Patrick Powell 1995\n         </var>\n         <p>\n            This code is based on code written by Patrick Powell\n            (papowell@astart.com) It may be used for any purpose as long\n            as this notice remains intact on all source code distributions\n         </p>\n\n      ",
             "spdx:licenseId": "snprintf",
