@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f3df867
+The following licenses have been generated from the license list version 1b9e1ef
 
 ## Licenses with Short Idenifiers
 
@@ -543,6 +543,7 @@ The following licenses have been generated from the license list version f3df867
 | Scheme Language Report License                                                            | [SchemeReport][]                         |      |           |
 | Sendmail License                                                                          | [Sendmail][]                             |      |           |
 | Sendmail License 8.23                                                                     | [Sendmail-8.23][]                        |      |           |
+| Sendmail Open Source License v1.1                                                         | [Sendmail-Open-Source-1.1][]             |      |           |
 | SGI Free Software License B v1.0                                                          | [SGI-B-1.0][]                            |      |           |
 | SGI Free Software License B v1.1                                                          | [SGI-B-1.1][]                            |      |           |
 | SGI Free Software License B v2.0                                                          | [SGI-B-2.0][]                            |      | Y         |
@@ -1326,6 +1327,7 @@ The following licenses have been generated from the license list version f3df867
 [SchemeReport]: text/SchemeReport.txt
 [Sendmail]: text/Sendmail.txt
 [Sendmail-8.23]: text/Sendmail-8.23.txt
+[Sendmail-Open-Source-1.1]: text/Sendmail-Open-Source-1.1.txt
 [SGI-B-1.0]: text/SGI-B-1.0.txt
 [SGI-B-1.1]: text/SGI-B-1.1.txt
 [SGI-B-2.0]: text/SGI-B-2.0.txt
