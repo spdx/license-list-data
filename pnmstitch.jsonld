@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-10-04T20:32:08Z",
+            "spdx:timestamp": "2024-10-06T08:32:05Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/pnmstitch",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 2002 Mark Salyzyn  All rights reserved.  \";match=\".{0,5000}\">><<beginOptional>> TERMS AND CONDITIONS OF USE\n\n<<endOptional>>\n\nRedistribution and use in source form, with or without modification, are permitted provided that redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\nThis software is provided `as is' by <<var;name=\"author\";original=\"Mark Salyzyn\";match=\".+\">> and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose, are disclaimed. In no event shall <<var;name=\"author\";original=\"Mark Salyzyn\";match=\".+\">> be liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruptions) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.\n\nAny restrictions or encumberances added to this source code or derivitives, is prohibited.\n\n",
             "rdfs:seeAlso": "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/editor/pnmstitch.c#l2",
             "spdx:licenseId": "pnmstitch",
@@ -42,6 +39,9 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:b0"
             }
         }
     ],

@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/any-OSI",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
             "@type": "spdx:ListedLicense",
             "spdx:name": "Any OSI License",
@@ -16,14 +19,11 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             }
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-10-04T20:25:03Z",
+            "spdx:timestamp": "2024-10-06T08:23:34Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

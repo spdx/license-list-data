@@ -1,8 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/TPDL",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:name": "Time::ParseDate License",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc.\";match=\".{0,5000}\">>\n\nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n\n",
+            "spdx:licenseText": "Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc. \nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n",
+            "spdx:licenseId": "TPDL",
+            "rdfs:seeAlso": "https://metacpan.org/pod/Time::ParseDate#LICENSE",
+            "spdx:licenseTextHtml": "\n            <var class=\"replaceable-license-text\"> \n               Copyright (C) 1996-2010 David Muir\n               Sharnoff. Copyright (C) 2011 Google, Inc.\n            </var>\n            <p>License hereby granted for anyone to use, modify or redistribute this\n            module at their own risk. Please feed useful changes back to\n           cpan@dave.sharnoff.org.\n         </p>\n\n      ",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense"
+        },
+        {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-10-04T20:23:21Z",
+            "spdx:timestamp": "2024-10-06T08:21:36Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -22,27 +43,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/TPDL",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "Time::ParseDate License",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc.\";match=\".{0,5000}\">>\n\nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n\n",
-            "spdx:licenseText": "Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc. \nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n",
-            "spdx:licenseId": "TPDL",
-            "rdfs:seeAlso": "https://metacpan.org/pod/Time::ParseDate#LICENSE",
-            "spdx:licenseTextHtml": "\n            <var class=\"replaceable-license-text\"> \n               Copyright (C) 1996-2010 David Muir\n               Sharnoff. Copyright (C) 2011 Google, Inc.\n            </var>\n            <p>License hereby granted for anyone to use, modify or redistribute this\n            module at their own risk. Please feed useful changes back to\n           cpan@dave.sharnoff.org.\n         </p>\n\n      ",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {
