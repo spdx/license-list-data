@@ -2,30 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-10-04T20:23:05Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "http://www.opendatacommons.org/licenses/odbl/1.0/",
-            "spdx:match": "true",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-10-04T20:23:05Z",
+            "spdx:timestamp": "2024-10-06T08:21:19Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,38 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-10-06T08:21:19Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "http://www.opendatacommons.org/licenses/odbl/1.0/",
+            "spdx:match": "true",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/ODbL-1.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -59,14 +67,6 @@
                 "https://opendatacommons.org/licenses/odbl/1-0/"
             ],
             "spdx:name": "Open Data Commons Open Database License v1.0",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

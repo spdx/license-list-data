@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 1b9e1ef
+The following licenses have been generated from the license list version 20b8327
 
 ## Licenses with Short Idenifiers
 
@@ -686,6 +686,7 @@ The following licenses have been generated from the license list version 1b9e1ef
 | GPL Cooperation Commitment 1.0                        | [GPL-CC-1.0][]                           |
 | GStreamer Exception (2005)                            | [GStreamer-exception-2005][]             |
 | GStreamer Exception (2008)                            | [GStreamer-exception-2008][]             |
+| harbour exception                                     | [harbour-exception][]                    |
 | i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
 | KiCad Libraries Exception                             | [KiCad-libraries-exception][]            |
 | LGPL-3.0 Linking Exception                            | [LGPL-3.0-linking-exception][]           |
@@ -1467,6 +1468,7 @@ The following licenses have been generated from the license list version 1b9e1ef
 [GPL-CC-1.0]: text/GPL-CC-1.0.txt
 [GStreamer-exception-2005]: text/GStreamer-exception-2005.txt
 [GStreamer-exception-2008]: text/GStreamer-exception-2008.txt
+[harbour-exception]: text/harbour-exception.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
 [KiCad-libraries-exception]: text/KiCad-libraries-exception.txt
 [LGPL-3.0-linking-exception]: text/LGPL-3.0-linking-exception.txt
