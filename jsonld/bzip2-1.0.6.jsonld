@@ -2,12 +2,12 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-10-06T08:26:36Z",
+            "spdx:timestamp": "2024-10-09T16:24:43Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
+            "spdx:url": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-10-06T08:26:34Z",
+            "spdx:timestamp": "2024-10-09T16:24:43Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,12 +48,12 @@
         },
         {
             "@id": "_:b2",
-            "spdx:timestamp": "2024-10-06T08:26:34Z",
+            "spdx:timestamp": "2024-10-09T16:24:44Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
+            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -71,6 +71,17 @@
         },
         {
             "@id": "http://spdx.org/licenses/bzip2-1.0.6",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b2"
+                },
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -90,18 +101,7 @@
                 "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
             ],
             "spdx:licenseId": "bzip2-1.0.6",
-            "spdx:name": "bzip2 and libbzip2 License v1.0.6",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b2"
-                }
-            ]
+            "spdx:name": "bzip2 and libbzip2 License v1.0.6"
         }
     ],
     "@context": {
