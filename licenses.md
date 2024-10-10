@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e2576e4
+The following licenses have been generated from the license list version 779bbe0
 
 ## Licenses with Short Idenifiers
 
@@ -688,6 +688,7 @@ The following licenses have been generated from the license list version e2576e4
 | GStreamer Exception (2008)                            | [GStreamer-exception-2008][]             |
 | harbour exception                                     | [harbour-exception][]                    |
 | i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
+| Independent Module Linking exception                  | [Independent-modules-exception][]        |
 | KiCad Libraries Exception                             | [KiCad-libraries-exception][]            |
 | LGPL-3.0 Linking Exception                            | [LGPL-3.0-linking-exception][]           |
 | libpri OpenH323 exception                             | [libpri-OpenH323-exception][]            |
@@ -1470,6 +1471,7 @@ The following licenses have been generated from the license list version e2576e4
 [GStreamer-exception-2008]: text/GStreamer-exception-2008.txt
 [harbour-exception]: text/harbour-exception.txt
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
+[Independent-modules-exception]: text/Independent-modules-exception.txt
 [KiCad-libraries-exception]: text/KiCad-libraries-exception.txt
 [LGPL-3.0-linking-exception]: text/LGPL-3.0-linking-exception.txt
 [libpri-OpenH323-exception]: text/libpri-OpenH323-exception.txt
