@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f180114
+The following licenses have been generated from the license list version 7fb40c5
 
 ## Licenses with Short Idenifiers
 
@@ -698,6 +698,7 @@ The following licenses have been generated from the license list version f180114
 | LLVM Exception                                        | [LLVM-exception][]                       |
 | LZMA exception                                        | [LZMA-exception][]                       |
 | Macros and Inline Functions Exception                 | [mif-exception][]                        |
+| mxml Exception                                        | [mxml-exception][]                       |
 | OCaml LGPL Linking Exception                          | [OCaml-LGPL-linking-exception][]         |
 | Open CASCADE Exception 1.0                            | [OCCT-exception-1.0][]                   |
 | OpenJDK Assembly exception 1.0                        | [OpenJDK-assembly-exception-1.0][]       |
@@ -1481,6 +1482,7 @@ The following licenses have been generated from the license list version f180114
 [LLVM-exception]: text/LLVM-exception.txt
 [LZMA-exception]: text/LZMA-exception.txt
 [mif-exception]: text/mif-exception.txt
+[mxml-exception]: text/mxml-exception.txt
 [Nokia-Qt-exception-1.1]: text/Nokia-Qt-exception-1.1.txt
 [OCaml-LGPL-linking-exception]: text/OCaml-LGPL-linking-exception.txt
 [OCCT-exception-1.0]: text/OCCT-exception-1.0.txt
