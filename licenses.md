@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 7fb40c5
+The following licenses have been generated from the license list version 8de17ea
 
 ## Licenses with Short Idenifiers
 
@@ -34,6 +34,7 @@ The following licenses have been generated from the license list version 7fb40c5
 | ANTLR Software Rights Notice                                                              | [ANTLR-PD][]                             |      |           |
 | ANTLR Software Rights Notice with license fallback                                        | [ANTLR-PD-fallback][]                    |      |           |
 | Any OSI License                                                                           | [any-OSI][]                              |      |           |
+| Any OSI License - Perl Modules                                                            | [any-OSI-perl-modules][]                 |      |           |
 | Apache License 1.0                                                                        | [Apache-1.0][]                           |      | Y         |
 | Apache License 1.1                                                                        | [Apache-1.1][]                           | Y    | Y         |
 | Apache License 2.0                                                                        | [Apache-2.0][]                           | Y    | Y         |
@@ -793,6 +794,7 @@ The following licenses have been generated from the license list version 7fb40c5
 [ANTLR-PD]: text/ANTLR-PD.txt
 [ANTLR-PD-fallback]: text/ANTLR-PD-fallback.txt
 [any-OSI]: text/any-OSI.txt
+[any-OSI-perl-modules]: text/any-OSI-perl-modules.txt
 [Apache-1.0]: text/Apache-1.0.txt
 [Apache-1.1]: text/Apache-1.1.txt
 [Apache-2.0]: text/Apache-2.0.txt

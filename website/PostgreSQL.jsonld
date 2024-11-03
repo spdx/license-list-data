@@ -2,6 +2,10 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/PostgreSQL",
+            "rdfs:seeAlso": [
+                "http://www.postgresql.org/about/licence",
+                "https://opensource.org/licenses/PostgreSQL"
+            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -9,10 +13,6 @@
                 {
                     "@id": "_:b1"
                 }
-            ],
-            "rdfs:seeAlso": [
-                "http://www.postgresql.org/about/licence",
-                "https://opensource.org/licenses/PostgreSQL"
             ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -31,13 +31,13 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-01T17:48:40Z",
+            "spdx:timestamp": "2024-11-03T03:01:17Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://opensource.org/licenses/PostgreSQL",
-            "spdx:match": "N/A",
+            "spdx:url": "http://www.postgresql.org/about/licence",
+            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -54,13 +54,13 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-11-01T17:48:40Z",
+            "spdx:timestamp": "2024-11-03T03:01:18Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://www.postgresql.org/about/licence",
-            "spdx:match": "false",
+            "spdx:url": "https://opensource.org/licenses/PostgreSQL",
+            "spdx:match": "N/A",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
