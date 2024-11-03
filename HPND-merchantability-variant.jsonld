@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-01T17:51:50Z",
+            "spdx:timestamp": "2024-11-03T03:04:19Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,9 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/HPND-merchantability-variant",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "rdfs:seeAlso": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/misc/fini.c;hb=HEAD",
             "@type": "spdx:ListedLicense",
             "spdx:name": "Historical Permission Notice and Disclaimer - merchantability variant",
@@ -43,6 +40,9 @@
             },
             "spdx:licenseId": "HPND-merchantability-variant",
             "rdfs:comment": "This is similar to the HPND grant and short disclaimer, but adds a specific disclaimer as to merchantability and fitness for a particular purpose.",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2004 Christian Groessler <chris@groessler.org>\";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this file for any purpose is hereby granted without fee, provided that the above copyright notice and this notice appears in all copies.\n\nThis file is distributed WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n"
         }
     ],
