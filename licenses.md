@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8de17ea
+The following licenses have been generated from the license list version 9269d72
 
 ## Licenses with Short Idenifiers
 
@@ -675,7 +675,7 @@ The following licenses have been generated from the license list version 8de17ea
 | GCC Runtime Library exception 2.0                     | [GCC-exception-2.0][]                    |
 | GCC    Runtime Library exception 2.0 - note variant   | [GCC-exception-2.0-note][]               |
 | GCC Runtime Library exception 3.1                     | [GCC-exception-3.1][]                    |
-| Gmsh exception>                                       | [Gmsh-exception][]                       |
+| Gmsh exception                                        | [Gmsh-exception][]                       |
 | GNAT exception                                        | [GNAT-exception][]                       |
 | GNOME examples exception                              | [GNOME-examples-exception][]             |
 | GNU Compiler Exception                                | [GNU-compiler-exception][]               |
