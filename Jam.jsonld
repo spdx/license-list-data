@@ -2,11 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Jam",
-            "spdx:licenseText": "License is hereby granted to use this software and distribute it freely,\nas long as this copyright notice is retained and modifications are\nclearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -15,6 +10,11 @@
                     "@id": "_:b1"
                 }
             ],
+            "spdx:licenseText": "License is hereby granted to use this software and distribute it freely,\nas long as this copyright notice is retained and modifications are\nclearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
             "rdfs:seeAlso": [
                 "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
                 "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html"
@@ -31,30 +31,7 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-05T06:30:33Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-11-05T06:30:32Z",
+            "spdx:timestamp": "2024-11-11T16:33:45Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -71,6 +48,29 @@
             },
             "spdx:isLive": {
                 "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-11-11T16:33:45Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
