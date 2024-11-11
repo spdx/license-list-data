@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 7f39cae
+The following licenses have been generated from the license list version 4c6179e
 
 ## Licenses with Short Idenifiers
 
@@ -163,6 +163,7 @@ The following licenses have been generated from the license list version 7f39cae
 | Creative Commons Attribution-ShareAlike 3.0 IGO                                           | [CC-BY-SA-3.0-IGO][]                     |      |           |
 | Creative Commons Attribution Share Alike 4.0 International                                | [CC-BY-SA-4.0][]                         |      | Y         |
 | Creative Commons Public Domain Dedication and Certification                               | [CC-PDDC][]                              |      |           |
+| Creative Commons Share Alike 1.0 Generic                                                  | [CC-SA-1.0][]                            |      |           |
 | Creative Commons Zero v1.0 Universal                                                      | [CC0-1.0][]                              |      | Y         |
 | Common Development and Distribution License 1.0                                           | [CDDL-1.0][]                             | Y    | Y         |
 | Common Development and Distribution License 1.1                                           | [CDDL-1.1][]                             |      |           |
@@ -926,6 +927,7 @@ The following licenses have been generated from the license list version 7f39cae
 [CC-BY-SA-3.0-IGO]: text/CC-BY-SA-3.0-IGO.txt
 [CC-BY-SA-4.0]: text/CC-BY-SA-4.0.txt
 [CC-PDDC]: text/CC-PDDC.txt
+[CC-SA-1.0]: text/CC-SA-1.0.txt
 [CC0-1.0]: text/CC0-1.0.txt
 [CDDL-1.0]: text/CDDL-1.0.txt
 [CDDL-1.1]: text/CDDL-1.1.txt
