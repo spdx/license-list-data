@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-11T16:52:08Z",
+            "spdx:timestamp": "2024-11-14T15:55:04Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,7 +25,7 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-11-11T16:52:07Z",
+            "spdx:timestamp": "2024-11-14T15:55:03Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,19 +48,19 @@
         },
         {
             "@id": "http://spdx.org/licenses/dtoa",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"> \n            The author of this software is David M. Gay.<br />\n\n            Copyright (c) 1991, 2000, 2001 by Lucent Technologies.\n         </var>\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            for any purpose without fee is hereby granted, provided that this\n            entire notice is included in all copies of any software which is or\n            includes a copy or modification of this software and in all copies\n            of the supporting documentation for such software. THIS SOFTWARE IS\n            BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN\n            PARTICULAR, NEITHER THE AUTHOR NOR <var class=\"replaceable-license-text\"> LUCENT</var> MAKES ANY REPRESENTATION\n            OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF\n            THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n         </p>\n\n      ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:licenseId": "dtoa",
             "rdfs:seeAlso": [
                 "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD",
