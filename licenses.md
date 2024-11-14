@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 5434d0e
+The following licenses have been generated from the license list version d4007af
 
 ## Licenses with Short Idenifiers
 
@@ -163,6 +163,7 @@ The following licenses have been generated from the license list version 5434d0e
 | Creative Commons Attribution-ShareAlike 3.0 IGO                                           | [CC-BY-SA-3.0-IGO][]                     |      |           |
 | Creative Commons Attribution Share Alike 4.0 International                                | [CC-BY-SA-4.0][]                         |      | Y         |
 | Creative Commons Public Domain Dedication and Certification                               | [CC-PDDC][]                              |      |           |
+| Creative    Commons Public Domain Mark 1.0 Universal                                      | [CC-PDM-1.0][]                           |      |           |
 | Creative Commons Share Alike 1.0 Generic                                                  | [CC-SA-1.0][]                            |      |           |
 | Creative Commons Zero v1.0 Universal                                                      | [CC0-1.0][]                              |      | Y         |
 | Common Development and Distribution License 1.0                                           | [CDDL-1.0][]                             | Y    | Y         |
@@ -332,6 +333,7 @@ The following licenses have been generated from the license list version 5434d0e
 | Imlib2 License                                                                            | [Imlib2][]                               |      | Y         |
 | Info-ZIP License                                                                          | [Info-ZIP][]                             |      |           |
 | Inner Net License v2.0                                                                    | [Inner-Net-2.0][]                        |      |           |
+| Inno Setup License                                                                        | [InnoSetup][]                            |      |           |
 | Intel Open Source License                                                                 | [Intel][]                                | Y    | Y         |
 | Intel ACPI Software License Agreement                                                     | [Intel-ACPI][]                           |      |           |
 | Interbase Public License v1.0                                                             | [Interbase-1.0][]                        |      |           |
@@ -558,6 +560,7 @@ The following licenses have been generated from the license list version 5434d0e
 | Sun Industry Standards Source License v1.2                                                | [SISSL-1.2][]                            |      |           |
 | SL License                                                                                | [SL][]                                   |      |           |
 | Sleepycat License                                                                         | [Sleepycat][]                            | Y    | Y         |
+| SMAIL General Public License                                                              | [SMAIL-GPL][]                            |      |           |
 | Standard ML of New Jersey License                                                         | [SMLNJ][]                                |      | Y         |
 | Secure Messaging Protocol Public License                                                  | [SMPPL][]                                |      |           |
 | SNIA Public License 1.1                                                                   | [SNIA][]                                 |      |           |
@@ -927,6 +930,7 @@ The following licenses have been generated from the license list version 5434d0e
 [CC-BY-SA-3.0-IGO]: text/CC-BY-SA-3.0-IGO.txt
 [CC-BY-SA-4.0]: text/CC-BY-SA-4.0.txt
 [CC-PDDC]: text/CC-PDDC.txt
+[CC-PDM-1.0]: text/CC-PDM-1.0.txt
 [CC-SA-1.0]: text/CC-SA-1.0.txt
 [CC0-1.0]: text/CC0-1.0.txt
 [CDDL-1.0]: text/CDDL-1.0.txt
@@ -1113,6 +1117,7 @@ The following licenses have been generated from the license list version 5434d0e
 [Imlib2]: text/Imlib2.txt
 [Info-ZIP]: text/Info-ZIP.txt
 [Inner-Net-2.0]: text/Inner-Net-2.0.txt
+[InnoSetup]: text/InnoSetup.txt
 [Intel]: text/Intel.txt
 [Intel-ACPI]: text/Intel-ACPI.txt
 [Interbase-1.0]: text/Interbase-1.0.txt
@@ -1347,6 +1352,7 @@ The following licenses have been generated from the license list version 5434d0e
 [SISSL-1.2]: text/SISSL-1.2.txt
 [SL]: text/SL.txt
 [Sleepycat]: text/Sleepycat.txt
+[SMAIL-GPL]: text/SMAIL-GPL.txt
 [SMLNJ]: text/SMLNJ.txt
 [SMPPL]: text/SMPPL.txt
 [SNIA]: text/SNIA.txt
