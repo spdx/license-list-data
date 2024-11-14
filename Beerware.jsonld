@@ -3,6 +3,14 @@
         {
             "@id": "http://spdx.org/licenses/Beerware",
             "spdx:name": "Beerware License",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:licenseTextHtml": "\n       <p>&quot;THE BEER-WARE LICENSE&quot; (Revision 42):</p>\n\n      <p><var class=\"replaceable-license-text\"> &lt;phk@FreeBSD.ORG&gt;</var> wrote this file. As long as you retain\n         this notice you can do whatever you want with this stuff. If we meet some day, and you think this\n         stuff is worth it, you can buy me a beer in return Poul-Henning Kamp</p>\n\n    ",
             "spdx:licenseText": "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n",
             "rdfs:seeAlso": [
@@ -14,14 +22,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:standardLicenseTemplate": "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<<var;name=\"email\";original=\"<phk@FreeBSD.ORG>\";match=\"<phk@FreeBSD.ORG>|<phk@login.dkuug.dk>\">> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -31,12 +31,12 @@
         },
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-11T16:45:31Z",
+            "spdx:timestamp": "2024-11-14T15:50:02Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Beerware",
+            "spdx:url": "https://people.freebsd.org/~phk/",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -54,12 +54,12 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-11-11T16:45:30Z",
+            "spdx:timestamp": "2024-11-14T15:50:02Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://people.freebsd.org/~phk/",
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Beerware",
             "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",

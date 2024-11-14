@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-11T16:35:17Z",
+            "spdx:timestamp": "2024-11-14T15:42:00Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/Catharon",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:name": "Catharon License",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -38,9 +41,6 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "@type": "spdx:ListedLicense"
         }
