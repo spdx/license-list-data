@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d4007af
+The following licenses have been generated from the license list version 3cc0cce
 
 ## Licenses with Short Idenifiers
 
@@ -258,6 +258,7 @@ The following licenses have been generated from the license list version d4007af
 | fwlw License                                                                              | [fwlw][]                                 |      |           |
 | Gnome GCR Documentation License                                                           | [GCR-docs][]                             |      |           |
 | GD License                                                                                | [GD][]                                   |      |           |
+| Generic XTS License                                                                       | [generic-xts][]                          |      |           |
 | GNU Free Documentation License v1.1 only - invariants                                     | [GFDL-1.1-invariants-only][]             |      |           |
 | GNU Free Documentation License v1.1 or later - invariants                                 | [GFDL-1.1-invariants-or-later][]         |      |           |
 | GNU Free Documentation License v1.1 only - no invariants                                  | [GFDL-1.1-no-invariants-only][]          |      |           |
@@ -623,6 +624,7 @@ The following licenses have been generated from the license list version d4007af
 | Widget Workshop License                                                                   | [Widget-Workshop][]                      |      |           |
 | Wsuipa License                                                                            | [Wsuipa][]                               |      |           |
 | Do What The F*ck You Want To Public License                                               | [WTFPL][]                                |      | Y         |
+| WWL License                                                                               | [wwl][]                                  |      |           |
 | X11 License                                                                               | [X11][]                                  |      | Y         |
 | X11 License Distribution Modification Variant                                             | [X11-distribute-modifications-variant][] |      |           |
 | X11 swapped final paragraphs                                                              | [X11-swapped][]                          |      |           |
@@ -665,6 +667,7 @@ The following licenses have been generated from the license list version d4007af
 | Bison exception 1.24                                  | [Bison-exception-1.24][]                 |
 | Bison exception 2.2                                   | [Bison-exception-2.2][]                  |
 | Bootloader Distribution Exception                     | [Bootloader-exception][]                 |
+| CGAL Linking Exception                                | [CGAL-linking-exception][]               |
 | Classpath exception 2.0                               | [Classpath-exception-2.0][]              |
 | CLISP exception 2.0                                   | [CLISP-exception-2.0][]                  |
 | cryptsetup OpenSSL exception                          | [cryptsetup-OpenSSL-exception][]         |
@@ -1026,6 +1029,7 @@ The following licenses have been generated from the license list version d4007af
 [fwlw]: text/fwlw.txt
 [GCR-docs]: text/GCR-docs.txt
 [GD]: text/GD.txt
+[generic-xts]: text/generic-xts.txt
 [GFDL-1.1]: text/GFDL-1.1.txt
 [GFDL-1.1-invariants-only]: text/GFDL-1.1-invariants-only.txt
 [GFDL-1.1-invariants-or-later]: text/GFDL-1.1-invariants-or-later.txt
@@ -1416,6 +1420,7 @@ The following licenses have been generated from the license list version d4007af
 [Widget-Workshop]: text/Widget-Workshop.txt
 [Wsuipa]: text/Wsuipa.txt
 [WTFPL]: text/WTFPL.txt
+[wwl]: text/wwl.txt
 [wxWindows]: text/wxWindows.txt
 [X11]: text/X11.txt
 [X11-distribute-modifications-variant]: text/X11-distribute-modifications-variant.txt
@@ -1454,6 +1459,7 @@ The following licenses have been generated from the license list version d4007af
 [Bison-exception-1.24]: text/Bison-exception-1.24.txt
 [Bison-exception-2.2]: text/Bison-exception-2.2.txt
 [Bootloader-exception]: text/Bootloader-exception.txt
+[CGAL-linking-exception]: text/CGAL-linking-exception.txt
 [Classpath-exception-2.0]: text/Classpath-exception-2.0.txt
 [CLISP-exception-2.0]: text/CLISP-exception-2.0.txt
 [cryptsetup-OpenSSL-exception]: text/cryptsetup-OpenSSL-exception.txt
