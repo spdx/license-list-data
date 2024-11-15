@@ -1,0 +1,24 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/wwl>
+        a                             spdx:ListedLicense ;
+        rdfs:seeAlso                  "http://www.db.net/downloads/wwl+db-1.3.tgz" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2024-11-15T19:28:31Z" ;
+                                        spdx:url            "http://www.db.net/downloads/wwl+db-1.3.tgz"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "wwl" ;
+        spdx:licenseText              "db@FreeBSD.ORG wrote this file.  As long as you retain this notice you\ncan do whatever you want with this code, except you may not\nlicense it under any form of the GPL.\nA postcard or QSL card showing me you appreciate\nthis code would be nice. Diane Bruce va3db\n" ;
+        spdx:licenseTextHtml          "\n         <p>\n            db@FreeBSD.ORG wrote this file. As long as you retain this notice\n            you can do whatever you want with this code, except you may not\n            license it under any form of the GPL. A postcard or QSL card\n            showing me you appreciate this code would be nice. Diane Bruce va3db\n         </p>\n\n      " ;
+        spdx:name                     "WWL License" ;
+        spdx:standardLicenseTemplate  "db@FreeBSD.ORG wrote this file. As long as you retain this notice you can do whatever you want with this code, except you may not license it under any form of the GPL. A postcard or QSL card showing me you appreciate this code would be nice. Diane Bruce va3db\n\n" .

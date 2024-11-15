@@ -2,7 +2,7 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-14T17:27:20Z",
+            "spdx:timestamp": "2024-11-15T19:35:59Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,38 +24,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/HPND-doc",
-            "rdfs:seeAlso": [
-                "https://gitlab.freedesktop.org/xorg/lib/libxtst/-/blob/master/COPYING?ref_type=heads#L70-77",
-                "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L185-197"
-            ],
-            "spdx:licenseId": "HPND-doc",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
-            "spdx:name": "Historical Permission Notice and Disclaimer - documentation variant",
-            "rdfs:comment": "This is very similar to HPND but is for documentation and alters the notice obligation.",
-            "spdx:licenseText": "Copyright <year> <copyright holder>\n\nPermission to use, copy, modify, and distribute this documentation for\nany purpose and without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n<copyright holder> makes no representations about the suitability for\nany purpose of the information in this document.  This documentation is\nprovided ``as is'' without express or implied warranty.\n",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <year> <copyright holder>  \";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this documentation for any purpose and without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability for any purpose of the information in this document. This documentation is provided \"as is\" without express or implied warranty.\n\n",
-            "@type": "spdx:ListedLicense",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"> \n            <p>\n               Copyright &lt;year&gt; &lt;copyright holder&gt;\n            </p>\n\n         </div>\n          <p>\n            Permission to use, copy, modify, and distribute this documentation\n            for any purpose and without fee is hereby granted, provided that\n            the above copyright notice and this permission notice appear in all\n            copies.\n            <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var>\n            makes no representations about the suitability for\n            any purpose of the information in this document. This documentation\n            is provided &quot;as is&quot; without express or implied warranty.\n         </p>\n\n      ",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
-        },
-        {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-11-14T17:27:26Z",
+            "spdx:timestamp": "2024-11-15T19:35:50Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -75,6 +45,36 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/HPND-doc",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "rdfs:seeAlso": [
+                "https://gitlab.freedesktop.org/xorg/lib/libxtst/-/blob/master/COPYING?ref_type=heads#L70-77",
+                "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L185-197"
+            ],
+            "spdx:licenseId": "HPND-doc",
+            "spdx:name": "Historical Permission Notice and Disclaimer - documentation variant",
+            "rdfs:comment": "This is very similar to HPND but is for documentation and alters the notice obligation.",
+            "spdx:licenseText": "Copyright <year> <copyright holder>\n\nPermission to use, copy, modify, and distribute this documentation for\nany purpose and without fee is hereby granted, provided that the above\ncopyright notice and this permission notice appear in all copies.\n<copyright holder> makes no representations about the suitability for\nany purpose of the information in this document.  This documentation is\nprovided ``as is'' without express or implied warranty.\n",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <year> <copyright holder>  \";match=\".{0,5000}\">>\n\nPermission to use, copy, modify, and distribute this documentation for any purpose and without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability for any purpose of the information in this document. This documentation is provided \"as is\" without express or implied warranty.\n\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"> \n            <p>\n               Copyright &lt;year&gt; &lt;copyright holder&gt;\n            </p>\n\n         </div>\n          <p>\n            Permission to use, copy, modify, and distribute this documentation\n            for any purpose and without fee is hereby granted, provided that\n            the above copyright notice and this permission notice appear in all\n            copies.\n            <var class=\"replaceable-license-text\"> &lt;copyright holder&gt;</var>\n            makes no representations about the suitability for\n            any purpose of the information in this document. This documentation\n            is provided &quot;as is&quot; without express or implied warranty.\n         </p>\n\n      ",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         }
     ],
     "@context": {
