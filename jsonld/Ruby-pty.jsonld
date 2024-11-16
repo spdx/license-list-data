@@ -2,7 +2,30 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-15T19:27:54Z",
+            "spdx:timestamp": "2024-11-16T13:51:17Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:url": "https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786",
+            "spdx:match": "false",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b1",
+            "spdx:timestamp": "2024-11-16T13:51:20Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,8 +47,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b1",
-            "spdx:timestamp": "2024-11-15T19:27:54Z",
+            "@id": "_:b2",
+            "spdx:timestamp": "2024-11-16T13:51:20Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -59,13 +82,13 @@
             },
             "spdx:crossRef": [
                 {
-                    "@id": "_:b0"
+                    "@id": "_:b2"
                 },
                 {
                     "@id": "_:b1"
                 },
                 {
-                    "@id": "_:b2"
+                    "@id": "_:b0"
                 }
             ],
             "rdfs:comment": "There is a Japanese translation of this license included with some instances of use.",
@@ -79,29 +102,6 @@
             "spdx:licenseTextHtml": "\n        <div class=\"replaceable-license-text\"> \n                <p>\n                        (c) Copyright 1998 by Akinori Ito.\n                </p>\n\n        </div>\n        <p>\n                This software may be redistributed freely for this\n                purpose, in full or in part, provided that this entire\n                copyright notice is included on any copies of this\n                software and applications and derivations thereof.\n        </p>\n\n        <p>\n                This software is provided on an &quot;as is&quot; basis, without warranty\n                of any kind, either expressed or implied, as to any matter\n                including, but not limited to warranty of fitness of purpose, or\n                merchantability, or results obtained from use of this software.\n        </p>\n\n      ",
             "spdx:name": "Ruby pty extension license",
             "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:b2",
-            "spdx:timestamp": "2024-11-15T19:27:54Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786",
-            "spdx:match": "false",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
