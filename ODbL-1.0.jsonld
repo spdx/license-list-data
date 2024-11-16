@@ -2,12 +2,12 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-11-15T19:33:02Z",
+            "spdx:timestamp": "2024-11-16T13:57:09Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "https://opendatacommons.org/licenses/odbl/1-0/",
+            "spdx:url": "http://www.opendatacommons.org/licenses/odbl/1.0/",
             "spdx:match": "true",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -25,12 +25,12 @@
         },
         {
             "@id": "_:b1",
-            "spdx:timestamp": "2024-11-15T19:33:01Z",
+            "spdx:timestamp": "2024-11-16T13:57:10Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:url": "http://www.opendatacommons.org/licenses/odbl/1.0/",
+            "spdx:url": "https://opendatacommons.org/licenses/odbl/1-0/",
             "spdx:match": "true",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -53,6 +53,11 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseId": "ODbL-1.0",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": [
+                "http://www.opendatacommons.org/licenses/odbl/1.0/",
+                "https://opendatacommons.org/licenses/odbl/1-0/"
+            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b1"
@@ -60,11 +65,6 @@
                 {
                     "@id": "_:b0"
                 }
-            ],
-            "@type": "spdx:ListedLicense",
-            "rdfs:seeAlso": [
-                "http://www.opendatacommons.org/licenses/odbl/1.0/",
-                "https://opendatacommons.org/licenses/odbl/1-0/"
             ],
             "spdx:name": "Open Data Commons Open Database License v1.0",
             "spdx:isOsiApproved": {
