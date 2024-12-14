@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d2ce3b6
+The following licenses have been generated from the license list version 5ea320e
 
 ## Licenses with Short Idenifiers
 
@@ -397,6 +397,7 @@ The following licenses have been generated from the license list version d2ce3b6
 | McPhee Slideshow License                                                                  | [McPhee-slideshow][]                     |      |           |
 | metamail License                                                                          | [metamail][]                             |      |           |
 | Minpack License                                                                           | [Minpack][]                              |      |           |
+| MIPS License                                                                              | [MIPS][]                                 |      |           |
 | The MirOS Licence                                                                         | [MirOS][]                                | Y    |           |
 | MIT License                                                                               | [MIT][]                                  | Y    | Y         |
 | MIT No Attribution                                                                        | [MIT-0][]                                | Y    |           |
@@ -589,6 +590,7 @@ The following licenses have been generated from the license list version d2ce3b6
 | TCP Wrappers License                                                                      | [TCP-wrappers][]                         |      |           |
 | TermReadKey License                                                                       | [TermReadKey][]                          |      |           |
 | Transitive Grace Period Public Licence 1.0                                                | [TGPPL-1.0][]                            |      |           |
+| ThirdEye License                                                                          | [ThirdEye][]                             |      |           |
 | threeparttable License                                                                    | [threeparttable][]                       |      |           |
 | TMate Open Source License                                                                 | [TMate][]                                |      |           |
 | TORQUE v2.5+ Software License v1.1                                                        | [TORQUE-1.1][]                           |      |           |
@@ -1190,6 +1192,7 @@ The following licenses have been generated from the license list version d2ce3b6
 [McPhee-slideshow]: text/McPhee-slideshow.txt
 [metamail]: text/metamail.txt
 [Minpack]: text/Minpack.txt
+[MIPS]: text/MIPS.txt
 [MirOS]: text/MirOS.txt
 [MIT]: text/MIT.txt
 [MIT-0]: text/MIT-0.txt
@@ -1385,6 +1388,7 @@ The following licenses have been generated from the license list version d2ce3b6
 [TCP-wrappers]: text/TCP-wrappers.txt
 [TermReadKey]: text/TermReadKey.txt
 [TGPPL-1.0]: text/TGPPL-1.0.txt
+[ThirdEye]: text/ThirdEye.txt
 [threeparttable]: text/threeparttable.txt
 [TMate]: text/TMate.txt
 [TORQUE-1.1]: text/TORQUE-1.1.txt

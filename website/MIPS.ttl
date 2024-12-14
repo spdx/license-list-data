@@ -1,0 +1,25 @@
+@prefix doap: <http://usefulinc.com/ns/doap#> .
+@prefix ptr:  <http://www.w3.org/2009/pointers#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+
+<http://spdx.org/licenses/MIPS>
+        a                             spdx:ListedLicense ;
+        rdfs:comment                  "This is shorter version of ThirdEye license." ;
+        rdfs:seeAlso                  "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11" ;
+        spdx:crossRef                 [ a                   spdx:CrossRef ;
+                                        spdx:isLive         true ;
+                                        spdx:isValid        true ;
+                                        spdx:isWayBackLink  false ;
+                                        spdx:match          "false" ;
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+                                        spdx:timestamp      "2024-12-14T15:25:09Z" ;
+                                        spdx:url            "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11"
+                                      ] ;
+        spdx:isDeprecatedLicenseId    false ;
+        spdx:isOsiApproved            false ;
+        spdx:licenseId                "MIPS" ;
+        spdx:licenseText              "Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\nMIPS Computer Systems, Inc. grants reproduction and use\nrights to all parties, PROVIDED that this comment is\nmaintained in the copy.\n" ;
+        spdx:licenseTextHtml          "\n         <p>\n            <var class=\"replaceable-license-text\"> \n            Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\n            </var>\n            MIPS Computer Systems, Inc. grants reproduction and use\n            rights to all parties, PROVIDED that this comment is\n            maintained in the copy.\n         </p>\n\n      " ;
+        spdx:name                     "MIPS License" ;
+        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\";match=\".{0,5000}\">> MIPS Computer Systems, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.\n\n" .
