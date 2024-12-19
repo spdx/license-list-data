@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">CMU License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:24:57Z>https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:24:57Z</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:33:48Z>https://fedoraproject.org/wiki/Licensing:MIT?rd=Licensing/MIT#CMU_Style</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:33:48Z</p> -->
              </li>
              <li>
-               <a href="https://github.com/python-pillow/Pillow/blob/fffb426092c8db24a5f4b6df243a8a3c01fb63cd/LICENSE" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:24:58Z>https://github.com/python-pillow/Pillow/blob/fffb426092c8db24a5f4b6df243a8a3c01fb63cd/LICENSE</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:24:58Z</p> -->
+               <a href="https://github.com/python-pillow/Pillow/blob/fffb426092c8db24a5f4b6df243a8a3c01fb63cd/LICENSE" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:33:49Z>https://github.com/python-pillow/Pillow/blob/fffb426092c8db24a5f4b6df243a8a3c01fb63cd/LICENSE</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:33:49Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,13 +158,25 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>&lt;copyright notice&gt;</p>
 
-      </div>
+      </span></div>
 
       <var class="optional-license-text"> By obtaining, using, and/or copying this software and/or its associated documentation, you agree that
       you have read, understood, and will comply with the following terms and conditions:</var>
@@ -172,11 +184,11 @@
       <p>Permission to use, copy, modify<var class="optional-license-text">, </var> and distribute this software and its <var class="optional-license-text"> associated</var> documentation for any purpose and
          without fee is hereby granted, provided that the above copyright notice appears in all copies<var class="optional-license-text">, </var> and that
          both that copyright notice and this permission notice appear in supporting documentation, and that the
-         name of <var class="replaceable-license-text"> the copyright holder</var> not be used in advertising or publicity
+         name of <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> the copyright holder</span></var> not be used in advertising or publicity
          pertaining to distribution of the software without specific<var class="optional-license-text">, </var> written <var class="optional-license-text"> prior</var> permission.</p>
 
-      <p><var class="replaceable-license-text"> THE COPYRIGHT HOLDER</var> <var class="replaceable-license-text"> DISCLAIM</var> ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
-         INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL <var class="replaceable-license-text"> THE COPYRIGHT HOLDER</var> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY
+      <p><var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> THE COPYRIGHT HOLDER</span></var> <var class="replaceable-license-text"><span title="can be replaced with the pattern DISCLAIM(S)?"> DISCLAIM</span></var> ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,
+         INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> THE COPYRIGHT HOLDER</span></var> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY
          DAMAGES WHATSOEVER RESULTING FROM <var class="optional-license-text"> THE</var> LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
          NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF
          THIS SOFTWARE.</p>
@@ -190,7 +202,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;&lt;copyright notice&gt;  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&lt;&lt;beginOptional&gt;&gt; By obtaining, using, and/or copying this software and/or its associated documentation, you agree that you have read, understood, and will comply with the following terms and conditions:&lt;&lt;endOptional&gt;&gt;&#10;&#10;Permission to use, copy, modify&lt;&lt;beginOptional&gt;&gt;, &lt;&lt;endOptional&gt;&gt; and distribute this software and its&lt;&lt;beginOptional&gt;&gt; associated&lt;&lt;endOptional&gt;&gt; documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies&lt;&lt;beginOptional&gt;&gt;, &lt;&lt;endOptional&gt;&gt; and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of &lt;&lt;var;name=&quot;copyrightHolder1&quot;;original=&quot;the copyright holder&quot;;match=&quot;.+&quot;&gt;&gt; not be used in advertising or publicity pertaining to distribution of the software without specific&lt;&lt;beginOptional&gt;&gt;, &lt;&lt;endOptional&gt;&gt; written&lt;&lt;beginOptional&gt;&gt; prior&lt;&lt;endOptional&gt;&gt; permission.&#10;&#10;&lt;&lt;var;name=&quot;copyrightHolder2&quot;;original=&quot;THE COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; &lt;&lt;var;name=&quot;disclaim&quot;;original=&quot;DISCLAIM&quot;;match=&quot;DISCLAIM(S)?&quot;&gt;&gt; ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolder3&quot;;original=&quot;THE COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM&lt;&lt;beginOptional&gt;&gt; THE&lt;&lt;endOptional&gt;&gt; LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;&lt;copyright notice&gt;  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&lt;&lt;beginOptional&gt;&gt; By obtaining, using, and/or copying this software and/or its associated documentation, you agree that you have read, understood, and will comply with the following terms and conditions:&lt;&lt;endOptional&gt;&gt;&#10;Permission to use, copy, modify&lt;&lt;beginOptional&gt;&gt;, &lt;&lt;endOptional&gt;&gt; and distribute this software and its&lt;&lt;beginOptional&gt;&gt; associated&lt;&lt;endOptional&gt;&gt; documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies&lt;&lt;beginOptional&gt;&gt;, &lt;&lt;endOptional&gt;&gt; and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of &lt;&lt;var;name=&quot;copyrightHolder1&quot;;original=&quot;the copyright holder&quot;;match=&quot;.+&quot;&gt;&gt; not be used in advertising or publicity pertaining to distribution of the software without specific&lt;&lt;beginOptional&gt;&gt;, &lt;&lt;endOptional&gt;&gt; written&lt;&lt;beginOptional&gt;&gt; prior&lt;&lt;endOptional&gt;&gt; permission.&#10;&#10;&lt;&lt;var;name=&quot;copyrightHolder2&quot;;original=&quot;THE COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; &lt;&lt;var;name=&quot;disclaim&quot;;original=&quot;DISCLAIM&quot;;match=&quot;DISCLAIM(S)?&quot;&gt;&gt; ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolder3&quot;;original=&quot;THE COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM&lt;&lt;beginOptional&gt;&gt; THE&lt;&lt;endOptional&gt;&gt; LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

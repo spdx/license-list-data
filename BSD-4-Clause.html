@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">BSD 4-Clause &quot;Original&quot; or &quot;Old&quot; License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="http://directory.fsf.org/wiki/License:BSD_4Clause" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:23:26Z>http://directory.fsf.org/wiki/License:BSD_4Clause</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:23:26Z</p> -->
+               <a href="http://directory.fsf.org/wiki/License:BSD_4Clause" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:32:44Z>http://directory.fsf.org/wiki/License:BSD_4Clause</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:32:44Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,14 +154,26 @@
           <p style="margin-left: 20px;">This license was rescinded by the author on 22 July 1999.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>Copyright (c) &lt;year&gt; &lt;owner&gt;. All rights reserved. 
       </p>
 
-      </div>
+      </span></div>
 
       <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided
          that the following conditions are met:</p>
@@ -169,44 +181,43 @@
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> 1.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
           Redistributions of source code must retain the above copyright notice, this list of conditions
              and the following disclaimer.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 2.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
           Redistributions in binary form must reproduce the above copyright notice, this list of conditions
              and the following disclaimer in the documentation and/or other materials provided with the
              distribution.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 3.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
           All advertising materials mentioning features or use of this software must display the following
              acknowledgement:
             <br />
-
    This product includes software developed by
-            <var class="replaceable-license-text"> the organization</var>.
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> the organization</span></var>.
 
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 4.</var>
-         <var class="replaceable-license-text"> 
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern (The name of.+may not)|(Neither the name of.+nor the names of its contributors may)"> 
                  Neither the name of the copyright holder nor the names the copyright holder nor the names of its
-           contributors may</var> be used to endorse or promote products derived from this software without
+           contributors may</span></var> be used to endorse or promote products derived from this software without
             specific prior written permission.
 
         </li>
       
 </ul>
       <p>THIS SOFTWARE IS PROVIDED BY
-        <var class="replaceable-license-text"> COPYRIGHT HOLDER</var> &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> COPYRIGHT HOLDER</span></var> &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED
         WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A
         PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
-        <var class="replaceable-license-text"> COPYRIGHT HOLDER</var> BE LIABLE FOR ANY DIRECT,
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> COPYRIGHT HOLDER</span></var> BE LIABLE FOR ANY DIRECT,
         INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
         PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
         HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
@@ -223,7 +234,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) &lt;year&gt; &lt;owner&gt;. All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgement:&#10;&#10;   This product includes software developed by &lt;&lt;var;name=&quot;organizationClause3&quot;;original=&quot;the organization&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &lt;&lt;var;name=&quot;organizationClause4&quot;;original=&quot;Neither the name of the copyright holder nor the names the copyright holder nor the names of its contributors may&quot;;match=&quot;(The name of.+may not)|(Neither the name of.+nor the names of its contributors may)&quot;&gt;&gt; be used to endorse or promote products derived from this software without specific prior written permission.&#10;&#10;THIS SOFTWARE IS PROVIDED BY &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolderLiability&quot;;original=&quot;COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) &lt;year&gt; &lt;owner&gt;. All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgement:&#10;   This product includes software developed by &lt;&lt;var;name=&quot;organizationClause3&quot;;original=&quot;the organization&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &lt;&lt;var;name=&quot;organizationClause4&quot;;original=&quot;Neither the name of the copyright holder nor the names the copyright holder nor the names of its contributors may&quot;;match=&quot;(The name of.+may not)|(Neither the name of.+nor the names of its contributors may)&quot;&gt;&gt; be used to endorse or promote products derived from this software without specific prior written permission.&#10;THIS SOFTWARE IS PROVIDED BY &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolderLiability&quot;;original=&quot;COPYRIGHT HOLDER&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

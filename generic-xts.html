@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Generic XTS License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/mhogomchungu/zuluCrypt/blob/master/external_libraries/tcplay/generic_xts.c" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:25:13Z>https://github.com/mhogomchungu/zuluCrypt/blob/master/external_libraries/tcplay/generic_xts.c</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:25:13Z</p> -->
+               <a href="https://github.com/mhogomchungu/zuluCrypt/blob/master/external_libraries/tcplay/generic_xts.c" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:33:58Z>https://github.com/mhogomchungu/zuluCrypt/blob/master/external_libraries/tcplay/generic_xts.c</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:33:58Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,18 +154,29 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>
             Copyright (C) 2008, Damien Miller
             <br />
-
 Copyright (C) 2011, Alex Hornung
          </p>
 
-         </div>
+         </span></div>
          <p>
             Permission to use, copy, and modify this software with or without
             fee is hereby granted, provided that this entire notice is included
@@ -193,7 +204,7 @@ Copyright (C) 2011, Alex Hornung
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2008, Damien Miller  Copyright (C) 2011, Alex Hornung  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, and modify this software with or without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software. You may use this code under the GNU public license if you so wish. Please contribute changes back to the authors under this freer than GPL license so that we may further the use of strong encryption without limitations to all.&#10;&#10;THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN PARTICULAR, NONE OF THE AUTHORS MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2008, Damien Miller Copyright (C) 2011, Alex Hornung  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission to use, copy, and modify this software with or without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software. You may use this code under the GNU public license if you so wish. Please contribute changes back to the authors under this freer than GPL license so that we may further the use of strong encryption without limitations to all.&#10;&#10;THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN PARTICULAR, NONE OF THE AUTHORS MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

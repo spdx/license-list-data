@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">David M. Gay dtoa License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:50Z>https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:50Z</p> -->
+               <a href="https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:28:41Z>https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:28:41Z</p> -->
              </li>
              <li>
-               <a href="https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:49Z>https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:49Z</p> -->
+               <a href="https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:28:40Z>https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:28:40Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,14 +158,26 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             The author of this software is David M. Gay.<br />
 
             Copyright (c) 1991, 2000, 2001 by Lucent Technologies.
-         </var>
+         </span></var>
          <p>
             Permission to use, copy, modify, and distribute this software
             for any purpose without fee is hereby granted, provided that this
@@ -173,7 +185,7 @@
             includes a copy or modification of this software and in all copies
             of the supporting documentation for such software. THIS SOFTWARE IS
             BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN
-            PARTICULAR, NEITHER THE AUTHOR NOR <var class="replaceable-license-text"> LUCENT</var> MAKES ANY REPRESENTATION
+            PARTICULAR, NEITHER THE AUTHOR NOR <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> LUCENT</span></var> MAKES ANY REPRESENTATION
             OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF
             THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.
          </p>
@@ -187,7 +199,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;The author of this software is David M. Gay.  Copyright (c) 1991, 2000, 2001 by Lucent Technologies.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, modify, and distribute this software for any purpose without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software and in all copies of the supporting documentation for such software. THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN PARTICULAR, NEITHER THE AUTHOR NOR &lt;&lt;var;name=&quot;company&quot;;original=&quot;LUCENT&quot;;match=&quot;.+&quot;&gt;&gt; MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;The author of this software is David M. Gay. Copyright (c) 1991, 2000, 2001 by Lucent Technologies.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission to use, copy, modify, and distribute this software for any purpose without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software and in all copies of the supporting documentation for such software. THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN PARTICULAR, NEITHER THE AUTHOR NOR &lt;&lt;var;name=&quot;company&quot;;original=&quot;LUCENT&quot;;match=&quot;.+&quot;&gt;&gt; MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

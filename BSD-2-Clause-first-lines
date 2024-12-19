@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">BSD 2-Clause - first lines requirement</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L664-L690" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:58Z>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L664-L690</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:58Z</p> -->
+               <a href="https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L664-L690" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:28:46Z>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L664-L690</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:28:46Z</p> -->
              </li>
              <li>
-               <a href="https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:57Z>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:57Z</p> -->
+               <a href="https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:28:46Z>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:28:46Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,16 +158,28 @@
           <p style="margin-left: 20px;">This is the same as BSD-2-Clause, but adds a specific requirement to retain the notice in the first lines of the file.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>
             Copyright (C) 2006,2007,2009 NTT (Nippon Telegraph
             and Telephone Corporation). All rights reserved.
          </p>
 
-         </div>
+         </span></div>
          <p>
             Redistribution and use in source and binary
             forms, with or without modification, are permitted
@@ -177,7 +189,7 @@
 <ul style="list-style:none">
             
 <li>
-               <var class="replaceable-license-text"> 1.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
                <p>
                   Redistributions of source code must retain the above
                   copyright notice, this list of conditions and the following
@@ -187,7 +199,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 2.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
                <p>
                   Redistributions in binary form must reproduce the
                   above copyright notice, this list of conditions and
@@ -222,7 +234,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2006,2007,2009 NTT (Nippon Telegraph and Telephone Corporation). All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer as the first lines of this file unmodified.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;THIS SOFTWARE IS PROVIDED BY NTT &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL NTT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2006,2007,2009 NTT (Nippon Telegraph and Telephone Corporation). All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer as the first lines of this file unmodified.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;THIS SOFTWARE IS PROVIDED BY NTT &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL NTT BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

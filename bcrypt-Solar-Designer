@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">bcrypt Solar Designer License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/bcrypt-ruby/bcrypt-ruby/blob/master/ext/mri/crypt_blowfish.c" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:30:20Z>https://github.com/bcrypt-ruby/bcrypt-ruby/blob/master/ext/mri/crypt_blowfish.c</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:30:20Z</p> -->
+               <a href="https://github.com/bcrypt-ruby/bcrypt-ruby/blob/master/ext/mri/crypt_blowfish.c" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:37:44Z>https://github.com/bcrypt-ruby/bcrypt-ruby/blob/master/ext/mri/crypt_blowfish.c</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:37:44Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,18 +154,30 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Written by Solar Designer &lt;solar
             at openwall.com&gt; in 1998-2014.
-         </var>
+         </span></var>
          <p>
             No copyright is claimed, and the software is hereby placed in
             the public domain. In case this attempt to disclaim copyright
             and place the software in the public domain is deemed null
-            and void, then the software is<var class="replaceable-license-text"> Copyright (c) 1998-2014 Solar Designer</var>
+            and void, then the software is<var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> Copyright (c) 1998-2014 Solar Designer</span></var>
             and it is hereby released to the general
             public under the following terms:
          </p>
@@ -188,7 +200,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Written by Solar Designer &lt;solar at openwall.com&gt; in 1998-2014.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;No copyright is claimed, and the software is hereby placed in the public domain. In case this attempt to disclaim copyright and place the software in the public domain is deemed null and void, then the software is &lt;&lt;var;name=&quot;CopyrightHolder&quot;;original=&quot;Copyright (c) 1998-2014 Solar Designer&quot;;match=&quot;.+&quot;&gt;&gt; and it is hereby released to the general public under the following terms:&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted.&#10;&#10;There's ABSOLUTELY NO WARRANTY, express or implied.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Written by Solar Designer &lt;solar at openwall.com&gt; in 1998-2014.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;No copyright is claimed, and the software is hereby placed in the public domain. In case this attempt to disclaim copyright and place the software in the public domain is deemed null and void, then the software is &lt;&lt;var;name=&quot;CopyrightHolder&quot;;original=&quot;Copyright (c) 1998-2014 Solar Designer&quot;;match=&quot;.+&quot;&gt;&gt; and it is hereby released to the general public under the following terms:&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted.&#10;&#10;There&#39;s ABSOLUTELY NO WARRANTY, express or implied.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

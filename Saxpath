@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Saxpath License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing/Saxpath_License" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:20:26Z>https://fedoraproject.org/wiki/Licensing/Saxpath_License</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:20:26Z</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing/Saxpath_License" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:30:32Z>https://fedoraproject.org/wiki/Licensing/Saxpath_License</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:30:32Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,17 +154,28 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>Copyright (C) 2000-2002 werken digital.
         <br />
-
 All rights reserved.
       </p>
 
-      </div>
+      </span></div>
 
       <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided
          that the following conditions are met:</p>
@@ -172,45 +183,44 @@ All rights reserved.
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> 1.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
           Redistributions of source code must retain the above copyright notice, this list of conditions,
              and the following disclaimer.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 2.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
           Redistributions in binary form must reproduce the above copyright notice, this list of
              conditions, and the disclaimer that follows these conditions in the documentation and/or other
              materials provided with the distribution.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 3.</var>
-           The name <var class="replaceable-license-text"> &quot;SAXPath&quot;</var> must not be used 
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
+           The name <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> &quot;SAXPath&quot;</span></var> must not be used 
            to endorse or promote products derived from this software
              without prior written permission. For written permission, please contact
-           <var class="replaceable-license-text"> license@saxpath.org</var>.
+           <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> license@saxpath.org</span></var>.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 4.</var>
-          Products derived from this software may not be called <var class="replaceable-license-text"> &quot;SAXPath&quot;</var>, 
-          nor may <var class="replaceable-license-text"> &quot;SAXPath&quot;</var> appear in
-             their name, without prior written permission from the <var class="replaceable-license-text"> SAXPath Project Management
-           (pm@saxpath.org)</var>.
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
+          Products derived from this software may not be called <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> &quot;SAXPath&quot;</span></var>, 
+          nor may <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> &quot;SAXPath&quot;</span></var> appear in
+             their name, without prior written permission from the <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> SAXPath Project Management
+           (pm@saxpath.org)</span></var>.
         </li>
       
 </ul>
       <p>In addition, we request (but do not require) that you include in the end-user documentation provided with
          the redistribution and/or in the software itself an acknowledgement equivalent to the following:
         <br />
-
 &quot;This product includes software developed by 
-        <var class="replaceable-license-text"> the SAXPath Project (http://www.saxpath.org/)</var>.&quot;
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> the SAXPath Project (http://www.saxpath.org/)</span></var>.&quot;
       </p>
 
       <p>Alternatively, the acknowledgment may be graphical using the logos available at 
-      <var class="replaceable-license-text"> http://www.saxpath.org/</var></p>
+      <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> http://www.saxpath.org/</span></var></p>
 
       <p>THIS SOFTWARE IS PROVIDED ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED
          TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN
@@ -230,7 +240,7 @@ All rights reserved.
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2000-2002 werken digital.  All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the disclaimer that follows these conditions in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The name &lt;&lt;var;name=&quot;nameClause3&quot;;original=&quot;&quot;SAXPath&quot;&quot;;match=&quot;.+&quot;&gt;&gt; must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact &lt;&lt;var;name=&quot;contactClause3&quot;;original=&quot;license@saxpath.org&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Products derived from this software may not be called &lt;&lt;var;name=&quot;nameClause4&quot;;original=&quot;&quot;SAXPath&quot;&quot;;match=&quot;.+&quot;&gt;&gt; , nor may &lt;&lt;var;name=&quot;nameClause42&quot;;original=&quot;&quot;SAXPath&quot;&quot;;match=&quot;.+&quot;&gt;&gt; appear in their name, without prior written permission from the &lt;&lt;var;name=&quot;contactClause4&quot;;original=&quot;SAXPath Project Management (pm@saxpath.org)&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;&#10;In addition, we request (but do not require) that you include in the end-user documentation provided with the redistribution and/or in the software itself an acknowledgement equivalent to the following:&#10;&#10;&quot;This product includes software developed by &lt;&lt;var;name=&quot;acknowledgement&quot;;original=&quot;the SAXPath Project (http://www.saxpath.org/)&quot;;match=&quot;.+&quot;&gt;&gt; .&quot;&#10;&#10;Alternatively, the acknowledgment may be graphical using the logos available at &lt;&lt;var;name=&quot;logos&quot;;original=&quot;http://www.saxpath.org/&quot;;match=&quot;.+&quot;&gt;&gt;&#10;&#10;THIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE SAXPath AUTHORS OR THE PROJECT CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2000-2002 werken digital. All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the disclaimer that follows these conditions in the documentation and/or other materials provided with the distribution.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The name &lt;&lt;var;name=&quot;nameClause3&quot;;original=&quot;&quot;SAXPath&quot;&quot;;match=&quot;.+&quot;&gt;&gt; must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact &lt;&lt;var;name=&quot;contactClause3&quot;;original=&quot;license@saxpath.org&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Products derived from this software may not be called &lt;&lt;var;name=&quot;nameClause4&quot;;original=&quot;&quot;SAXPath&quot;&quot;;match=&quot;.+&quot;&gt;&gt; , nor may &lt;&lt;var;name=&quot;nameClause42&quot;;original=&quot;&quot;SAXPath&quot;&quot;;match=&quot;.+&quot;&gt;&gt; appear in their name, without prior written permission from the &lt;&lt;var;name=&quot;contactClause4&quot;;original=&quot;SAXPath Project Management (pm@saxpath.org)&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;In addition, we request (but do not require) that you include in the end-user documentation provided with the redistribution and/or in the software itself an acknowledgement equivalent to the following:&#10;&quot;This product includes software developed by &lt;&lt;var;name=&quot;acknowledgement&quot;;original=&quot;the SAXPath Project (http://www.saxpath.org/)&quot;;match=&quot;.+&quot;&gt;&gt; .&quot;&#10;&#10;Alternatively, the acknowledgment may be graphical using the logos available at &lt;&lt;var;name=&quot;logos&quot;;original=&quot;http://www.saxpath.org/&quot;;match=&quot;.+&quot;&gt;&gt;&#10;&#10;THIS SOFTWARE IS PROVIDED ``AS IS&#39;&#39; AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE SAXPath AUTHORS OR THE PROJECT CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

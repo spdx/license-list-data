@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">lsof License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/lsof-org/lsof/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:19:41Z>https://github.com/lsof-org/lsof/blob/master/COPYING</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:19:41Z</p> -->
+               <a href="https://github.com/lsof-org/lsof/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:30:05Z>https://github.com/lsof-org/lsof/blob/master/COPYING</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:30:05Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,10 +154,22 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>
             Copyright 2002 Purdue Research Foundation, West
             Lafayette, Indiana 47907. All rights reserved.
@@ -167,7 +179,7 @@
             Written by Victor A. Abell
          </p>
 
-         </div>
+         </span></div>
          <p>
             This software is not subject to any license of
             the American Telephone and Telegraph Company
@@ -183,7 +195,7 @@
 <ul style="list-style:none">
             
 <li>
-               <var class="replaceable-license-text"> 1.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
                <p>
                   Neither the authors nor Purdue University are responsible
                   for any consequences of the use of this software.
@@ -192,7 +204,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 2.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
                <p>
                   The origin of this software must not be misrepresented, either
                   by explicit claim or by omission. Credit to the authors and
@@ -202,7 +214,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 3.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
                <p>
                   Altered versions must be plainly marked as such, and must
                   not be misrepresented as being the original software.
@@ -211,7 +223,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 4.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
                <p>
                   This notice may not be removed or altered.
                </p>
@@ -228,7 +240,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 2002 Purdue Research Foundation, West Lafayette, Indiana 47907. All rights reserved.    Written by Victor A. Abell  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This software is not subject to any license of the American Telephone and Telegraph Company or the Regents of the University of California.&#10;&#10;Permission is granted to anyone to use this software for any purpose on any computer system, and to alter it and redistribute it freely, subject to the following restrictions:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Neither the authors nor Purdue University are responsible for any consequences of the use of this software.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   The origin of this software must not be misrepresented, either by explicit claim or by omission. Credit to the authors and Purdue University must appear in documentation and sources.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   This notice may not be removed or altered.&#10;&#10;   
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 2002 Purdue Research Foundation, West Lafayette, Indiana 47907. All rights reserved.   Written by Victor A. Abell  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This software is not subject to any license of the American Telephone and Telegraph Company or the Regents of the University of California.&#10;&#10;Permission is granted to anyone to use this software for any purpose on any computer system, and to alter it and redistribute it freely, subject to the following restrictions:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Neither the authors nor Purdue University are responsible for any consequences of the use of this software.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   The origin of this software must not be misrepresented, either by explicit claim or by omission. Credit to the authors and Purdue University must appear in documentation and sources.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   This notice may not be removed or altered.&#10;   &#10;   
       </div>
 
     </div> <!-- /page -->

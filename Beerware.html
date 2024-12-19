@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Beerware License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing/Beerware" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:23:49Z>https://fedoraproject.org/wiki/Licensing/Beerware</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:23:49Z</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing/Beerware" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:33:00Z>https://fedoraproject.org/wiki/Licensing/Beerware</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:33:00Z</p> -->
              </li>
              <li>
-               <a href="https://people.freebsd.org/~phk/" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:23:50Z>https://people.freebsd.org/~phk/</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:23:50Z</p> -->
+               <a href="https://people.freebsd.org/~phk/" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:33:00Z>https://people.freebsd.org/~phk/</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:33:00Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,12 +158,24 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
        <p>&quot;THE BEER-WARE LICENSE&quot; (Revision 42):</p>
 
-      <p><var class="replaceable-license-text"> &lt;phk@FreeBSD.ORG&gt;</var> wrote this file. As long as you retain
+      <p><var class="replaceable-license-text"><span title="can be replaced with the pattern <phk@FreeBSD.ORG>|<phk@login.dkuug.dk>"> &lt;phk@FreeBSD.ORG&gt;</span></var> wrote this file. As long as you retain
          this notice you can do whatever you want with this stuff. If we meet some day, and you think this
          stuff is worth it, you can buy me a beer in return Poul-Henning Kamp</p>
 

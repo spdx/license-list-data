@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">NCL Source Code License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/src/modules/module-filter-chain/pffft.c?ref_type=heads#L1-52" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:18:03Z>https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/src/modules/module-filter-chain/pffft.c?ref_type=heads#L1-52</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:18:03Z</p> -->
+               <a href="https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/src/modules/module-filter-chain/pffft.c?ref_type=heads#L1-52" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:28:52Z>https://gitlab.freedesktop.org/pipewire/pipewire/-/blob/master/src/modules/module-filter-chain/pffft.c?ref_type=heads#L1-52</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:28:52Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,10 +154,22 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             <p>
             Copyright (c) 2004 the University Corporation for
             Atmospheric Research (&quot;UCAR&quot;). All rights reserved.
@@ -165,17 +177,17 @@
             Systems Laboratory, UCAR, www.cisl.ucar.edu.
             </p>
 
-         </div>
+         </span></div>
          <p>
             Redistribution and use <var class="optional-license-text"> of the Software</var> in source and
-            binary forms, with or without modification, <var class="replaceable-license-text"> is</var> permitted
+            binary forms, with or without modification, <var class="replaceable-license-text"><span title="can be replaced with the pattern is|are"> is</span></var> permitted
             provided that the following conditions are met:
          </p>
 
 <ul style="list-style:none">
             
 <li>
-               <var class="replaceable-license-text"> -</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> -</span></var>
                <p>
                   Neither the names of NCAR&apos;s Computational and Information
                   Systems Laboratory, the University Corporation for Atmospheric
@@ -187,7 +199,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> -</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> -</span></var>
                <p>
                   Redistributions of source code must retain the above copyright
                   notices, this list of conditions, and the disclaimer below.
@@ -196,7 +208,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> -</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> -</span></var>
                <p>
                   Redistributions in binary form must reproduce the
                   above copyright notice, this list of conditions,
@@ -228,7 +240,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2004 the University Corporation for Atmospheric Research (&quot;UCAR&quot;). All rights reserved. Developed by NCAR's Computational and Information Systems Laboratory, UCAR, www.cisl.ucar.edu.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Redistribution and use&lt;&lt;beginOptional&gt;&gt; of the Software&lt;&lt;endOptional&gt;&gt; in source and binary forms, with or without modification, &lt;&lt;var;name=&quot;is&quot;;original=&quot;is&quot;;match=&quot;is|are&quot;&gt;&gt; permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;-&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Neither the names of NCAR's Computational and Information Systems Laboratory, the University Corporation for Atmospheric Research, nor the names of its&lt;&lt;beginOptional&gt;&gt; sponsors or&lt;&lt;endOptional&gt;&gt; contributors may be used to endorse or promote products derived from this Software without specific prior written permission.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;-&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Redistributions of source code must retain the above copyright notices, this list of conditions, and the disclaimer below.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;-&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the disclaimer below in the documentation and/or other materials provided with the distribution.&#10;&#10;THIS SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2004 the University Corporation for Atmospheric Research (&quot;UCAR&quot;). All rights reserved. Developed by NCAR&#39;s Computational and Information Systems Laboratory, UCAR, www.cisl.ucar.edu.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Redistribution and use&lt;&lt;beginOptional&gt;&gt; of the Software&lt;&lt;endOptional&gt;&gt; in source and binary forms, with or without modification, &lt;&lt;var;name=&quot;is&quot;;original=&quot;is&quot;;match=&quot;is|are&quot;&gt;&gt; permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;-&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Neither the names of NCAR&#39;s Computational and Information Systems Laboratory, the University Corporation for Atmospheric Research, nor the names of its&lt;&lt;beginOptional&gt;&gt; sponsors or&lt;&lt;endOptional&gt;&gt; contributors may be used to endorse or promote products derived from this Software without specific prior written permission.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;-&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Redistributions of source code must retain the above copyright notices, this list of conditions, and the disclaimer below.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;-&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the disclaimer below in the documentation and/or other materials provided with the distribution.&#10;&#10;THIS SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

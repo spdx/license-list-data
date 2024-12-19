@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">MIT Open Group variant</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,20 +142,20 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:13Z>https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:13Z</p> -->
+               <a href="https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:35:30Z>https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:35:30Z</p> -->
              </li>
              <li>
-               <a href="https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:13Z>https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:13Z</p> -->
+               <a href="https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:35:26Z>https://gitlab.freedesktop.org/xorg/app/xvinfo/-/blob/master/COPYING</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:35:26Z</p> -->
              </li>
              <li>
-               <a href="https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:14Z>https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:14Z</p> -->
+               <a href="https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:35:37Z>https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:35:37Z</p> -->
              </li>
              <li>
-               <a href="https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:13Z>https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:13Z</p> -->
+               <a href="https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:35:33Z>https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:35:33Z</p> -->
              </li>
            </ul>
           </div>
@@ -166,13 +166,25 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-            <div class="replaceable-license-text"> 
+            <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
                 <p>Copyright &lt;yyyy, yyyy&gt; The Open Group</p>
 
-            </div>
+            </span></div>
             <p>Permission to use, copy, modify, distribute, and sell this
                 software and its documentation for any purpose is hereby granted
                 without fee, provided that the above copyright notice appear in
@@ -193,10 +205,10 @@
                 THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             </p>
 
-            <p>Except as contained in this notice, the name of <var class="replaceable-license-text">  The Open Group</var>
+            <p>Except as contained in this notice, the name of <var class="replaceable-license-text"><span title="can be replaced with the pattern .+">  The Open Group</span></var>
                 shall not be used in advertising or otherwise to promote the
                 sale, use or other dealings in this Software without prior
-                written authorization from <var class="replaceable-license-text"> The Open Group</var>.
+                written authorization from <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> The Open Group</span></var>.
             </p>
 
         
@@ -208,7 +220,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright &lt;yyyy, yyyy&gt; The Open Group  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.&#10;&#10;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10;&#10;Except as contained in this notice, the name of &lt;&lt;var;name=&quot;name1&quot;;original=&quot;The Open Group&quot;;match=&quot;.+&quot;&gt;&gt; shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from &lt;&lt;var;name=&quot;name2&quot;;original=&quot;The Open Group&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright &lt;yyyy, yyyy&gt; The Open Group  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.&#10;&#10;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10;&#10;Except as contained in this notice, the name of &lt;&lt;var;name=&quot;name1&quot;;original=&quot;The Open Group&quot;;match=&quot;.+&quot;&gt;&gt; shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from &lt;&lt;var;name=&quot;name2&quot;;original=&quot;The Open Group&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;&#10;
       </div>
 
     </div> <!-- /page -->

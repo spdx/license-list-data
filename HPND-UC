@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Historical Permission Notice and Disclaimer - University of California variant</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://core.tcl-lang.org/tk/file?name=compat/unistd.h" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:24:56Z>https://core.tcl-lang.org/tk/file?name=compat/unistd.h</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:24:56Z</p> -->
+               <a href="https://core.tcl-lang.org/tk/file?name=compat/unistd.h" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:33:45Z>https://core.tcl-lang.org/tk/file?name=compat/unistd.h</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:33:45Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,17 +154,29 @@
           <p style="margin-left: 20px;">This license is similar to HPND but omits the obligation that the copyright notice and this permission notice appear in supporting documentation.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-      <var class="replaceable-license-text"> 
+      <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          Copyright 1989 Regents of the University of California
-      </var>
+      </span></var>
       <p>
          Permission to use,
          copy, modify, and distribute this software and its documentation for any
          purpose and without fee is hereby granted, provided that the above
-         copyright notice appear in all copies. <var class="replaceable-license-text"> THE AUTHORS OR COPYRIGHT HOLDERS</var> <var class="replaceable-license-text"> make</var>
+         copyright notice appear in all copies. <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> THE AUTHORS OR COPYRIGHT HOLDERS</span></var> <var class="replaceable-license-text"><span title="can be replaced with the pattern makes?"> make</span></var>
          no representations about the suitability of this software for any purpose.
           It is provided &quot;as is&quot; without express or implied warranty.
       </p>
@@ -178,7 +190,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1989 Regents of the University of California&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies. &lt;&lt;var;name=&quot;copyrightHolder&quot;;original=&quot;THE AUTHORS OR COPYRIGHT HOLDERS&quot;;match=&quot;.+&quot;&gt;&gt; &lt;&lt;var;name=&quot;make&quot;;original=&quot;make&quot;;match=&quot;makes?&quot;&gt;&gt; no representations about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1989 Regents of the University of California&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies. &lt;&lt;var;name=&quot;copyrightHolder&quot;;original=&quot;THE AUTHORS OR COPYRIGHT HOLDERS&quot;;match=&quot;.+&quot;&gt;&gt; &lt;&lt;var;name=&quot;make&quot;;original=&quot;make&quot;;match=&quot;makes?&quot;&gt;&gt; no representations about the suitability of this software for any purpose. It is provided &quot;as is&quot; without express or implied warranty.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

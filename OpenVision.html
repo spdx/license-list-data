@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">OpenVision License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,16 +142,16 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L66-L98" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:09Z>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L66-L98</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:09Z</p> -->
+               <a href="https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L66-L98" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:28:08Z>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L66-L98</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:28:08Z</p> -->
              </li>
              <li>
-               <a href="https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-16T17:17:10Z>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-16T17:17:10Z</p> -->
+               <a href="https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:28:09Z>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:28:09Z</p> -->
              </li>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing:MIT#OpenVision_Variant" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:09Z>https://fedoraproject.org/wiki/Licensing:MIT#OpenVision_Variant</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:09Z</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing:MIT#OpenVision_Variant" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:28:08Z>https://fedoraproject.org/wiki/Licensing:MIT#OpenVision_Variant</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:28:08Z</p> -->
              </li>
            </ul>
           </div>
@@ -162,13 +162,25 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Copyright, OpenVision Technologies,
             Inc., 1993-1996, All Rights Reserved
-         </var>
+         </span></var>
          <p>
             WARNING: Retrieving the OpenVision Kerberos Administration system
             source code, as described below, indicates your acceptance of
@@ -216,7 +228,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright, OpenVision Technologies, Inc., 1993-1996, All Rights Reserved&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;WARNING: Retrieving the OpenVision Kerberos Administration system source code, as described below, indicates your acceptance of the following terms. If you do not agree to the following terms, do not retrieve the OpenVision Kerberos administration system.&#10;&#10;You may freely use and distribute the Source Code and Object Code compiled from it, with or without modification, but this Source Code is provided to you &quot;AS IS&quot; EXCLUSIVE OF ANY WARRANTY, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OR ANY OTHER WARRANTY, WHETHER EXPRESS OR IMPLIED. IN NO EVENT WILL OPENVISION HAVE ANY LIABILITY FOR ANY LOST PROFITS, LOSS OF DATA OR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR FOR ANY SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT, INCLUDING, WITHOUT LIMITATION, THOSE RESULTING FROM THE USE OF THE SOURCE CODE, OR THE FAILURE OF THE SOURCE CODE TO PERFORM, OR FOR ANY OTHER REASON.&#10;&#10;OpenVision retains all copyrights in the donated Source Code. OpenVision also retains copyright to derivative works of the Source Code, whether created by OpenVision or by a third party. The OpenVision copyright notice must be preserved if derivative works are made based on the donated Source Code.&#10;&#10;OpenVision Technologies, Inc. has donated this Kerberos Administration system to MIT for inclusion in the standard Kerberos 5 distribution. This donation underscores our commitment to continuing Kerberos technology development and our gratitude for the valuable work which has been performed by MIT and the Kerberos community.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright, OpenVision Technologies, Inc., 1993-1996, All Rights Reserved&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;WARNING: Retrieving the OpenVision Kerberos Administration system source code, as described below, indicates your acceptance of the following terms. If you do not agree to the following terms, do not retrieve the OpenVision Kerberos administration system.&#10;&#10;You may freely use and distribute the Source Code and Object Code compiled from it, with or without modification, but this Source Code is provided to you &quot;AS IS&quot; EXCLUSIVE OF ANY WARRANTY, INCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE, OR ANY OTHER WARRANTY, WHETHER EXPRESS OR IMPLIED. IN NO EVENT WILL OPENVISION HAVE ANY LIABILITY FOR ANY LOST PROFITS, LOSS OF DATA OR COSTS OF PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES, OR FOR ANY SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT, INCLUDING, WITHOUT LIMITATION, THOSE RESULTING FROM THE USE OF THE SOURCE CODE, OR THE FAILURE OF THE SOURCE CODE TO PERFORM, OR FOR ANY OTHER REASON.&#10;&#10;OpenVision retains all copyrights in the donated Source Code. OpenVision also retains copyright to derivative works of the Source Code, whether created by OpenVision or by a third party. The OpenVision copyright notice must be preserved if derivative works are made based on the donated Source Code.&#10;&#10;OpenVision Technologies, Inc. has donated this Kerberos Administration system to MIT for inclusion in the standard Kerberos 5 distribution. This donation underscores our commitment to continuing Kerberos technology development and our gratitude for the valuable work which has been performed by MIT and the Kerberos community.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

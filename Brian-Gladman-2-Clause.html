@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Brian Gladman 2-Clause License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:28:37Z>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:28:37Z</p> -->
+               <a href="https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:36:29Z>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:36:29Z</p> -->
              </li>
              <li>
-               <a href="https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:28:37Z>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:28:37Z</p> -->
+               <a href="https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:36:28Z>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:36:28Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,14 +158,26 @@
           <p style="margin-left: 20px;">This is similar to Brian-Gladman-3-Clause but sort omits the third clause, adds &quot;without the payment of fees or royalties&quot;, and re-words the lead-in and first two clauses.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Copyright (C) 1998-2013, Brian Gladman,<br />
 
             Worcester, UK. All rights reserved.
-         </var>
+         </span></var>
          <p>
             The redistribution and use of this software
             (with or without changes) is allowed without
@@ -197,7 +209,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1998-2013, Brian Gladman,  Worcester, UK. All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;The redistribution and use of this software (with or without changes) is allowed without the payment of fees or royalties provided that:&#10;&#10;source code distributions include the above copyright notice, this list of conditions and the following disclaimer;&#10;&#10;binary distributions include the above copyright notice, this list of conditions and the following disclaimer in their documentation.&#10;&#10;This software is provided 'as is' with no explicit or implied warranties in respect of its operation, including, but not limited to, correctness and fitness for purpose.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;The redistribution and use of this software (with or without changes) is allowed without the payment of fees or royalties provided that:&#10;&#10;source code distributions include the above copyright notice, this list of conditions and the following disclaimer;&#10;&#10;binary distributions include the above copyright notice, this list of conditions and the following disclaimer in their documentation.&#10;&#10;This software is provided &#39;as is&#39; with no explicit or implied warranties in respect of its operation, including, but not limited to, correctness and fitness for purpose.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

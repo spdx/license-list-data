@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">pnmstitch License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -153,18 +153,29 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-        <div class="replaceable-license-text"> 
+        <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
                 <p>
                         Copyright (c) 2002 Mark Salyzyn
                         <br />
-
 All rights reserved.
                 </p>
 
-        </div>
+        </span></div>
         <div class="optional-license-text"> 
                 <p>
                         TERMS AND CONDITIONS OF USE
@@ -180,11 +191,11 @@ All rights reserved.
         </p>
 
         <p>
-                This software is provided `as is&apos; by <var class="replaceable-license-text"> Mark Salyzyn</var>
+                This software is provided `as is&apos; by <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> Mark Salyzyn</span></var>
                 and any express or implied warranties, including, but not
                 limited to, the implied warranties of merchantability and
                 fitness for a particular purpose, are disclaimed. In no event
-                shall <var class="replaceable-license-text"> Mark Salyzyn</var> be liable for any direct, indirect,
+                shall <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> Mark Salyzyn</span></var> be liable for any direct, indirect,
                 incidental, special, exemplary or consequential damages
                 (including, but not limited to, procurement of substitute goods
                 or services; loss of use, data, or profits; or business
@@ -209,7 +220,7 @@ All rights reserved.
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2002 Mark Salyzyn  All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&lt;&lt;beginOptional&gt;&gt; TERMS AND CONDITIONS OF USE&#10;&#10;&lt;&lt;endOptional&gt;&gt;&#10;&#10;Redistribution and use in source form, with or without modification, are permitted provided that redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;This software is provided `as is' by &lt;&lt;var;name=&quot;author&quot;;original=&quot;Mark Salyzyn&quot;;match=&quot;.+&quot;&gt;&gt; and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose, are disclaimed. In no event shall &lt;&lt;var;name=&quot;author&quot;;original=&quot;Mark Salyzyn&quot;;match=&quot;.+&quot;&gt;&gt; be liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruptions) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.&#10;&#10;Any restrictions or encumberances added to this source code or derivitives, is prohibited.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2002 Mark Salyzyn All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&lt;&lt;beginOptional&gt;&gt; TERMS AND CONDITIONS OF USE&#10;&#10;&lt;&lt;endOptional&gt;&gt;&#10;Redistribution and use in source form, with or without modification, are permitted provided that redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;This software is provided `as is&#39; by &lt;&lt;var;name=&quot;author&quot;;original=&quot;Mark Salyzyn&quot;;match=&quot;.+&quot;&gt;&gt; and any express or implied warranties, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose, are disclaimed. In no event shall &lt;&lt;var;name=&quot;author&quot;;original=&quot;Mark Salyzyn&quot;;match=&quot;.+&quot;&gt;&gt; be liable for any direct, indirect, incidental, special, exemplary or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, data, or profits; or business interruptions) however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.&#10;&#10;Any restrictions or encumberances added to this source code or derivitives, is prohibited.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">AMD newlib License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/sys/a29khif/_close.S;h=04f52ae00de1dafbd9055ad8d73c5c697a3aae7f;hb=HEAD" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:23:24Z>https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/sys/a29khif/_close.S;h=04f52ae00de1dafbd9055ad8d73c5c697a3aae7f;hb=HEAD</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:23:24Z</p> -->
+               <a href="https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/sys/a29khif/_close.S;h=04f52ae00de1dafbd9055ad8d73c5c697a3aae7f;hb=HEAD" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:32:43Z>https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/sys/a29khif/_close.S;h=04f52ae00de1dafbd9055ad8d73c5c697a3aae7f;hb=HEAD</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:32:43Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,26 +154,38 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             <p>
                Copyright 1990 Advanced Micro Devices, Inc.
             </p>
 
-         </div>
+         </span></div>
          <p>
             This software is the property
-             of <var class="replaceable-license-text"> Advanced Micro Devices, Inc  (AMD)</var> which specifically
+             of <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> Advanced Micro Devices, Inc  (AMD)</span></var> which specifically
             grants the user the right to modify, use and distribute
             this software provided this notice is not removed
-             or altered. All other rights are reserved by <var class="replaceable-license-text"> AMD</var>.
+             or altered. All other rights are reserved by <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> AMD</span></var>.
          </p>
 
          <p>
-             <var class="replaceable-license-text"> AMD</var> MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH
-             REGARD TO THIS SOFTWARE. IN NO EVENT SHALL <var class="replaceable-license-text"> AMD</var> BE LIABLE FOR
+             <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> AMD</span></var> MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH
+             REGARD TO THIS SOFTWARE. IN NO EVENT SHALL <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> AMD</span></var> BE LIABLE FOR
             INCIDENTAL OR CONSEQUENTIAL DAMAGES IN CONNECTION WITH OR ARISING
             FROM THE FURNISHING, PERFORMANCE, OR USE OF THIS SOFTWARE.
          </p>
@@ -187,7 +199,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1990 Advanced Micro Devices, Inc.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This software is the property of &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;Advanced Micro Devices, Inc (AMD)&quot;;match=&quot;.+&quot;&gt;&gt; which specifically grants the user the right to modify, use and distribute this software provided this notice is not removed or altered. All other rights are reserved by &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;AMD&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;&#10;&lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;AMD&quot;;match=&quot;.+&quot;&gt;&gt; MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS SOFTWARE. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;AMD&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES IN CONNECTION WITH OR ARISING FROM THE FURNISHING, PERFORMANCE, OR USE OF THIS SOFTWARE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1990 Advanced Micro Devices, Inc.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This software is the property of &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;Advanced Micro Devices, Inc (AMD)&quot;;match=&quot;.+&quot;&gt;&gt; which specifically grants the user the right to modify, use and distribute this software provided this notice is not removed or altered. All other rights are reserved by &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;AMD&quot;;match=&quot;.+&quot;&gt;&gt; .&#10;&#10;&lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;AMD&quot;;match=&quot;.+&quot;&gt;&gt; MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS SOFTWARE. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;AMD&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES IN CONNECTION WITH OR ARISING FROM THE FURNISHING, PERFORMANCE, OR USE OF THIS SOFTWARE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

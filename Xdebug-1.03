@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Xdebug License v 1.03</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/xdebug/xdebug/blob/master/LICENSE" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:23:21Z>https://github.com/xdebug/xdebug/blob/master/LICENSE</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:23:21Z</p> -->
+               <a href="https://github.com/xdebug/xdebug/blob/master/LICENSE" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:32:40Z>https://github.com/xdebug/xdebug/blob/master/LICENSE</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:32:40Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,6 +154,18 @@
           <p style="margin-left: 20px;">This license is based on the PHP License v3.01, but omits the last part of the 4th clause</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
@@ -163,12 +175,12 @@
 
             (Based on &quot;The PHP License&quot;, version 3.01)
          </var>
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             <p>
                Copyright (c) 2003-2022 Derick Rethans. All rights reserved.
             </p>
 
-         </div>
+         </span></div>
             --------------------------------------------------------------------
          <p>
             Redistribution and use in source and binary
@@ -179,13 +191,13 @@
 <ul style="list-style:none">
             
 <li>
-               <var class="replaceable-license-text"> 1.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
                Redistributions of source code must retain the above copyright
                notice, this list of conditions and the following disclaimer.
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 2.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
                Redistributions in binary form must reproduce the
                above copyright notice, this list of conditions and
                the following disclaimer in the documentation and/or
@@ -193,21 +205,21 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 3.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
                The name &quot;Xdebug&quot; must not be used to endorse or promote products
                derived from this software without prior written permission.
                For written permission, please contact derick@xdebug.org.
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 4.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
                Products derived from this software may not be called
                &quot;Xdebug&quot;, nor may &quot;Xdebug&quot; appear in their name,
                without prior written permission from derick@xdebug.org.
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 5.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 5.</span></var>
                Derick Rethans may publish revised and/or new versions of
                the license from time to time. Each version will be given
                a distinguishing version number. Once covered code has been
@@ -220,7 +232,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 6.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 6.</span></var>
                Redistributions of any form whatsoever must retain the
                following acknowledgment: &quot;This product includes Xdebug
                software, freely available from &lt;https://xdebug.org/&gt;&quot;.
@@ -268,7 +280,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      --------------------------------------------------------------------&lt;&lt;beginOptional&gt;&gt; The Xdebug License, version 1.03&#10;&#10;(Based on &quot;The PHP License&quot;, version 3.01)&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2003-2022 Derick Rethans. All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt; --------------------------------------------------------------------&#10;&#10;Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The name &quot;Xdebug&quot; must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact derick@xdebug.org.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Products derived from this software may not be called &quot;Xdebug&quot;, nor may &quot;Xdebug&quot; appear in their name, without prior written permission from derick@xdebug.org.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Derick Rethans may publish revised and/or new versions of the license from time to time. Each version will be given a distinguishing version number. Once covered code has been published under a particular version of the license, you may always continue to use it under the terms of that version. You may also choose to use such covered code under the terms of any subsequent version of the license published by Derick Rethans. No one other than Derick Rethans has the right to modify the terms applicable to covered code created under this License.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of any form whatsoever must retain the following acknowledgment: &quot;This product includes Xdebug software, freely available from &lt;https://xdebug.org/&gt;&quot;.&#10;&#10;THIS SOFTWARE IS PROVIDED BY DERICK RETHANS ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;--------------------------------------------------------------------&lt;&lt;beginOptional&gt;&gt; This software consists of voluntary contributions made by some individuals on behalf of Derick Rethans.&#10;&#10;Derick Rethans can be contacted via e-mail at derick@xdebug.org.&#10;&#10;For more information on Xdebug, please see &lt;https://xdebug.org&gt;.&#10;&#10;&lt;&lt;endOptional&gt;&gt;
+      --------------------------------------------------------------------&lt;&lt;beginOptional&gt;&gt; The Xdebug License, version 1.03&#10;(Based on &quot;The PHP License&quot;, version 3.01)&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2003-2022 Derick Rethans. All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt; --------------------------------------------------------------------&#10;Redistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The name &quot;Xdebug&quot; must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact derick@xdebug.org.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Products derived from this software may not be called &quot;Xdebug&quot;, nor may &quot;Xdebug&quot; appear in their name, without prior written permission from derick@xdebug.org.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Derick Rethans may publish revised and/or new versions of the license from time to time. Each version will be given a distinguishing version number. Once covered code has been published under a particular version of the license, you may always continue to use it under the terms of that version. You may also choose to use such covered code under the terms of any subsequent version of the license published by Derick Rethans. No one other than Derick Rethans has the right to modify the terms applicable to covered code created under this License.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of any form whatsoever must retain the following acknowledgment: &quot;This product includes Xdebug software, freely available from &lt;https://xdebug.org/&gt;&quot;.&#10;THIS SOFTWARE IS PROVIDED BY DERICK RETHANS ``AS IS&#39;&#39; AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE PHP DEVELOPMENT TEAM OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;--------------------------------------------------------------------&lt;&lt;beginOptional&gt;&gt; This software consists of voluntary contributions made by some individuals on behalf of Derick Rethans.&#10;&#10;Derick Rethans can be contacted via e-mail at derick@xdebug.org.&#10;&#10;For more information on Xdebug, please see &lt;https://xdebug.org&gt;.&#10;&#10;&lt;&lt;endOptional&gt;&gt;
       </div>
 
     </div> <!-- /page -->

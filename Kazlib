@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Kazlib License</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:23Z>http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:23Z</p> -->
+               <a href="http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:28:22Z>http://git.savannah.gnu.org/cgit/kazlib.git/tree/except.c?id=0062df360c2d17d57f6af19b0e444c51feb99036</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:28:22Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,12 +154,24 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Copyright (C) 1999 Kaz Kylheku &lt;kaz@ashi.footprints.net&gt;
-         </var>
+         </span></var>
          <p>
             Free Software License:
          </p>
@@ -186,7 +198,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1999 Kaz Kylheku &lt;kaz@ashi.footprints.net&gt;&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Free Software License:&#10;&#10;All rights are reserved by the author, with the following exceptions: Permission is granted to freely reproduce and distribute this software, possibly in exchange for a fee, provided that this copyright notice appears intact. Permission is also granted to adapt this software to produce derivative works, as long as the modified versions carry this copyright notice and additional notices stating that the work has been modified. This source code may be translated into executable form and incorporated into proprietary software; there is no requirement for such software to contain a copyright notice related to this source.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1999 Kaz Kylheku &lt;kaz@ashi.footprints.net&gt;&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Free Software License:&#10;&#10;All rights are reserved by the author, with the following exceptions: Permission is granted to freely reproduce and distribute this software, possibly in exchange for a fee, provided that this copyright notice appears intact. Permission is also granted to adapt this software to produce derivative works, as long as the modified versions carry this copyright notice and additional notices stating that the work has been modified. This source code may be translated into executable form and incorporated into proprietary software; there is no requirement for such software to contain a copyright notice related to this source.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

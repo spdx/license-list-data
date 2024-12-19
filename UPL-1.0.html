@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Universal Permissive License v1.0</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -153,13 +153,25 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>Copyright (c) [year] [copyright holders]</p>
 
-      </div>
+      </span></div>
       <div class="optional-license-text"> 
          <p>The Universal Permissive License (UPL), Version 1.0</p>
 
@@ -174,12 +186,12 @@
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> (a)</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> (a)</span></var>
           the Software, and
         </li>
         
 <li>
-            <var class="replaceable-license-text"> (b)</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> (b)</span></var>
           any piece of software and/or hardware listed in the lrgrwrks.txt file if one is included with the
              Software (each a &quot;Larger Work&quot; to which the Software is contributed by such licensors),
         </li>
@@ -210,7 +222,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) [year] [copyright holders]  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&lt;&lt;beginOptional&gt;&gt; The Universal Permissive License (UPL), Version 1.0&#10;&#10;&lt;&lt;endOptional&gt;&gt;&#10;&#10;Subject to the condition set forth below, permission is hereby granted to any person obtaining a copy of this software, associated documentation and/or data (collectively the &quot;Software&quot;), free of charge and under any and all copyright rights in the Software, and any and all patent rights owned or freely licensable by each licensor hereunder covering either (i) the unmodified Software as contributed to or provided by such licensor, or (ii) the Larger Works (as defined below), to deal in both&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(a)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the Software, and&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(b)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; any piece of software and/or hardware listed in the lrgrwrks.txt file if one is included with the Software (each a &quot;Larger Work&quot; to which the Software is contributed by such licensors),&#10;&#10;without restriction, including without limitation the rights to copy, create derivative works of, display, perform, and distribute the Software and make, use, sell, offer for sale, import, export, have made, and have sold the Software and the Larger Work(s), and to sublicense the foregoing rights on either these or other terms.&#10;&#10;This license is subject to the following condition:&#10;&#10;The above copyright notice and either this complete permission notice or at a minimum a reference to the UPL must be included in all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) [year] [copyright holders]  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&lt;&lt;beginOptional&gt;&gt; The Universal Permissive License (UPL), Version 1.0&#10;&#10;&lt;&lt;endOptional&gt;&gt;&#10;Subject to the condition set forth below, permission is hereby granted to any person obtaining a copy of this software, associated documentation and/or data (collectively the &quot;Software&quot;), free of charge and under any and all copyright rights in the Software, and any and all patent rights owned or freely licensable by each licensor hereunder covering either (i) the unmodified Software as contributed to or provided by such licensor, or (ii) the Larger Works (as defined below), to deal in both&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(a)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the Software, and&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(b)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; any piece of software and/or hardware listed in the lrgrwrks.txt file if one is included with the Software (each a &quot;Larger Work&quot; to which the Software is contributed by such licensors),&#10;without restriction, including without limitation the rights to copy, create derivative works of, display, perform, and distribute the Software and make, use, sell, offer for sale, import, export, have made, and have sold the Software and the Larger Work(s), and to sublicense the foregoing rights on either these or other terms.&#10;&#10;This license is subject to the following condition:&#10;&#10;The above copyright notice and either this complete permission notice or at a minimum a reference to the UPL must be included in all copies or substantial portions of the Software.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

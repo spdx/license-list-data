@@ -128,7 +128,7 @@
 
     <div id="page" class="page">
 
-      <div class="breadcrumb"><a href="/license-list-data">Licenses</a></div>
+      <div class="breadcrumb"><a href="/">Home</a> » <a href="/licenses">Licenses</a></div>
 
       <h1 property="dc:title">Ruby pty extension license</h1>
       <div style="display:none;"><code property="spdx:deprecated">false</code></div>
@@ -142,16 +142,16 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:59Z>https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:59Z</p> -->
+               <a href="https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:35:57Z>https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:35:57Z</p> -->
              </li>
              <li>
-               <a href="https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-ef5fa30838d6d0cecad9e675cc50b24628cfe2cb277c346053fafcc36c91c204" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:59Z>https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-ef5fa30838d6d0cecad9e675cc50b24628cfe2cb277c346053fafcc36c91c204</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:59Z</p> -->
+               <a href="https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-ef5fa30838d6d0cecad9e675cc50b24628cfe2cb277c346053fafcc36c91c204" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:35:57Z>https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-ef5fa30838d6d0cecad9e675cc50b24628cfe2cb277c346053fafcc36c91c204</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:35:57Z</p> -->
              </li>
              <li>
-               <a href="https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:59Z>https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:59Z</p> -->
+               <a href="https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:35:57Z>https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:35:57Z</p> -->
              </li>
            </ul>
           </div>
@@ -162,15 +162,27 @@
           <p style="margin-left: 20px;">There is a Japanese translation of this license included with some instances of use.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-        <div class="replaceable-license-text"> 
+        <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
                 <p>
                         (c) Copyright 1998 by Akinori Ito.
                 </p>
 
-        </div>
+        </span></div>
         <p>
                 This software may be redistributed freely for this
                 purpose, in full or in part, provided that this entire
@@ -194,7 +206,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;(c) Copyright 1998 by Akinori Ito.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This software may be redistributed freely for this purpose, in full or in part, provided that this entire copyright notice is included on any copies of this software and applications and derivations thereof.&#10;&#10;This software is provided on an &quot;as is&quot; basis, without warranty of any kind, either expressed or implied, as to any matter including, but not limited to warranty of fitness of purpose, or merchantability, or results obtained from use of this software.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;(c) Copyright 1998 by Akinori Ito.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This software may be redistributed freely for this purpose, in full or in part, provided that this entire copyright notice is included on any copies of this software and applications and derivations thereof.&#10;&#10;This software is provided on an &quot;as is&quot; basis, without warranty of any kind, either expressed or implied, as to any matter including, but not limited to warranty of fitness of purpose, or merchantability, or results obtained from use of this software.&#10;&#10;
       </div>
 
     </div> <!-- /page -->
