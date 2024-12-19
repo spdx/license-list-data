@@ -5,36 +5,41 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/cryptsetup-OpenSSL-exception">
-    <rdfs:seeAlso>https://sourceforge.net/p/linux-ima/ima-evm-utils/ci/master/tree/src/evmctl.c#l30</rdfs:seeAlso>
-    <spdx:licenseExceptionId>cryptsetup-OpenSSL-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://gitlab.nic.cz/datovka/datovka/-/blob/develop/COPYING</rdfs:seeAlso>
+    <rdfs:seeAlso>https://github.com/nbs-system/naxsi/blob/951123ad456bdf5ac94e8d8819342fe3d49bc002/naxsi_src/naxsi_raw.c</rdfs:seeAlso>
+    <rdfs:seeAlso>https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/COPYING</rdfs:seeAlso>
     <spdx:exceptionTextHtml>
          &lt;p&gt;
-            &lt;var class="replaceable-license-text"&gt; In addition, as&lt;/var&gt; a special exception, the copyright
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern In addition, as|As"&gt; In addition, as&lt;/span&gt;&lt;/var&gt; a special exception, the copyright
             holders give permission to link the code of portions
             of this program with the OpenSSL library under certain
             conditions as described in each individual source file,
             and distribute linked combinations including the
-            &lt;var class="replaceable-license-text"&gt; two&lt;/var&gt;.
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern two|program with the OpenSSL library"&gt; two&lt;/span&gt;&lt;/var&gt;.
          &lt;/p&gt;
 
          &lt;p&gt;
-            You must &lt;var class="replaceable-license-text"&gt; obey&lt;/var&gt;
+            You must &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern obey|comply with"&gt; obey&lt;/span&gt;&lt;/var&gt;
             the GNU General Public License in all respects
             for all of the code used other than
-            &lt;var class="replaceable-license-text"&gt; OpenSSL&lt;/var&gt;.
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern OpenSSL|as permitted herein"&gt; OpenSSL&lt;/span&gt;&lt;/var&gt;.
             If you modify
             file(s) with this exception, you may extend this exception to
             your version of the file(s), but you are not obligated to do
             so. If you do not wish to do so, delete this exception statement
             from your version. If you delete this exception statement from
             all source files in the program, then also delete it
-            &lt;var class="replaceable-license-text"&gt; here&lt;/var&gt;.
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern here|in the license file"&gt; here&lt;/span&gt;&lt;/var&gt;.
          &lt;/p&gt;
 
       </spdx:exceptionTextHtml>
-    <spdx:name>cryptsetup OpenSSL exception</spdx:name>
-    <rdfs:seeAlso>https://gitlab.com/cryptsetup/cryptsetup/-/blob/main/COPYING</rdfs:seeAlso>
     <rdfs:seeAlso>http://web.mit.edu/jgross/arch/amd64_deb60/bin/mosh</rdfs:seeAlso>
+    <spdx:licenseExceptionTemplate>&lt;&lt;var;name="addition";original="In addition, as";match="In addition, as|As"&gt;&gt; a special exception, the copyright holders give permission to link the code of portions of this program with the OpenSSL library under certain conditions as described in each individual source file, and distribute linked combinations including the &lt;&lt;var;name="what";original="two";match="two|program with the OpenSSL library"&gt;&gt; .
+
+You must &lt;&lt;var;name="obey";original="obey";match="obey|comply with"&gt;&gt; the GNU General Public License in all respects for all of the code used other than &lt;&lt;var;name="subject";original="OpenSSL";match="OpenSSL|as permitted herein"&gt;&gt; . If you modify file(s) with this exception, you may extend this exception to your version of the file(s), but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. If you delete this exception statement from all source files in the program, then also delete it &lt;&lt;var;name="where";original="here";match="here|in the license file"&gt;&gt; .
+
+</spdx:licenseExceptionTemplate>
+    <spdx:name>cryptsetup OpenSSL exception</spdx:name>
     <spdx:licenseExceptionText>In addition, as a special exception, the copyright holders give
 permission to link the code of portions of this program with the OpenSSL
 library under certain conditions as described in each individual source
@@ -48,13 +53,8 @@ this exception statement from your version. If you delete this exception
 statement from all source files in the program, then also delete it
 here.
 </spdx:licenseExceptionText>
-    <rdfs:seeAlso>https://gitlab.nic.cz/datovka/datovka/-/blob/develop/COPYING</rdfs:seeAlso>
-    <spdx:licenseExceptionTemplate>&lt;&lt;var;name="addition";original="In addition, as";match="In addition, as|As"&gt;&gt; a special exception, the copyright holders give permission to link the code of portions of this program with the OpenSSL library under certain conditions as described in each individual source file, and distribute linked combinations including the &lt;&lt;var;name="what";original="two";match="two|program with the OpenSSL library"&gt;&gt; .
-
-You must &lt;&lt;var;name="obey";original="obey";match="obey|comply with"&gt;&gt; the GNU General Public License in all respects for all of the code used other than &lt;&lt;var;name="subject";original="OpenSSL";match="OpenSSL|as permitted herein"&gt;&gt; . If you modify file(s) with this exception, you may extend this exception to your version of the file(s), but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version. If you delete this exception statement from all source files in the program, then also delete it &lt;&lt;var;name="where";original="here";match="here|in the license file"&gt;&gt; .
-
-</spdx:licenseExceptionTemplate>
-    <rdfs:seeAlso>https://github.com/nbs-system/naxsi/blob/951123ad456bdf5ac94e8d8819342fe3d49bc002/naxsi_src/naxsi_raw.c</rdfs:seeAlso>
+    <spdx:licenseExceptionId>cryptsetup-OpenSSL-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://sourceforge.net/p/linux-ima/ima-evm-utils/ci/master/tree/src/evmctl.c#l30</rdfs:seeAlso>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
   </spdx:ListedLicenseException>

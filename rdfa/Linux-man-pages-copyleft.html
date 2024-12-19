@@ -153,23 +153,35 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             <p>Copyright (c) &lt;year&gt;, &lt;owner&gt;.</p>
 
-         </div>
+         </span></div>
          <p>Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.</p>
 
          <p>Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.</p>
 
          <p>Since the Linux kernel and libraries are constantly changing, this manual page may be incorrect or out-of-date. The author(s)
-         <var class="replaceable-license-text"> assume </var>no responsibility for errors or omissions, or for damages
-         <var class="replaceable-license-text"> resulting </var>from the use of the information contained herein. The author(s)
-         <var class="replaceable-license-text"> may </var>not have taken the same level of care in the production of
-         <var class="replaceable-license-text"> this </var>manual, which is licensed free of charge, as they might when
-         <var class="replaceable-license-text"> working </var>professionally.</p>
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern assume\.?"> assume </span></var>no responsibility for errors or omissions, or for damages
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern resulting\.?"> resulting </span></var>from the use of the information contained herein. The author(s)
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern may\.?"> may </span></var>not have taken the same level of care in the production of
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern this\.?"> this </span></var>manual, which is licensed free of charge, as they might when
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern working\.?"> working </span></var>professionally.</p>
 
          <p>Formatted or processed versions of this manual, if unaccompanied by the source, must acknowledge the copyright and authors of this work.</p>
 
@@ -182,7 +194,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) &lt;year&gt;, &lt;owner&gt;.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.&#10;&#10;Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.&#10;&#10;Since the Linux kernel and libraries are constantly changing, this manual page may be incorrect or out-of-date. The author(s) &lt;&lt;var;name=&quot;trailing-.-1&quot;;original=&quot;assume&quot;;match=&quot;assume\\.?&quot;&gt;&gt; no responsibility for errors or omissions, or for damages &lt;&lt;var;name=&quot;trailing-.-2&quot;;original=&quot;resulting&quot;;match=&quot;resulting\\.?&quot;&gt;&gt; from the use of the information contained herein. The author(s) &lt;&lt;var;name=&quot;trailing-.-3&quot;;original=&quot;may&quot;;match=&quot;may\\.?&quot;&gt;&gt; not have taken the same level of care in the production of &lt;&lt;var;name=&quot;trailing-.-4&quot;;original=&quot;this&quot;;match=&quot;this\\.?&quot;&gt;&gt; manual, which is licensed free of charge, as they might when &lt;&lt;var;name=&quot;trailing-.-5&quot;;original=&quot;working&quot;;match=&quot;working\\.?&quot;&gt;&gt; professionally.&#10;&#10;Formatted or processed versions of this manual, if unaccompanied by the source, must acknowledge the copyright and authors of this work.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) &lt;year&gt;, &lt;owner&gt;.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.&#10;&#10;Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.&#10;&#10;Since the Linux kernel and libraries are constantly changing, this manual page may be incorrect or out-of-date. The author(s) &lt;&lt;var;name=&quot;trailing-.-1&quot;;original=&quot;assume&quot;;match=&quot;assume\.?&quot;&gt;&gt; no responsibility for errors or omissions, or for damages &lt;&lt;var;name=&quot;trailing-.-2&quot;;original=&quot;resulting&quot;;match=&quot;resulting\.?&quot;&gt;&gt; from the use of the information contained herein. The author(s) &lt;&lt;var;name=&quot;trailing-.-3&quot;;original=&quot;may&quot;;match=&quot;may\.?&quot;&gt;&gt; not have taken the same level of care in the production of &lt;&lt;var;name=&quot;trailing-.-4&quot;;original=&quot;this&quot;;match=&quot;this\.?&quot;&gt;&gt; manual, which is licensed free of charge, as they might when &lt;&lt;var;name=&quot;trailing-.-5&quot;;original=&quot;working&quot;;match=&quot;working\.?&quot;&gt;&gt; professionally.&#10;&#10;Formatted or processed versions of this manual, if unaccompanied by the source, must acknowledge the copyright and authors of this work.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

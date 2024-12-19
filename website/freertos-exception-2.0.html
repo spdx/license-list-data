@@ -158,7 +158,19 @@
           <p style="margin-left: 20px;">This exception was used by the FreeRTOS project with GPL-2.0 until Amazon acquired the project and changed the license to MIT. Note, the exact text of the exception varied over the years and on different pages.</p>
           
       <h2 id="licenseExceptionText">Text</h2>
-
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
+	  
       <div property="spdx:licenseExceptionText" class="exception-text">
       
       <p>Any FreeRTOS source code, whether modified or in its original
@@ -189,7 +201,7 @@
 <ul style="list-style:none">
                
 <li>
-               <var class="replaceable-license-text"> +</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> +</span></var>
             Every copy of the combined work is accompanied by a written
            statement that details to the recipient the version of
            FreeRTOS used and an offer by yourself to provide the FreeRTOS
@@ -198,13 +210,13 @@
                </li>
                
 <li>
-                   <var class="replaceable-license-text"> +</var>
+                   <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> +</span></var>
                   The combined work is not itself an RTOS, scheduler, kernel or
            related product.
                </li>
                
 <li>
-                   <var class="replaceable-license-text"> +</var>
+                   <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> +</span></var>
                   The independent modules add significant and primary functionality
            to FreeRTOS and do not merely extend the existing
            functionality already present in FreeRTOS.

@@ -1,0 +1,40 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Brian-Gladman-2-Clause_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/Brian-Gladman-2-Clause" ],
+    "name" : "Brian-Gladman-2-Clause document",
+    "comment" : "SPDX Document For Brian-Gladman-2-Clause",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Brian-Gladman-2-Clause",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156", "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html" ],
+    "simplelicensing_licenseText" : "Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All\n   rights reserved.\n\nThe redistribution and use of this software (with or without\nchanges) is allowed without the payment of fees or royalties\nprovided that:\n\n   source code distributions include the above copyright notice,\n   this list of conditions and the following disclaimer;\n\n   binary distributions include the above copyright notice, this\n   list of conditions and the following disclaimer in their\n   documentation.\n\nThis software is provided 'as is' with no explicit or implied\nwarranties in respect of its operation, including, but not limited\nto, correctness and fitness for purpose.\n",
+    "name" : "Brian Gladman 2-Clause License",
+    "comment" : "This is similar to Brian-Gladman-3-Clause but sort omits the third clause, adds \"without the payment of fees or royalties\", and re-words the lead-in and first two clauses.",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.\";match=\".{0,5000}\">>\nThe redistribution and use of this software (with or without changes) is allowed without the payment of fees or royalties provided that:\n\nsource code distributions include the above copyright notice, this list of conditions and the following disclaimer;\n\nbinary distributions include the above copyright notice, this list of conditions and the following disclaimer in their documentation.\n\nThis software is provided 'as is' with no explicit or implied warranties in respect of its operation, including, but not limited to, correctness and fitness for purpose.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

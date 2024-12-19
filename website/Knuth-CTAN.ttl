@@ -1,25 +1,25 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/Knuth-CTAN>
-        a                             spdx:ListedLicense ;
-        rdfs:comment                  "This license is very similar to Wsuipa." ;
-        rdfs:seeAlso                  "https://ctan.org/license/knuth" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:26:05Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:comment                  "This license is very similar to Wsuipa.";
+        rdfs:seeAlso                  "https://ctan.org/license/knuth";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:34:51Z";
                                         spdx:url            "https://ctan.org/license/knuth"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "Knuth-CTAN" ;
-        spdx:licenseText              "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n" ;
-        spdx:licenseTextHtml          "\n         <p>\n            This software is copyrighted. Unlimited copying and redistribution\n            of this package and/or its individual files are permitted\n            as long as there are no modifications. Modifications, and\n            redistribution of modifications, are also permitted, but\n            only if the resulting package and/or files are renamed.\n         </p>\n\n      " ;
-        spdx:name                     "Knuth CTAN License" ;
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "Knuth-CTAN";
+        spdx:licenseText              "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n";
+        spdx:licenseTextHtml          "\n         <p>\n            This software is copyrighted. Unlimited copying and redistribution\n            of this package and/or its individual files are permitted\n            as long as there are no modifications. Modifications, and\n            redistribution of modifications, are also permitted, but\n            only if the resulting package and/or files are renamed.\n         </p>\n\n      ";
+        spdx:name                     "Knuth CTAN License";
         spdx:standardLicenseTemplate  "This software is copyrighted. Unlimited copying and redistribution of this package and/or its individual files are permitted as long as there are no modifications. Modifications, and redistribution of modifications, are also permitted, but only if the resulting package and/or files are renamed.\n\n" .

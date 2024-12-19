@@ -1,24 +1,24 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/Clips>
-        a                             spdx:ListedLicense ;
-        rdfs:seeAlso                  "https://github.com/DrItanium/maya/blob/master/LICENSE.CLIPS" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:22:57Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://github.com/DrItanium/maya/blob/master/LICENSE.CLIPS";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:32:23Z";
                                         spdx:url            "https://github.com/DrItanium/maya/blob/master/LICENSE.CLIPS"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "Clips" ;
-        spdx:licenseText              "Permission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, and/or sell copies of the Software, and to permit persons \nto whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT \nOF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY\nCLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN \nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF \nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n" ;
-        spdx:licenseTextHtml          "\n\t    <p>\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of\n\t\tthis software and associated documentation files (the &quot;Software&quot;), to deal in \n\t\tthe Software without restriction, including without limitation the rights to \n\t\tuse, copy, modify, merge, publish, distribute, and/or sell copies of the \n\t\tSoftware, and to permit persons to whom the Software is furnished to do so.</p>\n\n\t    <p>\n\t\tTHE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR \n\t\tIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\n\t\tFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT \n\t\tSHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR \n\t\tCONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, \n\t\tDATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS\n\t\tACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS \n\t\tSOFTWARE.\n\t   </p>\n\n    " ;
-        spdx:name                     "Clips License" ;
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "Clips";
+        spdx:licenseText              "Permission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, and/or sell copies of the Software, and to permit persons \nto whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT \nOF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY\nCLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES\nWHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN \nACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF \nOR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n";
+        spdx:licenseTextHtml          "\n\t    <p>\n\t\tPermission is hereby granted, free of charge, to any person obtaining a copy of\n\t\tthis software and associated documentation files (the &quot;Software&quot;), to deal in \n\t\tthe Software without restriction, including without limitation the rights to \n\t\tuse, copy, modify, merge, publish, distribute, and/or sell copies of the \n\t\tSoftware, and to permit persons to whom the Software is furnished to do so.</p>\n\n\t    <p>\n\t\tTHE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR \n\t\tIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\n\t\tFOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT \n\t\tSHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR \n\t\tCONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, \n\t\tDATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS\n\t\tACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS \n\t\tSOFTWARE.\n\t   </p>\n\n    ";
+        spdx:name                     "Clips License";
         spdx:standardLicenseTemplate  "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT OF THIRD PARTY RIGHTS. IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, OR ANY SPECIAL INDIRECT OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n" .

@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing/FDK-AAC" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:20:36Z>https://fedoraproject.org/wiki/Licensing/FDK-AAC</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:20:36Z</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing/FDK-AAC" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:30:40Z>https://fedoraproject.org/wiki/Licensing/FDK-AAC</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:30:40Z</p> -->
              </li>
              <li>
-               <a href="https://directory.fsf.org/wiki/License:Fdk" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:20:35Z>https://directory.fsf.org/wiki/License:Fdk</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:20:35Z</p> -->
+               <a href="https://directory.fsf.org/wiki/License:Fdk" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:30:39Z>https://directory.fsf.org/wiki/License:Fdk</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:30:39Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,20 +158,32 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
       <var class="optional-license-text"> Software License for The Fraunhofer FDK AAC Codec Library for Android</var>
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
         <p>© Copyright 1995 - 2012 Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.</p>
 
-      </div>
+      </span></div>
       <p>All rights reserved.</p>
 
 <ul style="list-style:none">
         
 <li>
-        <var class="replaceable-license-text"> 1.</var>INTRODUCTION
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>INTRODUCTION
         <p>The Fraunhofer FDK AAC Codec Library for Android (&quot;FDK AAC Codec&quot;) is software that implements the MPEG Advanced Audio Coding (&quot;AAC&quot;) encoding and decoding scheme for digital audio. This FDK AAC Codec software is intended to be used on a wide variety of Android devices.</p>
 
         <p>AAC&apos;s HE-AAC and HE-AAC v2 versions are regarded as today&apos;s most efficient general perceptual audio codecs. AAC-ELD is considered the best-performing full-bandwidth communications codec by independent studies and is widely deployed. AAC has been standardized by ISO and IEC as part of the MPEG specifications.</p>
@@ -182,7 +194,7 @@
 </li>
         
 <li>
-        <var class="replaceable-license-text"> 2.</var>COPYRIGHT LICENSE
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>COPYRIGHT LICENSE
         <p>Redistribution and use in source and binary forms, with or without modification, are permitted without payment of copyright license fees provided that you satisfy the following conditions:</p>
 
         <p>You must retain the complete text of this software license in redistributions of the FDK AAC Codec or your modifications thereto in source code form.</p>
@@ -197,19 +209,19 @@
 </li>
         
 <li>
-        <var class="replaceable-license-text"> 3.</var>NO PATENT LICENSE
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>NO PATENT LICENSE
         <p>NO EXPRESS OR IMPLIED LICENSES TO ANY PATENT CLAIMS, including without limitation the patents of Fraunhofer, ARE GRANTED BY THIS SOFTWARE LICENSE. Fraunhofer provides no warranty of patent non-infringement with respect to this software.</p>
 
         <p>You may use this FDK AAC Codec software or modifications thereto only for purposes that are authorized by appropriate patent licenses.</p>
 </li>
         
 <li>
-        <var class="replaceable-license-text"> 4.</var>DISCLAIMER
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>DISCLAIMER
         <p>This FDK AAC Codec software is provided by Fraunhofer on behalf of the copyright holders and contributors &quot;AS IS&quot; and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE for any direct, indirect, incidental, special, exemplary, or consequential damages, including but not limited to procurement of substitute goods or services; loss of use, data, or profits, or business interruption, however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence), arising in any way out of the use of this software, even if advised of the possibility of such damage.</p>
 </li>
         
 <li>
-        <var class="replaceable-license-text"> 5.</var>CONTACT INFORMATION
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 5.</span></var>CONTACT INFORMATION
         <p>Fraunhofer Institute for Integrated Circuits IIS Attention: Audio and Multimedia Departments - FDK AAC LL Am Wolfsmantel 33 91058 Erlangen, Germany</p>
 
         <p>www.iis.fraunhofer.de/amm amm-info@iis.fraunhofer.de</p>
@@ -225,7 +237,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;beginOptional&gt;&gt;Software License for The Fraunhofer FDK AAC Codec Library for Android&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;© Copyright 1995 - 2012 Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;All rights reserved.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; INTRODUCTION&#10;&#10;   The Fraunhofer FDK AAC Codec Library for Android (&quot;FDK AAC Codec&quot;) is software that implements the MPEG Advanced Audio Coding (&quot;AAC&quot;) encoding and decoding scheme for digital audio. This FDK AAC Codec software is intended to be used on a wide variety of Android devices.&#10;&#10;   AAC's HE-AAC and HE-AAC v2 versions are regarded as today's most efficient general perceptual audio codecs. AAC-ELD is considered the best-performing full-bandwidth communications codec by independent studies and is widely deployed. AAC has been standardized by ISO and IEC as part of the MPEG specifications.&#10;&#10;   Patent licenses for necessary patent claims for the FDK AAC Codec (including those of Fraunhofer) may be obtained through Via Licensing (www.vialicensing.com) or through the respective patent owners individually for the purpose of encoding or decoding bit streams in products that are compliant with the ISO/IEC MPEG audio standards. Please note that most manufacturers of Android devices already license these patent claims through Via Licensing or directly from the patent owners, and therefore FDK AAC Codec software may already be covered under those patent licenses when it is used for those licensed purposes only.&#10;&#10;   Commercially-licensed AAC software libraries, including floating-point versions with enhanced sound quality, are also available from Fraunhofer. Users are encouraged to check the Fraunhofer website for additional applications information and documentation.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; COPYRIGHT LICENSE&#10;&#10;   Redistribution and use in source and binary forms, with or without modification, are permitted without payment of copyright license fees provided that you satisfy the following conditions:&#10;&#10;   You must retain the complete text of this software license in redistributions of the FDK AAC Codec or your modifications thereto in source code form.&#10;&#10;   You must retain the complete text of this software license in the documentation and/or other materials provided with redistributions of the FDK AAC Codec or your modifications thereto in binary form. You must make available free of charge copies of the complete source code of the FDK AAC Codec and your modifications thereto to recipients of copies in binary form.&#10;&#10;   The name of Fraunhofer may not be used to endorse or promote products derived from this library without prior written permission.&#10;&#10;   You may not charge copyright license fees for anyone to use, copy or distribute the FDK AAC Codec software or your modifications thereto.&#10;&#10;   Your modified versions of the FDK AAC Codec must carry prominent notices stating that you changed the software and the date of any change. For modified versions of the FDK AAC Codec, the term &quot;Fraunhofer FDK AAC Codec Library for Android&quot; must be replaced by the term &quot;Third-Party Modified Version of the Fraunhofer FDK AAC Codec Library for Android.&quot;&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; NO PATENT LICENSE&#10;&#10;   NO EXPRESS OR IMPLIED LICENSES TO ANY PATENT CLAIMS, including without limitation the patents of Fraunhofer, ARE GRANTED BY THIS SOFTWARE LICENSE. Fraunhofer provides no warranty of patent non-infringement with respect to this software.&#10;&#10;   You may use this FDK AAC Codec software or modifications thereto only for purposes that are authorized by appropriate patent licenses.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; DISCLAIMER&#10;&#10;   This FDK AAC Codec software is provided by Fraunhofer on behalf of the copyright holders and contributors &quot;AS IS&quot; and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE for any direct, indirect, incidental, special, exemplary, or consequential damages, including but not limited to procurement of substitute goods or services; loss of use, data, or profits, or business interruption, however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence), arising in any way out of the use of this software, even if advised of the possibility of such damage.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; CONTACT INFORMATION&#10;&#10;   Fraunhofer Institute for Integrated Circuits IIS Attention: Audio and Multimedia Departments - FDK AAC LL Am Wolfsmantel 33 91058 Erlangen, Germany&#10;&#10;   www.iis.fraunhofer.de/amm amm-info@iis.fraunhofer.de&#10;&#10;   
+      &lt;&lt;beginOptional&gt;&gt;Software License for The Fraunhofer FDK AAC Codec Library for Android&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;© Copyright 1995 - 2012 Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;All rights reserved.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; INTRODUCTION&#10;   The Fraunhofer FDK AAC Codec Library for Android (&quot;FDK AAC Codec&quot;) is software that implements the MPEG Advanced Audio Coding (&quot;AAC&quot;) encoding and decoding scheme for digital audio. This FDK AAC Codec software is intended to be used on a wide variety of Android devices.&#10;&#10;   AAC&#39;s HE-AAC and HE-AAC v2 versions are regarded as today&#39;s most efficient general perceptual audio codecs. AAC-ELD is considered the best-performing full-bandwidth communications codec by independent studies and is widely deployed. AAC has been standardized by ISO and IEC as part of the MPEG specifications.&#10;&#10;   Patent licenses for necessary patent claims for the FDK AAC Codec (including those of Fraunhofer) may be obtained through Via Licensing (www.vialicensing.com) or through the respective patent owners individually for the purpose of encoding or decoding bit streams in products that are compliant with the ISO/IEC MPEG audio standards. Please note that most manufacturers of Android devices already license these patent claims through Via Licensing or directly from the patent owners, and therefore FDK AAC Codec software may already be covered under those patent licenses when it is used for those licensed purposes only.&#10;&#10;   Commercially-licensed AAC software libraries, including floating-point versions with enhanced sound quality, are also available from Fraunhofer. Users are encouraged to check the Fraunhofer website for additional applications information and documentation.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; COPYRIGHT LICENSE&#10;   Redistribution and use in source and binary forms, with or without modification, are permitted without payment of copyright license fees provided that you satisfy the following conditions:&#10;&#10;   You must retain the complete text of this software license in redistributions of the FDK AAC Codec or your modifications thereto in source code form.&#10;&#10;   You must retain the complete text of this software license in the documentation and/or other materials provided with redistributions of the FDK AAC Codec or your modifications thereto in binary form. You must make available free of charge copies of the complete source code of the FDK AAC Codec and your modifications thereto to recipients of copies in binary form.&#10;&#10;   The name of Fraunhofer may not be used to endorse or promote products derived from this library without prior written permission.&#10;&#10;   You may not charge copyright license fees for anyone to use, copy or distribute the FDK AAC Codec software or your modifications thereto.&#10;&#10;   Your modified versions of the FDK AAC Codec must carry prominent notices stating that you changed the software and the date of any change. For modified versions of the FDK AAC Codec, the term &quot;Fraunhofer FDK AAC Codec Library for Android&quot; must be replaced by the term &quot;Third-Party Modified Version of the Fraunhofer FDK AAC Codec Library for Android.&quot;&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; NO PATENT LICENSE&#10;   NO EXPRESS OR IMPLIED LICENSES TO ANY PATENT CLAIMS, including without limitation the patents of Fraunhofer, ARE GRANTED BY THIS SOFTWARE LICENSE. Fraunhofer provides no warranty of patent non-infringement with respect to this software.&#10;&#10;   You may use this FDK AAC Codec software or modifications thereto only for purposes that are authorized by appropriate patent licenses.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; DISCLAIMER&#10;   This FDK AAC Codec software is provided by Fraunhofer on behalf of the copyright holders and contributors &quot;AS IS&quot; and WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, including but not limited to the implied warranties of merchantability and fitness for a particular purpose. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE for any direct, indirect, incidental, special, exemplary, or consequential damages, including but not limited to procurement of substitute goods or services; loss of use, data, or profits, or business interruption, however caused and on any theory of liability, whether in contract, strict liability, or tort (including negligence), arising in any way out of the use of this software, even if advised of the possibility of such damage.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; CONTACT INFORMATION&#10;   Fraunhofer Institute for Integrated Circuits IIS Attention: Audio and Multimedia Departments - FDK AAC LL Am Wolfsmantel 33 91058 Erlangen, Germany&#10;&#10;   www.iis.fraunhofer.de/amm amm-info@iis.fraunhofer.de&#10;   &#10;   
       </div>
 
     </div> <!-- /page -->

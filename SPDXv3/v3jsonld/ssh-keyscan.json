@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/ssh-keyscan_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/ssh-keyscan" ],
+    "name" : "ssh-keyscan document",
+    "comment" : "SPDX Document For ssh-keyscan",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/ssh-keyscan",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://github.com/openssh/openssh-portable/blob/master/LICENCE#L82" ],
+    "simplelicensing_licenseText" : "* Copyright 1995, 1996 by David Mazieres <dm@lcs.mit.edu>.\n*\n* Modification and redistribution in source and binary forms is\n* permitted provided that due credit is given to the author and the\n* OpenBSD project by leaving this copyright notice intact.\n",
+    "name" : "ssh-keyscan License",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1995, 1996 by David Mazieres <dm@lcs.mit.edu>.\";match=\".{0,5000}\">>\nModification and redistribution in source and binary forms is permitted provided that due credit is given to the author and the OpenBSD project by leaving this copyright notice intact.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

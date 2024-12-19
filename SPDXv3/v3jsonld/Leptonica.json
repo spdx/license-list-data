@@ -1,0 +1,40 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Leptonica_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/Leptonica" ],
+    "name" : "Leptonica document",
+    "comment" : "SPDX Document For Leptonica",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Leptonica",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://fedoraproject.org/wiki/Licensing/Leptonica" ],
+    "simplelicensing_licenseText" : "Copyright (C) 2001 Leptonica.  All rights reserved.\n\nThis software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.\n\nNo author or distributor accepts responsibility to anyone for the consequences of using this software, or for whether it serves any particular purpose or works at all, unless he or she says so in writing.  Everyone is granted permission to copy, modify and redistribute this source code, for commercial or non-commercial purposes, with the following restrictions:\n\n(1) the origin of this source code must not be misrepresented;\n(2) modified versions must be plainly marked as such; and\n(3) this notice may not be removed or altered from any source or modified source distribution.\n",
+    "name" : "Leptonica License",
+    "comment" : "This is an older license for Leptonica. Currently, it uses BSD-2-Clause (see http://www.leptonica.com/about-the-license.html)",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 2001 Leptonica. All rights reserved.  \";match=\".{0,5000}\">>\nThis software is distributed in the hope that it will be useful, but with NO WARRANTY OF ANY KIND.\n\nNo author or distributor accepts responsibility to anyone for the consequences of using this software, or for whether it serves any particular purpose or works at all, unless he or she says so in writing. Everyone is granted permission to copy, modify and redistribute this source code, for commercial or non-commercial purposes, with the following restrictions:\n\n   <<var;name=\"bullet\";original=\"(1)\";match=\".{0,20}\">> the origin of this source code must not be misrepresented;\n   <<var;name=\"bullet\";original=\"(2)\";match=\".{0,20}\">> modified versions must be plainly marked as such; and\n   <<var;name=\"bullet\";original=\"(3)\";match=\".{0,20}\">> this notice may not be removed or altered from any source or modified source distribution.",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

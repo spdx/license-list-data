@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/AMD-newlib_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/AMD-newlib" ],
+    "name" : "AMD-newlib document",
+    "comment" : "SPDX Document For AMD-newlib",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/AMD-newlib",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/sys/a29khif/_close.S;h=04f52ae00de1dafbd9055ad8d73c5c697a3aae7f;hb=HEAD" ],
+    "simplelicensing_licenseText" : "Copyright 1989, 1990 Advanced Micro Devices, Inc.\n\nThis software is the property of Advanced Micro Devices, Inc  (AMD)  which\nspecifically  grants the user the right to modify, use and distribute this\nsoftware provided this notice is not removed or altered.  All other rights\nare reserved by AMD.\n\nAMD MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS\nSOFTWARE.  IN NO EVENT SHALL AMD BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL\nDAMAGES IN CONNECTION WITH OR ARISING FROM THE FURNISHING, PERFORMANCE, OR\nUSE OF THIS SOFTWARE.\n",
+    "name" : "AMD newlib License",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1990 Advanced Micro Devices, Inc.  \";match=\".{0,5000}\">>\nThis software is the property of <<var;name=\"copyrightHolderAsIs\";original=\"Advanced Micro Devices, Inc (AMD)\";match=\".+\">> which specifically grants the user the right to modify, use and distribute this software provided this notice is not removed or altered. All other rights are reserved by <<var;name=\"copyrightHolderAsIs\";original=\"AMD\";match=\".+\">> .\n\n<<var;name=\"copyrightHolderAsIs\";original=\"AMD\";match=\".+\">> MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARD TO THIS SOFTWARE. IN NO EVENT SHALL <<var;name=\"copyrightHolderAsIs\";original=\"AMD\";match=\".+\">> BE LIABLE FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES IN CONNECTION WITH OR ARISING FROM THE FURNISHING, PERFORMANCE, OR USE OF THIS SOFTWARE.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

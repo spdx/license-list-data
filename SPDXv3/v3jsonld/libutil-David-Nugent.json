@@ -1,0 +1,40 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/libutil-David-Nugent_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/libutil-David-Nugent" ],
+    "name" : "libutil-David-Nugent document",
+    "comment" : "SPDX Document For libutil-David-Nugent",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/libutil-David-Nugent",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "http://web.mit.edu/freebsd/head/lib/libutil/login_ok.3", "https://cgit.freedesktop.org/libbsd/tree/man/setproctitle.3bsd" ],
+    "simplelicensing_licenseText" : "Copyright (c) 1995 David Nugent <davidn@blaze.net.au>\nAll rights reserved.\n\n\nRedistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:\n\n1.\tRedistributions of source code must retain the above copyright notice immediately at the beginning of the file, without modification, this list of conditions, and the following disclaimer.\n\n2.\tRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3.\tThis work was done expressly for inclusion into FreeBSD. Other use is permitted provided this notation is included.\n\n4.\tAbsolutely no warranty of function or purpose is made by the author David Nugent.\n\n5.\tModifications may be freely made to this file providing the above conditions are met.\n",
+    "name" : "libutil David Nugent License",
+    "comment" : "This is a legacy BSD-like license, but includes a specific requirement in the first clause requiring retention of the copyright notice \"immediately at the beginning of the file\".",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (c) 1995 David Nugent <davidn@blaze.net.au> All rights reserved.  \";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice immediately at the beginning of the file, without modification, this list of conditions, and the following disclaimer.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This work was done expressly for inclusion into FreeBSD. Other use is permitted provided this notation is included.\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> Absolutely no warranty of function or purpose is made by the <<var;name=\"author\";original=\"author David Nugent\";match=\"authors|author Peter Wemm|author David Nugent\">> .\n   <<var;name=\"bullet\";original=\"5.\";match=\".{0,20}\">> Modifications may be freely made to this file providing the above conditions are met.",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

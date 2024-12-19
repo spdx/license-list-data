@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/PCRE2-exception_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/PCRE2-exception" ],
+    "name" : "PCRE2-exception document",
+    "comment" : "SPDX Document For PCRE2-exception",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/PCRE2-exception",
+    "type" : "expandedlicensing_ListedLicenseException",
+    "expandedlicensing_seeAlso" : [ "https://www.pcre.org/licence.txt" ],
+    "expandedlicensing_isDeprecatedAdditionId" : false,
+    "expandedlicensing_standardAdditionTemplate" : "EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES\n------------------------------------------\n\nThe second condition in the BSD licence (covering binary redistributions) does not apply all the way down a chain of software. If binary package A includes PCRE2, it must respect the condition, but if package B is software that includes package A, the condition is not imposed on package B unless it uses PCRE2 independently.\n\n",
+    "name" : "PCRE2 exception",
+    "expandedlicensing_additionText" : "EXEMPTION FOR BINARY LIBRARY-LIKE PACKAGES\n------------------------------------------\n\nThe second condition in the BSD licence (covering binary redistributions) does\nnot apply all the way down a chain of software. If binary package A includes\nPCRE2, it must respect the condition, but if package B is software that\nincludes package A, the condition is not imposed on package B unless it uses\nPCRE2 independently.\n",
+    "comment" : "This exception has been used with BSD-3-Clause.",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  } ]
+}

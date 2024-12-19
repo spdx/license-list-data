@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://opensource.org/licenses/Multics" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=N/A timestamp=2024-12-16T17:23:48Z>https://opensource.org/licenses/Multics</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: N/A, timestamp: 2024-12-16T17:23:48Z</p> -->
+               <a href="https://opensource.org/licenses/Multics" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=N/A timestamp=2024-12-19T09:32:59Z>https://opensource.org/licenses/Multics</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: N/A, timestamp: 2024-12-19T09:32:59Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,6 +154,18 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
@@ -183,9 +195,9 @@
 	  <var class="optional-license-text"> 
 	  .
 	  </var>
-	  <var class="replaceable-license-text"> 
+	  <var class="replaceable-license-text"><span title="can be replaced with the pattern -*"> 
 	  -----------------------------------------------------------
-	  </var>
+	  </span></var>
       <p>Permission to use, copy, modify, and distribute these programs and their documentation for any purpose
          and without fee is hereby granted, provided that the below copyright notice and historical background
          appear in all copies and that both the copyright notice and historical background and this permission
@@ -193,17 +205,15 @@
          in advertising or publicity pertaining to distribution of the programs without specific prior written
          permission.</p>
 
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
         <p>Copyright 1972 by Massachusetts Institute of Technology and Honeywell Information Systems Inc.
           <br />
-
 Copyright 2006 by BULL HN Information Systems Inc.
           <br />
-
 Copyright 2006 by Bull SAS All Rights Reserved
         </p>
 
-      </div>
+      </span></div>
     
       </div>
 
@@ -213,7 +223,7 @@ Copyright 2006 by Bull SAS All Rights Reserved
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;beginOptional&gt;&gt;Multics License&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; Historical Background&#10;&#10;This edition of the Multics software materials and documentation is provided and donated to Massachusetts Institute of Technology by Group BULL including BULL HN Information Systems Inc. as a contribution to computer science knowledge. This donation is made also to give evidence of the common contributions of Massachusetts Institute of Technology, Bell Laboratories, General Electric, Honeywell Information Systems Inc., Honeywell BULL Inc., Groupe BULL and BULL HN Information Systems Inc. to the development of this operating system. Multics development was initiated by Massachusetts Institute of Technology Project MAC (1963-1970), renamed the MIT Laboratory for Computer Science and Artificial Intelligence in the mid 1970s, under the leadership of Professor Fernando Jose Corbato. Users consider that Multics provided the best software architecture for managing computer hardware properly and for executing programs. Many subsequent operating systems incorporated Multics principles. Multics was distributed in 1975 to 2000 by Group Bull in Europe, and in the U.S. by Bull HN Information Systems Inc., as successor in interest by change in name only to Honeywell Bull Inc. and Honeywell Information Systems Inc.&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; .&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;divider&quot;;original=&quot;-----------------------------------------------------------&quot;;match=&quot;-*&quot;&gt;&gt;&#10;&#10;Permission to use, copy, modify, and distribute these programs and their documentation for any purpose and without fee is hereby granted, provided that the below copyright notice and historical background appear in all copies and that both the copyright notice and historical background and this permission notice appear in supporting documentation, and that the names of MIT, HIS, BULL or BULL HN not be used in advertising or publicity pertaining to distribution of the programs without specific prior written permission.&#10;&#10;&lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1972 by Massachusetts Institute of Technology and Honeywell Information Systems Inc.  Copyright 2006 by BULL HN Information Systems Inc.  Copyright 2006 by Bull SAS All Rights Reserved  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;
+      &lt;&lt;beginOptional&gt;&gt;Multics License&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; Historical Background&#10;&#10;This edition of the Multics software materials and documentation is provided and donated to Massachusetts Institute of Technology by Group BULL including BULL HN Information Systems Inc. as a contribution to computer science knowledge. This donation is made also to give evidence of the common contributions of Massachusetts Institute of Technology, Bell Laboratories, General Electric, Honeywell Information Systems Inc., Honeywell BULL Inc., Groupe BULL and BULL HN Information Systems Inc. to the development of this operating system. Multics development was initiated by Massachusetts Institute of Technology Project MAC (1963-1970), renamed the MIT Laboratory for Computer Science and Artificial Intelligence in the mid 1970s, under the leadership of Professor Fernando Jose Corbato. Users consider that Multics provided the best software architecture for managing computer hardware properly and for executing programs. Many subsequent operating systems incorporated Multics principles. Multics was distributed in 1975 to 2000 by Group Bull in Europe, and in the U.S. by Bull HN Information Systems Inc., as successor in interest by change in name only to Honeywell Bull Inc. and Honeywell Information Systems Inc.&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; .&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;divider&quot;;original=&quot;-----------------------------------------------------------&quot;;match=&quot;-*&quot;&gt;&gt;&#10;Permission to use, copy, modify, and distribute these programs and their documentation for any purpose and without fee is hereby granted, provided that the below copyright notice and historical background appear in all copies and that both the copyright notice and historical background and this permission notice appear in supporting documentation, and that the names of MIT, HIS, BULL or BULL HN not be used in advertising or publicity pertaining to distribution of the programs without specific prior written permission.&#10;&#10;&lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1972 by Massachusetts Institute of Technology and Honeywell Information Systems Inc. Copyright 2006 by BULL HN Information Systems Inc. Copyright 2006 by Bull SAS All Rights Reserved  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;
       </div>
 
     </div> <!-- /page -->

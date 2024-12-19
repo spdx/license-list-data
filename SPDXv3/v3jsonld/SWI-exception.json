@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/SWI-exception_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/SWI-exception" ],
+    "name" : "SWI-exception document",
+    "comment" : "SPDX Document For SWI-exception",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/SWI-exception",
+    "type" : "expandedlicensing_ListedLicenseException",
+    "expandedlicensing_seeAlso" : [ "https://github.com/SWI-Prolog/packages-clpqr/blob/bfa80b9270274f0800120d5b8e6fef42ac2dc6a5/clpqr/class.pl" ],
+    "expandedlicensing_isDeprecatedAdditionId" : false,
+    "expandedlicensing_standardAdditionTemplate" : "As a special exception, if you link this library with other files, compiled with a Free Software compiler, to produce an executable, this library does not by itself cause the resulting executable to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the executable file might be covered by the GNU General Public License.\n\n",
+    "name" : "SWI exception",
+    "expandedlicensing_additionText" : "As a special exception, if you link this library with other files,\ncompiled with a Free Software compiler, to produce an executable, this\nlibrary does not by itself cause the resulting executable to be covered\nby the GNU General Public License. This exception does not however\ninvalidate any other reasons why the executable file might be covered by\nthe GNU General Public License.\n\n",
+    "comment" : "This exception is closely similar to GNU-compiler-exception but delineates that the library is compiled with a Free Software compiler, which is slightly broader than a GNU compiler.",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  } ]
+}

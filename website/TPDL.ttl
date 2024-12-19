@@ -1,24 +1,24 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/TPDL>
-        a                             spdx:ListedLicense ;
-        rdfs:seeAlso                  "https://metacpan.org/pod/Time::ParseDate#LICENSE" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:24:16Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://metacpan.org/pod/Time::ParseDate#LICENSE";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:33:18Z";
                                         spdx:url            "https://metacpan.org/pod/Time::ParseDate#LICENSE"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "TPDL" ;
-        spdx:licenseText              "Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc. \nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n" ;
-        spdx:licenseTextHtml          "\n            <var class=\"replaceable-license-text\"> \n               Copyright (C) 1996-2010 David Muir\n               Sharnoff. Copyright (C) 2011 Google, Inc.\n            </var>\n            <p>License hereby granted for anyone to use, modify or redistribute this\n            module at their own risk. Please feed useful changes back to\n           cpan@dave.sharnoff.org.\n         </p>\n\n      " ;
-        spdx:name                     "Time::ParseDate License" ;
-        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc.\";match=\".{0,5000}\">>\n\nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n\n" .
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "TPDL";
+        spdx:licenseText              "Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc. \nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n";
+        spdx:licenseTextHtml          "\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n               Copyright (C) 1996-2010 David Muir\n               Sharnoff. Copyright (C) 2011 Google, Inc.\n            </span></var>\n            <p>License hereby granted for anyone to use, modify or redistribute this\n            module at their own risk. Please feed useful changes back to\n           cpan@dave.sharnoff.org.\n         </p>\n\n      ";
+        spdx:name                     "Time::ParseDate License";
+        spdx:standardLicenseTemplate  "<<var;name=\"copyright\";original=\"Copyright (C) 1996-2010 David Muir Sharnoff. Copyright (C) 2011 Google, Inc.\";match=\".{0,5000}\">>\nLicense hereby granted for anyone to use, modify or redistribute this module at their own risk. Please feed useful changes back to cpan@dave.sharnoff.org.\n\n" .

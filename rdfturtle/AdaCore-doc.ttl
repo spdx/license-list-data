@@ -1,42 +1,42 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/AdaCore-doc>
-        a                             spdx:ListedLicense ;
-        rdfs:seeAlso                  "https://github.com/AdaCore/gnatcoll-core/blob/master/docs/index.rst" , "https://github.com/AdaCore/xmlada/blob/master/docs/index.rst" , "https://github.com/AdaCore/gnatcoll-db/blob/master/docs/index.rst" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:23:15Z" ;
-                                        spdx:url            "https://github.com/AdaCore/gnatcoll-db/blob/master/docs/index.rst"
-                                      ] ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:23:15Z" ;
-                                        spdx:url            "https://github.com/AdaCore/xmlada/blob/master/docs/index.rst"
-                                      ] ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:23:15Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://github.com/AdaCore/xmlada/blob/master/docs/index.rst" , "https://github.com/AdaCore/gnatcoll-db/blob/master/docs/index.rst" , "https://github.com/AdaCore/gnatcoll-core/blob/master/docs/index.rst";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:32:35Z";
                                         spdx:url            "https://github.com/AdaCore/gnatcoll-core/blob/master/docs/index.rst"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "AdaCore-doc" ;
-        spdx:licenseText              "This document may be copied, in whole or in part, in any form or by any means, as is or with alterations, provided that (1) alterations are clearly marked as alterations and (2) this copyright notice is included unmodified in any copy.\n" ;
-        spdx:licenseTextHtml          "\n         <p>\n            This document may be copied, in whole or in part, in any form\n            or by any means, as is or with alterations, provided that\n            (1) alterations are clearly marked as alterations and (2)\n            this copyright notice is included unmodified in any copy.\n         </p>\n\n      " ;
-        spdx:name                     "AdaCore Doc License" ;
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:32:35Z";
+                                        spdx:url            "https://github.com/AdaCore/gnatcoll-db/blob/master/docs/index.rst"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:32:36Z";
+                                        spdx:url            "https://github.com/AdaCore/xmlada/blob/master/docs/index.rst"
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "AdaCore-doc";
+        spdx:licenseText              "This document may be copied, in whole or in part, in any form or by any means, as is or with alterations, provided that (1) alterations are clearly marked as alterations and (2) this copyright notice is included unmodified in any copy.\n";
+        spdx:licenseTextHtml          "\n         <p>\n            This document may be copied, in whole or in part, in any form\n            or by any means, as is or with alterations, provided that\n            (1) alterations are clearly marked as alterations and (2)\n            this copyright notice is included unmodified in any copy.\n         </p>\n\n      ";
+        spdx:name                     "AdaCore Doc License";
         spdx:standardLicenseTemplate  "This document may be copied, in whole or in part, in any form or by any means, as is or with alterations, provided that (1) alterations are clearly marked as alterations and (2) this copyright notice is included unmodified in any copy.\n\n" .

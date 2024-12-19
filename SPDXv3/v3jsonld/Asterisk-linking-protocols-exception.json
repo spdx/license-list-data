@@ -1,0 +1,38 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Asterisk-linking-protocols-exception_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/Asterisk-linking-protocols-exception" ],
+    "name" : "Asterisk-linking-protocols-exception document",
+    "comment" : "SPDX Document For Asterisk-linking-protocols-exception",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Asterisk-linking-protocols-exception",
+    "type" : "expandedlicensing_ListedLicenseException",
+    "expandedlicensing_seeAlso" : [ "https://github.com/asterisk/asterisk/blob/115d7c01e32ccf4566a99e9d74e2b88830985a0b/LICENSE#L27" ],
+    "expandedlicensing_isDeprecatedAdditionId" : false,
+    "expandedlicensing_standardAdditionTemplate" : "Specific permission is also granted to link Asterisk with OpenSSL, OpenH323 UniMRCP, and/or the UW IMAP Toolkit and distribute the resulting binary files.\n\nIn addition, Asterisk implements several management/control protocols. This includes the Asterisk Manager Interface (AMI), the Asterisk Gateway Interface (AGI), and the Asterisk REST Interface (ARI). It is our belief that applications using these protocols to manage or control an Asterisk instance do not have to be licensed under the GPL or a compatible license, as we believe these protocols do not create a 'derivative work' as referred to in the GPL. However, should any court or other judiciary body find that these protocols do fall under the terms of the GPL, then we hereby grant you a license to use these protocols in combination with Asterisk in external applications licensed under any license you wish.\n\n",
+    "name" : "Asterisk linking protocols exception",
+    "expandedlicensing_additionText" : "Specific permission is also granted to link Asterisk with OpenSSL, OpenH323\nUniMRCP, and/or the UW IMAP Toolkit and distribute the resulting binary files.\n\nIn addition, Asterisk implements several management/control protocols.\nThis includes the Asterisk Manager Interface (AMI), the Asterisk Gateway\nInterface (AGI), and the Asterisk REST Interface (ARI). It is our belief\nthat applications using these protocols to manage or control an Asterisk\ninstance do not have to be licensed under the GPL or a compatible license,\nas we believe these protocols do not create a 'derivative work' as referred\nto in the GPL. However, should any court or other judiciary body find that\nthese protocols do fall under the terms of the GPL, then we hereby grant you a\nlicense to use these protocols in combination with Asterisk in external\napplications licensed under any license you wish.\n",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  } ]
+}

@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://fedoraproject.org/wiki/Licensing/TTWL" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:39Z>https://fedoraproject.org/wiki/Licensing/TTWL</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:39Z</p> -->
+               <a href="https://fedoraproject.org/wiki/Licensing/TTWL" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:28:33Z>https://fedoraproject.org/wiki/Licensing/TTWL</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:28:33Z</p> -->
              </li>
              <li>
-               <a href="https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:39Z>https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:39Z</p> -->
+               <a href="https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:28:32Z>https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:28:32Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,10 +158,22 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             <p>
                Copyright (C) 1996-2002,2005,2006 David Muir Sharnoff.<br />
 
@@ -170,7 +182,7 @@
                Copyright (C) 2012-2013 Google, Inc.
             </p>
 
-         </div>
+         </span></div>
          <p>
             This module may be modified, used, copied, and redistributed at your
             own risk. Although allowed by the preceding license, please do not
@@ -187,7 +199,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1996-2002,2005,2006 David Muir Sharnoff.  Copyright (C) 2005 Aristotle Pagaltzis  Copyright (C) 2012-2013 Google, Inc.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This module may be modified, used, copied, and redistributed at your own risk. Although allowed by the preceding license, please do not publicly redistribute modified versions of this code with the name &quot;Text::Tabs&quot; unless it passes the unmodified Text::Tabs test suite.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1996-2002,2005,2006 David Muir Sharnoff. Copyright (C) 2005 Aristotle Pagaltzis Copyright (C) 2012-2013 Google, Inc.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This module may be modified, used, copied, and redistributed at your own risk. Although allowed by the preceding license, please do not publicly redistribute modified versions of this code with the name &quot;Text::Tabs&quot; unless it passes the unmodified Text::Tabs test suite.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

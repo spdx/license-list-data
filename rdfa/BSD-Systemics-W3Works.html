@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://metacpan.org/release/DPARIS/Crypt-Blowfish-2.14/source/COPYRIGHT#L7" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:31:23Z>https://metacpan.org/release/DPARIS/Crypt-Blowfish-2.14/source/COPYRIGHT#L7</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:31:23Z</p> -->
+               <a href="https://metacpan.org/release/DPARIS/Crypt-Blowfish-2.14/source/COPYRIGHT#L7" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:38:29Z>https://metacpan.org/release/DPARIS/Crypt-Blowfish-2.14/source/COPYRIGHT#L7</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:38:29Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,10 +154,22 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
                 <p>
                         Copyright (C) 1995, 1996 Systemics Ltd
                         (http://www.systemics.com/)
@@ -172,9 +184,9 @@
                 All rights reserved.
         </p>
 
-                    </div>
+                    </span></div>
         <p>
-                Current <var class="replaceable-license-text"> implimentation</var> 
+                Current <var class="replaceable-license-text"><span title="can be replaced with the pattern implimentation|implementation"> implimentation</span></var> 
                 contains modifications made by W3Works, LLC. The modifications remain copyright of W3Works, LLC
                 and attribution for these modification should be made to W3Works, LLC.  These modifications and
                 this copyright must remain with this package.
@@ -183,8 +195,8 @@
         <p>
         Additions to the Restrictions set out below are:
         1. All advertising materials mentioning features or use of this software must display
-        the following <var class="replaceable-license-text"> acknowledgement</var>:
-        This product <var class="replaceable-license-text"> inculdes</var> software developed by
+        the following <var class="replaceable-license-text"><span title="can be replaced with the pattern acknowledgement|acknowledgment"> acknowledgement</span></var>:
+        This product <var class="replaceable-license-text"><span title="can be replaced with the pattern inculdes|includes"> inculdes</span></var> software developed by
         W3Works, LLC (http://www.w3works.com)
         </p>
 
@@ -195,7 +207,7 @@
         </p>
 
         <p>
-                Any subsequent <var class="replaceable-license-text"> derrivations</var> of this package must <var class="replaceable-license-text"> retainl</var> this
+                Any subsequent <var class="replaceable-license-text"><span title="can be replaced with the pattern derrivations|derivations"> derrivations</span></var> of this package must <var class="replaceable-license-text"><span title="can be replaced with the pattern retainl|retain"> retainl</span></var> this
                 copyright.
         </p>
 
@@ -232,7 +244,7 @@
                 disclaimer in the documentation and/or other materials
                 provided with the distribution.
                 3. All advertising materials mentioning features or use of this software must display the
-                following <var class="replaceable-license-text"> acknowledgement</var>: This product includes software
+                following <var class="replaceable-license-text"><span title="can be replaced with the pattern acknowledgement|acknowledgment"> acknowledgement</span></var>: This product includes software
                 developed by Systemics Ltd (http://www.systemics.com/)
         </p>
 
@@ -268,7 +280,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1995, 1996 Systemics Ltd (http://www.systemics.com/)    Modifications and Current Implimentation Copyright (C) 2000 W3Works, LLC.    All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Current &lt;&lt;var;name=&quot;implimentation&quot;;original=&quot;implimentation&quot;;match=&quot;implimentation|implementation&quot;&gt;&gt; contains modifications made by W3Works, LLC. The modifications remain copyright of W3Works, LLC and attribution for these modification should be made to W3Works, LLC. These modifications and this copyright must remain with this package.&#10;&#10;Additions to the Restrictions set out below are: 1. All advertising materials mentioning features or use of this software must display the following &lt;&lt;var;name=&quot;acknowledgement&quot;;original=&quot;acknowledgement&quot;;match=&quot;acknowledgement|acknowledgment&quot;&gt;&gt; : This product &lt;&lt;var;name=&quot;inculdes&quot;;original=&quot;inculdes&quot;;match=&quot;inculdes|includes&quot;&gt;&gt; software developed by W3Works, LLC (http://www.w3works.com)&#10;&#10;NO ADDITIONAL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE EXTENDED BY THIS DISTRIBUTION.&#10;&#10;Any subsequent &lt;&lt;var;name=&quot;derrivations&quot;;original=&quot;derrivations&quot;;match=&quot;derrivations|derivations&quot;&gt;&gt; of this package must &lt;&lt;var;name=&quot;retainl&quot;;original=&quot;retainl&quot;;match=&quot;retainl|retain&quot;&gt;&gt; this copyright.&#10;&#10;Original Copyright Below&#10;&#10;This library and applications are FREE FOR COMMERCIAL AND NON-COMMERCIAL USE as long as the following conditions are adhered to.&#10;&#10;Copyright remains with Systemics Ltd, and as such any Copyright notices in the code are not to be removed. If this code is used in a product, Systemics should be given attribution as the author of the parts used. This can be in the form of a textual message at program startup or in documentation (online or textual) provided with the package.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;1. Redistributions of source code must retain the copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. All advertising materials mentioning features or use of this software must display the following &lt;&lt;var;name=&quot;acknowledgement&quot;;original=&quot;acknowledgement&quot;;match=&quot;acknowledgement|acknowledgment&quot;&gt;&gt; : This product includes software developed by Systemics Ltd (http://www.systemics.com/)&#10;&#10;THIS SOFTWARE IS PROVIDED BY SYSTEMICS LTD ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1995, 1996 Systemics Ltd (http://www.systemics.com/)   Modifications and Current Implimentation Copyright (C) 2000 W3Works, LLC.   All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Current &lt;&lt;var;name=&quot;implimentation&quot;;original=&quot;implimentation&quot;;match=&quot;implimentation|implementation&quot;&gt;&gt; contains modifications made by W3Works, LLC. The modifications remain copyright of W3Works, LLC and attribution for these modification should be made to W3Works, LLC. These modifications and this copyright must remain with this package.&#10;&#10;Additions to the Restrictions set out below are: 1. All advertising materials mentioning features or use of this software must display the following &lt;&lt;var;name=&quot;acknowledgement&quot;;original=&quot;acknowledgement&quot;;match=&quot;acknowledgement|acknowledgment&quot;&gt;&gt; : This product &lt;&lt;var;name=&quot;inculdes&quot;;original=&quot;inculdes&quot;;match=&quot;inculdes|includes&quot;&gt;&gt; software developed by W3Works, LLC (http://www.w3works.com)&#10;&#10;NO ADDITIONAL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE EXTENDED BY THIS DISTRIBUTION.&#10;&#10;Any subsequent &lt;&lt;var;name=&quot;derrivations&quot;;original=&quot;derrivations&quot;;match=&quot;derrivations|derivations&quot;&gt;&gt; of this package must &lt;&lt;var;name=&quot;retainl&quot;;original=&quot;retainl&quot;;match=&quot;retainl|retain&quot;&gt;&gt; this copyright.&#10;&#10;Original Copyright Below&#10;&#10;This library and applications are FREE FOR COMMERCIAL AND NON-COMMERCIAL USE as long as the following conditions are adhered to.&#10;&#10;Copyright remains with Systemics Ltd, and as such any Copyright notices in the code are not to be removed. If this code is used in a product, Systemics should be given attribution as the author of the parts used. This can be in the form of a textual message at program startup or in documentation (online or textual) provided with the package.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;1. Redistributions of source code must retain the copyright notice, this list of conditions and the following disclaimer. 2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. 3. All advertising materials mentioning features or use of this software must display the following &lt;&lt;var;name=&quot;acknowledgement&quot;;original=&quot;acknowledgement&quot;;match=&quot;acknowledgement|acknowledgment&quot;&gt;&gt; : This product includes software developed by Systemics Ltd (http://www.systemics.com/)&#10;&#10;THIS SOFTWARE IS PROVIDED BY SYSTEMICS LTD &#39;&#39;AS IS&#39;&#39; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]&#10;&#10;
       </div>
 
     </div> <!-- /page -->

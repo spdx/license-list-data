@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/docbook/xslt10-stylesheets/blob/efd62655c11cc8773708df7a843613fa1e932bf8/xsl/COPYING#L27" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:19:04Z>https://github.com/docbook/xslt10-stylesheets/blob/efd62655c11cc8773708df7a843613fa1e932bf8/xsl/COPYING#L27</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:19:04Z</p> -->
+               <a href="https://github.com/docbook/xslt10-stylesheets/blob/efd62655c11cc8773708df7a843613fa1e932bf8/xsl/COPYING#L27" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:29:38Z>https://github.com/docbook/xslt10-stylesheets/blob/efd62655c11cc8773708df7a843613fa1e932bf8/xsl/COPYING#L27</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:29:38Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,32 +154,38 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Copyright<br />
 
            <br />
-
  ---------<br />
 
            <br />
-
  Copyright (C) 1999-2007 Norman Walsh
            <br />
-
  Copyright (C) 2003 Jiří Kosek
            <br />
-
  Copyright (C) 2004-2007 Steve Ball
            <br />
-
  Copyright (C) 2005-2014 The DocBook Project
            <br />
-
  Copyright (C) 2011-2012 O&apos;Reilly Media
-         </var>
+         </span></var>
          <p>
             Permission is hereby granted, free of charge, to any person
             obtaining a copy of this software and associated documentation
@@ -214,10 +220,8 @@
          <p>
             Warranty
             <br />
-
 --------
            <br />
-
  THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY
             KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
             WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
@@ -231,10 +235,8 @@
          <div class="optional-license-text"> 
             <p>Contacting the Author
             <br />
-
 ---------------------
             <br />
-
 The DocBook XSL stylesheets are maintained by
             Norman Walsh, &lt;ndw@nwalsh.com&gt;, and members of
             the DocBook Project, &lt;docbook-developers@sf.net&gt; </p>
@@ -249,7 +251,7 @@ The DocBook XSL stylesheets are maintained by
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright    ---------    Copyright (C) 1999-2007 Norman Walsh  Copyright (C) 2003 Jiří Kosek  Copyright (C) 2004-2007 Steve Ball  Copyright (C) 2005-2014 The DocBook Project  Copyright (C) 2011-2012 O'Reilly Media&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ``Software''), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#10;&#10;Except as contained in this notice, the names of individuals credited with contribution to this software shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the individuals in question.&#10;&#10;Any stylesheet derived from this Software that is publically distributed will be identified with a different name and the version strings in any derived Software will be changed so that no possibility of confusion between the derived package and this Software will exist.&#10;&#10;Warranty&#10;&#10;--------&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL NORMAN WALSH OR ANY OTHER CONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10;&#10;&lt;&lt;beginOptional&gt;&gt;Contacting the Author&#10;&#10;---------------------&#10;&#10;The DocBook XSL stylesheets are maintained by Norman Walsh, &lt;ndw@nwalsh.com&gt;, and members of the DocBook Project, &lt;docbook-developers@sf.net&gt;&#10;&#10;&lt;&lt;endOptional&gt;&gt;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright  ---------  Copyright (C) 1999-2007 Norman Walsh Copyright (C) 2003 Jiří Kosek Copyright (C) 2004-2007 Steve Ball Copyright (C) 2005-2014 The DocBook Project Copyright (C) 2011-2012 O&#39;Reilly Media&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the ``Software&#39;&#39;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.&#10;&#10;Except as contained in this notice, the names of individuals credited with contribution to this software shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from the individuals in question.&#10;&#10;Any stylesheet derived from this Software that is publically distributed will be identified with a different name and the version strings in any derived Software will be changed so that no possibility of confusion between the derived package and this Software will exist.&#10;&#10;Warranty&#10;--------&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL NORMAN WALSH OR ANY OTHER CONTRIBUTOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.&#10;&#10;&lt;&lt;beginOptional&gt;&gt;Contacting the Author&#10;---------------------&#10;The DocBook XSL stylesheets are maintained by Norman Walsh, &lt;ndw@nwalsh.com&gt;, and members of the DocBook Project, &lt;docbook-developers@sf.net&gt;&#10;&#10;&lt;&lt;endOptional&gt;&gt;
       </div>
 
     </div> <!-- /page -->

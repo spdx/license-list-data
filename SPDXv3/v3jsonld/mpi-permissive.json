@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/mpi-permissive_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/mpi-permissive" ],
+    "name" : "mpi-permissive document",
+    "comment" : "SPDX Document For mpi-permissive",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/mpi-permissive",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://sources.debian.org/src/openmpi/4.1.0-10/ompi/debuggers/msgq_interface.h/?hl=19#L19" ],
+    "simplelicensing_licenseText" : "* Copyright (C) 2000-2004 by Etnus, LLC\n *\n * Permission is hereby granted to use, reproduce, prepare derivative\n * works, and to redistribute to others.\n *\n *\t\t\t\t  DISCLAIMER\n *\n * Neither Etnus, nor any of their employees, makes any warranty\n * express or implied, or assumes any legal liability or\n * responsibility for the accuracy, completeness, or usefulness of any\n * information, apparatus, product, or process disclosed, or\n * represents that its use would not infringe privately owned rights.\n *\n * This code was written by\n * James Cownie: Etnus, LLC. <jcownie@etnus.com>\n",
+    "name" : "mpi Permissive License",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (C) 2000-2004 by Etnus, LLC  \";match=\".{0,5000}\">> Permission is hereby granted to use, reproduce, prepare derivative works, and to redistribute to others. DISCLAIMER Neither <<var;name=\"copyrightHolderAsIs\";original=\"Etnus\";match=\".+\">> , nor any of their employees, makes any warranty express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. This code was written by <<var;name=\"author\";original=\"James Cownie: Etnus, LLC. <jcownie@etnus.com>\";match=\".+\">>",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

@@ -153,20 +153,29 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Copyright (C) 1994-2001, OFFIS
-         </var>
+         </span></var>
         <p> This software and supporting documentation were developed
          by <br />
-
 Kuratorium OFFIS e.V. Healthcare Information and
            Communication Systems <br />
-
 Escherweg 2 <br />
-
 D-26121 Oldenburg, Germany</p>
 
          <p>
@@ -196,7 +205,7 @@ D-26121 Oldenburg, Germany</p>
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1994-2001, OFFIS&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This software and supporting documentation were developed by&#10;&#10;Kuratorium OFFIS e.V. Healthcare Information and Communication Systems&#10;&#10;Escherweg 2&#10;&#10;D-26121 Oldenburg, Germany&#10;&#10;THIS SOFTWARE IS MADE AVAILABLE, AS IS, AND OFFIS MAKES NO WARRANTY REGARDING THE SOFTWARE, ITS PERFORMANCE, ITS MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR USE, FREEDOM FROM ANY COMPUTER DISEASES OR ITS CONFORMITY TO ANY SPECIFICATION. THE ENTIRE RISK AS TO QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH THE USER.&#10;&#10;Copyright of the software and supporting documentation is, unless otherwise stated, owned by OFFIS, and free access is hereby granted as a license to use this software, copy this software and prepare derivative works based upon this software. However, any distribution of this software source code or supporting documentation or derivative works (source code and supporting documentation) must include the three paragraphs of this copyright notice.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1994-2001, OFFIS&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This software and supporting documentation were developed by&#10;Kuratorium OFFIS e.V. Healthcare Information and Communication Systems&#10;Escherweg 2&#10;D-26121 Oldenburg, Germany&#10;&#10;THIS SOFTWARE IS MADE AVAILABLE, AS IS, AND OFFIS MAKES NO WARRANTY REGARDING THE SOFTWARE, ITS PERFORMANCE, ITS MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR USE, FREEDOM FROM ANY COMPUTER DISEASES OR ITS CONFORMITY TO ANY SPECIFICATION. THE ENTIRE RISK AS TO QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH THE USER.&#10;&#10;Copyright of the software and supporting documentation is, unless otherwise stated, owned by OFFIS, and free access is hereby granted as a license to use this software, copy this software and prepare derivative works based upon this software. However, any distribution of this software source code or supporting documentation or derivative works (source code and supporting documentation) must include the three paragraphs of this copyright notice.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

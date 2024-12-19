@@ -153,10 +153,22 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-	 <div class="replaceable-license-text"> 
+	 <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
            <p>
               Copyright (C) 2001-2015 American Radio
               Relay League, Inc. All rights reserved.
@@ -167,7 +179,7 @@
               Please see the AUTHORS.txt file for contributors.
            </p>
 
-	 </div>
+	 </span></div>
          <p>
             Redistribution and use in source and binary
             forms, with or without modification, are permitted
@@ -177,7 +189,7 @@
 <ul style="list-style:none">
             
 <li>
-               <var class="replaceable-license-text"> 1.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
                <p>
                   Any redistribution of source code must retain the
                   above copyright notice, this list of conditions
@@ -187,7 +199,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 2.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
                <p>
                   Redistribution in binary form must reproduce the above
                   copyright notice, this list of conditions and the
@@ -198,7 +210,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 3.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
                <p>
                   Products derived from or including this software may not
                   use &quot;Logbook of the World&quot; or &quot;LoTW&quot; or any other American
@@ -210,7 +222,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 4.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
                <p>
                   Use of this software does not imply endorsement
                   by ARRL of products derived from or including this
@@ -220,7 +232,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 5.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 5.</span></var>
                <p>
                   Disclaimer: This software is provided &quot;as-is&quot; without
                   representation, guarantee or warranty of any kind, either
@@ -242,7 +254,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 6.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 6.</span></var>
                <p>
                   Contact information:
                </p>
@@ -273,7 +285,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2001-2015 American Radio Relay League, Inc. All rights reserved.    Portions (C) 2003-2023 The TrustedQSL Developers. Please see the AUTHORS.txt file for contributors.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Any redistribution of source code must retain the above copyright notice, this list of conditions and the disclaimer shown in Paragraph 5 (below).&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Redistribution in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer shown in Paragraph 5 (below) in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Products derived from or including this software may not use &quot;Logbook of the World&quot; or &quot;LoTW&quot; or any other American Radio Relay League, Incorporated trademarks or servicemarks in their names without prior written permission of the ARRL. See Paragraph 6 (below) for contact information.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Use of this software does not imply endorsement by ARRL of products derived from or including this software and vendors may not claim such endorsement.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Disclaimer: This software is provided &quot;as-is&quot; without representation, guarantee or warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability or of fitness for a particular purpose. The entire risk as to the quality and performance of the software is solely with you. Should the software prove defective, you (and not the American Radio Relay League, its officers, directors, employees or agents) assume the entire cost of all necessary servicing, repair or correction. In no event will ARRL be liable to you or to any third party for any damages, whether direct or indirect, including lost profits, lost savings, or other incidental or consequential damages arising out of the use or inability to use such software, regardless of whether ARRL has been advised of the possibility of such damages.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Contact information:&#10;&#10;   American Radio Relay League, Inc. Attn: Logbook of the World Manager 225 Main St Newington, CT 06111 voice: 860-594-0200 fax: 860-594-0259 email: logbook@arrl.org Worldwide Web: www.arrl.org&#10;&#10;This software consists of voluntary contributions made by many individuals on behalf of the ARRL. More information on the &quot;Logbook of The World&quot; project and the ARRL is available from the ARRL Web site at www.arrl.org.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 2001-2015 American Radio Relay League, Inc. All rights reserved.   Portions (C) 2003-2023 The TrustedQSL Developers. Please see the AUTHORS.txt file for contributors.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Any redistribution of source code must retain the above copyright notice, this list of conditions and the disclaimer shown in Paragraph 5 (below).&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Redistribution in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer shown in Paragraph 5 (below) in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Products derived from or including this software may not use &quot;Logbook of the World&quot; or &quot;LoTW&quot; or any other American Radio Relay League, Incorporated trademarks or servicemarks in their names without prior written permission of the ARRL. See Paragraph 6 (below) for contact information.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Use of this software does not imply endorsement by ARRL of products derived from or including this software and vendors may not claim such endorsement.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Disclaimer: This software is provided &quot;as-is&quot; without representation, guarantee or warranty of any kind, either express or implied, including but not limited to the implied warranties of merchantability or of fitness for a particular purpose. The entire risk as to the quality and performance of the software is solely with you. Should the software prove defective, you (and not the American Radio Relay League, its officers, directors, employees or agents) assume the entire cost of all necessary servicing, repair or correction. In no event will ARRL be liable to you or to any third party for any damages, whether direct or indirect, including lost profits, lost savings, or other incidental or consequential damages arising out of the use or inability to use such software, regardless of whether ARRL has been advised of the possibility of such damages.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Contact information:&#10;&#10;   American Radio Relay League, Inc. Attn: Logbook of the World Manager 225 Main St Newington, CT 06111 voice: 860-594-0200 fax: 860-594-0259 email: logbook@arrl.org Worldwide Web: www.arrl.org&#10;&#10;This software consists of voluntary contributions made by many individuals on behalf of the ARRL. More information on the &quot;Logbook of The World&quot; project and the ARRL is available from the ARRL Web site at www.arrl.org.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

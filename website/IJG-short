@@ -153,6 +153,18 @@
           <p style="margin-left: 20px;">This license is a shorter, presumably earlier version of IJG</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
@@ -168,7 +180,7 @@
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> (1)</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> (1)</span></var>
           If any part of the source code for this software is distributed, then this README file must
              be included, with this copyright and no-warranty notice unaltered; and any additions,
              deletions, or changes to the original files must be clearly indicated in accompanying
@@ -176,13 +188,13 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> (2)</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> (2)</span></var>
           If only executable code is distributed, then the accompanying documentation must state that
              &quot;this software is based in part on the work of the Independent JPEG Group&quot;.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> (3)</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> (3)</span></var>
           Permission for use of this software is granted only if the user accepts full responsibility
              for any undesirable consequences; the authors accept NO LIABILITY for damages of any
              kind.
@@ -205,7 +217,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      The authors make NO WARRANTY or representation, either express or implied, with respect to this software, its quality, accuracy, merchantability, or fitness for a particular purpose. This software is provided &quot;AS IS&quot;, and you, its user, assume the entire risk as to its quality and accuracy.&#10;&#10;This software is copyright (C) 1991, 1992, Thomas G. Lane. All Rights Reserved except as specified below.&#10;&#10;Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(1)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(2)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; If only executable code is distributed, then the accompanying documentation must state that &quot;this software is based in part on the work of the Independent JPEG Group&quot;.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(3)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences; the authors accept NO LIABILITY for damages of any kind.&#10;&#10;Permission is NOT granted for the use of any IJG author's name or company name in advertising or publicity relating to this software or products derived from it. This software may be referred to only as &quot;the Independent JPEG Group's software&quot;.&#10;&#10;We specifically permit and encourage the use of this software as the basis of commercial products, provided that all warranty or liability claims are assumed by the product vendor.&#10;&#10;
+      The authors make NO WARRANTY or representation, either express or implied, with respect to this software, its quality, accuracy, merchantability, or fitness for a particular purpose. This software is provided &quot;AS IS&quot;, and you, its user, assume the entire risk as to its quality and accuracy.&#10;&#10;This software is copyright (C) 1991, 1992, Thomas G. Lane. All Rights Reserved except as specified below.&#10;&#10;Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for any purpose, without fee, subject to these conditions:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(1)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; If any part of the source code for this software is distributed, then this README file must be included, with this copyright and no-warranty notice unaltered; and any additions, deletions, or changes to the original files must be clearly indicated in accompanying documentation.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(2)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; If only executable code is distributed, then the accompanying documentation must state that &quot;this software is based in part on the work of the Independent JPEG Group&quot;.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;(3)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Permission for use of this software is granted only if the user accepts full responsibility for any undesirable consequences; the authors accept NO LIABILITY for damages of any kind.&#10;Permission is NOT granted for the use of any IJG author&#39;s name or company name in advertising or publicity relating to this software or products derived from it. This software may be referred to only as &quot;the Independent JPEG Group&#39;s software&quot;.&#10;&#10;We specifically permit and encourage the use of this software as the basis of commercial products, provided that all warranty or liability claims are assumed by the product vendor.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://creativecommons.org/licenses/by/3.0/au/legalcode" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:19:42Z>https://creativecommons.org/licenses/by/3.0/au/legalcode</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:19:42Z</p> -->
+               <a href="https://creativecommons.org/licenses/by/3.0/au/legalcode" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:30:06Z>https://creativecommons.org/licenses/by/3.0/au/legalcode</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:30:06Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,6 +154,18 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
@@ -183,18 +195,18 @@
 <ul style="list-style:none">
                 
 <li>
-                    <var class="replaceable-license-text"> 1.</var> Definitions 
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var> Definitions 
 <ul style="list-style:none">
                         
 <li>
-                            <var class="replaceable-license-text"> a.</var> &quot;Collection&quot; means the Work in its entirety in
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> a.</span></var> &quot;Collection&quot; means the Work in its entirety in
                             unmodified form along with one or more other separate and independent
                             works, assembled into a collective whole. A Collection may, for example,
                             include a periodical, encyclopedia or anthology. A Collection will not
                             be considered a Derivative Work for the purposes of this Licence. </li>
                         
 <li>
-                            <var class="replaceable-license-text"> b.</var> &quot;Derivative Work&quot; means material in any form that is
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> b.</span></var> &quot;Derivative Work&quot; means material in any form that is
                             created by editing, modifying or adapting the Work, a substantial part
                             of the Work, or the Work and other pre-existing works. Derivative Works
                             may, for example, include a translation, adaptation, musical
@@ -208,24 +220,24 @@
                             purpose of this Licence. </li>
                         
 <li>
-                            <var class="replaceable-license-text"> c.</var> &quot;Distribute&quot; means to make available to the public
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> c.</span></var> &quot;Distribute&quot; means to make available to the public
                             by any means, including publication, electronic communication, or
                             broadcast. </li>
                         
 <li>
-                            <var class="replaceable-license-text"> d.</var> &quot;Licensor&quot; means the individual, individuals, entity
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> d.</span></var> &quot;Licensor&quot; means the individual, individuals, entity
                             or entities that offer(s) the Work under the terms of this Licence. </li>
                         
 <li>
-                            <var class="replaceable-license-text"> e.</var> &quot;Original Author&quot; means the individual, individuals,
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> e.</span></var> &quot;Original Author&quot; means the individual, individuals,
                             entity or entities who created the Work. </li>
                         
 <li>
-                            <var class="replaceable-license-text"> f.</var> &quot;Reproduce&quot; means to make a copy of the Work in any
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> f.</span></var> &quot;Reproduce&quot; means to make a copy of the Work in any
                             material form (eg storage in digital form). </li>
                         
 <li>
-                            <var class="replaceable-license-text"> g.</var> &quot;Work&quot; means the material (including any work or
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> g.</span></var> &quot;Work&quot; means the material (including any work or
                             other subject matter) protected by copyright which is offered under the
                             terms of this Licence. This may include (without limitation) a literary,
                             dramatic, musical or artistic work; a sound recording or cinematograph
@@ -233,7 +245,7 @@
                             work; or a television or sound broadcast. </li>
                         
 <li>
-                            <var class="replaceable-license-text"> h.</var> &quot;You&quot; means an individual or entity exercising
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> h.</span></var> &quot;You&quot; means an individual or entity exercising
                             rights under this Licence who has not previously violated the terms of
                             this Licence with respect to the Work, or who has received express
                             permission from the Licensor to exercise rights under this Licence
@@ -243,14 +255,14 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 2.</var> Fair Dealing and Other Rights
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var> Fair Dealing and Other Rights
                     Nothing in this Licence is
                     intended to reduce, limit, or restrict any uses free from copyright or rights
                     arising from limitations or exceptions under copyright law or any other
                     applicable laws. </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 3.</var> License Grant
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var> License Grant
                     <p>3A Grant of Rights</p>
 
                     <p>Provided that the
@@ -261,21 +273,21 @@
 <ul style="list-style:none">
                         
 <li>
-                            <var class="replaceable-license-text"> a.</var> Reproduce the Work; </li>
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> a.</span></var> Reproduce the Work; </li>
                         
 <li>
-                            <var class="replaceable-license-text"> b.</var> incorporate the Work into one or more Collections; </li>
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> b.</span></var> incorporate the Work into one or more Collections; </li>
                         
 <li>
-                            <var class="replaceable-license-text"> c.</var> Reproduce the Work as incorporated in any
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> c.</span></var> Reproduce the Work as incorporated in any
                             Collection; </li>
                         
 <li>
-                            <var class="replaceable-license-text"> d.</var> create and Reproduce one or more Derivative Works;
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> d.</span></var> create and Reproduce one or more Derivative Works;
                             and </li>
                         
 <li>
-                            <var class="replaceable-license-text"> e.</var> Distribute and publicly perform the Work, a
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> e.</span></var> Distribute and publicly perform the Work, a
                             Derivative Work or the Work as incorporated in any Collection. </li>
                     
 </ul>
@@ -295,7 +307,7 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 4.</var> Restrictions
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var> Restrictions
                     <p>The licence granted above is limited by the
                     following restrictions.</p>
  
@@ -309,38 +321,38 @@
 <ul style="list-style:none">
                                 
 <li>
-                                    <var class="replaceable-license-text"> a.</var> You may Distribute and publicly perform the
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> a.</span></var> You may Distribute and publicly perform the
                                     Work only under the terms of this Licence. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> b.</var> You must include a copy of, or the Uniform
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> b.</span></var> You must include a copy of, or the Uniform
                                     Resource Identifier (such as a web link) for, this Licence with
                                     every copy of the Work You Distribute or publicly perform. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> c.</var> You must not offer or impose any terms on
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> c.</span></var> You must not offer or impose any terms on
                                     the Work that restrict this Licence or the ability of a
                                     recipient of the Work from You to exercise the rights granted to
                                     them by this Licence. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> d.</var> You are not granted the right to sublicense
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> d.</span></var> You are not granted the right to sublicense
                                     the Work. The rights of recipients of the Work from You are
                                     governed by clause 9. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> e.</var> You must keep intact all notices that refer
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> e.</span></var> You must keep intact all notices that refer
                                     to this Licence and to the disclaimer of warranties with every
                                     copy of the Work You Distribute or publicly perform. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> f.</var> When You Distribute or publicly perform the
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> f.</span></var> When You Distribute or publicly perform the
                                     Work, You must not impose any technological measures on it that
                                     restrict the ability of a recipient of the Work from You to
                                     exercise the rights granted to them by this Licence. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> g.</var> For the avoidance of doubt, while this
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> g.</span></var> For the avoidance of doubt, while this
                                     clause 4A applies to the Work as incorporated into a Collection,
                                     it does not require other material within the Collection, or the
                                     Collection apart from the Work itself, to be made subject to
@@ -356,18 +368,18 @@
 <ul style="list-style:none">
                                 
 <li>
-                                    <var class="replaceable-license-text"> a.</var> When You Distribute or publicly perform the
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> a.</span></var> When You Distribute or publicly perform the
                                     Work or any Derivative Work or Collection You must keep intact
                                     all copyright notices for the Work. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> b.</var> When You Distribute or publicly perform the
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> b.</span></var> When You Distribute or publicly perform the
                                     Work or any Derivative Work or Collection You must provide, in a
                                     manner reasonable to the medium or means You are using: 
 <ul style="list-style:none">
                                         
 <li>
-                                            <var class="replaceable-license-text"> i.</var> the name or pseudonym (if provided)
+                                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> i.</span></var> the name or pseudonym (if provided)
                                             of the Original Author and/or of any other party (such
                                             as a sponsor institute, publishing entity or journal)
                                             that the Original Author or Licensor has requested be
@@ -376,11 +388,11 @@
                                             &quot;Attribution Parties&quot;; </li>
                                         
 <li>
-                                            <var class="replaceable-license-text"> ii.</var> the title of the Work (if
+                                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> ii.</span></var> the title of the Work (if
                                             provided); and </li>
                                         
 <li>
-                                            <var class="replaceable-license-text"> iii.</var> to the extent reasonably
+                                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> iii.</span></var> to the extent reasonably
                                             practicable, any Uniform Resource Identifier (such as a
                                             web link) that the Licensor specifies should be
                                             associated with the Work that refers to the copyright
@@ -390,37 +402,37 @@
                                 </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> c.</var> For any Derivative Work You Distribute or
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> c.</span></var> For any Derivative Work You Distribute or
                                     publicly perform, You must take reasonable steps to clearly
                                     identify that changes were made to the Work. For example, a
                                     translation could be marked &quot;The original work was translated
                                     from English to Spanish&quot;. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> d.</var> In the case of a Derivative Work or
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> d.</span></var> In the case of a Derivative Work or
                                     Collection, the above attribution should, at a minimum, appear
                                     as part of any credits for other contributing authors and be as
                                     prominent as the credits for those other authors. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> e.</var> You must, to the extent practicable, remove
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> e.</span></var> You must, to the extent practicable, remove
                                     the above attribution from any Collection or Derivative Work if
                                     requested to do so by the Licensor or Original Author. </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> f.</var> For the avoidance of doubt, You may only use
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> f.</span></var> For the avoidance of doubt, You may only use
                                     the credit required by this clause 4B for the purpose of
                                     attribution in the manner set out above. By exercising Your
                                     rights under this Licence, You must not assert or imply: 
 <ul style="list-style:none">
                                         
 <li>
-                                            <var class="replaceable-license-text"> i.</var> any connection between the Original
+                                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> i.</span></var> any connection between the Original
                                             Author, Licensor or any other Attribution Party and You
                                             or Your use of the Work; or </li>
                                         
 <li>
-                                            <var class="replaceable-license-text"> ii.</var> sponsorship or endorsement by the
+                                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> ii.</span></var> sponsorship or endorsement by the
                                             Original Author, Licensor or any other Attribution Party
                                             of You or Your use of the Work, </li>
                                     
@@ -445,11 +457,11 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 5.</var> Representations, Warranties and Disclaimer 
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 5.</span></var> Representations, Warranties and Disclaimer 
 <ul style="list-style:none">
                         
 <li>
-                            <var class="replaceable-license-text"> a.</var> Except as expressly stated in this Licence or
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> a.</span></var> Except as expressly stated in this Licence or
                             otherwise agreed to by the parties in writing, and to the full extent
                             permitted by applicable law, the Licensor offers the Work &quot;as-is&quot; and
                             makes no representations, warranties or conditions of any kind
@@ -462,27 +474,27 @@
 <ul style="list-style:none">
                                 
 <li>
-                                    <var class="replaceable-license-text"> i.</var> the contents or accuracy of the Work; </li>
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> i.</span></var> the contents or accuracy of the Work; </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> ii.</var> title, merchantability, or fitness for a
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> ii.</span></var> title, merchantability, or fitness for a
                                     particular purpose; </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> iii.</var> non-infringement; </li>
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> iii.</span></var> non-infringement; </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> iv.</var> the absence of latent or other defects; or </li>
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> iv.</span></var> the absence of latent or other defects; or </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> v.</var> the presence or absence of errors, whether
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> v.</span></var> the presence or absence of errors, whether
                                     or not discoverable. </li>
                             
 </ul>
                         </li>
                         
 <li>
-                            <var class="replaceable-license-text"> b.</var> The Trade Practices Act 1974 (Cth), and the
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> b.</span></var> The Trade Practices Act 1974 (Cth), and the
                             corresponding State and Territory fair trading legislation, imply
                             certain warranties and conditions in certain circumstances, such as the
                             right to supply or fitness for purpose of goods or services supplied to
@@ -493,11 +505,11 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 6.</var> Limit of Liability
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 6.</span></var> Limit of Liability
 <ul style="list-style:none">
                         
 <li>
-                            <var class="replaceable-license-text"> a.</var> To the full extent permitted by applicable law, and
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> a.</span></var> To the full extent permitted by applicable law, and
                             except for any liability arising from contrary agreement, in no event
                             will the Licensor be liable to You on any legal basis (including without
                             limitation, negligence) for any loss or damage whatsoever, including
@@ -507,13 +519,13 @@
                             
 <ul style="list-style:none">
                                 
-<li><var class="replaceable-license-text"> i.</var> loss of production or operation time,
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> i.</span></var> loss of production or operation time,
                                     loss, damage or corruption of data or records; or </li>
                                 
-<li><var class="replaceable-license-text"> ii.</var> loss of anticipated savings, opportunity,
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> ii.</span></var> loss of anticipated savings, opportunity,
                                     revenue, profit or goodwill, or other economic loss; or </li>
                                 
-<li><var class="replaceable-license-text"> iii.</var> any special, incidental, consequential,
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> iii.</span></var> any special, incidental, consequential,
                                     punitive or exemplary damages arising out of or in connection
                                     with this Licence or the use of the Work, even if the Licensor
                                     has been advised of the possibility of such damages.</li>
@@ -521,7 +533,7 @@
 </ul>
                         </li>
                         
-<li><var class="replaceable-license-text"> b.</var> If applicable legislation implies warranties or
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> b.</span></var> If applicable legislation implies warranties or
                             conditions, or imposes obligations or liability on the Licensor in
                             respect of this Licence that cannot be wholly or partly excluded,
                             restricted or modified, the Licensor&apos;s liability is limited, to the full
@@ -532,37 +544,37 @@
 <ul style="list-style:none">
                                 
 <li>
-                                    <var class="replaceable-license-text"> i.</var> in the case of goods, any one or more of the
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> i.</span></var> in the case of goods, any one or more of the
                                     following: </li>
                                 
 <li>
                                     
 <ul style="list-style:none">
                                         
-<li><var class="replaceable-license-text"> *</var> the replacement of the goods or the supply
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> *</span></var> the replacement of the goods or the supply
                                             of equivalent goods; </li>
                                         
-<li><var class="replaceable-license-text"> *</var> the repair of the goods; </li>
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> *</span></var> the repair of the goods; </li>
                                         
-<li><var class="replaceable-license-text"> *</var> the payment of the cost of replacing the
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> *</span></var> the payment of the cost of replacing the
                                             goods or of acquiring equivalent goods; </li>
                                         
-<li><var class="replaceable-license-text"> *</var> the payment of the cost of having the goods
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> *</span></var> the payment of the cost of having the goods
                                             repaired; or </li>
                                     
 </ul>
                                 </li>
                                 
 <li>
-                                    <var class="replaceable-license-text"> ii.</var> in the case of services: </li>
+                                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> ii.</span></var> in the case of services: </li>
                                 
 <li>
                                     
 <ul style="list-style:none">
                                         
-<li><var class="replaceable-license-text"> *</var> the supplying of the services again; or </li>
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> *</span></var> the supplying of the services again; or </li>
                                         
-<li><var class="replaceable-license-text"> *</var> the payment of the cost of having the
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> *</span></var> the payment of the cost of having the
                                             services supplied again.</li>
                                     
 </ul>
@@ -572,7 +584,7 @@
                         </li>
                         
 <li>
-                            <var class="replaceable-license-text"> c.</var> The Trade Practices Act 1974 (Cth), and the
+                            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> c.</span></var> The Trade Practices Act 1974 (Cth), and the
                             corresponding State and Territory fair trading legislation, restrict the
                             limitation of liability in certain circumstances, such as a contract for
                             the supply of goods or services of a kind ordinarily acquired for
@@ -583,7 +595,7 @@
 </ul></li>
                 
 <li>
-                    <var class="replaceable-license-text"> 7.</var> Termination <p>This Licence and the rights granted to You
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 7.</span></var> Termination <p>This Licence and the rights granted to You
                         under this Licence shall terminate automatically upon any breach by You of
                         the terms of the Licence. Individuals or entities who have received a
                         Derivative Work or a Collection from You pursuant to this Licence, however,
@@ -594,7 +606,7 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 8.</var> Licensor&apos;s Rights Retained <p>Subject to the above terms,
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 8.</span></var> Licensor&apos;s Rights Retained <p>Subject to the above terms,
                         the Licence granted here is perpetual (for the duration of the applicable
                         copyright in the Work). Notwithstanding this, the Licensor reserves the
                         right to release the Work under different licence terms or to stop
@@ -606,7 +618,7 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 9.</var> Licence Grant to Recipients of the Work from You <p>Each
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 9.</span></var> Licence Grant to Recipients of the Work from You <p>Each
                         time You Distribute or publicly perform the Work, a Derivative Work or a
                         Collection the Licensor offers the recipient a licence to the Work on the
                         same terms as are granted to You under this Licence.</p>
@@ -614,7 +626,7 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 10.</var> Severability <p>If any provision of this Licence is invalid
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 10.</span></var> Severability <p>If any provision of this Licence is invalid
                         or unenforceable under applicable law, it shall not affect the validity or
                         enforceability of the remainder of the terms of this Licence. Without
                         further action by the parties to this agreement, such provision shall be
@@ -624,14 +636,14 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 11.</var> Waivers and Consents <p>No term of this Licence shall be
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 11.</span></var> Waivers and Consents <p>No term of this Licence shall be
                         deemed waived and no breach consented to unless such waiver or consent is in
                         writing and signed by the relevant party.</p>
 
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 12.</var> Entire Agreement <p>This Licence constitutes the entire
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 12.</span></var> Entire Agreement <p>This Licence constitutes the entire
                         agreement between the parties. To the full extent permitted by law, there
                         are no understandings, agreements or representations with respect to the
                         Work not specified here. The Licensor shall not be bound by any additional
@@ -641,7 +653,7 @@
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 13.</var> Governing Law <p>The construction, validity and performance
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 13.</span></var> Governing Law <p>The construction, validity and performance
                         of this Licence shall be governed by the laws in force in the Australian
                         Capital Territory, Australia.</p>
 
@@ -680,7 +692,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;beginOptional&gt;&gt;Creative Commons Attribution 3.0 Australia&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENCE DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN &quot;AS-IS&quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.&#10;&#10;License&#10;&#10;&lt;&lt;endOptional&gt;&gt;&#10;&#10;THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENCE (&quot;LICENCE&quot;). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORISED UNDER THIS LICENCE OR COPYRIGHT LAW IS PROHIBITED.&#10;&#10;BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENCE. THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Definitions&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Collection&quot; means the Work in its entirety in unmodified form along with one or more other separate and independent works, assembled into a collective whole. A Collection may, for example, include a periodical, encyclopedia or anthology. A Collection will not be considered a Derivative Work for the purposes of this Licence.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Derivative Work&quot; means material in any form that is created by editing, modifying or adapting the Work, a substantial part of the Work, or the Work and other pre-existing works. Derivative Works may, for example, include a translation, adaptation, musical arrangement, dramatisation, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which the Work may be transformed or adapted, except that a Collection will not be considered a Derivative Work for the purpose of this Licence. For the avoidance of doubt, where the Work is a musical composition or sound recording, the synchronization of the Work in timed-relation with a moving image (&quot;synching&quot;) will be considered a Derivative Work for the purpose of this Licence.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Distribute&quot; means to make available to the public by any means, including publication, electronic communication, or broadcast.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Licensor&quot; means the individual, individuals, entity or entities that offer(s) the Work under the terms of this Licence.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Original Author&quot; means the individual, individuals, entity or entities who created the Work.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;f.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Reproduce&quot; means to make a copy of the Work in any material form (eg storage in digital form).&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;g.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Work&quot; means the material (including any work or other subject matter) protected by copyright which is offered under the terms of this Licence. This may include (without limitation) a literary, dramatic, musical or artistic work; a sound recording or cinematograph film; a published edition of a literary, dramatic, musical or artistic work; or a television or sound broadcast.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;h.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;You&quot; means an individual or entity exercising rights under this Licence who has not previously violated the terms of this Licence with respect to the Work, or who has received express permission from the Licensor to exercise rights under this Licence despite a previous violation.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Fair Dealing and Other Rights Nothing in this Licence is intended to reduce, limit, or restrict any uses free from copyright or rights arising from limitations or exceptions under copyright law or any other applicable laws.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; License Grant&#10;&#10;   3A Grant of Rights&#10;&#10;   Provided that the terms set out in this Licence are satisfied, the Licensor grants to You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) licence to exercise the following rights:&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Reproduce the Work;&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; incorporate the Work into one or more Collections;&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Reproduce the Work as incorporated in any Collection;&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; create and Reproduce one or more Derivative Works; and&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Distribute and publicly perform the Work, a Derivative Work or the Work as incorporated in any Collection.&#10;&#10;   3B Media and Formats&#10;&#10;   The above rights may be exercised in any media or format whether now known or hereafter created. They include the right to make modifications that are technically necessary to exercise the rights in other media and formats.&#10;&#10;   3C Other Rights Reserved&#10;&#10;   All rights not expressly granted by the Licensor are reserved. The Licensor waives the right to collect royalties for any exercise by You of the rights granted under this Licence.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Restrictions&#10;&#10;   The licence granted above is limited by the following restrictions.&#10;&#10;      4A Restrictions on Distribution and Public Performance of the Work&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You may Distribute and publicly perform the Work only under the terms of this Licence.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must include a copy of, or the Uniform Resource Identifier (such as a web link) for, this Licence with every copy of the Work You Distribute or publicly perform.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must not offer or impose any terms on the Work that restrict this Licence or the ability of a recipient of the Work from You to exercise the rights granted to them by this Licence.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You are not granted the right to sublicense the Work. The rights of recipients of the Work from You are governed by clause 9.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must keep intact all notices that refer to this Licence and to the disclaimer of warranties with every copy of the Work You Distribute or publicly perform.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;f.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; When You Distribute or publicly perform the Work, You must not impose any technological measures on it that restrict the ability of a recipient of the Work from You to exercise the rights granted to them by this Licence.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;g.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; For the avoidance of doubt, while this clause 4A applies to the Work as incorporated into a Collection, it does not require other material within the Collection, or the Collection apart from the Work itself, to be made subject to this Licence.&#10;&#10;      4B Attribution and Notice Requirements&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; When You Distribute or publicly perform the Work or any Derivative Work or Collection You must keep intact all copyright notices for the Work.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; When You Distribute or publicly perform the Work or any Derivative Work or Collection You must provide, in a manner reasonable to the medium or means You are using:&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the name or pseudonym (if provided) of the Original Author and/or of any other party (such as a sponsor institute, publishing entity or journal) that the Original Author or Licensor has requested be attributed (such as in the copyright notice or terms of use). In this clause 4B these parties are referred to as &quot;Attribution Parties&quot;;&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the title of the Work (if provided); and&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; to the extent reasonably practicable, any Uniform Resource Identifier (such as a web link) that the Licensor specifies should be associated with the Work that refers to the copyright notice or licensing information for the Work.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; For any Derivative Work You Distribute or publicly perform, You must take reasonable steps to clearly identify that changes were made to the Work. For example, a translation could be marked &quot;The original work was translated from English to Spanish&quot;.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; In the case of a Derivative Work or Collection, the above attribution should, at a minimum, appear as part of any credits for other contributing authors and be as prominent as the credits for those other authors.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must, to the extent practicable, remove the above attribution from any Collection or Derivative Work if requested to do so by the Licensor or Original Author.&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;f.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; For the avoidance of doubt, You may only use the credit required by this clause 4B for the purpose of attribution in the manner set out above. By exercising Your rights under this Licence, You must not assert or imply:&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; any connection between the Original Author, Licensor or any other Attribution Party and You or Your use of the Work; or&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; sponsorship or endorsement by the Original Author, Licensor or any other Attribution Party of You or Your use of the Work,&#10;&#10;         without their separate, express prior written permission.&#10;&#10;      4C Moral Rights&#10;&#10;      Moral rights remain unaffected to the extent they are recognised and nonwaivable at law. In this clause 4C, &quot;moral rights&quot; means the personal rights granted by law to the Original Author of a copyright work. For example, Part IX of the Copyright Act 1968 (Cth) grants authors the right of integrity of authorship, the right of attribution of authorship, and the right not to have authorship falsely attributed.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Representations, Warranties and Disclaimer&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Except as expressly stated in this Licence or otherwise agreed to by the parties in writing, and to the full extent permitted by applicable law, the Licensor offers the Work &quot;as-is&quot; and makes no representations, warranties or conditions of any kind concerning the Work, express, implied, statutory or otherwise. This includes, without limitation, any representations, warranties or conditions regarding:&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the contents or accuracy of the Work;&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; title, merchantability, or fitness for a particular purpose;&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; non-infringement;&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iv.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the absence of latent or other defects; or&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;v.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the presence or absence of errors, whether or not discoverable.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The Trade Practices Act 1974 (Cth), and the corresponding State and Territory fair trading legislation, imply certain warranties and conditions in certain circumstances, such as the right to supply or fitness for purpose of goods or services supplied to a consumer. Clause 5(a) cannot and is not intended to exclude, restrict or modify these warranties.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Limit of Liability&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; To the full extent permitted by applicable law, and except for any liability arising from contrary agreement, in no event will the Licensor be liable to You on any legal basis (including without limitation, negligence) for any loss or damage whatsoever, including (without limitation):&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; loss of production or operation time, loss, damage or corruption of data or records; or&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; loss of anticipated savings, opportunity, revenue, profit or goodwill, or other economic loss; or&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; any special, incidental, consequential, punitive or exemplary damages arising out of or in connection with this Licence or the use of the Work, even if the Licensor has been advised of the possibility of such damages.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; If applicable legislation implies warranties or conditions, or imposes obligations or liability on the Licensor in respect of this Licence that cannot be wholly or partly excluded, restricted or modified, the Licensor's liability is limited, to the full extent permitted by the applicable legislation, at its option, to:&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; in the case of goods, any one or more of the following:&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the replacement of the goods or the supply of equivalent goods;&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the repair of the goods;&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the payment of the cost of replacing the goods or of acquiring equivalent goods;&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the payment of the cost of having the goods repaired; or&#10;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; in the case of services:&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the supplying of the services again; or&#10;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the payment of the cost of having the services supplied again.&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The Trade Practices Act 1974 (Cth), and the corresponding State and Territory fair trading legislation, restrict the limitation of liability in certain circumstances, such as a contract for the supply of goods or services of a kind ordinarily acquired for personal, domestic, or household use. Clauses 6(a) and 6(b) cannot and are not intended to apply in circumstances where it is prohibited by law.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;7.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Termination&#10;&#10;   This Licence and the rights granted to You under this Licence shall terminate automatically upon any breach by You of the terms of the Licence. Individuals or entities who have received a Derivative Work or a Collection from You pursuant to this Licence, however, will not have their licences terminated provided they remain in full compliance with those licences. Clauses 1, 2, 5, 6, 7, 8, 9, 10, 11, 12 and 13 shall survive any termination of this Licence.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;8.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Licensor's Rights Retained&#10;&#10;   Subject to the above terms, the Licence granted here is perpetual (for the duration of the applicable copyright in the Work). Notwithstanding this, the Licensor reserves the right to release the Work under different licence terms or to stop distributing the Work at any time. However, any such release will not serve to withdraw this Licence (or any other licence that has been granted under the terms of this Licence), and this Licence will continue in full force and effect unless terminated as stated above.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;9.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Licence Grant to Recipients of the Work from You&#10;&#10;   Each time You Distribute or publicly perform the Work, a Derivative Work or a Collection the Licensor offers the recipient a licence to the Work on the same terms as are granted to You under this Licence.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;10.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Severability&#10;&#10;   If any provision of this Licence is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Licence. Without further action by the parties to this agreement, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;11.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Waivers and Consents&#10;&#10;   No term of this Licence shall be deemed waived and no breach consented to unless such waiver or consent is in writing and signed by the relevant party.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;12.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Entire Agreement&#10;&#10;   This Licence constitutes the entire agreement between the parties. To the full extent permitted by law, there are no understandings, agreements or representations with respect to the Work not specified here. The Licensor shall not be bound by any additional provisions that may appear in any communication from You. This Licence may not be modified without the written agreement of the Licensor and You.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;13.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Governing Law&#10;&#10;   The construction, validity and performance of this Licence shall be governed by the laws in force in the Australian Capital Territory, Australia.&#10;&#10;   &lt;&lt;beginOptional&gt;&gt;Creative Commons Notice&#10;&#10;Creative Commons is not a party to this Licence, and, to the full extent permitted by applicable law, makes no representation or warranty whatsoever in connection with the Work. To the full extent permitted by applicable law, Creative Commons will not be liable to You or any party on any legal theory (including, without limitation, negligence) for any damages whatsoever, including without limitation any general, special, incidental or consequential damages arising in connection to this licence.&#10;&#10;Notwithstanding the foregoing two (2) sentences, if Creative Commons has expressly identified itself as the Licensor hereunder, it shall have all rights and obligations of Licensor. Except for the limited purpose of indicating to the public that the Work is licensed under the Licence, neither party will use the trademark &quot;Creative Commons&quot; or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons' then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time.&#10;&#10;Creative Commons may be contacted at https://creativecommons.org/ .&#10;&#10;&lt;&lt;endOptional&gt;&gt;
+      &lt;&lt;beginOptional&gt;&gt;Creative Commons Attribution 3.0 Australia&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE LEGAL SERVICES. DISTRIBUTION OF THIS LICENCE DOES NOT CREATE AN ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS INFORMATION ON AN &quot;AS-IS&quot; BASIS. CREATIVE COMMONS MAKES NO WARRANTIES REGARDING THE INFORMATION PROVIDED, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM ITS USE.&#10;&#10;License&#10;&#10;&lt;&lt;endOptional&gt;&gt;&#10;THE WORK (AS DEFINED BELOW) IS PROVIDED UNDER THE TERMS OF THIS CREATIVE COMMONS PUBLIC LICENCE (&quot;LICENCE&quot;). THE WORK IS PROTECTED BY COPYRIGHT AND/OR OTHER APPLICABLE LAW. ANY USE OF THE WORK OTHER THAN AS AUTHORISED UNDER THIS LICENCE OR COPYRIGHT LAW IS PROHIBITED.&#10;&#10;BY EXERCISING ANY RIGHTS TO THE WORK PROVIDED HERE, YOU ACCEPT AND AGREE TO BE BOUND BY THE TERMS OF THIS LICENCE. THE LICENSOR GRANTS YOU THE RIGHTS CONTAINED HERE IN CONSIDERATION OF YOUR ACCEPTANCE OF SUCH TERMS AND CONDITIONS.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Definitions&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Collection&quot; means the Work in its entirety in unmodified form along with one or more other separate and independent works, assembled into a collective whole. A Collection may, for example, include a periodical, encyclopedia or anthology. A Collection will not be considered a Derivative Work for the purposes of this Licence.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Derivative Work&quot; means material in any form that is created by editing, modifying or adapting the Work, a substantial part of the Work, or the Work and other pre-existing works. Derivative Works may, for example, include a translation, adaptation, musical arrangement, dramatisation, motion picture version, sound recording, art reproduction, abridgment, condensation, or any other form in which the Work may be transformed or adapted, except that a Collection will not be considered a Derivative Work for the purpose of this Licence. For the avoidance of doubt, where the Work is a musical composition or sound recording, the synchronization of the Work in timed-relation with a moving image (&quot;synching&quot;) will be considered a Derivative Work for the purpose of this Licence.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Distribute&quot; means to make available to the public by any means, including publication, electronic communication, or broadcast.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Licensor&quot; means the individual, individuals, entity or entities that offer(s) the Work under the terms of this Licence.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Original Author&quot; means the individual, individuals, entity or entities who created the Work.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;f.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Reproduce&quot; means to make a copy of the Work in any material form (eg storage in digital form).&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;g.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;Work&quot; means the material (including any work or other subject matter) protected by copyright which is offered under the terms of this Licence. This may include (without limitation) a literary, dramatic, musical or artistic work; a sound recording or cinematograph film; a published edition of a literary, dramatic, musical or artistic work; or a television or sound broadcast.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;h.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; &quot;You&quot; means an individual or entity exercising rights under this Licence who has not previously violated the terms of this Licence with respect to the Work, or who has received express permission from the Licensor to exercise rights under this Licence despite a previous violation.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Fair Dealing and Other Rights Nothing in this Licence is intended to reduce, limit, or restrict any uses free from copyright or rights arising from limitations or exceptions under copyright law or any other applicable laws.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; License Grant&#10;   3A Grant of Rights&#10;&#10;   Provided that the terms set out in this Licence are satisfied, the Licensor grants to You a worldwide, royalty-free, non-exclusive, perpetual (for the duration of the applicable copyright) licence to exercise the following rights:&#10;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Reproduce the Work;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; incorporate the Work into one or more Collections;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Reproduce the Work as incorporated in any Collection;&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; create and Reproduce one or more Derivative Works; and&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Distribute and publicly perform the Work, a Derivative Work or the Work as incorporated in any Collection.&#10;   3B Media and Formats&#10;&#10;   The above rights may be exercised in any media or format whether now known or hereafter created. They include the right to make modifications that are technically necessary to exercise the rights in other media and formats.&#10;&#10;   3C Other Rights Reserved&#10;&#10;   All rights not expressly granted by the Licensor are reserved. The Licensor waives the right to collect royalties for any exercise by You of the rights granted under this Licence.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Restrictions&#10;   The licence granted above is limited by the following restrictions.&#10;&#10;      4A Restrictions on Distribution and Public Performance of the Work&#10;      &#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You may Distribute and publicly perform the Work only under the terms of this Licence.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must include a copy of, or the Uniform Resource Identifier (such as a web link) for, this Licence with every copy of the Work You Distribute or publicly perform.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must not offer or impose any terms on the Work that restrict this Licence or the ability of a recipient of the Work from You to exercise the rights granted to them by this Licence.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You are not granted the right to sublicense the Work. The rights of recipients of the Work from You are governed by clause 9.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must keep intact all notices that refer to this Licence and to the disclaimer of warranties with every copy of the Work You Distribute or publicly perform.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;f.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; When You Distribute or publicly perform the Work, You must not impose any technological measures on it that restrict the ability of a recipient of the Work from You to exercise the rights granted to them by this Licence.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;g.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; For the avoidance of doubt, while this clause 4A applies to the Work as incorporated into a Collection, it does not require other material within the Collection, or the Collection apart from the Work itself, to be made subject to this Licence.&#10;      4B Attribution and Notice Requirements&#10;      &#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; When You Distribute or publicly perform the Work or any Derivative Work or Collection You must keep intact all copyright notices for the Work.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; When You Distribute or publicly perform the Work or any Derivative Work or Collection You must provide, in a manner reasonable to the medium or means You are using:&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the name or pseudonym (if provided) of the Original Author and/or of any other party (such as a sponsor institute, publishing entity or journal) that the Original Author or Licensor has requested be attributed (such as in the copyright notice or terms of use). In this clause 4B these parties are referred to as &quot;Attribution Parties&quot;;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the title of the Work (if provided); and&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; to the extent reasonably practicable, any Uniform Resource Identifier (such as a web link) that the Licensor specifies should be associated with the Work that refers to the copyright notice or licensing information for the Work.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; For any Derivative Work You Distribute or publicly perform, You must take reasonable steps to clearly identify that changes were made to the Work. For example, a translation could be marked &quot;The original work was translated from English to Spanish&quot;.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;d.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; In the case of a Derivative Work or Collection, the above attribution should, at a minimum, appear as part of any credits for other contributing authors and be as prominent as the credits for those other authors.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;e.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; You must, to the extent practicable, remove the above attribution from any Collection or Derivative Work if requested to do so by the Licensor or Original Author.&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;f.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; For the avoidance of doubt, You may only use the credit required by this clause 4B for the purpose of attribution in the manner set out above. By exercising Your rights under this Licence, You must not assert or imply:&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; any connection between the Original Author, Licensor or any other Attribution Party and You or Your use of the Work; or&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; sponsorship or endorsement by the Original Author, Licensor or any other Attribution Party of You or Your use of the Work,&#10;         without their separate, express prior written permission.&#10;&#10;      4C Moral Rights&#10;      Moral rights remain unaffected to the extent they are recognised and nonwaivable at law. In this clause 4C, &quot;moral rights&quot; means the personal rights granted by law to the Original Author of a copyright work. For example, Part IX of the Copyright Act 1968 (Cth) grants authors the right of integrity of authorship, the right of attribution of authorship, and the right not to have authorship falsely attributed.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Representations, Warranties and Disclaimer&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Except as expressly stated in this Licence or otherwise agreed to by the parties in writing, and to the full extent permitted by applicable law, the Licensor offers the Work &quot;as-is&quot; and makes no representations, warranties or conditions of any kind concerning the Work, express, implied, statutory or otherwise. This includes, without limitation, any representations, warranties or conditions regarding:&#10;      &#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the contents or accuracy of the Work;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; title, merchantability, or fitness for a particular purpose;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; non-infringement;&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iv.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the absence of latent or other defects; or&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;v.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the presence or absence of errors, whether or not discoverable.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The Trade Practices Act 1974 (Cth), and the corresponding State and Territory fair trading legislation, imply certain warranties and conditions in certain circumstances, such as the right to supply or fitness for purpose of goods or services supplied to a consumer. Clause 5(a) cannot and is not intended to exclude, restrict or modify these warranties.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Limit of Liability&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;a.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; To the full extent permitted by applicable law, and except for any liability arising from contrary agreement, in no event will the Licensor be liable to You on any legal basis (including without limitation, negligence) for any loss or damage whatsoever, including (without limitation):&#10;      &#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; loss of production or operation time, loss, damage or corruption of data or records; or&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; loss of anticipated savings, opportunity, revenue, profit or goodwill, or other economic loss; or&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;iii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; any special, incidental, consequential, punitive or exemplary damages arising out of or in connection with this Licence or the use of the Work, even if the Licensor has been advised of the possibility of such damages.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;b.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; If applicable legislation implies warranties or conditions, or imposes obligations or liability on the Licensor in respect of this Licence that cannot be wholly or partly excluded, restricted or modified, the Licensor&#39;s liability is limited, to the full extent permitted by the applicable legislation, at its option, to:&#10;      &#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;i.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; in the case of goods, any one or more of the following:&#10;         &#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the replacement of the goods or the supply of equivalent goods;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the repair of the goods;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the payment of the cost of replacing the goods or of acquiring equivalent goods;&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the payment of the cost of having the goods repaired; or&#10;         &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;ii.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; in the case of services:&#10;         &#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the supplying of the services again; or&#10;            &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;*&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the payment of the cost of having the services supplied again.&#10;      &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;c.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The Trade Practices Act 1974 (Cth), and the corresponding State and Territory fair trading legislation, restrict the limitation of liability in certain circumstances, such as a contract for the supply of goods or services of a kind ordinarily acquired for personal, domestic, or household use. Clauses 6(a) and 6(b) cannot and are not intended to apply in circumstances where it is prohibited by law.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;7.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Termination&#10;   This Licence and the rights granted to You under this Licence shall terminate automatically upon any breach by You of the terms of the Licence. Individuals or entities who have received a Derivative Work or a Collection from You pursuant to this Licence, however, will not have their licences terminated provided they remain in full compliance with those licences. Clauses 1, 2, 5, 6, 7, 8, 9, 10, 11, 12 and 13 shall survive any termination of this Licence.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;8.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Licensor&#39;s Rights Retained&#10;   Subject to the above terms, the Licence granted here is perpetual (for the duration of the applicable copyright in the Work). Notwithstanding this, the Licensor reserves the right to release the Work under different licence terms or to stop distributing the Work at any time. However, any such release will not serve to withdraw this Licence (or any other licence that has been granted under the terms of this Licence), and this Licence will continue in full force and effect unless terminated as stated above.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;9.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Licence Grant to Recipients of the Work from You&#10;   Each time You Distribute or publicly perform the Work, a Derivative Work or a Collection the Licensor offers the recipient a licence to the Work on the same terms as are granted to You under this Licence.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;10.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Severability&#10;   If any provision of this Licence is invalid or unenforceable under applicable law, it shall not affect the validity or enforceability of the remainder of the terms of this Licence. Without further action by the parties to this agreement, such provision shall be reformed to the minimum extent necessary to make such provision valid and enforceable.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;11.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Waivers and Consents&#10;   No term of this Licence shall be deemed waived and no breach consented to unless such waiver or consent is in writing and signed by the relevant party.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;12.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Entire Agreement&#10;   This Licence constitutes the entire agreement between the parties. To the full extent permitted by law, there are no understandings, agreements or representations with respect to the Work not specified here. The Licensor shall not be bound by any additional provisions that may appear in any communication from You. This Licence may not be modified without the written agreement of the Licensor and You.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;13.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Governing Law&#10;   The construction, validity and performance of this Licence shall be governed by the laws in force in the Australian Capital Territory, Australia.&#10;   &#10;   &lt;&lt;beginOptional&gt;&gt;Creative Commons Notice&#10;&#10;Creative Commons is not a party to this Licence, and, to the full extent permitted by applicable law, makes no representation or warranty whatsoever in connection with the Work. To the full extent permitted by applicable law, Creative Commons will not be liable to You or any party on any legal theory (including, without limitation, negligence) for any damages whatsoever, including without limitation any general, special, incidental or consequential damages arising in connection to this licence.&#10;&#10;Notwithstanding the foregoing two (2) sentences, if Creative Commons has expressly identified itself as the Licensor hereunder, it shall have all rights and obligations of Licensor. Except for the limited purpose of indicating to the public that the Work is licensed under the Licence, neither party will use the trademark &quot;Creative Commons&quot; or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons&#39; then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time.&#10;&#10;Creative Commons may be contacted at https://creativecommons.org/ .&#10;&#10;&lt;&lt;endOptional&gt;&gt;
       </div>
 
     </div> <!-- /page -->

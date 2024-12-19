@@ -1,24 +1,24 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/SGP4>
-        a                             spdx:ListedLicense ;
-        rdfs:seeAlso                  "https://celestrak.org/publications/AIAA/2006-6753/faq.php" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:17:11Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://celestrak.org/publications/AIAA/2006-6753/faq.php";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:28:10Z";
                                         spdx:url            "https://celestrak.org/publications/AIAA/2006-6753/faq.php"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "SGP4" ;
-        spdx:licenseText              "There is no license associated with the code and you may use it for any purpose—personal or commercial—as you wish. We ask only that you include citations in your documentation and source code to show the source of the code and provide links to the main page, to facilitate communications regarding any questions on the theory or source code.\n" ;
-        spdx:licenseTextHtml          "\n         <var class=\"optional-license-text\"> \n            SGP4 Permission Notice\n         </var>\n         <p>\n            There is no license associated with the code and you may use it for any\n            purpose—personal or commercial—as you wish. We ask only that you include\n            citations in your documentation and source code to show the source of\n            the code and provide links to the\n            main page, to\n            facilitate communications regarding any questions on the theory or source\n            code.\n         </p>\n\n      " ;
-        spdx:name                     "SGP4 Permission Notice" ;
-        spdx:standardLicenseTemplate  "<<beginOptional>>SGP4 Permission Notice<<endOptional>>\n\nThere is no license associated with the code and you may use it for any purpose—personal or commercial—as you wish. We ask only that you include citations in your documentation and source code to show the source of the code and provide links to the main page, to facilitate communications regarding any questions on the theory or source code.\n\n" .
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "SGP4";
+        spdx:licenseText              "There is no license associated with the code and you may use it for any purpose—personal or commercial—as you wish. We ask only that you include citations in your documentation and source code to show the source of the code and provide links to the main page, to facilitate communications regarding any questions on the theory or source code.\n";
+        spdx:licenseTextHtml          "\n         <var class=\"optional-license-text\"> \n            SGP4 Permission Notice\n         </var>\n         <p>\n            There is no license associated with the code and you may use it for any\n            purpose—personal or commercial—as you wish. We ask only that you include\n            citations in your documentation and source code to show the source of\n            the code and provide links to the\n            main page, to\n            facilitate communications regarding any questions on the theory or source\n            code.\n         </p>\n\n      ";
+        spdx:name                     "SGP4 Permission Notice";
+        spdx:standardLicenseTemplate  "<<beginOptional>>SGP4 Permission Notice<<endOptional>>\nThere is no license associated with the code and you may use it for any purpose—personal or commercial—as you wish. We ask only that you include citations in your documentation and source code to show the source of the code and provide links to the main page, to facilitate communications regarding any questions on the theory or source code.\n\n" .

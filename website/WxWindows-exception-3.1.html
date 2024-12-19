@@ -158,7 +158,19 @@
           <p style="margin-left: 20px;">Typically used with GPL-2.0-only or GPL-2.0-and-later</p>
           
       <h2 id="licenseExceptionText">Text</h2>
-
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
+	  
       <div property="spdx:licenseExceptionText" class="exception-text">
       
       <p>EXCEPTION NOTICE</p>
@@ -166,7 +178,7 @@
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> 1.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
           As a special exception, the copyright holders of this
              library give permission for additional uses of the
              text contained in this release of the library as
@@ -178,14 +190,14 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 2.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
           The exception is that you may use, copy, link, modify and
              distribute under your own terms, binary object code
              versions of works based on the Library.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 3.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
           If you copy code from files distributed under the terms
              of the GNU General Public Licence or the GNU Library
              General Public Licence into a copy of this library, as
@@ -198,7 +210,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 4.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
           If you write modifications of your own for this library,
              it is your choice whether to permit this exception to
              apply to your modifications. If you do not wish that,

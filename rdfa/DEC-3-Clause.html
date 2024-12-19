@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://gitlab.freedesktop.org/xorg/xserver/-/blob/master/COPYING?ref_type=heads#L239" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:24:47Z>https://gitlab.freedesktop.org/xorg/xserver/-/blob/master/COPYING?ref_type=heads#L239</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:24:47Z</p> -->
+               <a href="https://gitlab.freedesktop.org/xorg/xserver/-/blob/master/COPYING?ref_type=heads#L239" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:33:38Z>https://gitlab.freedesktop.org/xorg/xserver/-/blob/master/COPYING?ref_type=heads#L239</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:33:38Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,15 +154,26 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-            <var class="replaceable-license-text"> 
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
                 Copyright 1997 Digital Equipment Corporation.
                 <br />
-
 All rights reserved.
-            </var>
+            </span></var>
             <p>
                 This software is furnished under license and may be used and copied only in
                 accordance with the following terms and conditions.  Subject to these
@@ -174,7 +185,7 @@ All rights reserved.
 <ul style="list-style:none">
                 
 <li>
-                    <var class="replaceable-license-text"> 1)</var>
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1)</span></var>
                     <p>
                         Any source code used, modified or distributed must reproduce and retain
                         this copyright notice and list of conditions as they appear in the
@@ -184,7 +195,7 @@ All rights reserved.
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 2)</var>
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2)</span></var>
                     <p>
                         No right is granted to use any trade name, trademark, or logo of Digital
                         Equipment Corporation. Neither the &quot;Digital Equipment Corporation&quot;
@@ -196,7 +207,7 @@ All rights reserved.
                 </li>
                 
 <li>
-                    <var class="replaceable-license-text"> 3)</var>
+                    <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3)</span></var>
                     <p>
                         This software is provided &quot;AS-IS&quot; and any express or implied warranties,
                         including but not limited to, any implied warranties of merchantability,
@@ -221,7 +232,7 @@ All rights reserved.
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1997 Digital Equipment Corporation.  All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This software is furnished under license and may be used and copied only in accordance with the following terms and conditions. Subject to these conditions, you may download, copy, install, use, modify and distribute this software in source and/or binary form. No title or ownership is transferred hereby.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1)&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Any source code used, modified or distributed must reproduce and retain this copyright notice and list of conditions as they appear in the source file.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2)&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   No right is granted to use any trade name, trademark, or logo of Digital Equipment Corporation. Neither the &quot;Digital Equipment Corporation&quot; name nor any trademark or logo of Digital Equipment Corporation may be used to endorse or promote products derived from this software without the prior written permission of Digital Equipment Corporation.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3)&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   This software is provided &quot;AS-IS&quot; and any express or implied warranties, including but not limited to, any implied warranties of merchantability, fitness for a particular purpose, or non-infringement are disclaimed. In no event shall DIGITAL be liable for any damages whatsoever, and in particular, DIGITAL shall not be liable for special, indirect, consequential, or incidental damages or damages for lost profits, loss of revenue or loss of use, whether such damages arise in contract, negligence, tort, under statute, in equity, at law or otherwise, even if advised of the possibility of such damage.&#10;&#10;   
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1997 Digital Equipment Corporation. All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This software is furnished under license and may be used and copied only in accordance with the following terms and conditions. Subject to these conditions, you may download, copy, install, use, modify and distribute this software in source and/or binary form. No title or ownership is transferred hereby.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1)&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Any source code used, modified or distributed must reproduce and retain this copyright notice and list of conditions as they appear in the source file.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2)&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   No right is granted to use any trade name, trademark, or logo of Digital Equipment Corporation. Neither the &quot;Digital Equipment Corporation&quot; name nor any trademark or logo of Digital Equipment Corporation may be used to endorse or promote products derived from this software without the prior written permission of Digital Equipment Corporation.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3)&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   This software is provided &quot;AS-IS&quot; and any express or implied warranties, including but not limited to, any implied warranties of merchantability, fitness for a particular purpose, or non-infringement are disclaimed. In no event shall DIGITAL be liable for any damages whatsoever, and in particular, DIGITAL shall not be liable for special, indirect, consequential, or incidental damages or damages for lost profits, loss of revenue or loss of use, whether such damages arise in contract, negligence, tort, under statute, in equity, at law or otherwise, even if advised of the possibility of such damage.&#10;   &#10;   
       </div>
 
     </div> <!-- /page -->

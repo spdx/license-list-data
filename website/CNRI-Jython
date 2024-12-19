@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="http://www.jython.org/license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:20:03Z>http://www.jython.org/license.html</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:20:03Z</p> -->
+               <a href="http://www.jython.org/license.html" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:30:22Z>http://www.jython.org/license.html</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:30:22Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,6 +154,18 @@
           <p style="margin-left: 20px;">This is very similar to CNRI-Python (also on this list), but for an extra clause covering restrictions on trademark and use of the name.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
@@ -161,7 +173,7 @@
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> 1.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
           This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an
              office at 1895 Preston White Drive, Reston, VA 20191 (&quot;CNRI&quot;), and the Individual or
              Organization (&quot;Licensee&quot;) accessing and using JPython version 1.1.x in source or binary form
@@ -170,7 +182,7 @@
         
 <li>
             <p>
-               <var class="replaceable-license-text"> 2.</var> Subject to the terms and conditions of this License Agreement, CNRI hereby grants
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var> Subject to the terms and conditions of this License Agreement, CNRI hereby grants
                Licensee a non-exclusive, non-transferable, royalty-free, world-wide license to reproduce,
                analyze, test, perform and/or display publicly, prepare derivative works, distribute, and
                otherwise use the Software alone or in any derivative version, provided, however, that
@@ -191,7 +203,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 3.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
           In the event Licensee prepares a derivative work that is based on or incorporates the Software or
              any part thereof, and wants to make the derivative work available to the public as provided
              herein, then Licensee hereby agrees to indicate in any such work, in a prominently visible
@@ -199,7 +211,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 4.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
           Licensee may not use CNRI trademarks or trade name, including JPython or CNRI, in a trademark
              sense to endorse or promote products or services of Licensee, or any third party. Licensee may
              use the mark JPython in connection with Licensee&apos;s derivative versions that are based on or
@@ -208,7 +220,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 5.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 5.</span></var>
           CNRI is making the Software available to Licensee on an &quot;AS IS&quot; basis. CNRI MAKES NO
              REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI
              MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY
@@ -217,7 +229,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 6.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 6.</span></var>
           CNRI SHALL NOT BE LIABLE TO LICENSEE OR OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL
              OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE,
              OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. SOME STATES DO NOT
@@ -226,7 +238,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 7.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 7.</span></var>
           This License Agreement may be terminated by CNRI (i) immediately upon written notice from CNRI of
              any material breach by the Licensee, if the nature of the breach is such that it cannot be
              promptly remedied; or (ii) sixty (60) days following notice from CNRI to Licensee of a
@@ -235,7 +247,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 8.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 8.</span></var>
           This License Agreement shall be governed by and interpreted in all respects by the law of the
              State of Virginia, excluding conflict of law provisions. Nothing in this Agreement shall be
              deemed to create any relationship of agency, partnership, or joint venture between CNRI and
@@ -243,7 +255,7 @@
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 9.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 9.</span></var>
           By clicking on the &quot;ACCEPT&quot; button where indicated, or by installing, copying or otherwise using
              the Software, Licensee agrees to be bound by the terms and conditions of this License
              Agreement.
@@ -259,7 +271,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (&quot;CNRI&quot;), and the Individual or Organization (&quot;Licensee&quot;) accessing and using JPython version 1.1.x in source or binary form and its associated documentation as provided herein (&quot;Software&quot;).&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, non-transferable, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use the Software alone or in any derivative version, provided, however, that CNRI's License Agreement and CNRI's notice of copyright, i.e., &quot;Copyright (c) 1996-1999 Corporation for National Research Initiatives; All Rights Reserved&quot; are both retained in the Software, alone or in any derivative version prepared by Licensee.&#10;&#10;   Alternatively, in lieu of CNRI's License Agreement, Licensee may substitute the following text (omitting the quotes), provided, however, that such text is displayed prominently in the Software alone or in any derivative version prepared by Licensee: &quot;JPython (Version 1.1.x) is made available subject to the terms and conditions in CNRI's License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1006. The License may also be obtained from a proxy server on the Web using the following URL: http://hdl.handle.net/1895.22/1006.&quot;&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; In the event Licensee prepares a derivative work that is based on or incorporates the Software or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work, in a prominently visible way, the nature of the modifications made to CNRI's Software.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Licensee may not use CNRI trademarks or trade name, including JPython or CNRI, in a trademark sense to endorse or promote products or services of Licensee, or any third party. Licensee may use the mark JPython in connection with Licensee's derivative versions that are based on or incorporate the Software, but only in the form &quot;JPython-based ___________________,&quot; or equivalent.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; CNRI is making the Software available to Licensee on an &quot;AS IS&quot; basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; CNRI SHALL NOT BE LIABLE TO LICENSEE OR OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. SOME STATES DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY SO THE ABOVE DISCLAIMER MAY NOT APPLY TO LICENSEE.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;7.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This License Agreement may be terminated by CNRI (i) immediately upon written notice from CNRI of any material breach by the Licensee, if the nature of the breach is such that it cannot be promptly remedied; or (ii) sixty (60) days following notice from CNRI to Licensee of a material remediable breach, if Licensee has not remedied such breach within that sixty-day period.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;8.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;9.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; By clicking on the &quot;ACCEPT&quot; button where indicated, or by installing, copying or otherwise using the Software, Licensee agrees to be bound by the terms and conditions of this License Agreement.
+      &#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This LICENSE AGREEMENT is between the Corporation for National Research Initiatives, having an office at 1895 Preston White Drive, Reston, VA 20191 (&quot;CNRI&quot;), and the Individual or Organization (&quot;Licensee&quot;) accessing and using JPython version 1.1.x in source or binary form and its associated documentation as provided herein (&quot;Software&quot;).&#10;   &#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Subject to the terms and conditions of this License Agreement, CNRI hereby grants Licensee a non-exclusive, non-transferable, royalty-free, world-wide license to reproduce, analyze, test, perform and/or display publicly, prepare derivative works, distribute, and otherwise use the Software alone or in any derivative version, provided, however, that CNRI&#39;s License Agreement and CNRI&#39;s notice of copyright, i.e., &quot;Copyright (c) 1996-1999 Corporation for National Research Initiatives; All Rights Reserved&quot; are both retained in the Software, alone or in any derivative version prepared by Licensee.&#10;&#10;   Alternatively, in lieu of CNRI&#39;s License Agreement, Licensee may substitute the following text (omitting the quotes), provided, however, that such text is displayed prominently in the Software alone or in any derivative version prepared by Licensee: &quot;JPython (Version 1.1.x) is made available subject to the terms and conditions in CNRI&#39;s License Agreement. This Agreement may be located on the Internet using the following unique, persistent identifier (known as a handle): 1895.22/1006. The License may also be obtained from a proxy server on the Web using the following URL: http://hdl.handle.net/1895.22/1006.&quot;&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; In the event Licensee prepares a derivative work that is based on or incorporates the Software or any part thereof, and wants to make the derivative work available to the public as provided herein, then Licensee hereby agrees to indicate in any such work, in a prominently visible way, the nature of the modifications made to CNRI&#39;s Software.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Licensee may not use CNRI trademarks or trade name, including JPython or CNRI, in a trademark sense to endorse or promote products or services of Licensee, or any third party. Licensee may use the mark JPython in connection with Licensee&#39;s derivative versions that are based on or incorporate the Software, but only in the form &quot;JPython-based ___________________,&quot; or equivalent.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; CNRI is making the Software available to Licensee on an &quot;AS IS&quot; basis. CNRI MAKES NO REPRESENTATIONS OR WARRANTIES, EXPRESS OR IMPLIED. BY WAY OF EXAMPLE, BUT NOT LIMITATION, CNRI MAKES NO AND DISCLAIMS ANY REPRESENTATION OR WARRANTY OF MERCHANTABILITY OR FITNESS FOR ANY PARTICULAR PURPOSE OR THAT THE USE OF THE SOFTWARE WILL NOT INFRINGE ANY THIRD PARTY RIGHTS.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;6.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; CNRI SHALL NOT BE LIABLE TO LICENSEE OR OTHER USERS OF THE SOFTWARE FOR ANY INCIDENTAL, SPECIAL OR CONSEQUENTIAL DAMAGES OR LOSS AS A RESULT OF USING, MODIFYING OR DISTRIBUTING THE SOFTWARE, OR ANY DERIVATIVE THEREOF, EVEN IF ADVISED OF THE POSSIBILITY THEREOF. SOME STATES DO NOT ALLOW THE LIMITATION OR EXCLUSION OF LIABILITY SO THE ABOVE DISCLAIMER MAY NOT APPLY TO LICENSEE.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;7.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This License Agreement may be terminated by CNRI (i) immediately upon written notice from CNRI of any material breach by the Licensee, if the nature of the breach is such that it cannot be promptly remedied; or (ii) sixty (60) days following notice from CNRI to Licensee of a material remediable breach, if Licensee has not remedied such breach within that sixty-day period.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;8.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This License Agreement shall be governed by and interpreted in all respects by the law of the State of Virginia, excluding conflict of law provisions. Nothing in this Agreement shall be deemed to create any relationship of agency, partnership, or joint venture between CNRI and Licensee.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;9.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; By clicking on the &quot;ACCEPT&quot; button where indicated, or by installing, copying or otherwise using the Software, Licensee agrees to be bound by the terms and conditions of this License Agreement.
       </div>
 
     </div> <!-- /page -->

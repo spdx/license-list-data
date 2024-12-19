@@ -153,16 +153,28 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-          <div class="replaceable-license-text"> 
+          <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>
             Copyright (C) 1994, MPEG Software
             Simulation Group. All Rights Reserved.
          </p>
 
-          </div>
+          </span></div>
          <p>
             Disclaimer of Warranty
          </p>
@@ -206,7 +218,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1994, MPEG Software Simulation Group. All Rights Reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Disclaimer of Warranty&#10;&#10;These software programs are available to the user without any license fee or royalty on an &quot;as is&quot; basis. The MPEG Software Simulation Group disclaims any and all warranties, whether express, implied, or statuary, including any implied warranties or merchantability or of fitness for a particular purpose. In no event shall the copyright-holder be liable for any incidental, punitive, or consequential damages of any kind whatsoever arising from the use of these programs.&#10;&#10;This disclaimer of warranty extends to the user of these programs and user's customers, employees, agents, transferees, successors, and assigns.&#10;&#10;The MPEG Software Simulation Group does not represent or warrant that the programs furnished hereunder are free of infringement of any third-party patents.&#10;&#10;Commercial implementations of MPEG-1 and MPEG-2 video, including shareware, are subject to royalty fees to patent holders. Many of these patents are * general enough such that they are unavoidable regardless of implementation design.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (C) 1994, MPEG Software Simulation Group. All Rights Reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Disclaimer of Warranty&#10;&#10;These software programs are available to the user without any license fee or royalty on an &quot;as is&quot; basis. The MPEG Software Simulation Group disclaims any and all warranties, whether express, implied, or statuary, including any implied warranties or merchantability or of fitness for a particular purpose. In no event shall the copyright-holder be liable for any incidental, punitive, or consequential damages of any kind whatsoever arising from the use of these programs.&#10;&#10;This disclaimer of warranty extends to the user of these programs and user&#39;s customers, employees, agents, transferees, successors, and assigns.&#10;&#10;The MPEG Software Simulation Group does not represent or warrant that the programs furnished hereunder are free of infringement of any third-party patents.&#10;&#10;Commercial implementations of MPEG-1 and MPEG-2 video, including shareware, are subject to royalty fees to patent holders. Many of these patents are * general enough such that they are unavoidable regardless of implementation design.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

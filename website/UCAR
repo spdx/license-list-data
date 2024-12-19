@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/Unidata/UDUNITS-2/blob/master/COPYRIGHT" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:27:59Z>https://github.com/Unidata/UDUNITS-2/blob/master/COPYRIGHT</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:27:59Z</p> -->
+               <a href="https://github.com/Unidata/UDUNITS-2/blob/master/COPYRIGHT" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:35:57Z>https://github.com/Unidata/UDUNITS-2/blob/master/COPYRIGHT</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:35:57Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,13 +154,25 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Copyright 2014 University Corporation for Atmospheric
             Research and contributors. All rights reserved.
-         </var>
+         </span></var>
          <p>
             This software was developed by the Unidata Program
             Center of the University Corporation for Atmospheric
@@ -176,13 +188,13 @@
 <ul style="list-style:none">
             
 <li>
-               <var class="replaceable-license-text"> 1)</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1)</span></var>
                Redistributions of source code must retain the above copyright
                notice, this list of conditions and the following disclaimer.
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 2)</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2)</span></var>
                Redistributions in binary form must reproduce the
                above copyright notice, this list of conditions and
                the following disclaimer in the documentation and/or
@@ -190,7 +202,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 3)</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3)</span></var>
                Neither the names of the development group, the copyright
                holders, nor the names of contributors may be used to endorse
                or promote products derived from this software without specific
@@ -198,7 +210,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 4)</var> This license shall terminate
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4)</span></var> This license shall terminate
                automatically and you may no longer exercise any of the rights
                granted to you by this license as of the date you commence
                an action, including a cross-claim or counterclaim, against
@@ -229,7 +241,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 2014 University Corporation for Atmospheric Research and contributors. All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This software was developed by the Unidata Program Center of the University Corporation for Atmospheric Research (UCAR) &lt;http://www.unidata.ucar.edu&gt;.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Neither the names of the development group, the copyright holders, nor the names of contributors may be used to endorse or promote products derived from this software without specific prior written permission.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This license shall terminate automatically and you may no longer exercise any of the rights granted to you by this license as of the date you commence an action, including a cross-claim or counterclaim, against the copyright holders or any contributor alleging that this software infringes a patent. This termination provision shall not apply for an action alleging patent infringement by combinations of this software with other software or hardware.&#10;&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 2014 University Corporation for Atmospheric Research and contributors. All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This software was developed by the Unidata Program Center of the University Corporation for Atmospheric Research (UCAR) &lt;http://www.unidata.ucar.edu&gt;.&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Neither the names of the development group, the copyright holders, nor the names of contributors may be used to endorse or promote products derived from this software without specific prior written permission.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4)&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This license shall terminate automatically and you may no longer exercise any of the rights granted to you by this license as of the date you commence an action, including a cross-claim or counterclaim, against the copyright holders or any contributor alleging that this software infringes a patent. This termination provision shall not apply for an action alleging patent infringement by combinations of this software with other software or hardware.&#10;THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

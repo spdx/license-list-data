@@ -157,10 +157,22 @@
           </div>
           
       <h2 id="notes">Notes</h2>
-          <p style="margin-left: 20px;">This exception is based on the suggested template from the Free Software Foundation's FAQ about the GPL.</p>
+          <p style="margin-left: 20px;">This exception is based on the suggested template from the Free Software Foundation&#39;s FAQ about the GPL.</p>
           
       <h2 id="licenseExceptionText">Text</h2>
-
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
+	  
       <div property="spdx:licenseExceptionText" class="exception-text">
       
 	<div class="optional-license-text"> 
@@ -175,10 +187,10 @@
 	Ericsson on https://www.erlang.org (or a modified version of these
 	libraries), containing parts covered by the terms of the Erlang Public
 	License (https://www.erlang.org/EPLICENSE),
-	<var class="replaceable-license-text"> the licensors of this Program</var>
+	<var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> the licensors of this Program</span></var>
 	grant you additional permission to convey the resulting work
 	without the need to license the runtime libraries of Erlang/OTP under
-	the <var class="replaceable-license-text"> [name of library&apos;s license]</var>.
+	the <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library&apos;s license]</span></var>.
 	Corresponding Source for a non-source form of such a combination shall include
 	the source code for the parts of the runtime libraries of Erlang/OTP used as
 	well as that of the covered work.

@@ -144,8 +144,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="http://www.netbsd.org/about/redistribution.html#default" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:19:09Z>http://www.netbsd.org/about/redistribution.html#default</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:19:09Z</p> -->
+               <a href="http://www.netbsd.org/about/redistribution.html#default" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:29:41Z>http://www.netbsd.org/about/redistribution.html#default</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:29:41Z</p> -->
              </li>
            </ul>
           </div>
@@ -156,16 +156,28 @@
           <p style="margin-left: 20px;">NetBSD adopted this 2-clause license in 2008 for code contributed to NetBSD Foundation. It is being deprecated as a separate license because it is a match to BSD-2-Clause. The line describing that the code is derived from software contributed to NetBSD is not viewed as being a substantive part of the license text.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>Copyright (c) 2008 The NetBSD Foundation, Inc. All rights reserved.</p>
 
-      </div>
+      </span></div>
 
       <p>This code is derived from software contributed to The NetBSD Foundation by
-        <var class="replaceable-license-text"> </var>
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .*"> </span></var>
       </p>
 
       <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided
@@ -174,13 +186,13 @@
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> 1.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
           Redistributions of source code must retain the above copyright notice, this list of conditions
              and the following disclaimer.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 2.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
           Redistributions in binary form must reproduce the above copyright notice, this list of conditions
              and the following disclaimer in the documentation and/or other materials provided with the
              distribution.
@@ -188,10 +200,10 @@
       
 </ul>
       <p>THIS SOFTWARE IS PROVIDED BY
-        <var class="replaceable-license-text"> THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS</var> ``AS IS&apos;&apos;
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS</span></var> ``AS IS&apos;&apos;
         AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
         MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL
-        <var class="replaceable-license-text"> THE FOUNDATION OR CONTRIBUTORS</var> BE LIABLE FOR ANY
+        <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> THE FOUNDATION OR CONTRIBUTORS</span></var> BE LIABLE FOR ANY
         DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
         TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
         INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
@@ -208,7 +220,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2008 The NetBSD Foundation, Inc. All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;This code is derived from software contributed to The NetBSD Foundation by &lt;&lt;var;name=&quot;contributors&quot;;original=&quot;&quot;;match=&quot;.*&quot;&gt;&gt;&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;THIS SOFTWARE IS PROVIDED BY &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS&quot;;match=&quot;.+&quot;&gt;&gt; ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolderLiability&quot;;original=&quot;THE FOUNDATION OR CONTRIBUTORS&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2008 The NetBSD Foundation, Inc. All rights reserved.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;This code is derived from software contributed to The NetBSD Foundation by &lt;&lt;var;name=&quot;contributors&quot;;original=&quot;&quot;;match=&quot;.*&quot;&gt;&gt;&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;THIS SOFTWARE IS PROVIDED BY &lt;&lt;var;name=&quot;copyrightHolderAsIs&quot;;original=&quot;THE NETBSD FOUNDATION, INC. AND CONTRIBUTORS&quot;;match=&quot;.+&quot;&gt;&gt; ``AS IS&#39;&#39; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolderLiability&quot;;original=&quot;THE FOUNDATION OR CONTRIBUTORS&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

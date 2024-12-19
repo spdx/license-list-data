@@ -158,7 +158,19 @@
           <p style="margin-left: 20px;">Typically used with GPL-3.0-and-later</p>
           
       <h2 id="licenseExceptionText">Text</h2>
-
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
+	  
       <div property="spdx:licenseExceptionText" class="exception-text">
       
       <div class="optional-license-text"> 
@@ -170,14 +182,12 @@
       <p>General information: http://www.gnu.org/licenses/gcc-exception.html</p>
 
       <br />
-
 Copyright (C) 2009 Free Software Foundation, Inc.
       &lt;http://fsf.org/&gt;
 
       <p>Everyone is permitted to copy and distribute verbatim copies of
          this license document, but changing it is not allowed.
       <br />
-
 This GCC Runtime Library Exception (&quot;Exception&quot;) is an
            additional permission under section 7 of the GNU
            General Public License, version 3 (&quot;GPLv3&quot;). It
@@ -197,7 +207,7 @@ This GCC Runtime Library Exception (&quot;Exception&quot;) is an
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> 0.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 0.</span></var>
           Definitions.
           <p>A file is an &quot;Independent Module&quot; if it either requires
              the Runtime Library for execution after a Compilation
@@ -244,7 +254,7 @@ This GCC Runtime Library Exception (&quot;Exception&quot;) is an
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 1.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
           Grant of Additional Permission.
           <p>You have permission to propagate a work of Target Code
              formed by combining the Runtime Library with
@@ -258,7 +268,7 @@ This GCC Runtime Library Exception (&quot;Exception&quot;) is an
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 2.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
           No Weakening of GCC Copyleft.
         </li>
       

@@ -5,54 +5,16 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/X11">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;X11 License
-
-&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (C) 1996 X Consortium  ";match=".{0,5000}"&gt;&gt;
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL &lt;&lt;var;name="nameDisclaimer";original="THE X CONSORTIUM";match=".+"&gt;&gt; BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Except as contained in this notice, the name of &lt;&lt;var;name="name2Disclaimer";original="the X Consortium";match=".+"&gt;&gt; shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from &lt;&lt;var;name="name3Disclaimer";original="the X Consortium.";match=".+"&gt;&gt;
-
-&lt;&lt;beginOptional&gt;&gt;X Window System is a trademark of X Consortium, Inc.
-
-&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <spdx:name>X11 License</spdx:name>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:timestamp>2024-12-16T17:20:53Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3</spdx:url>
-        <spdx:match>false</spdx:match>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:licenseId>X11</spdx:licenseId>
-    <rdfs:seeAlso>http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3</rdfs:seeAlso>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
+    <rdfs:comment>This is same as MIT, but with no advertising clause added.</rdfs:comment>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;X11 License&lt;/p&gt;
 
       &lt;/div&gt;
-      &lt;div class="replaceable-license-text"&gt; 
+      &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright (C) 1996 X Consortium&lt;/p&gt;
 
-      &lt;/div&gt;
+      &lt;/span&gt;&lt;/div&gt;
 
       &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
          associated documentation files (the &amp;quot;Software&amp;quot;), to deal in the Software without restriction,
@@ -65,17 +27,55 @@ Except as contained in this notice, the name of &lt;&lt;var;name="name2Disclaime
 
       &lt;p&gt;THE SOFTWARE IS PROVIDED &amp;quot;AS IS&amp;quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
          LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-         NO EVENT SHALL &lt;var class="replaceable-license-text"&gt; THE X CONSORTIUM&lt;/var&gt; BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
+         NO EVENT SHALL &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; THE X CONSORTIUM&lt;/span&gt;&lt;/var&gt; BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN
          ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
          USE OR OTHER DEALINGS IN THE SOFTWARE.&lt;/p&gt;
 
-      &lt;p&gt;Except as contained in this notice, the name of &lt;var class="replaceable-license-text"&gt; the X Consortium&lt;/var&gt; shall not be used in advertising or
+      &lt;p&gt;Except as contained in this notice, the name of &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; the X Consortium&lt;/span&gt;&lt;/var&gt; shall not be used in advertising or
          otherwise to promote the sale, use or other dealings in this Software without prior written
-	      authorization from &lt;var class="replaceable-license-text"&gt; the X Consortium.&lt;/var&gt;&lt;/p&gt;
+	      authorization from &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; the X Consortium.&lt;/span&gt;&lt;/var&gt;&lt;/p&gt;
 
       &lt;div class="optional-license-text"&gt; &lt;p&gt;X Window System is a trademark of X Consortium, Inc.&lt;/p&gt;
 &lt;/div&gt;
     </spdx:licenseTextHtml>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;X11 License
+
+&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (C) 1996 X Consortium  ";match=".{0,5000}"&gt;&gt;
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL &lt;&lt;var;name="nameDisclaimer";original="THE X CONSORTIUM";match=".+"&gt;&gt; BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as contained in this notice, the name of &lt;&lt;var;name="name2Disclaimer";original="the X Consortium";match=".+"&gt;&gt; shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from &lt;&lt;var;name="name3Disclaimer";original="the X Consortium.";match=".+"&gt;&gt;
+
+&lt;&lt;beginOptional&gt;&gt;X Window System is a trademark of X Consortium, Inc.
+
+&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3</spdx:url>
+        <spdx:timestamp>2024-12-19T09:30:53Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <rdfs:seeAlso>http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3</rdfs:seeAlso>
+    <spdx:licenseId>X11</spdx:licenseId>
+    <spdx:name>X11 License</spdx:name>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:licenseText>X11 License
 
 Copyright (C) 1996 X Consortium
@@ -90,6 +90,5 @@ Except as contained in this notice, the name of the X Consortium shall not be us
 
 X Window System is a trademark of X Consortium, Inc.
 </spdx:licenseText>
-    <rdfs:comment>This is same as MIT, but with no advertising clause added.</rdfs:comment>
   </spdx:ListedLicense>
 </rdf:RDF>

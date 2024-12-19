@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/InnoSetup_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/InnoSetup" ],
+    "name" : "InnoSetup document",
+    "comment" : "SPDX Document For InnoSetup",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/InnoSetup",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://github.com/jrsoftware/issrc/blob/HEAD/license.txt" ],
+    "simplelicensing_licenseText" : "Inno Setup License\n==================\n\nExcept where otherwise noted, all of the documentation and software included in the Inno Setup\npackage is copyrighted by Jordan Russell.\n\nCopyright (C) 1997-2024 Jordan Russell. All rights reserved.\nPortions Copyright (C) 2000-2024 Martijn Laan. All rights reserved.\n\nThis software is provided \"as-is,\" without any express or implied warranty. In no event shall the\nauthor be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial\napplications, and to alter and redistribute it, provided that the following conditions are met:\n\n1. All redistributions of source code files must retain all copyright notices that are currently in\n   place, and this list of conditions without modification.\n\n2. All redistributions in binary form must retain all occurrences of the above copyright notice and\n   web site addresses that are currently in place (for example, in the About boxes).\n\n3. The origin of this software must not be misrepresented; you must not claim that you wrote the\n   original software. If you use this software to distribute a product, an acknowledgment in the\n   product documentation would be appreciated but is not required.\n\n4. Modified versions in source or binary form must be plainly marked as such, and must not be\n   misrepresented as being the original software.\n",
+    "name" : "Inno Setup License",
+    "expandedlicensing_standardLicenseTemplate" : "<<beginOptional>>Inno Setup License\n==================<<endOptional>>\nExcept where otherwise noted, all of the documentation and software included in the Inno Setup package is copyrighted by Jordan Russell.\n\n<<var;name=\"copyright\";original=\"Copyright (C) 1997-2024 Jordan Russell. All rights reserved. Portions Copyright (C) 2000-2024 Martijn Laan. All rights reserved.   This software is provided \"as-is,\" without any express or implied warranty. In no event shall the author be held liable for any damages arising from the use of this software.  \";match=\".{0,5000}\">>\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter and redistribute it, provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">>\n   All redistributions of source code files must retain all copyright notices that are currently in place, and this list of conditions without modification.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">>\n   All redistributions in binary form must retain all occurrences of the above copyright notice and web site addresses that are currently in place (for example, in the About boxes).\n\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">>\n   The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software to distribute a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">>\n   Modified versions in source or binary form must be plainly marked as such, and must not be misrepresented as being the original software.\n   \n   ",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

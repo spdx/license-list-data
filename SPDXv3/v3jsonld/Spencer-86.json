@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Spencer-86_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/Spencer-86" ],
+    "name" : "Spencer-86 document",
+    "comment" : "SPDX Document For Spencer-86",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/Spencer-86",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License" ],
+    "simplelicensing_licenseText" : "Copyright (c) 1986 by University of Toronto. Written by Henry Spencer. Not derived from licensed software.\n\nPermission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:\n\n1. The author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from defects in it.\n\n2. The origin of this software must not be misrepresented, either by explicit claim or by omission.\n\n3. Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.\n",
+    "name" : "Spencer License 86",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (c) 1986 by University of Toronto. Written by Henry Spencer. Not derived from licensed software.  \";match=\".{0,5000}\">>\nPermission is granted to anyone to use this software for any purpose on any computer system, and to redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from defects in it.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> The origin of this software must not be misrepresented, either by explicit claim or by omission.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

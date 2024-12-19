@@ -5,24 +5,7 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/x11vnc-openssl-exception">
-    <spdx:licenseExceptionId>x11vnc-openssl-exception</spdx:licenseExceptionId>
     <rdfs:seeAlso>https://github.com/LibVNC/x11vnc/blob/master/src/8to24.c#L22</rdfs:seeAlso>
-    <rdfs:comment>This is very similar to openvpn-openssl-exception with a couple key differences.</rdfs:comment>
-    <spdx:name>x11vnc OpenSSL Exception</spdx:name>
-    <spdx:exceptionTextHtml>
-         &lt;p&gt;
-            In addition, as a special exception, &lt;var class="replaceable-license-text"&gt; AUTHOR&lt;/var&gt; gives permission
-            to link &lt;var class="replaceable-license-text"&gt; the code of its release of x11vnc&lt;/var&gt; with the OpenSSL project&amp;apos;s
-            &amp;quot;OpenSSL&amp;quot; library (or with modified versions of it that use the
-            same license as the &amp;quot;OpenSSL&amp;quot; library), and &lt;var class="optional-license-text"&gt; to&lt;/var&gt; distribute the linked
-            executables. You must obey the GNU General Public License in all
-            respects for all of the code used other than &amp;quot;OpenSSL&amp;quot;. If you
-            modify &lt;var class="replaceable-license-text"&gt; this file&lt;/var&gt;, you may extend this exception to your version
-            of the file, but you are not &lt;var class="replaceable-license-text"&gt; obligated&lt;/var&gt; to do so. If you do not
-            wish to do so, delete this exception statement from your version.
-         &lt;/p&gt;
-
-      </spdx:exceptionTextHtml>
     <spdx:licenseExceptionText>In addition, as a special exception, Karl J. Runge
 gives permission to link the code of its release of x11vnc with the
 OpenSSL project's "OpenSSL" library (or with modified versions of it
@@ -33,10 +16,27 @@ modify this file, you may extend this exception to your version of the
 file, but you are not obligated to do so.  If you do not wish to do
 so, delete this exception statement from your version.
 </spdx:licenseExceptionText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:exceptionTextHtml>
+         &lt;p&gt;
+            In addition, as a special exception, &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; AUTHOR&lt;/span&gt;&lt;/var&gt; gives permission
+            to link &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; the code of its release of x11vnc&lt;/span&gt;&lt;/var&gt; with the OpenSSL project&amp;apos;s
+            &amp;quot;OpenSSL&amp;quot; library (or with modified versions of it that use the
+            same license as the &amp;quot;OpenSSL&amp;quot; library), and &lt;var class="optional-license-text"&gt; to&lt;/var&gt; distribute the linked
+            executables. You must obey the GNU General Public License in all
+            respects for all of the code used other than &amp;quot;OpenSSL&amp;quot;. If you
+            modify &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; this file&lt;/span&gt;&lt;/var&gt;, you may extend this exception to your version
+            of the file, but you are not &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern obligated|obliged"&gt; obligated&lt;/span&gt;&lt;/var&gt; to do so. If you do not
+            wish to do so, delete this exception statement from your version.
+         &lt;/p&gt;
+
+      </spdx:exceptionTextHtml>
+    <rdfs:comment>This is very similar to openvpn-openssl-exception with a couple key differences.</rdfs:comment>
     <spdx:licenseExceptionTemplate>In addition, as a special exception, &lt;&lt;var;name="author";original="AUTHOR";match=".+"&gt;&gt; gives permission to link &lt;&lt;var;name="project";original="the code of its release of x11vnc";match=".+"&gt;&gt; with the OpenSSL project's "OpenSSL" library (or with modified versions of it that use the same license as the "OpenSSL" library), and&lt;&lt;beginOptional&gt;&gt; to&lt;&lt;endOptional&gt;&gt; distribute the linked executables. You must obey the GNU General Public License in all respects for all of the code used other than "OpenSSL". If you modify &lt;&lt;var;name="file";original="this file";match=".+"&gt;&gt; , you may extend this exception to your version of the file, but you are not &lt;&lt;var;name="obligated";original="obligated";match="obligated|obliged"&gt;&gt; to do so. If you do not wish to do so, delete this exception statement from your version.
 
 </spdx:licenseExceptionTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionId>x11vnc-openssl-exception</spdx:licenseExceptionId>
+    <spdx:name>x11vnc OpenSSL Exception</spdx:name>
   </spdx:ListedLicenseException>
 </rdf:RDF>

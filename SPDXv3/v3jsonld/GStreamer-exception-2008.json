@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/GStreamer-exception-2008_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/GStreamer-exception-2008" ],
+    "name" : "GStreamer-exception-2008 document",
+    "comment" : "SPDX Document For GStreamer-exception-2008",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/GStreamer-exception-2008",
+    "type" : "expandedlicensing_ListedLicenseException",
+    "expandedlicensing_seeAlso" : [ "https://gstreamer.freedesktop.org/documentation/frequently-asked-questions/licensing.html?gi-language=c#licensing-of-applications-using-gstreamer" ],
+    "expandedlicensing_isDeprecatedAdditionId" : false,
+    "expandedlicensing_standardAdditionTemplate" : "<<var;name=\"project\";original=\"This project\";match=\".+\">> hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and <<var;name=\"project\";original=\"this project\";match=\".+\">> . This permission is above and beyond the permissions granted by the GPL license by which <<var;name=\"project\";original=\"this project\";match=\".+\">> is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.\n\n",
+    "name" : "GStreamer Exception (2008)",
+    "expandedlicensing_additionText" : "This project hereby grants permission for non-GPL compatible GStreamer plugins to be used and distributed together with GStreamer and this project. This permission is above and beyond the permissions granted by the GPL license by which this project is covered. If you modify this code, you may extend this exception to your version of the code, but you are not obligated to do so.  If you do not wish to do so, delete this exception statement from your version.\n",
+    "comment" : "This exception is based on the exception added to the GNOME Videos (né “totem”) project in 2005. Earlier versions of the exception had the project name hard-coded in the exception, and only implicitly mentioned the ability to reuse code without carrying the exception.",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  } ]
+}

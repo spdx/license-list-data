@@ -1,24 +1,24 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/TermReadKey>
-        a                             spdx:ListedLicense ;
-        rdfs:seeAlso                  "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:31:00Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:38:12Z";
                                         spdx:url            "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "TermReadKey" ;
-        spdx:licenseText              "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n" ;
-        spdx:licenseTextHtml          "\n         <p>\n            Unlimited distribution and/or modification is allowed\n            as long as this copyright notice remains intact.\n         </p>\n\n      " ;
-        spdx:name                     "TermReadKey License" ;
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "TermReadKey";
+        spdx:licenseText              "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n";
+        spdx:licenseTextHtml          "\n         <p>\n            Unlimited distribution and/or modification is allowed\n            as long as this copyright notice remains intact.\n         </p>\n\n      ";
+        spdx:name                     "TermReadKey License";
         spdx:standardLicenseTemplate  "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n\n" .

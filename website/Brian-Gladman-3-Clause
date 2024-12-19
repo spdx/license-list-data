@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/SWI-Prolog/packages-clib/blob/master/sha1/brg_endian.h" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:22:14Z>https://github.com/SWI-Prolog/packages-clib/blob/master/sha1/brg_endian.h</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:22:14Z</p> -->
+               <a href="https://github.com/SWI-Prolog/packages-clib/blob/master/sha1/brg_endian.h" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:31:54Z>https://github.com/SWI-Prolog/packages-clib/blob/master/sha1/brg_endian.h</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:31:54Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,12 +154,24 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <var class="replaceable-license-text"> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             Copyright (c) 2003, Dr Brian Gladman, Worcester, UK.   All rights reserved.
-         </var>
+         </span></var>
          <p>
             LICENSE TERMS
          </p>
@@ -172,18 +184,18 @@
 <ul style="list-style:none">
 		
 <li>
-			<var class="replaceable-license-text"> 1.</var> distributions of this source code include the above copyright
+			<var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var> distributions of this source code include the above copyright
 			notice, this list of conditions and the following disclaimer;
 		</li>
 		
 <li>
-			<var class="replaceable-license-text"> 2.</var> distributions in binary form include the above copyright
+			<var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var> distributions in binary form include the above copyright
 			notice, this list of conditions and the following disclaimer
 			in the documentation and/or other associated materials;
 		</li>
 		
 <li>
-			<var class="replaceable-license-text"> 3.</var> the copyright holder&apos;s name is not used to endorse products
+			<var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var> the copyright holder&apos;s name is not used to endorse products
 			built using this software without specific written permission.
 		</li>
 	
@@ -213,7 +225,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2003, Dr Brian Gladman, Worcester, UK. All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;LICENSE TERMS&#10;&#10;The free distribution and use of this software in both source and binary form is allowed (with or without changes) provided that:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; distributions of this source code include the above copyright notice, this list of conditions and the following disclaimer;&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; distributions in binary form include the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other associated materials;&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the copyright holder's name is not used to endorse products built using this software without specific written permission.&#10;&#10;ALTERNATIVELY, provided that this notice is retained in full, this product may be distributed under the terms of the GNU General Public License (GPL), in which case the provisions of the GPL apply INSTEAD OF those given above.&#10;&#10;DISCLAIMER&#10;&#10;This software is provided 'as is' with no explicit or implied warranties in respect of its properties, including, but not limited to, correctness and/or fitness for purpose.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) 2003, Dr Brian Gladman, Worcester, UK. All rights reserved.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;LICENSE TERMS&#10;&#10;The free distribution and use of this software in both source and binary form is allowed (with or without changes) provided that:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; distributions of this source code include the above copyright notice, this list of conditions and the following disclaimer;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; distributions in binary form include the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other associated materials;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; the copyright holder&#39;s name is not used to endorse products built using this software without specific written permission.&#10;ALTERNATIVELY, provided that this notice is retained in full, this product may be distributed under the terms of the GNU General Public License (GPL), in which case the provisions of the GPL apply INSTEAD OF those given above.&#10;&#10;DISCLAIMER&#10;&#10;This software is provided &#39;as is&#39; with no explicit or implied warranties in respect of its properties, including, but not limited to, correctness and/or fitness for purpose.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

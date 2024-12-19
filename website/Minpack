@@ -142,12 +142,12 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="http://www.netlib.org/minpack/disclaimer" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:29:39Z>http://www.netlib.org/minpack/disclaimer</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:29:39Z</p> -->
+               <a href="http://www.netlib.org/minpack/disclaimer" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:37:11Z>http://www.netlib.org/minpack/disclaimer</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:37:11Z</p> -->
              </li>
              <li>
-               <a href="https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:29:40Z>https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:29:40Z</p> -->
+               <a href="https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:37:12Z>https://gitlab.com/libeigen/eigen/-/blob/master/COPYING.MINPACK</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:37:12Z</p> -->
              </li>
            </ul>
           </div>
@@ -158,6 +158,18 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
@@ -175,7 +187,7 @@
 <ul style="list-style:none">
             
 <li>
-               <var class="replaceable-license-text"> 1.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
                <p>
                   Redistributions of source code must retain the above copyright
                   notice, this list of conditions and the following disclaimer.
@@ -184,7 +196,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 2.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
                <p>
                   Redistributions in binary form must reproduce the
                   above copyright notice, this list of conditions and
@@ -195,7 +207,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 3.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
                <p>
                   The end-user documentation included with the redistribution,
                   if any, must include the following acknowledgment:
@@ -215,7 +227,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 4.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 4.</span></var>
                <p>
                   WARRANTY DISCLAIMER. THE SOFTWARE IS SUPPLIED &quot;AS IS&quot; WITHOUT
                   WARRANTY OF ANY KIND. THE COPYRIGHT HOLDER, THE UNITED
@@ -234,7 +246,7 @@
             </li>
             
 <li>
-               <var class="replaceable-license-text"> 5.</var>
+               <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 5.</span></var>
                <p>
                   LIMITATION OF LIABILITY. IN NO EVENT WILL THE COPYRIGHT
                   HOLDER, THE UNITED STATES, THE UNITED STATES DEPARTMENT
@@ -260,7 +272,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      Minpack Copyright Notice (1999) University of Chicago. All rights reserved&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   The end-user documentation included with the redistribution, if any, must include the following acknowledgment:&#10;&#10;   &quot;This product includes software developed by the University of Chicago, as Operator of Argonne National Laboratory.&#10;&#10;   Alternately, this acknowledgment may appear in the software itself, if and wherever such third-party acknowledgments normally appear.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   WARRANTY DISCLAIMER. THE SOFTWARE IS SUPPLIED &quot;AS IS&quot; WITHOUT WARRANTY OF ANY KIND. THE COPYRIGHT HOLDER, THE UNITED STATES, THE UNITED STATES DEPARTMENT OF ENERGY, AND THEIR EMPLOYEES: (1) DISCLAIM ANY WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NON-INFRINGEMENT, (2) DO NOT ASSUME ANY LEGAL LIABILITY OR RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR USEFULNESS OF THE SOFTWARE, (3) DO NOT REPRESENT THAT USE OF THE SOFTWARE WOULD NOT INFRINGE PRIVATELY OWNED RIGHTS, (4) DO NOT WARRANT THAT THE SOFTWARE WILL FUNCTION UNINTERRUPTED, THAT IT IS ERROR-FREE OR THAT ANY ERRORS WILL BE CORRECTED.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;&#10;   LIMITATION OF LIABILITY. IN NO EVENT WILL THE COPYRIGHT HOLDER, THE UNITED STATES, THE UNITED STATES DEPARTMENT OF ENERGY, OR THEIR EMPLOYEES: BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES OF ANY KIND OR NATURE, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS OR LOSS OF DATA, FOR ANY REASON WHATSOEVER, WHETHER SUCH LIABILITY IS ASSERTED ON THE BASIS OF CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT LIABILITY), OR OTHERWISE, EVEN IF ANY OF SAID PARTIES HAS BEEN WARNED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGES.&#10;&#10;   
+      Minpack Copyright Notice (1999) University of Chicago. All rights reserved&#10;&#10;Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   The end-user documentation included with the redistribution, if any, must include the following acknowledgment:&#10;&#10;   &quot;This product includes software developed by the University of Chicago, as Operator of Argonne National Laboratory.&#10;&#10;   Alternately, this acknowledgment may appear in the software itself, if and wherever such third-party acknowledgments normally appear.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;4.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   WARRANTY DISCLAIMER. THE SOFTWARE IS SUPPLIED &quot;AS IS&quot; WITHOUT WARRANTY OF ANY KIND. THE COPYRIGHT HOLDER, THE UNITED STATES, THE UNITED STATES DEPARTMENT OF ENERGY, AND THEIR EMPLOYEES: (1) DISCLAIM ANY WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE OR NON-INFRINGEMENT, (2) DO NOT ASSUME ANY LEGAL LIABILITY OR RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR USEFULNESS OF THE SOFTWARE, (3) DO NOT REPRESENT THAT USE OF THE SOFTWARE WOULD NOT INFRINGE PRIVATELY OWNED RIGHTS, (4) DO NOT WARRANT THAT THE SOFTWARE WILL FUNCTION UNINTERRUPTED, THAT IT IS ERROR-FREE OR THAT ANY ERRORS WILL BE CORRECTED.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;5.&quot;;match=&quot;.{0,20}&quot;&gt;&gt;&#10;   LIMITATION OF LIABILITY. IN NO EVENT WILL THE COPYRIGHT HOLDER, THE UNITED STATES, THE UNITED STATES DEPARTMENT OF ENERGY, OR THEIR EMPLOYEES: BE LIABLE FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR PUNITIVE DAMAGES OF ANY KIND OR NATURE, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS OR LOSS OF DATA, FOR ANY REASON WHATSOEVER, WHETHER SUCH LIABILITY IS ASSERTED ON THE BASIS OF CONTRACT, TORT (INCLUDING NEGLIGENCE OR STRICT LIABILITY), OR OTHERWISE, EVEN IF ANY OF SAID PARTIES HAS BEEN WARNED OF THE POSSIBILITY OF SUCH LOSS OR DAMAGES.&#10;   &#10;   
       </div>
 
     </div> <!-- /page -->

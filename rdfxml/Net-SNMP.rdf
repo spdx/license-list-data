@@ -5,27 +5,23 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Net-SNMP">
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:crossRef>
       <spdx:CrossRef>
-        <spdx:timestamp>2024-12-16T17:24:14Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>http://net-snmp.sourceforge.net/about/license.html</spdx:url>
-        <spdx:match>false</spdx:match>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >false</spdx:isWayBackLink>
         <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
+        <spdx:url>http://net-snmp.sourceforge.net/about/license.html</spdx:url>
+        <spdx:timestamp>2024-12-19T09:33:15Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:deprecatedVersion>3.25.0</spdx:deprecatedVersion>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
-    <rdfs:comment>DEPRECATED: The Net-SNMP license id represented the license stack of 9 licenses found at https://net-snmp.sourceforge.io/about/license.html and net-snmp-5.6.2. Since then, more licenses have been added. Retaining this license id could consequently cause confusion and all of the licenses in the stack are already on the SPDX License List, thus can be identified with an SPDX license expression.</rdfs:comment>
     <spdx:licenseText> ---- Part 1: CMU/UCD copyright notice: (BSD like) -----
 
  Copyright 1989, 1991, 1992 by Carnegie Mellon University
@@ -134,12 +130,15 @@ Copyright (c) 2009, ScienceLogic, LLC All rights reserved. Redistribution and us
 
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </spdx:licenseText>
-    <rdfs:seeAlso>http://net-snmp.sourceforge.net/about/license.html</rdfs:seeAlso>
-    <spdx:name>Net-SNMP License</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
+    <spdx:deprecatedVersion>3.25.0</spdx:deprecatedVersion>
+    <rdfs:comment>DEPRECATED: The Net-SNMP license id represented the license stack of 9 licenses found at https://net-snmp.sourceforge.io/about/license.html and net-snmp-5.6.2. Since then, more licenses have been added. Retaining this license id could consequently cause confusion and all of the licenses in the stack are already on the SPDX License List, thus can be identified with an SPDX license expression.</rdfs:comment>
+    <spdx:licenseId>Net-SNMP</spdx:licenseId>
     <spdx:licenseTextHtml>
       &lt;p&gt;---- Part 1: CMU/UCD copyright notice: (BSD like) -----&lt;/p&gt;
 
-      &lt;div class="replaceable-license-text"&gt; 
+      &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright 1989, 1991, 1992 by Carnegie Mellon University&lt;/p&gt;
 
          &lt;p&gt;Derivative Work - 1996, 1998-2000 Copyright 1996, 1998-2000 The
@@ -147,7 +146,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
 
          &lt;p&gt;All Rights Reserved&lt;/p&gt;
 
-      &lt;/div&gt;
+      &lt;/span&gt;&lt;/div&gt;
 
       &lt;p&gt;Permission to use, copy, modify and distribute this software and
          its documentation for any purpose and without fee is hereby
@@ -180,14 +179,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
 &lt;ul style="list-style:none"&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -195,7 +194,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Neither the name of the Networks Associates Technology,
              Inc nor the names of its contributors may be used to
              endorse or promote products derived from this software
@@ -228,14 +227,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -243,7 +242,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           The name of Cambridge Broadband Ltd. may not be used to
              endorse or promote products derived from this software
              without specific prior written permission.
@@ -266,11 +265,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
 
       &lt;p&gt;---- Part 4: Sun Microsystems, Inc. copyright notice (BSD) -----&lt;/p&gt;
 
-      &lt;div class="replaceable-license-text"&gt; 
+      &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright © 2003 Sun Microsystems, Inc., 4150 Network Circle,
          Santa Clara, California 95054, U.S.A. All rights reserved.&lt;/p&gt;
 
-      &lt;/div&gt;
+      &lt;/span&gt;&lt;/div&gt;
 
       &lt;p&gt;Use is subject to license terms below.&lt;/p&gt;
 
@@ -287,14 +286,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
 &lt;ul style="list-style:none"&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -302,7 +301,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Neither the name of the Sun Microsystems, Inc. nor the
              names of its contributors may be used to endorse or
              promote products derived from this software without
@@ -333,14 +332,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -348,7 +347,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Neither the name of Sparta, Inc nor the names of its
              contributors may be used to endorse or promote
              products derived from this software without specific
@@ -381,14 +380,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -396,7 +395,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Neither the name of Cisco, Inc, Beijing University of
              Posts and Telecommunications, nor the names of their
              contributors may be used to endorse or promote
@@ -422,11 +421,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
       &lt;p&gt;---- Part 7: Fabasoft R&amp;amp;D Software GmbH &amp;amp; Co KG copyright
          notice (BSD) -----&lt;/p&gt;
 
-      &lt;div class="replaceable-license-text"&gt; 
+      &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright (c) Fabasoft R&amp;amp;D Software GmbH &amp;amp; Co KG, 2003
          oss@fabasoft.com Author: Bernhard Penz&lt;/p&gt;
 
-      &lt;/div&gt;
+      &lt;/span&gt;&lt;/div&gt;
 
       &lt;p&gt;Redistribution and use in source and binary forms, with or
          without modification, are permitted provided that the
@@ -435,14 +434,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
 &lt;ul style="list-style:none"&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -450,7 +449,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           The name of Fabasoft R&amp;amp;D Software GmbH &amp;amp; Co KG or
              any of its subsidiaries, brand or product names may
              not be used to endorse or promote products derived
@@ -475,10 +474,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
 
       &lt;p&gt;---- Part 8: Apple Inc. copyright notice (BSD) -----&lt;/p&gt;
 
-      &lt;div class="replaceable-license-text"&gt; 
+      &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright (c) 2007 Apple Inc. All rights reserved.&lt;/p&gt;
 
-      &lt;/div&gt;
+      &lt;/span&gt;&lt;/div&gt;
 
       &lt;p&gt;Redistribution and use in source and binary forms, with or
          without modification, are permitted provided that the
@@ -487,14 +486,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
 &lt;ul style="list-style:none"&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 1.&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 1.&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 2.&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 2.&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -502,7 +501,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; 3.&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 3.&lt;/span&gt;&lt;/var&gt;
           Neither the name of Apple Inc. (&amp;quot;Apple&amp;quot;) nor the names of
              its contributors may be used to endorse or promote
              products derived from this software without specific
@@ -533,14 +532,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions of source code must retain the above
              copyright notice, this list of conditions and the
              following disclaimer.
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Redistributions in binary form must reproduce the above
              copyright notice, this list of conditions and the
              following disclaimer in the documentation and/or other
@@ -548,7 +547,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
         &lt;/li&gt;
         
 &lt;li&gt;
-            &lt;var class="replaceable-license-text"&gt; *&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; *&lt;/span&gt;&lt;/var&gt;
           Neither the name of ScienceLogic, LLC nor the names of
              its contributors may be used to endorse or promote
              products derived from this software without specific
@@ -571,11 +570,10 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AN
          EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:licenseId>Net-SNMP</spdx:licenseId>
+    <spdx:name>Net-SNMP License</spdx:name>
     <spdx:standardLicenseTemplate>---- Part 1: CMU/UCD copyright notice: (BSD like) -----
 
-&lt;&lt;var;name="copyright";original="Copyright 1989, 1991, 1992 by Carnegie Mellon University    Derivative Work - 1996, 1998-2000 Copyright 1996, 1998-2000 The Regents of the University of California    All Rights Reserved  ";match=".{0,5000}"&gt;&gt;
-
+&lt;&lt;var;name="copyright";original="Copyright 1989, 1991, 1992 by Carnegie Mellon University   Derivative Work - 1996, 1998-2000 Copyright 1996, 1998-2000 The Regents of the University of California   All Rights Reserved  ";match=".{0,5000}"&gt;&gt;
 Permission to use, copy, modify and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appears in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of CMU and The Regents of the University of California not be used in advertising or publicity pertaining to distribution of the software without specific written permission.
 
 CMU AND THE REGENTS OF THE UNIVERSITY OF CALIFORNIA DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL CMU OR THE REGENTS OF THE UNIVERSITY OF CALIFORNIA BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM THE LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
@@ -585,11 +583,8 @@ CMU AND THE REGENTS OF THE UNIVERSITY OF CALIFORNIA DISCLAIM ALL WARRANTIES WITH
 Copyright (c) 2001-2003, Networks Associates Technology, Inc All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Neither the name of the Networks Associates Technology, Inc nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    ---- Part 3: Cambridge Broadband Ltd. copyright notice (BSD) -----
@@ -597,17 +592,13 @@ Copyright (c) 2001-2003, Networks Associates Technology, Inc All rights reserved
    Portions of this code are copyright (c) 2001-2003, Cambridge Broadband Ltd. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; The name of Cambridge Broadband Ltd. may not be used to endorse or promote products derived from this software without specific prior written permission.
-
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---- Part 4: Sun Microsystems, Inc. copyright notice (BSD) -----
 
 &lt;&lt;var;name="copyright";original="Copyright © 2003 Sun Microsystems, Inc., 4150 Network Circle, Santa Clara, California 95054, U.S.A. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-
 Use is subject to license terms below.
 
 This distribution may include materials developed by third parties.
@@ -617,11 +608,8 @@ Sun, Sun Microsystems, the Sun logo and Solaris are trademarks or registered tra
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Neither the name of the Sun Microsystems, Inc. nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    ---- Part 5: Sparta, Inc copyright notice (BSD) -----
@@ -629,11 +617,8 @@ Redistribution and use in source and binary forms, with or without modification,
    Copyright (c) 2003-2009, Sparta, Inc All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Neither the name of Sparta, Inc nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    ---- Part 6: Cisco/BUPTNIC copyright notice (BSD) -----
@@ -641,39 +626,28 @@ Redistribution and use in source and binary forms, with or without modification,
    Copyright (c) 2004, Cisco, Inc and Information Network Center of Beijing University of Posts and Telecommunications. All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Neither the name of Cisco, Inc, Beijing University of Posts and Telecommunications, nor the names of their contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---- Part 7: Fabasoft R&amp;D Software GmbH &amp; Co KG copyright notice (BSD) -----
 
 &lt;&lt;var;name="copyright";original="Copyright (c) Fabasoft R&amp;D Software GmbH &amp; Co KG, 2003 oss@fabasoft.com Author: Bernhard Penz  ";match=".{0,5000}"&gt;&gt;
-
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; The name of Fabasoft R&amp;D Software GmbH &amp; Co KG or any of its subsidiaries, brand or product names may not be used to endorse or promote products derived from this software without specific prior written permission.
-
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDER ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 ---- Part 8: Apple Inc. copyright notice (BSD) -----
 
 &lt;&lt;var;name="copyright";original="Copyright (c) 2007 Apple Inc. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Neither the name of Apple Inc. ("Apple") nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
    THIS SOFTWARE IS PROVIDED BY APPLE AND ITS CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL APPLE OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
    ---- Part 9: ScienceLogic, LLC copyright notice (BSD) -----
@@ -681,13 +655,11 @@ Redistribution and use in source and binary forms, with or without modification,
    Copyright (c) 2009, ScienceLogic, LLC All rights reserved. Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-
    &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Neither the name of ScienceLogic, LLC nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
-
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 </spdx:standardLicenseTemplate>
+    <rdfs:seeAlso>http://net-snmp.sourceforge.net/about/license.html</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

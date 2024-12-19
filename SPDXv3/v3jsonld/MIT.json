@@ -1,0 +1,40 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/MIT_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/MIT" ],
+    "name" : "MIT document",
+    "comment" : "SPDX Document For MIT",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/MIT",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : true,
+    "expandedlicensing_seeAlso" : [ "https://opensource.org/license/mit/" ],
+    "simplelicensing_licenseText" : "MIT License\n\nCopyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and \nassociated documentation files (the \"Software\"), to deal in the Software without restriction, including \nwithout limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell \ncopies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the \nfollowing conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial \nportions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT \nLIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO \nEVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER \nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE \nUSE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+    "name" : "MIT License",
+    "expandedlicensing_standardLicenseTemplate" : "<<beginOptional>>MIT License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>  \";match=\".{0,5000}\">>\nPermission is hereby granted, free of charge, to any person obtaining a copy of <<var;name=\"files\";original=\"this software and associated documentation files\";match=\"this\\s+software\\s+and\\s+associated\\s+documentation\\s+files|this\\s+source\\s+file\">> (the \" <<var;name=\"Software1\";original=\"Software\";match=\"Software|Materials\">> \"), to deal in the <<var;name=\"Software2\";original=\"Software\";match=\"Software|Materials\">> without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the <<var;name=\"Software3\";original=\"Software\";match=\"Software|Materials\">> , and to permit persons to whom the <<var;name=\"Software4\";original=\"Software\";match=\"Software|Materials\">> is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice<<beginOptional>> (including the next paragraph)<<endOptional>> shall be included in all copies or substantial portions of the <<var;name=\"Software5\";original=\"Software\";match=\"Software|Materials\">> .\n\nTHE <<var;name=\"Software-verb\";original=\"SOFTWARE IS\";match=\"SOFTWARE IS|MATERIALS ARE\">> PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL <<var;name=\"copyrightHolder\";original=\"THE AUTHORS OR COPYRIGHT HOLDERS\";match=\".+\">> BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE <<var;name=\"Software7\";original=\"SOFTWARE\";match=\"SOFTWARE|MATERIALS\">> OR THE USE OR OTHER DEALINGS IN THE <<var;name=\"Software8\";original=\"SOFTWARE\";match=\"SOFTWARE|MATERIALS\">> .\n\n",
+    "expandedlicensing_isFsfLibre" : true,
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/GPL-3.0-linking-exception_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/GPL-3.0-linking-exception" ],
+    "name" : "GPL-3.0-linking-exception document",
+    "comment" : "SPDX Document For GPL-3.0-linking-exception",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/GPL-3.0-linking-exception",
+    "type" : "expandedlicensing_ListedLicenseException",
+    "expandedlicensing_seeAlso" : [ "https://www.gnu.org/licenses/gpl-faq.en.html#GPLIncompatibleLibs" ],
+    "expandedlicensing_isDeprecatedAdditionId" : false,
+    "expandedlicensing_standardAdditionTemplate" : "<<beginOptional>><<beginOptional>>Additional permission under GNU GPL version 3 section 7\n\n<<endOptional>><<endOptional>>\nIf you modify this Program, or any covered work, by linking or combining it with <<var;name=\"library1\";original=\"[name of library]\";match=\".+\">> (or a modified version of that library), containing parts covered by the terms of <<var;name=\"libraryLicense1\";original=\"[name of library's license]\";match=\".+\">> , the licensors of this Program grant you additional permission to convey the resulting work.\n\n",
+    "name" : "GPL-3.0 Linking Exception",
+    "expandedlicensing_additionText" : "Additional permission under GNU GPL version 3 section 7\n\nIf you modify this Program, or any covered work, by linking or combining it with [name of library] (or a modified version of that library), containing parts covered by the terms of [name of library's license], the licensors of this Program grant you additional permission to convey the resulting work.\n",
+    "comment" : "This exception is based on the suggested template from the Free Software Foundation's FAQ about the GPL. This variant does not include the second optional sentence regarding Corresponding Source. For a variant with that sentence, please see GPL-3.0-linking-source-exception.",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  } ]
+}

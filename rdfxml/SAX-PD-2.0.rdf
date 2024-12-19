@@ -5,8 +5,6 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/SAX-PD-2.0">
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseText>SAX2 is Free!
 
 I hereby abandon any property rights to SAX 2.0 (the Simple API for
@@ -18,10 +16,12 @@ purpose.
 David Megginson, david@megginson.com
 2000-05-05
 </spdx:licenseText>
+    <spdx:name>Sax Public Domain Notice 2.0</spdx:name>
+    <spdx:licenseId>SAX-PD-2.0</spdx:licenseId>
     <spdx:licenseTextHtml>
                         &lt;var class="optional-license-text"&gt; 
-                                &lt;var class="replaceable-license-text"&gt; SAX IS FREE&lt;/var&gt;
-                                &lt;var class="replaceable-license-text"&gt; -----------&lt;/var&gt;
+                                &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern (SAX 2.0)|(SAX IS FREE)|(SAX2 is Free!)"&gt; SAX IS FREE&lt;/span&gt;&lt;/var&gt;
+                                &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern -*"&gt; -----------&lt;/span&gt;&lt;/var&gt;
                         &lt;/var&gt;
                         &lt;p&gt;
                                 I hereby abandon any property rights to SAX 2.0
@@ -33,7 +33,7 @@ David Megginson, david@megginson.com
                                 purpose.
                         &lt;/p&gt;
 
-                        &lt;div class="replaceable-license-text"&gt; 
+                        &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
                                 &lt;p&gt;
                                         David Megginson, Megginson Technologies
                                         Ltd.
@@ -43,32 +43,31 @@ David Megginson, david@megginson.com
                                         2000-05-05
                                 &lt;/p&gt;
 
-                        &lt;/div&gt;
+                        &lt;/span&gt;&lt;/div&gt;
                 </spdx:licenseTextHtml>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;var;name="header";original="SAX IS FREE";match="(SAX 2.0)|(SAX IS FREE)|(SAX2 is Free!)"&gt;&gt; &lt;&lt;var;name="underline";original="-----------";match="-*"&gt;&gt;&lt;&lt;endOptional&gt;&gt;
-
-I hereby abandon any property rights to SAX 2.0 (the Simple API for XML), and release all of the SAX 2.0 source code, compiled code, and documentation contained in this distribution into the Public Domain. SAX comes with NO WARRANTY or guarantee of fitness for any purpose.
-
-&lt;&lt;var;name="copyright";original="David Megginson, Megginson Technologies Ltd.    2000-05-05  ";match=".{0,5000}"&gt;&gt;</spdx:standardLicenseTemplate>
-    <rdfs:seeAlso>http://www.saxproject.org/copying.html</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
-        <spdx:timestamp>2024-12-16T17:25:53Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:url>http://www.saxproject.org/copying.html</spdx:url>
-        <spdx:match>true</spdx:match>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >false</spdx:isWayBackLink>
         <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
+        <spdx:url>http://www.saxproject.org/copying.html</spdx:url>
+        <spdx:timestamp>2024-12-19T09:34:29Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:name>Sax Public Domain Notice 2.0</spdx:name>
-    <spdx:licenseId>SAX-PD-2.0</spdx:licenseId>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;var;name="header";original="SAX IS FREE";match="(SAX 2.0)|(SAX IS FREE)|(SAX2 is Free!)"&gt;&gt; &lt;&lt;var;name="underline";original="-----------";match="-*"&gt;&gt;&lt;&lt;endOptional&gt;&gt;
+I hereby abandon any property rights to SAX 2.0 (the Simple API for XML), and release all of the SAX 2.0 source code, compiled code, and documentation contained in this distribution into the Public Domain. SAX comes with NO WARRANTY or guarantee of fitness for any purpose.
+
+&lt;&lt;var;name="copyright";original="David Megginson, Megginson Technologies Ltd.   2000-05-05  ";match=".{0,5000}"&gt;&gt;</spdx:standardLicenseTemplate>
+    <rdfs:seeAlso>http://www.saxproject.org/copying.html</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
   </spdx:ListedLicense>
 </rdf:RDF>

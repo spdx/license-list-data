@@ -155,10 +155,22 @@
           </div>
           
       <h2 id="notes">Notes</h2>
-          <p style="margin-left: 20px;">This exception is based on the suggested template from the Free Software Foundation's FAQ about the GPL. This variant does not include the second optional sentence regarding Corresponding Source. For a variant with that sentence, please see GPL-3.0-linking-source-exception.</p>
+          <p style="margin-left: 20px;">This exception is based on the suggested template from the Free Software Foundation&#39;s FAQ about the GPL. This variant does not include the second optional sentence regarding Corresponding Source. For a variant with that sentence, please see GPL-3.0-linking-source-exception.</p>
           
       <h2 id="licenseExceptionText">Text</h2>
-
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
+	  
       <div property="spdx:licenseExceptionText" class="exception-text">
       
       <div class="optional-license-text"> 
@@ -170,7 +182,7 @@
 	</div>
       </div>
       <p>
-	If you modify this Program, or any covered work, by linking or combining it with <var class="replaceable-license-text"> [name of library]</var> (or a modified version of that library), containing parts covered by the terms of <var class="replaceable-license-text"> [name of library&apos;s license]</var>, the licensors of this Program grant you additional permission to convey the resulting work.
+	If you modify this Program, or any covered work, by linking or combining it with <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var> (or a modified version of that library), containing parts covered by the terms of <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library&apos;s license]</span></var>, the licensors of this Program grant you additional permission to convey the resulting work.
       </p>
 
     

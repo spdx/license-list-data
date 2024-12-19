@@ -155,22 +155,34 @@
           </div>
           
       <h2 id="notes">Notes</h2>
-          <p style="margin-left: 20px;">This exception is based on the suggested template from the Free Software Foundation's FAQ about the GPL. This exception enables linking with differently licensed modules over the specified interface, while ensuring that users would still receive source code as they normally would under the GPL.</p>
+          <p style="margin-left: 20px;">This exception is based on the suggested template from the Free Software Foundation&#39;s FAQ about the GPL. This exception enables linking with differently licensed modules over the specified interface, while ensuring that users would still receive source code as they normally would under the GPL.</p>
           
       <h2 id="licenseExceptionText">Text</h2>
-
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
+	  
       <div property="spdx:licenseExceptionText" class="exception-text">
       
       <p>
-        Linking <var class="replaceable-license-text"> [name of library]</var> statically or dynamically with other modules is making a combined work based on <var class="replaceable-license-text"> [name of library]</var>. Thus, the terms and conditions of the GNU General Public License cover the whole combination.
+        Linking <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var> statically or dynamically with other modules is making a combined work based on <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var>. Thus, the terms and conditions of the GNU General Public License cover the whole combination.
       </p>
 
       <p>
-        As a special exception, the copyright holders of <var class="replaceable-license-text"> [name of library]</var> give you permission to combine <var class="replaceable-license-text"> [name of library]</var> program with free software programs or libraries that are released under the GNU LGPL and with independent modules that communicate with <var class="replaceable-license-text"> [name of library]</var> solely through the <var class="replaceable-license-text"> [name of library&apos;s interface]</var> interface. You may copy and distribute such a system following the terms of the GNU GPL for <var class="replaceable-license-text"> [name of library]</var> and the licenses of the other code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code and provided that you do not modify the <var class="replaceable-license-text"> [name of library&apos;s interface]</var> interface.
+        As a special exception, the copyright holders of <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var> give you permission to combine <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var> program with free software programs or libraries that are released under the GNU LGPL and with independent modules that communicate with <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var> solely through the <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library&apos;s interface]</span></var> interface. You may copy and distribute such a system following the terms of the GNU GPL for <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var> and the licenses of the other code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code and provided that you do not modify the <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library&apos;s interface]</span></var> interface.
       </p>
 
       <p>
-        Note that people who make modified versions of <var class="replaceable-license-text"> [name of library]</var> are not obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this exception; this exception also makes it possible to release a modified version which carries forward this exception. If you modify the <var class="replaceable-license-text"> [name of library&apos;s interface]</var> interface, this exception does not apply to your modified version of <var class="replaceable-license-text"> [name of library]</var>, and you must remove this exception when you distribute your modified version.
+        Note that people who make modified versions of <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var> are not obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this exception; this exception also makes it possible to release a modified version which carries forward this exception. If you modify the <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library&apos;s interface]</span></var> interface, this exception does not apply to your modified version of <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> [name of library]</span></var>, and you must remove this exception when you distribute your modified version.
       </p>
 
       <p>

@@ -2,13 +2,6 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-12-16T17:23:23Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2",
-            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -21,29 +14,36 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:url": "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2",
+            "spdx:timestamp": "2024-12-19T09:32:43Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/check-cvs",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseId": "check-cvs",
-            "rdfs:seeAlso": "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2",
-            "spdx:licenseText": "Permission is granted to copy and/or distribute this file, with or\nwithout modifications, provided this notice is preserved.\n",
-            "spdx:name": "check-cvs License",
-            "rdfs:comment": "This license is similar to FSFULLR.",
             "spdx:crossRef": {
                 "@id": "_:b0"
             },
             "@type": "spdx:ListedLicense",
+            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to copy and/or distribute this file, with\n            or without modifications, provided this notice is preserved.\n         </p>\n\n      ",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "Permission is granted to copy and/or distribute this file, with or without modifications, provided this notice is preserved.\n\n",
+            "rdfs:seeAlso": "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to copy and/or distribute this file, with\n            or without modifications, provided this notice is preserved.\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "Permission is granted to copy and/or distribute this file, with or without modifications, provided this notice is preserved.\n\n"
+            "rdfs:comment": "This license is similar to FSFULLR.",
+            "spdx:licenseId": "check-cvs",
+            "spdx:licenseText": "Permission is granted to copy and/or distribute this file, with or\nwithout modifications, provided this notice is preserved.\n",
+            "spdx:name": "check-cvs License"
         }
     ],
     "@context": {

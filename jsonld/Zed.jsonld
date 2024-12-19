@@ -1,35 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/Zed",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(c) Jim Davies, January 1995  \";match=\".{0,5000}\">>\n\nYou may copy and distribute this file freely. Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\n\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.\n\n",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Zed",
-            "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"> \n         <p>(c) Jim Davies, January 1995</p>\n\n      </div>\n\n      <p>You may copy and distribute this file freely. Any queries and complaints should be forwarded to\n         Jim.Davies@comlab.ox.ac.uk.</p>\n\n      <p>If you make any changes to this file, please do not distribute the results under the name `zed-csp.sty&apos;.</p>\n\n    ",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:name": "Zed License",
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseText": "(c) Jim Davies, January 1995\nYou may copy and distribute this file freely.  Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.\n",
-            "spdx:licenseId": "Zed",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
-        },
-        {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-12-16T17:26:19Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Zed",
-            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -42,7 +14,35 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Zed",
+            "spdx:timestamp": "2024-12-19T09:34:48Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/Zed",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:name": "Zed License",
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>(c) Jim Davies, January 1995</p>\n\n      </span></div>\n\n      <p>You may copy and distribute this file freely. Any queries and complaints should be forwarded to\n         Jim.Davies@comlab.ox.ac.uk.</p>\n\n      <p>If you make any changes to this file, please do not distribute the results under the name `zed-csp.sty&apos;.</p>\n\n    ",
+            "spdx:licenseText": "(c) Jim Davies, January 1995\nYou may copy and distribute this file freely.  Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Zed",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(c) Jim Davies, January 1995  \";match=\".{0,5000}\">>\nYou may copy and distribute this file freely. Any queries and complaints should be forwarded to Jim.Davies@comlab.ox.ac.uk.\n\nIf you make any changes to this file, please do not distribute the results under the name `zed-csp.sty'.\n\n",
+            "spdx:licenseId": "Zed"
         }
     ],
     "@context": {

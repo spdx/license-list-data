@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:17:11Z>https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:17:11Z</p> -->
+               <a href="https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-19T09:28:10Z>https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-19T09:28:10Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,10 +154,22 @@
           <p style="margin-left: 20px;">The last section differs from Latex2e license.</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-         <div class="replaceable-license-text"> 
+         <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
             <p>
                Copyright @copyright{} 1989, 1992, 1993, 1994, 1995, 1996, 2014 Free Software
                Foundation, Inc.
@@ -179,7 +191,7 @@
                Copyright @copyright{} 2013, Łukasz Stelmach.
             </p>
 
-         </div>
+         </span></div>
          <p>
             Permission is granted to make and distribute verbatim copies of
             this manual provided the copyright notice and this permission notice
@@ -209,7 +221,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright @copyright{} 1989, 1992, 1993, 1994, 1995, 1996, 2014 Free Software Foundation, Inc.    Copyright @copyright{} 1995, 1996 Joseph Arceneaux.    Copyright @copyright{} 1999, Carlo Wood.    Copyright @copyright{} 2001, David Ingamells.    Copyright @copyright{} 2013, Łukasz Stelmach.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.&#10;&#10;Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.&#10;&#10;Permission is granted to copy and distribute translations of this manual into another language, under the above conditions for modified versions, except that this permission notice may be stated in a translation approved by the Foundation.&#10;&#10;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright @copyright{} 1989, 1992, 1993, 1994, 1995, 1996, 2014 Free Software Foundation, Inc.   Copyright @copyright{} 1995, 1996 Joseph Arceneaux.   Copyright @copyright{} 1999, Carlo Wood.   Copyright @copyright{} 2001, David Ingamells.   Copyright @copyright{} 2013, Łukasz Stelmach.  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.&#10;&#10;Permission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.&#10;&#10;Permission is granted to copy and distribute translations of this manual into another language, under the above conditions for modified versions, except that this permission notice may be stated in a translation approved by the Foundation.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

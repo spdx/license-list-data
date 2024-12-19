@@ -1,24 +1,24 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/NLPL>
-        a                             spdx:ListedLicense ;
-        rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing/NLPL" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:25:14Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing/NLPL";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:34:01Z";
                                         spdx:url            "https://fedoraproject.org/wiki/Licensing/NLPL"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "NLPL" ;
-        spdx:licenseText              "NO LIMIT PUBLIC LICENSE\n     Version 0, June 2012\n\nGilles LAMIRAL\nLa Billais\n35580 Baulon\nFrance\n\nNO LIMIT PUBLIC LICENSE\n\nTerms and conditions for copying, distribution, modification\nor anything else.\n\n     0. No limit to do anything with this work and this license.\n" ;
-        spdx:licenseTextHtml          "\n      <div class=\"optional-license-text\"> \n         <p>NO LIMIT PUBLIC LICENSE</p>\n\n         <p>Version 0, June 2012</p>\n\n      </div>\n      <div class=\"optional-license-text\"> \n         <p>Gilles LAMIRAL</p>\n\n         <p>La Billais</p>\n\n         <p>35580 Baulon</p>\n\n         <p>France</p>\n\n      </div>\n      <div class=\"optional-license-text\"> \n         <p>NO LIMIT PUBLIC LICENSE</p>\n\n      </div>\n\n      <p>Terms and conditions for copying, distribution, modification or anything else.</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"> 0.</var>\n          No limit to do anything with this work and this license.\n        </li>\n      \n</ul>\n    " ;
-        spdx:name                     "No Limit Public License" ;
-        spdx:standardLicenseTemplate  "<<beginOptional>>NO LIMIT PUBLIC LICENSE\n\nVersion 0, June 2012\n\n<<endOptional>><<beginOptional>> Gilles LAMIRAL\n\nLa Billais\n\n35580 Baulon\n\nFrance\n\n<<endOptional>><<beginOptional>> NO LIMIT PUBLIC LICENSE\n\n<<endOptional>>\n\nTerms and conditions for copying, distribution, modification or anything else.\n\n   <<var;name=\"bullet\";original=\"0.\";match=\".{0,20}\">> No limit to do anything with this work and this license." .
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "NLPL";
+        spdx:licenseText              "NO LIMIT PUBLIC LICENSE\n     Version 0, June 2012\n\nGilles LAMIRAL\nLa Billais\n35580 Baulon\nFrance\n\nNO LIMIT PUBLIC LICENSE\n\nTerms and conditions for copying, distribution, modification\nor anything else.\n\n     0. No limit to do anything with this work and this license.\n";
+        spdx:licenseTextHtml          "\n      <div class=\"optional-license-text\"> \n         <p>NO LIMIT PUBLIC LICENSE</p>\n\n         <p>Version 0, June 2012</p>\n\n      </div>\n      <div class=\"optional-license-text\"> \n         <p>Gilles LAMIRAL</p>\n\n         <p>La Billais</p>\n\n         <p>35580 Baulon</p>\n\n         <p>France</p>\n\n      </div>\n      <div class=\"optional-license-text\"> \n         <p>NO LIMIT PUBLIC LICENSE</p>\n\n      </div>\n\n      <p>Terms and conditions for copying, distribution, modification or anything else.</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 0.</span></var>\n          No limit to do anything with this work and this license.\n        </li>\n      \n</ul>\n    ";
+        spdx:name                     "No Limit Public License";
+        spdx:standardLicenseTemplate  "<<beginOptional>>NO LIMIT PUBLIC LICENSE\n\nVersion 0, June 2012\n\n<<endOptional>><<beginOptional>> Gilles LAMIRAL\n\nLa Billais\n\n35580 Baulon\n\nFrance\n\n<<endOptional>><<beginOptional>> NO LIMIT PUBLIC LICENSE\n\n<<endOptional>>\nTerms and conditions for copying, distribution, modification or anything else.\n\n   <<var;name=\"bullet\";original=\"0.\";match=\".{0,20}\">> No limit to do anything with this work and this license." .

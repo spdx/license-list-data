@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="http://www.libpng.org/pub/png/src/libpng-LICENSE.txt" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:22:54Z>http://www.libpng.org/pub/png/src/libpng-LICENSE.txt</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:22:54Z</p> -->
+               <a href="http://www.libpng.org/pub/png/src/libpng-LICENSE.txt" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:32:22Z>http://www.libpng.org/pub/png/src/libpng-LICENSE.txt</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:32:22Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,14 +154,26 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
       <div class="optional-license-text"> <p>PNG Reference Library License version 2</p>
 </div>
-      <var class="optional-license-text"> <var class="replaceable-license-text"> ---------------------------------------</var>
+      <var class="optional-license-text"> <var class="replaceable-license-text"><span title="can be replaced with the pattern ^[-]*$"> ---------------------------------------</span></var>
       </var>
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
         
 <ul style="list-style:none">
           
@@ -180,7 +192,7 @@
           Group 42, Inc.</li>
         
 </ul>
-      </div>
+      </span></div>
       <p>The software is supplied &quot;as is&quot;, without warranty of any kind,
       express or implied, including, without limitation, the warranties
       of merchantability, fitness for a particular purpose, title, and
@@ -197,17 +209,17 @@
         
 <ul style="list-style:none">
           
-<li><var class="replaceable-license-text"> 1.</var> The origin of this software must not be
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var> The origin of this software must not be
           misrepresented; you must not claim that you wrote the original
           software. If you use this software in a product, an acknowledgment in
           the product documentation would be appreciated, but is not required.
           </li>
 
-<li><var class="replaceable-license-text"> 2.</var>Altered source versions must be plainly
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>Altered source versions must be plainly
           marked as such, and must not be misrepresented as being the original
           software.</li>
 
-<li><var class="replaceable-license-text"> 3.</var>This Copyright notice may not be removed or
+<li><var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>This Copyright notice may not be removed or
           altered from any source or altered source distribution.</li>
         
 </ul>
@@ -222,7 +234,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;beginOptional&gt;&gt;PNG Reference Library License version 2&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name=&quot;dashed-line&quot;;original=&quot;---------------------------------------&quot;;match=&quot;^[-]*$&quot;&gt;&gt;&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;     * Copyright (c) 1995-2018 The PNG Reference Library Authors.     * Copyright (c) 2018 Cosmin Truta.     * Copyright (c) 2000-2002, 2004, 2006-2018 Glenn Randers-Pehrson.     * Copyright (c) 1996-1997 Andreas Dilger.     * Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;The software is supplied &quot;as is&quot;, without warranty of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose, title, and non-infringement. In no event shall the Copyright owners, or anyone distributing the software, be liable for any damages or other liability, whether in contract, tort or otherwise, arising from, out of, or in connection with the software, or the use or other dealings in the software, even if advised of the possibility of such damage.&#10;&#10;Permission is hereby granted to use, copy, modify, and distribute this software, or portions hereof, for any purpose, without fee, subject to the following restrictions:&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated, but is not required.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.&#10;&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This Copyright notice may not be removed or altered from any source or altered source distribution.&#10;&#10;
+      &lt;&lt;beginOptional&gt;&gt;PNG Reference Library License version 2&#10;&#10;&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; &lt;&lt;var;name=&quot;dashed-line&quot;;original=&quot;---------------------------------------&quot;;match=&quot;^[-]*$&quot;&gt;&gt;&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;    * Copyright (c) 1995-2018 The PNG Reference Library Authors.    * Copyright (c) 2018 Cosmin Truta.    * Copyright (c) 2000-2002, 2004, 2006-2018 Glenn Randers-Pehrson.    * Copyright (c) 1996-1997 Andreas Dilger.    * Copyright (c) 1995-1996 Guy Eric Schalnat, Group 42, Inc.&quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;The software is supplied &quot;as is&quot;, without warranty of any kind, express or implied, including, without limitation, the warranties of merchantability, fitness for a particular purpose, title, and non-infringement. In no event shall the Copyright owners, or anyone distributing the software, be liable for any damages or other liability, whether in contract, tort or otherwise, arising from, out of, or in connection with the software, or the use or other dealings in the software, even if advised of the possibility of such damage.&#10;&#10;Permission is hereby granted to use, copy, modify, and distribute this software, or portions hereof, for any purpose, without fee, subject to the following restrictions:&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;1.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated, but is not required.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;2.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.&#10;   &lt;&lt;var;name=&quot;bullet&quot;;original=&quot;3.&quot;;match=&quot;.{0,20}&quot;&gt;&gt; This Copyright notice may not be removed or altered from any source or altered source distribution.&#10;&#10;
       </div>
 
     </div> <!-- /page -->

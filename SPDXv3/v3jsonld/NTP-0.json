@@ -1,0 +1,40 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/NTP-0_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/NTP-0" ],
+    "name" : "NTP-0 document",
+    "comment" : "SPDX Document For NTP-0",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/NTP-0",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://github.com/tytso/e2fsprogs/blob/master/lib/et/et_name.c" ],
+    "simplelicensing_licenseText" : "NTP No Attribution (NTP-0)\n\nCopyright (4-digit-year) by (CopyrightHoldersName)\n\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose is hereby granted, provided that the name of (TrademarkedName) not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. (TrademarkedName) make no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n",
+    "name" : "NTP No Attribution",
+    "comment" : "This license is similar to NTP, but it omits the language regarding reproduction of copyright and permission notices. It also omits the phrase \"with or without fee\".",
+    "expandedlicensing_standardLicenseTemplate" : "<<beginOptional>>NTP No Attribution (NTP-0)\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (4-digit-year) by (CopyrightHoldersName)  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose is hereby granted, provided that the name<<beginOptional>>s<<endOptional>>of <<var;name=\"TMname\";original=\"(TrademarkedName)\";match=\".+\">> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. <<var;name=\"TMname\";original=\"(TrademarkedName)\";match=\".+\">> make<<beginOptional>>s<<endOptional>>no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

@@ -2,13 +2,6 @@
     "@graph": [
         {
             "@id": "_:b0",
-            "spdx:timestamp": "2024-12-16T17:29:51Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/App-s2p",
-            "spdx:match": "false",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -21,28 +14,35 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/App-s2p",
+            "spdx:timestamp": "2024-12-19T09:37:24Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/App-s2p",
+            "spdx:name": "App::s2p License",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "COPYRIGHT and LICENSE\nThis program is free and open software. You may use, modify, distribute, and sell this program (and any modified variants) in any way you wish, provided you do not restrict others from doing the same.\n\n",
             "spdx:crossRef": {
                 "@id": "_:b0"
             },
             "spdx:licenseTextHtml": "\n         COPYRIGHT and LICENSE\n         <p>\n            This program is free and open software. You may use,\n            modify, distribute, and sell this program (and any\n            modified variants) in any way you wish, provided\n            you do not restrict others from doing the same.\n         </p>\n\n      ",
             "spdx:licenseText": "COPYRIGHT and LICENSE\n\nThis program is free and open software. You may use, modify,\ndistribute, and sell this program (and any modified variants) in any\nway you wish, provided you do not restrict others from doing the same.\n",
+            "spdx:licenseId": "App-s2p",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseId": "App-s2p",
-            "spdx:name": "App::s2p License",
-            "spdx:standardLicenseTemplate": "COPYRIGHT and LICENSE\n\nThis program is free and open software. You may use, modify, distribute, and sell this program (and any modified variants) in any way you wish, provided you do not restrict others from doing the same.\n\n",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/App-s2p",
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/App-s2p"
         }
     ],
     "@context": {

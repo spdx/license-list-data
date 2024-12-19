@@ -1,24 +1,24 @@
-@prefix doap: <http://usefulinc.com/ns/doap#> .
-@prefix ptr:  <http://www.w3.org/2009/pointers#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix spdx: <http://spdx.org/rdf/terms#> .
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
 
 <http://spdx.org/licenses/Gutmann>
-        a                             spdx:ListedLicense ;
-        rdfs:seeAlso                  "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c" ;
-        spdx:crossRef                 [ a                   spdx:CrossRef ;
-                                        spdx:isLive         true ;
-                                        spdx:isValid        true ;
-                                        spdx:isWayBackLink  false ;
-                                        spdx:match          "false" ;
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
-                                        spdx:timestamp      "2024-12-16T17:17:12Z" ;
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2024-12-19T09:28:11Z";
                                         spdx:url            "https://www.cs.auckland.ac.nz/~pgut001/dumpasn1.c"
-                                      ] ;
-        spdx:isDeprecatedLicenseId    false ;
-        spdx:isOsiApproved            false ;
-        spdx:licenseId                "Gutmann" ;
-        spdx:licenseText              "You can use this code in whatever way you want, as long as you don't try\nto claim you wrote it.\n" ;
-        spdx:licenseTextHtml          "\n         <p>\n            You can use this code in whatever way you want,\n            as long as you don&apos;t try to claim you wrote it.\n         </p>\n\n      " ;
-        spdx:name                     "Gutmann License" ;
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseId                "Gutmann";
+        spdx:licenseText              "You can use this code in whatever way you want, as long as you don't try\nto claim you wrote it.\n";
+        spdx:licenseTextHtml          "\n         <p>\n            You can use this code in whatever way you want,\n            as long as you don&apos;t try to claim you wrote it.\n         </p>\n\n      ";
+        spdx:name                     "Gutmann License";
         spdx:standardLicenseTemplate  "You can use this code in whatever way you want, as long as you don't try to claim you wrote it.\n\n" .

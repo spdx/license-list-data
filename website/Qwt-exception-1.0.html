@@ -158,13 +158,24 @@
           <p style="margin-left: 20px;">Specified to be associated with LGPL-2.1. On Fedora List as &quot;Qwt License 1.0&quot;.</p>
           
       <h2 id="licenseExceptionText">Text</h2>
-
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
+	  
       <div property="spdx:licenseExceptionText" class="exception-text">
       
       <div class="optional-license-text"> 
          <p>Qwt License Version 1.0,
         <br />
-
 January 1, 2003
       </p>
 
@@ -176,13 +187,13 @@ January 1, 2003
 <ul style="list-style:none">
         
 <li>
-            <var class="replaceable-license-text"> 1.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 1.</span></var>
           Widgets that are subclassed from Qwt widgets do not
              constitute a derivative work.
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 2.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 2.</span></var>
           Static linking of applications and widgets to the Qwt
              library does not constitute a derivative work and does
              not require the author to provide source code for the
@@ -195,7 +206,7 @@ January 1, 2003
         </li>
         
 <li>
-            <var class="replaceable-license-text"> 3.</var>
+            <var class="replaceable-license-text"><span title="can be replaced with the pattern .{0,20}"> 3.</span></var>
           You do not have to provide a copy of the Qwt license with
              programs that are linked to the Qwt library, nor do
              you have to identify the Qwt license in your program

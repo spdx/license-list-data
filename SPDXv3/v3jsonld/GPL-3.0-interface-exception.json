@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b27cee3" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2024-12-19T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/GPL-3.0-interface-exception_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/GPL-3.0-interface-exception" ],
+    "name" : "GPL-3.0-interface-exception document",
+    "comment" : "SPDX Document For GPL-3.0-interface-exception",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/GPL-3.0-interface-exception",
+    "type" : "expandedlicensing_ListedLicenseException",
+    "expandedlicensing_seeAlso" : [ "https://www.gnu.org/licenses/gpl-faq.en.html#LinkingOverControlledInterface" ],
+    "expandedlicensing_isDeprecatedAdditionId" : false,
+    "expandedlicensing_standardAdditionTemplate" : "Linking <<var;name=\"library1\";original=\"[name of library]\";match=\".+\">> statically or dynamically with other modules is making a combined work based on <<var;name=\"library2\";original=\"[name of library]\";match=\".+\">> . Thus, the terms and conditions of the GNU General Public License cover the whole combination.\n\nAs a special exception, the copyright holders of <<var;name=\"library3\";original=\"[name of library]\";match=\".+\">> give you permission to combine <<var;name=\"library4\";original=\"[name of library]\";match=\".+\">> program with free software programs or libraries that are released under the GNU LGPL and with independent modules that communicate with <<var;name=\"library5\";original=\"[name of library]\";match=\".+\">> solely through the <<var;name=\"libraryInterface1\";original=\"[name of library's interface]\";match=\".+\">> interface. You may copy and distribute such a system following the terms of the GNU GPL for <<var;name=\"library6\";original=\"[name of library]\";match=\".+\">> and the licenses of the other code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code and provided that you do not modify the <<var;name=\"libraryInterface2\";original=\"[name of library's interface]\";match=\".+\">> interface.\n\nNote that people who make modified versions of <<var;name=\"library7\";original=\"[name of library]\";match=\".+\">> are not obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this exception; this exception also makes it possible to release a modified version which carries forward this exception. If you modify the <<var;name=\"libraryInterface3\";original=\"[name of library's interface]\";match=\".+\">> interface, this exception does not apply to your modified version of <<var;name=\"library8\";original=\"[name of library]\";match=\".+\">> , and you must remove this exception when you distribute your modified version.\n\nThis exception is an additional permission under section 7 of the GNU General Public License, version 3 (\"GPLv3\")\n\n",
+    "name" : "GPL-3.0 Interface Exception",
+    "expandedlicensing_additionText" : "Linking [name of library] statically or dynamically with other modules is making a combined work based on [name of library]. Thus, the terms and conditions of the GNU General Public License cover the whole combination.\n\nAs a special exception, the copyright holders of [name of library] give you permission to combine [name of library] program with free software programs or libraries that are released under the GNU LGPL and with independent modules that communicate with [name of library] solely through the [name of library's interface] interface. You may copy and distribute such a system following the terms of the GNU GPL for [name of library] and the licenses of the other code concerned, provided that you include the source code of that other code when and as the GNU GPL requires distribution of source code and provided that you do not modify the [name of library's interface] interface.\n\nNote that people who make modified versions of [name of library] are not obligated to grant this special exception for their modified versions; it is their choice whether to do so. The GNU General Public License gives permission to release a modified version without this exception; this exception also makes it possible to release a modified version which carries forward this exception. If you modify the [name of library's interface] interface, this exception does not apply to your modified version of [name of library], and you must remove this exception when you distribute your modified version.\n\nThis exception is an additional permission under section 7 of the GNU General Public License, version 3 (\"GPLv3\")\n",
+    "comment" : "This exception is based on the suggested template from the Free Software Foundation's FAQ about the GPL. This exception enables linking with differently licensed modules over the specified interface, while ensuring that users would still receive source code as they normally would under the GPL.",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b27cee3",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  } ]
+}

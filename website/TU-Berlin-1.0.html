@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://github.com/swh/ladspa/blob/7bf6f3799fdba70fda297c2d8fd9f526803d9680/gsm/COPYRIGHT" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:20:42Z>https://github.com/swh/ladspa/blob/7bf6f3799fdba70fda297c2d8fd9f526803d9680/gsm/COPYRIGHT</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:20:42Z</p> -->
+               <a href="https://github.com/swh/ladspa/blob/7bf6f3799fdba70fda297c2d8fd9f526803d9680/gsm/COPYRIGHT" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:30:45Z>https://github.com/swh/ladspa/blob/7bf6f3799fdba70fda297c2d8fd9f526803d9680/gsm/COPYRIGHT</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:30:45Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,16 +154,28 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
         <p>Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,
 	      </p>
 
         <p>Technische Universitaet Berlin</p>
 
-      </div>
+      </span></div>
 
       <p>
         Any use of this software is permitted provided that this notice is not
@@ -180,7 +192,7 @@
       </p>
 
       <div class="optional-license-text"> 
-        <p>Berlin, <var class="replaceable-license-text"> 28.11.1994</var></p>
+        <p>Berlin, <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> 28.11.1994</span></var></p>
 
         <p>Jutta Degener</p>
 
@@ -196,7 +208,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,    Technische Universitaet Berlin  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Any use of this software is permitted provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.&#10;&#10;As a matter of courtesy, the authors request to be informed about uses this software has found, about bugs in this software, and about any improvements that may be of general interest.&#10;&#10;&lt;&lt;beginOptional&gt;&gt;Berlin, &lt;&lt;var;name=&quot;footerDate&quot;;original=&quot;28.11.1994&quot;;match=&quot;.+&quot;&gt;&gt;&#10;&#10;Jutta Degener&#10;&#10;Carsten Bormann&#10;&#10;&lt;&lt;endOptional&gt;&gt;
+      &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright 1992, 1993, 1994 by Jutta Degener and Carsten Bormann,   Technische Universitaet Berlin  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Any use of this software is permitted provided that this notice is not removed and that neither the authors nor the Technische Universitaet Berlin are deemed to have made any representations as to the suitability of this software for any purpose nor are held responsible for any defects of this software. THERE IS ABSOLUTELY NO WARRANTY FOR THIS SOFTWARE.&#10;&#10;As a matter of courtesy, the authors request to be informed about uses this software has found, about bugs in this software, and about any improvements that may be of general interest.&#10;&#10;&lt;&lt;beginOptional&gt;&gt;Berlin, &lt;&lt;var;name=&quot;footerDate&quot;;original=&quot;28.11.1994&quot;;match=&quot;.+&quot;&gt;&gt;&#10;&#10;Jutta Degener&#10;&#10;Carsten Bormann&#10;&#10;&lt;&lt;endOptional&gt;&gt;
       </div>
 
     </div> <!-- /page -->

@@ -142,8 +142,8 @@
           <div style="margin-left: 20px;">
             <ul>
              <li>
-               <a href="https://opensource.org/license/mit/" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=false timestamp=2024-12-16T17:18:01Z>https://opensource.org/license/mit/</a>
-               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: false, timestamp: 2024-12-16T17:18:01Z</p> -->
+               <a href="https://opensource.org/license/mit/" rel="rdfs:seeAlso" isValid=true isLive=true isWayBackLink=false match=true timestamp=2024-12-19T09:28:49Z>https://opensource.org/license/mit/</a>
+               <!--Tentative way of displaying information <p>isValid: true, isLive: true, isWayBackLink: false, match: true, timestamp: 2024-12-19T09:28:49Z</p> -->
              </li>
            </ul>
           </div>
@@ -154,6 +154,18 @@
           <p style="margin-left: 20px;">None</p>
 
       <h2 id="licenseText">Text</h2>
+      
+      <blockquote cite="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/">
+          <div style="border: 2px solid grey; padding: 8px">
+		      Text in italicized blue is omittable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b35-guideline-omittable-text">Matching Guidelines B.3.5</a>).
+		      License or exception text will match to the text for the specified identifier if it either includes or excludes this omittable text.
+			  <br/>
+			  <br/>
+			  Text in red is replaceable (see <a href="https://spdx.github.io/spdx-spec/v2.3/license-matching-guidelines-and-templates/#b34-guideline-replaceable-text">Matching Guidelines B.3.4</a>).
+			  License or exception text will match to the text for the specified identifier if it includes a permitted variant of this replaceable text.
+			  The permitted variants can be found in the corresponding regular expression as shown in title text visible by hovering over the red text.
+	      </div>
+	  </blockquote>
 
       <div property="spdx:licenseText" class="license-text">
       
@@ -161,40 +173,40 @@
          <p>MIT License</p>
 
       </div>
-      <div class="replaceable-license-text"> 
+      <div class="replaceable-license-text"><span title="can be replaced with the pattern .{0,5000}"> 
          <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;
          </p>
 
-      </div>
+      </span></div>
 
       <p>Permission is hereby granted, free of charge, to any person obtaining a copy of 
-         <var class="replaceable-license-text"> 
-         this software and associated documentation files</var> (the 
-         &quot;<var class="replaceable-license-text"> Software</var>&quot;), 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern this\s+software\s+and\s+associated\s+documentation\s+files|this\s+source\s+file"> 
+         this software and associated documentation files</span></var> (the 
+         &quot;<var class="replaceable-license-text"><span title="can be replaced with the pattern Software|Materials"> Software</span></var>&quot;), 
          to deal in the 
-         <var class="replaceable-license-text"> Software</var> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern Software|Materials"> Software</span></var> 
          without restriction, including without limitation the rights to use, copy, modify, 
          merge, publish, distribute, sublicense, and/or sell copies of the 
-         <var class="replaceable-license-text"> Software</var>, 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern Software|Materials"> Software</span></var>, 
          and to permit persons to whom the 
-         <var class="replaceable-license-text"> Software</var>
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern Software|Materials"> Software</span></var>
          is furnished to do so, subject to the following conditions:</p>
 
        <p>The above copyright notice and this permission notice
          <var class="optional-license-text"> (including the next paragraph)</var>
          shall be included in all copies or substantial portions of the 
-          <var class="replaceable-license-text"> Software</var>.</p>
+          <var class="replaceable-license-text"><span title="can be replaced with the pattern Software|Materials"> Software</span></var>.</p>
 
-       <p>THE <var class="replaceable-license-text"> SOFTWARE IS</var> 
+       <p>THE <var class="replaceable-license-text"><span title="can be replaced with the pattern SOFTWARE IS|MATERIALS ARE"> SOFTWARE IS</span></var> 
          PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT
          LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND 
          NONINFRINGEMENT. IN NO EVENT SHALL 
-         <var class="replaceable-license-text"> THE AUTHORS OR COPYRIGHT HOLDERS</var> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern .+"> THE AUTHORS OR COPYRIGHT HOLDERS</span></var> 
          BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
          TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-         <var class="replaceable-license-text"> SOFTWARE</var> 
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern SOFTWARE|MATERIALS"> SOFTWARE</span></var> 
          OR THE USE OR OTHER DEALINGS IN THE
-         <var class="replaceable-license-text"> SOFTWARE</var>.</p>
+         <var class="replaceable-license-text"><span title="can be replaced with the pattern SOFTWARE|MATERIALS"> SOFTWARE</span></var>.</p>
 
     
       </div>
@@ -205,7 +217,7 @@
         
       </div>
       <div property="spdx:standardLicenseTemplate" style="display: none;">
-      &lt;&lt;beginOptional&gt;&gt;MIT License&#10;&#10;&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) &lt;year&gt; &lt;copyright holders&gt;  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy of &lt;&lt;var;name=&quot;files&quot;;original=&quot;this software and associated documentation files&quot;;match=&quot;this\\s+software\\s+and\\s+associated\\s+documentation\\s+files|this\\s+source\\s+file&quot;&gt;&gt; (the &quot; &lt;&lt;var;name=&quot;Software1&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; &quot;), to deal in the &lt;&lt;var;name=&quot;Software2&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the &lt;&lt;var;name=&quot;Software3&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; , and to permit persons to whom the &lt;&lt;var;name=&quot;Software4&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; is furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice&lt;&lt;beginOptional&gt;&gt; (including the next paragraph)&lt;&lt;endOptional&gt;&gt; shall be included in all copies or substantial portions of the &lt;&lt;var;name=&quot;Software5&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; .&#10;&#10;THE &lt;&lt;var;name=&quot;Software-verb&quot;;original=&quot;SOFTWARE IS&quot;;match=&quot;SOFTWARE IS|MATERIALS ARE&quot;&gt;&gt; PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolder&quot;;original=&quot;THE AUTHORS OR COPYRIGHT HOLDERS&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE &lt;&lt;var;name=&quot;Software7&quot;;original=&quot;SOFTWARE&quot;;match=&quot;SOFTWARE|MATERIALS&quot;&gt;&gt; OR THE USE OR OTHER DEALINGS IN THE &lt;&lt;var;name=&quot;Software8&quot;;original=&quot;SOFTWARE&quot;;match=&quot;SOFTWARE|MATERIALS&quot;&gt;&gt; .&#10;&#10;
+      &lt;&lt;beginOptional&gt;&gt;MIT License&#10;&#10;&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name=&quot;copyright&quot;;original=&quot;Copyright (c) &lt;year&gt; &lt;copyright holders&gt;  &quot;;match=&quot;.{0,5000}&quot;&gt;&gt;&#10;Permission is hereby granted, free of charge, to any person obtaining a copy of &lt;&lt;var;name=&quot;files&quot;;original=&quot;this software and associated documentation files&quot;;match=&quot;this\s+software\s+and\s+associated\s+documentation\s+files|this\s+source\s+file&quot;&gt;&gt; (the &quot; &lt;&lt;var;name=&quot;Software1&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; &quot;), to deal in the &lt;&lt;var;name=&quot;Software2&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the &lt;&lt;var;name=&quot;Software3&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; , and to permit persons to whom the &lt;&lt;var;name=&quot;Software4&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; is furnished to do so, subject to the following conditions:&#10;&#10;The above copyright notice and this permission notice&lt;&lt;beginOptional&gt;&gt; (including the next paragraph)&lt;&lt;endOptional&gt;&gt; shall be included in all copies or substantial portions of the &lt;&lt;var;name=&quot;Software5&quot;;original=&quot;Software&quot;;match=&quot;Software|Materials&quot;&gt;&gt; .&#10;&#10;THE &lt;&lt;var;name=&quot;Software-verb&quot;;original=&quot;SOFTWARE IS&quot;;match=&quot;SOFTWARE IS|MATERIALS ARE&quot;&gt;&gt; PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL &lt;&lt;var;name=&quot;copyrightHolder&quot;;original=&quot;THE AUTHORS OR COPYRIGHT HOLDERS&quot;;match=&quot;.+&quot;&gt;&gt; BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE &lt;&lt;var;name=&quot;Software7&quot;;original=&quot;SOFTWARE&quot;;match=&quot;SOFTWARE|MATERIALS&quot;&gt;&gt; OR THE USE OR OTHER DEALINGS IN THE &lt;&lt;var;name=&quot;Software8&quot;;original=&quot;SOFTWARE&quot;;match=&quot;SOFTWARE|MATERIALS&quot;&gt;&gt; .&#10;&#10;
       </div>
 
     </div> <!-- /page -->

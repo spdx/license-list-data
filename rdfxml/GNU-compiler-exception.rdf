@@ -5,16 +5,20 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/GNU-compiler-exception">
-    <spdx:licenseExceptionId>GNU-compiler-exception</spdx:licenseExceptionId>
     <rdfs:seeAlso>https://sourceware.org/git?p=binutils-gdb.git;a=blob;f=libiberty/unlink-if-ordinary.c;h=e49f2f2f67bfdb10d6b2bd579b0e01cad0fd708e;hb=HEAD#l19</rdfs:seeAlso>
-    <rdfs:comment>This exception is the same as SWI-exception but delineates that the library is compiled with a GNU compiler, which is narrower than a or any free software compiler.</rdfs:comment>
-    <spdx:name>GNU Compiler Exception</spdx:name>
+    <spdx:licenseExceptionText>As a special exception, if you link this library with files
+compiled with a GNU compiler to produce an executable, this
+does not cause the resulting executable to be covered by
+the GNU General Public License. This exception does not
+however invalidate any other reasons why the executable
+file might be covered by the GNU General Public License.
+</spdx:licenseExceptionText>
     <spdx:exceptionTextHtml>
          &lt;p&gt;
             As a special exception, if you link 
-            &lt;var class="replaceable-license-text"&gt; this library&lt;/var&gt; 
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern this library|the code in this file"&gt; this library&lt;/span&gt;&lt;/var&gt; 
             with files compiled with a GNU compiler to produce an executable, 
-            &lt;var class="replaceable-license-text"&gt; this&lt;/var&gt;
+            &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern this|that"&gt; this&lt;/span&gt;&lt;/var&gt;
             does not cause the resulting executable to be covered by
             the GNU &lt;var class="optional-license-text"&gt; Lesser&lt;/var&gt; General Public License. 
             This exception does not however invalidate any other reasons 
@@ -25,17 +29,13 @@
          &lt;/p&gt;
 
       </spdx:exceptionTextHtml>
-    <spdx:licenseExceptionText>As a special exception, if you link this library with files
-compiled with a GNU compiler to produce an executable, this
-does not cause the resulting executable to be covered by
-the GNU General Public License. This exception does not
-however invalidate any other reasons why the executable
-file might be covered by the GNU General Public License.
-</spdx:licenseExceptionText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:comment>This exception is the same as SWI-exception but delineates that the library is compiled with a GNU compiler, which is narrower than a or any free software compiler.</rdfs:comment>
     <spdx:licenseExceptionTemplate>As a special exception, if you link &lt;&lt;var;name="library";original="this library";match="this library|the code in this file"&gt;&gt; with files compiled with a GNU compiler to produce an executable, &lt;&lt;var;name="this";original="this";match="this|that"&gt;&gt; does not cause the resulting executable to be covered by the GNU&lt;&lt;beginOptional&gt;&gt; Lesser&lt;&lt;endOptional&gt;&gt; General Public License. This exception does not however invalidate any other reasons why the executable file might be covered by the GNU&lt;&lt;beginOptional&gt;&gt; Lesser&lt;&lt;endOptional&gt;&gt; General Public License.&lt;&lt;beginOptional&gt;&gt; This exception applies to code released by its copyright holders in files containing the exception.&lt;&lt;endOptional&gt;&gt;
 
 </spdx:licenseExceptionTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionId>GNU-compiler-exception</spdx:licenseExceptionId>
+    <spdx:name>GNU Compiler Exception</spdx:name>
   </spdx:ListedLicenseException>
 </rdf:RDF>
