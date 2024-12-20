@@ -5,8 +5,23 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Vim">
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://vimdoc.sourceforge.net/htmldoc/uganda.html</spdx:url>
+        <spdx:timestamp>2024-12-20T08:11:19Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <rdfs:seeAlso>http://vimdoc.sourceforge.net/htmldoc/uganda.html</rdfs:seeAlso>
+    <spdx:name>Vim License</spdx:name>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;VIM LICENSE
 
 &lt;&lt;endOptional&gt;&gt;
@@ -26,10 +41,9 @@
       &lt;&lt;var;name="bullet";original="4)";match=".{0,20}"&gt;&gt; The contact information as required under 2)a) and 2)d) must not be removed or changed, except that the person himself can make corrections.
    &lt;&lt;var;name="bullet";original="III)";match=".{0,20}"&gt;&gt; If you distribute a modified version of &lt;&lt;var;name="softwareName";original="Vim";match=".+"&gt;&gt; , you are encouraged to use the Vim license for your changes and make them available to the maintainer, including the source code. The preferred way to do this is by e-mail or by uploading the files to a server and e-mailing the URL. If the number of changes is small (e.g., a modified Makefile) e-mailing a context diff will do. The e-mail address to be used is &lt;maintainer@vim.org&gt;
    &lt;&lt;var;name="bullet";original="IV)";match=".{0,20}"&gt;&gt; It is not allowed to remove this license from the distribution of the &lt;&lt;var;name="softwareName";original="Vim";match=".+"&gt;&gt; sources, parts of it or from a modified version. You may use this license for previous &lt;&lt;var;name="softwareName";original="Vim";match=".+"&gt;&gt; releases instead of the license that they came with, at your option.</spdx:standardLicenseTemplate>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
+    <spdx:licenseId>Vim</spdx:licenseId>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseText>VIM LICENSE
 
 I) There are no restrictions on distributing unmodified copies of Vim except that they must include this license text. You can also distribute unmodified parts of Vim, likewise unrestricted except that they must include this license text. You are also allowed to include executables that you made from the unmodified Vim sources, plus your own usage examples and Vim scripts.
@@ -61,7 +75,8 @@ III) If you distribute a modified version of Vim, you are encouraged to use the 
 
 IV) It is not allowed to remove this license from the distribution of the Vim sources, parts of it or from a modified version. You may use this license for previous Vim releases instead of the license that they came with, at your option.
 </spdx:licenseText>
-    <spdx:name>Vim License</spdx:name>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;VIM LICENSE&lt;/p&gt;
@@ -202,22 +217,7 @@ IV) It is not allowed to remove this license from the distribution of the Vim so
       
 &lt;/ul&gt;
     </spdx:licenseTextHtml>
-    <rdfs:seeAlso>http://vimdoc.sourceforge.net/htmldoc/uganda.html</rdfs:seeAlso>
-    <spdx:licenseId>Vim</spdx:licenseId>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://vimdoc.sourceforge.net/htmldoc/uganda.html</spdx:url>
-        <spdx:timestamp>2024-12-19T09:28:11Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
   </spdx:ListedLicense>
 </rdf:RDF>

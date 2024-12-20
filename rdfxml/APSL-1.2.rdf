@@ -5,8 +5,6 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/APSL-1.2">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Apple Public Source License Ver. 1.2
 
 &lt;&lt;endOptional&gt;&gt;
@@ -75,10 +73,27 @@ This file contains Original Code and/or Modifications of Original Code as define
 The Original Code and all software distributed under the License are distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License."
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <spdx:licenseId>APSL-1.2</spdx:licenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
+    <spdx:name>Apple Public Source License 1.2</spdx:name>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <rdfs:comment>This license was released 4 Jan 2001.</rdfs:comment>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://www.samurajdata.se/opensource/mirror/licenses/apsl.php</spdx:url>
+        <spdx:timestamp>2024-12-20T08:13:17Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <rdfs:seeAlso>http://www.samurajdata.se/opensource/mirror/licenses/apsl.php</rdfs:seeAlso>
     <spdx:licenseText>Apple Public Source License Ver. 1.2
 
 1. General; Definitions. This License applies to any program or other work which Apple Computer, Inc. ("Apple") makes publicly available and which contains a notice placed by Apple identifying such program or work as "Original Code" and stating that it is subject to the terms of this Apple Public Source License version 1.2 (or subsequent version thereof) ("License"). As used in this License:
@@ -183,22 +198,6 @@ This file contains Original Code and/or Modifications of Original Code as define
 
 The Original Code and all software distributed under the License are distributed on an 'AS IS' basis, WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, AND APPLE HEREBY DISCLAIMS ALL SUCH WARRANTIES, INCLUDING WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-INFRINGEMENT. Please see the License for the specific language governing rights and limitations under the License."
 </spdx:licenseText>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://www.samurajdata.se/opensource/mirror/licenses/apsl.php</spdx:url>
-        <spdx:timestamp>2024-12-19T09:29:59Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <rdfs:seeAlso>http://www.samurajdata.se/opensource/mirror/licenses/apsl.php</rdfs:seeAlso>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;Apple Public Source License Ver. 1.2&lt;/p&gt;
@@ -703,6 +702,7 @@ The Original Code and all software distributed under the License are distributed
 
       &lt;/div&gt;
     </spdx:licenseTextHtml>
-    <spdx:name>Apple Public Source License 1.2</spdx:name>
+    <rdfs:comment>This license was released 4 Jan 2001.</rdfs:comment>
+    <spdx:licenseId>APSL-1.2</spdx:licenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

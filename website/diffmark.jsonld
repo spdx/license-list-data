@@ -2,24 +2,24 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/diffmark",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/diffmark",
             "spdx:licenseTextHtml": "\n      \n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          you can do what you want with it\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          I refuse any responsibility for the consequences\n        </li>\n      \n</ul>\n    ",
+            "spdx:licenseId": "diffmark",
             "spdx:standardLicenseTemplate": "\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:name": "diffmark license",
+            "spdx:licenseText": "1. you can do what you want with it\n2. I refuse any responsibility for the consequences\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseId": "diffmark",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/diffmark",
+            "spdx:name": "diffmark license",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseText": "1. you can do what you want with it\n2. I refuse any responsibility for the consequences\n"
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/diffmark",
-            "spdx:timestamp": "2024-12-19T09:30:29Z",
+            "spdx:timestamp": "2024-12-20T08:13:51Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
