@@ -5,7 +5,22 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/FreeImage">
-    <rdfs:seeAlso>http://freeimage.sourceforge.net/freeimage-license.txt</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://freeimage.sourceforge.net/freeimage-license.txt</spdx:url>
+        <spdx:timestamp>2024-12-20T19:16:51Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <rdfs:comment>This is similar to MPL-1.0, but for the names, choice of law, and jurisdiction</rdfs:comment>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
     <spdx:licenseText>FreeImage Public License - Version 1.0
@@ -126,23 +141,10 @@ EXHIBIT A.
 
 Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.
 </spdx:licenseText>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://freeimage.sourceforge.net/freeimage-license.txt</spdx:url>
-        <spdx:timestamp>2024-12-20T08:13:28Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <rdfs:comment>This is similar to MPL-1.0, but for the names, choice of law, and jurisdiction</rdfs:comment>
+    <rdfs:seeAlso>http://freeimage.sourceforge.net/freeimage-license.txt</rdfs:seeAlso>
     <spdx:name>FreeImage Public License v1.0</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;FreeImage Public License - Version 1.0&lt;/p&gt;
@@ -733,7 +735,5 @@ Software distributed under the License is distributed on an "AS IS" basis, WITHO
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
     <spdx:licenseId>FreeImage</spdx:licenseId>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

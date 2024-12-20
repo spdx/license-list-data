@@ -5,9 +5,26 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/DOC">
-    <spdx:licenseText>Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://www.cs.wustl.edu/~schmidt/ACE-copying.html</spdx:url>
+        <spdx:timestamp>2024-12-20T19:15:42Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:licenseId>DOC</spdx:licenseId>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)
 
-ACE(TM), TAO(TM), CIAO(TM), DAnCE&gt;(TM), and CoSMIC(TM) (henceforth referred to as "DOC software") are copyrighted by Douglas C. Schmidt and his research group at Washington University, University of California, Irvine, and Vanderbilt University, Copyright (c) 1993-2009, all rights reserved. Since DOC software is open-source, freely available software, you are free to use, modify, copy, and distribute--perpetually and irrevocably--the DOC software source code and object code produced from the source, as well as copy and distribute modified versions of this software. You must, however, include this copyright statement along with any code built using DOC software that you release. No copyright statement needs to be provided if you just ship binary executables of your software products.
+&lt;&lt;endOptional&gt;&gt;
+ACE(TM), TAO(TM), CIAO(TM), DAnCE&gt;(TM), and CoSMIC(TM) (henceforth referred to as "DOC software") are copyrighted by Douglas C. Schmidt and his research group at Washington University, University of California, Irvine, and Vanderbilt University, &lt;&lt;var;name="copyright";original="Copyright (c) 1993-2009, all rights reserved.";match=".{0,5000}"&gt;&gt; Since DOC software is open-source, freely available software, you are free to use, modify, copy, and distribute--perpetually and irrevocably--the DOC software source code and object code produced from the source, as well as copy and distribute modified versions of this software. You must, however, include this copyright statement along with any code built using DOC software that you release. No copyright statement needs to be provided if you just ship binary executables of your software products.
 
 You can use DOC software in commercial and/or binary software releases and are under no obligation to redistribute any of your source code that is built using DOC software. Note, however, that you may not misappropriate the DOC software code, such as copyrighting it yourself or claiming authorship of the DOC software code, in a way that will prevent DOC software from being distributed freely using an open-source development model. You needn't inform anyone that you're using DOC software in your software, though we encourage you to let us know so we can promote your project in the DOC software success stories.
 
@@ -20,24 +37,10 @@ The names ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), CoSMIC(TM), Washington Universi
 If you have any suggestions, additions, comments, or questions, please let me know.
 
 Douglas C. Schmidt
-</spdx:licenseText>
-    <rdfs:seeAlso>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</spdx:url>
-        <spdx:timestamp>2024-12-20T08:12:23Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >1</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <rdfs:seeAlso>http://www.cs.wustl.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
+
+</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:name>DOC License</spdx:name>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
@@ -49,10 +52,10 @@ Douglas C. Schmidt
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
-        <spdx:url>http://www.cs.wustl.edu/~schmidt/ACE-copying.html</spdx:url>
-        <spdx:timestamp>2024-12-20T08:12:22Z</spdx:timestamp>
+        <spdx:url>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</spdx:url>
+        <spdx:timestamp>2024-12-20T19:15:43Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
+        >1</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
@@ -118,13 +121,10 @@ Douglas C. Schmidt
       &lt;p&gt;Douglas C. Schmidt&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseId>DOC</spdx:licenseId>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)
+    <rdfs:seeAlso>http://www.cs.wustl.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
+    <spdx:licenseText>Copyright and Licensing Information for ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), and CoSMIC(TM)
 
-&lt;&lt;endOptional&gt;&gt;
-ACE(TM), TAO(TM), CIAO(TM), DAnCE&gt;(TM), and CoSMIC(TM) (henceforth referred to as "DOC software") are copyrighted by Douglas C. Schmidt and his research group at Washington University, University of California, Irvine, and Vanderbilt University, &lt;&lt;var;name="copyright";original="Copyright (c) 1993-2009, all rights reserved.";match=".{0,5000}"&gt;&gt; Since DOC software is open-source, freely available software, you are free to use, modify, copy, and distribute--perpetually and irrevocably--the DOC software source code and object code produced from the source, as well as copy and distribute modified versions of this software. You must, however, include this copyright statement along with any code built using DOC software that you release. No copyright statement needs to be provided if you just ship binary executables of your software products.
+ACE(TM), TAO(TM), CIAO(TM), DAnCE&gt;(TM), and CoSMIC(TM) (henceforth referred to as "DOC software") are copyrighted by Douglas C. Schmidt and his research group at Washington University, University of California, Irvine, and Vanderbilt University, Copyright (c) 1993-2009, all rights reserved. Since DOC software is open-source, freely available software, you are free to use, modify, copy, and distribute--perpetually and irrevocably--the DOC software source code and object code produced from the source, as well as copy and distribute modified versions of this software. You must, however, include this copyright statement along with any code built using DOC software that you release. No copyright statement needs to be provided if you just ship binary executables of your software products.
 
 You can use DOC software in commercial and/or binary software releases and are under no obligation to redistribute any of your source code that is built using DOC software. Note, however, that you may not misappropriate the DOC software code, such as copyrighting it yourself or claiming authorship of the DOC software code, in a way that will prevent DOC software from being distributed freely using an open-source development model. You needn't inform anyone that you're using DOC software in your software, though we encourage you to let us know so we can promote your project in the DOC software success stories.
 
@@ -137,7 +137,7 @@ The names ACE(TM), TAO(TM), CIAO(TM), DAnCE(TM), CoSMIC(TM), Washington Universi
 If you have any suggestions, additions, comments, or questions, please let me know.
 
 Douglas C. Schmidt
-
-</spdx:standardLicenseTemplate>
+</spdx:licenseText>
+    <rdfs:seeAlso>https://www.dre.vanderbilt.edu/~schmidt/ACE-copying.html</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

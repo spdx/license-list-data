@@ -5,21 +5,7 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/HPND-export2-US">
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133</spdx:url>
-        <spdx:timestamp>2024-12-20T08:21:43Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <rdfs:seeAlso>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133</rdfs:seeAlso>
     <spdx:licenseText>Copyright 2004-2008 Apple Inc.  All Rights Reserved.
 
    Export of this software from the United States of America may
@@ -42,12 +28,13 @@ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR
 IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
 WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 </spdx:licenseText>
-    <rdfs:comment>This license is very similar to HPND-export-US, but adds a second disclaimer.</rdfs:comment>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133</rdfs:seeAlso>
+    <spdx:name>HPND with US Government export control and 2 disclaimers</spdx:name>
+    <rdfs:comment>This license is very similar to HPND-export-US, but adds a second disclaimer.</rdfs:comment>
+    <spdx:licenseId>HPND-export2-US</spdx:licenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright 2004-2008 Apple Inc. All Rights Reserved.";match=".{0,5000}"&gt;&gt;
 Export of this software from the United States of America may require a specific license from the United States Government. It is the responsibility of any person or organization contemplating export to obtain such a license before exporting.
 
@@ -64,8 +51,23 @@ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
+        <spdx:url>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133</spdx:url>
+        <spdx:timestamp>2024-12-20T19:25:00Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
         <spdx:url>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</spdx:url>
-        <spdx:timestamp>2024-12-20T08:21:43Z</spdx:timestamp>
+        <spdx:timestamp>2024-12-20T19:24:59Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >1</spdx:order>
         <spdx:match>false</spdx:match>
@@ -102,8 +104,6 @@ THIS SOFTWARE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES,
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:licenseId>HPND-export2-US</spdx:licenseId>
-    <spdx:name>HPND with US Government export control and 2 disclaimers</spdx:name>
     <rdfs:seeAlso>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>
