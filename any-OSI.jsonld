@@ -2,24 +2,24 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/any-OSI",
-            "spdx:licenseId": "any-OSI",
-            "@type": "spdx:ListedLicense",
-            "spdx:name": "Any OSI License",
+            "spdx:standardLicenseTemplate": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n\n",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseId": "any-OSI",
+            "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseTextHtml": "\n         <p>\n            Pick your favourite OSI approved license :)\n         </p>\n\n         <p>\n            http://www.opensource.org/licenses/alphabetical\n         </p>\n\n      ",
+            "spdx:crossRef": {
+                "@id": "_:b0"
             },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n",
-            "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:standardLicenseTemplate": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n\n",
-            "spdx:licenseTextHtml": "\n         <p>\n            Pick your favourite OSI approved license :)\n         </p>\n\n         <p>\n            http://www.opensource.org/licenses/alphabetical\n         </p>\n\n      "
+            "spdx:name": "Any OSI License",
+            "spdx:licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n"
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
-            "spdx:timestamp": "2024-12-19T09:28:38Z",
+            "spdx:timestamp": "2024-12-20T08:11:49Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
