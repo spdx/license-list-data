@@ -1,6 +1,27 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/TermReadKey",
+            "spdx:licenseTextHtml": "\n         <p>\n            Unlimited distribution and/or modification is allowed\n            as long as this copyright notice remains intact.\n         </p>\n\n      ",
+            "spdx:licenseText": "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:standardLicenseTemplate": "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "TermReadKey License",
+            "spdx:licenseId": "TermReadKey",
+            "rdfs:seeAlso": "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
+        },
+        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10",
-            "spdx:timestamp": "2024-12-30T16:32:10Z",
+            "spdx:timestamp": "2024-12-30T17:31:48Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "false",
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/TermReadKey",
-            "rdfs:seeAlso": "https://github.com/jonathanstowe/TermReadKey/blob/master/README#L9-L10",
-            "spdx:licenseTextHtml": "\n         <p>\n            Unlimited distribution and/or modification is allowed\n            as long as this copyright notice remains intact.\n         </p>\n\n      ",
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseText": "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n",
-            "spdx:name": "TermReadKey License",
-            "spdx:licenseId": "TermReadKey",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "Unlimited distribution and/or modification is allowed as long as this copyright notice remains intact.\n\n"
         }
     ],
     "@context": {
