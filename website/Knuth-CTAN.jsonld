@@ -1,6 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://ctan.org/license/knuth",
+            "spdx:timestamp": "2024-12-30T16:28:21Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Knuth-CTAN",
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": "https://ctan.org/license/knuth",
@@ -17,33 +40,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseText": "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n",
             "spdx:crossRef": {
                 "@id": "_:b0"
-            }
-        },
-        {
-            "@id": "_:b0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://ctan.org/license/knuth",
-            "spdx:timestamp": "2024-12-20T19:21:52Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
+            "spdx:licenseText": "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n"
         }
     ],
     "@context": {

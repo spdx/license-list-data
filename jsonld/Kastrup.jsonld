@@ -1,6 +1,27 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/Kastrup",
+            "rdfs:seeAlso": "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "Kastrup License",
+            "@type": "spdx:ListedLicense",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright(c) 2001 by David Kastrup\";match=\".{0,5000}\">>\nAny use of the code is permitted as long as this copyright notice is preserved in the code.\n\n",
+            "spdx:licenseId": "Kastrup",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n           Copyright(c) 2001 by David Kastrup\n         </span></var>\n         <p>\n            Any use of the code is permitted\n            as long as this copyright notice is preserved in the code.\n         </p>\n\n      ",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseText": "Copyright(c) 2001 by David Kastrup\nAny use of the code is permitted as long as this copyright \nnotice is preserved in the code.\n"
+        },
+        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx",
-            "spdx:timestamp": "2024-12-20T19:20:49Z",
+            "spdx:timestamp": "2024-12-30T16:27:29Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Kastrup",
-            "rdfs:seeAlso": "https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "Kastrup License",
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright(c) 2001 by David Kastrup\";match=\".{0,5000}\">>\nAny use of the code is permitted as long as this copyright notice is preserved in the code.\n\n",
-            "spdx:licenseId": "Kastrup",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n           Copyright(c) 2001 by David Kastrup\n         </span></var>\n         <p>\n            Any use of the code is permitted\n            as long as this copyright notice is preserved in the code.\n         </p>\n\n      ",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseText": "Copyright(c) 2001 by David Kastrup\nAny use of the code is permitted as long as this copyright \nnotice is preserved in the code.\n"
         }
     ],
     "@context": {
