@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/w3m",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "rdfs:seeAlso": "https://github.com/tats/w3m/blob/master/COPYING",
             "@type": "spdx:ListedLicense",
             "spdx:isOsiApproved": {
@@ -9,9 +12,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(C) Copyright 1994-2002 by Akinori Ito (C) Copyright 2002-2011 by Akinori Ito, Hironori Sakamoto, Fumitoshi Ukai\";match=\".{0,5000}\">>\nUse, modification and redistribution of this software is hereby granted, provided that this entire copyright notice is included on any copies of this software and applications and derivations thereof.\n\nThis software is provided on an \"as is\" basis, without warranty of any kind, either expressed or implied, as to any matter including, but not limited to warranty of fitness of purpose, or merchantability, or results obtained from use of this software.\n\n",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:licenseId": "w3m",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -36,12 +36,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/tats/w3m/blob/master/COPYING",
-            "spdx:timestamp": "2024-12-20T19:14:55Z",
+            "spdx:timestamp": "2024-12-30T16:21:40Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "false",
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],
