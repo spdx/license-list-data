@@ -5,15 +5,28 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Sun-PPP">
-    <spdx:licenseId>Sun-PPP</spdx:licenseId>
     <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 2001 by Sun Microsystems, Inc. All rights reserved.";match=".{0,5000}"&gt;&gt;
 Non-exclusive rights to redistribute, modify, translate, and use this software in source and binary forms, in whole or in part, is hereby granted, provided that the above copyright notice is duplicated in any source form, and that neither the name of the copyright holder nor the author is used to endorse or promote products derived from this software.
 
 THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
 </spdx:standardLicenseTemplate>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>https://github.com/ppp-project/ppp/blob/master/pppd/eap.c#L7-L16</rdfs:seeAlso>
+    <spdx:licenseId>Sun-PPP</spdx:licenseId>
+    <spdx:licenseText>Copyright (c) 2001 by Sun Microsystems, Inc.
+All rights reserved.
+
+Non-exclusive rights to redistribute, modify, translate, and use
+this software in source and binary forms, in whole or in part, is
+hereby granted, provided that the above copyright notice is
+duplicated in any source form, and that neither the name of the
+copyright holder nor the author is used to endorse or promote
+products derived from this software.
+
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
+</spdx:licenseText>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
@@ -38,7 +51,8 @@ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIE
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:name>Sun PPP License</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -48,26 +62,12 @@ THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIE
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://github.com/ppp-project/ppp/blob/master/pppd/eap.c#L7-L16</spdx:url>
-        <spdx:timestamp>2024-12-30T16:29:20Z</spdx:timestamp>
+        <spdx:timestamp>2024-12-30T17:28:52Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:licenseText>Copyright (c) 2001 by Sun Microsystems, Inc.
-All rights reserved.
-
-Non-exclusive rights to redistribute, modify, translate, and use
-this software in source and binary forms, in whole or in part, is
-hereby granted, provided that the above copyright notice is
-duplicated in any source form, and that neither the name of the
-copyright holder nor the author is used to endorse or promote
-products derived from this software.
-
-THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
-IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
-WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.
-</spdx:licenseText>
-    <rdfs:seeAlso>https://github.com/ppp-project/ppp/blob/master/pppd/eap.c#L7-L16</rdfs:seeAlso>
+    <spdx:name>Sun PPP License</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

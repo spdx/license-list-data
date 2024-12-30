@@ -5,6 +5,12 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Cronyx">
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>https://gitlab.freedesktop.org/xorg/font/screen-cyrillic/-/blob/master/COPYING</rdfs:seeAlso>
+    <rdfs:seeAlso>https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/-/blob/master/COPYING</rdfs:seeAlso>
     <rdfs:seeAlso>https://gitlab.freedesktop.org/xorg/font/alias/-/blob/master/COPYING</rdfs:seeAlso>
     <spdx:licenseText>This package contains a set of Russian fonts for X11 Release 6.
 Copyright (C) 1994-1995 Cronyx Ltd.
@@ -18,41 +24,6 @@ and these terms are retained. Under no circumstances is the author
 responsible for the proper functioning of this software, nor does
 the author assume any responsibility for damages incurred with its use.
 </spdx:licenseText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://gitlab.freedesktop.org/xorg/font/cronyx-cyrillic/-/blob/master/COPYING</spdx:url>
-        <spdx:timestamp>2024-12-30T16:25:19Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >1</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://gitlab.freedesktop.org/xorg/font/screen-cyrillic/-/blob/master/COPYING</spdx:url>
-        <spdx:timestamp>2024-12-30T16:24:52Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >3</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <rdfs:seeAlso>https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/-/blob/master/COPYING</rdfs:seeAlso>
-    <spdx:licenseId>Cronyx</spdx:licenseId>
-    <spdx:name>Cronyx License</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -62,14 +33,12 @@ the author assume any responsibility for damages incurred with its use.
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/-/blob/master/COPYING</spdx:url>
-        <spdx:timestamp>2024-12-30T16:25:06Z</spdx:timestamp>
+        <spdx:timestamp>2024-12-30T17:24:24Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >2</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
          &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
            &lt;p&gt;
@@ -94,6 +63,7 @@ the author assume any responsibility for damages incurred with its use.
 This software may be used, modified, copied, distributed&lt;&lt;beginOptional&gt;&gt; ,&lt;&lt;endOptional&gt;&gt; and sold, in both source and binary form provided that the&lt;&lt;beginOptional&gt;&gt; above&lt;&lt;endOptional&gt;&gt; copyright and these terms are retained. Under no circumstances is the author responsible for the proper functioning of this software, nor does the author assume any responsibility for damages incurred with its use.
 
 </spdx:standardLicenseTemplate>
+    <spdx:licenseId>Cronyx</spdx:licenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -103,13 +73,43 @@ This software may be used, modified, copied, distributed&lt;&lt;beginOptional&gt
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://gitlab.freedesktop.org/xorg/font/alias/-/blob/master/COPYING</spdx:url>
-        <spdx:timestamp>2024-12-30T16:24:59Z</spdx:timestamp>
+        <spdx:timestamp>2024-12-30T17:24:20Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
     <rdfs:seeAlso>https://gitlab.freedesktop.org/xorg/font/cronyx-cyrillic/-/blob/master/COPYING</rdfs:seeAlso>
-    <rdfs:seeAlso>https://gitlab.freedesktop.org/xorg/font/screen-cyrillic/-/blob/master/COPYING</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://gitlab.freedesktop.org/xorg/font/screen-cyrillic/-/blob/master/COPYING</spdx:url>
+        <spdx:timestamp>2024-12-30T17:24:17Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >3</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://gitlab.freedesktop.org/xorg/font/cronyx-cyrillic/-/blob/master/COPYING</spdx:url>
+        <spdx:timestamp>2024-12-30T17:24:29Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:name>Cronyx License</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>
