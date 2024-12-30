@@ -5,7 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/mxml-exception">
-    <spdx:name>mxml Exception</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;Mini-XML
 
 Copyright © 2003-2024 by Michael R Sweet
@@ -16,28 +17,7 @@ Copyright © 2003-2024 by Michael R Sweet
 In addition, if you combine or link compiled forms of this Software with software that is licensed under the GPLv2 or LGPLv2 ("Combined Software") and if a court of competent jurisdiction determines that the patent provision (Section 3), the indemnity provision (Section 9) or other Section of the License conflicts with the conditions of the GPLv2 or LGPLv2, you may retroactively and prospectively choose to deem waived or otherwise exclude such Section(s) of the License, but only in their entirety and only with respect to the Combined Software.
 
 </spdx:licenseExceptionTemplate>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseExceptionId>mxml-exception</spdx:licenseExceptionId>
-    <spdx:licenseExceptionText>Mini-XML
-
-Copyright © 2003-2024 by Michael R Sweet
-
-
-(Optional) Exceptions to the Apache 2.0 License:
-================================================
-
-In addition, if you combine or link compiled forms of this Software with
-software that is licensed under the GPLv2 or LGPLv2 (“Combined Software”) and if
-a court of competent jurisdiction determines that the patent provision (Section
-3), the indemnity provision (Section 9) or other Section of the License
-conflicts with the conditions of the GPLv2 or LGPLv2, you may retroactively and
-prospectively choose to deem waived or otherwise exclude such Section(s) of the
-License, but only in their entirety and only with respect to the Combined
-Software.
-</spdx:licenseExceptionText>
     <rdfs:seeAlso>https://github.com/michaelrsweet/mxml/blob/master/LICENSE</rdfs:seeAlso>
-    <rdfs:comment>This is similar to the LLVM-exception, but omits the first paragraph.</rdfs:comment>
     <spdx:exceptionTextHtml>
                 &lt;div class="optional-license-text"&gt; 
                         &lt;p&gt;
@@ -66,6 +46,26 @@ Software.
       &lt;/p&gt;
 
 	  </spdx:exceptionTextHtml>
+    <spdx:name>mxml Exception</spdx:name>
+    <rdfs:comment>This is similar to the LLVM-exception, but omits the first paragraph.</rdfs:comment>
+    <spdx:licenseExceptionId>mxml-exception</spdx:licenseExceptionId>
     <rdfs:seeAlso>https://github.com/michaelrsweet/mxml/blob/master/NOTICE</rdfs:seeAlso>
+    <spdx:licenseExceptionText>Mini-XML
+
+Copyright © 2003-2024 by Michael R Sweet
+
+
+(Optional) Exceptions to the Apache 2.0 License:
+================================================
+
+In addition, if you combine or link compiled forms of this Software with
+software that is licensed under the GPLv2 or LGPLv2 (“Combined Software”) and if
+a court of competent jurisdiction determines that the patent provision (Section
+3), the indemnity provision (Section 9) or other Section of the License
+conflicts with the conditions of the GPLv2 or LGPLv2, you may retroactively and
+prospectively choose to deem waived or otherwise exclude such Section(s) of the
+License, but only in their entirety and only with respect to the Combined
+Software.
+</spdx:licenseExceptionText>
   </spdx:ListedLicenseException>
 </rdf:RDF>

@@ -2,10 +2,15 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/MirOS",
+            "spdx:licenseId": "MirOS",
+            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>The MirOS Licence</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright [YEAR] [NAME] [EMAIL]\n      </p>\n\n      </span></div>\n\n      <p>Provided that these terms and disclaimer and all copyright notices are retained or reproduced in an\n         accompanying document, permission is granted to deal in this work without restriction, including\n         unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or\n         sublicence.</p>\n\n      <p>This work is provided &quot;AS IS&quot; and WITHOUT WARRANTY of any kind, to the utmost extent permitted by\n         applicable law, neither express nor implied; without malicious intent or gross negligence. In no event\n         may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or\n         other issues arising in any way out of dealing in the work, even if advised of the possibility of such\n         damage or existence of a defect, except proven that it results out of said person&apos;s immediate fault\n         when using the work as intended.</p>\n\n    ",
+            "spdx:standardLicenseTemplate": "<<beginOptional>>The MirOS Licence\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright [YEAR] [NAME] [EMAIL]  \";match=\".{0,5000}\">>\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.\n\n",
+            "rdfs:seeAlso": "https://opensource.org/licenses/MirOS",
+            "@type": "spdx:ListedLicense",
+            "spdx:name": "The MirOS Licence",
             "spdx:crossRef": {
                 "@id": "_:b0"
             },
-            "spdx:name": "The MirOS Licence",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -14,12 +19,7 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>The MirOS Licence</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright [YEAR] [NAME] [EMAIL]\n      </p>\n\n      </span></div>\n\n      <p>Provided that these terms and disclaimer and all copyright notices are retained or reproduced in an\n         accompanying document, permission is granted to deal in this work without restriction, including\n         unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or\n         sublicence.</p>\n\n      <p>This work is provided &quot;AS IS&quot; and WITHOUT WARRANTY of any kind, to the utmost extent permitted by\n         applicable law, neither express nor implied; without malicious intent or gross negligence. In no event\n         may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or\n         other issues arising in any way out of dealing in the work, even if advised of the possibility of such\n         damage or existence of a defect, except proven that it results out of said person&apos;s immediate fault\n         when using the work as intended.</p>\n\n    ",
-            "spdx:standardLicenseTemplate": "<<beginOptional>>The MirOS Licence\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright [YEAR] [NAME] [EMAIL]  \";match=\".{0,5000}\">>\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.\n\n",
-            "spdx:licenseId": "MirOS",
-            "spdx:licenseText": "The MirOS Licence\n\nCopyright [YEAR] [NAME] [EMAIL]\n\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.\n\n",
-            "rdfs:seeAlso": "https://opensource.org/licenses/MirOS"
+            "spdx:licenseText": "The MirOS Licence\n\nCopyright [YEAR] [NAME] [EMAIL]\n\nProvided that these terms and disclaimer and all copyright notices are retained or reproduced in an accompanying document, permission is granted to deal in this work without restriction, including unlimited rights to use, publicly perform, distribute, sell, modify, merge, give away, or sublicence.\n\nThis work is provided \"AS IS\" and WITHOUT WARRANTY of any kind, to the utmost extent permitted by applicable law, neither express nor implied; without malicious intent or gross negligence. In no event may a licensor, author or contributor be held liable for indirect, direct, other damage, loss, or other issues arising in any way out of dealing in the work, even if advised of the possibility of such damage or existence of a defect, except proven that it results out of said person's immediate fault when using the work as intended.\n\n"
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/licenses/MirOS",
-            "spdx:timestamp": "2024-12-30T17:20:51Z",
+            "spdx:timestamp": "2024-12-30T17:54:47Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
