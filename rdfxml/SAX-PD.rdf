@@ -5,11 +5,21 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/SAX-PD">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:name>Sax Public Domain Notice</spdx:name>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://www.saxproject.org/copying.html</spdx:url>
+        <spdx:timestamp>2025-01-05T19:23:58Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseText>Copyright Status
 
 SAX is free!
@@ -42,7 +52,9 @@ I hereby abandon any property rights to SAX 2.0 (the Simple API for XML), and re
 David Megginson, Megginson Technologies Ltd.
 2000-05-05
 </spdx:licenseText>
-    <rdfs:seeAlso>http://www.saxproject.org/copying.html</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseId>SAX-PD</spdx:licenseId>
     <spdx:standardLicenseTemplate>Copyright Status
 
 SAX is free!
@@ -76,6 +88,8 @@ David Megginson, Megginson Technologies Ltd.
 2000-05-05
 
 </spdx:standardLicenseTemplate>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
       &lt;p&gt;Copyright Status&lt;/p&gt;
 
@@ -131,21 +145,7 @@ David Megginson, Megginson Technologies Ltd.
       &lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://www.saxproject.org/copying.html</spdx:url>
-        <spdx:timestamp>2024-12-30T17:55:47Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:licenseId>SAX-PD</spdx:licenseId>
+    <rdfs:seeAlso>http://www.saxproject.org/copying.html</rdfs:seeAlso>
+    <spdx:name>Sax Public Domain Notice</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

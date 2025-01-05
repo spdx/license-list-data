@@ -5,6 +5,16 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/snprintf">
+    <spdx:name>snprintf License</spdx:name>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright Patrick Powell 1995";match=".{0,5000}"&gt;&gt;
+This code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions
+
+</spdx:standardLicenseTemplate>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:licenseId>snprintf</spdx:licenseId>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -14,19 +24,16 @@
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2</spdx:url>
-        <spdx:timestamp>2024-12-30T18:00:19Z</spdx:timestamp>
+        <spdx:timestamp>2025-01-05T19:28:35Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:seeAlso>https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2</rdfs:seeAlso>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright Patrick Powell 1995";match=".{0,5000}"&gt;&gt;
-This code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions
+    <spdx:licenseText>Copyright Patrick Powell 1995 
 
-</spdx:standardLicenseTemplate>
-    <spdx:licenseId>snprintf</spdx:licenseId>
-    <spdx:name>snprintf License</spdx:name>
+This code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions
+</spdx:licenseText>
     <spdx:licenseTextHtml>
          &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
             Copyright Patrick Powell 1995
@@ -38,13 +45,6 @@ This code is based on code written by Patrick Powell (papowell@astart.com) It ma
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseText>Copyright Patrick Powell 1995 
-
-This code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions
-</spdx:licenseText>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>
