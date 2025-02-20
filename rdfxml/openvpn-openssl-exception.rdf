@@ -5,6 +5,15 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/openvpn-openssl-exception">
+    <spdx:licenseExceptionId>openvpn-openssl-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://github.com/psycopg/psycopg2/blob/2_9_3/LICENSE#L14</rdfs:seeAlso>
+    <rdfs:seeAlso>http://openvpn.net/index.php/license.html</rdfs:seeAlso>
+    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;Special exception for linking OpenVPN with OpenSSL:
+
+&lt;&lt;endOptional&gt;&gt;
+In addition, as a special exception, &lt;&lt;var;name="organization";original="OpenVPN Technologies, Inc.";match=".+"&gt;&gt; &lt;&lt;var;name="give";original="gives";match="give|gives"&gt;&gt; permission to link &lt;&lt;var;name="thisProgram";original="the code of this program";match="the code of this program|this program"&gt;&gt; with the OpenSSL Library (or with modified versions of OpenSSL that use the same license as OpenSSL), and distribute linked combinations including the two. You must obey the GNU&lt;&lt;beginOptional&gt;&gt; Lesser&lt;&lt;endOptional&gt;&gt; General Public License in all respects for all of the code used other than OpenSSL. If you modify &lt;&lt;var;name="file";original="this file";match="(this file)|file(\(s\))?"&gt;&gt;&lt;&lt;var;name="this exception";original="";match="()|( with this exception)"&gt;&gt;, you may extend this exception to your version of the &lt;&lt;var;name="file2";original="file";match="file(\(s\))?"&gt;&gt; , but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
+
+&lt;&lt;beginOptional&gt;&gt;If you delete this exception statement from all source files in the program, then also delete it here.&lt;&lt;endOptional&gt;&gt;</spdx:licenseExceptionTemplate>
     <spdx:exceptionTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;Special exception for linking OpenVPN with OpenSSL:&lt;/p&gt;
@@ -30,22 +39,13 @@
          source files in the program, then also delete it here.
       &lt;/var&gt;
     </spdx:exceptionTextHtml>
+    <rdfs:comment>Typically used with GPL 2.0</rdfs:comment>
+    <spdx:name>OpenVPN OpenSSL Exception</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseExceptionText>Special exception for linking OpenVPN with OpenSSL:
 
 In addition, as a special exception, OpenVPN Technologies, Inc. gives permission to link the code of this program with the OpenSSL Library (or with modified versions of OpenSSL that use the same license as OpenSSL), and distribute linked combinations including the two. You must obey the GNU General Public License in all respects for all of the code used other than OpenSSL. If you modify this file, you may extend this exception to your version of the file, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
 </spdx:licenseExceptionText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>http://openvpn.net/index.php/license.html</rdfs:seeAlso>
-    <spdx:licenseExceptionId>openvpn-openssl-exception</spdx:licenseExceptionId>
-    <rdfs:comment>Typically used with GPL 2.0</rdfs:comment>
-    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;Special exception for linking OpenVPN with OpenSSL:
-
-&lt;&lt;endOptional&gt;&gt;
-In addition, as a special exception, &lt;&lt;var;name="organization";original="OpenVPN Technologies, Inc.";match=".+"&gt;&gt; &lt;&lt;var;name="give";original="gives";match="give|gives"&gt;&gt; permission to link &lt;&lt;var;name="thisProgram";original="the code of this program";match="the code of this program|this program"&gt;&gt; with the OpenSSL Library (or with modified versions of OpenSSL that use the same license as OpenSSL), and distribute linked combinations including the two. You must obey the GNU&lt;&lt;beginOptional&gt;&gt; Lesser&lt;&lt;endOptional&gt;&gt; General Public License in all respects for all of the code used other than OpenSSL. If you modify &lt;&lt;var;name="file";original="this file";match="(this file)|file(\(s\))?"&gt;&gt;&lt;&lt;var;name="this exception";original="";match="()|( with this exception)"&gt;&gt;, you may extend this exception to your version of the &lt;&lt;var;name="file2";original="file";match="file(\(s\))?"&gt;&gt; , but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.
-
-&lt;&lt;beginOptional&gt;&gt;If you delete this exception statement from all source files in the program, then also delete it here.&lt;&lt;endOptional&gt;&gt;</spdx:licenseExceptionTemplate>
-    <spdx:name>OpenVPN OpenSSL Exception</spdx:name>
-    <rdfs:seeAlso>https://github.com/psycopg/psycopg2/blob/2_9_3/LICENSE#L14</rdfs:seeAlso>
   </spdx:ListedLicenseException>
 </rdf:RDF>

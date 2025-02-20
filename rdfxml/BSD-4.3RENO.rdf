@@ -5,13 +5,30 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/BSD-4.3RENO">
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1987 Regents of the University of California. All rights reserved.";match=".{0,5000}"&gt;&gt;
 Redistribution and use in source and binary forms are permitted provided that this notice is preserved and that due credit is given to the &lt;&lt;var;name="name";original="University of California at Berkeley";match=".+"&gt;&gt; . The name of the University may not be used to endorse or promote products derived from this software without specific &lt;&lt;var;name="written";original="written prior";match="written prior|prior written"&gt;&gt; permission. This software is provided ``as is'' without express or implied warranty.
 
 </spdx:standardLicenseTemplate>
+    <rdfs:seeAlso>https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD</spdx:url>
+        <spdx:timestamp>2025-02-20T14:53:31Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseId>BSD-4.3RENO</spdx:licenseId>
+    <rdfs:seeAlso>https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD</rdfs:seeAlso>
     <spdx:licenseTextHtml>
          &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
             Copyright (c) 1987 Regents of the University
@@ -27,22 +44,6 @@ Redistribution and use in source and binary forms are permitted provided that th
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:name>BSD 4.3 RENO License</spdx:name>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63</spdx:url>
-        <spdx:timestamp>2025-01-05T19:27:16Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >1</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:licenseText>Copyright (c) 1987 Regents of the University of California.
 All rights reserved.
 
@@ -53,10 +54,7 @@ may not be used to endorse or promote products derived from this
 software without specific written prior permission. This software
 is provided ``as is'' without express or implied warranty.
 </spdx:licenseText>
-    <rdfs:seeAlso>https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63</rdfs:seeAlso>
-    <rdfs:seeAlso>https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD</rdfs:seeAlso>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
+    <spdx:name>BSD 4.3 RENO License</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -65,12 +63,14 @@ is provided ``as is'' without express or implied warranty.
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
-        <spdx:url>https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD</spdx:url>
-        <spdx:timestamp>2025-01-05T19:27:15Z</spdx:timestamp>
+        <spdx:url>https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63</spdx:url>
+        <spdx:timestamp>2025-02-20T14:53:26Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
+        >1</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

@@ -5,7 +5,21 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/ImageMagick">
-    <rdfs:seeAlso>http://www.imagemagick.org/script/license.php</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://www.imagemagick.org/script/license.php</spdx:url>
+        <spdx:timestamp>2025-02-20T14:51:35Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;Before we get to the text of the license, lets just review what the license says in simple terms:&lt;/p&gt;
@@ -352,23 +366,6 @@
       &lt;/div&gt;
     </spdx:licenseTextHtml>
     <rdfs:comment>The ImageMagick license is nearly identical to the Apache-2.0 license. The differences are the title and additional preamble, and the omission of the parenthetical "(except as stated in this section)" from Section 3.</rdfs:comment>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://www.imagemagick.org/script/license.php</spdx:url>
-        <spdx:timestamp>2025-01-05T19:31:17Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Before we get to the text of the license, lets just review what the license says in simple terms:
 
 It allows you to:
@@ -452,9 +449,13 @@ http://www.imagemagick.org/script/license.php
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <spdx:name>ImageMagick License</spdx:name>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>http://www.imagemagick.org/script/license.php</rdfs:seeAlso>
+    <spdx:licenseId>ImageMagick</spdx:licenseId>
+    <spdx:name>ImageMagick License</spdx:name>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:licenseText>Before we get to the text of the license, lets just review what the license says in simple terms:
 
 It allows you to:
@@ -554,6 +555,5 @@ To apply the ImageMagick License to your work, attach the following boilerplate 
 
      Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 </spdx:licenseText>
-    <spdx:licenseId>ImageMagick</spdx:licenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

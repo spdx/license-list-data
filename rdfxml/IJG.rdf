@@ -5,8 +5,27 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/IJG">
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:name>Independent JPEG Group License</spdx:name>
-    <rdfs:seeAlso>http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2</spdx:url>
+        <spdx:timestamp>2025-02-20T14:48:44Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:licenseId>IJG</spdx:licenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:licenseText>Independent JPEG Group License
 
 LEGAL ISSUES
@@ -46,6 +65,8 @@ The IJG distribution formerly included code to read and write GIF files. To avoi
 We are required to state that
      "The Graphics Interchange Format(c) is the Copyright property of CompuServe Incorporated. GIF(sm) is a Service Mark property of CompuServe Incorporated."
 </spdx:licenseText>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Independent JPEG Group License
 
 &lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; LEGAL ISSUES
@@ -85,28 +106,6 @@ We are required to state that
 "The Graphics Interchange Format(c) is the Copyright property of CompuServe Incorporated. GIF(sm) is a Service Mark property of CompuServe Incorporated."
 
 </spdx:standardLicenseTemplate>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
-    <spdx:licenseId>IJG</spdx:licenseId>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2</spdx:url>
-        <spdx:timestamp>2025-01-05T19:26:42Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;Independent JPEG Group License&lt;/p&gt;
@@ -214,5 +213,6 @@ We are required to state that
       &lt;/p&gt;
 
     </spdx:licenseTextHtml>
+    <rdfs:seeAlso>http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>
