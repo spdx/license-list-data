@@ -5,6 +5,42 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/psutils">
+    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/psutils</rdfs:seeAlso>
+    <spdx:licenseText>PS Utilities Package
+
+The constituent files of this package listed below are copyright (C) 1991-1995 Angus J. C. Duggan.
+
+LICENSE          Makefile.msc     Makefile.nt	   Makefile.os2
+Makefile.unix    README           config.h         descrip.mms
+epsffit.c        epsffit.man	  extractres.man   extractres.pl
+fixdlsrps.man    fixdlsrps.pl     fixfmps.man	   fixfmps.pl
+fixmacps.man     fixmacps.pl	  fixpsditps.man   fixpsditps.pl
+fixpspps.man     fixpspps.pl	  fixscribeps.man  fixscribeps.pl
+fixtpps.man	 fixtpps.pl	  fixwfwps.man     fixwfwps.pl
+fixwpps.man	 fixwpps.pl	  fixwwps.man	   fixwwps.pl
+getafm           getafm.man	  includeres.man   includeres.pl
+maketext         patchlev.h	  psbook.c         psbook.man
+pserror.c        pserror.h        psmerge.man	   psmerge.pl
+psnup.c          psnup.man        psresize.c	   psresize.man
+psselect.c	 psselect.man     psspec.c         psspec.h
+pstops.c         pstops.man	  psutil.c         psutil.h
+showchar
+
+They may be copied and used for any purpose (including distribution as part of a for-profit product), provided:
+
+1) The original attribution of the programs is clearly displayed in the product and/or documentation, even if the programs are modified and/or renamed as part of the product.
+
+2) The original source code of the programs is provided free of charge (except for reasonable distribution costs). For a definition of reasonable distribution costs, see the Gnu General Public License or Larry Wall's Artistic License (provided with the Perl 4 kit). The GPL and Artistic License in NO WAY affect this license; they are merely used as examples of the spirit in which it is intended.
+
+3) These programs are provided "as-is". No warranty or guarantee of their fitness for any particular task is provided. Use of these programs is completely at your own risk.
+
+Basically, I don't mind how you use the programs so long as you acknowledge the author, and give people the originals if they want them.
+</spdx:licenseText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:licenseId>psutils</spdx:licenseId>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;PS Utilities Package
 
 &lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="The constituent files of this package listed below are copyright (C) 1991-1995 Angus J. C. Duggan.   LICENSE Makefile.msc Makefile.nt Makefile.os2 Makefile.unix README config.h descrip.mms epsffit.c epsffit.man extractres.man extractres.pl fixdlsrps.man fixdlsrps.pl fixfmps.man fixfmps.pl fixmacps.man fixmacps.pl fixpsditps.man fixpsditps.pl fixpspps.man fixpspps.pl fixscribeps.man fixscribeps.pl fixtpps.man fixtpps.pl fixwfwps.man fixwfwps.pl fixwpps.man fixwpps.pl fixwwps.man fixwwps.pl getafm getafm.man includeres.man includeres.pl maketext patchlev.h psbook.c psbook.man pserror.c pserror.h psmerge.man psmerge.pl psnup.c psnup.man psresize.c psresize.man psselect.c psselect.man psspec.c psspec.h pstops.c pstops.man psutil.c psutil.h showchar  ";match=".{0,5000}"&gt;&gt;
@@ -16,7 +52,7 @@ They may be copied and used for any purpose (including distribution as part of a
 Basically, I don't mind how you use the programs so long as you acknowledge the author, and give people the originals if they want them.
 
 </spdx:standardLicenseTemplate>
-    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/psutils</rdfs:seeAlso>
+    <spdx:name>psutils License</spdx:name>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;PS Utilities Package&lt;/p&gt;
@@ -89,7 +125,6 @@ showchar
          the originals if they want them.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:name>psutils License</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -99,46 +134,11 @@ showchar
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://fedoraproject.org/wiki/Licensing/psutils</spdx:url>
-        <spdx:timestamp>2025-02-20T14:56:26Z</spdx:timestamp>
+        <spdx:timestamp>2025-02-20T15:17:32Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:licenseText>PS Utilities Package
-
-The constituent files of this package listed below are copyright (C) 1991-1995 Angus J. C. Duggan.
-
-LICENSE          Makefile.msc     Makefile.nt	   Makefile.os2
-Makefile.unix    README           config.h         descrip.mms
-epsffit.c        epsffit.man	  extractres.man   extractres.pl
-fixdlsrps.man    fixdlsrps.pl     fixfmps.man	   fixfmps.pl
-fixmacps.man     fixmacps.pl	  fixpsditps.man   fixpsditps.pl
-fixpspps.man     fixpspps.pl	  fixscribeps.man  fixscribeps.pl
-fixtpps.man	 fixtpps.pl	  fixwfwps.man     fixwfwps.pl
-fixwpps.man	 fixwpps.pl	  fixwwps.man	   fixwwps.pl
-getafm           getafm.man	  includeres.man   includeres.pl
-maketext         patchlev.h	  psbook.c         psbook.man
-pserror.c        pserror.h        psmerge.man	   psmerge.pl
-psnup.c          psnup.man        psresize.c	   psresize.man
-psselect.c	 psselect.man     psspec.c         psspec.h
-pstops.c         pstops.man	  psutil.c         psutil.h
-showchar
-
-They may be copied and used for any purpose (including distribution as part of a for-profit product), provided:
-
-1) The original attribution of the programs is clearly displayed in the product and/or documentation, even if the programs are modified and/or renamed as part of the product.
-
-2) The original source code of the programs is provided free of charge (except for reasonable distribution costs). For a definition of reasonable distribution costs, see the Gnu General Public License or Larry Wall's Artistic License (provided with the Perl 4 kit). The GPL and Artistic License in NO WAY affect this license; they are merely used as examples of the spirit in which it is intended.
-
-3) These programs are provided "as-is". No warranty or guarantee of their fitness for any particular task is provided. Use of these programs is completely at your own risk.
-
-Basically, I don't mind how you use the programs so long as you acknowledge the author, and give people the originals if they want them.
-</spdx:licenseText>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseId>psutils</spdx:licenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

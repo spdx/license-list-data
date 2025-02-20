@@ -6,24 +6,15 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
 <http://spdx.org/licenses/MIT-Modern-Variant>
         a                             spdx:ListedLicense;
         rdfs:comment                  "This license is labeled as \"Modern Variant\" based on its corresponding listing on the Fedora licensing wiki page.";
-        rdfs:seeAlso                  "https://ptolemy.berkeley.edu/copyright.htm" , "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html" , "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants";
+        rdfs:seeAlso                  "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants" , "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html" , "https://ptolemy.berkeley.edu/copyright.htm";
         spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         true;
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "true";
                                         spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-02-20T14:57:15Z";
+                                        spdx:timestamp      "2025-02-20T15:18:21Z";
                                         spdx:url            "https://ptolemy.berkeley.edu/copyright.htm"
-                                      ];
-        spdx:crossRef                 [ a                   spdx:CrossRef;
-                                        spdx:isLive         true;
-                                        spdx:isValid        true;
-                                        spdx:isWayBackLink  false;
-                                        spdx:match          "true";
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-02-20T14:57:14Z";
-                                        spdx:url            "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants"
                                       ];
         spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         true;
@@ -31,8 +22,17 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                         spdx:isWayBackLink  false;
                                         spdx:match          "false";
                                         spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-02-20T14:57:14Z";
+                                        spdx:timestamp      "2025-02-20T15:18:21Z";
                                         spdx:url            "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2025-02-20T15:18:20Z";
+                                        spdx:url            "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants"
                                       ];
         spdx:isDeprecatedLicenseId    false;
         spdx:isOsiApproved            true;

@@ -5,7 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Artistic-1.0-Perl">
-    <spdx:name>Artistic License 1.0 (Perl)</spdx:name>
+    <rdfs:seeAlso>http://dev.perl.org/licenses/artistic.html</rdfs:seeAlso>
+    <rdfs:comment>This is the Artistic License 1.0 found on the Perl site, which is different (particularly, clauses 5, 6, 7 and 8) than the Artistic License 1.0 w/clause 8 found on the OSI site.</rdfs:comment>
     <spdx:licenseText>The "Artistic License"
 
 Preamble
@@ -58,7 +59,23 @@ Definitions:
 
 The End
 </spdx:licenseText>
-    <rdfs:seeAlso>http://dev.perl.org/licenses/artistic.html</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://dev.perl.org/licenses/artistic.html</spdx:url>
+        <spdx:timestamp>2025-02-20T15:12:30Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The "Artistic License"
 
 &lt;&lt;endOptional&gt;&gt;
@@ -100,24 +117,10 @@ Definitions:
    &lt;&lt;var;name="bullet";original="10.";match=".{0,20}"&gt;&gt; THIS PACKAGE IS PROVIDED "AS IS" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.&lt;&lt;beginOptional&gt;&gt; The End
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://dev.perl.org/licenses/artistic.html</spdx:url>
-        <spdx:timestamp>2025-02-20T14:51:26Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <spdx:licenseId>Artistic-1.0-Perl</spdx:licenseId>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseId>Artistic-1.0-Perl</spdx:licenseId>
+    <spdx:name>Artistic License 1.0 (Perl)</spdx:name>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;The &amp;quot;Artistic License&amp;quot;&lt;/p&gt;
@@ -297,8 +300,5 @@ Definitions:
 
       &lt;/div&gt;
     </spdx:licenseTextHtml>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isOsiApproved>
-    <rdfs:comment>This is the Artistic License 1.0 found on the Perl site, which is different (particularly, clauses 5, 6, 7 and 8) than the Artistic License 1.0 w/clause 8 found on the OSI site.</rdfs:comment>
   </spdx:ListedLicense>
 </rdf:RDF>

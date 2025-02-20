@@ -6,24 +6,24 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
 <http://spdx.org/licenses/LZMA-SDK-9.22>
         a                             spdx:ListedLicense;
         rdfs:comment                  "The license text currently displayed on the 7-zip SDK website is not the same as any of the lzma.txt file in the root folders of the .tar.bz SDK distributions (versions 922 and below) that are hosted on SourceForge, nor is it the same as the .7z distributions (versions 935 and above) which shifted the license text to DOC\\lzma-sdk.txt. This license applies to versions 9.22 and above.";
-        rdfs:seeAlso                  "https://www.7-zip.org/sdk.html" , "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/";
-        spdx:crossRef                 [ a                   spdx:CrossRef;
-                                        spdx:isLive         false;
-                                        spdx:isValid        true;
-                                        spdx:isWayBackLink  false;
-                                        spdx:match          "N/A";
-                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-02-20T14:50:00Z";
-                                        spdx:url            "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/"
-                                      ];
+        rdfs:seeAlso                  "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/" , "https://www.7-zip.org/sdk.html";
         spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         true;
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "false";
                                         spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-02-20T14:50:01Z";
+                                        spdx:timestamp      "2025-02-20T15:11:01Z";
                                         spdx:url            "https://www.7-zip.org/sdk.html"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         false;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "N/A";
+                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2025-02-20T15:11:00Z";
+                                        spdx:url            "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/"
                                       ];
         spdx:isDeprecatedLicenseId    false;
         spdx:isOsiApproved            false;

@@ -1,27 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/FSFUL",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:name": "FSF Unlimited License",
-            "spdx:licenseId": "FSFUL",
-            "@type": "spdx:ListedLicense",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseText": "Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.\n\nThis configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.\n",
-            "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.</p>\n\n      </span></div>\n\n      <p>This <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> configure</span></var> script is free software; the Free Software Foundation gives unlimited permission to copy,\n         distribute and modify it.</p>\n\n    ",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.  \";match=\".{0,5000}\">>\nThis <<var;name=\"file\";original=\"configure\";match=\".+\">> script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.\n\n"
-        },
-        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -36,13 +15,34 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License",
-            "spdx:timestamp": "2025-02-20T14:52:53Z",
+            "spdx:timestamp": "2025-02-20T15:14:01Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/FSFUL",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/FSF_Unlimited_License",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.  \";match=\".{0,5000}\">>\nThis <<var;name=\"file\";original=\"configure\";match=\".+\">> script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.\n\n",
+            "spdx:licenseId": "FSFUL",
+            "spdx:licenseText": "Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.\n\nThis configure script is free software; the Free Software Foundation gives unlimited permission to copy, distribute and modify it.\n",
+            "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (C) 1992-1996, 1998-2012 Free Software Foundation, Inc.</p>\n\n      </span></div>\n\n      <p>This <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> configure</span></var> script is free software; the Free Software Foundation gives unlimited permission to copy,\n         distribute and modify it.</p>\n\n    ",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "FSF Unlimited License"
         }
     ],
     "@context": {
