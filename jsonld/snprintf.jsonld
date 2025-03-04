@@ -1,6 +1,27 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/snprintf",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "snprintf License",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright Patrick Powell 1995\n         </span></var>\n         <p>\n            This code is based on code written by Patrick Powell\n            (papowell@astart.com) It may be used for any purpose as long\n            as this notice remains intact on all source code distributions\n         </p>\n\n      ",
+            "spdx:licenseId": "snprintf",
+            "rdfs:seeAlso": "https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright Patrick Powell 1995\";match=\".{0,5000}\">>\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:licenseText": "Copyright Patrick Powell 1995 \n\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n"
+        },
+        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2",
-            "spdx:timestamp": "2025-02-20T15:09:40Z",
+            "spdx:timestamp": "2025-03-04T07:50:58Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/snprintf",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright Patrick Powell 1995\n         </span></var>\n         <p>\n            This code is based on code written by Patrick Powell\n            (papowell@astart.com) It may be used for any purpose as long\n            as this notice remains intact on all source code distributions\n         </p>\n\n      ",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "snprintf License",
-            "spdx:licenseText": "Copyright Patrick Powell 1995 \n\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n",
-            "spdx:licenseId": "snprintf",
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright Patrick Powell 1995\";match=\".{0,5000}\">>\nThis code is based on code written by Patrick Powell (papowell@astart.com) It may be used for any purpose as long as this notice remains intact on all source code distributions\n\n",
-            "rdfs:seeAlso": "https://github.com/openssh/openssh-portable/blob/master/openbsd-compat/bsd-snprintf.c#L2"
         }
     ],
     "@context": {
