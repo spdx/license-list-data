@@ -5,11 +5,9 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/fmt-exception">
-    <spdx:licenseExceptionId>fmt-exception</spdx:licenseExceptionId>
     <spdx:name>fmt exception</spdx:name>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <rdfs:comment>Typically used with MIT.</rdfs:comment>
     <spdx:licenseExceptionText>--- Optional exception to the license ---
 
 As an exception, if, as a result of your compiling your source code, portions
@@ -24,6 +22,9 @@ As an exception, if, as a result of your compiling your source code, portions of
 
 </spdx:licenseExceptionTemplate>
     <rdfs:seeAlso>https://github.com/fmtlib/fmt/blob/master/LICENSE</rdfs:seeAlso>
+    <spdx:licenseExceptionId>fmt-exception</spdx:licenseExceptionId>
+    <rdfs:seeAlso>https://github.com/fmtlib/fmt/blob/2eb363297b24cd71a68ccfb20ff755430f17e60f/LICENSE#L22C1-L27C62</rdfs:seeAlso>
+    <rdfs:comment>Typically used with MIT.</rdfs:comment>
     <spdx:exceptionTextHtml>
       &lt;div class="optional-license-text"&gt; &lt;p&gt;--- Optional exception to the license ---&lt;/p&gt;
 &lt;/div&gt;
@@ -35,6 +36,5 @@ As an exception, if, as a result of your compiling your source code, portions of
       &lt;/p&gt;
 
    </spdx:exceptionTextHtml>
-    <rdfs:seeAlso>https://github.com/fmtlib/fmt/blob/2eb363297b24cd71a68ccfb20ff755430f17e60f/LICENSE#L22C1-L27C62</rdfs:seeAlso>
   </spdx:ListedLicenseException>
 </rdf:RDF>
