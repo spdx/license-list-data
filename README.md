@@ -4,7 +4,7 @@ Please do not submit pull requests or issues against this generated data reposit
 
 ## Preview of License List Data
 
-An HTML website containing the of the contents of this repository is available at https://spdx.github.io/license-list-data/.
+An HTML website containing the contents of this repository is available at https://spdx.github.io/license-list-data/.
 
 ## Data Formats
 
