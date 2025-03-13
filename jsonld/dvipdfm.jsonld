@@ -2,24 +2,24 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/dvipdfm",
-            "spdx:name": "dvipdfm License",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/dvipdfm",
+            "spdx:licenseId": "dvipdfm",
+            "spdx:licenseText": "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.\n",
             "spdx:standardLicenseTemplate": "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.\n\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:name": "dvipdfm License",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseText": "A modified version of this file may be distributed, but it should be distributed with a *different* name. Changed files must be distributed *together with a complete and unchanged* distribution of these files.\n",
-            "spdx:licenseId": "dvipdfm",
             "spdx:licenseTextHtml": "\n      <p>A modified version of this file may be distributed, but it should be distributed with a *different* name.\n         Changed files must be distributed *together with a complete and unchanged* distribution of these\n         files.</p>\n\n    ",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/dvipdfm"
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/dvipdfm",
-            "spdx:timestamp": "2025-03-06T20:28:42Z",
+            "spdx:timestamp": "2025-03-13T19:18:11Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

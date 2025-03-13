@@ -5,8 +5,55 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/BSD-3-Clause-flex">
+    <rdfs:seeAlso>https://github.com/westes/flex/blob/master/COPYING</rdfs:seeAlso>
+    <spdx:licenseId>BSD-3-Clause-flex</spdx:licenseId>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
+    <spdx:licenseText>Flex carries the copyright used for BSD software, slightly modified
+because it originated at the Lawrence Berkeley (not Livermore!) Laboratory,
+which operates under a contract with the Department of Energy:
+
+Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007 The Flex Project.
+
+Copyright (c) 1990, 1997 The Regents of the University of California.
+All rights reserved.
+
+This code is derived from software contributed to Berkeley by
+Vern Paxson.
+
+The United States Government has rights in this work pursuant
+to contract no. DE-AC03-76SF00098 between the United States
+Department of Energy and the University of California.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+1. Redistributions of source code must retain the above copyright
+   notice, this list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright
+   notice, this list of conditions and the following disclaimer in the
+   documentation and/or other materials provided with the distribution.
+
+Neither the name of the University nor the names of its contributors
+may be used to endorse or promote products derived from this software
+without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
+IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE.
+
+This basically says "do whatever you please with this software except
+remove this notice or take advantage of the University's (or the flex
+authors') name".
+
+Note that the "flex.skl" scanner skeleton carries no copyright notice.
+You are free to do whatever you please with scanners generated using flex;
+for them, you are not even bound by the above copyright.
+</spdx:licenseText>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Flex carries the copyright used for BSD software, slightly modified because it originated at the Lawrence Berkeley (not Livermore!) Laboratory, which operates under a contract with the Department of Energy:&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007 The Flex Project. Copyright (c) 1990, 1997 The Regents of the University of California. All rights reserved.";match=".{0,5000}"&gt;&gt;
 This code is derived from software contributed to Berkeley by Vern Paxson.
 
@@ -25,7 +72,22 @@ This basically says "do whatever you please with this software except remove thi
 Note that the "flex.skl" scanner skeleton carries no copyright notice. You are free to do whatever you please with scanners generated using flex; for them, you are not even bound by the above copyright.
 
 </spdx:standardLicenseTemplate>
-    <spdx:licenseId>BSD-3-Clause-flex</spdx:licenseId>
+    <spdx:name>BSD 3-Clause Flex variant</spdx:name>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://github.com/westes/flex/blob/master/COPYING</spdx:url>
+        <spdx:timestamp>2025-03-13T19:18:03Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseTextHtml>
          &lt;var class="optional-license-text"&gt; 
             Flex carries the copyright used for BSD software,
@@ -102,67 +164,5 @@ Note that the "flex.skl" scanner skeleton carries no copyright notice. You are f
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseText>Flex carries the copyright used for BSD software, slightly modified
-because it originated at the Lawrence Berkeley (not Livermore!) Laboratory,
-which operates under a contract with the Department of Energy:
-
-Copyright (c) 2001, 2002, 2003, 2004, 2005, 2006, 2007 The Flex Project.
-
-Copyright (c) 1990, 1997 The Regents of the University of California.
-All rights reserved.
-
-This code is derived from software contributed to Berkeley by
-Vern Paxson.
-
-The United States Government has rights in this work pursuant
-to contract no. DE-AC03-76SF00098 between the United States
-Department of Energy and the University of California.
-
-Redistribution and use in source and binary forms, with or without
-modification, are permitted provided that the following conditions
-are met:
-
-1. Redistributions of source code must retain the above copyright
-   notice, this list of conditions and the following disclaimer.
-2. Redistributions in binary form must reproduce the above copyright
-   notice, this list of conditions and the following disclaimer in the
-   documentation and/or other materials provided with the distribution.
-
-Neither the name of the University nor the names of its contributors
-may be used to endorse or promote products derived from this software
-without specific prior written permission.
-
-THIS SOFTWARE IS PROVIDED ``AS IS'' AND WITHOUT ANY EXPRESS OR
-IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
-WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
-PURPOSE.
-
-This basically says "do whatever you please with this software except
-remove this notice or take advantage of the University's (or the flex
-authors') name".
-
-Note that the "flex.skl" scanner skeleton carries no copyright notice.
-You are free to do whatever you please with scanners generated using flex;
-for them, you are not even bound by the above copyright.
-</spdx:licenseText>
-    <spdx:name>BSD 3-Clause Flex variant</spdx:name>
-    <rdfs:seeAlso>https://github.com/westes/flex/blob/master/COPYING</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://github.com/westes/flex/blob/master/COPYING</spdx:url>
-        <spdx:timestamp>2025-03-06T20:28:35Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
   </spdx:ListedLicense>
 </rdf:RDF>

@@ -5,9 +5,9 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/GPL-3.0-with-autoconf-exception">
-    <spdx:licenseId>GPL-3.0-with-autoconf-exception</spdx:licenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <rdfs:comment>DEPRECATED: Use license expression including main license, "WITH" operator, and identifier: Autoconf-exception-3.0</rdfs:comment>
-    <spdx:name>GNU General Public License v3.0 w/Autoconf exception</spdx:name>
     <spdx:licenseTextHtml>
 	     &lt;p&gt;insert GPL v3 text here&lt;/p&gt;
 
@@ -52,9 +52,22 @@
 	     
 &lt;/ul&gt;
     </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>https://www.gnu.org/licenses/autoconf-exception-3.0.html</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isLive>
+        <spdx:url>https://www.gnu.org/licenses/autoconf-exception-3.0.html</spdx:url>
+        <spdx:timestamp>2025-03-13T19:19:37Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>N/A</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:licenseId>GPL-3.0-with-autoconf-exception</spdx:licenseId>
     <spdx:licenseText>insert GPL v3 text here
 
 AUTOCONF CONFIGURE SCRIPT EXCEPTION
@@ -83,6 +96,10 @@ The purpose of this Exception is to allow distribution of Autoconf's typical out
    The availability of this Exception does not imply any general presumption that third-party software is unaffected by the copyleft requirements of the license of Autoconf.
    
    </spdx:licenseText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
+    <spdx:name>GNU General Public License v3.0 w/Autoconf exception</spdx:name>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/autoconf-exception-3.0.html</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>insert GPL v3 text here
 
 AUTOCONF CONFIGURE SCRIPT EXCEPTION
@@ -112,22 +129,5 @@ The purpose of this Exception is to allow distribution of Autoconf's typical out
    
    </spdx:standardLicenseTemplate>
     <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://www.gnu.org/licenses/autoconf-exception-3.0.html</spdx:url>
-        <spdx:timestamp>2025-03-06T20:30:03Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
   </spdx:ListedLicense>
 </rdf:RDF>

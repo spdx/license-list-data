@@ -5,7 +5,11 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/diffmark">
-    <spdx:licenseId>diffmark</spdx:licenseId>
+    <spdx:standardLicenseTemplate>
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; you can do what you want with it
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; I refuse any responsibility for the consequences</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseTextHtml>
       
 &lt;ul style="list-style:none"&gt;
@@ -22,18 +26,14 @@
       
 &lt;/ul&gt;
     </spdx:licenseTextHtml>
-    <spdx:name>diffmark license</spdx:name>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:standardLicenseTemplate>
-   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; you can do what you want with it
-   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; I refuse any responsibility for the consequences</spdx:standardLicenseTemplate>
     <spdx:licenseText>1. you can do what you want with it
 2. I refuse any responsibility for the consequences
 </spdx:licenseText>
     <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/diffmark</rdfs:seeAlso>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
+    <spdx:name>diffmark license</spdx:name>
+    <spdx:licenseId>diffmark</spdx:licenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -43,7 +43,7 @@
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://fedoraproject.org/wiki/Licensing/diffmark</spdx:url>
-        <spdx:timestamp>2025-03-06T20:28:15Z</spdx:timestamp>
+        <spdx:timestamp>2025-03-13T19:17:42Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>true</spdx:match>
