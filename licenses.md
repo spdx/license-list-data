@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 7365419
+The following licenses have been generated from the license list version 888e4b5
 
 ## Licenses with Short Idenifiers
 
@@ -215,6 +215,7 @@ The following licenses have been generated from the license list version 7365419
 | Data licence Germany – attribution – version 2.0                                          | [DL-DE-BY-2.0][]                         |      |           |
 | Data licence Germany – zero – version 2.0                                                 | [DL-DE-ZERO-2.0][]                       |      |           |
 | DOC License                                                                               | [DOC][]                                  |      |           |
+| DocBook DTD License                                                                       | [DocBook-DTD][]                          |      |           |
 | DocBook Schema License                                                                    | [DocBook-Schema][]                       |      |           |
 | DocBook Stylesheet License                                                                | [DocBook-Stylesheet][]                   |      |           |
 | DocBook XML License                                                                       | [DocBook-XML][]                          |      |           |
@@ -256,6 +257,7 @@ The following licenses have been generated from the license list version 7365419
 | Freetype Project License                                                                  | [FTL][]                                  |      | Y         |
 | Furuseth License                                                                          | [Furuseth][]                             |      |           |
 | fwlw License                                                                              | [fwlw][]                                 |      |           |
+| Game Programming Gems License                                                             | [Game-Programming-Gems][]                |      |           |
 | Gnome GCR Documentation License                                                           | [GCR-docs][]                             |      |           |
 | GD License                                                                                | [GD][]                                   |      |           |
 | Generic XTS License                                                                       | [generic-xts][]                          |      |           |
@@ -715,6 +717,7 @@ The following licenses have been generated from the license list version 7365419
 | OpenJDK Assembly exception 1.0                        | [OpenJDK-assembly-exception-1.0][]       |
 | OpenVPN OpenSSL Exception                             | [openvpn-openssl-exception][]            |
 | PCRE2 exception                                       | [PCRE2-exception][]                      |
+| Polyparse Exception                                   | [polyparse-exception][]                  |
 | PS/PDF font exception (2017-08-17)                    | [PS-or-PDF-font-exception-20170817][]    |
 | INRIA QPL 1.0 2004 variant exception                  | [QPL-1.0-INRIA-2004-exception][]         |
 | Qt GPL exception 1.0                                  | [Qt-GPL-exception-1.0][]                 |
@@ -988,6 +991,7 @@ The following licenses have been generated from the license list version 7365419
 [DL-DE-BY-2.0]: text/DL-DE-BY-2.0.txt
 [DL-DE-ZERO-2.0]: text/DL-DE-ZERO-2.0.txt
 [DOC]: text/DOC.txt
+[DocBook-DTD]: text/DocBook-DTD.txt
 [DocBook-Schema]: text/DocBook-Schema.txt
 [DocBook-Stylesheet]: text/DocBook-Stylesheet.txt
 [DocBook-XML]: text/DocBook-XML.txt
@@ -1030,6 +1034,7 @@ The following licenses have been generated from the license list version 7365419
 [FTL]: text/FTL.txt
 [Furuseth]: text/Furuseth.txt
 [fwlw]: text/fwlw.txt
+[Game-Programming-Gems]: text/Game-Programming-Gems.txt
 [GCR-docs]: text/GCR-docs.txt
 [GD]: text/GD.txt
 [generic-xts]: text/generic-xts.txt
@@ -1511,6 +1516,7 @@ The following licenses have been generated from the license list version 7365419
 [OpenJDK-assembly-exception-1.0]: text/OpenJDK-assembly-exception-1.0.txt
 [openvpn-openssl-exception]: text/openvpn-openssl-exception.txt
 [PCRE2-exception]: text/PCRE2-exception.txt
+[polyparse-exception]: text/polyparse-exception.txt
 [PS-or-PDF-font-exception-20170817]: text/PS-or-PDF-font-exception-20170817.txt
 [QPL-1.0-INRIA-2004-exception]: text/QPL-1.0-INRIA-2004-exception.txt
 [Qt-GPL-exception-1.0]: text/Qt-GPL-exception-1.0.txt

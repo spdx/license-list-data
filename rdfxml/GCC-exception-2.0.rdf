@@ -5,7 +5,15 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/GCC-exception-2.0">
-    <spdx:licenseExceptionId>GCC-exception-2.0</spdx:licenseExceptionId>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionText>In addition to the permissions in the GNU General Public License, the Free Software Foundation gives you unlimited permission to link the compiled version of this file into combinations with other programs, and to distribute those combinations without any restriction coming from the use of this file. (The General Public License restrictions do apply in other respects; for example, they cover modification of the file, and distribution when not linked into a combine executable.)
+</spdx:licenseExceptionText>
+    <spdx:licenseExceptionTemplate>In addition to the permissions in the GNU &lt;&lt;var;name="Library";original="";match="Library|Lesser|()"&gt;&gt; General Public License, the &lt;&lt;var;name="authors";original="authors";match=".+"&gt;&gt; &lt;&lt;var;name="gives";original="give";match="give(s)?"&gt;&gt; you unlimited permission to link the compiled version of this &lt;&lt;var;name="file";original="file";match="file|library"&gt;&gt;&lt;&lt;beginOptional&gt;&gt; into combinations&lt;&lt;endOptional&gt;&gt; with other programs, and to distribute those &lt;&lt;var;name="programs";original="programs";match="combinations|programs"&gt;&gt; without any restriction coming from the use of this file. (The &lt;&lt;var;name="general";original="General";match="General|Library|GNU Lesser"&gt;&gt; Public License restrictions do apply in other respects; for example, they cover modification of the file, and distribution when not linked into &lt;&lt;var;name="anotherProgram";original="another program";match="a combined? executable|another program"&gt;&gt; .)
+
+</spdx:licenseExceptionTemplate>
+    <spdx:name>GCC Runtime Library exception 2.0</spdx:name>
+    <rdfs:seeAlso>https://sourceware.org/git/?p=glibc.git;a=blob;f=csu/abi-note.c;h=c2ec208e94fbe91f63d3c375bd254b884695d190;hb=HEAD</rdfs:seeAlso>
     <spdx:exceptionTextHtml>
       &lt;p&gt;In addition to the permissions in the GNU
        &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern Library|Lesser|()"&gt;  &lt;/span&gt;&lt;/var&gt; General Public License, the &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; authors&lt;/span&gt;&lt;/var&gt;
@@ -18,16 +26,8 @@
         &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern a combined? executable|another program"&gt; another program&lt;/span&gt;&lt;/var&gt;.)&lt;/p&gt;
 
     </spdx:exceptionTextHtml>
-    <rdfs:comment>Typically used with GPL-2.0-or-later. Sometimes also referred to as "linking exception."</rdfs:comment>
-    <spdx:licenseExceptionTemplate>In addition to the permissions in the GNU &lt;&lt;var;name="Library";original="";match="Library|Lesser|()"&gt;&gt; General Public License, the &lt;&lt;var;name="authors";original="authors";match=".+"&gt;&gt; &lt;&lt;var;name="gives";original="give";match="give(s)?"&gt;&gt; you unlimited permission to link the compiled version of this &lt;&lt;var;name="file";original="file";match="file|library"&gt;&gt;&lt;&lt;beginOptional&gt;&gt; into combinations&lt;&lt;endOptional&gt;&gt; with other programs, and to distribute those &lt;&lt;var;name="programs";original="programs";match="combinations|programs"&gt;&gt; without any restriction coming from the use of this file. (The &lt;&lt;var;name="general";original="General";match="General|Library|GNU Lesser"&gt;&gt; Public License restrictions do apply in other respects; for example, they cover modification of the file, and distribution when not linked into &lt;&lt;var;name="anotherProgram";original="another program";match="a combined? executable|another program"&gt;&gt; .)
-
-</spdx:licenseExceptionTemplate>
     <rdfs:seeAlso>https://gcc.gnu.org/git/?p=gcc.git;a=blob;f=gcc/libgcc1.c;h=762f5143fc6eed57b6797c82710f3538aa52b40b;hb=cb143a3ce4fb417c68f5fa2691a1b1b1053dfba9#l10</rdfs:seeAlso>
-    <spdx:licenseExceptionText>In addition to the permissions in the GNU General Public License, the Free Software Foundation gives you unlimited permission to link the compiled version of this file into combinations with other programs, and to distribute those combinations without any restriction coming from the use of this file. (The General Public License restrictions do apply in other respects; for example, they cover modification of the file, and distribution when not linked into a combine executable.)
-</spdx:licenseExceptionText>
-    <rdfs:seeAlso>https://sourceware.org/git/?p=glibc.git;a=blob;f=csu/abi-note.c;h=c2ec208e94fbe91f63d3c375bd254b884695d190;hb=HEAD</rdfs:seeAlso>
-    <spdx:name>GCC Runtime Library exception 2.0</spdx:name>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionId>GCC-exception-2.0</spdx:licenseExceptionId>
+    <rdfs:comment>Typically used with GPL-2.0-or-later. Sometimes also referred to as "linking exception."</rdfs:comment>
   </spdx:ListedLicenseException>
 </rdf:RDF>
