@@ -5,10 +5,7 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/PHP-3.01">
-    <spdx:licenseId>PHP-3.01</spdx:licenseId>
-    <spdx:name>PHP License v3.01</spdx:name>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>http://www.php.net/license/3_01.txt</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The PHP License, version 3.01
 
 &lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
@@ -33,6 +30,9 @@ PHP includes the Zend Engine, freely available at &lt;http://www.zend.com&gt;.
 </spdx:standardLicenseTemplate>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</spdx:isOsiApproved>
+    <spdx:name>PHP License v3.01</spdx:name>
+    <rdfs:comment>The PHP License v3.01 is essentially the same as v3.0, with the exception of a couple word differences and updated url in section 6.</rdfs:comment>
+    <spdx:licenseId>PHP-3.01</spdx:licenseId>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;The PHP License, version 3.01&lt;/p&gt;
@@ -110,9 +110,6 @@ PHP includes the Zend Engine, freely available at &lt;http://www.zend.com&gt;.
       &lt;p&gt;PHP includes the Zend Engine, freely available at &amp;lt;http://www.zend.com&amp;gt;.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
-    <rdfs:seeAlso>http://www.php.net/license/3_01.txt</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -122,13 +119,16 @@ PHP includes the Zend Engine, freely available at &lt;http://www.zend.com&gt;.
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://www.php.net/license/3_01.txt</spdx:url>
-        <spdx:timestamp>2025-03-13T19:19:33Z</spdx:timestamp>
+        <spdx:timestamp>2025-04-10T15:59:56Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:comment>The PHP License v3.01 is essentially the same as v3.0, with the exception of a couple word differences and updated url in section 6.</rdfs:comment>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:licenseText>The PHP License, version 3.01
 
 Copyright (c) 1999 - 2012 The PHP Group. All rights reserved.

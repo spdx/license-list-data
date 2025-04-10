@@ -1,6 +1,27 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/Martin-Birgmeier",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": "https://github.com/Perl/perl5/blob/blead/util.c#L6136",
+            "spdx:licenseText": "Copyright (c) 1993 Martin Birgmeier All rights reserved. \n\nYou may redistribute unmodified or modified versions of this source code provided that the above copyright notice and this and the following conditions are retained. \n\nThis software is provided ``as is'', and comes with no warranties of any kind. I shall in no event be liable for anything that happens to anyone/anything when using this software.\n",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (c) 1993 Martin Birgmeier All rights reserved.\n         </span></var>\n         <p>\n            You may redistribute unmodified or modified versions of\n            this source code provided that the above copyright notice\n            and this and the following conditions are retained.\n         </p>\n\n         <p>\n            This software is provided ``as is&apos;&apos;, and comes with no warranties\n            of any kind. I shall in no event be liable for anything\n            that happens to anyone/anything when using this software.\n         </p>\n\n      ",
+            "spdx:name": "Martin Birgmeier License",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseId": "Martin-Birgmeier",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1993 Martin Birgmeier All rights reserved.\";match=\".{0,5000}\">>\nYou may redistribute unmodified or modified versions of this source code provided that the above copyright notice and this and the following conditions are retained.\n\nThis software is provided ``as is'', and comes with no warranties of any kind. I shall in no event be liable for anything that happens to anyone/anything when using this software.\n\n"
+        },
+        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/Perl/perl5/blob/blead/util.c#L6136",
-            "spdx:timestamp": "2025-03-13T19:27:17Z",
+            "spdx:timestamp": "2025-04-10T16:07:46Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Martin-Birgmeier",
-            "rdfs:seeAlso": "https://github.com/Perl/perl5/blob/blead/util.c#L6136",
-            "spdx:licenseText": "Copyright (c) 1993 Martin Birgmeier All rights reserved. \n\nYou may redistribute unmodified or modified versions of this source code provided that the above copyright notice and this and the following conditions are retained. \n\nThis software is provided ``as is'', and comes with no warranties of any kind. I shall in no event be liable for anything that happens to anyone/anything when using this software.\n",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1993 Martin Birgmeier All rights reserved.\";match=\".{0,5000}\">>\nYou may redistribute unmodified or modified versions of this source code provided that the above copyright notice and this and the following conditions are retained.\n\nThis software is provided ``as is'', and comes with no warranties of any kind. I shall in no event be liable for anything that happens to anyone/anything when using this software.\n\n",
-            "spdx:name": "Martin Birgmeier License",
-            "@type": "spdx:ListedLicense",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (c) 1993 Martin Birgmeier All rights reserved.\n         </span></var>\n         <p>\n            You may redistribute unmodified or modified versions of\n            this source code provided that the above copyright notice\n            and this and the following conditions are retained.\n         </p>\n\n         <p>\n            This software is provided ``as is&apos;&apos;, and comes with no warranties\n            of any kind. I shall in no event be liable for anything\n            that happens to anyone/anything when using this software.\n         </p>\n\n      ",
-            "spdx:licenseId": "Martin-Birgmeier",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
         }
     ],
     "@context": {

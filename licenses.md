@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version bfc73d3
+The following licenses have been generated from the license list version 7365419
 
 ## Licenses with Short Idenifiers
 
@@ -393,6 +393,7 @@ The following licenses have been generated from the license list version bfc73d3
 | magaz License                                                                             | [magaz][]                                |      |           |
 | mailprio License                                                                          | [mailprio][]                             |      |           |
 | MakeIndex License                                                                         | [MakeIndex][]                            |      |           |
+| man2html License                                                                          | [man2html][]                             |      |           |
 | Martin Birgmeier License                                                                  | [Martin-Birgmeier][]                     |      |           |
 | McPhee Slideshow License                                                                  | [McPhee-slideshow][]                     |      |           |
 | metamail License                                                                          | [metamail][]                             |      |           |
@@ -1188,6 +1189,7 @@ The following licenses have been generated from the license list version bfc73d3
 [magaz]: text/magaz.txt
 [mailprio]: text/mailprio.txt
 [MakeIndex]: text/MakeIndex.txt
+[man2html]: text/man2html.txt
 [Martin-Birgmeier]: text/Martin-Birgmeier.txt
 [McPhee-slideshow]: text/McPhee-slideshow.txt
 [metamail]: text/metamail.txt
