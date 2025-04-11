@@ -2,11 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/LGPL-3.0",
-            "rdfs:seeAlso": [
-                "https://opensource.org/licenses/LGPL-3.0",
-                "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
-                "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
-            ],
             "spdx:crossRef": [
                 {
                     "@id": "_:b0"
@@ -17,6 +12,11 @@
                 {
                     "@id": "_:b2"
                 }
+            ],
+            "rdfs:seeAlso": [
+                "https://opensource.org/licenses/LGPL-3.0",
+                "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
+                "https://www.gnu.org/licenses/lgpl-3.0-standalone.html"
             ],
             "spdx:licenseId": "LGPL-3.0",
             "spdx:isDeprecatedLicenseId": {
@@ -50,16 +50,16 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.gnu.org/licenses/lgpl-3.0-standalone.html",
-            "spdx:timestamp": "2025-04-10T16:22:21Z",
+            "spdx:timestamp": "2025-04-11T12:11:46Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         },
         {
@@ -73,13 +73,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
-            "spdx:timestamp": "2025-04-10T16:22:13Z",
+            "spdx:url": "https://opensource.org/licenses/LGPL-3.0",
+            "spdx:timestamp": "2025-04-11T12:11:46Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
@@ -99,13 +99,13 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://opensource.org/licenses/LGPL-3.0",
-            "spdx:timestamp": "2025-04-10T16:22:04Z",
+            "spdx:url": "https://www.gnu.org/licenses/lgpl+gpl-3.0.txt",
+            "spdx:timestamp": "2025-04-11T12:11:46Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],

@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 888e4b5
+The following licenses have been generated from the license list version 6b36783
 
 ## Licenses with Short Idenifiers
 
@@ -204,6 +204,7 @@ The following licenses have been generated from the license list version 888e4b5
 | Code Project Open License 1.02                                                            | [CPOL-1.02][]                            |      |           |
 | Cronyx License                                                                            | [Cronyx][]                               |      |           |
 | Crossword License                                                                         | [Crossword][]                            |      |           |
+| CryptoSwift License                                                                       | [CryptoSwift][]                          |      |           |
 | CrystalStacker License                                                                    | [CrystalStacker][]                       |      |           |
 | CUA Office Public License v1.0                                                            | [CUA-OPL-1.0][]                          | Y    |           |
 | Cube License                                                                              | [Cube][]                                 |      |           |
@@ -980,6 +981,7 @@ The following licenses have been generated from the license list version 888e4b5
 [CPOL-1.02]: text/CPOL-1.02.txt
 [Cronyx]: text/Cronyx.txt
 [Crossword]: text/Crossword.txt
+[CryptoSwift]: text/CryptoSwift.txt
 [CrystalStacker]: text/CrystalStacker.txt
 [CUA-OPL-1.0]: text/CUA-OPL-1.0.txt
 [Cube]: text/Cube.txt
