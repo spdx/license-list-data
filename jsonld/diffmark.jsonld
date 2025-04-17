@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/diffmark",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:standardLicenseTemplate": "\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
             "@type": "spdx:ListedLicense",
             "spdx:isDeprecatedLicenseId": {
@@ -19,6 +16,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "diffmark license",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:licenseId": "diffmark"
         },
         {
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/diffmark",
-            "spdx:timestamp": "2025-04-11T12:10:33Z",
+            "spdx:timestamp": "2025-04-17T07:53:32Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

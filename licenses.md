@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6b36783
+The following licenses have been generated from the license list version 306c84d
 
 ## Licenses with Short Idenifiers
 
@@ -255,6 +255,8 @@ The following licenses have been generated from the license list version 6b36783
 | FSF Unlimited License                                                                     | [FSFUL][]                                |      |           |
 | FSF Unlimited License (with License Retention)                                            | [FSFULLR][]                              |      |           |
 | FSF Unlimited License (With License Retention and Warranty Disclaimer)                    | [FSFULLRWD][]                            |      |           |
+| Functional Source License, Version 1.1, ALv2 Future License                               | [FSL-1.1-ALv2][]                         |      |           |
+| Functional Source License, Version 1.1, MIT Future License                                | [FSL-1.1-MIT][]                          |      |           |
 | Freetype Project License                                                                  | [FTL][]                                  |      | Y         |
 | Furuseth License                                                                          | [Furuseth][]                             |      |           |
 | fwlw License                                                                              | [fwlw][]                                 |      |           |
@@ -1033,6 +1035,8 @@ The following licenses have been generated from the license list version 6b36783
 [FSFUL]: text/FSFUL.txt
 [FSFULLR]: text/FSFULLR.txt
 [FSFULLRWD]: text/FSFULLRWD.txt
+[FSL-1.1-ALv2]: text/FSL-1.1-ALv2.txt
+[FSL-1.1-MIT]: text/FSL-1.1-MIT.txt
 [FTL]: text/FTL.txt
 [Furuseth]: text/Furuseth.txt
 [fwlw]: text/fwlw.txt
