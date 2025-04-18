@@ -1,6 +1,27 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/threeparttable",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Threeparttable",
+            "@type": "spdx:ListedLicense",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "This file may be distributed, modified, and used in other works with just one restriction: modified versions must clearly indicate the modification (a name change, or a displayed message, or ?).\n\n",
+            "spdx:name": "threeparttable License",
+            "spdx:licenseId": "threeparttable",
+            "spdx:licenseText": "This file may be distributed, modified, and used in other works with just\none restriction: modified versions must clearly indicate the modification\n(a name change, or a displayed message, or ?).\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:licenseTextHtml": "\n         <p>\n            This file may be distributed, modified, and used in other works\n            with just one restriction: modified versions must clearly indicate\n            the modification (a name change, or a displayed message, or ?).\n         </p>\n\n      "
+        },
+        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/Threeparttable",
-            "spdx:timestamp": "2025-04-17T07:55:37Z",
+            "spdx:timestamp": "2025-04-18T08:46:36Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/threeparttable",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Threeparttable",
-            "@type": "spdx:ListedLicense",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
-            "spdx:standardLicenseTemplate": "This file may be distributed, modified, and used in other works with just one restriction: modified versions must clearly indicate the modification (a name change, or a displayed message, or ?).\n\n",
-            "spdx:name": "threeparttable License",
-            "spdx:licenseId": "threeparttable",
-            "spdx:licenseText": "This file may be distributed, modified, and used in other works with just\none restriction: modified versions must clearly indicate the modification\n(a name change, or a displayed message, or ?).\n",
-            "spdx:licenseTextHtml": "\n         <p>\n            This file may be distributed, modified, and used in other works\n            with just one restriction: modified versions must clearly indicate\n            the modification (a name change, or a displayed message, or ?).\n         </p>\n\n      "
         }
     ],
     "@context": {

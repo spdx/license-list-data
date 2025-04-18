@@ -1,29 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.geuz.org/gl2ps/COPYING.GL2PS",
-            "spdx:timestamp": "2025-04-17T07:54:37Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/GL2PS",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -39,10 +16,33 @@
             "@type": "spdx:ListedLicense",
             "spdx:licenseId": "GL2PS",
             "rdfs:seeAlso": "http://www.geuz.org/gl2ps/COPYING.GL2PS",
+            "spdx:standardLicenseTemplate": "<<beginOptional>>GL2PS LICENSE Version 2, November 2003\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (C) 2003, Christophe Geuzaine  \";match=\".{0,5000}\">>\nPermission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nPermission to modify and distribute modified versions of this software is granted, provided that:\n\n   <<var;name=\"bullet\";original=\"1)\";match=\".{0,20}\">> the modifications are licensed under the same terms as this software;\n   <<var;name=\"bullet\";original=\"2)\";match=\".{0,20}\">> you make available the source code of any modifications that you distribute, either on the same media as you distribute any executable or other form of this software, or via a mechanism generally accepted in the software development community for the electronic transfer of data.\nThis software is provided \"as is\" without express or implied warranty.\n\n",
             "spdx:crossRef": {
                 "@id": "_:b0"
+            }
+        },
+        {
+            "@id": "_:b0",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:standardLicenseTemplate": "<<beginOptional>>GL2PS LICENSE Version 2, November 2003\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (C) 2003, Christophe Geuzaine  \";match=\".{0,5000}\">>\nPermission to use, copy, and distribute this software and its documentation for any purpose with or without fee is hereby granted, provided that the copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nPermission to modify and distribute modified versions of this software is granted, provided that:\n\n   <<var;name=\"bullet\";original=\"1)\";match=\".{0,20}\">> the modifications are licensed under the same terms as this software;\n   <<var;name=\"bullet\";original=\"2)\";match=\".{0,20}\">> you make available the source code of any modifications that you distribute, either on the same media as you distribute any executable or other form of this software, or via a mechanism generally accepted in the software development community for the electronic transfer of data.\nThis software is provided \"as is\" without express or implied warranty.\n\n"
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.geuz.org/gl2ps/COPYING.GL2PS",
+            "spdx:timestamp": "2025-04-18T08:45:37Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
