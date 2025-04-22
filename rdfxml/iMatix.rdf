@@ -5,7 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/iMatix">
-    <rdfs:seeAlso>http://legacy.imatix.com/html/sfl/sfl4.htm#license</rdfs:seeAlso>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;The SFL License Agreement&lt;/p&gt;
@@ -144,11 +145,6 @@ Disclaimer Of Warranty
 
    The Product is provided as free software, in the hope that it will be useful. It is provided "as-is", without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for a particular purpose. The entire risk as to the quality and performance of the Product is with you. Should the Product prove defective, the full cost of repair, servicing, or correction lies with you.</spdx:standardLicenseTemplate>
     <spdx:name>iMatix Standard Function Library Agreement</spdx:name>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
-    <spdx:licenseId>iMatix</spdx:licenseId>
     <spdx:licenseText>The SFL License Agreement
 
 This license agreement covers your use of the iMatix STANDARD FUNCTION LIBRARY (SFL), its source code, documentation, and executable files, hereinafter referred to as "the Product".
@@ -198,13 +194,17 @@ The Product is provided as free software, in the hope that it will be useful. It
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >false</spdx:isLive>
         <spdx:url>http://legacy.imatix.com/html/sfl/sfl4.htm#license</spdx:url>
-        <spdx:timestamp>2025-04-18T17:43:48Z</spdx:timestamp>
+        <spdx:timestamp>2025-04-22T06:47:03Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>N/A</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
+    <spdx:licenseId>iMatix</spdx:licenseId>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>http://legacy.imatix.com/html/sfl/sfl4.htm#license</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

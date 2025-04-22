@@ -5,6 +5,9 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/StandardML-NJ">
+    <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;STANDARD ML OF NEW JERSEY COPYRIGHT NOTICE, LICENSE AND DISCLAIMER.
 
 &lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 2001-2011 by The Fellowship of SML/NJ Copyright (c) 1989-2001 by Lucent Technologies  ";match=".{0,5000}"&gt;&gt;
@@ -13,7 +16,25 @@ Permission to use, copy, modify, and distribute this software and its documentat
 Lucent disclaims all warranties with regard to this software, including all implied warranties of merchantability and fitness. In no event shall Lucent be liable for any special, indirect or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
 
 </spdx:standardLicenseTemplate>
-    <spdx:name>Standard ML of New Jersey License</spdx:name>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://www.smlnj.org/license.html</spdx:url>
+        <spdx:timestamp>2025-04-22T06:48:19Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <rdfs:seeAlso>https://www.smlnj.org/license.html</rdfs:seeAlso>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:licenseId>StandardML-NJ</spdx:licenseId>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;STANDARD ML OF NEW JERSEY COPYRIGHT NOTICE, LICENSE AND DISCLAIMER.&lt;/p&gt;
@@ -41,9 +62,6 @@ Copyright (c) 1989-2001 by Lucent Technologies
          the use or performance of this software.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
-    <rdfs:comment>DEPRECATED: Duplicate license, use identifier: SMLNJ</rdfs:comment>
     <spdx:licenseText>STANDARD ML OF NEW JERSEY COPYRIGHT NOTICE, LICENSE AND DISCLAIMER.
 
 Copyright (c) 2001-2011 by The Fellowship of SML/NJ
@@ -54,27 +72,9 @@ Permission to use, copy, modify, and distribute this software and its documentat
 Lucent disclaims all warranties with regard to this software, including all implied warranties of merchantability and fitness. In no event shall Lucent be liable for any special, indirect or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
 
 </spdx:licenseText>
-    <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://www.smlnj.org/license.html</spdx:url>
-        <spdx:timestamp>2025-04-18T17:45:08Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
     <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</spdx:isFsfLibre>
-    <spdx:licenseId>StandardML-NJ</spdx:licenseId>
-    <rdfs:seeAlso>https://www.smlnj.org/license.html</rdfs:seeAlso>
+    <spdx:name>Standard ML of New Jersey License</spdx:name>
+    <rdfs:comment>DEPRECATED: Duplicate license, use identifier: SMLNJ</rdfs:comment>
   </spdx:ListedLicense>
 </rdf:RDF>

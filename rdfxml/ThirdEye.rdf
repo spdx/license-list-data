@@ -5,10 +5,29 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/ThirdEye">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11</spdx:url>
+        <spdx:timestamp>2025-04-22T06:45:25Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="(C) Copyright 1984 by Third Eye Software, Inc.  ";match=".{0,5000}"&gt;&gt;
+Third Eye Software, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.
+
+Third Eye makes no claims about the applicability of this symbol table to a particular use.
+
+</spdx:standardLicenseTemplate>
+    <spdx:licenseId>ThirdEye</spdx:licenseId>
+    <rdfs:comment>This is a variant to MIPS license with extra paragraph.</rdfs:comment>
     <spdx:licenseTextHtml>
          &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;
@@ -28,12 +47,10 @@
 
       </spdx:licenseTextHtml>
     <rdfs:seeAlso>https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11</rdfs:seeAlso>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="(C) Copyright 1984 by Third Eye Software, Inc.  ";match=".{0,5000}"&gt;&gt;
-Third Eye Software, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.
-
-Third Eye makes no claims about the applicability of this symbol table to a particular use.
-
-</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:licenseText>(C) Copyright 1984 by Third Eye Software, Inc.
 
 Third Eye Software, Inc. grants reproduction and use rights to
@@ -42,23 +59,6 @@ all parties, PROVIDED that this comment is maintained in the copy.
 Third Eye makes no claims about the applicability of this
 symbol table to a particular use.
 </spdx:licenseText>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11</spdx:url>
-        <spdx:timestamp>2025-04-18T17:42:50Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:name>ThirdEye License</spdx:name>
-    <rdfs:comment>This is a variant to MIPS license with extra paragraph.</rdfs:comment>
-    <spdx:licenseId>ThirdEye</spdx:licenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

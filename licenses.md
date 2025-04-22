@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f2d34aa
+The following licenses have been generated from the license list version a32471f
 
 ## Licenses with Short Idenifiers
 
@@ -462,6 +462,7 @@ The following licenses have been generated from the license list version f2d34aa
 | Netscape Public License v1.1                                                              | [NPL-1.1][]                              |      | Y         |
 | Non-Profit Open Software License 3.0                                                      | [NPOSL-3.0][]                            | Y    |           |
 | NRL License                                                                               | [NRL][]                                  |      |           |
+| NTIA Public Domain Notice                                                                 | [NTIA-PD][]                              |      |           |
 | NTP License                                                                               | [NTP][]                                  | Y    |           |
 | NTP No Attribution                                                                        | [NTP-0][]                                |      |           |
 | Open Use of Data Agreement v1.0                                                           | [O-UDA-1.0][]                            |      |           |
@@ -1265,6 +1266,7 @@ The following licenses have been generated from the license list version f2d34aa
 [NPL-1.1]: text/NPL-1.1.txt
 [NPOSL-3.0]: text/NPOSL-3.0.txt
 [NRL]: text/NRL.txt
+[NTIA-PD]: text/NTIA-PD.txt
 [NTP]: text/NTP.txt
 [NTP-0]: text/NTP-0.txt
 [Nunit]: text/Nunit.txt
