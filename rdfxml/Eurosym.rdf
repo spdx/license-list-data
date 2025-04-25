@@ -14,13 +14,16 @@
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://fedoraproject.org/wiki/Licensing/Eurosym</spdx:url>
-        <spdx:timestamp>2025-04-22T06:44:03Z</spdx:timestamp>
+        <spdx:timestamp>2025-04-25T09:21:39Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/Eurosym</rdfs:seeAlso>
+    <spdx:licenseId>Eurosym</spdx:licenseId>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:name>Eurosym License</spdx:name>
     <spdx:licenseText>Copyright (c) 1999-2002 Henrik Theiling
 Licence Version 2
 
@@ -40,10 +43,23 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.
 </spdx:licenseText>
-    <spdx:name>Eurosym License</spdx:name>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
-    <spdx:licenseId>Eurosym</spdx:licenseId>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1999-2002 Henrik Theiling  ";match=".{0,5000}"&gt;&gt;&lt;&lt;beginOptional&gt;&gt; 
+Licence Version 2
+&lt;&lt;endOptional&gt;&gt;
+This software is provided 'as-is', without warranty of any kind, express or implied. In no event will the authors or copyright holders be held liable for any damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; You must not use any of the names of the authors or copyright holders of the original software for advertising or publicity pertaining to distribution without specific, written prior permission.
+   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; If you change this software and redistribute parts or all of it in any form, you must make the source code of the altered version of this software available.
+   &lt;&lt;var;name="bullet";original="5.";match=".{0,20}"&gt;&gt; This notice may not be removed or altered from any source distribution.
+This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.
+
+</spdx:standardLicenseTemplate>
     <spdx:licenseTextHtml>
       &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright (c) 1999-2002 Henrik Theiling&lt;/p&gt;
@@ -100,22 +116,6 @@ Licence Version 2
       &lt;p&gt;This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1999-2002 Henrik Theiling  ";match=".{0,5000}"&gt;&gt;&lt;&lt;beginOptional&gt;&gt; 
-Licence Version 2
-&lt;&lt;endOptional&gt;&gt;
-This software is provided 'as-is', without warranty of any kind, express or implied. In no event will the authors or copyright holders be held liable for any damages arising from the use of this software.
-
-Permission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:
-
-   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated.
-   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.
-   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; You must not use any of the names of the authors or copyright holders of the original software for advertising or publicity pertaining to distribution without specific, written prior permission.
-   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; If you change this software and redistribute parts or all of it in any form, you must make the source code of the altered version of this software available.
-   &lt;&lt;var;name="bullet";original="5.";match=".{0,20}"&gt;&gt; This notice may not be removed or altered from any source distribution.
-This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.
-
-</spdx:standardLicenseTemplate>
+    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/Eurosym</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

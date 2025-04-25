@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version a32471f
+The following licenses have been generated from the license list version a74881d
 
 ## Licenses with Short Idenifiers
 
@@ -73,6 +73,7 @@ The following licenses have been generated from the license list version a32471f
 | BSD 2-Clause - Ian Darwin variant                                                         | [BSD-2-Clause-Darwin][]                  |      |           |
 | BSD 2-Clause - first lines requirement                                                    | [BSD-2-Clause-first-lines][]             |      |           |
 | BSD-2-Clause Plus Patent License                                                          | [BSD-2-Clause-Patent][]                  | Y    |           |
+| BSD 2-Clause pkgconf disclaimer variant                                                   | [BSD-2-Clause-pkgconf-disclaimer][]      |      |           |
 | BSD 2-Clause with views sentence                                                          | [BSD-2-Clause-Views][]                   |      |           |
 | BSD 3-Clause "New" or "Revised" License                                                   | [BSD-3-Clause][]                         | Y    | Y         |
 | BSD 3-Clause acpica variant                                                               | [BSD-3-Clause-acpica][]                  |      |           |
@@ -852,6 +853,7 @@ The following licenses have been generated from the license list version a32471f
 [BSD-2-Clause-FreeBSD]: text/BSD-2-Clause-FreeBSD.txt
 [BSD-2-Clause-NetBSD]: text/BSD-2-Clause-NetBSD.txt
 [BSD-2-Clause-Patent]: text/BSD-2-Clause-Patent.txt
+[BSD-2-Clause-pkgconf-disclaimer]: text/BSD-2-Clause-pkgconf-disclaimer.txt
 [BSD-2-Clause-Views]: text/BSD-2-Clause-Views.txt
 [BSD-3-Clause]: text/BSD-3-Clause.txt
 [BSD-3-Clause-acpica]: text/BSD-3-Clause-acpica.txt
