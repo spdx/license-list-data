@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version a74881d
+The following licenses have been generated from the license list version 01713ad
 
 ## Licenses with Short Idenifiers
 
@@ -350,6 +350,7 @@ The following licenses have been generated from the license list version a74881d
 | ISC Veillard variant                                                                      | [ISC-Veillard][]                         |      |           |
 | Jam License                                                                               | [Jam][]                                  | Y    |           |
 | JasPer License                                                                            | [JasPer-2.0][]                           |      |           |
+| Jove License                                                                              | [jove][]                                 |      |           |
 | JPL Image Use Policy                                                                      | [JPL-image][]                            |      |           |
 | Japan Network Information Center License                                                  | [JPNIC][]                                |      |           |
 | JSON License                                                                              | [JSON][]                                 |      |           |
@@ -681,6 +682,7 @@ The following licenses have been generated from the license list version a74881d
 | Classpath exception 2.0                               | [Classpath-exception-2.0][]              |
 | CLISP exception 2.0                                   | [CLISP-exception-2.0][]                  |
 | cryptsetup OpenSSL exception                          | [cryptsetup-OpenSSL-exception][]         |
+| Digia Qt LGPL Exception version 1.1                   | [Digia-Qt-LGPL-exception-1.1][]          |
 | DigiRule FOSS License Exception                       | [DigiRule-FOSS-exception][]              |
 | eCos exception 2.0                                    | [eCos-exception-2.0][]                   |
 | Erlang/OTP Linking Exception                          | [erlang-otp-linking-exception][]         |
@@ -1148,6 +1150,7 @@ The following licenses have been generated from the license list version a74881d
 [ISC-Veillard]: text/ISC-Veillard.txt
 [Jam]: text/Jam.txt
 [JasPer-2.0]: text/JasPer-2.0.txt
+[jove]: text/jove.txt
 [JPL-image]: text/JPL-image.txt
 [JPNIC]: text/JPNIC.txt
 [JSON]: text/JSON.txt
@@ -1484,6 +1487,7 @@ The following licenses have been generated from the license list version a74881d
 [Classpath-exception-2.0]: text/Classpath-exception-2.0.txt
 [CLISP-exception-2.0]: text/CLISP-exception-2.0.txt
 [cryptsetup-OpenSSL-exception]: text/cryptsetup-OpenSSL-exception.txt
+[Digia-Qt-LGPL-exception-1.1]: text/Digia-Qt-LGPL-exception-1.1.txt
 [DigiRule-FOSS-exception]: text/DigiRule-FOSS-exception.txt
 [eCos-exception-2.0]: text/eCos-exception-2.0.txt
 [erlang-otp-linking-exception]: text/erlang-otp-linking-exception.txt
