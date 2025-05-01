@@ -5,8 +5,6 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/NRL">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;NRL License
 
 &lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; COPYRIGHT NOTICE
@@ -39,6 +37,10 @@ The views and conclusions contained in the software and documentation are those 
 
 </spdx:standardLicenseTemplate>
     <spdx:licenseId>NRL</spdx:licenseId>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -48,12 +50,13 @@ The views and conclusions contained in the software and documentation are those 
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://web.mit.edu/network/isakmp/nrllicense.html</spdx:url>
-        <spdx:timestamp>2025-04-25T20:00:34Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-01T10:31:45Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
+    <spdx:name>NRL License</spdx:name>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;NRL License&lt;/p&gt;
@@ -153,6 +156,7 @@ The views and conclusions contained in the software and documentation are those 
          Research Laboratory (NRL).&lt;/p&gt;
 
     </spdx:licenseTextHtml>
+    <rdfs:seeAlso>http://web.mit.edu/network/isakmp/nrllicense.html</rdfs:seeAlso>
     <spdx:licenseText>NRL License
 
 COPYRIGHT NOTICE
@@ -182,9 +186,5 @@ THE SOFTWARE PROVIDED BY NRL IS PROVIDED BY NRL AND CONTRIBUTORS ``AS IS'' AND A
 
 The views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the US Naval Research Laboratory (NRL).
 </spdx:licenseText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>http://web.mit.edu/network/isakmp/nrllicense.html</rdfs:seeAlso>
-    <spdx:name>NRL License</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

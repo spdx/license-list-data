@@ -2,6 +2,15 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/DocBook-Stylesheet",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 2005 Norman Walsh, Sun Microsystems, Inc., and the Organization for the Advancement of Structured Information Standards (OASIS).   Release: $Id: db4-upgrade.xsl 8905 2010-09-12 11:47:07Z bobstayton $  \";match=\".{0,5000}\">>\nPermission to use, copy, modify and distribute this stylesheet and its accompanying documentation for any purpose and without fee is hereby granted in perpetuity, provided that the above copyright notice and this paragraph appear in all copies. The copyright holders make no representation about the suitability of the schema for any purpose. It is provided \"as is\" without expressed or implied warranty.\n\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>\n            Copyright 2005 Norman Walsh, Sun Microsystems,\n            Inc., and the Organization for the Advancement\n            of Structured Information Standards (OASIS).\n         </p>\n\n         <p>\n            Release: $Id: db4-upgrade.xsl 8905 2010-09-12 11:47:07Z bobstayton $\n         </p>\n\n         </span></div>\n         <p>\n            Permission to use, copy, modify and distribute this stylesheet\n            and its accompanying documentation for any purpose and\n            without fee is hereby granted in perpetuity, provided that\n            the above copyright notice and this paragraph appear in\n            all copies. The copyright holders make no representation\n            about the suitability of the schema for any purpose. It\n            is provided &quot;as is&quot; without expressed or implied warranty.\n         </p>\n\n      ",
+            "rdfs:seeAlso": "http://www.docbook.org/xml/5.0/docbook-5.0.zip",
+            "spdx:licenseId": "DocBook-Stylesheet",
             "spdx:crossRef": {
                 "@id": "_:b0"
             },
@@ -9,17 +18,8 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseId": "DocBook-Stylesheet",
-            "@type": "spdx:ListedLicense",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "rdfs:seeAlso": "http://www.docbook.org/xml/5.0/docbook-5.0.zip",
-            "spdx:licenseText": "Copyright 2005 Norman Walsh, Sun Microsystems,\nInc., and the Organization for the Advancement\nof Structured Information Standards (OASIS).\n\nRelease: $Id: db4-upgrade.xsl 8905 2010-09-12 11:47:07Z bobstayton $\n\nPermission to use, copy, modify and distribute this stylesheet\nand its accompanying documentation for any purpose and\nwithout fee is hereby granted in perpetuity, provided that\nthe above copyright notice and this paragraph appear in\nall copies. The copyright holders make no representation\nabout the suitability of the schema for any purpose. It\nis provided \"as is\" without expressed or implied warranty.\n",
             "spdx:name": "DocBook Stylesheet License",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 2005 Norman Walsh, Sun Microsystems, Inc., and the Organization for the Advancement of Structured Information Standards (OASIS).   Release: $Id: db4-upgrade.xsl 8905 2010-09-12 11:47:07Z bobstayton $  \";match=\".{0,5000}\">>\nPermission to use, copy, modify and distribute this stylesheet and its accompanying documentation for any purpose and without fee is hereby granted in perpetuity, provided that the above copyright notice and this paragraph appear in all copies. The copyright holders make no representation about the suitability of the schema for any purpose. It is provided \"as is\" without expressed or implied warranty.\n\n",
-            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>\n            Copyright 2005 Norman Walsh, Sun Microsystems,\n            Inc., and the Organization for the Advancement\n            of Structured Information Standards (OASIS).\n         </p>\n\n         <p>\n            Release: $Id: db4-upgrade.xsl 8905 2010-09-12 11:47:07Z bobstayton $\n         </p>\n\n         </span></div>\n         <p>\n            Permission to use, copy, modify and distribute this stylesheet\n            and its accompanying documentation for any purpose and\n            without fee is hereby granted in perpetuity, provided that\n            the above copyright notice and this paragraph appear in\n            all copies. The copyright holders make no representation\n            about the suitability of the schema for any purpose. It\n            is provided &quot;as is&quot; without expressed or implied warranty.\n         </p>\n\n      "
+            "spdx:licenseText": "Copyright 2005 Norman Walsh, Sun Microsystems,\nInc., and the Organization for the Advancement\nof Structured Information Standards (OASIS).\n\nRelease: $Id: db4-upgrade.xsl 8905 2010-09-12 11:47:07Z bobstayton $\n\nPermission to use, copy, modify and distribute this stylesheet\nand its accompanying documentation for any purpose and\nwithout fee is hereby granted in perpetuity, provided that\nthe above copyright notice and this paragraph appear in\nall copies. The copyright holders make no representation\nabout the suitability of the schema for any purpose. It\nis provided \"as is\" without expressed or implied warranty.\n"
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.docbook.org/xml/5.0/docbook-5.0.zip",
-            "spdx:timestamp": "2025-04-25T20:02:39Z",
+            "spdx:timestamp": "2025-05-01T10:33:55Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

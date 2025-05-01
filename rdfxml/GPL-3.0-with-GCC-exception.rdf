@@ -5,7 +5,6 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/GPL-3.0-with-GCC-exception">
-    <rdfs:seeAlso>https://www.gnu.org/licenses/gcc-exception-3.1.html</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>﻿insert GPL v3 text here
 
 &lt;&lt;beginOptional&gt;&gt;GCC RUNTIME LIBRARY EXCEPTION
@@ -41,24 +40,10 @@ When you use GCC to compile a program, GCC may combine portions of certain GCC h
 The availability of this Exception does not imply any general presumption that third-party software is unaffected by the copyleft requirements of the license of GCC.
 
 </spdx:standardLicenseTemplate>
-    <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://www.gnu.org/licenses/gcc-exception-3.1.html</spdx:url>
-        <spdx:timestamp>2025-04-25T20:00:32Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isOsiApproved>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/gcc-exception-3.1.html</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
+    <rdfs:comment>DEPRECATED: Use license expression including main license, "WITH" operator, and identifier: GCC-exception-3.1</rdfs:comment>
     <spdx:licenseTextHtml>
 	  &lt;p&gt;﻿insert GPL v3 text here&lt;/p&gt;
 
@@ -201,10 +186,25 @@ When you use GCC to compile a program, GCC may combine portions of certain GCC h
 The availability of this Exception does not imply any general presumption that third-party software is unaffected by the copyleft requirements of the license of GCC.
 
 </spdx:licenseText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
     <spdx:licenseId>GPL-3.0-with-GCC-exception</spdx:licenseId>
     <spdx:name>GNU General Public License v3.0 w/GCC Runtime Library exception</spdx:name>
-    <rdfs:comment>DEPRECATED: Use license expression including main license, "WITH" operator, and identifier: GCC-exception-3.1</rdfs:comment>
+    <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://www.gnu.org/licenses/gcc-exception-3.1.html</spdx:url>
+        <spdx:timestamp>2025-05-01T10:31:43Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
   </spdx:ListedLicense>
 </rdf:RDF>

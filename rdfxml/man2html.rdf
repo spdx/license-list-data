@@ -5,7 +5,9 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/man2html">
-    <spdx:licenseId>man2html</spdx:licenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,32 +17,17 @@
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html</spdx:url>
-        <spdx:timestamp>2025-04-25T20:09:34Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-01T10:41:15Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >2</spdx:order>
         <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:seeAlso>https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html</rdfs:seeAlso>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <rdfs:comment>This license is very similar to check-cvs.</rdfs:comment>
     <spdx:licenseText>Permission is granted to distribute, modify and use this program
 as long as this comment is not removed or changed.
 </spdx:licenseText>
-    <spdx:licenseTextHtml>
-         &lt;p&gt;
-            Permission is granted to distribute, modify and use this
-            program as long as this comment is not removed or changed.
-         &lt;/p&gt;
-
-      </spdx:licenseTextHtml>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:standardLicenseTemplate>Permission is granted to distribute, modify and use this program as long as this comment is not removed or changed.
-
-</spdx:standardLicenseTemplate>
     <rdfs:seeAlso>http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz</rdfs:seeAlso>
+    <spdx:licenseId>man2html</spdx:licenseId>
     <spdx:name>man2html License</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
@@ -51,12 +38,24 @@ as long as this comment is not removed or changed.
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://github.com/hamano/man2html/blob/master/man2html.c</spdx:url>
-        <spdx:timestamp>2025-04-25T20:09:35Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-01T10:41:16Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >1</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
+    <spdx:standardLicenseTemplate>Permission is granted to distribute, modify and use this program as long as this comment is not removed or changed.
+
+</spdx:standardLicenseTemplate>
+    <rdfs:seeAlso>https://github.com/hamano/man2html/blob/master/man2html.c</rdfs:seeAlso>
+    <spdx:licenseTextHtml>
+         &lt;p&gt;
+            Permission is granted to distribute, modify and use this
+            program as long as this comment is not removed or changed.
+         &lt;/p&gt;
+
+      </spdx:licenseTextHtml>
+    <rdfs:comment>This license is very similar to check-cvs.</rdfs:comment>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +65,13 @@ as long as this comment is not removed or changed.
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >false</spdx:isLive>
         <spdx:url>http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz</spdx:url>
-        <spdx:timestamp>2025-04-25T20:09:36Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-01T10:41:17Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>N/A</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:seeAlso>https://github.com/hamano/man2html/blob/master/man2html.c</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

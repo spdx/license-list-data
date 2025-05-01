@@ -5,6 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/X11">
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:licenseText>X11 License
 
 Copyright (C) 1996 X Consortium
@@ -19,15 +21,6 @@ Except as contained in this notice, the name of the X Consortium shall not be us
 
 X Window System is a trademark of X Consortium, Inc.
 </spdx:licenseText>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseId>X11</spdx:licenseId>
-    <rdfs:seeAlso>http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3</rdfs:seeAlso>
-    <rdfs:comment>This is same as MIT, but with no advertising clause added.</rdfs:comment>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;X11 License
 
 &lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (C) 1996 X Consortium  ";match=".{0,5000}"&gt;&gt;
@@ -42,6 +35,7 @@ Except as contained in this notice, the name of &lt;&lt;var;name="name2Disclaime
 &lt;&lt;beginOptional&gt;&gt;X Window System is a trademark of X Consortium, Inc.
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+    <spdx:licenseId>X11</spdx:licenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -51,12 +45,16 @@ Except as contained in this notice, the name of &lt;&lt;var;name="name2Disclaime
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3</spdx:url>
-        <spdx:timestamp>2025-04-25T20:01:50Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-01T10:33:06Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>http://www.xfree86.org/3.3.6/COPYRIGHT2.html#3</rdfs:seeAlso>
+    <rdfs:comment>This is same as MIT, but with no advertising clause added.</rdfs:comment>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;X11 License&lt;/p&gt;
@@ -90,5 +88,7 @@ Except as contained in this notice, the name of &lt;&lt;var;name="name2Disclaime
 &lt;/div&gt;
     </spdx:licenseTextHtml>
     <spdx:name>X11 License</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
   </spdx:ListedLicense>
 </rdf:RDF>
