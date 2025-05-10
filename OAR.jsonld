@@ -2,24 +2,24 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/OAR",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Written by Joel Sherrill <joel.sherrill@OARcorp.com>.  COPYRIGHT (c) 2010, 2017. On-Line Applications Research Corporation (OAR).\";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software for any purpose without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN PARTICULAR, THE AUTHOR MAKES NO REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n\n",
+            "spdx:name": "OAR License",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseId": "OAR",
             "spdx:crossRef": {
                 "@id": "_:b0"
             },
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Written by Joel Sherrill &lt;joel.sherrill@OARcorp.com&gt;.<br />\n\n            <br />\n\n            COPYRIGHT (c) 2010, 2017. <br />\n\n            On-Line Applications Research Corporation (OAR).\n         </span></var>\n         <p>\n            Permission to use, copy, modify, and distribute this software for any\n            purpose without fee is hereby granted, provided that this entire notice\n            is included in all copies of any software which is or includes a copy\n            or modification of this software.\n         </p>\n\n         <p>\n            THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED\n            WARRANTY.  IN PARTICULAR,  THE AUTHOR MAKES NO REPRESENTATION\n            OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS\n            SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n         </p>\n\n      ",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/string/strsignal.c;hb=HEAD#l35",
+            "spdx:licenseId": "OAR",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Written by Joel Sherrill &lt;joel.sherrill@OARcorp.com&gt;.<br />\n\n            <br />\n\n            COPYRIGHT (c) 2010, 2017. <br />\n\n            On-Line Applications Research Corporation (OAR).\n         </span></var>\n         <p>\n            Permission to use, copy, modify, and distribute this software for any\n            purpose without fee is hereby granted, provided that this entire notice\n            is included in all copies of any software which is or includes a copy\n            or modification of this software.\n         </p>\n\n         <p>\n            THIS SOFTWARE IS BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED\n            WARRANTY.  IN PARTICULAR,  THE AUTHOR MAKES NO REPRESENTATION\n            OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS\n            SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Written by Joel Sherrill <joel.sherrill@OARcorp.com>.  COPYRIGHT (c) 2010, 2017. On-Line Applications Research Corporation (OAR).\";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software for any purpose without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN PARTICULAR, THE AUTHOR MAKES NO REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n\n",
-            "spdx:licenseText": "COPYRIGHT (c) 1989-2013, 2015.\nOn-Line Applications Research Corporation (OAR).\n\nPermission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR,  THE AUTHOR MAKES NO REPRESENTATION\nOR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS\nSOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n",
-            "spdx:name": "OAR License",
-            "rdfs:seeAlso": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/string/strsignal.c;hb=HEAD#l35"
+            "spdx:licenseText": "COPYRIGHT (c) 1989-2013, 2015.\nOn-Line Applications Research Corporation (OAR).\n\nPermission to use, copy, modify, and distribute this software for any\npurpose without fee is hereby granted, provided that this entire notice\nis included in all copies of any software which is or includes a copy\nor modification of this software.\n\nTHIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTY.  IN PARTICULAR,  THE AUTHOR MAKES NO REPRESENTATION\nOR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS\nSOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n"
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/string/strsignal.c;hb=HEAD#l35",
-            "spdx:timestamp": "2025-05-01T10:33:33Z",
+            "spdx:timestamp": "2025-05-10T05:44:10Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
