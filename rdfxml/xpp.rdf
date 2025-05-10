@@ -5,12 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/xpp">
-    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/xpp</rdfs:seeAlso>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:licenseId>xpp</spdx:licenseId>
     <spdx:licenseText>LICENSE FOR THE Extreme! Lab PullParser
 
 Copyright (c) 2002 The Trustees of Indiana University. All rights reserved.
@@ -33,7 +29,9 @@ Alternatively, this acknowledgment may appear in the software itself, and wherev
 
 LICENSEE UNDERSTANDS THAT SOFTWARE IS PROVIDED "AS IS" FOR WHICH NO WARRANTIES AS TO CAPABILITIES OR ACCURACY ARE MADE. INDIANA UNIVERSITY GIVES NO WARRANTIES AND MAKES NO REPRESENTATION THAT SOFTWARE IS FREE OF INFRINGEMENT OF THIRD PARTY PATENT, COPYRIGHT, OR OTHER PROPRIETARY RIGHTS. INDIANA UNIVERSITY MAKES NO WARRANTIES THAT SOFTWARE IS FREE FROM "BUGS", "VIRUSES", "TROJAN HORSES", "TRAP DOORS", "WORMS", OR OTHER HARMFUL CODE. LICENSEE ASSUMES THE ENTIRE RISK AS TO THE PERFORMANCE OF SOFTWARE AND/OR ASSOCIATED MATERIALS, AND TO THE PERFORMANCE AND VALIDITY OF INFORMATION GENERATED USING SOFTWARE.
 </spdx:licenseText>
-    <spdx:name>XPP License</spdx:name>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/xpp</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -43,12 +41,30 @@ LICENSEE UNDERSTANDS THAT SOFTWARE IS PROVIDED "AS IS" FOR WHICH NO WARRANTIES A
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://fedoraproject.org/wiki/Licensing/xpp</spdx:url>
-        <spdx:timestamp>2025-05-01T10:31:58Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-10T05:47:39Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
+    <spdx:name>XPP License</spdx:name>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;LICENSE FOR THE Extreme! Lab PullParser
+
+&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 2002 The Trustees of Indiana University. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+   &lt;&lt;var;name="bullet";original="1)";match=".{0,20}"&gt;&gt; All redistributions of source code must retain the above copyright notice, the list of authors in the original source code, this list of conditions and the disclaimer listed in this license;
+   &lt;&lt;var;name="bullet";original="2)";match=".{0,20}"&gt;&gt; All redistributions in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer listed in this license in the documentation and/or other materials provided with the distribution;
+   &lt;&lt;var;name="bullet";original="3)";match=".{0,20}"&gt;&gt; Any documentation included with all redistributions must include the following acknowledgement:
+   "This product includes software developed by the Indiana University Extreme! Lab. For further information please visit http://www.extreme.indiana.edu/"
+
+   Alternatively, this acknowledgment may appear in the software itself, and wherever such third-party acknowledgments normally appear.
+
+   &lt;&lt;var;name="bullet";original="4)";match=".{0,20}"&gt;&gt; The name "Indiana &lt;&lt;var;name="uni1";original="Univeristy";match="Univeristy|University"&gt;&gt; " &lt;&lt;var;name="and";original="and";match="and|or"&gt;&gt; "Indiana &lt;&lt;var;name="uni2";original="Univeristy";match="Univeristy|University"&gt;&gt; Extreme! Lab" shall not be used to endorse or promote products derived from this software without prior written permission from Indiana University. For written permission, please contact http://www.extreme.indiana.edu/.
+   &lt;&lt;var;name="bullet";original="5)";match=".{0,20}"&gt;&gt; Products derived from this software may not use "Indiana &lt;&lt;var;name="uni3";original="University";match="Univeristy|University"&gt;&gt; " name nor may "Indiana &lt;&lt;var;name="uni4";original="Univeristy";match="Univeristy|University"&gt;&gt; " appear in their name, without prior written permission of the Indiana University. Indiana University provides no reassurances that the source code provided does not infringe the patent or any other intellectual property rights of any other entity. Indiana University disclaims any liability to any recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise.
+LICENSEE UNDERSTANDS THAT SOFTWARE IS PROVIDED "AS IS" FOR WHICH NO WARRANTIES AS TO CAPABILITIES OR ACCURACY ARE MADE. INDIANA UNIVERSITY GIVES NO WARRANTIES AND MAKES NO REPRESENTATION THAT SOFTWARE IS FREE OF INFRINGEMENT OF THIRD PARTY PATENT, COPYRIGHT, OR OTHER PROPRIETARY RIGHTS. INDIANA UNIVERSITY MAKES NO WARRANTIES THAT SOFTWARE IS FREE FROM "BUGS", "VIRUSES", "TROJAN HORSES", "TRAP DOORS", "WORMS", OR OTHER HARMFUL CODE. LICENSEE ASSUMES THE ENTIRE RISK AS TO THE PERFORMANCE OF SOFTWARE AND/OR ASSOCIATED MATERIALS, AND TO THE PERFORMANCE AND VALIDITY OF INFORMATION GENERATED USING SOFTWARE.
+
+</spdx:standardLicenseTemplate>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;LICENSE FOR THE Extreme! Lab PullParser&lt;/p&gt;
@@ -118,22 +134,6 @@ LICENSEE UNDERSTANDS THAT SOFTWARE IS PROVIDED "AS IS" FOR WHICH NO WARRANTIES A
          SOFTWARE.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;LICENSE FOR THE Extreme! Lab PullParser
-
-&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 2002 The Trustees of Indiana University. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-   &lt;&lt;var;name="bullet";original="1)";match=".{0,20}"&gt;&gt; All redistributions of source code must retain the above copyright notice, the list of authors in the original source code, this list of conditions and the disclaimer listed in this license;
-   &lt;&lt;var;name="bullet";original="2)";match=".{0,20}"&gt;&gt; All redistributions in binary form must reproduce the above copyright notice, this list of conditions and the disclaimer listed in this license in the documentation and/or other materials provided with the distribution;
-   &lt;&lt;var;name="bullet";original="3)";match=".{0,20}"&gt;&gt; Any documentation included with all redistributions must include the following acknowledgement:
-   "This product includes software developed by the Indiana University Extreme! Lab. For further information please visit http://www.extreme.indiana.edu/"
-
-   Alternatively, this acknowledgment may appear in the software itself, and wherever such third-party acknowledgments normally appear.
-
-   &lt;&lt;var;name="bullet";original="4)";match=".{0,20}"&gt;&gt; The name "Indiana &lt;&lt;var;name="uni1";original="Univeristy";match="Univeristy|University"&gt;&gt; " &lt;&lt;var;name="and";original="and";match="and|or"&gt;&gt; "Indiana &lt;&lt;var;name="uni2";original="Univeristy";match="Univeristy|University"&gt;&gt; Extreme! Lab" shall not be used to endorse or promote products derived from this software without prior written permission from Indiana University. For written permission, please contact http://www.extreme.indiana.edu/.
-   &lt;&lt;var;name="bullet";original="5)";match=".{0,20}"&gt;&gt; Products derived from this software may not use "Indiana &lt;&lt;var;name="uni3";original="University";match="Univeristy|University"&gt;&gt; " name nor may "Indiana &lt;&lt;var;name="uni4";original="Univeristy";match="Univeristy|University"&gt;&gt; " appear in their name, without prior written permission of the Indiana University. Indiana University provides no reassurances that the source code provided does not infringe the patent or any other intellectual property rights of any other entity. Indiana University disclaims any liability to any recipient for claims brought by any other entity based on infringement of intellectual property rights or otherwise.
-LICENSEE UNDERSTANDS THAT SOFTWARE IS PROVIDED "AS IS" FOR WHICH NO WARRANTIES AS TO CAPABILITIES OR ACCURACY ARE MADE. INDIANA UNIVERSITY GIVES NO WARRANTIES AND MAKES NO REPRESENTATION THAT SOFTWARE IS FREE OF INFRINGEMENT OF THIRD PARTY PATENT, COPYRIGHT, OR OTHER PROPRIETARY RIGHTS. INDIANA UNIVERSITY MAKES NO WARRANTIES THAT SOFTWARE IS FREE FROM "BUGS", "VIRUSES", "TROJAN HORSES", "TRAP DOORS", "WORMS", OR OTHER HARMFUL CODE. LICENSEE ASSUMES THE ENTIRE RISK AS TO THE PERFORMANCE OF SOFTWARE AND/OR ASSOCIATED MATERIALS, AND TO THE PERFORMANCE AND VALIDITY OF INFORMATION GENERATED USING SOFTWARE.
-
-</spdx:standardLicenseTemplate>
+    <spdx:licenseId>xpp</spdx:licenseId>
   </spdx:ListedLicense>
 </rdf:RDF>

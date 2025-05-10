@@ -2,24 +2,24 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/threeparttable",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            "spdx:crossRef": {
+                "@id": "_:b0"
             },
-            "@type": "spdx:ListedLicense",
+            "spdx:licenseId": "threeparttable",
             "spdx:name": "threeparttable License",
+            "spdx:standardLicenseTemplate": "This file may be distributed, modified, and used in other works with just one restriction: modified versions must clearly indicate the modification (a name change, or a displayed message, or ?).\n\n",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Threeparttable",
+            "spdx:licenseText": "This file may be distributed, modified, and used in other works with just\none restriction: modified versions must clearly indicate the modification\n(a name change, or a displayed message, or ?).\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:licenseTextHtml": "\n         <p>\n            This file may be distributed, modified, and used in other works\n            with just one restriction: modified versions must clearly indicate\n            the modification (a name change, or a displayed message, or ?).\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "This file may be distributed, modified, and used in other works with just one restriction: modified versions must clearly indicate the modification (a name change, or a displayed message, or ?).\n\n",
-            "spdx:licenseText": "This file may be distributed, modified, and used in other works with just\none restriction: modified versions must clearly indicate the modification\n(a name change, or a displayed message, or ?).\n",
-            "spdx:licenseId": "threeparttable",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/Threeparttable"
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/Threeparttable",
-            "spdx:timestamp": "2025-05-01T10:43:18Z",
+            "spdx:timestamp": "2025-05-10T05:44:37Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

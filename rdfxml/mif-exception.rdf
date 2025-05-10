@@ -5,8 +5,15 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/mif-exception">
-    <rdfs:seeAlso>https://www.threadingbuildingblocks.org/licensing</rdfs:seeAlso>
+    <spdx:licenseExceptionId>mif-exception</spdx:licenseExceptionId>
     <spdx:name>Macros and Inline Functions Exception</spdx:name>
+    <rdfs:seeAlso>http://www.scs.stanford.edu/histar/src/lib/cppsup/exception</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseExceptionTemplate>As a special exception, you may use this file as part of a free software library without restriction. Specifically, if other files instantiate templates or use macros or inline functions from this file, or you compile this file and link it with other files to produce an executable, this file does not by itself cause the resulting executable to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the executable file might be covered by the GNU General Public License.
+
+</spdx:licenseExceptionTemplate>
+    <rdfs:seeAlso>https://www.threadingbuildingblocks.org/licensing</rdfs:seeAlso>
     <spdx:exceptionTextHtml>
       &lt;p&gt;As a special exception, you may use this file as part of a free
          software library without restriction. Specifically, if other
@@ -19,16 +26,9 @@
          covered by the GNU General Public License.&lt;/p&gt;
 
     </spdx:exceptionTextHtml>
-    <rdfs:comment>Typically used with GPL-2.0-only or GPL-2.0-or-later for older versions of GCC. This is similar to the eCos Exception.</rdfs:comment>
-    <rdfs:seeAlso>http://dev.bertos.org/doxygen/</rdfs:seeAlso>
-    <spdx:licenseExceptionId>mif-exception</spdx:licenseExceptionId>
     <spdx:licenseExceptionText>As a special exception, you may use this file as part of a free software library without restriction. Specifically, if other files instantiate templates or use macros or inline functions from this file, or you compile this file and link it with other files to produce an executable, this file does not by itself cause the resulting executable to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the executable file might be covered by the GNU General Public License.
 </spdx:licenseExceptionText>
-    <rdfs:seeAlso>http://www.scs.stanford.edu/histar/src/lib/cppsup/exception</rdfs:seeAlso>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:licenseExceptionTemplate>As a special exception, you may use this file as part of a free software library without restriction. Specifically, if other files instantiate templates or use macros or inline functions from this file, or you compile this file and link it with other files to produce an executable, this file does not by itself cause the resulting executable to be covered by the GNU General Public License. This exception does not however invalidate any other reasons why the executable file might be covered by the GNU General Public License.
-
-</spdx:licenseExceptionTemplate>
+    <rdfs:seeAlso>http://dev.bertos.org/doxygen/</rdfs:seeAlso>
+    <rdfs:comment>Typically used with GPL-2.0-only or GPL-2.0-or-later for older versions of GCC. This is similar to the eCos Exception.</rdfs:comment>
   </spdx:ListedLicenseException>
 </rdf:RDF>
