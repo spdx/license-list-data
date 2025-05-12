@@ -5,13 +5,11 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Kastrup">
-    <spdx:name>Kastrup License</spdx:name>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright(c) 2001 by David Kastrup";match=".{0,5000}"&gt;&gt;
-Any use of the code is permitted as long as this copyright notice is preserved in the code.
-
-</spdx:standardLicenseTemplate>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:licenseText>Copyright(c) 2001 by David Kastrup
+Any use of the code is permitted as long as this copyright 
+notice is preserved in the code.
+</spdx:licenseText>
+    <rdfs:seeAlso>https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx</rdfs:seeAlso>
     <spdx:licenseTextHtml>
          &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
            Copyright(c) 2001 by David Kastrup
@@ -22,12 +20,12 @@ Any use of the code is permitted as long as this copyright notice is preserved i
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:licenseText>Copyright(c) 2001 by David Kastrup
-Any use of the code is permitted as long as this copyright 
-notice is preserved in the code.
-</spdx:licenseText>
-    <rdfs:seeAlso>https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx</rdfs:seeAlso>
-    <spdx:licenseId>Kastrup</spdx:licenseId>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright(c) 2001 by David Kastrup";match=".{0,5000}"&gt;&gt;
+Any use of the code is permitted as long as this copyright notice is preserved in the code.
+
+</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -37,7 +35,7 @@ notice is preserved in the code.
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://ctan.math.utah.edu/ctan/tex-archive/macros/generic/kastrup/binhex.dtx</spdx:url>
-        <spdx:timestamp>2025-05-10T05:43:25Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-12T09:27:10Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
@@ -45,5 +43,6 @@ notice is preserved in the code.
     </spdx:crossRef>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
+    <spdx:name>Kastrup License</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

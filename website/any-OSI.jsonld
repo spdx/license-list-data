@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
-            "spdx:timestamp": "2025-05-10T05:46:48Z",
+            "spdx:timestamp": "2025-05-12T09:30:28Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,10 +25,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/any-OSI",
-            "spdx:name": "Any OSI License",
+            "spdx:licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n",
             "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
             "spdx:licenseTextHtml": "\n         <p>\n            Pick your favourite OSI approved license :)\n         </p>\n\n         <p>\n            http://www.opensource.org/licenses/alphabetical\n         </p>\n\n      ",
-            "@type": "spdx:ListedLicense",
+            "spdx:standardLicenseTemplate": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
             "spdx:crossRef": {
                 "@id": "_:b0"
             },
@@ -36,13 +40,8 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseId": "any-OSI",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n\n",
-            "spdx:licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n"
+            "spdx:name": "Any OSI License",
+            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {

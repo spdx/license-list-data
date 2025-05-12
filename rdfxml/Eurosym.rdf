@@ -5,9 +5,6 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Eurosym">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:name>Eurosym License</spdx:name>
     <spdx:licenseText>Copyright (c) 1999-2002 Henrik Theiling
 Licence Version 2
 
@@ -27,8 +24,7 @@ Permission is granted to anyone to use this software for any purpose, including 
 
 This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.
 </spdx:licenseText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/Eurosym</rdfs:seeAlso>
     <spdx:licenseTextHtml>
       &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright (c) 1999-2002 Henrik Theiling&lt;/p&gt;
@@ -85,7 +81,6 @@ Licence Version 2
       &lt;p&gt;This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <rdfs:seeAlso>https://fedoraproject.org/wiki/Licensing/Eurosym</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1999-2002 Henrik Theiling  ";match=".{0,5000}"&gt;&gt;&lt;&lt;beginOptional&gt;&gt; 
 Licence Version 2
 &lt;&lt;endOptional&gt;&gt;
@@ -101,6 +96,8 @@ Permission is granted to anyone to use this software for any purpose, including 
 This licence is governed by the Laws of Germany. Disputes shall be settled by Saarbruecken City Court.
 
 </spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -110,12 +107,14 @@ This licence is governed by the Laws of Germany. Disputes shall be settled by Sa
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://fedoraproject.org/wiki/Licensing/Eurosym</spdx:url>
-        <spdx:timestamp>2025-05-10T05:53:15Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-12T09:36:45Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:licenseId>Eurosym</spdx:licenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:name>Eurosym License</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

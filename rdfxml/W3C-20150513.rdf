@@ -5,11 +5,11 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/W3C-20150513">
-    <rdfs:seeAlso>https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document</rdfs:seeAlso>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isOsiApproved>
-    <spdx:standardLicenseHeader>[$name_of_software: $distribution_URI] Copyright (c) [$date-of-software] World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University, Beihang). All Rights Reserved. This work is distributed under the W3C® Software License [1] in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. [1] http://www.w3.org/Consortium/Legal/copyright-software</spdx:standardLicenseHeader>
     <rdfs:seeAlso>https://www.w3.org/copyright/software-license-2015/</rdfs:seeAlso>
+    <spdx:standardLicenseHeader>[$name_of_software: $distribution_URI] Copyright (c) [$date-of-software] World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University, Beihang). All Rights Reserved. This work is distributed under the W3C® Software License [1] in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. [1] http://www.w3.org/Consortium/Legal/copyright-software</spdx:standardLicenseHeader>
+    <spdx:standardLicenseHeaderTemplate>&lt;&lt;var;name="softwareNameURI";original="[$name_of_software: $distribution_URI]";match=".+"&gt;&gt; Copyright (c) &lt;&lt;var;name="year";original="[$date-of-software]";match=".+"&gt;&gt; World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University, Beihang). All Rights Reserved. This work is distributed under the W3C® Software License [1] in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. &lt;&lt;var;name="bullet";original="[1]";match=".{0,20}"&gt;&gt; http://www.w3.org/Consortium/Legal/copyright-software</spdx:standardLicenseHeaderTemplate>
+    <rdfs:comment>This license takes effect 13 May, 2015. The changes from the previous version make clear that the license is applicable to both software and text, by changing the name and substituting "work" for instances of "software and its documentation." It moves "notice of changes or modifications to the files" to the copyright notice, to make clear that the license is compatible with other liberal licenses. In 2023, W3C made minor modifications to this license as of Jan 1, 2023 (see URL above). However, those changes did not give rise to a new license under the SPDX Matching Guidelines, thus the same id can be used.</rdfs:comment>
+    <rdfs:seeAlso>https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -18,14 +18,29 @@
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
-        <spdx:url>https://www.w3.org/copyright/software-license-2015/</spdx:url>
-        <spdx:timestamp>2025-05-10T05:45:26Z</spdx:timestamp>
+        <spdx:url>https://www.w3.org/copyright/software-license-2023/</spdx:url>
+        <spdx:timestamp>2025-05-12T09:29:07Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >1</spdx:order>
+        >2</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <rdfs:seeAlso>https://www.w3.org/copyright/software-license-2023/</rdfs:seeAlso>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document</spdx:url>
+        <spdx:timestamp>2025-05-12T09:29:07Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
         <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:licenseId>W3C-20150513</spdx:licenseId>
     <spdx:licenseTextHtml>
       &lt;p&gt;This work is being provided by the copyright holders under the
          following license.&lt;/p&gt;
@@ -91,6 +106,42 @@ THIS WORK IS PROVIDED &amp;quot;AS IS,&amp;quot; AND COPYRIGHT HOLDERS MAKE
          work will at all times remain with copyright holders.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
+    <spdx:name>W3C Software Notice and Document License (2015-05-13)</spdx:name>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
+    <spdx:standardLicenseHeaderHtml>
+         &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; [$name_of_software:
+    $distribution_URI]&lt;/span&gt;&lt;/var&gt;
+
+Copyright (c)
+    &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; [$date-of-software]&lt;/span&gt;&lt;/var&gt; World Wide Web
+    Consortium, (Massachusetts Institute of Technology, European Research
+    Consortium for Informatics and Mathematics, Keio University, Beihang).
+    All Rights Reserved. This work is distributed under the W3C® Software
+    License [1] in the hope that it will be useful, but WITHOUT ANY
+    WARRANTY; without even the implied warranty of MERCHANTABILITY or
+    FITNESS FOR A PARTICULAR PURPOSE.
+
+    &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; [1]&lt;/span&gt;&lt;/var&gt; http://www.w3.org/Consortium/Legal/copyright-software
+
+  </spdx:standardLicenseHeaderHtml>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://www.w3.org/copyright/software-license-2015/</spdx:url>
+        <spdx:timestamp>2025-05-12T09:29:07Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >1</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseText>This work is being provided by the copyright holders under the following license.
 
 License
@@ -109,41 +160,6 @@ COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQ
 
 The name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the work without specific, written prior permission. Title to copyright in this work will at all times remain with copyright holders.
 </spdx:licenseText>
-    <spdx:standardLicenseHeaderHtml>
-         &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; [$name_of_software:
-    $distribution_URI]&lt;/span&gt;&lt;/var&gt;
-
-Copyright (c)
-    &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; [$date-of-software]&lt;/span&gt;&lt;/var&gt; World Wide Web
-    Consortium, (Massachusetts Institute of Technology, European Research
-    Consortium for Informatics and Mathematics, Keio University, Beihang).
-    All Rights Reserved. This work is distributed under the W3C® Software
-    License [1] in the hope that it will be useful, but WITHOUT ANY
-    WARRANTY; without even the implied warranty of MERCHANTABILITY or
-    FITNESS FOR A PARTICULAR PURPOSE.
-
-    &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; [1]&lt;/span&gt;&lt;/var&gt; http://www.w3.org/Consortium/Legal/copyright-software
-
-  </spdx:standardLicenseHeaderHtml>
-    <spdx:standardLicenseHeaderTemplate>&lt;&lt;var;name="softwareNameURI";original="[$name_of_software: $distribution_URI]";match=".+"&gt;&gt; Copyright (c) &lt;&lt;var;name="year";original="[$date-of-software]";match=".+"&gt;&gt; World Wide Web Consortium, (Massachusetts Institute of Technology, European Research Consortium for Informatics and Mathematics, Keio University, Beihang). All Rights Reserved. This work is distributed under the W3C® Software License [1] in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. &lt;&lt;var;name="bullet";original="[1]";match=".{0,20}"&gt;&gt; http://www.w3.org/Consortium/Legal/copyright-software</spdx:standardLicenseHeaderTemplate>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>https://www.w3.org/copyright/software-license-2023/</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://www.w3.org/copyright/software-license-2023/</spdx:url>
-        <spdx:timestamp>2025-05-10T05:45:26Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >2</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:standardLicenseTemplate>This work is being provided by the copyright holders under the following license.
 
 License
@@ -162,22 +178,5 @@ COPYRIGHT HOLDERS WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL OR CONSEQ
 The name and trademarks of copyright holders may NOT be used in advertising or publicity pertaining to the work without specific, written prior permission. Title to copyright in this work will at all times remain with copyright holders.
 
 </spdx:standardLicenseTemplate>
-    <rdfs:comment>This license takes effect 13 May, 2015. The changes from the previous version make clear that the license is applicable to both software and text, by changing the name and substituting "work" for instances of "software and its documentation." It moves "notice of changes or modifications to the files" to the copyright notice, to make clear that the license is compatible with other liberal licenses. In 2023, W3C made minor modifications to this license as of Jan 1, 2023 (see URL above). However, those changes did not give rise to a new license under the SPDX Matching Guidelines, thus the same id can be used.</rdfs:comment>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document</spdx:url>
-        <spdx:timestamp>2025-05-10T05:45:26Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:name>W3C Software Notice and Document License (2015-05-13)</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

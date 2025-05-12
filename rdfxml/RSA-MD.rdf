@@ -5,22 +5,6 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/RSA-MD">
-    <spdx:name>RSA Message-Digest License</spdx:name>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-License to copy and use this software is granted provided that it is identified as the "RSA Data Security, Inc. &lt;&lt;var;name="algorithm";original="MD5";match="(MD5|MD4)"&gt;&gt; Message-Digest Algorithm" in all material mentioning or referencing this software or this function.
-
-License is also granted to make and use derivative works provided that such works are identified as "derived from the RSA Data Security, Inc. &lt;&lt;var;name="algorithm";original="MD5";match="(MD5|MD4)"&gt;&gt; Message-Digest Algorithm" in all material mentioning or referencing the derived work.
-
-RSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this software for any particular purpose. It is provided "as is" without express or implied warranty of any kind.
-
-These notices must be retained in any copies of any part of this documentation and/or software.
-
-</spdx:standardLicenseTemplate>
-    <rdfs:seeAlso>http://www.faqs.org/rfcs/rfc1321.html</rdfs:seeAlso>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
     <spdx:licenseText>Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.
 
 License to copy and use this software is granted provided that it is identified as the "RSA Data Security, Inc. MD5 Message-Digest Algorithm" in all material mentioning or referencing this software or this function.
@@ -31,7 +15,7 @@ RSA Data Security, Inc. makes no representations concerning either the merchanta
 
 These notices must be retained in any copies of any part of this documentation and/or software.
 </spdx:licenseText>
-    <spdx:licenseId>RSA-MD</spdx:licenseId>
+    <rdfs:seeAlso>http://www.faqs.org/rfcs/rfc1321.html</rdfs:seeAlso>
     <spdx:licenseTextHtml>
       &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.&lt;/p&gt;
@@ -57,6 +41,18 @@ These notices must be retained in any copies of any part of this documentation a
       &lt;p&gt;These notices must be retained in any copies of any part of this documentation and/or software.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
+License to copy and use this software is granted provided that it is identified as the "RSA Data Security, Inc. &lt;&lt;var;name="algorithm";original="MD5";match="(MD5|MD4)"&gt;&gt; Message-Digest Algorithm" in all material mentioning or referencing this software or this function.
+
+License is also granted to make and use derivative works provided that such works are identified as "derived from the RSA Data Security, Inc. &lt;&lt;var;name="algorithm";original="MD5";match="(MD5|MD4)"&gt;&gt; Message-Digest Algorithm" in all material mentioning or referencing the derived work.
+
+RSA Data Security, Inc. makes no representations concerning either the merchantability of this software or the suitability of this software for any particular purpose. It is provided "as is" without express or implied warranty of any kind.
+
+These notices must be retained in any copies of any part of this documentation and/or software.
+
+</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,11 +62,14 @@ These notices must be retained in any copies of any part of this documentation a
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://www.faqs.org/rfcs/rfc1321.html</spdx:url>
-        <spdx:timestamp>2025-05-10T05:49:31Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-12T09:33:06Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
-        <spdx:match>true</spdx:match>
+        <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:name>RSA Message-Digest License</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

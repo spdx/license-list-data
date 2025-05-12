@@ -1,7 +1,7 @@
 # License List
-The following licenses have been generated from the license list version f52545f
+The following licenses have been generated from the license list version ec6a83f
 
-## Licenses with Short Idenifiers
+## Licenses with Short Identifiers
 
 | Full Name of License                                                                      | Short Identifier                         | OSI? | FSFLibre? |
 |-------------------------------------------------------------------------------------------|------------------------------------------|------|-----------|
@@ -622,6 +622,7 @@ The following licenses have been generated from the license list version f52545f
 | Unicode Terms of Use                                                                      | [Unicode-TOU][]                          |      |           |
 | UnixCrypt License                                                                         | [UnixCrypt][]                            |      |           |
 | The Unlicense                                                                             | [Unlicense][]                            | Y    | Y         |
+| Unlicense - libwhirlpool variant                                                          | [Unlicense-libwhirlpool][]               |      |           |
 | Universal Permissive License v1.0                                                         | [UPL-1.0][]                              | Y    | Y         |
 | Utah Raster Toolkit Run Length Encoded License                                            | [URT-RLE][]                              |      |           |
 | Vim License                                                                               | [Vim][]                                  |      | Y         |
@@ -1431,6 +1432,7 @@ The following licenses have been generated from the license list version f52545f
 [Unicode-TOU]: text/Unicode-TOU.txt
 [UnixCrypt]: text/UnixCrypt.txt
 [Unlicense]: text/Unlicense.txt
+[Unlicense-libwhirlpool]: text/Unlicense-libwhirlpool.txt
 [UPL-1.0]: text/UPL-1.0.txt
 [URT-RLE]: text/URT-RLE.txt
 [Vim]: text/Vim.txt
