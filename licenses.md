@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ec6a83f
+The following licenses have been generated from the license list version 42cb443
 
 ## Licenses with Short Identifiers
 
@@ -622,6 +622,7 @@ The following licenses have been generated from the license list version ec6a83f
 | Unicode Terms of Use                                                                      | [Unicode-TOU][]                          |      |           |
 | UnixCrypt License                                                                         | [UnixCrypt][]                            |      |           |
 | The Unlicense                                                                             | [Unlicense][]                            | Y    | Y         |
+| Unlicense - libtelnet variant                                                             | [Unlicense-libtelnet][]                  |      |           |
 | Unlicense - libwhirlpool variant                                                          | [Unlicense-libwhirlpool][]               |      |           |
 | Universal Permissive License v1.0                                                         | [UPL-1.0][]                              | Y    | Y         |
 | Utah Raster Toolkit Run Length Encoded License                                            | [URT-RLE][]                              |      |           |
@@ -1432,6 +1433,7 @@ The following licenses have been generated from the license list version ec6a83f
 [Unicode-TOU]: text/Unicode-TOU.txt
 [UnixCrypt]: text/UnixCrypt.txt
 [Unlicense]: text/Unlicense.txt
+[Unlicense-libtelnet]: text/Unlicense-libtelnet.txt
 [Unlicense-libwhirlpool]: text/Unlicense-libwhirlpool.txt
 [UPL-1.0]: text/UPL-1.0.txt
 [URT-RLE]: text/URT-RLE.txt
