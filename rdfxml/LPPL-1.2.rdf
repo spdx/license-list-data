@@ -5,8 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/LPPL-1.2">
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:standardLicenseHeaderTemplate>&lt;&lt;beginOptional&gt;&gt;%%&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="filename";original="pig.dtx";match=".+"&gt;&gt;
 &lt;&lt;beginOptional&gt;&gt;%%&lt;&lt;endOptional&gt;&gt; Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt;
 &lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt;
@@ -21,6 +21,8 @@
 &lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; This program consists of the &lt;&lt;var;name="filenames";original="files pig.dtx and pig.ins";match=".+"&gt;&gt;
 
 </spdx:standardLicenseHeaderTemplate>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The LaTeX Project Public License
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -644,7 +646,7 @@ Files containing the text of a license (such as this file) are often examples of
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://www.latex-project.org/lppl/lppl-1-2.txt</spdx:url>
-        <spdx:timestamp>2025-05-12T10:14:24Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-12T11:13:13Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
@@ -695,8 +697,6 @@ Files containing the text of a license (such as this file) are often examples of
 % This program consists of the files pig.dtx and pig.ins
 
 </spdx:standardLicenseHeader>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
     <rdfs:seeAlso>http://www.latex-project.org/lppl/lppl-1-2.txt</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

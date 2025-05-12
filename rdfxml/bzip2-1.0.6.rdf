@@ -5,8 +5,21 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/bzip2-1.0.6">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c</spdx:url>
+        <spdx:timestamp>2025-05-12T11:20:28Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >2</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -16,7 +29,7 @@
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://bzip.org/1.0.5/bzip2-manual-1.0.5.html</spdx:url>
-        <spdx:timestamp>2025-05-12T10:21:16Z</spdx:timestamp>
+        <spdx:timestamp>2025-05-12T11:20:29Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >1</spdx:order>
         <spdx:match>false</spdx:match>
@@ -85,21 +98,6 @@
  	 &lt;/p&gt;
 &lt;/div&gt;
      </spdx:licenseTextHtml>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6</spdx:url>
-        <spdx:timestamp>2025-05-12T10:21:16Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <rdfs:seeAlso>https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6</rdfs:seeAlso>
     <rdfs:seeAlso>https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c</rdfs:seeAlso>
     <rdfs:comment>The additional "Neither the names of..." optional clause at the end of the license occurs in certain uses of this license text, as described at https://github.com/spdx/license-list-XML/issues/2271</rdfs:comment>
@@ -112,14 +110,16 @@
         >true</spdx:isValid>
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
-        <spdx:url>https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c</spdx:url>
-        <spdx:timestamp>2025-05-12T10:21:15Z</spdx:timestamp>
+        <spdx:url>https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6</spdx:url>
+        <spdx:timestamp>2025-05-12T11:20:28Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >2</spdx:order>
+        >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
     <spdx:name>bzip2 and libbzip2 License v1.0.6</spdx:name>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="This program, "bzip2", the associated library "libbzip2", and all documentation, are copyright (C) 1996-2010 Julian R Seward. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 

@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 42cb443
+The following licenses have been generated from the license list version 21b8e53
 
 ## Licenses with Short Identifiers
 
@@ -50,6 +50,7 @@ The following licenses have been generated from the license list version 42cb443
 | Artistic License 1.0 w/clause 8                                                           | [Artistic-1.0-cl8][]                     | Y    |           |
 | Artistic License 1.0 (Perl)                                                               | [Artistic-1.0-Perl][]                    | Y    |           |
 | Artistic License 2.0                                                                      | [Artistic-2.0][]                         | Y    | Y         |
+| Artistic License 1.0 (dist)                                                               | [Artistic-dist][]                        |      |           |
 | ASWF Digital Assets License version 1.0                                                   | [ASWF-Digital-Assets-1.0][]              |      |           |
 | ASWF Digital Assets License 1.1                                                           | [ASWF-Digital-Assets-1.1][]              |      |           |
 | Baekmuk License                                                                           | [Baekmuk][]                              |      |           |
@@ -576,6 +577,7 @@ The following licenses have been generated from the license list version 42cb443
 | Secure Messaging Protocol Public License                                                  | [SMPPL][]                                |      |           |
 | SNIA Public License 1.1                                                                   | [SNIA][]                                 |      |           |
 | snprintf License                                                                          | [snprintf][]                             |      |           |
+| SOFA Software License                                                                     | [SOFA][]                                 |      |           |
 | softSurfer License                                                                        | [softSurfer][]                           |      |           |
 | Soundex License                                                                           | [Soundex][]                              |      |           |
 | Spencer License 86                                                                        | [Spencer-86][]                           |      |           |
@@ -832,6 +834,7 @@ The following licenses have been generated from the license list version 42cb443
 [Artistic-1.0-cl8]: text/Artistic-1.0-cl8.txt
 [Artistic-1.0-Perl]: text/Artistic-1.0-Perl.txt
 [Artistic-2.0]: text/Artistic-2.0.txt
+[Artistic-dist]: text/Artistic-dist.txt
 [ASWF-Digital-Assets-1.0]: text/ASWF-Digital-Assets-1.0.txt
 [ASWF-Digital-Assets-1.1]: text/ASWF-Digital-Assets-1.1.txt
 [Baekmuk]: text/Baekmuk.txt
@@ -1386,6 +1389,7 @@ The following licenses have been generated from the license list version 42cb443
 [SMPPL]: text/SMPPL.txt
 [SNIA]: text/SNIA.txt
 [snprintf]: text/snprintf.txt
+[SOFA]: text/SOFA.txt
 [softSurfer]: text/softSurfer.txt
 [Soundex]: text/Soundex.txt
 [Spencer-86]: text/Spencer-86.txt

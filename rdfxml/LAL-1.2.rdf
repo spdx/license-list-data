@@ -5,9 +5,11 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/LAL-1.2">
-    <rdfs:seeAlso>http://artlibre.org/licence/lal/licence-art-libre-12/</rdfs:seeAlso>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>http://artlibre.org/licence/lal/licence-art-libre-12/</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Licence Art Libre
 [ Copyleft Attitude ]
 
@@ -82,23 +84,6 @@ toute personne qui contribue à la création de l'oeuvre. Il est l'auteur d'une 
 Cette licence est soumise au droit français.
 
 </spdx:standardLicenseTemplate>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://artlibre.org/licence/lal/licence-art-libre-12/</spdx:url>
-        <spdx:timestamp>2025-05-12T10:22:49Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:licenseText>Licence Art Libre
 [ Copyleft Attitude ]
 
@@ -397,6 +382,21 @@ toute personne qui contribue à la création de l&amp;apos;oeuvre. Il est l&amp;
       &lt;p&gt;Cette licence est soumise au droit français.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://artlibre.org/licence/lal/licence-art-libre-12/</spdx:url>
+        <spdx:timestamp>2025-05-12T11:21:59Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <rdfs:comment>French is the canonical language for this license. Translations are available in: English: http://artlibre.org/licence/lal/licence-art-libre-12/ Italian: http://artlibre.org/licence/lal/it/ Spanish: http://artlibre.org/licence/lal/es/</rdfs:comment>
     <spdx:name>Licence Art Libre 1.2</spdx:name>
   </spdx:ListedLicense>
