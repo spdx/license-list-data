@@ -1,0 +1,24 @@
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
+
+<http://spdx.org/licenses/Unlicense-libtelnet>
+        a                             spdx:ListedLicense;
+        rdfs:comment                  "This is license contains a small part of the Unlicense, but is much shorter.";
+        rdfs:seeAlso                  "https://github.com/seanmiddleditch/libtelnet/blob/develop/COPYING";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         false;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "N/A";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2025-05-12T10:12:28Z";
+                                        spdx:url            "https://github.com/seanmiddleditch/libtelnet/blob/develop/COPYING"
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseText              "The author or authors of this code dedicate any and all copyright interest in this code to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this code under copyright law.\n";
+        spdx:licenseTextHtml          "\n         <p>\n            The author or authors of this code dedicate any and all\n            copyright interest in this code to the public domain. We make\n            this dedication for the benefit of the public at large and\n            to the detriment of our heirs and successors. We intend this\n            dedication to be an overt act of relinquishment in perpetuity of\n            all present and future rights to this code under copyright law.\n         </p>\n\n      ";
+        spdx:name                     "Unlicense - libtelnet variant";
+        spdx:standardLicenseTemplate  "The author or authors of this code dedicate any and all copyright interest in this code to the public domain. We make this dedication for the benefit of the public at large and to the detriment of our heirs and successors. We intend this dedication to be an overt act of relinquishment in perpetuity of all present and future rights to this code under copyright law.\n\n" .
