@@ -1,0 +1,24 @@
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
+
+<http://spdx.org/licenses/FSFULLRSD>
+        a                             spdx:ListedLicense;
+        rdfs:comment                  "This is the same as FSFULLR but adds a short disclaimer of warranties.";
+        rdfs:seeAlso                  "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2025-05-29T15:16:01Z";
+                                        spdx:url            "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3"
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseText              "This file is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\nThis file is offered as-is, without any warranty.\n";
+        spdx:licenseTextHtml          "\n         <p>\n            This file is free software; the Free Software Foundation\n            gives unlimited permission to copy and/or distribute it,\n            with or without modifications, as long as this notice is preserved.\n            This file is offered as-is, without any warranty.\n         </p>\n\n      ";
+        spdx:name                     "FSF Unlimited License (with License Retention and Short Disclaimer)";
+        spdx:standardLicenseTemplate  "This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. This file is offered as-is, without any warranty.\n\n" .

@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 21b8e53
+The following licenses have been generated from the license list version aa8324f
 
 ## Licenses with Short Identifiers
 
@@ -51,6 +51,7 @@ The following licenses have been generated from the license list version 21b8e53
 | Artistic License 1.0 (Perl)                                                               | [Artistic-1.0-Perl][]                    | Y    |           |
 | Artistic License 2.0                                                                      | [Artistic-2.0][]                         | Y    | Y         |
 | Artistic License 1.0 (dist)                                                               | [Artistic-dist][]                        |      |           |
+| Aspell Russian License                                                                    | [Aspell-RU][]                            |      |           |
 | ASWF Digital Assets License version 1.0                                                   | [ASWF-Digital-Assets-1.0][]              |      |           |
 | ASWF Digital Assets License 1.1                                                           | [ASWF-Digital-Assets-1.1][]              |      |           |
 | Baekmuk License                                                                           | [Baekmuk][]                              |      |           |
@@ -256,6 +257,7 @@ The following licenses have been generated from the license list version 21b8e53
 | FSF All Permissive License (without Warranty)                                             | [FSFAP-no-warranty-disclaimer][]         |      |           |
 | FSF Unlimited License                                                                     | [FSFUL][]                                |      |           |
 | FSF Unlimited License (with License Retention)                                            | [FSFULLR][]                              |      |           |
+| FSF Unlimited License (with License Retention and Short Disclaimer)                       | [FSFULLRSD][]                            |      |           |
 | FSF Unlimited License (With License Retention and Warranty Disclaimer)                    | [FSFULLRWD][]                            |      |           |
 | Functional Source License, Version 1.1, ALv2 Future License                               | [FSL-1.1-ALv2][]                         |      |           |
 | Functional Source License, Version 1.1, MIT Future License                                | [FSL-1.1-MIT][]                          |      |           |
@@ -301,6 +303,7 @@ The following licenses have been generated from the license list version 21b8e53
 | gtkbook License                                                                           | [gtkbook][]                              |      |           |
 | Gutmann License                                                                           | [Gutmann][]                              |      |           |
 | Haskell Language Report License                                                           | [HaskellReport][]                        |      |           |
+| HDF5 License                                                                              | [HDF5][]                                 |      |           |
 | hdparm License                                                                            | [hdparm][]                               |      |           |
 | HIDAPI License                                                                            | [HIDAPI][]                               |      |           |
 | Hippocratic License 2.1                                                                   | [Hippocratic-2.1][]                      |      |           |
@@ -371,6 +374,7 @@ The following licenses have been generated from the license list version 21b8e53
 | GNU Lesser General Public License v3.0 or later                                           | [LGPL-3.0-or-later][]                    | Y    | Y         |
 | Lesser General Public License For Linguistic Resources                                    | [LGPLLR][]                               |      |           |
 | libpng License                                                                            | [Libpng][]                               |      |           |
+| PNG Reference Library License v1 (for libpng 0.5 through 1.6.35                           | [libpng-1.6.35][]                        |      |           |
 | PNG Reference Library version 2                                                           | [libpng-2.0][]                           |      |           |
 | libselinux public domain notice                                                           | [libselinux-1.0][]                       |      |           |
 | libtiff License                                                                           | [libtiff][]                              |      |           |
@@ -451,6 +455,7 @@ The following licenses have been generated from the license list version 21b8e53
 | NetCDF license                                                                            | [NetCDF][]                               |      |           |
 | Newsletr License                                                                          | [Newsletr][]                             |      |           |
 | Nethack General Public License                                                            | [NGPL][]                                 | Y    |           |
+| ngrep License                                                                             | [ngrep][]                                |      |           |
 | NICTA Public Software License, Version 1.0                                                | [NICTA-1.0][]                            |      |           |
 | NIST Public Domain Notice                                                                 | [NIST-PD][]                              |      |           |
 | NIST Public Domain Notice with license fallback                                           | [NIST-PD-fallback][]                     |      |           |
@@ -835,6 +840,7 @@ The following licenses have been generated from the license list version 21b8e53
 [Artistic-1.0-Perl]: text/Artistic-1.0-Perl.txt
 [Artistic-2.0]: text/Artistic-2.0.txt
 [Artistic-dist]: text/Artistic-dist.txt
+[Aspell-RU]: text/Aspell-RU.txt
 [ASWF-Digital-Assets-1.0]: text/ASWF-Digital-Assets-1.0.txt
 [ASWF-Digital-Assets-1.1]: text/ASWF-Digital-Assets-1.1.txt
 [Baekmuk]: text/Baekmuk.txt
@@ -1044,6 +1050,7 @@ The following licenses have been generated from the license list version 21b8e53
 [FSFAP-no-warranty-disclaimer]: text/FSFAP-no-warranty-disclaimer.txt
 [FSFUL]: text/FSFUL.txt
 [FSFULLR]: text/FSFULLR.txt
+[FSFULLRSD]: text/FSFULLRSD.txt
 [FSFULLRWD]: text/FSFULLRWD.txt
 [FSL-1.1-ALv2]: text/FSL-1.1-ALv2.txt
 [FSL-1.1-MIT]: text/FSL-1.1-MIT.txt
@@ -1105,6 +1112,7 @@ The following licenses have been generated from the license list version 21b8e53
 [gtkbook]: text/gtkbook.txt
 [Gutmann]: text/Gutmann.txt
 [HaskellReport]: text/HaskellReport.txt
+[HDF5]: text/HDF5.txt
 [hdparm]: text/hdparm.txt
 [HIDAPI]: text/HIDAPI.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
@@ -1181,6 +1189,7 @@ The following licenses have been generated from the license list version 21b8e53
 [LGPL-3.0-or-later]: text/LGPL-3.0-or-later.txt
 [LGPLLR]: text/LGPLLR.txt
 [Libpng]: text/Libpng.txt
+[libpng-1.6.35]: text/libpng-1.6.35.txt
 [libpng-2.0]: text/libpng-2.0.txt
 [libselinux-1.0]: text/libselinux-1.0.txt
 [libtiff]: text/libtiff.txt
@@ -1262,6 +1271,7 @@ The following licenses have been generated from the license list version 21b8e53
 [NetCDF]: text/NetCDF.txt
 [Newsletr]: text/Newsletr.txt
 [NGPL]: text/NGPL.txt
+[ngrep]: text/ngrep.txt
 [NICTA-1.0]: text/NICTA-1.0.txt
 [NIST-PD]: text/NIST-PD.txt
 [NIST-PD-fallback]: text/NIST-PD-fallback.txt
