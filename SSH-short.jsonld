@@ -11,16 +11,16 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
-            "spdx:timestamp": "2025-05-29T15:20:27Z",
+            "spdx:url": "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
+            "spdx:timestamp": "2025-06-10T11:54:43Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "false",
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         },
         {
@@ -34,16 +34,16 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
-            "spdx:timestamp": "2025-05-29T15:20:27Z",
+            "spdx:url": "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
+            "spdx:timestamp": "2025-06-10T11:54:43Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
@@ -61,7 +61,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp",
-            "spdx:timestamp": "2025-05-29T15:20:27Z",
+            "spdx:timestamp": "2025-06-10T11:54:44Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -71,36 +71,36 @@
         },
         {
             "@id": "http://spdx.org/licenses/SSH-short",
-            "spdx:isDeprecatedLicenseId": {
+            "rdfs:seeAlso": [
+                "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
+                "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp",
+                "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h"
+            ],
+            "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "rdfs:seeAlso": [
-                "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp",
-                "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
-                "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1"
-            ],
             "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
                 {
                     "@id": "_:b2"
                 },
                 {
                     "@id": "_:b1"
+                },
+                {
+                    "@id": "_:b0"
                 }
             ],
+            "spdx:licenseTextHtml": "\n        <p>As far as I am concerned, the code I have written for this software\n        can be used freely for any purpose.  Any derived versions of this\n        software must be clearly marked as such, and if the derived work is\n        incompatible with the protocol description in the RFC file, it must be\n        called by a name other than &quot;ssh&quot; or &quot;Secure Shell&quot;.\n        </p>\n\n    ",
             "spdx:licenseText": "As far as I am concerned, the code I have written for this software\ncan be used freely for any purpose.  Any derived versions of this\nsoftware must be clearly marked as such, and if the derived work is\nincompatible with the protocol description in the RFC file, it must be\ncalled by a name other than \"ssh\" or \"Secure Shell\".\n",
-            "spdx:isOsiApproved": {
+            "rdfs:comment": "This is short version of SSH-OpenSSH that appears in some files associated with the original SSH implementation.",
+            "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:name": "SSH short notice",
-            "rdfs:comment": "This is short version of SSH-OpenSSH that appears in some files associated with the original SSH implementation.",
-            "spdx:licenseTextHtml": "\n        <p>As far as I am concerned, the code I have written for this software\n        can be used freely for any purpose.  Any derived versions of this\n        software must be clearly marked as such, and if the derived work is\n        incompatible with the protocol description in the RFC file, it must be\n        called by a name other than &quot;ssh&quot; or &quot;Secure Shell&quot;.\n        </p>\n\n    ",
             "@type": "spdx:ListedLicense",
-            "spdx:standardLicenseTemplate": "As far as I am concerned, the code I have written for this software can be used freely for any purpose. Any derived versions of this software must be clearly marked as such, and if the derived work is incompatible with the protocol description in the RFC file, it must be called by a name other than \"ssh\" or \"Secure Shell\".\n\n"
+            "spdx:standardLicenseTemplate": "As far as I am concerned, the code I have written for this software can be used freely for any purpose. Any derived versions of this software must be clearly marked as such, and if the derived work is incompatible with the protocol description in the RFC file, it must be called by a name other than \"ssh\" or \"Secure Shell\".\n\n",
+            "spdx:name": "SSH short notice"
         }
     ],
     "@context": {
