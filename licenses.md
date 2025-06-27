@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6a76493
+The following licenses have been generated from the license list version 338d2ce
 
 ## Licenses with Short Identifiers
 
@@ -595,6 +595,7 @@ The following licenses have been generated from the license list version 6a76493
 | SSLeay License - standalone                                                               | [SSLeay-standalone][]                    |      |           |
 | Server Side Public License, v 1                                                           | [SSPL-1.0][]                             |      |           |
 | SugarCRM Public License v1.1.3                                                            | [SugarCRM-1.1.3][]                       |      |           |
+| Sustainable Use License v1.0                                                              | [SUL-1.0][]                              |      |           |
 | Sun PPP License                                                                           | [Sun-PPP][]                              |      |           |
 | Sun PPP License (2000)                                                                    | [Sun-PPP-2000][]                         |      |           |
 | SunPro License                                                                            | [SunPro][]                               |      |           |
@@ -1413,6 +1414,7 @@ The following licenses have been generated from the license list version 6a76493
 [SSPL-1.0]: text/SSPL-1.0.txt
 [StandardML-NJ]: text/StandardML-NJ.txt
 [SugarCRM-1.1.3]: text/SugarCRM-1.1.3.txt
+[SUL-1.0]: text/SUL-1.0.txt
 [Sun-PPP]: text/Sun-PPP.txt
 [Sun-PPP-2000]: text/Sun-PPP-2000.txt
 [SunPro]: text/SunPro.txt
