@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 4425613
+The following licenses have been generated from the license list version 0ba614f
 
 ## Licenses with Short Identifiers
 
@@ -374,7 +374,7 @@ The following licenses have been generated from the license list version 4425613
 | GNU Lesser General Public License v3.0 or later                                           | [LGPL-3.0-or-later][]                    | Y    | Y         |
 | Lesser General Public License For Linguistic Resources                                    | [LGPLLR][]                               |      |           |
 | libpng License                                                                            | [Libpng][]                               |      |           |
-| PNG Reference Library License v1 (for libpng 0.5 through 1.6.35                           | [libpng-1.6.35][]                        |      |           |
+| PNG Reference Library License v1 (for libpng 0.5 through 1.6.35)                          | [libpng-1.6.35][]                        |      |           |
 | PNG Reference Library version 2                                                           | [libpng-2.0][]                           |      |           |
 | libselinux public domain notice                                                           | [libselinux-1.0][]                       |      |           |
 | libtiff License                                                                           | [libtiff][]                              |      |           |
