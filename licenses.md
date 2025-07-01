@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version eecf142
+The following licenses have been generated from the license list version 3.27.0
 
 ## Licenses with Short Identifiers
 

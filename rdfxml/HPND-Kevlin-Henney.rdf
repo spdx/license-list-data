@@ -6,14 +6,21 @@
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/HPND-Kevlin-Henney">
     <spdx:name>Historical Permission Notice and Disclaimer - Kevlin Henney variant</spdx:name>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright Kevlin Henney, 1997, 2003, 2012. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-Permission to use, copy, modify, and distribute this software and its documentation for any purpose is hereby granted without fee, provided that this copyright and permissions notice appear in all copies and derivatives.
-
-This software is supplied "as is" without express or implied warranty.
-
-But that said, if there are any problems please get in touch.
-
-</spdx:standardLicenseTemplate>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://github.com/mruby/mruby/blob/83d12f8d52522cdb7c8cc46fad34821359f453e6/mrbgems/mruby-dir/src/Win/dirent.c#L127-L140</spdx:url>
+        <spdx:timestamp>2025-07-01T15:01:38Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
     <spdx:licenseText>Copyright Kevlin Henney, 1997, 2003, 2012. All rights reserved.
@@ -27,21 +34,6 @@ This software is supplied "as is" without express or implied warranty.
 
 But that said, if there are any problems please get in touch.
 </spdx:licenseText>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://github.com/mruby/mruby/blob/83d12f8d52522cdb7c8cc46fad34821359f453e6/mrbgems/mruby-dir/src/Win/dirent.c#L127-L140</spdx:url>
-        <spdx:timestamp>2025-07-01T11:27:06Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:licenseTextHtml>
          &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
             &lt;p&gt;
@@ -66,9 +58,17 @@ But that said, if there are any problems please get in touch.
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <rdfs:seeAlso>https://github.com/mruby/mruby/blob/83d12f8d52522cdb7c8cc46fad34821359f453e6/mrbgems/mruby-dir/src/Win/dirent.c#L127-L140</rdfs:seeAlso>
-    <rdfs:comment>This license is similar to HPND-Pbmplus but varies the order of hereby granted/without fee and has a different notice clause.</rdfs:comment>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>https://github.com/mruby/mruby/blob/83d12f8d52522cdb7c8cc46fad34821359f453e6/mrbgems/mruby-dir/src/Win/dirent.c#L127-L140</rdfs:seeAlso>
+    <rdfs:comment>This license is similar to HPND-Pbmplus but varies the order of hereby granted/without fee and has a different notice clause.</rdfs:comment>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright Kevlin Henney, 1997, 2003, 2012. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
+Permission to use, copy, modify, and distribute this software and its documentation for any purpose is hereby granted without fee, provided that this copyright and permissions notice appear in all copies and derivatives.
+
+This software is supplied "as is" without express or implied warranty.
+
+But that said, if there are any problems please get in touch.
+
+</spdx:standardLicenseTemplate>
   </spdx:ListedLicense>
 </rdf:RDF>
