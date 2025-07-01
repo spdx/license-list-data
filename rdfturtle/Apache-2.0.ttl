@@ -6,14 +6,23 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
 <http://spdx.org/licenses/Apache-2.0>
         a                               spdx:ListedLicense;
         rdfs:comment                    "This license was released January 2004";
-        rdfs:seeAlso                    "https://www.apache.org/licenses/LICENSE-2.0" , "https://opensource.org/license/apache-2-0" , "https://opensource.org/licenses/Apache-2.0";
+        rdfs:seeAlso                    "https://www.apache.org/licenses/LICENSE-2.0" , "https://opensource.org/licenses/Apache-2.0" , "https://opensource.org/license/apache-2-0";
+        spdx:crossRef                   [ a                   spdx:CrossRef;
+                                          spdx:isLive         true;
+                                          spdx:isValid        true;
+                                          spdx:isWayBackLink  false;
+                                          spdx:match          "true";
+                                          spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                          spdx:timestamp      "2025-07-01T11:20:20Z";
+                                          spdx:url            "https://www.apache.org/licenses/LICENSE-2.0"
+                                        ];
         spdx:crossRef                   [ a                   spdx:CrossRef;
                                           spdx:isLive         true;
                                           spdx:isValid        true;
                                           spdx:isWayBackLink  false;
                                           spdx:match          "N/A";
                                           spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2025-07-01T02:15:42Z";
+                                          spdx:timestamp      "2025-07-01T11:20:19Z";
                                           spdx:url            "https://opensource.org/licenses/Apache-2.0"
                                         ];
         spdx:crossRef                   [ a                   spdx:CrossRef;
@@ -21,17 +30,8 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                           spdx:isValid        true;
                                           spdx:isWayBackLink  false;
                                           spdx:match          "true";
-                                          spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2025-07-01T02:15:42Z";
-                                          spdx:url            "https://www.apache.org/licenses/LICENSE-2.0"
-                                        ];
-        spdx:crossRef                   [ a                   spdx:CrossRef;
-                                          spdx:isLive         true;
-                                          spdx:isValid        true;
-                                          spdx:isWayBackLink  false;
-                                          spdx:match          "true";
                                           spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2025-07-01T02:15:42Z";
+                                          spdx:timestamp      "2025-07-01T11:20:19Z";
                                           spdx:url            "https://opensource.org/license/apache-2-0"
                                         ];
         spdx:isDeprecatedLicenseId      false;
