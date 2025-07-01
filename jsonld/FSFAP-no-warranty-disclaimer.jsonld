@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/FSFAP-no-warranty-disclaimer",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -10,9 +13,6 @@
             "rdfs:comment": "This license is identical to FSFAP except it omits the no-warranty sentence at the end.",
             "@type": "spdx:ListedLicense",
             "spdx:name": "FSF All Permissive License (without Warranty)",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:licenseText": "Copyright (C) 2008 Micah J. Cowan\n\nCopying and distribution of this file, with or without modification,\nare permitted in any medium without royalty provided the copyright\nnotice and this notice are preserved.\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -32,16 +32,16 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.savannah.gnu.org/cgit/wget.git/tree/util/trunc.c?h=v1.21.3&id=40747a11e44ced5a8ac628a41f879ced3e2ebce9#n6",
-            "spdx:timestamp": "2025-06-28T18:55:39Z",
+            "spdx:timestamp": "2025-07-01T02:25:16Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],
