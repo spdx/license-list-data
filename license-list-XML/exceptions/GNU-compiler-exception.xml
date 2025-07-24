@@ -4,6 +4,7 @@
    name="GNU Compiler Exception" listVersionAdded="3.22">
       <crossRefs>
          <crossRef>https://sourceware.org/git?p=binutils-gdb.git;a=blob;f=libiberty/unlink-if-ordinary.c;h=e49f2f2f67bfdb10d6b2bd579b0e01cad0fd708e;hb=HEAD#l19</crossRef>
+         <crossRef>https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/powerpc/lib/crtsavres.S?h=v6.16-rc6#n34</crossRef>
       </crossRefs>
       <notes>
           This exception is the same as SWI-exception but delineates that the library is compiled with a GNU compiler, which is narrower than a or any free software compiler.
@@ -12,7 +13,7 @@
          <p>
             As a special exception, if you link 
             <alt name="library" match="this library|the code in this file">this library</alt> 
-            with files compiled with a GNU compiler to produce an executable, 
+	    with files compiled with <alt name="gcc" match="GCC|a GNU compiler">GCC</alt> to produce an executable, 
             <alt name="this" match="this|that">this</alt>
             does not cause the resulting executable to be covered by
             the GNU <optional>Lesser</optional> General Public License. 

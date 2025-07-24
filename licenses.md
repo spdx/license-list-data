@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3.27.0
+The following licenses have been generated from the license list version 553bbad
 
 ## Licenses with Short Identifiers
 

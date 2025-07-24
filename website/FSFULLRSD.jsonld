@@ -1,6 +1,27 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/FSFULLRSD",
+            "spdx:standardLicenseTemplate": "This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. This file is offered as-is, without any warranty.\n\n",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
+            "spdx:licenseText": "This file is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\nThis file is offered as-is, without any warranty.\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:comment": "This is the same as FSFULLR but adds a short disclaimer of warranties.",
+            "spdx:licenseTextHtml": "\n         <p>\n            This file is free software; the Free Software Foundation\n            gives unlimited permission to copy and/or distribute it,\n            with or without modifications, as long as this notice is preserved.\n            This file is offered as-is, without any warranty.\n         </p>\n\n      ",
+            "@type": "spdx:ListedLicense",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "FSF Unlimited License (with License Retention and Short Disclaimer)",
+            "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3"
+        },
+        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
-            "spdx:timestamp": "2025-07-01T14:56:39Z",
+            "spdx:timestamp": "2025-07-24T21:10:22Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "false",
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/FSFULLRSD",
-            "rdfs:comment": "This is the same as FSFULLR but adds a short disclaimer of warranties.",
-            "spdx:name": "FSF Unlimited License (with License Retention and Short Disclaimer)",
-            "spdx:licenseTextHtml": "\n         <p>\n            This file is free software; the Free Software Foundation\n            gives unlimited permission to copy and/or distribute it,\n            with or without modifications, as long as this notice is preserved.\n            This file is offered as-is, without any warranty.\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. This file is offered as-is, without any warranty.\n\n",
-            "spdx:licenseText": "This file is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\nThis file is offered as-is, without any warranty.\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            }
         }
     ],
     "@context": {
