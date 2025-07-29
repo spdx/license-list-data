@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/OpenSSL",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -23,7 +20,10 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "rdfs:comment": "The OpenSSL toolkit stays under a dual license, i.e. both the conditions of the OpenSSL License and the original SSLeay license apply to the toolkit."
+            "rdfs:comment": "The OpenSSL toolkit stays under a dual license, i.e. both the conditions of the OpenSSL License and the original SSLeay license apply to the toolkit.",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
@@ -40,7 +40,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.openssl.org/source/license.html",
-            "spdx:timestamp": "2025-07-24T21:18:49Z",
+            "spdx:timestamp": "2025-07-29T04:19:41Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

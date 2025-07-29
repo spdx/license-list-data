@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 553bbad
+The following licenses have been generated from the license list version 5dbff5c
 
 ## Licenses with Short Identifiers
 
@@ -643,6 +643,7 @@ The following licenses have been generated from the license list version 553bbad
 | w3m License                                                                               | [w3m][]                                  |      |           |
 | Sybase Open Watcom Public License 1.0                                                     | [Watcom-1.0][]                           | Y    |           |
 | Widget Workshop License                                                                   | [Widget-Workshop][]                      |      |           |
+| WordNet License                                                                           | [WordNet][]                              | Y    |           |
 | Wsuipa License                                                                            | [Wsuipa][]                               |      |           |
 | Do What The F*ck You Want To Public License                                               | [WTFPL][]                                |      | Y         |
 | WWL License                                                                               | [wwl][]                                  |      |           |
@@ -1462,6 +1463,7 @@ The following licenses have been generated from the license list version 553bbad
 [w3m]: text/w3m.txt
 [Watcom-1.0]: text/Watcom-1.0.txt
 [Widget-Workshop]: text/Widget-Workshop.txt
+[WordNet]: text/WordNet.txt
 [Wsuipa]: text/Wsuipa.txt
 [WTFPL]: text/WTFPL.txt
 [wwl]: text/wwl.txt
