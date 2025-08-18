@@ -5,8 +5,25 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Artistic-1.0-cl8">
-    <rdfs:seeAlso>https://opensource.org/licenses/Artistic-1.0</rdfs:seeAlso>
-    <rdfs:comment>This license was superseded by v2.0. This is Artistic License 1.0 as found on OSI site, including clause 8.</rdfs:comment>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isLive>
+        <spdx:url>https://opensource.org/licenses/Artistic-1.0</spdx:url>
+        <spdx:timestamp>2025-08-18T12:27:18Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>N/A</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseText>The Artistic License
 
 Preamble
@@ -59,26 +76,7 @@ Definitions:
 
 The End
 </spdx:licenseText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isLive>
-        <spdx:url>https://opensource.org/licenses/Artistic-1.0</spdx:url>
-        <spdx:timestamp>2025-07-29T04:17:19Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>N/A</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isOsiApproved>
-    <spdx:name>Artistic License 1.0 w/clause 8</spdx:name>
+    <rdfs:seeAlso>https://opensource.org/licenses/Artistic-1.0</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The Artistic License
 
 &lt;&lt;endOptional&gt;&gt;
@@ -290,5 +288,7 @@ Definitions:
 
       &lt;/div&gt;
     </spdx:licenseTextHtml>
+    <rdfs:comment>This license was superseded by v2.0. This is Artistic License 1.0 as found on OSI site, including clause 8.</rdfs:comment>
+    <spdx:name>Artistic License 1.0 w/clause 8</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

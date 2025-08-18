@@ -5,21 +5,9 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Intel">
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://opensource.org/licenses/Intel</spdx:url>
-        <spdx:timestamp>2025-07-29T04:12:57Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>N/A</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <rdfs:comment>This license has been deprecated. A note at the top of the OSI license page states, "The Intel Open Source License for CDSA/CSSM Implementation (BSD License with Export Notice) (Intel has ceased to use or recommend this license)"</rdfs:comment>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Intel Open Source License
 
 &lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 1996-2000 Intel Corporation All rights reserved.  ";match=".{0,5000}"&gt;&gt;
@@ -33,8 +21,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 EXPORT LAWS: THIS LICENSE ADDS NO RESTRICTIONS TO THE EXPORT LAWS OF YOUR JURISDICTION. It is licensee's responsibility to comply with any export regulations applicable in licensee's jurisdiction. Under CURRENT (May 2000) U.S. export regulations this software is eligible for export from the U.S. and can be downloaded by or otherwise exported or reexported worldwide EXCEPT to U.S. embargoed destinations which include Cuba, Iraq, Libya, North Korea, Iran, Syria, Sudan, Afghanistan and any other country to which the U.S. has embargoed goods and services.
 
 </spdx:standardLicenseTemplate>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
+    <rdfs:seeAlso>https://opensource.org/licenses/Intel</rdfs:seeAlso>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;Intel Open Source License&lt;/p&gt;
@@ -90,7 +77,24 @@ All rights reserved.&lt;/p&gt;
          and any other country to which the U.S. has embargoed goods and services.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <rdfs:comment>This license has been deprecated. A note at the top of the OSI license page states, "The Intel Open Source License for CDSA/CSSM Implementation (BSD License with Export Notice) (Intel has ceased to use or recommend this license)"</rdfs:comment>
+    <spdx:name>Intel Open Source License</spdx:name>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://opensource.org/licenses/Intel</spdx:url>
+        <spdx:timestamp>2025-08-18T12:26:39Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>N/A</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
     <spdx:licenseText>Intel Open Source License
 
 Copyright (c) 1996-2000 Intel Corporation All rights reserved.
@@ -105,11 +109,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 EXPORT LAWS: THIS LICENSE ADDS NO RESTRICTIONS TO THE EXPORT LAWS OF YOUR JURISDICTION. It is licensee's responsibility to comply with any export regulations applicable in licensee's jurisdiction. Under CURRENT (May 2000) U.S. export regulations this software is eligible for export from the U.S. and can be downloaded by or otherwise exported or reexported worldwide EXCEPT to U.S. embargoed destinations which include Cuba, Iraq, Libya, North Korea, Iran, Syria, Sudan, Afghanistan and any other country to which the U.S. has embargoed goods and services.
 </spdx:licenseText>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isOsiApproved>
-    <spdx:name>Intel Open Source License</spdx:name>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>https://opensource.org/licenses/Intel</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

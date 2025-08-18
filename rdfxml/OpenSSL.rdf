@@ -5,12 +5,43 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/OpenSSL">
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:name>OpenSSL License</spdx:name>
-    <rdfs:seeAlso>http://www.openssl.org/source/license.html</rdfs:seeAlso>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;OpenSSL License
+
+&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 1998-2008 The OpenSSL Project. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgment: "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
+   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact openssl-core@openssl.org.
+   &lt;&lt;var;name="bullet";original="5.";match=".{0,20}"&gt;&gt; Products derived from this software may not be called "OpenSSL" nor may "OpenSSL" appear in their names without prior written permission of the OpenSSL Project.
+   &lt;&lt;var;name="bullet";original="6.";match=".{0,20}"&gt;&gt; Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/)"
+THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). This product includes software written by Tim Hudson (tjh@cryptsoft.com).
+
+&lt;&lt;beginOptional&gt;&gt;Original SSLeay License
+
+&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com) All rights reserved.  ";match=".{0,5000}"&gt;&gt;
+This package is an SSL implementation written by Eric Young (eay@cryptsoft.com). The implementation was written so as to conform with Netscapes SSL.
+
+This library is free for commercial and non-commercial use as long as the following conditions are aheared to. The following conditions apply to all code found in this distribution, be it the RC4, RSA, lhash, DES, etc., code; not just the SSL code. The SSL documentation included with this distribution is covered by the same copyright terms except that the holder is Tim Hudson (tjh@cryptsoft.com).
+
+Copyright remains Eric Young's, and as such any Copyright notices in the code are not to be removed. If this package is used in a product, Eric Young should be given attribution as the author of the parts of the library used. This can be in the form of a textual message at program startup or in documentation (online or textual) provided with the package.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the copyright notice, this list of conditions and the following disclaimer.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgement:
+   "This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)"
+   The word 'cryptographic' can be left out if the rouines from the library being used are not cryptographic related :-).
+   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; If you include any Windows specific code (or a derivative thereof) from the apps directory (application code) you must include an acknowledgement: "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
+THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]
+
+</spdx:standardLicenseTemplate>
     <spdx:licenseText>OpenSSL License
 
 Copyright (c) 1998-2008 The OpenSSL Project. All rights reserved.
@@ -204,46 +235,15 @@ All rights reserved.&lt;/p&gt;
          [including the GNU Public Licence.]&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;OpenSSL License
-
-&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 1998-2008 The OpenSSL Project. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgment: "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit. (http://www.openssl.org/)"
-   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; The names "OpenSSL Toolkit" and "OpenSSL Project" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact openssl-core@openssl.org.
-   &lt;&lt;var;name="bullet";original="5.";match=".{0,20}"&gt;&gt; Products derived from this software may not be called "OpenSSL" nor may "OpenSSL" appear in their names without prior written permission of the OpenSSL Project.
-   &lt;&lt;var;name="bullet";original="6.";match=".{0,20}"&gt;&gt; Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes software developed by the OpenSSL Project for use in the OpenSSL Toolkit (http://www.openssl.org/)"
-THIS SOFTWARE IS PROVIDED BY THE OpenSSL PROJECT ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE OpenSSL PROJECT OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-This product includes cryptographic software written by Eric Young (eay@cryptsoft.com). This product includes software written by Tim Hudson (tjh@cryptsoft.com).
-
-&lt;&lt;beginOptional&gt;&gt;Original SSLeay License
-
-&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (C) 1995-1998 Eric Young (eay@cryptsoft.com) All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-This package is an SSL implementation written by Eric Young (eay@cryptsoft.com). The implementation was written so as to conform with Netscapes SSL.
-
-This library is free for commercial and non-commercial use as long as the following conditions are aheared to. The following conditions apply to all code found in this distribution, be it the RC4, RSA, lhash, DES, etc., code; not just the SSL code. The SSL documentation included with this distribution is covered by the same copyright terms except that the holder is Tim Hudson (tjh@cryptsoft.com).
-
-Copyright remains Eric Young's, and as such any Copyright notices in the code are not to be removed. If this package is used in a product, Eric Young should be given attribution as the author of the parts of the library used. This can be in the form of a textual message at program startup or in documentation (online or textual) provided with the package.
-
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the copyright notice, this list of conditions and the following disclaimer.
-   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
-   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; All advertising materials mentioning features or use of this software must display the following acknowledgement:
-   "This product includes cryptographic software written by Eric Young (eay@cryptsoft.com)"
-   The word 'cryptographic' can be left out if the rouines from the library being used are not cryptographic related :-).
-   &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; If you include any Windows specific code (or a derivative thereof) from the apps directory (application code) you must include an acknowledgement: "This product includes software written by Tim Hudson (tjh@cryptsoft.com)"
-THIS SOFTWARE IS PROVIDED BY ERIC YOUNG ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-The licence and distribution terms for any publically available version or derivative of this code cannot be changed. i.e. this code cannot simply be copied and put under another distribution licence [including the GNU Public Licence.]
-
-</spdx:standardLicenseTemplate>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>http://www.openssl.org/source/license.html</rdfs:seeAlso>
+    <rdfs:comment>The OpenSSL toolkit stays under a dual license, i.e. both the conditions of the OpenSSL License and the original SSLeay license apply to the toolkit.</rdfs:comment>
     <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</spdx:isFsfLibre>
-    <rdfs:comment>The OpenSSL toolkit stays under a dual license, i.e. both the conditions of the OpenSSL License and the original SSLeay license apply to the toolkit.</rdfs:comment>
+    <spdx:name>OpenSSL License</spdx:name>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -253,7 +253,7 @@ The licence and distribution terms for any publically available version or deriv
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://www.openssl.org/source/license.html</spdx:url>
-        <spdx:timestamp>2025-07-29T04:19:41Z</spdx:timestamp>
+        <spdx:timestamp>2025-08-18T12:25:53Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>

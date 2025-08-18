@@ -1,6 +1,34 @@
 {
     "@graph": [
         {
+            "@id": "http://spdx.org/licenses/Bitstream-Charter",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
+            "spdx:name": "Bitstream Charter Font License",
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseText": "(c) Copyright 1989-1992, Bitstream Inc., Cambridge, MA. \n\nYou are hereby granted permission under all Bitstream propriety rights \nto use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream \nCharter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts for \nany purpose and without restriction; provided, that this notice is left \nintact on all copies of such fonts and that Bitstream's trademark is acknowledged \nas shown below on all unmodified copies of the 4 Charter Type 1 fonts. \nBITSTREAM CHARTER is a registered trademark of Bitstream Inc. \n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n         \n<ul style=\"list-style:none\">\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> (c)</span></var>\n               <p>\n                  Copyright 1989-1992, Bitstream Inc., Cambridge, MA.\n                  You are hereby granted permission under all Bitstream\n                  propriety rights to use, copy, modify, sublicense, sell,\n                  and redistribute the 4 Bitstream Charter (r) Type 1\n                  outline fonts <var class=\"optional-license-text\"> and the 4 Courier Type 1 outline fonts</var> for\n                  any purpose and without restriction; provided, that this\n                  notice is left intact on all copies of such fonts and\n                  that Bitstream&apos;s trademark is acknowledged as shown below\n                  on all unmodified copies of the 4 Charter Type 1 fonts.\n                  BITSTREAM CHARTER is a registered trademark of Bitstream Inc.\n               </p>\n\n            </li>\n         \n</ul>\n      ",
+            "rdfs:seeAlso": [
+                "https://raw.githubusercontent.com/blackhole89/notekit/master/data/fonts/Charter%20license.txt",
+                "https://fedoraproject.org/wiki/Licensing/Charter#License_Text"
+            ],
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "\n   <<var;name=\"bullet\";original=\"(c)\";match=\".{0,20}\">>\n   Copyright 1989-1992, Bitstream Inc., Cambridge, MA. You are hereby granted permission under all Bitstream propriety rights to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream Charter (r) Type 1 outline fonts<<beginOptional>> and the 4 Courier Type 1 outline fonts<<endOptional>> for any purpose and without restriction; provided, that this notice is left intact on all copies of such fonts and that Bitstream's trademark is acknowledged as shown below on all unmodified copies of the 4 Charter Type 1 fonts. BITSTREAM CHARTER is a registered trademark of Bitstream Inc.\n   \n   "
+        },
+        {
             "@id": "_:b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -14,42 +42,14 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Charter#License_Text",
-            "spdx:timestamp": "2025-07-29T04:11:04Z",
+            "spdx:url": "https://raw.githubusercontent.com/blackhole89/notekit/master/data/fonts/Charter%20license.txt",
+            "spdx:timestamp": "2025-08-18T12:26:56Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Bitstream-Charter",
-            "spdx:licenseText": "(c) Copyright 1989-1992, Bitstream Inc., Cambridge, MA. \n\nYou are hereby granted permission under all Bitstream propriety rights \nto use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream \nCharter (r) Type 1 outline fonts and the 4 Courier Type 1 outline fonts for \nany purpose and without restriction; provided, that this notice is left \nintact on all copies of such fonts and that Bitstream's trademark is acknowledged \nas shown below on all unmodified copies of the 4 Charter Type 1 fonts. \nBITSTREAM CHARTER is a registered trademark of Bitstream Inc. \n",
-            "rdfs:seeAlso": [
-                "https://raw.githubusercontent.com/blackhole89/notekit/master/data/fonts/Charter%20license.txt",
-                "https://fedoraproject.org/wiki/Licensing/Charter#License_Text"
-            ],
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b1"
-                },
-                {
-                    "@id": "_:b0"
-                }
-            ],
-            "@type": "spdx:ListedLicense",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "Bitstream Charter Font License",
-            "spdx:licenseTextHtml": "\n         \n<ul style=\"list-style:none\">\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> (c)</span></var>\n               <p>\n                  Copyright 1989-1992, Bitstream Inc., Cambridge, MA.\n                  You are hereby granted permission under all Bitstream\n                  propriety rights to use, copy, modify, sublicense, sell,\n                  and redistribute the 4 Bitstream Charter (r) Type 1\n                  outline fonts <var class=\"optional-license-text\"> and the 4 Courier Type 1 outline fonts</var> for\n                  any purpose and without restriction; provided, that this\n                  notice is left intact on all copies of such fonts and\n                  that Bitstream&apos;s trademark is acknowledged as shown below\n                  on all unmodified copies of the 4 Charter Type 1 fonts.\n                  BITSTREAM CHARTER is a registered trademark of Bitstream Inc.\n               </p>\n\n            </li>\n         \n</ul>\n      ",
-            "spdx:standardLicenseTemplate": "\n   <<var;name=\"bullet\";original=\"(c)\";match=\".{0,20}\">>\n   Copyright 1989-1992, Bitstream Inc., Cambridge, MA. You are hereby granted permission under all Bitstream propriety rights to use, copy, modify, sublicense, sell, and redistribute the 4 Bitstream Charter (r) Type 1 outline fonts<<beginOptional>> and the 4 Courier Type 1 outline fonts<<endOptional>> for any purpose and without restriction; provided, that this notice is left intact on all copies of such fonts and that Bitstream's trademark is acknowledged as shown below on all unmodified copies of the 4 Charter Type 1 fonts. BITSTREAM CHARTER is a registered trademark of Bitstream Inc.\n   \n   "
         },
         {
             "@id": "_:b1",
@@ -65,10 +65,10 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://raw.githubusercontent.com/blackhole89/notekit/master/data/fonts/Charter%20license.txt",
-            "spdx:timestamp": "2025-07-29T04:11:05Z",
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Charter#License_Text",
+            "spdx:timestamp": "2025-08-18T12:26:56Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
