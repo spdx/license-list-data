@@ -6,23 +6,14 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
 <http://spdx.org/licenses/bzip2-1.0.6>
         a                             spdx:ListedLicense;
         rdfs:comment                  "The additional \"Neither the names of...\" optional clause at the end of the license occurs in certain uses of this license text, as described at https://github.com/spdx/license-list-XML/issues/2271";
-        rdfs:seeAlso                  "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6" , "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html" , "https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c";
-        spdx:crossRef                 [ a                   spdx:CrossRef;
-                                        spdx:isLive         true;
-                                        spdx:isValid        true;
-                                        spdx:isWayBackLink  false;
-                                        spdx:match          "false";
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-08-18T12:28:53Z";
-                                        spdx:url            "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6"
-                                      ];
+        rdfs:seeAlso                  "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html" , "https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c" , "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6";
         spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         true;
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "false";
                                         spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-08-18T12:28:54Z";
+                                        spdx:timestamp      "2025-08-18T13:38:07Z";
                                         spdx:url            "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html"
                                       ];
         spdx:crossRef                 [ a                   spdx:CrossRef;
@@ -31,8 +22,17 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                         spdx:isWayBackLink  false;
                                         spdx:match          "false";
                                         spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2025-08-18T12:28:53Z";
+                                        spdx:timestamp      "2025-08-18T13:38:05Z";
                                         spdx:url            "https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2025-08-18T13:38:05Z";
+                                        spdx:url            "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6"
                                       ];
         spdx:isDeprecatedLicenseId    false;
         spdx:isOsiApproved            false;

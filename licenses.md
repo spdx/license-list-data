@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version cab60f2
+The following licenses have been generated from the license list version 2712578
 
 ## Licenses with Short Identifiers
 
