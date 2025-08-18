@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2712578
+The following licenses have been generated from the license list version 72f474a
 
 ## Licenses with Short Identifiers
 
@@ -645,6 +645,7 @@ The following licenses have been generated from the license list version 2712578
 | Widget Workshop License                                                                   | [Widget-Workshop][]                      |      |           |
 | WordNet License                                                                           | [WordNet][]                              | Y    |           |
 | Wsuipa License                                                                            | [Wsuipa][]                               |      |           |
+| Do What The F*ck You Want To But It's Not My Fault Public License                         | [WTFNMFPL][]                             |      |           |
 | Do What The F*ck You Want To Public License                                               | [WTFPL][]                                |      | Y         |
 | WWL License                                                                               | [wwl][]                                  |      |           |
 | X11 License                                                                               | [X11][]                                  |      | Y         |
@@ -1465,6 +1466,7 @@ The following licenses have been generated from the license list version 2712578
 [Widget-Workshop]: text/Widget-Workshop.txt
 [WordNet]: text/WordNet.txt
 [Wsuipa]: text/Wsuipa.txt
+[WTFNMFPL]: text/WTFNMFPL.txt
 [WTFPL]: text/WTFPL.txt
 [wwl]: text/wwl.txt
 [wxWindows]: text/wxWindows.txt

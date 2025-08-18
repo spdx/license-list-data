@@ -5,46 +5,21 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Mackerras-3-Clause-acknowledgment">
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1993-2002 Paul Mackerras. All rights reserved.";match=".{0,5000}"&gt;&gt;
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
-   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; The name(s) of the authors of this software must not be used to endorse or promote products derived from this software without prior written permission.
-   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes software developed by Paul Mackerras &lt;&lt;var;name="emailAddress";original="&lt;paulus@ozlabs.org&gt;";match="(&lt;paulus@ozlabs.org&gt;|&lt;paulus@samba.org&gt;)"&gt;&gt; ".
-THE AUTHORS OF THIS SOFTWARE DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
-</spdx:standardLicenseTemplate>
-    <rdfs:comment>This is similar to Mackerras-3-Clause, but removes the obligations related to binary distribution and adds an acknowledgement obligation.</rdfs:comment>
-    <spdx:licenseText>Copyright (c) 1993-2002 Paul Mackerras. All rights reserved.
-
- Redistribution and use in source and binary forms, with or without
- modification, are permitted provided that the following conditions
- are met:
- 
- 1. Redistributions of source code must retain the above copyright
-     notice, this list of conditions and the following disclaimer.
- 
-2. The name(s) of the authors of this software must not be used to
-   endorse or promote products derived from this software without
-   prior written permission.
-
-3. Redistributions of any form whatsoever must retain the following
-   acknowledgment:
-   "This product includes software developed by Paul Mackerras
-   &lt;paulus@ozlabs.org&gt;".
-
-THE AUTHORS OF THIS SOFTWARE DISCLAIM ALL WARRANTIES WITH REGARD TO
-THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
-AND FITNESS, IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
-SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
-AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
-OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-</spdx:licenseText>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://github.com/ppp-project/ppp/blob/master/pppd/auth.c#L6-L28</spdx:url>
+        <spdx:timestamp>2025-08-18T14:00:06Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseTextHtml>
          &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
             Copyright (c) 1993-2002 Paul Mackerras. All rights reserved.
@@ -89,22 +64,47 @@ OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:name>Mackerras 3-Clause - acknowledgment variant</spdx:name>
     <rdfs:seeAlso>https://github.com/ppp-project/ppp/blob/master/pppd/auth.c#L6-L28</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://github.com/ppp-project/ppp/blob/master/pppd/auth.c#L6-L28</spdx:url>
-        <spdx:timestamp>2025-08-18T13:37:17Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <spdx:licenseText>Copyright (c) 1993-2002 Paul Mackerras. All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 
+ 1. Redistributions of source code must retain the above copyright
+     notice, this list of conditions and the following disclaimer.
+ 
+2. The name(s) of the authors of this software must not be used to
+   endorse or promote products derived from this software without
+   prior written permission.
+
+3. Redistributions of any form whatsoever must retain the following
+   acknowledgment:
+   "This product includes software developed by Paul Mackerras
+   &lt;paulus@ozlabs.org&gt;".
+
+THE AUTHORS OF THIS SOFTWARE DISCLAIM ALL WARRANTIES WITH REGARD TO
+THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS, IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY
+SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN
+AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
+OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+</spdx:licenseText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:comment>This is similar to Mackerras-3-Clause, but removes the obligations related to binary distribution and adds an acknowledgement obligation.</rdfs:comment>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:name>Mackerras 3-Clause - acknowledgment variant</spdx:name>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1993-2002 Paul Mackerras. All rights reserved.";match=".{0,5000}"&gt;&gt;
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+   &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+   &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; The name(s) of the authors of this software must not be used to endorse or promote products derived from this software without prior written permission.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; Redistributions of any form whatsoever must retain the following acknowledgment: "This product includes software developed by Paul Mackerras &lt;&lt;var;name="emailAddress";original="&lt;paulus@ozlabs.org&gt;";match="(&lt;paulus@ozlabs.org&gt;|&lt;paulus@samba.org&gt;)"&gt;&gt; ".
+THE AUTHORS OF THIS SOFTWARE DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+</spdx:standardLicenseTemplate>
   </spdx:ListedLicense>
 </rdf:RDF>
