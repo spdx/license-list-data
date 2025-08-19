@@ -5,7 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/eCos-2.0">
-    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The eCos license version 2.0&lt;&lt;endOptional&gt;&gt;
+    <spdx:name>eCos license version 2.0</spdx:name>
+    <spdx:licenseText>The eCos license version 2.0
 This file is part of eCos, the Embedded Configurable Operating System. Copyright (C) 1998, 1999, 2000, 2001, 2002 Red Hat, Inc.
 
 eCos is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 or (at your option) any later version.
@@ -20,9 +21,13 @@ This exception does not invalidate any other reasons why a work based on this fi
 
 Alternative licenses for eCos may be arranged by contacting Red Hat, Inc. at http://sources.redhat.com/ecos/ecos-license/ -------------------------------------------
 
-&lt;&lt;beginOptional&gt;&gt;####ECOSGPLCOPYRIGHTEND####
+####ECOSGPLCOPYRIGHTEND####
 
-&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+</spdx:licenseText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
+    <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
+    <rdfs:comment>DEPRECATED: Use license expression including main license, "WITH" operator, and identifier: eCos-exception-2.0</rdfs:comment>
     <spdx:licenseTextHtml>
       &lt;var class="optional-license-text"&gt; The eCos license version 2.0&lt;/var&gt;
 
@@ -45,29 +50,9 @@ Alternative licenses for eCos may be arranged by contacting Red Hat, Inc. at htt
 
       &lt;/div&gt;
     </spdx:licenseTextHtml>
-    <rdfs:seeAlso>https://www.gnu.org/licenses/ecos-license.html</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isLive>
-        <spdx:url>https://www.gnu.org/licenses/ecos-license.html</spdx:url>
-        <spdx:timestamp>2025-08-18T14:00:26Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>N/A</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
     <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</spdx:isFsfLibre>
-    <spdx:licenseText>The eCos license version 2.0
+    <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The eCos license version 2.0&lt;&lt;endOptional&gt;&gt;
 This file is part of eCos, the Embedded Configurable Operating System. Copyright (C) 1998, 1999, 2000, 2001, 2002 Red Hat, Inc.
 
 eCos is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 or (at your option) any later version.
@@ -82,11 +67,26 @@ This exception does not invalidate any other reasons why a work based on this fi
 
 Alternative licenses for eCos may be arranged by contacting Red Hat, Inc. at http://sources.redhat.com/ecos/ecos-license/ -------------------------------------------
 
-####ECOSGPLCOPYRIGHTEND####
+&lt;&lt;beginOptional&gt;&gt;####ECOSGPLCOPYRIGHTEND####
 
-</spdx:licenseText>
-    <rdfs:comment>DEPRECATED: Use license expression including main license, "WITH" operator, and identifier: eCos-exception-2.0</rdfs:comment>
-    <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
-    <spdx:name>eCos license version 2.0</spdx:name>
+&lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/ecos-license.html</rdfs:seeAlso>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isLive>
+        <spdx:url>https://www.gnu.org/licenses/ecos-license.html</spdx:url>
+        <spdx:timestamp>2025-08-19T06:04:03Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>N/A</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
   </spdx:ListedLicense>
 </rdf:RDF>

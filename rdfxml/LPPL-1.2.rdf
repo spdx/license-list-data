@@ -5,8 +5,7 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/LPPL-1.2">
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>http://www.latex-project.org/lppl/lppl-1-2.txt</rdfs:seeAlso>
     <spdx:licenseText>The LaTeX Project Public License
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -147,6 +146,43 @@ Noting Exceptional Files If The Program contains any files bearing additional co
 
 Files containing the text of a license (such as this file) are often examples of files bearing more restrictive conditions on modification. LaTeX configuration files (with filename extension `.cfg') are examples of files bearing less restrictive conditions on the distribution of a modified version of the file. The additional conditions on LaTeX software given above are examples of declaring a category of files bearing exceptional additional conditions.
 </spdx:licenseText>
+    <spdx:name>LaTeX Project Public License v1.2</spdx:name>
+    <rdfs:comment>This license was released 3 Sept 1999.</rdfs:comment>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>http://www.latex-project.org/lppl/lppl-1-2.txt</spdx:url>
+        <spdx:timestamp>2025-08-19T06:07:05Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:standardLicenseHeaderTemplate>&lt;&lt;beginOptional&gt;&gt;%%&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="filename";original="pig.dtx";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt;%%&lt;&lt;endOptional&gt;&gt; Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; This program may be distributed and/or modified under the
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; conditions of the LaTeX Project Public License, either version 1.2
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; of this license or (at your option) any later version.
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; The latest version of this license is in
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; http://www.latex-project.org/lppl.txt
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; and version 1.2 or later is part of all distributions of LaTeX
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; version 1999/12/01 or later.
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt;
+&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; This program consists of the &lt;&lt;var;name="filenames";original="files pig.dtx and pig.ins";match=".+"&gt;&gt;
+
+</spdx:standardLicenseHeaderTemplate>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;The LaTeX Project Public License
@@ -495,21 +531,6 @@ Files containing the text of a license (such as this file) are often examples of
          declaring a category of files bearing exceptional additional conditions.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>http://www.latex-project.org/lppl/lppl-1-2.txt</spdx:url>
-        <spdx:timestamp>2025-08-18T14:03:47Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <spdx:standardLicenseHeaderHtml>
       &lt;p&gt;&lt;var class="optional-license-text"&gt; %%&lt;/var&gt; &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; pig.dtx&lt;/span&gt;&lt;/var&gt;
         &lt;br /&gt;
@@ -537,25 +558,20 @@ Files containing the text of a license (such as this file) are often examples of
       &lt;/p&gt;
 
       </spdx:standardLicenseHeaderHtml>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
-    <spdx:name>LaTeX Project Public License v1.2</spdx:name>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:standardLicenseHeaderTemplate>&lt;&lt;beginOptional&gt;&gt;%%&lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="filename";original="pig.dtx";match=".+"&gt;&gt;
-&lt;&lt;beginOptional&gt;&gt;%%&lt;&lt;endOptional&gt;&gt; Copyright &lt;&lt;var;name="copyright";original="2001 M. Y. Name";match=".+"&gt;&gt;
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt;
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; This program may be distributed and/or modified under the
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; conditions of the LaTeX Project Public License, either version 1.2
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; of this license or (at your option) any later version.
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; The latest version of this license is in
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; http://www.latex-project.org/lppl.txt
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; and version 1.2 or later is part of all distributions of LaTeX
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; version 1999/12/01 or later.
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt;
-&lt;&lt;beginOptional&gt;&gt;%&lt;&lt;endOptional&gt;&gt; This program consists of the &lt;&lt;var;name="filenames";original="files pig.dtx and pig.ins";match=".+"&gt;&gt;
+    <spdx:standardLicenseHeader>%% pig.dtx
+%% Copyright 2001 M. Y. Name
+%
+% This program may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License, either version 1.2
+% of this license or (at your option) any later version.
+% The latest version of this license is in
+% http://www.latex-project.org/lppl.txt
+% and version 1.2 or later is part of all distributions of LaTeX
+% version 1999/12/01 or later.
+%
+% This program consists of the files pig.dtx and pig.ins
 
-</spdx:standardLicenseHeaderTemplate>
+</spdx:standardLicenseHeader>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The LaTeX Project Public License
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -682,21 +698,5 @@ Noting Exceptional Files If The Program contains any files bearing additional co
 Files containing the text of a license (such as this file) are often examples of files bearing more restrictive conditions on modification. LaTeX configuration files (with filename extension `.cfg') are examples of files bearing less restrictive conditions on the distribution of a modified version of the file. The additional conditions on LaTeX software given above are examples of declaring a category of files bearing exceptional additional conditions.
 
 </spdx:standardLicenseTemplate>
-    <rdfs:seeAlso>http://www.latex-project.org/lppl/lppl-1-2.txt</rdfs:seeAlso>
-    <spdx:standardLicenseHeader>%% pig.dtx
-%% Copyright 2001 M. Y. Name
-%
-% This program may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License, either version 1.2
-% of this license or (at your option) any later version.
-% The latest version of this license is in
-% http://www.latex-project.org/lppl.txt
-% and version 1.2 or later is part of all distributions of LaTeX
-% version 1999/12/01 or later.
-%
-% This program consists of the files pig.dtx and pig.ins
-
-</spdx:standardLicenseHeader>
-    <rdfs:comment>This license was released 3 Sept 1999.</rdfs:comment>
   </spdx:ListedLicense>
 </rdf:RDF>
