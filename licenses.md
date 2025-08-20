@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version bc4c9c0
+The following licenses have been generated from the license list version f54d7c8
 
 ## Licenses with Short Identifiers
 
@@ -241,6 +241,7 @@ The following licenses have been generated from the license list version bc4c9c0
 | Eclipse Public License 1.0                                                                | [EPL-1.0][]                              | Y    | Y         |
 | Eclipse Public License 2.0                                                                | [EPL-2.0][]                              | Y    | Y         |
 | Erlang Public License v1.1                                                                | [ErlPL-1.1][]                            |      |           |
+| European Space Agency Public License – v2.4 – Weak Copyleft (Type 2)                      | [ESA-PL-weak-copyleft-2.4][]             |      |           |
 | Etalab Open License 2.0                                                                   | [etalab-2.0][]                           |      |           |
 | EU DataGrid Software License                                                              | [EUDatagrid][]                           | Y    | Y         |
 | European Union Public License 1.0                                                         | [EUPL-1.0][]                             |      |           |
@@ -1038,6 +1039,7 @@ The following licenses have been generated from the license list version bc4c9c0
 [EPL-1.0]: text/EPL-1.0.txt
 [EPL-2.0]: text/EPL-2.0.txt
 [ErlPL-1.1]: text/ErlPL-1.1.txt
+[ESA-PL-weak-copyleft-2.4]: text/ESA-PL-weak-copyleft-2.4.txt
 [etalab-2.0]: text/etalab-2.0.txt
 [EUDatagrid]: text/EUDatagrid.txt
 [EUPL-1.0]: text/EUPL-1.0.txt

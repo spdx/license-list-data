@@ -5,6 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/HPND-sell-regexpr">
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseText>Author: Tatu Ylonen &lt;ylo@ngs.fi&gt;
 
 Copyright (c) 1991 Tatu Ylonen, Espoo, Finland
@@ -15,13 +17,15 @@ fee, provided that the above copyright notice appear in all copies.
 This software is provided "as is" without express or implied
 warranty.
 </spdx:licenseText>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <rdfs:seeAlso>https://gitlab.com/bacula-org/bacula/-/blob/Branch-11.0/bacula/LICENSE-FOSS?ref_type=heads#L245</rdfs:seeAlso>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
-    <spdx:name>Historical Permission Notice and Disclaimer - sell regexpr variant</spdx:name>
     <rdfs:comment>This is an even shorter variant of HPND-sell than that template allows for.</rdfs:comment>
+    <rdfs:seeAlso>https://gitlab.com/bacula-org/bacula/-/blob/Branch-11.0/bacula/LICENSE-FOSS?ref_type=heads#L245</rdfs:seeAlso>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Author: Tatu Ylonen &lt;ylo@ngs.fi&gt; Copyright (c) 1991 Tatu Ylonen, Espoo, Finland";match=".{0,5000}"&gt;&gt;
+Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies. This software is provided "as is" without express or implied warranty.
+
+</spdx:standardLicenseTemplate>
+    <spdx:name>Historical Permission Notice and Disclaimer - sell regexpr variant</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -31,16 +35,12 @@ warranty.
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://gitlab.com/bacula-org/bacula/-/blob/Branch-11.0/bacula/LICENSE-FOSS?ref_type=heads#L245</spdx:url>
-        <spdx:timestamp>2025-08-19T06:02:34Z</spdx:timestamp>
+        <spdx:timestamp>2025-08-20T13:38:49Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Author: Tatu Ylonen &lt;ylo@ngs.fi&gt; Copyright (c) 1991 Tatu Ylonen, Espoo, Finland";match=".{0,5000}"&gt;&gt;
-Permission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies. This software is provided "as is" without express or implied warranty.
-
-</spdx:standardLicenseTemplate>
     <spdx:licenseTextHtml>
         &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
                 Author: Tatu Ylonen &amp;lt;ylo@ngs.fi&amp;gt;&lt;br /&gt;

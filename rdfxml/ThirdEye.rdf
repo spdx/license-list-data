@@ -5,13 +5,11 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/ThirdEye">
-    <rdfs:seeAlso>https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11</rdfs:seeAlso>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="(C) Copyright 1984 by Third Eye Software, Inc.  ";match=".{0,5000}"&gt;&gt;
-Third Eye Software, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.
-
-Third Eye makes no claims about the applicability of this symbol table to a particular use.
-
-</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:comment>This is a variant to MIPS license with extra paragraph.</rdfs:comment>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
          &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;
@@ -30,8 +28,22 @@ Third Eye makes no claims about the applicability of this symbol table to a part
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11</rdfs:seeAlso>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="(C) Copyright 1984 by Third Eye Software, Inc.  ";match=".{0,5000}"&gt;&gt;
+Third Eye Software, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.
+
+Third Eye makes no claims about the applicability of this symbol table to a particular use.
+
+</spdx:standardLicenseTemplate>
+    <spdx:licenseText>(C) Copyright 1984 by Third Eye Software, Inc.
+
+Third Eye Software, Inc. grants reproduction and use rights to
+all parties, PROVIDED that this comment is maintained in the copy.
+
+Third Eye makes no claims about the applicability of this
+symbol table to a particular use.
+</spdx:licenseText>
+    <spdx:name>ThirdEye License</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -41,23 +53,11 @@ Third Eye makes no claims about the applicability of this symbol table to a part
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11</spdx:url>
-        <spdx:timestamp>2025-08-19T06:01:54Z</spdx:timestamp>
+        <spdx:timestamp>2025-08-20T13:38:06Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:name>ThirdEye License</spdx:name>
-    <rdfs:comment>This is a variant to MIPS license with extra paragraph.</rdfs:comment>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:licenseText>(C) Copyright 1984 by Third Eye Software, Inc.
-
-Third Eye Software, Inc. grants reproduction and use rights to
-all parties, PROVIDED that this comment is maintained in the copy.
-
-Third Eye makes no claims about the applicability of this
-symbol table to a particular use.
-</spdx:licenseText>
   </spdx:ListedLicense>
 </rdf:RDF>
