@@ -34,6 +34,8 @@ the fullest extent permitted by applicable law.
 When using or citing the work, you should not imply endorsement by the author
 or the person who identified the work.
 </spdx:licenseText>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <rdfs:seeAlso>https://creativecommons.org/share-your-work/cclicenses/</rdfs:seeAlso>
     <spdx:licenseTextHtml>
          &lt;p&gt;
@@ -86,8 +88,21 @@ or the person who identified the work.
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://creativecommons.org/publicdomain/mark/1.0/</spdx:url>
+        <spdx:timestamp>2025-09-07T17:44:36Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <rdfs:seeAlso>https://creativecommons.org/publicdomain/mark/1.0/</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>No Copyright
 
@@ -108,23 +123,9 @@ Unless expressly stated otherwise, the person who identified the work makes no w
 When using or citing the work, you should not imply endorsement by the author or the person who identified the work.
 
 </spdx:standardLicenseTemplate>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://creativecommons.org/publicdomain/mark/1.0/</spdx:url>
-        <spdx:timestamp>2025-08-20T13:47:36Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:comment>As per Creative Commons, this is intended to provide a standard way to mark works that are no longer restricted by copyright to be marked as such in a standard and simple way. See https://creativecommons.org/public-domain/pdm/ for more information.</rdfs:comment>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -134,12 +135,11 @@ When using or citing the work, you should not imply endorsement by the author or
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://creativecommons.org/share-your-work/cclicenses/</spdx:url>
-        <spdx:timestamp>2025-08-20T13:47:36Z</spdx:timestamp>
+        <spdx:timestamp>2025-09-07T17:44:36Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >1</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:comment>As per Creative Commons, this is intended to provide a standard way to mark works that are no longer restricted by copyright to be marked as such in a standard and simple way. See https://creativecommons.org/public-domain/pdm/ for more information.</rdfs:comment>
   </spdx:ListedLicense>
 </rdf:RDF>
