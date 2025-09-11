@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 4732002
+The following licenses have been generated from the license list version f7e82c2
 
 ## Licenses with Short Identifiers
 
@@ -15,6 +15,7 @@ The following licenses have been generated from the license list version 4732002
 | Adobe Glyph List License                                                                  | [Adobe-Glyph][]                          |      |           |
 | Adobe Utopia Font License                                                                 | [Adobe-Utopia][]                         |      |           |
 | Amazon Digital Services License                                                           | [ADSL][]                                 |      |           |
+| Advanced Cryptics Dictionary License                                                      | [Advanced-Cryptics-Dictionary][]         |      |           |
 | Academic Free License v1.1                                                                | [AFL-1.1][]                              | Y    | Y         |
 | Academic Free License v1.2                                                                | [AFL-1.2][]                              | Y    | Y         |
 | Academic Free License v2.0                                                                | [AFL-2.0][]                              | Y    | Y         |
@@ -809,6 +810,7 @@ The following licenses have been generated from the license list version 4732002
 [Adobe-Glyph]: text/Adobe-Glyph.txt
 [Adobe-Utopia]: text/Adobe-Utopia.txt
 [ADSL]: text/ADSL.txt
+[Advanced-Cryptics-Dictionary]: text/Advanced-Cryptics-Dictionary.txt
 [AFL-1.1]: text/AFL-1.1.txt
 [AFL-1.2]: text/AFL-1.2.txt
 [AFL-2.0]: text/AFL-2.0.txt
