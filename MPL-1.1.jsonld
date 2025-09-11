@@ -1,38 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:b0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/licenses/MPL-1.1",
-            "spdx:timestamp": "2025-09-07T17:44:56Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/MPL-1.1",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ],
             "spdx:standardLicenseHeader": "\"The contents of this file are subject to the Mozilla Public License Version 1.1 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.mozilla.org/MPL/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is ______________________________________ .\n\nThe Initial Developer of the Original Code is ________________________ .\nPortions created by ______________________ are Copyright (C) ______ . All Rights Reserved.\n\nContributor(s): ______________________________________ .\n\nAlternatively, the contents of this file may be used under the terms of the _____ license (the \" [___] License\"), in which case the provisions of [______] License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the [____] License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the [___] License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the [___] License.\"\n\n",
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/MPL-1.1",
@@ -49,6 +18,14 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b0"
+                },
+                {
+                    "@id": "_:b1"
+                }
+            ],
             "spdx:standardLicenseHeaderHtml": "\n         <p><var class=\"optional-license-text\">&quot;</var>The contents of this file are subject to the Mozilla Public License Version 1.1 (the\n         &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain\n         a copy of the License at https://www.mozilla.org/MPL/</p>\n\n         <p>Software distributed under the License is distributed on an &quot;AS IS&quot; basis, WITHOUT WARRANTY OF\n         ANY KIND, either express or implied. See the License for the specific language governing rights and\n         limitations under the License.</p>\n\n         <p>The Original Code is <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> ______________________________________</span></var>.</p>\n\n         <p>The Initial Developer of the Original Code is <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> ________________________</span></var>.\n        <br />\nPortions created by <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> ______________________</span></var> are Copyright (C) <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> ______</span></var>. All Rights Reserved.\n      </p>\n\n         <p>Contributor(s): <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> ______________________________________</span></var>.</p>\n\n         <p>Alternatively, the contents of this file may be used under the terms of the <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> _____</span></var> license (the\n         &quot;<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> [___]</span></var> License&quot;), in which case the provisions of <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> [______]</span></var> License are applicable instead of\n         those above. If you wish to allow use of your version of this file only under the terms of the <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> [____]</span></var>\n         License and not to allow others to use your version of this file under the MPL, indicate your decision\n         by deleting the provisions above and replace them with the notice and other provisions required by the\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> [___]</span></var> License. If you do not delete the provisions above, a recipient may use your version of this\n         file under either the MPL or the <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> [___]</span></var> License.<var class=\"optional-license-text\">&quot;</var></p>\n\n         ",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -58,6 +35,29 @@
             "spdx:standardLicenseHeaderTemplate": "<<beginOptional>>\"<<endOptional>>The contents of this file are subject to the Mozilla Public License Version 1.1 (the \"License\"); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://www.mozilla.org/MPL/\n\nSoftware distributed under the License is distributed on an \"AS IS\" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing rights and limitations under the License.\n\nThe Original Code is <<var;name=\"code\";original=\"______________________________________\";match=\".+\">> .\n\nThe Initial Developer of the Original Code is <<var;name=\"initialDeveloper\";original=\"________________________\";match=\".+\">> .\nPortions created by <<var;name=\"creator\";original=\"______________________\";match=\".+\">> are Copyright (C) <<var;name=\"copyright\";original=\"______\";match=\".+\">> . All Rights Reserved.\n\nContributor(s): <<var;name=\"contributor\";original=\"______________________________________\";match=\".+\">> .\n\nAlternatively, the contents of this file may be used under the terms of the <<var;name=\"altLicense\";original=\"_____\";match=\".+\">> license (the \" <<var;name=\"altLicenseShort1\";original=\"[___]\";match=\".+\">> License\"), in which case the provisions of <<var;name=\"altLicenseShort2\";original=\"[______]\";match=\".+\">> License are applicable instead of those above. If you wish to allow use of your version of this file only under the terms of the <<var;name=\"altLicenseShort3\";original=\"[____]\";match=\".+\">> License and not to allow others to use your version of this file under the MPL, indicate your decision by deleting the provisions above and replace them with the notice and other provisions required by the <<var;name=\"altLicenseShort4\";original=\"[___]\";match=\".+\">> License. If you do not delete the provisions above, a recipient may use your version of this file under either the MPL or the <<var;name=\"altLicenseShort5\";original=\"[___]\";match=\".+\">> License.<<beginOptional>>\"<<endOptional>>\n\n",
             "rdfs:comment": "This license has been superseded by v2.0",
             "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:b0",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.mozilla.org/MPL/MPL-1.1.html",
+            "spdx:timestamp": "2025-09-11T16:02:28Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
         },
         {
             "@id": "_:b1",
@@ -73,13 +73,13 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "http://www.mozilla.org/MPL/MPL-1.1.html",
-            "spdx:timestamp": "2025-09-07T17:44:56Z",
+            "spdx:url": "https://opensource.org/licenses/MPL-1.1",
+            "spdx:timestamp": "2025-09-11T16:02:28Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "true",
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],
