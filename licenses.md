@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version da55931
+The following licenses have been generated from the license list version 4732002
 
 ## Licenses with Short Identifiers
 
@@ -100,6 +100,7 @@ The following licenses have been generated from the license list version da55931
 | BSD Advertising Acknowledgement License                                                   | [BSD-Advertising-Acknowledgement][]      |      |           |
 | BSD with Attribution and HPND disclaimer                                                  | [BSD-Attribution-HPND-disclaimer][]      |      |           |
 | BSD-Inferno-Nettverk                                                                      | [BSD-Inferno-Nettverk][]                 |      |           |
+| BSD Mark Modifications License                                                            | [BSD-Mark-Modifications][]               |      |           |
 | BSD Protection License                                                                    | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution - beginning of file variant                                   | [BSD-Source-beginning-file][]            |      |           |
 | BSD Source Code Attribution                                                               | [BSD-Source-Code][]                      |      |           |
@@ -897,6 +898,7 @@ The following licenses have been generated from the license list version da55931
 [BSD-Advertising-Acknowledgement]: text/BSD-Advertising-Acknowledgement.txt
 [BSD-Attribution-HPND-disclaimer]: text/BSD-Attribution-HPND-disclaimer.txt
 [BSD-Inferno-Nettverk]: text/BSD-Inferno-Nettverk.txt
+[BSD-Mark-Modifications]: text/BSD-Mark-Modifications.txt
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-beginning-file]: text/BSD-Source-beginning-file.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
