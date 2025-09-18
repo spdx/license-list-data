@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f7e82c2
+The following licenses have been generated from the license list version 3d7f88e
 
 ## Licenses with Short Identifiers
 
@@ -90,7 +90,7 @@ The following licenses have been generated from the license list version f7e82c2
 | BSD 3-Clause No Nuclear License                                                           | [BSD-3-Clause-No-Nuclear-License][]      |      |           |
 | BSD 3-Clause No Nuclear License 2014                                                      | [BSD-3-Clause-No-Nuclear-License-2014][] |      |           |
 | BSD 3-Clause No Nuclear Warranty                                                          | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
-| BSD 3-Clause Open MPI variant                                                             | [BSD-3-Clause-Open-MPI][]                |      |           |
+| BSD 3-Clause Open MPI variant                                                             | [BSD-3-Clause-Open-MPI][]                | Y    |           |
 | BSD 3-Clause Sun Microsystems                                                             | [BSD-3-Clause-Sun][]                     |      |           |
 | BSD 3-Clause Tso variant                                                                  | [BSD-3-Clause-Tso][]                     |      |           |
 | BSD 4-Clause "Original" or "Old" License                                                  | [BSD-4-Clause][]                         |      | Y         |

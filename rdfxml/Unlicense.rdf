@@ -5,8 +5,13 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Unlicense">
-    <rdfs:comment>This is a public domain dedication</rdfs:comment>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <rdfs:seeAlso>https://unlicense.org/</rdfs:seeAlso>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
@@ -18,27 +23,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 &lt;&lt;beginOptional&gt;&gt;For more information, please refer to &lt;https://unlicense.org/&gt;
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://unlicense.org/</spdx:url>
-        <spdx:timestamp>2025-09-11T16:13:03Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isOsiApproved>
     <spdx:licenseText>This is free and unencumbered software released into the public domain.
 
 Anyone is free to copy, modify, publish, use, compile, sell, or distribute this software, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.
@@ -50,6 +34,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 For more information, please refer to &lt;http://unlicense.org/&gt;
 </spdx:licenseText>
+    <rdfs:comment>This is a public domain dedication</rdfs:comment>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://unlicense.org/</spdx:url>
+        <spdx:timestamp>2025-09-18T08:15:31Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
+    <spdx:name>The Unlicense</spdx:name>
     <spdx:licenseTextHtml>
       &lt;p&gt;This is free and unencumbered software released into the public domain.&lt;/p&gt;
 
@@ -73,6 +74,5 @@ For more information, please refer to &lt;http://unlicense.org/&gt;
       &lt;div class="optional-license-text"&gt; &lt;p&gt;For more information, please refer to &amp;lt;https://unlicense.org/&amp;gt;&lt;/p&gt;
 &lt;/div&gt;
     </spdx:licenseTextHtml>
-    <spdx:name>The Unlicense</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

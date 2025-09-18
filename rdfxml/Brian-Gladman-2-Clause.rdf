@@ -5,8 +5,24 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/Brian-Gladman-2-Clause">
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156</spdx:url>
+        <spdx:timestamp>2025-09-18T08:16:07Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -16,24 +32,35 @@
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</spdx:url>
-        <spdx:timestamp>2025-09-11T16:13:42Z</spdx:timestamp>
+        <spdx:timestamp>2025-09-18T08:16:07Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >1</spdx:order>
         <spdx:match>true</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:comment>This is similar to Brian-Gladman-3-Clause but sort omits the third clause, adds "without the payment of fees or royalties", and re-words the lead-in and first two clauses.</rdfs:comment>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.";match=".{0,5000}"&gt;&gt;
-The redistribution and use of this software (with or without changes) is allowed without the payment of fees or royalties provided that:
+    <spdx:licenseText>Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All
+   rights reserved.
 
-source code distributions include the above copyright notice, this list of conditions and the following disclaimer;
+The redistribution and use of this software (with or without
+changes) is allowed without the payment of fees or royalties
+provided that:
 
-binary distributions include the above copyright notice, this list of conditions and the following disclaimer in their documentation.
+   source code distributions include the above copyright notice,
+   this list of conditions and the following disclaimer;
 
-This software is provided 'as is' with no explicit or implied warranties in respect of its operation, including, but not limited to, correctness and fitness for purpose.
+   binary distributions include the above copyright notice, this
+   list of conditions and the following disclaimer in their
+   documentation.
 
-</spdx:standardLicenseTemplate>
+This software is provided 'as is' with no explicit or implied
+warranties in respect of its operation, including, but not limited
+to, correctness and fitness for purpose.
+</spdx:licenseText>
     <spdx:name>Brian Gladman 2-Clause License</spdx:name>
+    <rdfs:comment>This is similar to Brian-Gladman-3-Clause but sort omits the third clause, adds "without the payment of fees or royalties", and re-words the lead-in and first two clauses.</rdfs:comment>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <rdfs:seeAlso>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</rdfs:seeAlso>
     <spdx:licenseTextHtml>
          &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
             Copyright (C) 1998-2013, Brian Gladman,&lt;br /&gt;
@@ -63,42 +90,15 @@ This software is provided 'as is' with no explicit or implied warranties in resp
          &lt;/p&gt;
 
       </spdx:licenseTextHtml>
-    <rdfs:seeAlso>https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html</rdfs:seeAlso>
-    <spdx:licenseText>Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All
-   rights reserved.
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.";match=".{0,5000}"&gt;&gt;
+The redistribution and use of this software (with or without changes) is allowed without the payment of fees or royalties provided that:
 
-The redistribution and use of this software (with or without
-changes) is allowed without the payment of fees or royalties
-provided that:
+source code distributions include the above copyright notice, this list of conditions and the following disclaimer;
 
-   source code distributions include the above copyright notice,
-   this list of conditions and the following disclaimer;
+binary distributions include the above copyright notice, this list of conditions and the following disclaimer in their documentation.
 
-   binary distributions include the above copyright notice, this
-   list of conditions and the following disclaimer in their
-   documentation.
+This software is provided 'as is' with no explicit or implied warranties in respect of its operation, including, but not limited to, correctness and fitness for purpose.
 
-This software is provided 'as is' with no explicit or implied
-warranties in respect of its operation, including, but not limited
-to, correctness and fitness for purpose.
-</spdx:licenseText>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <rdfs:seeAlso>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156</spdx:url>
-        <spdx:timestamp>2025-09-11T16:13:42Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+</spdx:standardLicenseTemplate>
   </spdx:ListedLicense>
 </rdf:RDF>
