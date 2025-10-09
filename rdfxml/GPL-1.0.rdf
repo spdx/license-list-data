@@ -5,16 +5,7 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/GPL-1.0">
-    <spdx:standardLicenseHeaderTemplate>Copyright (C) &lt;&lt;var;name="copyright";original="19xx name of author";match=".+"&gt;&gt;
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 1.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-
-</spdx:standardLicenseHeaderTemplate>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html</rdfs:seeAlso>
     <spdx:licenseTextHtml>
     &lt;div class="optional-license-text"&gt; 
       &lt;p&gt;
@@ -403,38 +394,10 @@ You should have received a copy of the GNU General Public License along with thi
 
     &lt;/div&gt;
     </spdx:licenseTextHtml>
-    <spdx:standardLicenseHeader>Copyright (C) 19xx name of author
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 1.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-
-</spdx:standardLicenseHeader>
-    <spdx:name>GNU General Public License v1.0 only</spdx:name>
-    <spdx:standardLicenseHeaderHtml>
-      Copyright (C) &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; 19xx name of author&lt;/span&gt;&lt;/var&gt;
-      &lt;p&gt;
-        This program is free software; you can redistribute it and/or
-        modify it under the terms of the GNU General Public License
-        as published by the Free Software Foundation; version 1.
-      &lt;/p&gt;
-
-      &lt;p&gt;
-        This program is distributed in the hope that it will be
-        useful, but WITHOUT ANY WARRANTY; without even the implied
-        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
-        PURPOSE. See the GNU General Public License for more details.
-      &lt;/p&gt;
-
-      &lt;p&gt;
-        You should have received a copy of the GNU General Public License
-        along with this program; if not, write to the Free Software
-        Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
-      &lt;/p&gt;
-
-    </spdx:standardLicenseHeaderHtml>
-    <rdfs:seeAlso>https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;GNU GENERAL PUBLIC LICENSE
 Version 1, February 1989
 
@@ -522,8 +485,38 @@ Yoyodyne, Inc., hereby disclaims all copyright interest in the program `Gnomovis
 That's all there is to it!
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
+    <spdx:standardLicenseHeaderHtml>
+      Copyright (C) &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; 19xx name of author&lt;/span&gt;&lt;/var&gt;
+      &lt;p&gt;
+        This program is free software; you can redistribute it and/or
+        modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation; version 1.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        This program is distributed in the hope that it will be
+        useful, but WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+        PURPOSE. See the GNU General Public License for more details.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        You should have received a copy of the GNU General Public License
+        along with this program; if not, write to the Free Software
+        Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+      &lt;/p&gt;
+
+    </spdx:standardLicenseHeaderHtml>
+    <spdx:standardLicenseHeaderTemplate>Copyright (C) &lt;&lt;var;name="copyright";original="19xx name of author";match=".+"&gt;&gt;
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 1.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+</spdx:standardLicenseHeaderTemplate>
+    <spdx:deprecatedVersion>3.0</spdx:deprecatedVersion>
+    <spdx:name>GNU General Public License v1.0 only</spdx:name>
     <spdx:licenseText>GNU GENERAL PUBLIC LICENSE
 Version 1, February 1989
 
@@ -634,12 +627,19 @@ That's all there is to it!
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >false</spdx:isLive>
         <spdx:url>https://www.gnu.org/licenses/old-licenses/gpl-1.0-standalone.html</spdx:url>
-        <spdx:timestamp>2025-10-09T16:24:01Z</spdx:timestamp>
+        <spdx:timestamp>2025-10-09T16:45:55Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>N/A</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:deprecatedVersion>3.0</spdx:deprecatedVersion>
+    <spdx:standardLicenseHeader>Copyright (C) 19xx name of author
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 1.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+
+</spdx:standardLicenseHeader>
   </spdx:ListedLicense>
 </rdf:RDF>

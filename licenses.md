@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 5011cb4
+The following licenses have been generated from the license list version e68f11e
 
 ## Licenses with Short Identifiers
 
@@ -336,6 +336,7 @@ The following licenses have been generated from the license list version 5011cb4
 | Historical Permission Notice and Disclaimer - sell variant                                | [HPND-sell-variant][]                    |      |           |
 | HPND sell variant with MIT disclaimer                                                     | [HPND-sell-variant-MIT-disclaimer][]     |      |           |
 | HPND sell variant with MIT disclaimer - reverse                                           | [HPND-sell-variant-MIT-disclaimer-rev][] |      |           |
+| Historical Permission Notice and Disclaimer - SMC variant                                 | [HPND-SMC][]                             |      |           |
 | Historical Permission Notice and Disclaimer - University of California variant            | [HPND-UC][]                              |      |           |
 | Historical Permission Notice and Disclaimer - University of California, US export warning | [HPND-UC-export-US][]                    |      |           |
 | HTML Tidy License                                                                         | [HTMLTIDY][]                             |      |           |
@@ -1153,6 +1154,7 @@ The following licenses have been generated from the license list version 5011cb4
 [HPND-sell-variant]: text/HPND-sell-variant.txt
 [HPND-sell-variant-MIT-disclaimer]: text/HPND-sell-variant-MIT-disclaimer.txt
 [HPND-sell-variant-MIT-disclaimer-rev]: text/HPND-sell-variant-MIT-disclaimer-rev.txt
+[HPND-SMC]: text/HPND-SMC.txt
 [HPND-UC]: text/HPND-UC.txt
 [HPND-UC-export-US]: text/HPND-UC-export-US.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
