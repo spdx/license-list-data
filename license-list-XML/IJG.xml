@@ -3,6 +3,8 @@
    <license isOsiApproved="false" licenseId="IJG" name="Independent JPEG Group License" listVersionAdded="1.17">
       <crossRefs>
          <crossRef>http://dev.w3.org/cvsweb/Amaya/libjpeg/Attic/README?rev=1.2</crossRef>
+         <crossRef>https://github.com/vstroebel/jpeg-encoder/blob/main/src/fdct.rs#L1-L72</crossRef>
+         <crossRef>https://github.com/libjpeg-turbo/libjpeg-turbo/blob/main/README.ijg#L117-L161</crossRef>
       </crossRefs>
     <text>
       <titleText>
@@ -32,7 +34,7 @@
       <p>The authors make NO WARRANTY or representation, either express or implied, with respect to this software,
          its quality, accuracy, merchantability, or fitness for a particular purpose. This software is provided
          "AS IS", and you, its user, assume the entire risk as to its quality and accuracy.</p>
-      <p>This software is copyright (C) 1991-1998, Thomas G. Lane. All Rights Reserved except as specified below.</p>
+      <copyrightText>This software is copyright (C) 1991-1998, Thomas G. Lane. All Rights Reserved except as specified below.</copyrightText>
       <p>Permission is hereby granted to use, copy, modify, and distribute this software (or portions thereof) for
          any purpose, without fee, subject to these conditions:</p>
       <list>
@@ -62,6 +64,7 @@
          as "the Independent JPEG Group's software".</p>
       <p>We specifically permit and encourage the use of this software as the basis of commercial products,
          provided that all warranty or liability claims are assumed by the product vendor.</p>
+      <optional>
       <p>ansi2knr.c is included in this distribution by permission of L. Peter Deutsch, sole proprietor of its
          copyright holder, Aladdin Enterprises of Menlo Park, CA. ansi2knr.c is NOT covered by the above
          copyright and conditions, but instead by the usual distribution terms of the Free Software Foundation;
@@ -82,6 +85,7 @@
          Unisys LZW patent, GIF reading support has been removed altogether, and the GIF writer has been
          simplified to produce "uncompressed GIFs". This technique does not use the LZW algorithm;
          the resulting GIF files are larger than usual, but are readable by all standard GIF decoders.</p>
+      </optional>
       <p>We are required to state that
         <br/>"The Graphics Interchange Format(c) is the Copyright property of CompuServe Incorporated.
              GIF(sm) is a Service Mark property of CompuServe Incorporated."
