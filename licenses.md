@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e68f11e
+The following licenses have been generated from the license list version 25f7bf3
 
 ## Licenses with Short Identifiers
 
@@ -575,6 +575,7 @@ The following licenses have been generated from the license list version e68f11e
 | SGI Free Software License B v1.1                                                          | [SGI-B-1.1][]                            |      |           |
 | SGI Free Software License B v2.0                                                          | [SGI-B-2.0][]                            |      | Y         |
 | SGI OpenGL License                                                                        | [SGI-OpenGL][]                           |      |           |
+| SGMLUG Parser Materials License                                                           | [SGMLUG-PM][]                            |      |           |
 | SGP4 Permission Notice                                                                    | [SGP4][]                                 |      |           |
 | Solderpad Hardware License v0.5                                                           | [SHL-0.5][]                              |      |           |
 | Solderpad Hardware License, Version 0.51                                                  | [SHL-0.51][]                             |      |           |
@@ -1401,6 +1402,7 @@ The following licenses have been generated from the license list version e68f11e
 [SGI-B-1.1]: text/SGI-B-1.1.txt
 [SGI-B-2.0]: text/SGI-B-2.0.txt
 [SGI-OpenGL]: text/SGI-OpenGL.txt
+[SGMLUG-PM]: text/SGMLUG-PM.txt
 [SGP4]: text/SGP4.txt
 [SHL-0.5]: text/SHL-0.5.txt
 [SHL-0.51]: text/SHL-0.51.txt
