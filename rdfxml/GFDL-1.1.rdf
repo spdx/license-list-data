@@ -5,8 +5,6 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/GFDL-1.1">
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
     <spdx:licenseText>GNU Free Documentation License
 Version 1.1, March 2000
 
@@ -127,6 +125,8 @@ If you have no Invariant Sections, write "with no Invariant Sections" instead of
 
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
 </spdx:licenseText>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
     <spdx:licenseTextHtml>
     &lt;div class="optional-license-text"&gt; 
       &lt;p&gt;
@@ -657,24 +657,28 @@ If your document contains nontrivial examples of program code, we recommend rele
 
     &lt;/div&gt;
     </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
-    <spdx:deprecatedVersion>3.0</spdx:deprecatedVersion>
-    <spdx:standardLicenseHeaderHtml>
-      Copyright (c) &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; YEAR YOUR NAME&lt;/span&gt;&lt;/var&gt;
-      . Permission is granted to copy, distribute and/or modify this
-      document under the terms of the GNU Free Documentation License,
-      Version 1.1 or any later version published by the Free Software
-      Foundation; with the Invariant Sections being LIST THEIR
-      TITLES, with the Front-Cover Texts being LIST, and with the
-      Back-Cover Texts being LIST. A copy of the license is included
-      in the section entitled &amp;quot;GNU Free Documentation License&amp;quot;.
-    </spdx:standardLicenseHeaderHtml>
-    <spdx:standardLicenseHeaderTemplate>Copyright (c) &lt;&lt;var;name="copyright";original="YEAR YOUR NAME";match=".+"&gt;&gt; . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST. A copy of the license is included in the section entitled "GNU Free Documentation License".</spdx:standardLicenseHeaderTemplate>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
-    <spdx:name>GNU Free Documentation License v1.1</spdx:name>
+    <spdx:standardLicenseHeaderTemplate>Copyright (c) &lt;&lt;var;name="copyright";original="YEAR YOUR NAME";match=".+"&gt;&gt; . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST. A copy of the license is included in the section entitled "GNU Free Documentation License".</spdx:standardLicenseHeaderTemplate>
+    <spdx:deprecatedVersion>3.0</spdx:deprecatedVersion>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
     <spdx:standardLicenseHeader>Copyright (c) YEAR YOUR NAME . Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.1 or any later version published by the Free Software Foundation; with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST. A copy of the license is included in the section entitled "GNU Free Documentation License".</spdx:standardLicenseHeader>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isLive>
+        <spdx:url>https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt</spdx:url>
+        <spdx:timestamp>2025-10-13T14:26:51Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>N/A</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;GNU Free Documentation License
 Version 1.1, March 2000
 
@@ -785,21 +789,17 @@ If you have no Invariant Sections, write "with no Invariant Sections" instead of
 If your document contains nontrivial examples of program code, we recommend releasing these examples in parallel under your choice of free software license, such as the GNU General Public License, to permit their use in free software.
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+    <spdx:standardLicenseHeaderHtml>
+      Copyright (c) &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; YEAR YOUR NAME&lt;/span&gt;&lt;/var&gt;
+      . Permission is granted to copy, distribute and/or modify this
+      document under the terms of the GNU Free Documentation License,
+      Version 1.1 or any later version published by the Free Software
+      Foundation; with the Invariant Sections being LIST THEIR
+      TITLES, with the Front-Cover Texts being LIST, and with the
+      Back-Cover Texts being LIST. A copy of the license is included
+      in the section entitled &amp;quot;GNU Free Documentation License&amp;quot;.
+    </spdx:standardLicenseHeaderHtml>
     <rdfs:seeAlso>https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt</rdfs:seeAlso>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isLive>
-        <spdx:url>https://www.gnu.org/licenses/old-licenses/fdl-1.1.txt</spdx:url>
-        <spdx:timestamp>2025-10-13T06:33:27Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>N/A</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <spdx:name>GNU Free Documentation License v1.1</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>

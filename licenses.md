@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 25f7bf3
+The following licenses have been generated from the license list version 17f273c
 
 ## Licenses with Short Identifiers
 
@@ -699,6 +699,7 @@ The following licenses have been generated from the license list version 25f7bf3
 | Bootloader Distribution Exception                     | [Bootloader-exception][]                 |
 | CGAL Linking Exception                                | [CGAL-linking-exception][]               |
 | Classpath exception 2.0                               | [Classpath-exception-2.0][]              |
+| Classpath exception 2.0 - short                       | [Classpath-exception-2.0-short][]        |
 | CLISP exception 2.0                                   | [CLISP-exception-2.0][]                  |
 | cryptsetup OpenSSL exception                          | [cryptsetup-OpenSSL-exception][]         |
 | Digia Qt LGPL Exception version 1.1                   | [Digia-Qt-LGPL-exception-1.1][]          |
@@ -729,6 +730,7 @@ The following licenses have been generated from the license list version 25f7bf3
 | i2p GPL+Java Exception                                | [i2p-gpl-java-exception][]               |
 | Independent Module Linking exception                  | [Independent-modules-exception][]        |
 | KiCad Libraries Exception                             | [KiCad-libraries-exception][]            |
+| kvirc OpenSSL Exception                               | [kvirc-openssl-exception][]              |
 | LGPL-3.0 Linking Exception                            | [LGPL-3.0-linking-exception][]           |
 | libpri OpenH323 exception                             | [libpri-OpenH323-exception][]            |
 | Libtool Exception                                     | [Libtool-exception][]                    |
@@ -1523,6 +1525,7 @@ The following licenses have been generated from the license list version 25f7bf3
 [Bootloader-exception]: text/Bootloader-exception.txt
 [CGAL-linking-exception]: text/CGAL-linking-exception.txt
 [Classpath-exception-2.0]: text/Classpath-exception-2.0.txt
+[Classpath-exception-2.0-short]: text/Classpath-exception-2.0-short.txt
 [CLISP-exception-2.0]: text/CLISP-exception-2.0.txt
 [cryptsetup-OpenSSL-exception]: text/cryptsetup-OpenSSL-exception.txt
 [Digia-Qt-LGPL-exception-1.1]: text/Digia-Qt-LGPL-exception-1.1.txt
@@ -1553,6 +1556,7 @@ The following licenses have been generated from the license list version 25f7bf3
 [i2p-gpl-java-exception]: text/i2p-gpl-java-exception.txt
 [Independent-modules-exception]: text/Independent-modules-exception.txt
 [KiCad-libraries-exception]: text/KiCad-libraries-exception.txt
+[kvirc-openssl-exception]: text/kvirc-openssl-exception.txt
 [LGPL-3.0-linking-exception]: text/LGPL-3.0-linking-exception.txt
 [libpri-OpenH323-exception]: text/libpri-OpenH323-exception.txt
 [Libtool-exception]: text/Libtool-exception.txt
