@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 17f273c
+The following licenses have been generated from the license list version 614a375
 
 ## Licenses with Short Identifiers
 
@@ -244,6 +244,7 @@ The following licenses have been generated from the license list version 17f273c
 | Eclipse Public License 2.0                                                                | [EPL-2.0][]                              | Y    | Y         |
 | Erlang Public License v1.1                                                                | [ErlPL-1.1][]                            |      |           |
 | European Space Agency Public License – v2.4 – Permissive (Type 3)                         | [ESA-PL-permissive-2.4][]                |      |           |
+| European Space Agency Public License (ESA-PL) - V2.4 - Strong Copyleft (Type 1)           | [ESA-PL-strong-copyleft-2.4][]           |      |           |
 | European Space Agency Public License – v2.4 – Weak Copyleft (Type 2)                      | [ESA-PL-weak-copyleft-2.4][]             |      |           |
 | Etalab Open License 2.0                                                                   | [etalab-2.0][]                           |      |           |
 | EU DataGrid Software License                                                              | [EUDatagrid][]                           | Y    | Y         |
@@ -530,6 +531,7 @@ The following licenses have been generated from the license list version 17f273c
 | Open Software License 2.0                                                                 | [OSL-2.0][]                              | Y    | Y         |
 | Open Software License 2.1                                                                 | [OSL-2.1][]                              | Y    | Y         |
 | Open Software License 3.0                                                                 | [OSL-3.0][]                              | Y    | Y         |
+| OSSP License                                                                              | [OSSP][]                                 |      |           |
 | PADL License                                                                              | [PADL][]                                 |      |           |
 | The Parity Public License 6.0.0                                                           | [Parity-6.0.0][]                         |      |           |
 | The Parity Public License 7.0.0                                                           | [Parity-7.0.0][]                         |      |           |
@@ -1049,6 +1051,7 @@ The following licenses have been generated from the license list version 17f273c
 [EPL-2.0]: text/EPL-2.0.txt
 [ErlPL-1.1]: text/ErlPL-1.1.txt
 [ESA-PL-permissive-2.4]: text/ESA-PL-permissive-2.4.txt
+[ESA-PL-strong-copyleft-2.4]: text/ESA-PL-strong-copyleft-2.4.txt
 [ESA-PL-weak-copyleft-2.4]: text/ESA-PL-weak-copyleft-2.4.txt
 [etalab-2.0]: text/etalab-2.0.txt
 [EUDatagrid]: text/EUDatagrid.txt
@@ -1359,6 +1362,7 @@ The following licenses have been generated from the license list version 17f273c
 [OSL-2.0]: text/OSL-2.0.txt
 [OSL-2.1]: text/OSL-2.1.txt
 [OSL-3.0]: text/OSL-3.0.txt
+[OSSP]: text/OSSP.txt
 [PADL]: text/PADL.txt
 [Parity-6.0.0]: text/Parity-6.0.0.txt
 [Parity-7.0.0]: text/Parity-7.0.0.txt

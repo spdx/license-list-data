@@ -5,6 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/PHP-3.0">
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
@@ -84,9 +86,7 @@
       &lt;p&gt;This product includes the Zend Engine, freely available at &amp;lt;http://www.zend.com&amp;gt;.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:name>PHP License v3.0</spdx:name>
+    <rdfs:seeAlso>http://www.php.net/license/3_0.txt</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -96,7 +96,7 @@
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>http://www.php.net/license/3_0.txt</spdx:url>
-        <spdx:timestamp>2025-10-13T14:27:37Z</spdx:timestamp>
+        <spdx:timestamp>2025-10-15T16:25:03Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>false</spdx:match>
@@ -131,7 +131,6 @@ For more information on the PHP Group and the PHP project, please see &lt;http:/
 
 This product includes the Zend Engine, freely available at &lt;http://www.zend.com&gt;.
 </spdx:licenseText>
-    <rdfs:seeAlso>https://opensource.org/licenses/PHP-3.0</rdfs:seeAlso>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -141,13 +140,14 @@ This product includes the Zend Engine, freely available at &lt;http://www.zend.c
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://opensource.org/licenses/PHP-3.0</spdx:url>
-        <spdx:timestamp>2025-10-13T14:27:37Z</spdx:timestamp>
+        <spdx:timestamp>2025-10-15T16:25:03Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >1</spdx:order>
         <spdx:match>false</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <rdfs:seeAlso>http://www.php.net/license/3_0.txt</rdfs:seeAlso>
+    <spdx:name>PHP License v3.0</spdx:name>
+    <rdfs:seeAlso>https://opensource.org/licenses/PHP-3.0</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;The PHP License, version 3.0
 
 &lt;&lt;endOptional&gt;&gt; &lt;&lt;var;name="copyright";original="Copyright (c) 1999 - 2006 The PHP Group. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
