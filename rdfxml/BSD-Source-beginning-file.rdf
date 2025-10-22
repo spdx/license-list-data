@@ -5,7 +5,20 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/BSD-Source-beginning-file">
-    <rdfs:seeAlso>https://github.com/lattera/freebsd/blob/master/sys/cam/cam.c#L4</rdfs:seeAlso>
+    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1997 Justin T. Gibbs. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+   &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer, without modification, immediately at the beginning of the file.
+   &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; The name of &lt;&lt;var;name="organizationClause3";original="the author";match=".+"&gt;&gt; may not be used to endorse or promote products derived from this software without specific prior written permission &lt;&lt;var;name="organizationClause2";original="";match=".*"&gt;&gt; .
+THIS SOFTWARE IS PROVIDED BY &lt;&lt;var;name="copyrightHolderAsIs";original="THE AUTHORS AND CONTRIBUTORS";match=".+"&gt;&gt; "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL &lt;&lt;var;name="copyrightHolderLiability";original="THE AUTHOR OR CONTRIBUTORS";match=".+"&gt;&gt; BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
+    <rdfs:comment>This license is mostly the same as BSD-Source-Code but adds includes a specific requirement requiring retention of the copyright notice "immediately at the beginning of the file".</rdfs:comment>
+    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isOsiApproved>
+    <spdx:name>BSD Source Code Attribution - beginning of file variant</spdx:name>
     <spdx:licenseText>Copyright (c) 1997 Justin T. Gibbs.
 All rights reserved.
 
@@ -30,17 +43,21 @@ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
 OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
 SUCH DAMAGE.
 </spdx:licenseText>
-    <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isOsiApproved>
-    <spdx:standardLicenseTemplate>&lt;&lt;var;name="copyright";original="Copyright (c) 1997 Justin T. Gibbs. All rights reserved.  ";match=".{0,5000}"&gt;&gt;
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
-
-   &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer, without modification, immediately at the beginning of the file.
-   &lt;&lt;var;name="bullet";original="*";match=".{0,20}"&gt;&gt; The name of &lt;&lt;var;name="organizationClause3";original="the author";match=".+"&gt;&gt; may not be used to endorse or promote products derived from this software without specific prior written permission &lt;&lt;var;name="organizationClause2";original="";match=".*"&gt;&gt; .
-THIS SOFTWARE IS PROVIDED BY &lt;&lt;var;name="copyrightHolderAsIs";original="THE AUTHORS AND CONTRIBUTORS";match=".+"&gt;&gt; "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL &lt;&lt;var;name="copyrightHolderLiability";original="THE AUTHOR OR CONTRIBUTORS";match=".+"&gt;&gt; BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
-</spdx:standardLicenseTemplate>
-    <rdfs:comment>This license is mostly the same as BSD-Source-Code but adds includes a specific requirement requiring retention of the copyright notice "immediately at the beginning of the file".</rdfs:comment>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://github.com/lattera/freebsd/blob/master/sys/cam/cam.c#L4</spdx:url>
+        <spdx:timestamp>2025-10-22T18:21:42Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>false</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:licenseTextHtml>
       &lt;div class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,5000}"&gt; 
          &lt;p&gt;Copyright (c) 1997 Justin T. Gibbs.
@@ -95,23 +112,6 @@ All rights reserved.
       &lt;/p&gt;
 
     </spdx:licenseTextHtml>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
-    <spdx:name>BSD Source Code Attribution - beginning of file variant</spdx:name>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://github.com/lattera/freebsd/blob/master/sys/cam/cam.c#L4</spdx:url>
-        <spdx:timestamp>2025-10-15T16:31:41Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>false</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
+    <rdfs:seeAlso>https://github.com/lattera/freebsd/blob/master/sys/cam/cam.c#L4</rdfs:seeAlso>
   </spdx:ListedLicense>
 </rdf:RDF>

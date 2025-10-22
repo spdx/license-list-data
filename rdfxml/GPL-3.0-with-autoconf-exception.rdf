@@ -7,9 +7,10 @@
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/GPL-3.0-with-autoconf-exception">
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
-    <rdfs:seeAlso>https://www.gnu.org/licenses/autoconf-exception-3.0.html</rdfs:seeAlso>
-    <rdfs:comment>DEPRECATED: Use license expression including main license, "WITH" operator, and identifier: Autoconf-exception-3.0</rdfs:comment>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isDeprecatedLicenseId>
     <spdx:deprecatedVersion>2.0rc2</spdx:deprecatedVersion>
+    <rdfs:seeAlso>https://www.gnu.org/licenses/autoconf-exception-3.0.html</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>insert GPL v3 text here
 
 AUTOCONF CONFIGURE SCRIPT EXCEPTION
@@ -66,7 +67,7 @@ The purpose of this Exception is to allow distribution of Autoconf's typical out
    The availability of this Exception does not imply any general presumption that third-party software is unaffected by the copyleft requirements of the license of Autoconf.
    
    </spdx:licenseText>
-    <spdx:name>GNU General Public License v3.0 w/Autoconf exception</spdx:name>
+    <rdfs:comment>DEPRECATED: Use license expression including main license, "WITH" operator, and identifier: Autoconf-exception-3.0</rdfs:comment>
     <spdx:licenseTextHtml>
 	     &lt;p&gt;insert GPL v3 text here&lt;/p&gt;
 
@@ -120,13 +121,12 @@ The purpose of this Exception is to allow distribution of Autoconf's typical out
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >false</spdx:isLive>
         <spdx:url>https://www.gnu.org/licenses/autoconf-exception-3.0.html</spdx:url>
-        <spdx:timestamp>2025-10-15T16:29:49Z</spdx:timestamp>
+        <spdx:timestamp>2025-10-22T18:20:02Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>N/A</spdx:match>
       </spdx:CrossRef>
     </spdx:crossRef>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isDeprecatedLicenseId>
+    <spdx:name>GNU General Public License v3.0 w/Autoconf exception</spdx:name>
   </spdx:ListedLicense>
 </rdf:RDF>
