@@ -5,7 +5,8 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/SMLNJ">
-    <rdfs:seeAlso>https://www.smlnj.org/license.html</rdfs:seeAlso>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseText>STANDARD ML OF NEW JERSEY COPYRIGHT NOTICE, LICENSE AND DISCLAIMER.
 
 Copyright (c) 2001-2011 by The Fellowship of SML/NJ Copyright (c) 1989-2001 by Lucent Technologies
@@ -14,8 +15,7 @@ Permission to use, copy, modify, and distribute this software and its documentat
 
 Lucent disclaims all warranties with regard to this software, including all implied warranties of merchantability and fitness. In no event shall Lucent be liable for any special, indirect or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
 </spdx:licenseText>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
+    <spdx:name>Standard ML of New Jersey License</spdx:name>
     <spdx:crossRef>
       <spdx:CrossRef>
         <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
@@ -25,7 +25,7 @@ Lucent disclaims all warranties with regard to this software, including all impl
         <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
         >true</spdx:isLive>
         <spdx:url>https://www.smlnj.org/license.html</spdx:url>
-        <spdx:timestamp>2025-10-22T18:09:10Z</spdx:timestamp>
+        <spdx:timestamp>2025-10-24T17:59:46Z</spdx:timestamp>
         <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
         >0</spdx:order>
         <spdx:match>true</spdx:match>
@@ -39,9 +39,6 @@ Permission to use, copy, modify, and distribute this software and its documentat
 &lt;&lt;var;name="warrantyDisclaimer";original="Lucent disclaims";match="(.+disclaims)|(.+disclaim)"&gt;&gt; all warranties with regard to this software, including all implied warranties of merchantability and fitness. In no event shall &lt;&lt;var;name="damagesLiability";original="Lucent";match=".+"&gt;&gt; be liable for any special, indirect or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.
 
 </spdx:standardLicenseTemplate>
-    <spdx:name>Standard ML of New Jersey License</spdx:name>
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isOsiApproved>
     <spdx:licenseTextHtml>
@@ -73,5 +70,8 @@ Copyright (c) 1989-2001 by Lucent Technologies
          action, arising out of or in connection with the use or performance of this software.&lt;/p&gt;
 
     </spdx:licenseTextHtml>
+    <rdfs:seeAlso>https://www.smlnj.org/license.html</rdfs:seeAlso>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
   </spdx:ListedLicense>
 </rdf:RDF>

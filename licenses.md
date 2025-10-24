@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e94a7c5
+The following licenses have been generated from the license list version adb6159
 
 ## Licenses with Short Identifiers
 
@@ -341,6 +341,7 @@ The following licenses have been generated from the license list version e94a7c5
 | Historical Permission Notice and Disclaimer - University of California variant            | [HPND-UC][]                              |      |           |
 | Historical Permission Notice and Disclaimer - University of California, US export warning | [HPND-UC-export-US][]                    |      |           |
 | HTML Tidy License                                                                         | [HTMLTIDY][]                             |      |           |
+| hyphen-bulgarian License                                                                  | [hyphen-bulgarian][]                     |      |           |
 | IBM PowerPC Initialization and Boot Software                                              | [IBM-pibs][]                             |      |           |
 | ICU License                                                                               | [ICU][]                                  | Y    |           |
 | IEC    Code Components End-user licence agreement                                         | [IEC-Code-Components-EULA][]             |      |           |
@@ -1164,6 +1165,7 @@ The following licenses have been generated from the license list version e94a7c5
 [HPND-UC]: text/HPND-UC.txt
 [HPND-UC-export-US]: text/HPND-UC-export-US.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
+[hyphen-bulgarian]: text/hyphen-bulgarian.txt
 [IBM-pibs]: text/IBM-pibs.txt
 [ICU]: text/ICU.txt
 [IEC-Code-Components-EULA]: text/IEC-Code-Components-EULA.txt
