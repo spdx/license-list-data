@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version adb6159
+The following licenses have been generated from the license list version eedc868
 
 ## Licenses with Short Identifiers
 
@@ -467,6 +467,7 @@ The following licenses have been generated from the license list version adb6159
 | NICTA Public Software License, Version 1.0                                                | [NICTA-1.0][]                            |      |           |
 | NIST Public Domain Notice                                                                 | [NIST-PD][]                              |      |           |
 | NIST Public Domain Notice with license fallback                                           | [NIST-PD-fallback][]                     |      |           |
+| NIST    Public Domain Notice TNT variant                                                  | [NIST-PD-TNT][]                          |      |           |
 | NIST Software License                                                                     | [NIST-Software][]                        |      |           |
 | Norwegian Licence for Open Government Data (NLOD) 1.0                                     | [NLOD-1.0][]                             |      |           |
 | Norwegian Licence for Open Government Data (NLOD) 2.0                                     | [NLOD-2.0][]                             |      |           |
@@ -1298,6 +1299,7 @@ The following licenses have been generated from the license list version adb6159
 [NICTA-1.0]: text/NICTA-1.0.txt
 [NIST-PD]: text/NIST-PD.txt
 [NIST-PD-fallback]: text/NIST-PD-fallback.txt
+[NIST-PD-TNT]: text/NIST-PD-TNT.txt
 [NIST-Software]: text/NIST-Software.txt
 [NLOD-1.0]: text/NLOD-1.0.txt
 [NLOD-2.0]: text/NLOD-2.0.txt

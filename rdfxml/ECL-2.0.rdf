@@ -5,8 +5,20 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicense rdf:about="http://spdx.org/licenses/ECL-2.0">
-    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >false</spdx:isDeprecatedLicenseId>
+    <spdx:standardLicenseHeaderTemplate>Copyright &lt;&lt;var;name="copyright";original="[yyyy] [name of copyright owner]";match=".+"&gt;&gt; Licensed under the
+Educational Community License, Version 2.0 (the "License"); you may
+not use this file except in compliance with the License. You may
+obtain a copy of the License at
+
+http://www.osedu.org/licenses/ECL-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an "AS IS"
+BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+or implied. See the License for the specific language governing
+permissions and limitations under the License.
+
+</spdx:standardLicenseHeaderTemplate>
     <spdx:licenseText>Educational Community License
 Version 2.0, April 2007
 
@@ -106,8 +118,7 @@ identification within third-party archives.
   or implied. See the License for the specific language governing
   permissions and limitations under the License.
 </spdx:licenseText>
-    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-    >true</spdx:isFsfLibre>
+    <rdfs:comment>The Educational Community License version 2.0 ("ECL") consists of the Apache 2.0 license, modified to change the scope of the patent grant in section 3 to be specific to the needs of the education communities using this license. The url included in the boilerplate notice does not work. (15/10/10)</rdfs:comment>
     <spdx:name>Educational Community License v2.0</spdx:name>
     <spdx:standardLicenseHeaderHtml>
          &lt;p&gt;Copyright &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .+"&gt; [yyyy] [name of copyright owner]&lt;/span&gt;&lt;/var&gt; Licensed under the
@@ -147,21 +158,6 @@ or implied. See the License for the specific language governing
 permissions and limitations under the License.
 
 </spdx:standardLicenseHeader>
-    <spdx:crossRef>
-      <spdx:CrossRef>
-        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >false</spdx:isWayBackLink>
-        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isValid>
-        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
-        >true</spdx:isLive>
-        <spdx:url>https://opensource.org/licenses/ECL-2.0</spdx:url>
-        <spdx:timestamp>2025-10-24T18:00:07Z</spdx:timestamp>
-        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
-        >0</spdx:order>
-        <spdx:match>true</spdx:match>
-      </spdx:CrossRef>
-    </spdx:crossRef>
     <rdfs:seeAlso>https://opensource.org/licenses/ECL-2.0</rdfs:seeAlso>
     <spdx:standardLicenseTemplate>&lt;&lt;beginOptional&gt;&gt;Educational Community License
 Version 2.0, April 2007
@@ -252,6 +248,8 @@ or implied. See the License for the specific language governing
 permissions and limitations under the License.
 
 &lt;&lt;endOptional&gt;&gt;</spdx:standardLicenseTemplate>
+    <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >false</spdx:isDeprecatedLicenseId>
     <spdx:licenseTextHtml>
       &lt;div class="optional-license-text"&gt; 
          &lt;p&gt;Educational Community License
@@ -548,22 +546,24 @@ permissions and limitations under the License.
 
       &lt;/div&gt;
     </spdx:licenseTextHtml>
-    <spdx:standardLicenseHeaderTemplate>Copyright &lt;&lt;var;name="copyright";original="[yyyy] [name of copyright owner]";match=".+"&gt;&gt; Licensed under the
-Educational Community License, Version 2.0 (the "License"); you may
-not use this file except in compliance with the License. You may
-obtain a copy of the License at
-
-http://www.osedu.org/licenses/ECL-2.0
-
-Unless required by applicable law or agreed to in writing,
-software distributed under the License is distributed on an "AS IS"
-BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
-or implied. See the License for the specific language governing
-permissions and limitations under the License.
-
-</spdx:standardLicenseHeaderTemplate>
+    <spdx:crossRef>
+      <spdx:CrossRef>
+        <spdx:isWayBackLink rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >false</spdx:isWayBackLink>
+        <spdx:isValid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isValid>
+        <spdx:isLive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+        >true</spdx:isLive>
+        <spdx:url>https://opensource.org/licenses/ECL-2.0</spdx:url>
+        <spdx:timestamp>2025-10-25T06:34:36Z</spdx:timestamp>
+        <spdx:order rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+        >0</spdx:order>
+        <spdx:match>true</spdx:match>
+      </spdx:CrossRef>
+    </spdx:crossRef>
     <spdx:isOsiApproved rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >true</spdx:isOsiApproved>
-    <rdfs:comment>The Educational Community License version 2.0 ("ECL") consists of the Apache 2.0 license, modified to change the scope of the patent grant in section 3 to be specific to the needs of the education communities using this license. The url included in the boilerplate notice does not work. (15/10/10)</rdfs:comment>
+    <spdx:isFsfLibre rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
+    >true</spdx:isFsfLibre>
   </spdx:ListedLicense>
 </rdf:RDF>
