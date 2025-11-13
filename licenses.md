@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8cda2eb
+The following licenses have been generated from the license list version fe353dd
 
 ## Licenses with Short Identifiers
 
@@ -662,6 +662,7 @@ The following licenses have been generated from the license list version 8cda2eb
 | WWL License                                                                               | [wwl][]                                  |      |           |
 | X11 License                                                                               | [X11][]                                  |      | Y         |
 | X11 License Distribution Modification Variant                                             | [X11-distribute-modifications-variant][] |      |           |
+| X11 no permit persons clause                                                              | [X11-no-permit-persons][]                |      |           |
 | X11 swapped final paragraphs                                                              | [X11-swapped][]                          |      |           |
 | Xdebug License v 1.03                                                                     | [Xdebug-1.03][]                          |      |           |
 | Xerox License                                                                             | [Xerox][]                                |      |           |
@@ -1498,6 +1499,7 @@ The following licenses have been generated from the license list version 8cda2eb
 [wxWindows]: text/wxWindows.txt
 [X11]: text/X11.txt
 [X11-distribute-modifications-variant]: text/X11-distribute-modifications-variant.txt
+[X11-no-permit-persons]: text/X11-no-permit-persons.txt
 [X11-swapped]: text/X11-swapped.txt
 [Xdebug-1.03]: text/Xdebug-1.03.txt
 [Xerox]: text/Xerox.txt

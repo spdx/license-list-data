@@ -1,17 +1,40 @@
 {
     "@graph": [
         {
+            "@id": "_:b0",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
+            "spdx:timestamp": "2025-11-13T18:07:06Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/bzip2-1.0.6",
             "@type": "spdx:ListedLicense",
             "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
                 {
                     "@id": "_:b1"
                 },
                 {
                     "@id": "_:b2"
+                },
+                {
+                    "@id": "_:b0"
                 }
             ],
             "spdx:isOsiApproved": {
@@ -34,29 +57,6 @@
             "spdx:name": "bzip2 and libbzip2 License v1.0.6"
         },
         {
-            "@id": "_:b0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
-            "spdx:timestamp": "2025-11-13T17:27:39Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "_:b1",
             "spdx:isWayBackLink": {
                 "@value": "false",
@@ -70,10 +70,10 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
-            "spdx:timestamp": "2025-11-13T17:27:40Z",
+            "spdx:url": "https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c",
+            "spdx:timestamp": "2025-11-13T18:07:06Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
@@ -93,10 +93,10 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c",
-            "spdx:timestamp": "2025-11-13T17:27:39Z",
+            "spdx:url": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
+            "spdx:timestamp": "2025-11-13T18:07:07Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
