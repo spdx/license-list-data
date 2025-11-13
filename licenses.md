@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 88388db
+The following licenses have been generated from the license list version 8cda2eb
 
 ## Licenses with Short Identifiers
 
@@ -431,6 +431,7 @@ The following licenses have been generated from the license list version 88388db
 | MIT Khronos - old variant                                                                 | [MIT-Khronos-old][]                      |      |           |
 | MIT License Modern Variant                                                                | [MIT-Modern-Variant][]                   | Y    |           |
 | MIT Open Group variant                                                                    | [MIT-open-group][]                       |      |           |
+| MIT-STK License                                                                           | [MIT-STK][]                              |      |           |
 | MIT testregex Variant                                                                     | [MIT-testregex][]                        |      |           |
 | MIT Tom Wu Variant                                                                        | [MIT-Wu][]                               |      |           |
 | MIT +no-false-attribs license                                                             | [MITNFA][]                               |      |           |
@@ -1262,6 +1263,7 @@ The following licenses have been generated from the license list version 88388db
 [MIT-Khronos-old]: text/MIT-Khronos-old.txt
 [MIT-Modern-Variant]: text/MIT-Modern-Variant.txt
 [MIT-open-group]: text/MIT-open-group.txt
+[MIT-STK]: text/MIT-STK.txt
 [MIT-testregex]: text/MIT-testregex.txt
 [MIT-Wu]: text/MIT-Wu.txt
 [MITNFA]: text/MITNFA.txt
