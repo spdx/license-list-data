@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 687638f
+The following licenses have been generated from the license list version 2ffd3ae
 
 ## Licenses with Short Identifiers
 
@@ -763,6 +763,7 @@ The following licenses have been generated from the license list version 687638f
 | SANE Exception                                        | [SANE-exception][]                       |
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
+| Simple Library Usage Exception                        | [Simple-Library-Usage-exception][]       |
 | stunnel Exception                                     | [stunnel-exception][]                    |
 | SWI exception                                         | [SWI-exception][]                        |
 | Swift Exception                                       | [Swift-exception][]                      |
@@ -1597,6 +1598,7 @@ The following licenses have been generated from the license list version 687638f
 [SANE-exception]: text/SANE-exception.txt
 [SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
+[Simple-Library-Usage-exception]: text/Simple-Library-Usage-exception.txt
 [stunnel-exception]: text/stunnel-exception.txt
 [SWI-exception]: text/SWI-exception.txt
 [Swift-exception]: text/Swift-exception.txt
