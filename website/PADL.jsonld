@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/PADL",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -16,9 +19,6 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             }
         },
         {
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.openldap.org/openldap/openldap/-/blob/master/libraries/libldap/os-local.c?ref_type=heads#L19-23",
-            "spdx:timestamp": "2025-11-19T21:07:15Z",
+            "spdx:timestamp": "2025-11-21T21:27:46Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

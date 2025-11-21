@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2ffd3ae
+The following licenses have been generated from the license list version 2e6a0e5
 
 ## Licenses with Short Identifiers
 
@@ -618,6 +618,7 @@ The following licenses have been generated from the license list version 2ffd3ae
 | TAPR Open Hardware License v1.0                                                           | [TAPR-OHL-1.0][]                         |      |           |
 | TCL/TK License                                                                            | [TCL][]                                  |      |           |
 | TCP Wrappers License                                                                      | [TCP-wrappers][]                         |      |           |
+| TekHVC License                                                                            | [TekHVC][]                               |      |           |
 | TermReadKey License                                                                       | [TermReadKey][]                          |      |           |
 | Transitive Grace Period Public Licence 1.0                                                | [TGPPL-1.0][]                            |      |           |
 | ThirdEye License                                                                          | [ThirdEye][]                             |      |           |
@@ -1456,6 +1457,7 @@ The following licenses have been generated from the license list version 2ffd3ae
 [TAPR-OHL-1.0]: text/TAPR-OHL-1.0.txt
 [TCL]: text/TCL.txt
 [TCP-wrappers]: text/TCP-wrappers.txt
+[TekHVC]: text/TekHVC.txt
 [TermReadKey]: text/TermReadKey.txt
 [TGPPL-1.0]: text/TGPPL-1.0.txt
 [ThirdEye]: text/ThirdEye.txt
