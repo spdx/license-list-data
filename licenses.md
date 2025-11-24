@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 3b82fbf
+The following licenses have been generated from the license list version bf9d9a6
 
 ## Licenses with Short Identifiers
 
@@ -362,6 +362,7 @@ The following licenses have been generated from the license list version 3b82fbf
 | IBM Public License v1.0                                                                   | [IPL-1.0][]                              | Y    | Y         |
 | ISC License                                                                               | [ISC][]                                  | Y    | Y         |
 | ISC Veillard variant                                                                      | [ISC-Veillard][]                         |      |           |
+| ISO permission notice                                                                     | [ISO-permission][]                       |      |           |
 | Jam License                                                                               | [Jam][]                                  | Y    |           |
 | JasPer License                                                                            | [JasPer-2.0][]                           |      |           |
 | Jove License                                                                              | [jove][]                                 |      |           |
@@ -1193,6 +1194,7 @@ The following licenses have been generated from the license list version 3b82fbf
 [IPL-1.0]: text/IPL-1.0.txt
 [ISC]: text/ISC.txt
 [ISC-Veillard]: text/ISC-Veillard.txt
+[ISO-permission]: text/ISO-permission.txt
 [Jam]: text/Jam.txt
 [JasPer-2.0]: text/JasPer-2.0.txt
 [jove]: text/jove.txt
