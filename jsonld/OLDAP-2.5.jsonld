@@ -2,9 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/OLDAP-2.5",
-            "spdx:crossRef": {
-                "@id": "_:b0"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -19,7 +16,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:name": "Open LDAP Public License v2.5"
+            "spdx:name": "Open LDAP Public License v2.5",
+            "spdx:crossRef": {
+                "@id": "_:b0"
+            }
         },
         {
             "@id": "_:b0",
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.openldap.org/devel/gitweb.cgi?p=openldap.git;a=blob;f=LICENSE;hb=6852b9d90022e8593c98205413380536b1b5a7cf",
-            "spdx:timestamp": "2025-11-21T21:20:14Z",
+            "spdx:timestamp": "2025-11-24T01:50:26Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

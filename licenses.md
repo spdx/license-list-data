@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2e6a0e5
+The following licenses have been generated from the license list version 3b82fbf
 
 ## Licenses with Short Identifiers
 
@@ -27,6 +27,7 @@ The following licenses have been generated from the license list version 2e6a0e5
 | GNU Affero General Public License v3.0 only                                               | [AGPL-3.0-only][]                        | Y    | Y         |
 | GNU Affero General Public License v3.0 or later                                           | [AGPL-3.0-or-later][]                    | Y    | Y         |
 | Aladdin Free Public License                                                               | [Aladdin][]                              |      |           |
+| ALGLIB Documentation License                                                              | [ALGLIB-Documentation][]                 | Y    |           |
 | AMD newlib License                                                                        | [AMD-newlib][]                           |      |           |
 | AMD's plpa_map.c License                                                                  | [AMDPLPA][]                              |      |           |
 | Apple MIT License                                                                         | [AML][]                                  |      |           |
@@ -837,6 +838,7 @@ The following licenses have been generated from the license list version 2e6a0e5
 [AGPL-3.0-only]: text/AGPL-3.0-only.txt
 [AGPL-3.0-or-later]: text/AGPL-3.0-or-later.txt
 [Aladdin]: text/Aladdin.txt
+[ALGLIB-Documentation]: text/ALGLIB-Documentation.txt
 [AMD-newlib]: text/AMD-newlib.txt
 [AMDPLPA]: text/AMDPLPA.txt
 [AML]: text/AML.txt
