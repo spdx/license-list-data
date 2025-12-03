@@ -1,14 +1,34 @@
 {
     "@graph": [
         {
+            "@id": "_:e55766af-c97b-4db2-87bd-a91f22a3889a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.affero.org/oagpl.html",
+            "spdx:timestamp": "2025-12-03T16:23:10Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/AGPL-1.0",
             "rdfs:comment": "DEPRECATED: Use the license identifier AGPL-1.0-only instead of AGPL-1.0.\n\n",
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:b0"
             },
             "@type": "spdx:ListedLicense",
             "spdx:name": "Affero General Public License v1.0",
@@ -24,30 +44,10 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:e55766af-c97b-4db2-87bd-a91f22a3889a"
             }
-        },
-        {
-            "@id": "_:b0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.affero.org/oagpl.html",
-            "spdx:timestamp": "2025-11-28T16:32:08Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

@@ -2,6 +2,14 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/PDDL-1.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:6cb025be-0fd1-44be-8635-3a44afc9f6a7"
+                },
+                {
+                    "@id": "_:683a7d24-ac44-4ffb-a2a8-d6c6ae1b1071"
+                }
+            ],
             "spdx:name": "Open Data Commons Public Domain Dedication & License 1.0",
             "rdfs:seeAlso": [
                 "https://opendatacommons.org/licenses/pddl/",
@@ -18,41 +26,10 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b0"
-                },
-                {
-                    "@id": "_:b1"
-                }
-            ]
+            }
         },
         {
-            "@id": "_:b0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opendatacommons.org/licenses/pddl/",
-            "spdx:timestamp": "2025-11-28T16:33:13Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b1",
+            "@id": "_:6cb025be-0fd1-44be-8635-3a44afc9f6a7",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +43,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://opendatacommons.org/licenses/pddl/1.0/",
-            "spdx:timestamp": "2025-11-28T16:33:13Z",
+            "spdx:timestamp": "2025-12-03T16:24:13Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:683a7d24-ac44-4ffb-a2a8-d6c6ae1b1071",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opendatacommons.org/licenses/pddl/",
+            "spdx:timestamp": "2025-12-03T16:24:13Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],
