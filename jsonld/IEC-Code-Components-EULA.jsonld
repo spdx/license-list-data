@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:bd127b01-c7df-4f63-bbc9-5046d5bbd1bc",
+            "@id": "_:b239918a-ec3a-41d6-ba48-4fe95e7efea6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -11,20 +11,20 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.iec.ch/copyright",
-            "spdx:timestamp": "2025-12-03T16:13:43Z",
+            "spdx:timestamp": "2026-01-16T08:49:07Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:3ae3f083-6aa3-4664-b5c7-a5c2d954eea3",
+            "@id": "_:5db5bd81-7e08-4e2c-bb97-1a010d6ba0fe",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -34,20 +34,20 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.iec.ch/CCv1",
-            "spdx:timestamp": "2025-12-03T16:13:43Z",
+            "spdx:timestamp": "2026-01-16T08:49:05Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:a2803ef8-5ba6-4d49-8fd4-7ebcd0b1c768",
+            "@id": "_:51d1cf4a-05ad-4a59-940b-7365ccdc1435",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -57,20 +57,31 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.iec.ch/webstore/custserv/pdf/CC-EULA.pdf",
-            "spdx:timestamp": "2025-12-03T16:13:43Z",
+            "spdx:timestamp": "2026-01-16T08:49:06Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/IEC-Code-Components-EULA",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b239918a-ec3a-41d6-ba48-4fe95e7efea6"
+                },
+                {
+                    "@id": "_:5db5bd81-7e08-4e2c-bb97-1a010d6ba0fe"
+                },
+                {
+                    "@id": "_:51d1cf4a-05ad-4a59-940b-7365ccdc1435"
+                }
+            ],
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
                 "https://www.iec.ch/webstore/custserv/pdf/CC-EULA.pdf",
@@ -78,17 +89,6 @@
                 "https://www.iec.ch/copyright"
             ],
             "spdx:name": "IEC    Code Components End-user licence agreement",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:bd127b01-c7df-4f63-bbc9-5046d5bbd1bc"
-                },
-                {
-                    "@id": "_:a2803ef8-5ba6-4d49-8fd4-7ebcd0b1c768"
-                },
-                {
-                    "@id": "_:3ae3f083-6aa3-4664-b5c7-a5c2d954eea3"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 2d1a7f9
+The following licenses have been generated from the license list version 45657db
 
 ## Licenses with Short Identifiers
 
@@ -648,6 +648,7 @@ The following licenses have been generated from the license list version 2d1a7f9
 | The Unlicense                                                                             | [Unlicense][]                            | Y    | Y         |
 | Unlicense - libtelnet variant                                                             | [Unlicense-libtelnet][]                  |      |           |
 | Unlicense - libwhirlpool variant                                                          | [Unlicense-libwhirlpool][]               |      |           |
+| UnRAR License                                                                             | [UnRAR][]                                |      |           |
 | Universal Permissive License v1.0                                                         | [UPL-1.0][]                              | Y    | Y         |
 | Utah Raster Toolkit Run Length Encoded License                                            | [URT-RLE][]                              |      |           |
 | Vim License                                                                               | [Vim][]                                  |      | Y         |
@@ -1489,6 +1490,7 @@ The following licenses have been generated from the license list version 2d1a7f9
 [Unlicense]: text/Unlicense.txt
 [Unlicense-libtelnet]: text/Unlicense-libtelnet.txt
 [Unlicense-libwhirlpool]: text/Unlicense-libwhirlpool.txt
+[UnRAR]: text/UnRAR.txt
 [UPL-1.0]: text/UPL-1.0.txt
 [URT-RLE]: text/URT-RLE.txt
 [Vim]: text/Vim.txt
