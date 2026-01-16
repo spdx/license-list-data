@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 45657db
+The following licenses have been generated from the license list version aee8c14
 
 ## Licenses with Short Identifiers
 
@@ -337,6 +337,7 @@ The following licenses have been generated from the license list version 45657db
 | Historical Permission Notice and Disclaimer - sell xserver variant with MIT disclaimer    | [HPND-sell-MIT-disclaimer-xserver][]     |      |           |
 | Historical Permission Notice and Disclaimer - sell regexpr variant                        | [HPND-sell-regexpr][]                    |      |           |
 | Historical Permission Notice and Disclaimer - sell variant                                | [HPND-sell-variant][]                    |      |           |
+| HPND - sell variant with safety critical systems clause                                   | [HPND-sell-variant-critical-systems][]   |      |           |
 | HPND sell variant with MIT disclaimer                                                     | [HPND-sell-variant-MIT-disclaimer][]     |      |           |
 | HPND sell variant with MIT disclaimer - reverse                                           | [HPND-sell-variant-MIT-disclaimer-rev][] |      |           |
 | Historical Permission Notice and Disclaimer - SMC variant                                 | [HPND-SMC][]                             |      |           |
@@ -1170,6 +1171,7 @@ The following licenses have been generated from the license list version 45657db
 [HPND-sell-MIT-disclaimer-xserver]: text/HPND-sell-MIT-disclaimer-xserver.txt
 [HPND-sell-regexpr]: text/HPND-sell-regexpr.txt
 [HPND-sell-variant]: text/HPND-sell-variant.txt
+[HPND-sell-variant-critical-systems]: text/HPND-sell-variant-critical-systems.txt
 [HPND-sell-variant-MIT-disclaimer]: text/HPND-sell-variant-MIT-disclaimer.txt
 [HPND-sell-variant-MIT-disclaimer-rev]: text/HPND-sell-variant-MIT-disclaimer-rev.txt
 [HPND-SMC]: text/HPND-SMC.txt

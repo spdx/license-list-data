@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:8bf51de3-c603-470f-9947-754d968bf1fa",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.zlib.net/zlib_license.html",
-            "spdx:timestamp": "2026-01-16T08:52:36Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:e945f5ad-51c9-4011-a5e6-aa9d59233a6b",
+            "@id": "_:3088f610-9ecc-4b31-af84-71a5412db491",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/licenses/Zlib",
-            "spdx:timestamp": "2026-01-16T08:52:36Z",
+            "spdx:timestamp": "2026-01-16T15:13:52Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,19 +24,42 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:abda3767-7c53-44bf-9a21-ea488108d3c5",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.zlib.net/zlib_license.html",
+            "spdx:timestamp": "2026-01-16T15:13:52Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Zlib",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:abda3767-7c53-44bf-9a21-ea488108d3c5"
+                },
+                {
+                    "@id": "_:3088f610-9ecc-4b31-af84-71a5412db491"
+                }
+            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8bf51de3-c603-470f-9947-754d968bf1fa"
-                },
-                {
-                    "@id": "_:e945f5ad-51c9-4011-a5e6-aa9d59233a6b"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

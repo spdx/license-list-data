@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:4a9fe0e9-c9d0-43b5-a53a-88cffe222f96",
+            "@id": "_:4d199b76-e741-41b0-8893-c45a9d9a81d3",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.itu.int/ITU-T/formal-language/itu-t/t/t173/1997/ISOMHEG-sir.html",
-            "spdx:timestamp": "2026-01-16T08:49:38Z",
+            "spdx:timestamp": "2026-01-16T15:11:01Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:f67ec9a8-b72b-47ce-906f-b316c8eba64a",
+            "@id": "_:01fa0335-884d-4934-bd18-796f6c2dddd9",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.com/agmartin/linuxdoc-tools/-/blob/master/iso-entities/COPYING?ref_type=heads",
-            "spdx:timestamp": "2026-01-16T08:49:39Z",
+            "spdx:timestamp": "2026-01-16T15:11:02Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,18 +48,18 @@
         },
         {
             "@id": "http://spdx.org/licenses/ISO-permission",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:f67ec9a8-b72b-47ce-906f-b316c8eba64a"
-                },
-                {
-                    "@id": "_:4a9fe0e9-c9d0-43b5-a53a-88cffe222f96"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:01fa0335-884d-4934-bd18-796f6c2dddd9"
+                },
+                {
+                    "@id": "_:4d199b76-e741-41b0-8893-c45a9d9a81d3"
+                }
+            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(C) International Organization for Standardization 1986\";match=\".{0,5000}\">>\nPermission to copy in any form is granted for use with conforming <<var;name=\"name\";original=\"SGML systems\";match=\"SGML systems|to MHEG-3 engines\">> and applications as defined <<var;name=\"defined\";original=\"in ISO 8879,\";match=\"in ISO 8879,|by this Recommendation\">> provided this notice is included in all copies.\n\n",
             "rdfs:seeAlso": [
                 "https://gitlab.com/agmartin/linuxdoc-tools/-/blob/master/iso-entities/COPYING?ref_type=heads",

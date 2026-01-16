@@ -1,0 +1,40 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/aee8c14" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2026-01-16T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/HPND-sell-variant-critical-systems_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/HPND-sell-variant-critical-systems" ],
+    "name" : "HPND-sell-variant-critical-systems document",
+    "comment" : "SPDX Document For HPND-sell-variant-critical-systems",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/aee8c14",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/HPND-sell-variant-critical-systems",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://gitlab.freedesktop.org/xorg/driver/xf86-video-voodoo/-/blob/68a5b6d98ae34749cca889f4373b4043d00bfe6a/src/voodoo_dga.c#L12-33" ],
+    "simplelicensing_licenseText" : "Alan Cox <alan@redhat.com>\nPermission to use, copy, modify, distribute, and sell this software and its\ndocumentation for any purpose is hereby granted without fee, provided that\nthe above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation, and that the names of Red Hat, Alan Cox and Henrik Harmsen\nnot be used in advertising or publicity pertaining to distribution of the\nsoftware without specific, written prior permission.  Th authors make no\nrepresentations about the suitability of this software for any purpose.\nIt is provided \"as is\" without express or implied warranty.\nTHE AUTHORS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE,\nINCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO\nEVENT SHALL RICHARD HECKER BE LIABLE FOR ANY SPECIAL, INDIRECT OR\nCONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE,\nDATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER\nTORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR\nPERFORMANCE OF THIS SOFTWARE.\n\nTHIS SOFTWARE IS NOT DESIGNED FOR USE IN SAFETY CRITICAL SYSTEMS OF\nANY KIND OR FORM.\n",
+    "name" : "HPND - sell variant with safety critical systems clause",
+    "comment" : "This license is a variant of HPND-sell-variant (https://spdx.org/licenses/HPND-sell-variant.html). It includes an informational tail about the use of the software in safety critical systems.",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"<copyright notice>  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the <<var;name=\"name\";original=\"name\";match=\"name|names\">><<beginOptional>> of<<endOptional>> <<var;name=\"copyrightHolder0\";original=\"<copyright holder>\";match=\".*\">> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. <<var;name=\"canonicalTypo0\";original=\"The\";match=\"The|Th\">> authors make no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\nTHE AUTHORS DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL <<var;name=\"copyrightHolder3\";original=\"<copyright holder>\";match=\".*\">> BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\nTHIS SOFTWARE IS NOT DESIGNED FOR USE IN SAFETY CRITICAL SYSTEMS OF ANY KIND OR FORM.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}
