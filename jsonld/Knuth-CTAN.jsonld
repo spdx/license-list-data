@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:b9d29770-97dc-41f3-b521-5dbdf6726830",
+            "@id": "http://spdx.org/licenses/Knuth-CTAN",
+            "@type": "spdx:ListedLicense",
+            "spdx:standardLicenseTemplate": "This software is copyrighted. Unlimited copying and redistribution of this package and/or its individual files are permitted as long as there are no modifications. Modifications, and redistribution of modifications, are also permitted, but only if the resulting package and/or files are renamed.\n\n",
+            "spdx:name": "Knuth CTAN License",
+            "spdx:licenseText": "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n",
+            "spdx:crossRef": {
+                "@id": "_:987a3418-7d3c-4fca-b758-a083868142a0"
+            },
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": "https://ctan.org/license/knuth",
+            "rdfs:comment": "This license is very similar to Wsuipa.",
+            "spdx:licenseTextHtml": "\n         <p>\n            This software is copyrighted. Unlimited copying and redistribution\n            of this package and/or its individual files are permitted\n            as long as there are no modifications. Modifications, and\n            redistribution of modifications, are also permitted, but\n            only if the resulting package and/or files are renamed.\n         </p>\n\n      "
+        },
+        {
+            "@id": "_:987a3418-7d3c-4fca-b758-a083868142a0",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://ctan.org/license/knuth",
-            "spdx:timestamp": "2026-01-22T17:07:58Z",
+            "spdx:timestamp": "2026-01-22T17:21:05Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Knuth-CTAN",
-            "@type": "spdx:ListedLicense",
-            "spdx:standardLicenseTemplate": "This software is copyrighted. Unlimited copying and redistribution of this package and/or its individual files are permitted as long as there are no modifications. Modifications, and redistribution of modifications, are also permitted, but only if the resulting package and/or files are renamed.\n\n",
-            "spdx:name": "Knuth CTAN License",
-            "spdx:licenseText": "This software is copyrighted. Unlimited copying and redistribution\nof this package and/or its individual files are permitted\nas long as there are no modifications. Modifications, and\nredistribution of modifications, are also permitted, but\nonly if the resulting package and/or files are renamed.\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "rdfs:seeAlso": "https://ctan.org/license/knuth",
-            "rdfs:comment": "This license is very similar to Wsuipa.",
-            "spdx:crossRef": {
-                "@id": "_:b9d29770-97dc-41f3-b521-5dbdf6726830"
-            },
-            "spdx:licenseTextHtml": "\n         <p>\n            This software is copyrighted. Unlimited copying and redistribution\n            of this package and/or its individual files are permitted\n            as long as there are no modifications. Modifications, and\n            redistribution of modifications, are also permitted, but\n            only if the resulting package and/or files are renamed.\n         </p>\n\n      "
         }
     ],
     "@context": {

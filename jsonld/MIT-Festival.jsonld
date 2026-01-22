@@ -1,48 +1,25 @@
 {
     "@graph": [
         {
-            "@id": "_:e1ee5355-ea59-4e5e-83d8-bfac180b2dd2",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/festvox/speech_tools/blob/master/COPYING",
-            "spdx:timestamp": "2026-01-22T17:05:14Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/MIT-Festival",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:e17a98b5-e4c3-4f26-9fff-12f2726f4fcc"
+                },
+                {
+                    "@id": "_:11647a58-e145-4175-8a95-b11a4528ff28"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/festvox/speech_tools/blob/master/COPYING",
                 "https://github.com/festvox/flite/blob/master/COPYING"
             ],
             "@type": "spdx:ListedLicense",
+            "spdx:name": "MIT Festival Variant",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:name": "MIT Festival Variant",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:e1ee5355-ea59-4e5e-83d8-bfac180b2dd2"
-                },
-                {
-                    "@id": "_:0fab934d-41e8-42ce-87b1-03529bac28a2"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -52,7 +29,7 @@
             "spdx:standardLicenseTemplate": "Permission is hereby granted, free of charge, to use and distribute this software and its documentation without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of this work, and to permit persons to whom this work is furnished to do so, subject to the following conditions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The code must retain the above copyright notice, this list of conditions and the following disclaimer.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Any modifications must be clearly marked as such.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> Original authors' names are not deleted.\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> The authors' names are not used to endorse or promote products derived from this software without specific prior written permission.\n<<var;name=\"institution\";original=\"THE UNIVERSITY OF EDINBURGH\";match=\"THE UNIVERSITY OF EDINBURGH|CARNEGIE MELLON UNIVERSITY\">> AND THE CONTRIBUTORS TO THIS WORK DISCLAIM ALL WARRANTIES WITH REGARD TO THIS SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS, IN NO EVENT SHALL THE UNIVERSITY OF EDINBURGH NOR THE CONTRIBUTORS BE LIABLE FOR ANY SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n"
         },
         {
-            "@id": "_:0fab934d-41e8-42ce-87b1-03529bac28a2",
+            "@id": "_:e17a98b5-e4c3-4f26-9fff-12f2726f4fcc",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,9 +43,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/festvox/flite/blob/master/COPYING",
-            "spdx:timestamp": "2026-01-22T17:05:14Z",
+            "spdx:timestamp": "2026-01-22T17:18:36Z",
             "spdx:order": {
                 "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:11647a58-e145-4175-8a95-b11a4528ff28",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/festvox/speech_tools/blob/master/COPYING",
+            "spdx:timestamp": "2026-01-22T17:18:36Z",
+            "spdx:order": {
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",

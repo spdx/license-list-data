@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:51817806-1910-4e0f-b1c4-39caa7c38155",
+            "@id": "_:38b16c3b-b26a-4c42-b446-55b7084feaa4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp",
-            "spdx:timestamp": "2026-01-22T17:05:54Z",
+            "spdx:timestamp": "2026-01-22T17:19:14Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:d1f40857-cdf0-47df-a56c-11e8c3541213",
+            "@id": "_:6d022f99-b131-441f-9617-e3a0c7c9cf47",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
-            "spdx:timestamp": "2026-01-22T17:05:54Z",
+            "spdx:timestamp": "2026-01-22T17:19:14Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +47,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:43c5e328-6e8a-4319-a077-5209e42b9cfd",
+            "@id": "_:926096e7-0b79-41ba-b791-5e42efcdbdb8",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +61,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
-            "spdx:timestamp": "2026-01-22T17:05:54Z",
+            "spdx:timestamp": "2026-01-22T17:19:15Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -71,6 +71,17 @@
         },
         {
             "@id": "http://spdx.org/licenses/SSH-short",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:6d022f99-b131-441f-9617-e3a0c7c9cf47"
+                },
+                {
+                    "@id": "_:926096e7-0b79-41ba-b791-5e42efcdbdb8"
+                },
+                {
+                    "@id": "_:38b16c3b-b26a-4c42-b446-55b7084feaa4"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -81,17 +92,6 @@
                 "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h"
             ],
             "spdx:name": "SSH short notice",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d1f40857-cdf0-47df-a56c-11e8c3541213"
-                },
-                {
-                    "@id": "_:51817806-1910-4e0f-b1c4-39caa7c38155"
-                },
-                {
-                    "@id": "_:43c5e328-6e8a-4319-a077-5209e42b9cfd"
-                }
-            ],
             "rdfs:comment": "This is short version of SSH-OpenSSH that appears in some files associated with the original SSH implementation.",
             "spdx:licenseTextHtml": "\n        <p>As far as I am concerned, the code I have written for this software\n        can be used freely for any purpose.  Any derived versions of this\n        software must be clearly marked as such, and if the derived work is\n        incompatible with the protocol description in the RFC file, it must be\n        called by a name other than &quot;ssh&quot; or &quot;Secure Shell&quot;.\n        </p>\n\n    ",
             "@type": "spdx:ListedLicense",

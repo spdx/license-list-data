@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 9528d67
+The following licenses have been generated from the license list version 96d985d
 
 ## Licenses with Short Identifiers
 
@@ -117,6 +117,7 @@ The following licenses have been generated from the license list version 9528d67
 | Cryptographic Autonomy License 1.0 (Combined Work Exception)                              | [CAL-1.0-Combined-Work-Exception][]      | Y    |           |
 | Caldera License                                                                           | [Caldera][]                              |      |           |
 | Caldera License (without preamble)                                                        | [Caldera-no-preamble][]                  |      |           |
+| Common Attack    Pattern Enumeration and Classification License                           | [CAPEC-tou][]                            |      |           |
 | Catharon License                                                                          | [Catharon][]                             |      |           |
 | Computer Associates Trusted Open Source License 1.1                                       | [CATOSL-1.1][]                           | Y    |           |
 | Creative Commons Attribution 1.0 Generic                                                  | [CC-BY-1.0][]                            |      |           |
@@ -542,6 +543,7 @@ The following licenses have been generated from the license list version 9528d67
 | Open Software License 3.0                                                                 | [OSL-3.0][]                              | Y    | Y         |
 | OSSP License                                                                              | [OSSP][]                                 |      |           |
 | PADL License                                                                              | [PADL][]                                 |      |           |
+| ParaType Free Font Licensing Agreement v1.3                                               | [ParaType-Free-Font-1.3][]               |      |           |
 | The Parity Public License 6.0.0                                                           | [Parity-6.0.0][]                         |      |           |
 | The Parity Public License 7.0.0                                                           | [Parity-7.0.0][]                         |      |           |
 | Open Data Commons Public Domain Dedication & License 1.0                                  | [PDDL-1.0][]                             |      |           |
@@ -936,6 +938,7 @@ The following licenses have been generated from the license list version 9528d67
 [CAL-1.0-Combined-Work-Exception]: text/CAL-1.0-Combined-Work-Exception.txt
 [Caldera]: text/Caldera.txt
 [Caldera-no-preamble]: text/Caldera-no-preamble.txt
+[CAPEC-tou]: text/CAPEC-tou.txt
 [Catharon]: text/Catharon.txt
 [CATOSL-1.1]: text/CATOSL-1.1.txt
 [CC-BY-1.0]: text/CC-BY-1.0.txt
@@ -1386,6 +1389,7 @@ The following licenses have been generated from the license list version 9528d67
 [OSL-3.0]: text/OSL-3.0.txt
 [OSSP]: text/OSSP.txt
 [PADL]: text/PADL.txt
+[ParaType-Free-Font-1.3]: text/ParaType-Free-Font-1.3.txt
 [Parity-6.0.0]: text/Parity-6.0.0.txt
 [Parity-7.0.0]: text/Parity-7.0.0.txt
 [PDDL-1.0]: text/PDDL-1.0.txt
