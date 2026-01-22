@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:79a363d6-901a-4401-b85e-0aeff7a4fb84",
+            "@id": "_:0dc0f2e7-036e-4ff7-be20-5c4af320fd3a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License",
-            "spdx:timestamp": "2026-01-22T14:29:04Z",
+            "spdx:timestamp": "2026-01-22T17:08:47Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:4442c0e7-790d-4dec-ab13-201b874d8653",
+            "@id": "_:3dceccac-d3b7-48b3-a6cf-c9dece505dd4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/release/KNOK/File-MMagic-1.30/source/COPYING#L28",
-            "spdx:timestamp": "2026-01-22T14:29:05Z",
+            "spdx:timestamp": "2026-01-22T17:08:48Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/Spencer-94",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:0dc0f2e7-036e-4ff7-be20-5c4af320fd3a"
+                },
+                {
+                    "@id": "_:3dceccac-d3b7-48b3-a6cf-c9dece505dd4"
+                }
+            ],
             "spdx:licenseText": "Copyright 1992, 1993, 1994 Henry Spencer.  All rights reserved.\nThis software is not subject to any license of the American Telephone and Telegraph Company or of the Regents of the University of California.\n\nPermission is granted to anyone to use this software for any purpose on any computer system, and to alter it and redistribute it, subject to the following restrictions:\n\n1. The author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from flaws in it.\n\n2. The origin of this software must not be misrepresented, either by explicit claim or by omission.  Since few users ever read sources, credits must appear in the documentation.\n\n3. Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.  Since few users ever read sources, credits must appear in the documentation.\n\n4. This notice may not be removed or altered.\n",
             "spdx:name": "Spencer License 94",
             "spdx:isOsiApproved": {
@@ -55,14 +63,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright YEAR NAME. All rights reserved. Written by NAME  \";match=\".{0,5000}\">>\nThis software is not subject to any license of the American Telephone and Telegraph Company or of the Regents of the University of California.\nPermission is granted to anyone to use this software for any purpose on any computer system, and to alter it and redistribute it<<beginOptional>> freely<<endOptional>> , subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from flaws in it.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> The origin of this software must not be misrepresented, either by explicit claim or by omission. Since few users ever read sources, credits must appear in the documentation.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> Altered versions must be plainly marked as such, and must not be misrepresented as being the original software. Since few users ever read sources, credits must appear in the documentation.\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> This notice may not be removed or altered.",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:4442c0e7-790d-4dec-ab13-201b874d8653"
-                },
-                {
-                    "@id": "_:79a363d6-901a-4401-b85e-0aeff7a4fb84"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://metacpan.org/release/KNOK/File-MMagic-1.30/source/COPYING#L28",
                 "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License"
