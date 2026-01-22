@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:7878d20c-c651-4433-970c-b1e31f1c2cac",
+            "@id": "_:5fe8c968-e4a6-497c-b1e5-318bf0d42a32",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c",
-            "spdx:timestamp": "2026-01-22T17:21:04Z",
+            "spdx:timestamp": "2026-01-22T20:51:47Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,35 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:bd9712f8-45bd-4ffd-8f37-baeec2fe6193",
+            "@id": "http://spdx.org/licenses/HPND-Markus-Kuhn",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": [
+                "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=readline/readline/support/wcwidth.c;h=0f5ec995796f4813abbcf4972aec0378ab74722a;hb=HEAD#l55",
+                "https://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c"
+            ],
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n\t <p>\n\t\tPermission to use, copy, modify, and distribute this software\n\t\tfor any purpose and without fee is hereby granted. The author\n\t\tdisclaims all warranties with regard to this software.\n         </p>\n\n      ",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:2034d46b-0f83-4970-91c2-32335cde43c9"
+                },
+                {
+                    "@id": "_:5fe8c968-e4a6-497c-b1e5-318bf0d42a32"
+                }
+            ],
+            "spdx:standardLicenseTemplate": "Permission to use, copy, modify, and distribute this software for any purpose and without fee is hereby granted. The author disclaims all warranties with regard to this software.\n\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:name": "Historical Permission Notice and Disclaimer - Markus Kuhn variant",
+            "spdx:licenseText": "Permission to use, copy, modify, and distribute this software\nfor any purpose and without fee is hereby granted. The author\ndisclaims all warranties with regard to this software.\n"
+        },
+        {
+            "@id": "_:2034d46b-0f83-4970-91c2-32335cde43c9",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,41 +66,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=readline/readline/support/wcwidth.c;h=0f5ec995796f4813abbcf4972aec0378ab74722a;hb=HEAD#l55",
-            "spdx:timestamp": "2026-01-22T17:21:04Z",
+            "spdx:timestamp": "2026-01-22T20:51:47Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/HPND-Markus-Kuhn",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:bd9712f8-45bd-4ffd-8f37-baeec2fe6193"
-                },
-                {
-                    "@id": "_:7878d20c-c651-4433-970c-b1e31f1c2cac"
-                }
-            ],
-            "rdfs:seeAlso": [
-                "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=readline/readline/support/wcwidth.c;h=0f5ec995796f4813abbcf4972aec0378ab74722a;hb=HEAD#l55",
-                "https://www.cl.cam.ac.uk/~mgk25/ucs/wcwidth.c"
-            ],
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n\t <p>\n\t\tPermission to use, copy, modify, and distribute this software\n\t\tfor any purpose and without fee is hereby granted. The author\n\t\tdisclaims all warranties with regard to this software.\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "Permission to use, copy, modify, and distribute this software for any purpose and without fee is hereby granted. The author disclaims all warranties with regard to this software.\n\n",
-            "@type": "spdx:ListedLicense",
-            "spdx:name": "Historical Permission Notice and Disclaimer - Markus Kuhn variant",
-            "spdx:licenseText": "Permission to use, copy, modify, and distribute this software\nfor any purpose and without fee is hereby granted. The author\ndisclaims all warranties with regard to this software.\n"
         }
     ],
     "@context": {

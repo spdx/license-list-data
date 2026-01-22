@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:ece36fe9-d854-408c-b319-c31cf251a51d",
+            "@id": "_:5c41b030-7321-40ac-9913-bdd5f27c2272",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
-            "spdx:timestamp": "2026-01-22T17:19:06Z",
+            "spdx:timestamp": "2026-01-22T20:48:50Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,24 +25,24 @@
         },
         {
             "@id": "http://spdx.org/licenses/Jam",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:5c41b030-7321-40ac-9913-bdd5f27c2272"
+                },
+                {
+                    "@id": "_:bc22dc14-f6db-489d-85be-d532989c9872"
+                }
+            ],
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.  \";match=\".{0,5000}\">>\nLicense is hereby granted to use this software and distribute it freely, as long as this copyright notice is retained and modifications are clearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n\n",
             "rdfs:seeAlso": [
                 "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
                 "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html"
             ],
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.  \";match=\".{0,5000}\">>\nLicense is hereby granted to use this software and distribute it freely, as long as this copyright notice is retained and modifications are clearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n\n",
             "@type": "spdx:ListedLicense",
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:a85c985c-e6b2-4d52-889f-d911a4886797"
-                },
-                {
-                    "@id": "_:ece36fe9-d854-408c-b319-c31cf251a51d"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -52,7 +52,7 @@
             "spdx:name": "Jam License"
         },
         {
-            "@id": "_:a85c985c-e6b2-4d52-889f-d911a4886797",
+            "@id": "_:bc22dc14-f6db-489d-85be-d532989c9872",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,7 +66,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
-            "spdx:timestamp": "2026-01-22T17:19:07Z",
+            "spdx:timestamp": "2026-01-22T20:48:50Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
