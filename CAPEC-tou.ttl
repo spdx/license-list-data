@@ -1,0 +1,24 @@
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
+
+<http://spdx.org/licenses/CAPEC-tou>
+        a                             spdx:ListedLicense;
+        rdfs:comment                  "";
+        rdfs:seeAlso                  "https://capec.mitre.org/about/termsofuse.html";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "true";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2026-01-22T17:22:35Z";
+                                        spdx:url            "https://capec.mitre.org/about/termsofuse.html"
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseText              "LICENSE\nThe MITRE Corporation (MITRE) hereby grants you a non-exclusive, royalty-free license to use Common Attack Pattern Enumeration and Classification (CAPEC™) for research, development, and commercial purposes. Any copy you make for such purposes is authorized provided that you reproduce MITRE’s copyright designation and this license in any such copy.\n\nDISCLAIMERS\n\nALL DOCUMENTS AND THE INFORMATION CONTAINED THEREIN ARE PROVIDED ON AN \"AS IS\" BASIS AND THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS OR IS SPONSORED BY (IF ANY), THE MITRE CORPORATION, ITS BOARD OF TRUSTEES, OFFICERS, AGENTS, AND EMPLOYEES, DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION THEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.\n\n";
+        spdx:licenseTextHtml          "\n         <p>\n            LICENSE The MITRE Corporation (MITRE) hereby grants you a\n            non-exclusive, royalty-free license to use Common Attack\n            Pattern Enumeration and Classification (CAPEC™) for research,\n            development, and commercial purposes. Any copy you make for\n            such purposes is authorized provided that you reproduce MITRE&apos;s\n            copyright designation and this license in any such copy.\n         </p>\n\n         <p>\n            DISCLAIMERS ALL DOCUMENTS AND THE INFORMATION CONTAINED THEREIN\n            ARE PROVIDED ON AN &quot;AS IS&quot; BASIS AND THE CONTRIBUTOR, THE\n            ORGANIZATION HE/SHE REPRESENTS OR IS SPONSORED BY (IF ANY),\n            THE MITRE CORPORATION, ITS BOARD OF TRUSTEES, OFFICERS, AGENTS,\n            AND EMPLOYEES, DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED,\n            INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE\n            INFORMATION THEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED\n            WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.\n         </p>\n\n      ";
+        spdx:name                     "Common Attack    Pattern Enumeration and Classification License";
+        spdx:standardLicenseTemplate  "LICENSE The MITRE Corporation (MITRE) hereby grants you a non-exclusive, royalty-free license to use Common Attack Pattern Enumeration and Classification (CAPEC™) for research, development, and commercial purposes. Any copy you make for such purposes is authorized provided that you reproduce MITRE's copyright designation and this license in any such copy.\n\nDISCLAIMERS ALL DOCUMENTS AND THE INFORMATION CONTAINED THEREIN ARE PROVIDED ON AN \"AS IS\" BASIS AND THE CONTRIBUTOR, THE ORGANIZATION HE/SHE REPRESENTS OR IS SPONSORED BY (IF ANY), THE MITRE CORPORATION, ITS BOARD OF TRUSTEES, OFFICERS, AGENTS, AND EMPLOYEES, DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTY THAT THE USE OF THE INFORMATION THEREIN WILL NOT INFRINGE ANY RIGHTS OR ANY IMPLIED WARRANTIES OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.\n\n" .
