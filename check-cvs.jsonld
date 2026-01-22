@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:d67955ad-9644-4a98-9d47-87222e7923c0",
+            "@id": "_:78334008-b53e-463e-9811-647244154772",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -11,20 +11,23 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2",
-            "spdx:timestamp": "2026-01-16T15:09:57Z",
+            "spdx:timestamp": "2026-01-22T12:15:36Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "false",
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/check-cvs",
+            "spdx:crossRef": {
+                "@id": "_:78334008-b53e-463e-9811-647244154772"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -38,11 +41,8 @@
             "spdx:licenseText": "Permission is granted to copy and/or distribute this file, with or\nwithout modifications, provided this notice is preserved.\n",
             "rdfs:seeAlso": "http://cvs.savannah.gnu.org/viewvc/cvs/ccvs/contrib/check_cvs.in?revision=1.1.4.3&view=markup&pathrev=cvs1-11-23#l2",
             "rdfs:comment": "This license is similar to FSFULLR.",
-            "spdx:crossRef": {
-                "@id": "_:d67955ad-9644-4a98-9d47-87222e7923c0"
-            },
-            "spdx:name": "check-cvs License",
-            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to copy and/or distribute this file, with\n            or without modifications, provided this notice is preserved.\n         </p>\n\n      "
+            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to copy and/or distribute this file, with\n            or without modifications, provided this notice is preserved.\n         </p>\n\n      ",
+            "spdx:name": "check-cvs License"
         }
     ],
     "@context": {
