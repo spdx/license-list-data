@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 615948e
+The following licenses have been generated from the license list version 92ed02e
 
 ## Licenses with Short Identifiers
 
@@ -440,6 +440,7 @@ The following licenses have been generated from the license list version 615948e
 | MIT Tom Wu Variant                                                                        | [MIT-Wu][]                               |      |           |
 | MIT +no-false-attribs license                                                             | [MITNFA][]                               |      |           |
 | MMIXware License                                                                          | [MMIXware][]                             |      |           |
+| Minecraft Mod Public License v1.0.1                                                       | [MMPL-1.0.1][]                           |      |           |
 | Motosoto License                                                                          | [Motosoto][]                             | Y    |           |
 | MPEG Software Simulation                                                                  | [MPEG-SSG][]                             |      |           |
 | mpi Permissive License                                                                    | [mpi-permissive][]                       |      |           |
@@ -1281,6 +1282,7 @@ The following licenses have been generated from the license list version 615948e
 [MIT-Wu]: text/MIT-Wu.txt
 [MITNFA]: text/MITNFA.txt
 [MMIXware]: text/MMIXware.txt
+[MMPL-1.0.1]: text/MMPL-1.0.1.txt
 [Motosoto]: text/Motosoto.txt
 [MPEG-SSG]: text/MPEG-SSG.txt
 [mpi-permissive]: text/mpi-permissive.txt
