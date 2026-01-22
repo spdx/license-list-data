@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:87f61c90-2755-47c3-9634-1388f9dc79f8",
+            "@id": "_:bf6c0124-24b7-4191-b19d-767b95ccea28",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://raw.githubusercontent.com/NTIA/scos-sensor/refs/heads/master/LICENSE.md",
-            "spdx:timestamp": "2026-01-22T17:18:27Z",
+            "spdx:timestamp": "2026-01-22T20:48:41Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:c87c72ed-8875-4f3b-b432-679872c11c4c",
+            "@id": "_:c0cf32e6-4b9f-4b50-b187-7b623994f1bd",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://raw.githubusercontent.com/NTIA/itm/refs/heads/master/LICENSE.md",
-            "spdx:timestamp": "2026-01-22T17:18:28Z",
+            "spdx:timestamp": "2026-01-22T20:48:42Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/NTIA-PD",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:bf6c0124-24b7-4191-b19d-767b95ccea28"
+                },
+                {
+                    "@id": "_:c0cf32e6-4b9f-4b50-b187-7b623994f1bd"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -60,14 +68,6 @@
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "The public domain dedication text is very similar to 'NIST-PD' but this license is for a different US federal org (NTIA) and adds a fall-back license grant.",
             "spdx:name": "NTIA Public Domain Notice",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:87f61c90-2755-47c3-9634-1388f9dc79f8"
-                },
-                {
-                    "@id": "_:c87c72ed-8875-4f3b-b432-679872c11c4c"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

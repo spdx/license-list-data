@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:8bd13092-324c-44a9-a549-49b759cce6c0",
+            "@id": "_:0cd11f9a-b742-4c3b-932d-91f9cd179b9a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.wtfpl.net/about/",
-            "spdx:timestamp": "2026-01-22T17:21:15Z",
+            "spdx:timestamp": "2026-01-22T20:52:07Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,40 +24,17 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:0a706aef-92b5-4e27-90bf-341e6ac9ba05",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://sam.zoy.org/wtfpl/COPYING",
-            "spdx:timestamp": "2026-01-22T17:21:17Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/WTFPL",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8bd13092-324c-44a9-a549-49b759cce6c0"
-                },
-                {
-                    "@id": "_:0a706aef-92b5-4e27-90bf-341e6ac9ba05"
-                }
-            ],
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n        <br />\nVersion 2, December 2004\n      </p>\n\n      </div>\n      <p>Copyright (C) 2004 Sam Hocevar &lt;sam@hocevar.net&gt;</p>\n\n      <p>Everyone is permitted to copy and distribute verbatim or modified copies of this license document, and\n         changing it is allowed as long as the name is changed.</p>\n\n      <p>DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\n        <br />\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n      </p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 0.</span></var>\n          You just DO WHAT THE FUCK YOU WANT TO.\n        </li>\n      \n</ul>\n    ",
             "spdx:standardLicenseTemplate": "<<beginOptional>>DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nVersion 2, December 2004\n\n<<endOptional>>\nCopyright (C) 2004 Sam Hocevar <sam@hocevar.net>\n\nEveryone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.\n\nDO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n   <<var;name=\"bullet\";original=\"0.\";match=\".{0,20}\">> You just DO WHAT THE FUCK YOU WANT TO.",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:0cd11f9a-b742-4c3b-932d-91f9cd179b9a"
+                },
+                {
+                    "@id": "_:44996dec-cadb-4053-a2bf-ae1302395524"
+                }
+            ],
             "spdx:licenseText": "DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nVersion 2, December 2004\n\nCopyright (C) 2004 Sam Hocevar <sam@hocevar.net>\n\nEveryone is permitted to copy and distribute verbatim or modified copies of this license document, and changing it is allowed as long as the name is changed.\n\nDO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE\nTERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION\n\n  0. You just DO WHAT THE FUCK YOU WANT TO.\n",
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
@@ -77,6 +54,29 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
+        },
+        {
+            "@id": "_:44996dec-cadb-4053-a2bf-ae1302395524",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://sam.zoy.org/wtfpl/COPYING",
+            "spdx:timestamp": "2026-01-22T20:52:08Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
