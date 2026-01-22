@@ -1,20 +1,35 @@
 {
     "@graph": [
         {
+            "@id": "_:e9e4c95b-f416-4c79-9f88-8c1de0b26fc8",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/licenses/OFL-1.1",
+            "spdx:timestamp": "2026-01-22T17:08:11Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/OFL-1.1",
             "spdx:name": "SIL Open Font License 1.1",
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:066a4d33-fe38-4c66-9027-fbecd1ca91ff"
-                },
-                {
-                    "@id": "_:9c8121c9-e795-4dde-b8b2-c51a19e8425f"
-                }
-            ],
             "rdfs:comment": "This license was released 26 February 2007. The identifier OFL-1.1 can be used to indicate that version 1.1 of the SIL Open Font License applies, without asserting whether or not a Reserved Font Name is used. See OFL-1.1-RFN and OFL-1.1-no-RFN for alternative identifiers that can be used to express explicitly that a Reserved Font Name is used or is not used, respectively.",
             "rdfs:seeAlso": [
                 "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web",
@@ -31,10 +46,18 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:e9e4c95b-f416-4c79-9f88-8c1de0b26fc8"
+                },
+                {
+                    "@id": "_:ab27b6f7-bbe9-4cbd-86f9-fbaa8475d8d6"
+                }
+            ],
             "@type": "spdx:ListedLicense"
         },
         {
-            "@id": "_:066a4d33-fe38-4c66-9027-fbecd1ca91ff",
+            "@id": "_:ab27b6f7-bbe9-4cbd-86f9-fbaa8475d8d6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -48,35 +71,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://scripts.sil.org/cms/scripts/page.php?item_id=OFL_web",
-            "spdx:timestamp": "2026-01-22T14:28:17Z",
+            "spdx:timestamp": "2026-01-22T17:08:10Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:9c8121c9-e795-4dde-b8b2-c51a19e8425f",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/licenses/OFL-1.1",
-            "spdx:timestamp": "2026-01-22T14:28:17Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

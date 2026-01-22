@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:d2adbccf-11b1-4f0a-b7ff-77a99e453658",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
-            "spdx:timestamp": "2026-01-22T14:25:54Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:70e98424-12ac-4ecc-be8f-20dc86370bf6",
+            "@id": "_:0336194a-e4d8-4082-9fa3-c9b3b33a4408",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,12 +15,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.ietf.org/rfc/rfc1952.txt",
-            "spdx:timestamp": "2026-01-22T14:25:54Z",
+            "spdx:timestamp": "2026-01-22T17:06:09Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:df3d3e39-bbf5-4b77-ba22-c2ce14babf11",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
+            "spdx:timestamp": "2026-01-22T17:06:09Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
@@ -53,18 +53,18 @@
                 "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
                 "https://www.ietf.org/rfc/rfc1952.txt"
             ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:df3d3e39-bbf5-4b77-ba22-c2ce14babf11"
+                },
+                {
+                    "@id": "_:0336194a-e4d8-4082-9fa3-c9b3b33a4408"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d2adbccf-11b1-4f0a-b7ff-77a99e453658"
-                },
-                {
-                    "@id": "_:70e98424-12ac-4ecc-be8f-20dc86370bf6"
-                }
-            ],
             "@type": "spdx:ListedLicense",
             "spdx:name": "LPD Documentation License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) Yann Collet  \";match=\".{0,5000}\">>\nPermission is granted to copy and distribute this document for any purpose and without charge, including translations into other languages and incorporation into compilations, provided that the copyright notice and this notice are preserved, and that any substantive changes or deletions from the original are clearly marked.<<beginOptional>> Distribution of this document is unlimited.<<endOptional>>\n\n",

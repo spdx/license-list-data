@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:afdc8e17-010b-416d-a0e6-a7232d14590b",
+            "@id": "_:0e0a26ad-1e98-499b-a48d-91ea67dae35d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.com/agmartin/linuxdoc-tools/-/blob/master/iso-entities/COPYING?ref_type=heads",
-            "spdx:timestamp": "2026-01-22T14:26:35Z",
+            "spdx:timestamp": "2026-01-22T17:06:50Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:5de333c8-4001-4483-9f2c-b974a1d3ccf1",
+            "@id": "_:a8f1ee7e-424b-48ec-a3b5-0c494b9a168d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.itu.int/ITU-T/formal-language/itu-t/t/t173/1997/ISOMHEG-sir.html",
-            "spdx:timestamp": "2026-01-22T14:26:34Z",
+            "spdx:timestamp": "2026-01-22T17:06:50Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/ISO-permission",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:0e0a26ad-1e98-499b-a48d-91ea67dae35d"
+                },
+                {
+                    "@id": "_:a8f1ee7e-424b-48ec-a3b5-0c494b9a168d"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -62,14 +70,6 @@
             "spdx:licenseText": "(C) International Organization for Standardization 1986\nPermission to copy in any form is granted for use with\nconforming SGML systems and applications as defined \nin ISO 8879, provided this notice is included in all copies.\n",
             "@type": "spdx:ListedLicense",
             "spdx:name": "ISO permission notice",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:afdc8e17-010b-416d-a0e6-a7232d14590b"
-                },
-                {
-                    "@id": "_:5de333c8-4001-4483-9f2c-b974a1d3ccf1"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

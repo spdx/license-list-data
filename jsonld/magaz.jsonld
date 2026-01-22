@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:0647f151-faa4-4f38-ac51-eea9472dedbb",
+            "@id": "_:dc47a51a-51ab-4d61-be31-1593cc11a863",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty",
+            "spdx:timestamp": "2026-01-22T17:05:48Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:d7154f2d-70cf-4952-88fd-1fdbb1773059",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex",
-            "spdx:timestamp": "2026-01-22T14:25:57Z",
+            "spdx:timestamp": "2026-01-22T17:05:43Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/magaz",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:dc47a51a-51ab-4d61-be31-1593cc11a863"
+                },
+                {
+                    "@id": "_:d7154f2d-70cf-4952-88fd-1fdbb1773059"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex",
                 "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty"
@@ -42,38 +73,7 @@
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1999-2011, Donald Arseneau, asnd@triumf.ca, Vancouver, Canada\";match=\".{0,5000}\">>\n<<var;name=\"software\";original=\"software\";match=\"This software|These macros\">> may be freely used, transmitted, reproduced, or modified provided that the copyright notice and this permission is retained.\n\n",
             "spdx:name": "magaz License",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:af196a92-0959-44fb-92ea-54095a970ef0"
-                },
-                {
-                    "@id": "_:0647f151-faa4-4f38-ac51-eea9472dedbb"
-                }
-            ],
             "rdfs:comment": "This license is a very similar to ulem and fwlw, but has slightly different obligations."
-        },
-        {
-            "@id": "_:af196a92-0959-44fb-92ea-54095a970ef0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty",
-            "spdx:timestamp": "2026-01-22T14:26:08Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

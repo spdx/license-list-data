@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:f083d918-ab1b-4843-9c68-3f7a8d12282c",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63",
-            "spdx:timestamp": "2026-01-22T14:25:55Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:93eb0ea5-547c-4f64-bb31-1bfd033c3e3a",
+            "@id": "_:9f7d86b5-6934-4137-a977-21dcb864929a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD",
-            "spdx:timestamp": "2026-01-22T14:25:55Z",
+            "spdx:timestamp": "2026-01-22T17:06:12Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,19 +25,19 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-4.3RENO",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:38c269db-94f9-4f19-a8c1-8ac094c5c76a"
+                },
+                {
+                    "@id": "_:9f7d86b5-6934-4137-a977-21dcb864929a"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:f083d918-ab1b-4843-9c68-3f7a8d12282c"
-                },
-                {
-                    "@id": "_:93eb0ea5-547c-4f64-bb31-1bfd033c3e3a"
-                }
-            ],
             "spdx:licenseText": "Copyright (c) 1987 Regents of the University of California.\nAll rights reserved.\n\nRedistribution and use in source and binary forms are permitted\nprovided that this notice is preserved and that due credit is given\nto the University of California at Berkeley. The name of the University\nmay not be used to endorse or promote products derived from this\nsoftware without specific written prior permission. This software\nis provided ``as is'' without express or implied warranty.\n",
             "spdx:name": "BSD 4.3 RENO License",
             "rdfs:seeAlso": [
@@ -73,6 +50,29 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
+        },
+        {
+            "@id": "_:38c269db-94f9-4f19-a8c1-8ac094c5c76a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63",
+            "spdx:timestamp": "2026-01-22T17:06:11Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
