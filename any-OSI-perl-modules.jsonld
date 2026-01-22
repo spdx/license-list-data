@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:dc49ae0f-8b92-4232-864c-759683475b74",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE",
-            "spdx:timestamp": "2026-01-22T12:17:09Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:d18c397f-2f4d-4486-a224-9173a2253a6f",
+            "@id": "_:ba36878e-9423-4a3b-8e47-b56979dfc283",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/pod/Net::MQTT::Simple#LICENSE",
-            "spdx:timestamp": "2026-01-22T12:17:09Z",
+            "spdx:timestamp": "2026-01-22T14:27:48Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:8db2b6b2-6896-4e51-8e43-c0b3db7481e6",
+            "@id": "_:4ae08252-02ff-4502-ab44-199bdb76af2a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE",
-            "spdx:timestamp": "2026-01-22T12:17:09Z",
+            "spdx:timestamp": "2026-01-22T14:27:48Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -72,6 +49,17 @@
         {
             "@id": "http://spdx.org/licenses/any-OSI-perl-modules",
             "spdx:standardLicenseTemplate": "This software may be redistributed under the terms of the GPL, LGPL, modified BSD, or Artistic license, or any of the other OSI approved licenses listed at http://www.opensource.org/licenses/alphabetical. Distribution is allowed under all of these licenses, or any smaller subset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see under which license terms it was distributed. Alternatively, a distributor may choose to replace the LICENSE section of the documentation and/or include a LICENSE file to reflect the license(s) they chose to redistribute under.\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:8c70397b-ec6d-4a9b-b9c3-7dbed36009b5"
+                },
+                {
+                    "@id": "_:4ae08252-02ff-4502-ab44-199bdb76af2a"
+                },
+                {
+                    "@id": "_:ba36878e-9423-4a3b-8e47-b56979dfc283"
+                }
+            ],
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
                 "https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE",
@@ -82,17 +70,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8db2b6b2-6896-4e51-8e43-c0b3db7481e6"
-                },
-                {
-                    "@id": "_:dc49ae0f-8b92-4232-864c-759683475b74"
-                },
-                {
-                    "@id": "_:d18c397f-2f4d-4486-a224-9173a2253a6f"
-                }
-            ],
             "spdx:licenseTextHtml": "\n         <p>\n            This software may be redistributed under the terms of the GPL, LGPL,\n            modified BSD, or Artistic license, or any of the other OSI approved\n            licenses listed at http://www.opensource.org/licenses/alphabetical.\n            Distribution is allowed under all of these licenses, or any smaller\n            subset of multiple or just one of these licenses.\n         </p>\n\n         <p>\n            When using a packaged version, please refer to the package metadata to see\n            under which license terms it was distributed. Alternatively, a distributor\n            may choose to replace the LICENSE section of the documentation and/or\n            include a LICENSE file to reflect the license(s) they chose to redistribute\n            under.\n         </p>\n\n      ",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -101,6 +78,29 @@
             "spdx:name": "Any OSI License - Perl Modules",
             "spdx:licenseText": "This software may be redistributed under the terms of the GPL, LGPL,\nmodified BSD, or Artistic license, or any of the other OSI approved\nlicenses listed at http://www.opensource.org/licenses/alphabetical.\nDistribution is allowed under all of these licenses, or any smaller\nsubset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see\nunder which license terms it was distributed. Alternatively, a distributor\nmay choose to replace the LICENSE section of the documentation and/or\ninclude a LICENSE file to reflect the license(s) they chose to redistribute\nunder.\n",
             "rdfs:comment": "This is similar in spirit to any-OSI, but has some more specific text. It is used in several Perl modules."
+        },
+        {
+            "@id": "_:8c70397b-ec6d-4a9b-b9c3-7dbed36009b5",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE",
+            "spdx:timestamp": "2026-01-22T14:27:48Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
