@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version aee8c14
+The following licenses have been generated from the license list version 615948e
 
 ## Licenses with Short Identifiers
 
@@ -525,6 +525,7 @@ The following licenses have been generated from the license list version aee8c14
 | Open LDAP Public License v2.8                                                             | [OLDAP-2.8][]                            | Y    |           |
 | Open Logistics Foundation License Version 1.3                                             | [OLFL-1.3][]                             | Y    |           |
 | Open Market License                                                                       | [OML][]                                  |      |           |
+| OpenMDW License Agreement v1.0                                                            | [OpenMDW-1.0][]                          |      |           |
 | OpenPBS v2.3 Software License                                                             | [OpenPBS-2.3][]                          |      |           |
 | OpenSSL License                                                                           | [OpenSSL][]                              |      | Y         |
 | OpenSSL License - standalone                                                              | [OpenSSL-standalone][]                   |      |           |
@@ -1367,6 +1368,7 @@ The following licenses have been generated from the license list version aee8c14
 [OLDAP-2.8]: text/OLDAP-2.8.txt
 [OLFL-1.3]: text/OLFL-1.3.txt
 [OML]: text/OML.txt
+[OpenMDW-1.0]: text/OpenMDW-1.0.txt
 [OpenPBS-2.3]: text/OpenPBS-2.3.txt
 [OpenSSL]: text/OpenSSL.txt
 [OpenSSL-standalone]: text/OpenSSL-standalone.txt

@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:d12ba212-23c9-4faf-bfca-159ded09e904",
+            "@id": "_:b0faf1e8-acdf-436b-ac78-c13c95b6b7e7",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/gabegundy/atlserver/blob/master/License.txt",
-            "spdx:timestamp": "2026-01-16T15:10:39Z",
+            "spdx:timestamp": "2026-01-22T12:15:47Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,30 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b5c73ec4-ffdd-4ced-b7c9-3caf84dabb07",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.openhub.net/licenses/mslpl",
-            "spdx:timestamp": "2026-01-16T15:10:39Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:4228bafd-1d86-44ac-acf3-67d44a0ebb4f",
+            "@id": "_:ed9907e3-7826-407f-8d26-db513a54f152",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)",
-            "spdx:timestamp": "2026-01-16T15:10:40Z",
+            "spdx:timestamp": "2026-01-22T12:15:48Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,7 +47,41 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:0e96632f-d5ac-44dd-83a0-cd1a2aed310b",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.openhub.net/licenses/mslpl",
+            "spdx:timestamp": "2026-01-22T12:15:48Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/MS-LPL",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:ed9907e3-7826-407f-8d26-db513a54f152"
+                },
+                {
+                    "@id": "_:0e96632f-d5ac-44dd-83a0-cd1a2aed310b"
+                },
+                {
+                    "@id": "_:b0faf1e8-acdf-436b-ac78-c13c95b6b7e7"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://en.wikipedia.org/wiki/Shared_Source_Initiative#Microsoft_Limited_Public_License_(Ms-LPL)",
                 "https://github.com/gabegundy/atlserver/blob/master/License.txt",
@@ -82,17 +93,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d12ba212-23c9-4faf-bfca-159ded09e904"
-                },
-                {
-                    "@id": "_:b5c73ec4-ffdd-4ced-b7c9-3caf84dabb07"
-                },
-                {
-                    "@id": "_:4228bafd-1d86-44ac-acf3-67d44a0ebb4f"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
