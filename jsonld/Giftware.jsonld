@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:e2869e57-0778-49b1-8193-ab25a4a732bd",
+            "@id": "_:113a7bd1-641d-4a8f-9d25-1bde35ffb464",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://liballeg.org/license.html#allegro-4-the-giftware-license",
-            "spdx:timestamp": "2026-01-29T14:39:45Z",
+            "spdx:timestamp": "2026-01-29T19:52:51Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/Giftware",
+            "spdx:crossRef": {
+                "@id": "_:113a7bd1-641d-4a8f-9d25-1bde35ffb464"
+            },
             "spdx:name": "Giftware License",
             "rdfs:comment": "This license may also be known as Allegro 4. The Allegro 5 license shown at the alleg.sourceforge.net URL is the same as zlib",
             "rdfs:seeAlso": "http://liballeg.org/license.html#allegro-4-the-giftware-license",
@@ -38,9 +41,6 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:e2869e57-0778-49b1-8193-ab25a4a732bd"
             },
             "@type": "spdx:ListedLicense"
         }

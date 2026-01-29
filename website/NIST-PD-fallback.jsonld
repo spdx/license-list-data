@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:75ca45b4-d945-4ef5-8d84-bdd4c234d16b",
+            "@id": "_:1e4079d7-f40d-4e39-98ee-2434d7be7dc2",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/usnistgov/jsip/blob/59700e6926cbe96c5cdae897d9a7d2656b42abe3/LICENSE",
-            "spdx:timestamp": "2026-01-29T14:37:22Z",
+            "spdx:timestamp": "2026-01-29T19:50:36Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,38 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:ede7a06f-0683-474b-9946-41d8dd1d23d3",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/usnistgov/fipy/blob/86aaa5c2ba2c6f1be19593c5986071cf6568cc34/LICENSE.rst",
+            "spdx:timestamp": "2026-01-29T19:50:37Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/NIST-PD-fallback",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:1e4079d7-f40d-4e39-98ee-2434d7be7dc2"
+                },
+                {
+                    "@id": "_:ede7a06f-0683-474b-9946-41d8dd1d23d3"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/usnistgov/fipy/blob/86aaa5c2ba2c6f1be19593c5986071cf6568cc34/LICENSE.rst",
                 "https://github.com/usnistgov/jsip/blob/59700e6926cbe96c5cdae897d9a7d2656b42abe3/LICENSE"
@@ -41,38 +72,7 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:a7b05c52-6dc9-4bcf-bcdc-55ae34638886"
-                },
-                {
-                    "@id": "_:75ca45b4-d945-4ef5-8d84-bdd4c234d16b"
-                }
-            ]
-        },
-        {
-            "@id": "_:a7b05c52-6dc9-4bcf-bcdc-55ae34638886",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/usnistgov/fipy/blob/86aaa5c2ba2c6f1be19593c5986071cf6568cc34/LICENSE.rst",
-            "spdx:timestamp": "2026-01-29T14:37:22Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
+            }
         }
     ],
     "@context": {
