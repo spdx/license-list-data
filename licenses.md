@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version d34325e
+The following licenses have been generated from the license list version d3a802c
 
 ## Licenses with Short Identifiers
 
@@ -657,6 +657,7 @@ The following licenses have been generated from the license list version d34325e
 | Universal Permissive License v1.0                                                         | [UPL-1.0][]                              | Y    | Y         |
 | Utah Raster Toolkit Run Length Encoded License                                            | [URT-RLE][]                              |      |           |
 | Vim License                                                                               | [Vim][]                                  |      | Y         |
+| Vixie Cron License                                                                        | [Vixie-Cron][]                           |      |           |
 | VOSTROM Public License for Open Source                                                    | [VOSTROM][]                              |      |           |
 | Vovida Software License v1.0                                                              | [VSL-1.0][]                              | Y    |           |
 | W3C Software Notice and License (2002-12-31)                                              | [W3C][]                                  | Y    | Y         |
@@ -1504,6 +1505,7 @@ The following licenses have been generated from the license list version d34325e
 [UPL-1.0]: text/UPL-1.0.txt
 [URT-RLE]: text/URT-RLE.txt
 [Vim]: text/Vim.txt
+[Vixie-Cron]: text/Vixie-Cron.txt
 [VOSTROM]: text/VOSTROM.txt
 [VSL-1.0]: text/VSL-1.0.txt
 [W3C]: text/W3C.txt
