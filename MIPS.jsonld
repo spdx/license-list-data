@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:a884c74d-27a2-44bd-b408-0a6c1fc9d32d",
+            "@id": "http://spdx.org/licenses/MIPS",
+            "spdx:crossRef": {
+                "@id": "_:ebb21795-a6c1-4f72-8528-567248e276b4"
+            },
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\";match=\".{0,5000}\">> MIPS Computer Systems, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.\n\n",
+            "rdfs:seeAlso": "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11",
+            "spdx:licenseText": "Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\nMIPS Computer Systems, Inc. grants reproduction and use\nrights to all parties, PROVIDED that this comment is\nmaintained in the copy.\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:comment": "This is shorter version of ThirdEye license.",
+            "@type": "spdx:ListedLicense",
+            "spdx:name": "MIPS License",
+            "spdx:licenseTextHtml": "\n         <p>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\n            </span></var>\n            MIPS Computer Systems, Inc. grants reproduction and use\n            rights to all parties, PROVIDED that this comment is\n            maintained in the copy.\n         </p>\n\n      "
+        },
+        {
+            "@id": "_:ebb21795-a6c1-4f72-8528-567248e276b4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11",
-            "spdx:timestamp": "2026-01-22T20:48:48Z",
+            "spdx:timestamp": "2026-01-29T14:37:07Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/MIPS",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\";match=\".{0,5000}\">> MIPS Computer Systems, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.\n\n",
-            "rdfs:seeAlso": "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11",
-            "spdx:licenseText": "Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\nMIPS Computer Systems, Inc. grants reproduction and use\nrights to all parties, PROVIDED that this comment is\nmaintained in the copy.\n",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "rdfs:comment": "This is shorter version of ThirdEye license.",
-            "spdx:crossRef": {
-                "@id": "_:a884c74d-27a2-44bd-b408-0a6c1fc9d32d"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:name": "MIPS License",
-            "spdx:licenseTextHtml": "\n         <p>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\n            </span></var>\n            MIPS Computer Systems, Inc. grants reproduction and use\n            rights to all parties, PROVIDED that this comment is\n            maintained in the copy.\n         </p>\n\n      "
         }
     ],
     "@context": {

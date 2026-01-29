@@ -1,58 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:5c41b030-7321-40ac-9913-bdd5f27c2272",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
-            "spdx:timestamp": "2026-01-22T20:48:50Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Jam",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:5c41b030-7321-40ac-9913-bdd5f27c2272"
-                },
-                {
-                    "@id": "_:bc22dc14-f6db-489d-85be-d532989c9872"
-                }
-            ],
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.  \";match=\".{0,5000}\">>\nLicense is hereby granted to use this software and distribute it freely, as long as this copyright notice is retained and modifications are clearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n\n",
-            "rdfs:seeAlso": [
-                "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
-                "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html"
-            ],
-            "@type": "spdx:ListedLicense",
-            "spdx:isOsiApproved": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n        <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n\t    <p>Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.</p>\n\n        </span></div>\n\n\t<p>\n            License is hereby granted to use this software and distribute it\n            freely, as long as this copyright notice is retained and modifications\n            are clearly marked.\n\t</p>\n\n\t<p>\n            ALL WARRANTIES ARE HEREBY DISCLAIMED.\n\t</p>\n\n    ",
-            "spdx:licenseText": "License is hereby granted to use this software and distribute it freely,\nas long as this copyright notice is retained and modifications are\nclearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n",
-            "spdx:name": "Jam License"
-        },
-        {
-            "@id": "_:bc22dc14-f6db-489d-85be-d532989c9872",
+            "@id": "_:6b39864f-b485-43ca-8542-059e0c51f17c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +15,63 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
-            "spdx:timestamp": "2026-01-22T20:48:50Z",
+            "spdx:timestamp": "2026-01-29T14:37:09Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/Jam",
+            "rdfs:seeAlso": [
+                "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
+                "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html"
+            ],
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.  \";match=\".{0,5000}\">>\nLicense is hereby granted to use this software and distribute it freely, as long as this copyright notice is retained and modifications are clearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n\n",
+            "@type": "spdx:ListedLicense",
+            "spdx:isOsiApproved": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:6b39864f-b485-43ca-8542-059e0c51f17c"
+                },
+                {
+                    "@id": "_:3f3bce7f-c9d3-4b88-b153-40bd95c86219"
+                }
+            ],
+            "spdx:licenseTextHtml": "\n        <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n\t    <p>Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.</p>\n\n        </span></div>\n\n\t<p>\n            License is hereby granted to use this software and distribute it\n            freely, as long as this copyright notice is retained and modifications\n            are clearly marked.\n\t</p>\n\n\t<p>\n            ALL WARRANTIES ARE HEREBY DISCLAIMED.\n\t</p>\n\n    ",
+            "spdx:licenseText": "License is hereby granted to use this software and distribute it freely,\nas long as this copyright notice is retained and modifications are\nclearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n",
+            "spdx:name": "Jam License"
+        },
+        {
+            "@id": "_:3f3bce7f-c9d3-4b88-b153-40bd95c86219",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
+            "spdx:timestamp": "2026-01-29T14:37:09Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],
