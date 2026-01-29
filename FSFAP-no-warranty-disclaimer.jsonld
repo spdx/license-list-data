@@ -1,11 +1,34 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/FSFAP-no-warranty-disclaimer",
-            "spdx:crossRef": {
-                "@id": "_:3eee96fd-80e3-4a14-9af6-b1ba3ff8872a"
+            "@id": "_:eff3ad27-5cf6-49d9-8f15-91b3d0e41302",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://git.savannah.gnu.org/cgit/wget.git/tree/util/trunc.c?h=v1.21.3&id=40747a11e44ced5a8ac628a41f879ced3e2ebce9#n6",
+            "spdx:timestamp": "2026-01-29T19:50:38Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/FSFAP-no-warranty-disclaimer",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:eff3ad27-5cf6-49d9-8f15-91b3d0e41302"
+            },
             "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/wget.git/tree/util/trunc.c?h=v1.21.3&id=40747a11e44ced5a8ac628a41f879ced3e2ebce9#n6",
             "spdx:licenseTextHtml": "\n                        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                                Copyright (C) 2008 Micah J. Cowan\n                        </span></var>\n                        <p>\n                                Copying and distribution of this\n                                file, with or without\n                                modification, are permitted in\n                                any medium without royalty\n                                provided the copyright\n                                notice and this notice are\n                                preserved.\n                        </p>\n\n                ",
             "rdfs:comment": "This license is identical to FSFAP except it omits the no-warranty sentence at the end.",
@@ -20,29 +43,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "FSF All Permissive License (without Warranty)"
-        },
-        {
-            "@id": "_:3eee96fd-80e3-4a14-9af6-b1ba3ff8872a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://git.savannah.gnu.org/cgit/wget.git/tree/util/trunc.c?h=v1.21.3&id=40747a11e44ced5a8ac628a41f879ced3e2ebce9#n6",
-            "spdx:timestamp": "2026-01-29T14:37:24Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
