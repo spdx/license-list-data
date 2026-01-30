@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:75b2f8b6-7d70-48ce-8a21-1020f9757785",
+            "@id": "_:dd6bfc02-8605-4f52-b4dc-4f8d5da2447f",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
-            "spdx:timestamp": "2026-01-29T19:52:48Z",
+            "spdx:timestamp": "2026-01-30T09:04:25Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:49a88057-44c7-4093-a2b6-a14270312ecf",
+            "@id": "_:783c9a42-40d0-4ebc-8bf0-3f211df1dccd",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
-            "spdx:timestamp": "2026-01-29T19:52:48Z",
+            "spdx:timestamp": "2026-01-30T09:04:25Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +47,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:d9973141-7630-4a0a-8fb5-cbcf9afe4c4e",
+            "@id": "_:e953dfb3-2137-4e87-9f4c-601e51c65f89",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +61,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
-            "spdx:timestamp": "2026-01-29T19:52:50Z",
+            "spdx:timestamp": "2026-01-30T09:04:26Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -71,6 +71,17 @@
         },
         {
             "@id": "http://spdx.org/licenses/Cornell-Lossless-JPEG",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:783c9a42-40d0-4ebc-8bf0-3f211df1dccd"
+                },
+                {
+                    "@id": "_:dd6bfc02-8605-4f52-b4dc-4f8d5da2447f"
+                },
+                {
+                    "@id": "_:e953dfb3-2137-4e87-9f4c-601e51c65f89"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
                 "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
@@ -87,17 +98,6 @@
             "spdx:name": "Cornell Lossless JPEG License",
             "@type": "spdx:ListedLicense",
             "spdx:licenseText": "Copyright (c) 1993 Cornell University, Kongji Huang\nAll rights reserved.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose, without fee, and without written\nagreement is hereby granted, provided that the above copyright notice\nand the following two paragraphs appear in all copies of this\nsoftware.\n\nIN NO EVENT SHALL THE CORNELL UNIVERSITY BE LIABLE TO ANY PARTY FOR\nDIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING\nOUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF CORNELL\nUNIVERSITY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nTHE CORNELL UNIVERSITY SPECIFICALLY DISCLAIMS ANY WARRANTIES,\nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE\nPROVIDED HEREUNDER IS ON AN \"AS IS\" BASIS, AND CORNELL UNIVERSITY HAS\nNO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS,\nOR MODIFICATIONS.\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:49a88057-44c7-4093-a2b6-a14270312ecf"
-                },
-                {
-                    "@id": "_:75b2f8b6-7d70-48ce-8a21-1020f9757785"
-                },
-                {
-                    "@id": "_:d9973141-7630-4a0a-8fb5-cbcf9afe4c4e"
-                }
-            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1993 Cornell University, Kongji Huang All rights reserved.\";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, and without written agreement is hereby granted, provided that the above copyright notice and the following two paragraphs appear in all copies of this software.\n\nIN NO EVENT SHALL <<var;name=\"disclaimer1\";original=\"THE CORNELL UNIVERSITY\";match=\".+\">> BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF <<var;name=\"disclaimer2\";original=\"CORNELL UNIVERSITY\";match=\".+\">> HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n<<var;name=\"disclaimer3\";original=\"THE CORNELL UNIVERSITY\";match=\".+\">> SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN \"AS IS\" BASIS, AND <<var;name=\"disclaimer4\";original=\"CORNELL UNIVERSITY\";match=\".+\">> HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n\n",
             "spdx:licenseTextHtml": "\n\t\t<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n\t\t\tCopyright (c) 1993 Cornell University, Kongji Huang<br />\n\n\t\t\tAll rights reserved.\n\t\t</span></var>\n\n\t\t<p>Permission to use, copy, modify, and distribute this software and its\n\t\tdocumentation for any purpose, without fee, and without written\n\t\tagreement is hereby granted, provided that the above copyright notice\n\t\tand the following two paragraphs appear in all copies of this\n\t\tsoftware.</p>\n\n\t\t<p>IN NO EVENT SHALL <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE CORNELL UNIVERSITY</span></var> BE LIABLE TO ANY PARTY FOR\n\t\tDIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING\n\t\tOUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> CORNELL\n\t\tUNIVERSITY</span></var> HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>\n\n\t\t<p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE CORNELL UNIVERSITY</span></var> SPECIFICALLY DISCLAIMS ANY WARRANTIES,\n\t\tINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n\t\tMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE\n\t\tPROVIDED HEREUNDER IS ON AN &quot;AS IS&quot; BASIS, AND <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> CORNELL UNIVERSITY</span></var> HAS\n\t\tNO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS,\n\t\tOR MODIFICATIONS.</p>\n\n\t"
         }
