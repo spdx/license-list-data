@@ -1,40 +1,17 @@
 {
     "@graph": [
         {
-            "@id": "_:28dd81a5-c568-4888-b907-13bf2da22d6e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:timestamp": "2026-01-29T19:50:17Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/CMU-Mach-nodoc",
             "@type": "spdx:ListedLicense",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2002 Naval Research Laboratory (NRL/CCS)\";match=\".{0,5000}\">>\nPermission to use, copy, modify and distribute this software and its documentation is hereby granted, provided that both the copyright notice and this permission notice appear in all copies of the software, derivative works or modified versions, and any portions thereof.\n\nNRL ALLOWS FREE USE OF THIS SOFTWARE IN ITS \"AS IS\" CONDITION AND DISCLAIMS ANY LIABILITY OF ANY KIND FOR ANY DAMAGES WHATSOEVER RESULTING FROM THE USE OF THIS SOFTWARE.\n\n",
             "spdx:crossRef": [
                 {
-                    "@id": "_:28dd81a5-c568-4888-b907-13bf2da22d6e"
+                    "@id": "_:86e7fdfd-a16a-4f36-b98a-c4043305bf9b"
                 },
                 {
-                    "@id": "_:703e94a3-3874-4440-af62-0a1a924dc20b"
+                    "@id": "_:f156b6be-3a55-41f8-9a88-631d29ee547e"
                 }
             ],
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2002 Naval Research Laboratory (NRL/CCS)\";match=\".{0,5000}\">>\nPermission to use, copy, modify and distribute this software and its documentation is hereby granted, provided that both the copyright notice and this permission notice appear in all copies of the software, derivative works or modified versions, and any portions thereof.\n\nNRL ALLOWS FREE USE OF THIS SOFTWARE IN ITS \"AS IS\" CONDITION AND DISCLAIMS ANY LIABILITY OF ANY KIND FOR ANY DAMAGES WHATSOEVER RESULTING FROM THE USE OF THIS SOFTWARE.\n\n",
             "rdfs:seeAlso": [
                 "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L718-L728",
                 "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html"
@@ -53,7 +30,7 @@
             "spdx:licenseText": "Copyright (C) 2002 Naval Research Laboratory (NRL/CCS)\n\nPermission to use, copy, modify and distribute this software and\nits documentation is hereby granted, provided that both the\ncopyright notice and this permission notice appear in all copies of\nthe software, derivative works or modified versions, and any\nportions thereof.\n\nNRL ALLOWS FREE USE OF THIS SOFTWARE IN ITS \"AS IS\" CONDITION AND\nDISCLAIMS ANY LIABILITY OF ANY KIND FOR ANY DAMAGES WHATSOEVER\nRESULTING FROM THE USE OF THIS SOFTWARE.\n"
         },
         {
-            "@id": "_:703e94a3-3874-4440-af62-0a1a924dc20b",
+            "@id": "_:86e7fdfd-a16a-4f36-b98a-c4043305bf9b",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -67,12 +44,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L718-L728",
-            "spdx:timestamp": "2026-01-29T19:50:17Z",
+            "spdx:timestamp": "2026-01-30T09:02:57Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:f156b6be-3a55-41f8-9a88-631d29ee547e",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
+            "spdx:timestamp": "2026-01-30T09:02:55Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],

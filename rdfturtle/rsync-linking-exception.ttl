@@ -1,0 +1,14 @@
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
+
+<http://spdx.org/licenses/rsync-linking-exception>
+        a                              spdx:ListedLicenseException;
+        rdfs:comment                   "This exception has been used with GPL-3.0.";
+        rdfs:seeAlso                   "https://github.com/RsyncProject/rsync/blob/master/COPYING";
+        spdx:exceptionTextHtml         "\n\t<p>In addition, as a special exception, the copyright holders give\n\tpermission to dynamically link rsync with the OpenSSL and xxhash\n\tlibraries when those libraries are being distributed in compliance\n\twith their license terms, and to distribute a dynamically linked\n\tcombination of rsync and these libraries.  This is also considered\n\tto be covered under the GPL&apos;s System Libraries exception.</p>\n\n\t";
+        spdx:isDeprecatedLicenseId     false;
+        spdx:licenseExceptionTemplate  "In addition, as a special exception, the copyright holders give permission to dynamically link rsync with the OpenSSL and xxhash libraries when those libraries are being distributed in compliance with their license terms, and to distribute a dynamically linked combination of rsync and these libraries. This is also considered to be covered under the GPL's System Libraries exception.\n\n";
+        spdx:licenseExceptionText      "In addition, as a special exception, the copyright holders give\npermission to dynamically link rsync with the OpenSSL and xxhash\nlibraries when those libraries are being distributed in compliance\nwith their license terms, and to distribute a dynamically linked\ncombination of rsync and these libraries.  This is also considered\nto be covered under the GPL's System Libraries exception.\n";
+        spdx:name                      "rsync Linking Exception" .

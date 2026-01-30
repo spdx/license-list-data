@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 6dae64a
+The following licenses have been generated from the license list version 297da51
 
 ## Licenses with Short Identifiers
 
@@ -770,6 +770,7 @@ The following licenses have been generated from the license list version 6dae64a
 | Qwt exception 1.0                                     | [Qwt-exception-1.0][]                    |
 | Romic Exception                                       | [romic-exception][]                      |
 | RRDtool FLOSS exception 2.0                           | [RRDtool-FLOSS-exception-2.0][]          |
+| rsync Linking Exception                               | [rsync-linking-exception][]              |
 | SANE Exception                                        | [SANE-exception][]                       |
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
@@ -1615,6 +1616,7 @@ The following licenses have been generated from the license list version 6dae64a
 [Qwt-exception-1.0]: text/Qwt-exception-1.0.txt
 [romic-exception]: text/romic-exception.txt
 [RRDtool-FLOSS-exception-2.0]: text/RRDtool-FLOSS-exception-2.0.txt
+[rsync-linking-exception]: text/rsync-linking-exception.txt
 [SANE-exception]: text/SANE-exception.txt
 [SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
