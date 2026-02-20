@@ -7,12 +7,21 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
         a                             spdx:ListedLicense;
         rdfs:seeAlso                  "https://sourceforge.net/p/mcj/xfig/ci/master/tree/src/Makefile.am" , "https://github.com/Distrotech/transfig/blob/master/transfig/transfig.c" , "https://fedoraproject.org/wiki/Licensing:MIT#Xfig_Variant";
         spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2026-02-20T12:45:36Z";
+                                        spdx:url            "https://github.com/Distrotech/transfig/blob/master/transfig/transfig.c"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         false;
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "N/A";
                                         spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-01-30T09:04:28Z";
+                                        spdx:timestamp      "2026-02-20T12:45:36Z";
                                         spdx:url            "https://sourceforge.net/p/mcj/xfig/ci/master/tree/src/Makefile.am"
                                       ];
         spdx:crossRef                 [ a                   spdx:CrossRef;
@@ -21,17 +30,8 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                         spdx:isWayBackLink  false;
                                         spdx:match          "true";
                                         spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-01-30T09:04:27Z";
+                                        spdx:timestamp      "2026-02-20T12:45:35Z";
                                         spdx:url            "https://fedoraproject.org/wiki/Licensing:MIT#Xfig_Variant"
-                                      ];
-        spdx:crossRef                 [ a                   spdx:CrossRef;
-                                        spdx:isLive         true;
-                                        spdx:isValid        true;
-                                        spdx:isWayBackLink  false;
-                                        spdx:match          "false";
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-01-30T09:04:28Z";
-                                        spdx:url            "https://github.com/Distrotech/transfig/blob/master/transfig/transfig.c"
                                       ];
         spdx:isDeprecatedLicenseId    false;
         spdx:isOsiApproved            false;

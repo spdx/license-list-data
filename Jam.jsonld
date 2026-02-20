@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:514963e6-6fae-4f32-bfe0-ddeed94a1b53",
+            "@id": "_:e69b5189-c85b-4e93-acb4-208453d48e5e",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
-            "spdx:timestamp": "2026-01-30T09:03:03Z",
+            "spdx:timestamp": "2026-02-20T12:42:39Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,15 +24,30 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:8e6e937e-f494-48e4-9fdf-568e2d2598e1",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
+            "spdx:timestamp": "2026-02-20T12:42:39Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Jam",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:3102c8e8-ad12-405f-b868-7bc69538a025"
-                },
-                {
-                    "@id": "_:514963e6-6fae-4f32-bfe0-ddeed94a1b53"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
                 "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html"
@@ -47,32 +62,17 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:e69b5189-c85b-4e93-acb4-208453d48e5e"
+                },
+                {
+                    "@id": "_:8e6e937e-f494-48e4-9fdf-568e2d2598e1"
+                }
+            ],
             "spdx:licenseTextHtml": "\n        <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n\t    <p>Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.</p>\n\n        </span></div>\n\n\t<p>\n            License is hereby granted to use this software and distribute it\n            freely, as long as this copyright notice is retained and modifications\n            are clearly marked.\n\t</p>\n\n\t<p>\n            ALL WARRANTIES ARE HEREBY DISCLAIMED.\n\t</p>\n\n    ",
             "spdx:licenseText": "License is hereby granted to use this software and distribute it freely,\nas long as this copyright notice is retained and modifications are\nclearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n",
             "spdx:name": "Jam License"
-        },
-        {
-            "@id": "_:3102c8e8-ad12-405f-b868-7bc69538a025",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
-            "spdx:timestamp": "2026-01-30T09:03:04Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

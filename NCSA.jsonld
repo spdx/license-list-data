@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:96b302b8-9c5c-46a7-bd62-b42c759323b0",
+            "@id": "_:2e5c3f24-1a42-40d4-bf80-56285bbac39c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -14,10 +14,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://opensource.org/licenses/NCSA",
-            "spdx:timestamp": "2026-01-30T09:03:02Z",
+            "spdx:url": "http://otm.illinois.edu/uiuc_openSource",
+            "spdx:timestamp": "2026-02-20T12:42:37Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
@@ -25,14 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/NCSA",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:96b302b8-9c5c-46a7-bd62-b42c759323b0"
-                },
-                {
-                    "@id": "_:e9f8165b-31a7-4b97-9d59-64d03eb60c26"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/NCSA",
                 "http://otm.illinois.edu/uiuc_openSource"
@@ -53,10 +45,18 @@
             },
             "spdx:licenseText": "University of Illinois/NCSA Open Source License\n\nCopyright (c) <Year> <Owner Organization Name>. All rights reserved.\n\nDeveloped by: <Name of Development Group> <Name of Institution> <URL for Development Group/Institution>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n     * Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.\n\n     * Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.\n\n     * Neither the names of <Name of Development Group, Name of Institution>, nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.\n",
             "spdx:name": "University of Illinois/NCSA Open Source License",
-            "spdx:standardLicenseTemplate": "<<beginOptional>>University of Illinois/NCSA Open Source License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <Year> <Owner Organization Name>. All rights reserved.  \";match=\".{0,5000}\">>\nDeveloped by: <<var;name=\"organization\";original=\" <Name of Development Group> <Name of Institution> <URL for Development Group/Institution>\";match=\".+\">>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Neither the names of <<var;name=\"organizationClause3\";original=\"<Name of Development Group, Name of Institution>\";match=\".+\">> , nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.\n\n"
+            "spdx:standardLicenseTemplate": "<<beginOptional>>University of Illinois/NCSA Open Source License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <Year> <Owner Organization Name>. All rights reserved.  \";match=\".{0,5000}\">>\nDeveloped by: <<var;name=\"organization\";original=\" <Name of Development Group> <Name of Institution> <URL for Development Group/Institution>\";match=\".+\">>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal with the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\n\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimers.\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimers in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Neither the names of <<var;name=\"organizationClause3\";original=\"<Name of Development Group, Name of Institution>\";match=\".+\">> , nor the names of its contributors may be used to endorse or promote products derived from this Software without specific prior written permission.\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE CONTRIBUTORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS WITH THE SOFTWARE.\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:8ab2e42d-6cfa-4a59-8d5c-3a42545a18f3"
+                },
+                {
+                    "@id": "_:2e5c3f24-1a42-40d4-bf80-56285bbac39c"
+                }
+            ]
         },
         {
-            "@id": "_:e9f8165b-31a7-4b97-9d59-64d03eb60c26",
+            "@id": "_:8ab2e42d-6cfa-4a59-8d5c-3a42545a18f3",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -69,10 +69,10 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "http://otm.illinois.edu/uiuc_openSource",
-            "spdx:timestamp": "2026-01-30T09:03:02Z",
+            "spdx:url": "https://opensource.org/licenses/NCSA",
+            "spdx:timestamp": "2026-02-20T12:42:36Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",

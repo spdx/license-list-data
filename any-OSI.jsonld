@@ -1,7 +1,27 @@
 {
     "@graph": [
         {
-            "@id": "_:5d66306c-efa2-4e28-ab13-bbcc252de845",
+            "@id": "http://spdx.org/licenses/any-OSI",
+            "spdx:licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n",
+            "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
+            "spdx:licenseTextHtml": "\n         <p>\n            Pick your favourite OSI approved license :)\n         </p>\n\n         <p>\n            http://www.opensource.org/licenses/alphabetical\n         </p>\n\n      ",
+            "spdx:standardLicenseTemplate": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:99fc9c51-ddb9-4570-abb6-21dad4a259b8"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "Any OSI License",
+            "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:99fc9c51-ddb9-4570-abb6-21dad4a259b8",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,33 +35,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
-            "spdx:timestamp": "2026-01-30T09:03:59Z",
+            "spdx:timestamp": "2026-02-20T12:44:35Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/any-OSI",
-            "spdx:licenseText": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n",
-            "rdfs:seeAlso": "https://metacpan.org/pod/Exporter::Tidy#LICENSE",
-            "spdx:licenseTextHtml": "\n         <p>\n            Pick your favourite OSI approved license :)\n         </p>\n\n         <p>\n            http://www.opensource.org/licenses/alphabetical\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "Pick your favourite OSI approved license :)\n\nhttp://www.opensource.org/licenses/alphabetical\n\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:5d66306c-efa2-4e28-ab13-bbcc252de845"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "Any OSI License",
-            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {

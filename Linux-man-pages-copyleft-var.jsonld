@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:bd2d7389-f999-49ca-9da3-83dd1d09aaa9",
+            "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft-var",
+            "spdx:name": "Linux man-pages Copyleft Variant",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:d8428b80-d16f-42f5-b6aa-9aa748b4e01a"
+            },
+            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to make and distribute verbatim\n            copies of this manual provided the copyright notice\n            and this permission notice are preserved on all copies.\n         </p>\n\n         <p>\n            Permission is granted to copy and distribute modified versions\n            of this manual under the conditions for verbatim copying,\n            provided that the entire resulting derived work is distributed\n            under the terms of a permission notice identical to this one.\n         </p>\n\n         <p>\n            Since the Linux kernel and libraries are constantly changing,\n            this manual page may be incorrect or out-of-date. The author(s)\n            assume no responsibility for errors or omissions, or for damages\n            resulting from the use of the information contained herein.\n         </p>\n\n         <p>\n            Formatted or processed versions of this manual, if unaccompanied by\n            the source, must acknowledge the copyright and authors of this work.\n         </p>\n\n      ",
+            "spdx:standardLicenseTemplate": "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.\n\nSince the Linux kernel and libraries are constantly changing, this manual page may be incorrect or out-of-date. The author(s) assume no responsibility for errors or omissions, or for damages resulting from the use of the information contained herein.\n\nFormatted or processed versions of this manual, if unaccompanied by the source, must acknowledge the copyright and authors of this work.\n\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseText": "Permission is granted to make and distribute verbatim copies of \nthis manual provided the copyright notice and this permission \nnotice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of \nthis manual under the conditions for verbatim copying, provided \nthat the entire resulting derived work is distributed under the \nterms of a permission notice identical to this one.\n\nSince the Linux kernel and libraries are constantly changing, this \nmanual page may be incorrect or out-of-date. The author(s) assume \nno responsibility for errors or omissions, or for damages resulting \nfrom the use of the information contained herein.\n\nFormatted or processed versions of this manual, if unaccompanied by \nthe source, must acknowledge the copyright and authors of this work.\n",
+            "rdfs:seeAlso": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
+            "rdfs:comment": "This is the same as Linux-man-pages-copyleft but omits the last sentence of the third paragraph.",
+            "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:d8428b80-d16f-42f5-b6aa-9aa748b4e01a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
-            "spdx:timestamp": "2026-01-30T09:05:56Z",
+            "spdx:timestamp": "2026-02-20T12:46:32Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft-var",
-            "spdx:name": "Linux man-pages Copyleft Variant",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to make and distribute verbatim\n            copies of this manual provided the copyright notice\n            and this permission notice are preserved on all copies.\n         </p>\n\n         <p>\n            Permission is granted to copy and distribute modified versions\n            of this manual under the conditions for verbatim copying,\n            provided that the entire resulting derived work is distributed\n            under the terms of a permission notice identical to this one.\n         </p>\n\n         <p>\n            Since the Linux kernel and libraries are constantly changing,\n            this manual page may be incorrect or out-of-date. The author(s)\n            assume no responsibility for errors or omissions, or for damages\n            resulting from the use of the information contained herein.\n         </p>\n\n         <p>\n            Formatted or processed versions of this manual, if unaccompanied by\n            the source, must acknowledge the copyright and authors of this work.\n         </p>\n\n      ",
-            "spdx:standardLicenseTemplate": "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.\n\nSince the Linux kernel and libraries are constantly changing, this manual page may be incorrect or out-of-date. The author(s) assume no responsibility for errors or omissions, or for damages resulting from the use of the information contained herein.\n\nFormatted or processed versions of this manual, if unaccompanied by the source, must acknowledge the copyright and authors of this work.\n\n",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:bd2d7389-f999-49ca-9da3-83dd1d09aaa9"
-            },
-            "spdx:licenseText": "Permission is granted to make and distribute verbatim copies of \nthis manual provided the copyright notice and this permission \nnotice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of \nthis manual under the conditions for verbatim copying, provided \nthat the entire resulting derived work is distributed under the \nterms of a permission notice identical to this one.\n\nSince the Linux kernel and libraries are constantly changing, this \nmanual page may be incorrect or out-of-date. The author(s) assume \nno responsibility for errors or omissions, or for damages resulting \nfrom the use of the information contained herein.\n\nFormatted or processed versions of this manual, if unaccompanied by \nthe source, must acknowledge the copyright and authors of this work.\n",
-            "rdfs:seeAlso": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
-            "rdfs:comment": "This is the same as Linux-man-pages-copyleft but omits the last sentence of the third paragraph.",
-            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {

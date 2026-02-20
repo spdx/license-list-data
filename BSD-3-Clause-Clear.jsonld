@@ -1,9 +1,32 @@
 {
     "@graph": [
         {
+            "@id": "_:d580a4d9-ad75-4193-a08a-df8996684cfc",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://labs.metacarta.com/license-explanation.html#license",
+            "spdx:timestamp": "2026-02-20T12:46:56Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/BSD-3-Clause-Clear",
             "spdx:crossRef": {
-                "@id": "_:fd997008-79b8-4cb2-bc99-f13052d8eb40"
+                "@id": "_:d580a4d9-ad75-4193-a08a-df8996684cfc"
             },
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>The Clear BSD License</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) [xxxx]-[xxxx] [Owner Organization]\n            <br />\nAll rights reserved. \n      </p>\n\n      </span></div>\n\n      <p>Redistribution and use in source and binary forms, with or without modification, are permitted (subject\n         to the limitations in the disclaimer below) provided that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n\t\n<li>      \n\t\n<ul style=\"list-style:none\">\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> *</span></var>\n            Redistributions of source code must retain the above copyright notice, this list of\n               conditions and the following disclaimer.\n          </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> *</span></var>\n            Redistributions in binary form must reproduce the above copyright notice, this list of\n               conditions and the following disclaimer in the documentation and/or other materials\n               provided with the distribution.\n          </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> *</span></var>\n            Neither the name of\n              <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> [Owner Organization]</span></var> nor the names of its\n              contributors may be used to endorse or promote products derived from this software without\n              specific prior written permission.\n\n          </li>\n        \n</ul>\n\t</li>\n      \n</ul>\n      <p>NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY&apos;S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THIS\n         SOFTWARE IS PROVIDED BY\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE COPYRIGHT HOLDERS AND CONTRIBUTORS</span></var> &quot;AS\n        IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\n        MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE COPYRIGHT HOLDER OR CONTRIBUTORS</span></var> BE LIABLE FOR\n        ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n        LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\n        INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR\n        TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF\n        ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n      </p>\n\n    ",
             "spdx:isOsiApproved": {
@@ -24,29 +47,6 @@
             "rdfs:seeAlso": "http://labs.metacarta.com/license-explanation.html#license",
             "spdx:name": "BSD 3-Clause Clear License",
             "spdx:standardLicenseTemplate": "<<beginOptional>>The Clear BSD License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) [xxxx]-[xxxx] [Owner Organization] All rights reserved.  \";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted (subject to the limitations in the disclaimer below) provided that the following conditions are met:\n\n      <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n      <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n      <<var;name=\"bullet\";original=\"*\";match=\".{0,20}\">> Neither the name of <<var;name=\"organizationClause3\";original=\"[Owner Organization]\";match=\".+\">> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nNO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS LICENSE. THIS SOFTWARE IS PROVIDED BY <<var;name=\"copyrightHolderAsIs\";original=\"THE COPYRIGHT HOLDERS AND CONTRIBUTORS\";match=\".+\">> \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"THE COPYRIGHT HOLDER OR CONTRIBUTORS\";match=\".+\">> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n"
-        },
-        {
-            "@id": "_:fd997008-79b8-4cb2-bc99-f13052d8eb40",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://labs.metacarta.com/license-explanation.html#license",
-            "spdx:timestamp": "2026-01-30T09:05:53Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
