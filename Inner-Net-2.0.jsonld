@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:e31dfcc2-e058-4b70-855b-35ff9cb2449b",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Inner_Net_License",
-            "spdx:timestamp": "2026-02-20T15:08:33Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:ac0704b3-8982-423b-8f06-541cc9e88081",
+            "@id": "_:6c834a87-5a7f-4ac5-b391-e59c67afa0ae",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=glibc.git;a=blob;f=LICENSES;h=530893b1dc9ea00755603c68fb36bd4fc38a7be8;hb=HEAD#l207",
-            "spdx:timestamp": "2026-02-20T15:08:28Z",
+            "spdx:timestamp": "2026-02-20T15:18:54Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +25,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/Inner-Net-2.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:80447ce6-a1a7-4092-86a1-1eb0a06af1f3"
+                },
+                {
+                    "@id": "_:6c834a87-5a7f-4ac5-b391-e59c67afa0ae"
+                }
+            ],
             "spdx:name": "Inner Net License v2.0",
             "rdfs:seeAlso": [
                 "https://fedoraproject.org/wiki/Licensing/Inner_Net_License",
@@ -57,14 +42,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:ac0704b3-8982-423b-8f06-541cc9e88081"
-                },
-                {
-                    "@id": "_:e31dfcc2-e058-4b70-855b-35ff9cb2449b"
-                }
-            ],
             "spdx:licenseTextHtml": "\n         <var class=\"optional-license-text\"> \n            The Inner Net License, Version 2.00\n         </var>\n         <p>\n            The author(s) grant permission for redistribution and use in source\n            and binary forms, with or without modification, of the software\n            and documentation provided that the following conditions are met:\n         </p>\n\n<ul style=\"list-style:none\">\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 0.</span></var>\n               If you receive a version of the software that is specifically\n               labelled as not being for redistribution (check the\n               version message and/or README), you are not permitted to\n               redistribute that version of the software in any way or form.\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n               All terms of the all other applicable\n               copyrights and licenses must be followed.\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n               Redistributions of source code must retain the authors&apos; copyright\n               notice(s), this list of conditions, and the following disclaimer.\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 3.</span></var>\n               Redistributions in binary form must reproduce the\n               authors&apos; copyright notice(s), this list of conditions,\n               and the following disclaimer in the documentation\n               and/or other materials provided with the distribution.\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 4.</span></var>\n               [The copyright holder has authorized the removal of this clause.]\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 5.</span></var>\n               Neither the name(s) of the author(s) nor the names of its\n               contributors may be used to endorse or promote products derived\n               from this software without specific prior written permission.\n            </li>\n         \n</ul>\n         <p>\n            THIS SOFTWARE IS PROVIDED BY ITS AUTHORS AND CONTRIBUTORS ``AS\n            IS&apos;&apos; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT\n            NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\n            FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT\n            SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT,\n            INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL\n            DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\n            GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\n            INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY,\n            WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n            NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\n            THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n         </p>\n\n         <p>\n            If these license terms cause you a real problem, contact the author.\n         </p>\n\n      ",
             "spdx:standardLicenseTemplate": "<<beginOptional>>The Inner Net License, Version 2.00<<endOptional>>\nThe author(s) grant permission for redistribution and use in source and binary forms, with or without modification, of the software and documentation provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"0.\";match=\".{0,20}\">> If you receive a version of the software that is specifically labelled as not being for redistribution (check the version message and/or README), you are not permitted to redistribute that version of the software in any way or form.\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> All terms of the all other applicable copyrights and licenses must be followed.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions of source code must retain the authors' copyright notice(s), this list of conditions, and the following disclaimer.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the authors' copyright notice(s), this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> [The copyright holder has authorized the removal of this clause.]\n   <<var;name=\"bullet\";original=\"5.\";match=\".{0,20}\">> Neither the name(s) of the author(s) nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY ITS AUTHORS AND CONTRIBUTORS ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nIf these license terms cause you a real problem, contact the author.\n\n",
             "@type": "spdx:ListedLicense",
@@ -73,6 +50,29 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseText": "The Inner Net License, Version 2.00\n\nThe author(s) grant permission for redistribution and use in source and\nbinary forms, with or without modification, of the software and documentation\nprovided that the following conditions are met:\n\n0. If you receive a version of the software that is specifically labelled\n   as not being for redistribution (check the version message and/or README),\n   you are not permitted to redistribute that version of the software in any\n   way or form.\n1. All terms of the all other applicable copyrights and licenses must be\n   followed.\n2. Redistributions of source code must retain the authors' copyright\n   notice(s), this list of conditions, and the following disclaimer.\n3. Redistributions in binary form must reproduce the authors' copyright\n   notice(s), this list of conditions, and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n4. [The copyright holder has authorized the removal of this clause.]\n5. Neither the name(s) of the author(s) nor the names of its contributors\n   may be used to endorse or promote products derived from this software\n   without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY ITS AUTHORS AND CONTRIBUTORS ``AS IS'' AND ANY\nEXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE\nDISCLAIMED. IN NO EVENT SHALL THE AUTHORS OR CONTRIBUTORS BE LIABLE FOR ANY\nDIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES\n(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\nLOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON\nANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\nSOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nIf these license terms cause you a real problem, contact the author.\n"
+        },
+        {
+            "@id": "_:80447ce6-a1a7-4092-86a1-1eb0a06af1f3",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/Inner_Net_License",
+            "spdx:timestamp": "2026-02-20T15:18:54Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

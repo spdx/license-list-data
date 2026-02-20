@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:b7f1773f-76bc-4aa0-8f9f-284ba4720d60",
+            "@id": "_:b19bc9da-0726-461b-a4b9-60b3b1f27e60",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/audacious-media-player/audacious/blob/master/COPYING",
-            "spdx:timestamp": "2026-02-20T15:07:42Z",
+            "spdx:timestamp": "2026-02-20T15:17:22Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:51b42251-75e9-4851-972b-17faa49c6416",
+            "@id": "_:4f955069-0c91-454e-ae3b-1c105367aba4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/audacious-media-player/audacious/blob/master/src/audacious/main.cc",
-            "spdx:timestamp": "2026-02-20T15:07:42Z",
+            "spdx:timestamp": "2026-02-20T15:17:21Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,18 +48,18 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-pkgconf-disclaimer",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:51b42251-75e9-4851-972b-17faa49c6416"
-                },
-                {
-                    "@id": "_:b7f1773f-76bc-4aa0-8f9f-284ba4720d60"
-                }
-            ],
             "spdx:licenseText": "Copyright © 2001-2025 Audacious developers and others\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice,\n   this list of conditions, and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions, and the following disclaimer in the\n   documentation provided with the distribution.\n\nThis software is provided “as is” and without any warranty, express or\nimplied.  In no event shall the authors be liable for any damages arising\nfrom the use of this software.\n",
             "rdfs:seeAlso": [
                 "https://github.com/audacious-media-player/audacious/blob/master/src/audacious/main.cc",
                 "https://github.com/audacious-media-player/audacious/blob/master/COPYING"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b19bc9da-0726-461b-a4b9-60b3b1f27e60"
+                },
+                {
+                    "@id": "_:4f955069-0c91-454e-ae3b-1c105367aba4"
+                }
             ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright © 2001-2025 Audacious developers and others  \";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">>\n   Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">>\n   Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation provided with the distribution.\n\nThis software is provided \"as is\" and without any warranty, express or implied. In no event shall the authors be liable for any damages arising from the use of this software.\n\n",
             "spdx:name": "BSD 2-Clause pkgconf disclaimer variant",

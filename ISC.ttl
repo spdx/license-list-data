@@ -8,12 +8,21 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
         rdfs:comment                  "The ISC License text changed 'and' to 'and/or' in July 2007.";
         rdfs:seeAlso                  "https://www.isc.org/downloads/software-support-policy/isc-license/" , "https://www.isc.org/licenses/" , "https://opensource.org/licenses/ISC";
         spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2026-02-20T15:20:07Z";
+                                        spdx:url            "https://www.isc.org/licenses/"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         false;
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "N/A";
                                         spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-02-20T15:10:44Z";
+                                        spdx:timestamp      "2026-02-20T15:20:06Z";
                                         spdx:url            "https://opensource.org/licenses/ISC"
                                       ];
         spdx:crossRef                 [ a                   spdx:CrossRef;
@@ -21,17 +30,8 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "false";
-                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-02-20T15:10:45Z";
-                                        spdx:url            "https://www.isc.org/licenses/"
-                                      ];
-        spdx:crossRef                 [ a                   spdx:CrossRef;
-                                        spdx:isLive         true;
-                                        spdx:isValid        true;
-                                        spdx:isWayBackLink  false;
-                                        spdx:match          "false";
                                         spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-02-20T15:10:45Z";
+                                        spdx:timestamp      "2026-02-20T15:20:07Z";
                                         spdx:url            "https://www.isc.org/downloads/software-support-policy/isc-license/"
                                       ];
         spdx:isDeprecatedLicenseId    false;
