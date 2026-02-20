@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:a2725463-3ec9-4c9c-a05d-0fef712a5089",
+            "@id": "_:260c06f8-994f-4124-acab-be1c741a73c4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L718-L728",
-            "spdx:timestamp": "2026-02-20T15:23:39Z",
+            "spdx:timestamp": "2026-02-20T15:40:25Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,9 +24,40 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:ce2f07c7-3351-4c9f-9a83-add1e2a7b93e",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
+            "spdx:timestamp": "2026-02-20T15:40:24Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/CMU-Mach-nodoc",
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2002 Naval Research Laboratory (NRL/CCS)\";match=\".{0,5000}\">>\nPermission to use, copy, modify and distribute this software and its documentation is hereby granted, provided that both the copyright notice and this permission notice appear in all copies of the software, derivative works or modified versions, and any portions thereof.\n\nNRL ALLOWS FREE USE OF THIS SOFTWARE IN ITS \"AS IS\" CONDITION AND DISCLAIMS ANY LIABILITY OF ANY KIND FOR ANY DAMAGES WHATSOEVER RESULTING FROM THE USE OF THIS SOFTWARE.\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:ce2f07c7-3351-4c9f-9a83-add1e2a7b93e"
+                },
+                {
+                    "@id": "_:260c06f8-994f-4124-acab-be1c741a73c4"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L718-L728",
                 "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html"
@@ -41,39 +72,8 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "CMU    Mach - no notices-in-documentation variant",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:a2725463-3ec9-4c9c-a05d-0fef712a5089"
-                },
-                {
-                    "@id": "_:3c332da2-8501-4ad1-b779-a914f45be61d"
-                }
-            ],
             "rdfs:comment": "This is similar to CMU-Mach but omits the obligation that both notices appear in supporting documentation and omits the request to return improvements or extensions back to the copyright holder.",
             "spdx:licenseText": "Copyright (C) 2002 Naval Research Laboratory (NRL/CCS)\n\nPermission to use, copy, modify and distribute this software and\nits documentation is hereby granted, provided that both the\ncopyright notice and this permission notice appear in all copies of\nthe software, derivative works or modified versions, and any\nportions thereof.\n\nNRL ALLOWS FREE USE OF THIS SOFTWARE IN ITS \"AS IS\" CONDITION AND\nDISCLAIMS ANY LIABILITY OF ANY KIND FOR ANY DAMAGES WHATSOEVER\nRESULTING FROM THE USE OF THIS SOFTWARE.\n"
-        },
-        {
-            "@id": "_:3c332da2-8501-4ad1-b779-a914f45be61d",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:timestamp": "2026-02-20T15:23:38Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

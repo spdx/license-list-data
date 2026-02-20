@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:fdb0e826-e7c8-45b3-805a-439a9afdb5a8",
+            "@id": "_:7a8d0199-55b3-487b-9a8a-979c3df7d66d",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/licenses/ISC",
+            "spdx:timestamp": "2026-02-20T15:43:33Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:4631a9b2-f100-43f8-92e6-a0e0dabfc232",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -14,10 +37,10 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://www.isc.org/downloads/software-support-policy/isc-license/",
-            "spdx:timestamp": "2026-02-20T15:26:29Z",
+            "spdx:url": "https://www.isc.org/licenses/",
+            "spdx:timestamp": "2026-02-20T15:43:33Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
@@ -27,17 +50,6 @@
             "@id": "http://spdx.org/licenses/ISC",
             "spdx:licenseText": "ISC License:\n\nCopyright (c) 2004-2010 by Internet Systems Consortium, Inc. (\"ISC\")\nCopyright (c) 1995-2003 by Internet Software Consortium\n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND ISC DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL ISC BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n",
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern (The )?ISC License( \\(ISC[L]?\\))?:?\"> ISC License</span></var></p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>&lt;copyright notice&gt;</p>\n\n      </span></div>\n\n      <p>Permission to use, copy, modify, and<var class=\"optional-license-text\"> /or</var> distribute this software for any purpose with or without fee is\n         hereby granted, provided that the above copyright notice and this permission notice appear in all\n         copies.</p>\n\n      <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE AUTHOR</span></var> DISCLAIMS ALL\n         WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND\n         FITNESS. IN NO EVENT SHALL <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE AUTHOR</span></var> BE LIABLE FOR ANY\n         SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF\n         USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING\n         OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>\n\n    ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:fdb0e826-e7c8-45b3-805a-439a9afdb5a8"
-                },
-                {
-                    "@id": "_:235c492a-9700-4164-b1cb-d450609bb42a"
-                },
-                {
-                    "@id": "_:34b508ef-e270-44ae-9c7b-43a946070f14"
-                }
-            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -56,35 +68,23 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:7a8d0199-55b3-487b-9a8a-979c3df7d66d"
+                },
+                {
+                    "@id": "_:d000be8a-65ca-4f6b-93f7-1e78da111cf2"
+                },
+                {
+                    "@id": "_:4631a9b2-f100-43f8-92e6-a0e0dabfc232"
+                }
+            ],
             "spdx:standardLicenseTemplate": "<<beginOptional>><<var;name=\"title\";original=\"ISC License\";match=\"(The )?ISC License( \\(ISC[L]?\\))?:?\">>\n\n<<endOptional>> <<var;name=\"copyright\";original=\"<copyright notice>  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, and<<beginOptional>> /or<<endOptional>> distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND <<var;name=\"author\";original=\"THE AUTHOR\";match=\".+\">> DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL <<var;name=\"authorLiability\";original=\"THE AUTHOR\";match=\".+\">> BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n",
             "@type": "spdx:ListedLicense",
             "spdx:name": "ISC License"
         },
         {
-            "@id": "_:235c492a-9700-4164-b1cb-d450609bb42a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/licenses/ISC",
-            "spdx:timestamp": "2026-02-20T15:26:28Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:34b508ef-e270-44ae-9c7b-43a946070f14",
+            "@id": "_:d000be8a-65ca-4f6b-93f7-1e78da111cf2",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -97,10 +97,10 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://www.isc.org/licenses/",
-            "spdx:timestamp": "2026-02-20T15:26:29Z",
+            "spdx:url": "https://www.isc.org/downloads/software-support-policy/isc-license/",
+            "spdx:timestamp": "2026-02-20T15:43:33Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",

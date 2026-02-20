@@ -1,12 +1,35 @@
 {
     "@graph": [
         {
+            "@id": "_:b180c9cf-ba94-4e7e-b35a-205b1b996ef9",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74",
+            "spdx:timestamp": "2026-02-20T15:40:27Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Latex2e-translated-notice",
+            "spdx:crossRef": {
+                "@id": "_:b180c9cf-ba94-4e7e-b35a-205b1b996ef9"
+            },
             "spdx:licenseText": "Copyright @copyright{} 1989, 1992, 1993, 1994, 1995, 1996, 2014 Free Software\nFoundation, Inc.\n\nCopyright @copyright{} 1995, 1996 Joseph Arceneaux.\n\nCopyright @copyright{} 1999, Carlo Wood.\n\nCopyright @copyright{} 2001, David Ingamells.\n\nCopyright @copyright{} 2013, Łukasz Stelmach.\n\nCopyright @copyright{} 2015, Tim Hentenaar.\n\nPermission is granted to make and distribute verbatim copies of\nthis manual provided the copyright notice and this permission notice\nare preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this\nmanual under the conditions for verbatim copying, provided that the entire\nresulting derived work is distributed under the terms of a permission\nnotice identical to this one.\n\nPermission is granted to copy and distribute translations of this manual\ninto another language, under the above conditions for modified versions,\nexcept that this permission notice may be stated in a translation approved\nby the Foundation.\n",
             "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74",
-            "spdx:crossRef": {
-                "@id": "_:0ab189a2-08f4-447e-9490-09c425754d64"
-            },
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -20,29 +43,6 @@
             "rdfs:comment": "The last section differs from Latex2e license.",
             "spdx:name": "Latex2e with translated notice permission",
             "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:0ab189a2-08f4-447e-9490-09c425754d64",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://git.savannah.gnu.org/cgit/indent.git/tree/doc/indent.texi?id=a74c6b4ee49397cf330b333da1042bffa60ed14f#n74",
-            "spdx:timestamp": "2026-02-20T15:24:10Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

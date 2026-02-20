@@ -1,30 +1,39 @@
 {
     "@graph": [
         {
-            "@id": "_:0d6efe84-7af3-4bee-8f4d-70f0de5a6510",
-            "spdx:isWayBackLink": {
+            "@id": "http://spdx.org/licenses/MIT-open-group",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <yyyy, yyyy> The Open Group  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL <<var;name=\"name1\";original=\"THE OPEN GROUP\";match=\".*\">> BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of <<var;name=\"name2\";original=\"The Open Group\";match=\".+\">> shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from <<var;name=\"name3\";original=\"The Open Group\";match=\".+\">> .\n\n",
+            "rdfs:seeAlso": [
+                "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING",
+                "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
+                "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
+            ],
+            "spdx:licenseText": "Copyright <yyyy, yyyy> The Open Group\n\nPermission to use, copy, modify, distribute, and sell this software and\nits documentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation.\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nfrom The Open Group.\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:92f4feaa-de6c-4c21-89ae-cd06148cff32"
+                },
+                {
+                    "@id": "_:8145af19-ac8a-4235-82d1-0b27b1e43503"
+                },
+                {
+                    "@id": "_:e339bf0e-c094-4c97-a6a7-e574ec4d622b"
+                }
+            ],
+            "@type": "spdx:ListedLicense",
+            "spdx:name": "MIT Open Group variant",
+            "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isValid": {
-                "@value": "true",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-02-20T15:26:36Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
+            "spdx:licenseTextHtml": "\n            <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                <p>Copyright &lt;yyyy, yyyy&gt; The Open Group</p>\n\n            </span></div>\n            <p>Permission to use, copy, modify, distribute, and sell this\n                software and its documentation for any purpose is hereby granted\n                without fee, provided that the above copyright notice appear in\n                all copies and that both that copyright notice and this\n                permission notice appear in supporting documentation.\n            </p>\n\n            <p>The above copyright notice and this permission notice shall be\n                included in all copies or substantial portions of the Software.\n            </p>\n\n            <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,\n                EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\n                OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n                NONINFRINGEMENT. IN NO EVENT SHALL <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .*\"> THE OPEN GROUP</span></var> BE LIABLE FOR ANY CLAIM,\n                DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n                TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH\n                THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n            </p>\n\n            <p>Except as contained in this notice, the name of <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> The Open Group</span></var>\n                shall not be used in advertising or otherwise to promote the\n                sale, use or other dealings in this Software without prior\n                written authorization from <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> The Open Group</span></var>.\n            </p>\n\n        "
         },
         {
-            "@id": "_:8b3bdfbc-05b8-42e1-a584-7b254191e5a3",
+            "@id": "_:92f4feaa-de6c-4c21-89ae-cd06148cff32",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +47,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-02-20T15:26:37Z",
+            "spdx:timestamp": "2026-02-20T15:43:42Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +56,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:d768e8c5-8a0c-4884-be9c-66b498482dc0",
+            "@id": "_:8145af19-ac8a-4235-82d1-0b27b1e43503",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +70,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-02-20T15:26:38Z",
+            "spdx:timestamp": "2026-02-20T15:43:43Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,36 +79,27 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/MIT-open-group",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d768e8c5-8a0c-4884-be9c-66b498482dc0"
-                },
-                {
-                    "@id": "_:0d6efe84-7af3-4bee-8f4d-70f0de5a6510"
-                },
-                {
-                    "@id": "_:8b3bdfbc-05b8-42e1-a584-7b254191e5a3"
-                }
-            ],
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <yyyy, yyyy> The Open Group  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL <<var;name=\"name1\";original=\"THE OPEN GROUP\";match=\".*\">> BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of <<var;name=\"name2\";original=\"The Open Group\";match=\".+\">> shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from <<var;name=\"name3\";original=\"The Open Group\";match=\".+\">> .\n\n",
-            "rdfs:seeAlso": [
-                "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING",
-                "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
-                "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
-            ],
-            "spdx:licenseText": "Copyright <yyyy, yyyy> The Open Group\n\nPermission to use, copy, modify, distribute, and sell this software and\nits documentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation.\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nfrom The Open Group.\n",
-            "@type": "spdx:ListedLicense",
-            "spdx:name": "MIT Open Group variant",
-            "spdx:isOsiApproved": {
+            "@id": "_:e339bf0e-c094-4c97-a6a7-e574ec4d622b",
+            "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
+            "spdx:isValid": {
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseTextHtml": "\n            <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                <p>Copyright &lt;yyyy, yyyy&gt; The Open Group</p>\n\n            </span></div>\n            <p>Permission to use, copy, modify, distribute, and sell this\n                software and its documentation for any purpose is hereby granted\n                without fee, provided that the above copyright notice appear in\n                all copies and that both that copyright notice and this\n                permission notice appear in supporting documentation.\n            </p>\n\n            <p>The above copyright notice and this permission notice shall be\n                included in all copies or substantial portions of the Software.\n            </p>\n\n            <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,\n                EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES\n                OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND\n                NONINFRINGEMENT. IN NO EVENT SHALL <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .*\"> THE OPEN GROUP</span></var> BE LIABLE FOR ANY CLAIM,\n                DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\n                TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH\n                THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n            </p>\n\n            <p>Except as contained in this notice, the name of <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> The Open Group</span></var>\n                shall not be used in advertising or otherwise to promote the\n                sale, use or other dealings in this Software without prior\n                written authorization from <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> The Open Group</span></var>.\n            </p>\n\n        "
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
+            "spdx:timestamp": "2026-02-20T15:43:44Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

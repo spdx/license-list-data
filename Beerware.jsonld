@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:3590ba5e-e607-4a79-a5b0-88283a7e2bb5",
+            "@id": "_:e02e5705-b7ed-4a31-8075-81dd74cb692c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,9 +15,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/Beerware",
-            "spdx:timestamp": "2026-02-20T15:26:23Z",
+            "spdx:timestamp": "2026-02-20T15:43:27Z",
             "spdx:order": {
                 "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:133814c1-59bb-4a94-9292-bb935ebdf15a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://people.freebsd.org/~phk/",
+            "spdx:timestamp": "2026-02-20T15:43:28Z",
+            "spdx:order": {
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
@@ -35,44 +58,21 @@
                 "https://fedoraproject.org/wiki/Licensing/Beerware"
             ],
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:3590ba5e-e607-4a79-a5b0-88283a7e2bb5"
-                },
-                {
-                    "@id": "_:dd6ba76e-b828-4791-85db-032203dd0c1e"
-                }
-            ],
             "spdx:name": "Beerware License",
             "spdx:standardLicenseTemplate": "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<<var;name=\"email\";original=\"<phk@FreeBSD.ORG>\";match=\"<phk@FreeBSD.ORG>|<phk@login.dkuug.dk>\">> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n",
             "spdx:licenseText": "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
-        },
-        {
-            "@id": "_:dd6ba76e-b828-4791-85db-032203dd0c1e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://people.freebsd.org/~phk/",
-            "spdx:timestamp": "2026-02-20T15:26:23Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
+            "spdx:crossRef": [
+                {
+                    "@id": "_:133814c1-59bb-4a94-9292-bb935ebdf15a"
+                },
+                {
+                    "@id": "_:e02e5705-b7ed-4a31-8075-81dd74cb692c"
+                }
+            ]
         }
     ],
     "@context": {

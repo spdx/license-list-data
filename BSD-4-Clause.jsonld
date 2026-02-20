@@ -2,20 +2,20 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/BSD-4-Clause",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:6038a6cc-0de1-46fe-ae2a-e17dfe11bf85"
+                },
+                {
+                    "@id": "_:0a6c5732-79ea-47a3-8982-e848a8ee84e1"
+                }
+            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) &lt;year&gt; &lt;owner&gt;. All rights reserved. \n      </p>\n\n      </span></div>\n\n      <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided\n         that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          Redistributions of source code must retain the above copyright notice, this list of conditions\n             and the following disclaimer.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          Redistributions in binary form must reproduce the above copyright notice, this list of conditions\n             and the following disclaimer in the documentation and/or other materials provided with the\n             distribution.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 3.</span></var>\n          All advertising materials mentioning features or use of this software must display the following\n             acknowledgement:\n            <br />\n   This product includes software developed by\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> the organization</span></var>.\n\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 4.</span></var>\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern (The name of.+may not)|(Neither the name of.+nor the names of (its|their) contributors may)\"> \n                 Neither the name of the copyright holder nor the names the copyright holder nor the names of its\n           contributors may</span></var> be used to endorse or promote products derived from this software without\n            specific prior written permission.\n\n        </li>\n      \n</ul>\n      <p>THIS SOFTWARE IS PROVIDED BY\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> COPYRIGHT HOLDER</span></var> &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED\n        WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A\n        PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> COPYRIGHT HOLDER</span></var> BE LIABLE FOR ANY DIRECT,\n        INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,\n        PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n        HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING\n        NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE\n        POSSIBILITY OF SUCH DAMAGE.\n      </p>\n\n    ",
             "spdx:name": "BSD 4-Clause \"Original\" or \"Old\" License",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d012efae-a7c9-4d47-b121-e1abd33be973"
-                },
-                {
-                    "@id": "_:1caeceda-c52d-4fff-8a40-aacc46669172"
-                }
-            ],
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
                 "http://directory.fsf.org/wiki/License:BSD_4Clause",
@@ -34,30 +34,7 @@
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) <year> <owner>. All rights reserved.  \";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> All advertising materials mentioning features or use of this software must display the following acknowledgement:\n   This product includes software developed by <<var;name=\"organizationClause3\";original=\"the organization\";match=\".+\">> .\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> <<var;name=\"organizationClause4\";original=\"Neither the name of the copyright holder nor the names the copyright holder nor the names of its contributors may\";match=\"(The name of.+may not)|(Neither the name of.+nor the names of (its|their) contributors may)\">> be used to endorse or promote products derived from this software without specific prior written permission.\nTHIS SOFTWARE IS PROVIDED BY <<var;name=\"copyrightHolderAsIs\";original=\"COPYRIGHT HOLDER\";match=\".+\">> \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"COPYRIGHT HOLDER\";match=\".+\">> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n"
         },
         {
-            "@id": "_:d012efae-a7c9-4d47-b121-e1abd33be973",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://directory.fsf.org/wiki/License:BSD_4Clause",
-            "spdx:timestamp": "2026-02-20T15:25:07Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:1caeceda-c52d-4fff-8a40-aacc46669172",
+            "@id": "_:6038a6cc-0de1-46fe-ae2a-e17dfe11bf85",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -71,12 +48,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/jsommers/pytricia/blob/master/patricia.c#L33-L67",
-            "spdx:timestamp": "2026-02-20T15:25:06Z",
+            "spdx:timestamp": "2026-02-20T15:41:30Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:0a6c5732-79ea-47a3-8982-e848a8ee84e1",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://directory.fsf.org/wiki/License:BSD_4Clause",
+            "spdx:timestamp": "2026-02-20T15:41:30Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

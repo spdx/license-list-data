@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:1005b22b-6dd5-4a7f-a602-dc7b8e63708e",
+            "@id": "_:86da818d-99cd-45b6-abba-0b22d4c96093",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/GNOME/libxml2/blob/master/dict.c",
-            "spdx:timestamp": "2026-02-20T15:26:21Z",
+            "spdx:timestamp": "2026-02-20T15:43:24Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,42 +24,8 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:51e9a92a-9bc3-45cb-adc7-2e98855a1758",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://sourceforge.net/p/ctrio/git/ci/master/tree/README",
-            "spdx:timestamp": "2026-02-20T15:26:21Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/ISC-Veillard",
             "spdx:name": "ISC Veillard variant",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:1005b22b-6dd5-4a7f-a602-dc7b8e63708e"
-                },
-                {
-                    "@id": "_:51e9a92a-9bc3-45cb-adc7-2e98855a1758"
-                },
-                {
-                    "@id": "_:f05bcb4b-3efd-43ba-a9c4-9c197310ba88"
-                }
-            ],
             "rdfs:comment": "This license uses the same grant as ISC, but a different disclaimer paragraph. It appears to originate from the Trio printf library.",
             "rdfs:seeAlso": [
                 "https://raw.githubusercontent.com/GNOME/libxml2/4c2e7c651f6c2f0d1a74f350cbda95f7df3e7017/hash.c",
@@ -70,6 +36,17 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:fbafb77e-573f-456d-97da-39165e7a0e54"
+                },
+                {
+                    "@id": "_:fb10874c-86f8-45d1-bfcb-c01b0c4ed2b6"
+                },
+                {
+                    "@id": "_:86da818d-99cd-45b6-abba-0b22d4c96093"
+                }
+            ],
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n             Copyright (C) 2003-2012 Daniel Veillard.\n        </span></var>\n        <p>\n            Permission to use, copy,\n            modify, and distribute this software for any purpose with or\n            without fee is hereby granted, provided that the above copyright\n            notice and this permission notice appear in all copies. THIS\n            SOFTWARE IS PROVIDED &quot;AS IS&quot; AND WITHOUT ANY EXPRESS OR IMPLIED\n            WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES\n            OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS\n            AND CONTRIBUTORS ACCEPT NO RESPONSIBILITY IN ANY CONCEIVABLE MANNER.\n         </p>\n\n      ",
             "spdx:licenseText": "Copyright (C) 2003-2012 Daniel Veillard. \nPermission to use, copy,\nmodify, and distribute this software for any purpose with or\nwithout fee is hereby granted, provided that the above copyright\nnotice and this permission notice appear in all copies. THIS\nSOFTWARE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED\nWARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES\nOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS\nAND CONTRIBUTORS ACCEPT NO RESPONSIBILITY IN ANY CONCEIVABLE MANNER.\n",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2003-2012 Daniel Veillard.\";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies. THIS SOFTWARE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE AUTHORS AND CONTRIBUTORS ACCEPT NO RESPONSIBILITY IN ANY CONCEIVABLE MANNER.\n\n",
@@ -80,7 +57,7 @@
             "@type": "spdx:ListedLicense"
         },
         {
-            "@id": "_:f05bcb4b-3efd-43ba-a9c4-9c197310ba88",
+            "@id": "_:fbafb77e-573f-456d-97da-39165e7a0e54",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -94,12 +71,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://raw.githubusercontent.com/GNOME/libxml2/4c2e7c651f6c2f0d1a74f350cbda95f7df3e7017/hash.c",
-            "spdx:timestamp": "2026-02-20T15:26:21Z",
+            "spdx:timestamp": "2026-02-20T15:43:23Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:fb10874c-86f8-45d1-bfcb-c01b0c4ed2b6",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://sourceforge.net/p/ctrio/git/ci/master/tree/README",
+            "spdx:timestamp": "2026-02-20T15:43:24Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

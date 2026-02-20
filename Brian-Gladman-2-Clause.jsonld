@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:5ccdb6e0-d15d-40d4-8a5c-b971bffb8fea",
+            "@id": "_:2726a8f3-69ca-47c5-8a97-dcc7ae4c040a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:timestamp": "2026-02-20T15:26:33Z",
+            "spdx:timestamp": "2026-02-20T15:43:38Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:a6e76a9b-9c08-4109-b304-1e2c3597b8fa",
+            "@id": "_:bb230e95-a194-40bb-9187-761673a83cc4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156",
-            "spdx:timestamp": "2026-02-20T15:26:33Z",
+            "spdx:timestamp": "2026-02-20T15:43:38Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/Brian-Gladman-2-Clause",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:2726a8f3-69ca-47c5-8a97-dcc7ae4c040a"
+                },
+                {
+                    "@id": "_:bb230e95-a194-40bb-9187-761673a83cc4"
+                }
+            ],
             "rdfs:comment": "This is similar to Brian-Gladman-3-Clause but sort omits the third clause, adds \"without the payment of fees or royalties\", and re-words the lead-in and first two clauses.",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -56,14 +64,6 @@
             "rdfs:seeAlso": [
                 "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156",
                 "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:5ccdb6e0-d15d-40d4-8a5c-b971bffb8fea"
-                },
-                {
-                    "@id": "_:a6e76a9b-9c08-4109-b304-1e2c3597b8fa"
-                }
             ],
             "spdx:licenseText": "Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All\n   rights reserved.\n\nThe redistribution and use of this software (with or without\nchanges) is allowed without the payment of fees or royalties\nprovided that:\n\n   source code distributions include the above copyright notice,\n   this list of conditions and the following disclaimer;\n\n   binary distributions include the above copyright notice, this\n   list of conditions and the following disclaimer in their\n   documentation.\n\nThis software is provided 'as is' with no explicit or implied\nwarranties in respect of its operation, including, but not limited\nto, correctness and fitness for purpose.\n",
             "@type": "spdx:ListedLicense",

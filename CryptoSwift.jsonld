@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:c01bc3c9-4a63-447f-bad6-d7ad395c671a",
+            "@id": "http://spdx.org/licenses/CryptoSwift",
+            "spdx:crossRef": {
+                "@id": "_:d0dad0c0-e728-4fb7-8dcc-02192d50801f"
+            },
+            "rdfs:comment": "This license is similar to Cube and zlib, but adds an acknowledgment requirement.",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": "https://github.com/krzyzanowskim/CryptoSwift/blob/main/LICENSE",
+            "spdx:licenseText": "Copyright (C) 2014-3099 Marcin Krzyżanowski\nThis software is provided 'as-is', without any express or implied warranty.\n\nIn no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose,including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n- The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation is required.\n- Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n- This notice may not be removed or altered from any source or binary distribution.\n- Redistributions of any form whatsoever must retain the following acknowledgment: 'This product includes software developed by the \"Marcin Krzyzanowski\" (http://krzyzanowskim.com/).'\n",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2014-3099 Marcin Krzyżanowski\";match=\".{0,5000}\">>\nThis software is provided 'as-is', without any express or implied warranty.\n\nIn no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose,including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation is required.\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> This notice may not be removed or altered from any source or binary distribution.\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> Redistributions of any form whatsoever must retain the following acknowledgment: 'This product includes software developed by the \"Marcin Krzyzanowski\" (http://krzyzanowskim.com/).'",
+            "spdx:name": "CryptoSwift License",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n\t<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> Copyright (C) 2014-3099 Marcin Krzyżanowski</span></var>\n\n\t<p>This software is provided &apos;as-is&apos;, without any express or implied warranty.</p>\n\n\t<p>In no event will the authors be held liable for any damages arising from the use of this software.</p>\n\n\t<p>Permission is granted to anyone to use this software for any purpose,including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:</p>\n\n<ul style=\"list-style:none\">\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation is required.</li>\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.</li>\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> This notice may not be removed or altered from any source or binary distribution.</li>\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> Redistributions of any form whatsoever must retain the following acknowledgment: &apos;This product includes software developed by the &quot;Marcin Krzyzanowski&quot; (http://krzyzanowskim.com/).&apos;</li>\n\t\n</ul>\n      "
+        },
+        {
+            "@id": "_:d0dad0c0-e728-4fb7-8dcc-02192d50801f",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/krzyzanowskim/CryptoSwift/blob/main/LICENSE",
-            "spdx:timestamp": "2026-02-20T15:27:19Z",
+            "spdx:timestamp": "2026-02-20T15:45:11Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/CryptoSwift",
-            "rdfs:comment": "This license is similar to Cube and zlib, but adds an acknowledgment requirement.",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:c01bc3c9-4a63-447f-bad6-d7ad395c671a"
-            },
-            "rdfs:seeAlso": "https://github.com/krzyzanowskim/CryptoSwift/blob/main/LICENSE",
-            "spdx:licenseText": "Copyright (C) 2014-3099 Marcin Krzyżanowski\nThis software is provided 'as-is', without any express or implied warranty.\n\nIn no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose,including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n- The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation is required.\n- Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n- This notice may not be removed or altered from any source or binary distribution.\n- Redistributions of any form whatsoever must retain the following acknowledgment: 'This product includes software developed by the \"Marcin Krzyzanowski\" (http://krzyzanowskim.com/).'\n",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2014-3099 Marcin Krzyżanowski\";match=\".{0,5000}\">>\nThis software is provided 'as-is', without any express or implied warranty.\n\nIn no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose,including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation is required.\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> This notice may not be removed or altered from any source or binary distribution.\n   <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> Redistributions of any form whatsoever must retain the following acknowledgment: 'This product includes software developed by the \"Marcin Krzyzanowski\" (http://krzyzanowskim.com/).'",
-            "spdx:name": "CryptoSwift License",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n\t<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> Copyright (C) 2014-3099 Marcin Krzyżanowski</span></var>\n\n\t<p>This software is provided &apos;as-is&apos;, without any express or implied warranty.</p>\n\n\t<p>In no event will the authors be held liable for any damages arising from the use of this software.</p>\n\n\t<p>Permission is granted to anyone to use this software for any purpose,including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:</p>\n\n<ul style=\"list-style:none\">\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation is required.</li>\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.</li>\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> This notice may not be removed or altered from any source or binary distribution.</li>\n\t\t\n<li><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var> Redistributions of any form whatsoever must retain the following acknowledgment: &apos;This product includes software developed by the &quot;Marcin Krzyzanowski&quot; (http://krzyzanowskim.com/).&apos;</li>\n\t\n</ul>\n      "
         }
     ],
     "@context": {
