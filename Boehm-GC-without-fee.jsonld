@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:cec3bd09-c4a1-4709-b021-7286876d503e",
+            "@id": "http://spdx.org/licenses/Boehm-GC-without-fee",
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseText": "Copyright (c)  2000\nSWsoft  company\n\nModifications copyright (c) 2001, 2013. Oracle and/or its affiliates.\nAll rights reserved.\n\nThis material is provided \"as is\", with absolutely no warranty expressed\nor implied. Any use is at your own risk.\n\nPermission to use or copy this software for any purpose is hereby granted\nwithout fee, provided the above notices are retained on all copies.\nPermission to modify the code and to distribute modified code is granted,\nprovided the above notices are retained, and a notice that the code was\nmodified is included with the above copyright notice.\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:4feb5e5e-23b1-4857-b956-dd598f04480b"
+            },
+            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n        <p>\n            Copyright (c) 2000 SWsoft company\n        </p>\n\n         <p>\n            Modifications copyright (c) 2001, 2013. Oracle\n            and/or its affiliates. All rights reserved.\n         </p>\n\n         </span></div>\n         <p>\n            This material is provided &quot;as is&quot;, with absolutely no\n            warranty expressed or implied. Any use is at your own risk.\n         </p>\n\n         <p>\n            Permission to use or copy this software for any purpose\n            is hereby granted without fee, provided the above notices\n            are retained on all copies. Permission to modify the code\n            and to distribute modified code is granted, provided the\n            above notices are retained, and a notice that the code\n            was modified is included with the above copyright notice.\n         </p>\n\n      ",
+            "rdfs:comment": "This license is similar to Boehm-GC with slightly different wording and adds \"without fee\".",
+            "spdx:name": "Boehm-Demers-Weiser GC License (without fee)",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 2000 SWsoft company   Modifications copyright (c) 2001, 2013. Oracle and/or its affiliates. All rights reserved.  \";match=\".{0,5000}\">>\nThis material is provided \"as is\", with absolutely no warranty expressed or implied. Any use is at your own risk.\n\nPermission to use or copy this software for any purpose is hereby granted without fee, provided the above notices are retained on all copies. Permission to modify the code and to distribute modified code is granted, provided the above notices are retained, and a notice that the code was modified is included with the above copyright notice.\n\n",
+            "rdfs:seeAlso": "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc"
+        },
+        {
+            "@id": "_:4feb5e5e-23b1-4857-b956-dd598f04480b",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc",
-            "spdx:timestamp": "2026-02-20T19:03:31Z",
+            "spdx:timestamp": "2026-02-20T19:20:59Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/Boehm-GC-without-fee",
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseText": "Copyright (c)  2000\nSWsoft  company\n\nModifications copyright (c) 2001, 2013. Oracle and/or its affiliates.\nAll rights reserved.\n\nThis material is provided \"as is\", with absolutely no warranty expressed\nor implied. Any use is at your own risk.\n\nPermission to use or copy this software for any purpose is hereby granted\nwithout fee, provided the above notices are retained on all copies.\nPermission to modify the code and to distribute modified code is granted,\nprovided the above notices are retained, and a notice that the code was\nmodified is included with the above copyright notice.\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n        <p>\n            Copyright (c) 2000 SWsoft company\n        </p>\n\n         <p>\n            Modifications copyright (c) 2001, 2013. Oracle\n            and/or its affiliates. All rights reserved.\n         </p>\n\n         </span></div>\n         <p>\n            This material is provided &quot;as is&quot;, with absolutely no\n            warranty expressed or implied. Any use is at your own risk.\n         </p>\n\n         <p>\n            Permission to use or copy this software for any purpose\n            is hereby granted without fee, provided the above notices\n            are retained on all copies. Permission to modify the code\n            and to distribute modified code is granted, provided the\n            above notices are retained, and a notice that the code\n            was modified is included with the above copyright notice.\n         </p>\n\n      ",
-            "rdfs:comment": "This license is similar to Boehm-GC with slightly different wording and adds \"without fee\".",
-            "spdx:crossRef": {
-                "@id": "_:cec3bd09-c4a1-4709-b021-7286876d503e"
-            },
-            "spdx:name": "Boehm-Demers-Weiser GC License (without fee)",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 2000 SWsoft company   Modifications copyright (c) 2001, 2013. Oracle and/or its affiliates. All rights reserved.  \";match=\".{0,5000}\">>\nThis material is provided \"as is\", with absolutely no warranty expressed or implied. Any use is at your own risk.\n\nPermission to use or copy this software for any purpose is hereby granted without fee, provided the above notices are retained on all copies. Permission to modify the code and to distribute modified code is granted, provided the above notices are retained, and a notice that the code was modified is included with the above copyright notice.\n\n",
-            "rdfs:seeAlso": "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc"
         }
     ],
     "@context": {

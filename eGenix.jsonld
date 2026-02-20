@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:ec0e021f-8d99-42f8-ae54-b8007e224cd9",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0",
-            "spdx:timestamp": "2026-02-20T19:04:07Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:904248c0-2317-4dec-8d6a-6fdeb544eecb",
+            "@id": "_:d1ed356f-c6ff-499f-b808-3a302e049c9c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.egenix.com/products/eGenix.com-Public-License-1.1.0.pdf",
-            "spdx:timestamp": "2026-02-20T19:04:07Z",
+            "spdx:timestamp": "2026-02-20T19:21:17Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,20 +24,43 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:1812d341-ab33-4e6b-b7d3-30bc9ac64083",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/eGenix.com_Public_License_1.1.0",
+            "spdx:timestamp": "2026-02-20T19:21:16Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/eGenix",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:d1ed356f-c6ff-499f-b808-3a302e049c9c"
+                },
+                {
+                    "@id": "_:1812d341-ab33-4e6b-b7d3-30bc9ac64083"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:ec0e021f-8d99-42f8-ae54-b8007e224cd9"
-                },
-                {
-                    "@id": "_:904248c0-2317-4dec-8d6a-6fdeb544eecb"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

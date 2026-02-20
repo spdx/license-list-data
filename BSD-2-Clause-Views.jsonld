@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:6580d30f-a50d-4b92-85b1-d315ac254ff2",
+            "@id": "_:2974af31-aa72-440f-ba5a-c177f5dd48d0",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
-            "spdx:timestamp": "2026-02-20T19:01:07Z",
+            "spdx:timestamp": "2026-02-20T19:18:36Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,30 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:31503706-6c91-476f-8091-ce335de10c3d",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/protegeproject/protege/blob/master/license.txt",
-            "spdx:timestamp": "2026-02-20T19:01:06Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:c0d265ff-2369-42df-88e4-b50b173200ce",
+            "@id": "_:a214c7f1-f6bb-43cd-b10b-6e2e7dd4e0c1",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.freebsd.org/copyright/freebsd-license.html",
-            "spdx:timestamp": "2026-02-20T19:01:07Z",
+            "spdx:timestamp": "2026-02-20T19:18:36Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -72,21 +49,21 @@
         {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-Views",
             "rdfs:comment": "This is a more generalized version of BSD-2-Clause-FreeBSD, which is now deprecated. It is identical to BSD-2-Clause with the addition of the \"views and conclusions\" sentence at the end.",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:a214c7f1-f6bb-43cd-b10b-6e2e7dd4e0c1"
+                },
+                {
+                    "@id": "_:987f6469-5e23-4d0c-bba5-8efcbcc4bf32"
+                },
+                {
+                    "@id": "_:2974af31-aa72-440f-ba5a-c177f5dd48d0"
+                }
+            ],
             "rdfs:seeAlso": [
                 "http://www.freebsd.org/copyright/freebsd-license.html",
                 "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
                 "https://github.com/protegeproject/protege/blob/master/license.txt"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:c0d265ff-2369-42df-88e4-b50b173200ce"
-                },
-                {
-                    "@id": "_:31503706-6c91-476f-8091-ce335de10c3d"
-                },
-                {
-                    "@id": "_:6580d30f-a50d-4b92-85b1-d315ac254ff2"
-                }
             ],
             "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) &lt;year&gt; &lt;owner&gt; All rights reserved.</p>\n\n      </span></div>\n\n      <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided\n         that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          Redistributions of source code must retain the above copyright notice, this list of conditions\n             and the following disclaimer.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          Redistributions in binary form must reproduce the above copyright notice, this list of conditions\n             and the following disclaimer in the documentation and/or other materials provided with the\n             distribution.\n        </li>\n      \n</ul>\n      <p>THIS SOFTWARE IS PROVIDED BY\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE COPYRIGHT HOLDERS AND CONTRIBUTORS</span></var> &quot;AS IS&quot; AND ANY\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern EXPRESS(ED)?\"> EXPRESS</span></var> OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY\n        AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE COPYRIGHT HOLDER OR CONTRIBUTORS</span></var> BE LIABLE FOR\n        ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT\n        LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS\n        INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR\n        TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF\n        ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>\n\n      <p>The views and conclusions contained in the software and documentation are those of the authors and should\n         not be interpreted as representing official policies, either expressed or implied, of <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> the copyright holders or contributors.</span></var></p>\n\n    ",
             "spdx:licenseText": "Copyright (c) <year> <owner> All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the copyright holders or contributors.\n",
@@ -101,6 +78,29 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
+        },
+        {
+            "@id": "_:987f6469-5e23-4d0c-bba5-8efcbcc4bf32",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/protegeproject/protege/blob/master/license.txt",
+            "spdx:timestamp": "2026-02-20T19:18:36Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

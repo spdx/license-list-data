@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:d39697e1-3a95-49bd-9524-2b5315ffbcc5",
+            "@id": "http://spdx.org/licenses/HPND-Pbmplus",
+            "rdfs:seeAlso": "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/netpbm.c#l8",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                Copyright (C) 1991 by Jef Poskanzer.\n        </span></var>\n\n         <p>\n                Permission to use, copy, modify, and distribute this software\n                and its documentation for any purpose and without fee is hereby\n                granted, provided that the above copyright notice appear in all copies\n                and that both that copyright notice and this permission\n                notice appear in supporting documentation. This software\n                is provided &quot;as is&quot; without express or implied warranty.\n         </p>\n\n      ",
+            "spdx:crossRef": {
+                "@id": "_:4381c33d-edb3-4215-8e87-6a5bf9302cfc"
+            },
+            "spdx:name": "Historical Permission Notice and Disclaimer - Pbmplus variant",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1991 by Jef Poskanzer.\";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. This software is provided \"as is\" without express or implied warranty.\n\n",
+            "spdx:licenseText": "Copyright (C) 1991 by Jef Poskanzer.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted, provided\nthat the above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation.  This software is provided \"as is\" without express or\nimplied warranty.\n",
+            "@type": "spdx:ListedLicense",
+            "rdfs:comment": "This license is nearly a match for HPND, but omits first sentence of third clause regarding no reps, and only includes the second sentence regarding \"as is\". In the original HPND that entire clause is optional."
+        },
+        {
+            "@id": "_:4381c33d-edb3-4215-8e87-6a5bf9302cfc",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/netpbm.c#l8",
-            "spdx:timestamp": "2026-02-20T19:04:03Z",
+            "spdx:timestamp": "2026-02-20T19:21:08Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/HPND-Pbmplus",
-            "rdfs:seeAlso": "https://sourceforge.net/p/netpbm/code/HEAD/tree/super_stable/netpbm.c#l8",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                Copyright (C) 1991 by Jef Poskanzer.\n        </span></var>\n\n         <p>\n                Permission to use, copy, modify, and distribute this software\n                and its documentation for any purpose and without fee is hereby\n                granted, provided that the above copyright notice appear in all copies\n                and that both that copyright notice and this permission\n                notice appear in supporting documentation. This software\n                is provided &quot;as is&quot; without express or implied warranty.\n         </p>\n\n      ",
-            "spdx:name": "Historical Permission Notice and Disclaimer - Pbmplus variant",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1991 by Jef Poskanzer.\";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation. This software is provided \"as is\" without express or implied warranty.\n\n",
-            "spdx:crossRef": {
-                "@id": "_:d39697e1-3a95-49bd-9524-2b5315ffbcc5"
-            },
-            "spdx:licenseText": "Copyright (C) 1991 by Jef Poskanzer.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose and without fee is hereby granted, provided\nthat the above copyright notice appear in all copies and that both that\ncopyright notice and this permission notice appear in supporting\ndocumentation.  This software is provided \"as is\" without express or\nimplied warranty.\n",
-            "@type": "spdx:ListedLicense",
-            "rdfs:comment": "This license is nearly a match for HPND, but omits first sentence of third clause regarding no reps, and only includes the second sentence regarding \"as is\". In the original HPND that entire clause is optional."
         }
     ],
     "@context": {
