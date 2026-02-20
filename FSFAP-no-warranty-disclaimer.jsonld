@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:bf5368ea-8066-4cd7-a876-76bd26b436c0",
+            "@id": "_:d9df100a-73e3-42ff-8af5-2855b3097843",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.savannah.gnu.org/cgit/wget.git/tree/util/trunc.c?h=v1.21.3&id=40747a11e44ced5a8ac628a41f879ced3e2ebce9#n6",
-            "spdx:timestamp": "2026-02-20T19:17:44Z",
+            "spdx:timestamp": "2026-02-20T20:55:38Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/FSFAP-no-warranty-disclaimer",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:d9df100a-73e3-42ff-8af5-2855b3097843"
+            },
             "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/wget.git/tree/util/trunc.c?h=v1.21.3&id=40747a11e44ced5a8ac628a41f879ced3e2ebce9#n6",
             "spdx:licenseTextHtml": "\n                        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                                Copyright (C) 2008 Micah J. Cowan\n                        </span></var>\n                        <p>\n                                Copying and distribution of this\n                                file, with or without\n                                modification, are permitted in\n                                any medium without royalty\n                                provided the copyright\n                                notice and this notice are\n                                preserved.\n                        </p>\n\n                ",
             "rdfs:comment": "This license is identical to FSFAP except it omits the no-warranty sentence at the end.",
@@ -38,9 +41,6 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:bf5368ea-8066-4cd7-a876-76bd26b436c0"
             },
             "spdx:name": "FSF All Permissive License (without Warranty)"
         }

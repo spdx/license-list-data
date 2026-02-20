@@ -1,7 +1,27 @@
 {
     "@graph": [
         {
-            "@id": "_:00544342-2cd9-446a-9235-e1b8dfa92c7c",
+            "@id": "http://spdx.org/licenses/checkmk",
+            "spdx:licenseText": "# Copyright (c) 2006, 2010  Micah Cowan\n#\n# Redistribution of this program in any form, with or without\n# modifications, is permitted, provided that the above copyright is\n# retained in distributions of this program in source form.\n#\n# (This is a free, non-copyleft license compatible with pretty much any\n# other free or proprietary license, including the GPL. It's essentially\n# a scaled-down version of the \"modified\" BSD license.)\n",
+            "rdfs:seeAlso": "https://github.com/libcheck/check/blob/master/checkmk/checkmk.in",
+            "spdx:licenseTextHtml": "\n\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) 2006, 2010  Micah Cowan</p>\n\n      </span></div>\n\n      <p>Redistribution of this program in any form, with or without\n modifications, is permitted, provided that the above copyright is\n retained in distributions of this program in source form.</p>\n\n<p> (This is a free, non-copyleft license compatible with pretty much any\nother free or proprietary license, including the GPL. It&apos;s essentially\na scaled-down version of the &quot;modified&quot; BSD license.)\n</p>\n\n    ",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 2006, 2010 Micah Cowan  \";match=\".{0,5000}\">>\nRedistribution of this program in any form, with or without modifications, is permitted, provided that the above copyright is retained in distributions of this program in source form.\n\n(This is a free, non-copyleft license compatible with pretty much any other free or proprietary license, including the GPL. It's essentially a scaled-down version of the \"modified\" BSD license.)\n\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:273eee7f-a115-48c9-b544-0995a38a5621"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "Checkmk License",
+            "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:273eee7f-a115-48c9-b544-0995a38a5621",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,33 +35,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/libcheck/check/blob/master/checkmk/checkmk.in",
-            "spdx:timestamp": "2026-02-20T19:19:34Z",
+            "spdx:timestamp": "2026-02-20T20:58:53Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/checkmk",
-            "spdx:licenseText": "# Copyright (c) 2006, 2010  Micah Cowan\n#\n# Redistribution of this program in any form, with or without\n# modifications, is permitted, provided that the above copyright is\n# retained in distributions of this program in source form.\n#\n# (This is a free, non-copyleft license compatible with pretty much any\n# other free or proprietary license, including the GPL. It's essentially\n# a scaled-down version of the \"modified\" BSD license.)\n",
-            "rdfs:seeAlso": "https://github.com/libcheck/check/blob/master/checkmk/checkmk.in",
-            "spdx:licenseTextHtml": "\n\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) 2006, 2010  Micah Cowan</p>\n\n      </span></div>\n\n      <p>Redistribution of this program in any form, with or without\n modifications, is permitted, provided that the above copyright is\n retained in distributions of this program in source form.</p>\n\n<p> (This is a free, non-copyleft license compatible with pretty much any\nother free or proprietary license, including the GPL. It&apos;s essentially\na scaled-down version of the &quot;modified&quot; BSD license.)\n</p>\n\n    ",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 2006, 2010 Micah Cowan  \";match=\".{0,5000}\">>\nRedistribution of this program in any form, with or without modifications, is permitted, provided that the above copyright is retained in distributions of this program in source form.\n\n(This is a free, non-copyleft license compatible with pretty much any other free or proprietary license, including the GPL. It's essentially a scaled-down version of the \"modified\" BSD license.)\n\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:00544342-2cd9-446a-9235-e1b8dfa92c7c"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "Checkmk License",
-            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {

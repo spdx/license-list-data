@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:838c73ac-79e1-4f92-ad4b-c554f8e6a4e1",
+            "@id": "_:e18089c4-7d66-4df6-a249-576c159fec6d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.itu.int/ITU-T/formal-language/itu-t/t/t173/1997/ISOMHEG-sir.html",
-            "spdx:timestamp": "2026-02-20T19:18:30Z",
+            "spdx:timestamp": "2026-02-20T20:56:43Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:3b73505d-0d1c-44c5-8700-37c6601ce7a8",
+            "@id": "_:34f36828-00e3-48d4-9c36-c8bed66bf9dc",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.com/agmartin/linuxdoc-tools/-/blob/master/iso-entities/COPYING?ref_type=heads",
-            "spdx:timestamp": "2026-02-20T19:18:31Z",
+            "spdx:timestamp": "2026-02-20T20:56:44Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/ISO-permission",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:e18089c4-7d66-4df6-a249-576c159fec6d"
+                },
+                {
+                    "@id": "_:34f36828-00e3-48d4-9c36-c8bed66bf9dc"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -58,14 +66,6 @@
                 "https://www.itu.int/ITU-T/formal-language/itu-t/t/t173/1997/ISOMHEG-sir.html"
             ],
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            (C) International Organization for Standardization 1986\n         </span></var>\n         <p>\n            Permission to copy in any form is granted for use with conforming \n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SGML systems|to MHEG-3 engines\"> SGML systems</span></var>\n            and applications as defined \n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern in ISO 8879,|by this Recommendation\"> in ISO 8879,</span></var>\n            provided this notice is included in all copies.\n         </p>\n\n      ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:838c73ac-79e1-4f92-ad4b-c554f8e6a4e1"
-                },
-                {
-                    "@id": "_:3b73505d-0d1c-44c5-8700-37c6601ce7a8"
-                }
-            ],
             "rdfs:comment": "",
             "spdx:licenseText": "(C) International Organization for Standardization 1986\nPermission to copy in any form is granted for use with\nconforming SGML systems and applications as defined \nin ISO 8879, provided this notice is included in all copies.\n",
             "@type": "spdx:ListedLicense",

@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:d249a2b0-9484-427e-ba14-134d788ba2b3",
+            "@id": "_:8560c50c-47fe-4289-b402-307cf941a036",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.zlib.net/zlib_license.html",
-            "spdx:timestamp": "2026-02-20T19:21:11Z",
+            "spdx:timestamp": "2026-02-20T21:04:05Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:d2e32f42-f189-4f17-9569-3d5fedb01ad9",
+            "@id": "_:1c247b17-1325-4b6f-b330-4df18754b842",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/licenses/Zlib",
-            "spdx:timestamp": "2026-02-20T19:21:11Z",
+            "spdx:timestamp": "2026-02-20T21:04:05Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -56,6 +56,14 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:8560c50c-47fe-4289-b402-307cf941a036"
+                },
+                {
+                    "@id": "_:1c247b17-1325-4b6f-b330-4df18754b842"
+                }
+            ],
             "spdx:name": "zlib License",
             "spdx:licenseText": "zlib License\n\nThis software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     3. This notice may not be removed or altered from any source distribution.\n",
             "rdfs:seeAlso": [
@@ -68,14 +76,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>zlib License</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;</p>\n\n      </span></div>\n      <p>This software is provided &apos;as-is&apos;, without any express or implied warranty. In no event will the authors\n         be held liable for any damages arising from the use of this software.</p>\n\n      <p>Permission is granted to anyone to use this software for any purpose, including commercial applications,\n         and to alter it and redistribute it freely, subject to the following restrictions:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          The origin of this software must not be misrepresented; you must not claim that you wrote the\n             original software. If you use this software in a product, an acknowledgment in the product\n             documentation would be appreciated but is not required.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          Altered source versions must be plainly marked as such, and must not be misrepresented as being\n             the original software.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 3.</span></var>\n          This notice may not be removed or altered from any source distribution.\n        </li>\n      \n</ul>\n    ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d2e32f42-f189-4f17-9569-3d5fedb01ad9"
-                },
-                {
-                    "@id": "_:d249a2b0-9484-427e-ba14-134d788ba2b3"
-                }
-            ],
             "spdx:standardLicenseTemplate": "<<beginOptional>>zlib License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>  \";match=\".{0,5000}\">>\nThis software is provided 'as-is', without any express or implied warranty. In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This notice may not be removed or altered from any source distribution."
         }
     ],

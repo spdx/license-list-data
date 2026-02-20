@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:1d2dd882-96dd-42bd-a7c5-54af90b44874",
+            "@id": "_:68d39413-3a6a-4e56-acb6-a2c1a084ad1a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.gnu.org/software/classpath/license.html",
-            "spdx:timestamp": "2026-02-20T19:18:35Z",
+            "spdx:timestamp": "2026-02-20T20:57:49Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/GPL-2.0-with-classpath-exception",
+            "spdx:crossRef": {
+                "@id": "_:68d39413-3a6a-4e56-acb6-a2c1a084ad1a"
+            },
             "rdfs:seeAlso": "https://www.gnu.org/software/classpath/license.html",
             "spdx:standardLicenseTemplate": "insert GPL v2 license text here\n\nClass Path Exception\n\nLinking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General Public License cover the whole combination.\n\nAs a special exception, the copyright holders of this library give you permission to link this library with independent modules to produce an executable, regardless of the license terms of these independent modules, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the terms and conditions of the license of that module. An independent module is a module which is not derived from or based on this library. If you modify this library, you may extend this exception to your version of the library, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.\n\n",
             "rdfs:comment": "DEPRECATED: Use license expression including main license, \"WITH\" operator, and identifier: Classpath-exception-2.0",
@@ -32,9 +35,6 @@
             "spdx:isDeprecatedLicenseId": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:1d2dd882-96dd-42bd-a7c5-54af90b44874"
             },
             "spdx:deprecatedVersion": "2.0rc2",
             "spdx:licenseText": "insert GPL v2 license text here\n\nClass Path Exception\n\nLinking this library statically or dynamically with other modules is making a combined work based on this library. Thus, the terms and conditions of the GNU General Public License cover the whole combination.\n\nAs a special exception, the copyright holders of this library give you permission to link this library with independent modules to produce an executable, regardless of the license terms of these independent modules, and to copy and distribute the resulting executable under terms of your choice, provided that you also meet, for each linked independent module, the terms and conditions of the license of that module. An independent module is a module which is not derived from or based on this library. If you modify this library, you may extend this exception to your version of the library, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.\n\n",

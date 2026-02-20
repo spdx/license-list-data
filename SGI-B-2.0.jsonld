@@ -1,32 +1,12 @@
 {
     "@graph": [
         {
-            "@id": "_:e5e69016-638f-4276-81fe-7311f1f690df",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://oss.sgi.com/projects/FreeB/SGIFreeSWLicB.2.0.pdf",
-            "spdx:timestamp": "2026-02-20T19:19:42Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/SGI-B-2.0",
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "This license was released 18 Sept 2008",
+            "spdx:crossRef": {
+                "@id": "_:635c4808-5d92-4bfb-8dc3-10657a95cb83"
+            },
             "rdfs:seeAlso": "http://oss.sgi.com/projects/FreeB/SGIFreeSWLicB.2.0.pdf",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -43,10 +23,30 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:name": "SGI Free Software License B v2.0",
-            "spdx:crossRef": {
-                "@id": "_:e5e69016-638f-4276-81fe-7311f1f690df"
-            }
+            "spdx:name": "SGI Free Software License B v2.0"
+        },
+        {
+            "@id": "_:635c4808-5d92-4bfb-8dc3-10657a95cb83",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://oss.sgi.com/projects/FreeB/SGIFreeSWLicB.2.0.pdf",
+            "spdx:timestamp": "2026-02-20T20:59:56Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
