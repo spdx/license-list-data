@@ -1,61 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:3f99cb56-e828-468f-82fa-14a88774cd7a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/BuildCraft/BuildCraft/blob/623d323b1868712f29f4a8b0979a02e8d1835131/LICENSE",
-            "spdx:timestamp": "2026-02-20T12:44:37Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:8ae7ae42-ec9a-4335-951d-3fc582857aff",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://mod-buildcraft.com/MMPL-1.0.txt",
-            "spdx:timestamp": "2026-02-20T12:44:37Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/MMPL-1.0.1",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8ae7ae42-ec9a-4335-951d-3fc582857aff"
-                },
-                {
-                    "@id": "_:3f99cb56-e828-468f-82fa-14a88774cd7a"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -72,7 +18,61 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseTemplate": "<<beginOptional>>Minecraft Mod Public License\n============================\n\nVersion 1.0.1\n\n<<endOptional>>\n   <<var;name=\"bullet\";original=\"0.\";match=\".{0,20}\">> Definitions\n   --------------\n   Minecraft: Denotes a copy of the Minecraft game licensed by Mojang AB\n\n   User: Anybody that interacts with the software in one of the following ways:\n\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> play\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> decompile\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> recompile or compile\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> modify\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> distribute\n   Mod: The mod code designated by the present license, in source form, binary form, as obtained standalone, as part of a wider distribution or resulting from the compilation of the original or modified sources.\n\n   Dependency: Code required for the mod to work properly. This includes dependencies required to compile the code as well as any file or modification that is explicitely or implicitely required for the mod to be working.\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Scope\n   --------\n   The present license is granted to any user of the mod. As a prerequisite, a user must own a legally acquired copy of Minecraft\n\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Liability\n   ------------\n   This mod is provided 'as is' with no warranties, implied or otherwise. The owner of this mod takes no responsibility for any damages incurred from the use of this mod. This mod alters fundamental parts of the Minecraft game, parts of Minecraft may not work with this mod installed. All damages caused from the use or misuse of this mad fall on the user.\n\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> Play rights\n   --------------\n   The user is allowed to install this mod on a client or a server and to play without restriction.\n\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> Modification rights\n   ----------------------\n   The user has the right to decompile the source code, look at either the decompiled version or the original source code, and to modify it.\n\n   <<var;name=\"bullet\";original=\"5.\";match=\".{0,20}\">> Derivation rights\n   --------------------\n   The user has the rights to derive code from this mod, that is to say to write code that extends or instanciate the mod classes or interfaces, refer to its objects, or calls its functions. This code is known as \"derived\" code, and can be licensed under a license different from this mod.\n\n   <<var;name=\"bullet\";original=\"6.\";match=\".{0,20}\">> Distribution of original or modified copy rights\n   ---------------------------------------------------\n   Is subject to distribution rights this entire mod in its various forms. This include:\n\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> original binary or source forms of this mod files\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> modified versions of these binaries or source files, as well as binaries resulting from source modifications\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> patch to its source or binary files\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> any copy of a portion of its binary source files\n   The user is allowed to redistribute this mod partially, in totality, or included in a distribution.\n\n   When distributing binary files, the user must provide means to obtain its entire set of sources or modified sources at no costs.\n\n   All distributions of this mod must remain licensed under the MMPL.\n\n   All dependencies that this mod have on other mods or classes must be licensed under conditions comparable to this version of MMPL, with the exception of the Minecraft code and the mod loading framework (e.g. ModLoader, ModLoaderMP or Bukkit).\n\n   Modified version of binaries and sources, as well as files containing sections copied from this mod, should be distributed under the terms of the present license.\n   \n   ",
-            "@type": "spdx:ListedLicense"
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:ec6debb5-f093-408d-8e86-56335c688128"
+                },
+                {
+                    "@id": "_:a6918ee5-3a34-49b7-b514-15f1132cfd61"
+                }
+            ]
+        },
+        {
+            "@id": "_:ec6debb5-f093-408d-8e86-56335c688128",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://mod-buildcraft.com/MMPL-1.0.txt",
+            "spdx:timestamp": "2026-02-20T13:34:59Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:a6918ee5-3a34-49b7-b514-15f1132cfd61",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/BuildCraft/BuildCraft/blob/623d323b1868712f29f4a8b0979a02e8d1835131/LICENSE",
+            "spdx:timestamp": "2026-02-20T13:34:59Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

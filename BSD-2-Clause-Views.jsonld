@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:474995ae-ed2d-45f7-9614-471ce080423f",
+            "@id": "_:1e306c95-83db-4f44-86b1-9f8247d11da2",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -14,10 +14,33 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
-            "spdx:timestamp": "2026-02-20T12:43:46Z",
+            "spdx:url": "http://www.freebsd.org/copyright/freebsd-license.html",
+            "spdx:timestamp": "2026-02-20T13:33:29Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:85e97345-2e11-4ec0-bcae-67fedbb6d73f",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/protegeproject/protege/blob/master/license.txt",
+            "spdx:timestamp": "2026-02-20T13:33:29Z",
+            "spdx:order": {
+                "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
@@ -26,17 +49,6 @@
         {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-Views",
             "rdfs:comment": "This is a more generalized version of BSD-2-Clause-FreeBSD, which is now deprecated. It is identical to BSD-2-Clause with the addition of the \"views and conclusions\" sentence at the end.",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:474995ae-ed2d-45f7-9614-471ce080423f"
-                },
-                {
-                    "@id": "_:6d92fbf0-ae47-4fbb-8583-0ff13b5767f9"
-                },
-                {
-                    "@id": "_:9fb79ec8-5cf2-4e71-84ad-ace26cbbbb9b"
-                }
-            ],
             "rdfs:seeAlso": [
                 "http://www.freebsd.org/copyright/freebsd-license.html",
                 "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
@@ -51,13 +63,24 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:1e306c95-83db-4f44-86b1-9f8247d11da2"
+                },
+                {
+                    "@id": "_:85e97345-2e11-4ec0-bcae-67fedbb6d73f"
+                },
+                {
+                    "@id": "_:bc8758d5-e688-47ba-a841-d9a30cd385aa"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         },
         {
-            "@id": "_:6d92fbf0-ae47-4fbb-8583-0ff13b5767f9",
+            "@id": "_:bc8758d5-e688-47ba-a841-d9a30cd385aa",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -70,36 +93,13 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://github.com/protegeproject/protege/blob/master/license.txt",
-            "spdx:timestamp": "2026-02-20T12:43:45Z",
+            "spdx:url": "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
+            "spdx:timestamp": "2026-02-20T13:33:29Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:9fb79ec8-5cf2-4e71-84ad-ace26cbbbb9b",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.freebsd.org/copyright/freebsd-license.html",
-            "spdx:timestamp": "2026-02-20T12:43:46Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],

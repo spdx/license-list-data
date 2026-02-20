@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:96e296b1-efd2-42d5-b311-cca76006382e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/TTWL",
-            "spdx:timestamp": "2026-02-20T12:45:37Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:302bdda8-de7f-4d8a-b6d6-a81f366a3d11",
+            "@id": "_:916c6690-1b00-4296-9f4d-aa56bd64ef9c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,12 +15,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148",
-            "spdx:timestamp": "2026-02-20T12:45:37Z",
+            "spdx:timestamp": "2026-02-20T13:35:05Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:46f7d526-bcf3-402b-80a3-cfdb8ad44b22",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/TTWL",
+            "spdx:timestamp": "2026-02-20T13:35:07Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         },
         {
@@ -58,21 +58,21 @@
                 "https://fedoraproject.org/wiki/Licensing/TTWL",
                 "https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148"
             ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:46f7d526-bcf3-402b-80a3-cfdb8ad44b22"
+                },
+                {
+                    "@id": "_:916c6690-1b00-4296-9f4d-aa56bd64ef9c"
+                }
+            ],
             "spdx:licenseText": "Copyright (C) 1996-2002,2005,2006 David Muir Sharnoff.  \nCopyright (C) 2005 Aristotle Pagaltzis \nCopyright (C) 2012-2013 Google, Inc.\n\nThis module may be modified, used, copied, and redistributed at your own risk.\nAlthough allowed by the preceding license, please do not publicly\nredistribute modified versions of this code with the name \"Text::Tabs\"\nunless it passes the unmodified Text::Tabs test suite.\n",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1996-2002,2005,2006 David Muir Sharnoff. Copyright (C) 2005 Aristotle Pagaltzis Copyright (C) 2012-2013 Google, Inc.  \";match=\".{0,5000}\">>\nThis module may be modified, used, copied, and redistributed at your own risk. Although allowed by the preceding license, please do not publicly redistribute modified versions of this code with the name \"Text::Tabs\" unless it passes the unmodified Text::Tabs test suite.\n\n",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            <p>\n               Copyright (C) 1996-2002,2005,2006 David Muir Sharnoff.<br />\n\n               Copyright (C) 2005 Aristotle Pagaltzis<br />\n\n               Copyright (C) 2012-2013 Google, Inc.\n            </p>\n\n         </span></div>\n         <p>\n            This module may be modified, used, copied, and redistributed at your\n            own risk. Although allowed by the preceding license, please do not\n            publicly redistribute modified versions of this code with the name\n            &quot;Text::Tabs&quot; unless it passes the unmodified Text::Tabs test suite.\n         </p>\n\n      ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:302bdda8-de7f-4d8a-b6d6-a81f366a3d11"
-                },
-                {
-                    "@id": "_:96e296b1-efd2-42d5-b311-cca76006382e"
-                }
-            ]
+            "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            <p>\n               Copyright (C) 1996-2002,2005,2006 David Muir Sharnoff.<br />\n\n               Copyright (C) 2005 Aristotle Pagaltzis<br />\n\n               Copyright (C) 2012-2013 Google, Inc.\n            </p>\n\n         </span></div>\n         <p>\n            This module may be modified, used, copied, and redistributed at your\n            own risk. Although allowed by the preceding license, please do not\n            publicly redistribute modified versions of this code with the name\n            &quot;Text::Tabs&quot; unless it passes the unmodified Text::Tabs test suite.\n         </p>\n\n      "
         }
     ],
     "@context": {

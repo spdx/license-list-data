@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:38b3864f-678a-4dac-8b19-fde19d17f8e7",
+            "@id": "_:242bd43b-87b8-4c37-9973-fbe6202e05ab",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/licenses/PostgreSQL",
-            "spdx:timestamp": "2026-02-20T12:47:35Z",
+            "spdx:timestamp": "2026-02-20T13:37:10Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:aa1964a2-0a77-4cc4-ad4d-d832928d988d",
+            "@id": "_:fbd6afd5-b9e9-450e-93ae-7612df2549b1",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.postgresql.org/about/licence",
-            "spdx:timestamp": "2026-02-20T12:47:36Z",
+            "spdx:timestamp": "2026-02-20T13:37:10Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -49,14 +49,6 @@
         {
             "@id": "http://spdx.org/licenses/PostgreSQL",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:38b3864f-678a-4dac-8b19-fde19d17f8e7"
-                },
-                {
-                    "@id": "_:aa1964a2-0a77-4cc4-ad4d-d832928d988d"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -71,6 +63,14 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseTemplate": "<<beginOptional>>PostgreSQL Database Management System\n(formerly known as Postgres, then as Postgres95)\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Portions Copyright (c) 1996-2010, The PostgreSQL Global Development Group   Portions Copyright (c) 1994, The Regents of the University of California  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software and its documentation for any purpose, without fee, and without a written agreement is hereby granted, provided that the above copyright notice and this paragraph and the following two paragraphs appear in all copies.\n\nIN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF <<var;name=\"copyrightHolderAdvised\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n<<var;name=\"copyrightHolderDisclaims\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN \"AS IS\" BASIS, AND <<var;name=\"copyrightHolderAsIs\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:fbd6afd5-b9e9-450e-93ae-7612df2549b1"
+                },
+                {
+                    "@id": "_:242bd43b-87b8-4c37-9973-fbe6202e05ab"
+                }
+            ],
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>PostgreSQL Database Management System\n        <br />\n(formerly known as Postgres, then as Postgres95)\n      </p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Portions Copyright (c) 1996-2010, The PostgreSQL Global Development Group</p>\n\n         <p>Portions Copyright (c) 1994, The Regents of the University of California</p>\n\n      </span></div>\n\n      <p>Permission to use, copy, modify, and distribute this software and its documentation for any purpose,\n         without fee, and without a written agreement is hereby granted, provided that the above copyright\n         notice and this paragraph and the following two paragraphs appear in all copies.</p>\n\n      <p>IN NO EVENT SHALL <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE UNIVERSITY OF CALIFORNIA</span></var> BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL,\n         INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE\n         AND ITS DOCUMENTATION, EVEN IF <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE UNIVERSITY OF CALIFORNIA</span></var> HAS BEEN ADVISED OF THE POSSIBILITY OF\n         SUCH DAMAGE.</p>\n\n      <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE UNIVERSITY OF CALIFORNIA</span></var> SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE\n         IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED\n         HEREUNDER IS ON AN &quot;AS IS&quot; BASIS, AND <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE UNIVERSITY OF CALIFORNIA</span></var> HAS NO OBLIGATIONS TO PROVIDE\n         MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.</p>\n\n    ",
             "spdx:name": "PostgreSQL License"
         }

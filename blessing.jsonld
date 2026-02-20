@@ -1,30 +1,35 @@
 {
     "@graph": [
         {
-            "@id": "_:653812ed-629e-42f7-9e0a-86c208f2d14c",
-            "spdx:isWayBackLink": {
+            "@id": "http://spdx.org/licenses/blessing",
+            "spdx:standardLicenseTemplate": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\n   May you do good and not evil.\n\n   May you find forgiveness for yourself and forgive others.\n\n   May you share freely, never taking more than you give.\n   \n   ",
+            "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isValid": {
-                "@value": "true",
+            "rdfs:seeAlso": [
+                "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
+                "https://sqlite.org/src/artifact/df5091916dbb40e6"
+            ],
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseText": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\nMay you do good and not evil.\nMay you find forgiveness for yourself and forgive others.\nMay you share freely, never taking more than you give.\n",
+            "spdx:licenseTextHtml": "\n        <p>The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:</p>\n\n<ul style=\"list-style:none\">\n            \n<li><p>May you do good and not evil.</p>\n</li>\n            \n<li><p>May you find forgiveness for yourself and forgive others.</p>\n</li>\n            \n<li><p>May you share freely, never taking more than you give.</p>\n</li>\n        \n</ul>\n    ",
+            "spdx:name": "SQLite Blessing",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:4a09df5b-63c0-4d67-9c61-c4640465250f"
+                },
+                {
+                    "@id": "_:1bd459c0-de17-418a-a25c-99d9500eb0f6"
+                }
+            ],
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
-            "spdx:timestamp": "2026-02-20T12:46:30Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
+            }
         },
         {
-            "@id": "_:c4346b63-2354-4b2a-8933-9935fc5b076f",
+            "@id": "_:4a09df5b-63c0-4d67-9c61-c4640465250f",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +43,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sqlite.org/src/artifact/df5091916dbb40e6",
-            "spdx:timestamp": "2026-02-20T12:46:30Z",
+            "spdx:timestamp": "2026-02-20T13:36:31Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,32 +52,27 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/blessing",
-            "spdx:standardLicenseTemplate": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\n   May you do good and not evil.\n\n   May you find forgiveness for yourself and forgive others.\n\n   May you share freely, never taking more than you give.\n   \n   ",
-            "spdx:isOsiApproved": {
+            "@id": "_:1bd459c0-de17-418a-a25c-99d9500eb0f6",
+            "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:c4346b63-2354-4b2a-8933-9935fc5b076f"
-                },
-                {
-                    "@id": "_:653812ed-629e-42f7-9e0a-86c208f2d14c"
-                }
-            ],
-            "rdfs:seeAlso": [
-                "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
-                "https://sqlite.org/src/artifact/df5091916dbb40e6"
-            ],
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseText": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\nMay you do good and not evil.\nMay you find forgiveness for yourself and forgive others.\nMay you share freely, never taking more than you give.\n",
-            "spdx:licenseTextHtml": "\n        <p>The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:</p>\n\n<ul style=\"list-style:none\">\n            \n<li><p>May you do good and not evil.</p>\n</li>\n            \n<li><p>May you find forgiveness for yourself and forgive others.</p>\n</li>\n            \n<li><p>May you share freely, never taking more than you give.</p>\n</li>\n        \n</ul>\n    ",
-            "spdx:name": "SQLite Blessing",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
+            "spdx:isValid": {
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
+            "spdx:timestamp": "2026-02-20T13:36:31Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
