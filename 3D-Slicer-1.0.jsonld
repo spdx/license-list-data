@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:bd540752-f082-4b8e-b52e-5ec480389667",
+            "@id": "_:480ee8c0-3d95-4638-9510-047d766d2801",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://slicer.org/LICENSE",
-            "spdx:timestamp": "2026-02-20T13:31:45Z",
+            "spdx:timestamp": "2026-02-20T15:07:51Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:307e8245-0d03-4d4f-acc4-5b1f3bc2d156",
+            "@id": "_:fa210e30-205b-4ab1-a0eb-747871c9f3f3",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/Slicer/Slicer/blob/main/License.txt",
-            "spdx:timestamp": "2026-02-20T13:31:46Z",
+            "spdx:timestamp": "2026-02-20T15:07:51Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/3D-Slicer-1.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:fa210e30-205b-4ab1-a0eb-747871c9f3f3"
+                },
+                {
+                    "@id": "_:480ee8c0-3d95-4638-9510-047d766d2801"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -57,14 +65,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:bd540752-f082-4b8e-b52e-5ec480389667"
-                },
-                {
-                    "@id": "_:307e8245-0d03-4d4f-acc4-5b1f3bc2d156"
-                }
-            ],
             "spdx:name": "3D Slicer License v1.0",
             "rdfs:seeAlso": [
                 "https://github.com/Slicer/Slicer/blob/main/License.txt",

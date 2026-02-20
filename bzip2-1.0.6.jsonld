@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:0c97c387-a1cd-4375-9c61-08ffca4fa850",
+            "@id": "_:19c64c5a-f51c-4cf0-8d19-37d7d627aaad",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
+            "spdx:timestamp": "2026-02-20T15:11:24Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:286076ca-9700-4e83-bd6f-87db6100861e",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
-            "spdx:timestamp": "2026-02-20T13:36:30Z",
+            "spdx:timestamp": "2026-02-20T15:11:25Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -36,17 +59,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseText": "This program, \"bzip2\", the associated library \"libbzip2\", and all documentation, are copyright (C) 1996-2010 Julian R Seward. All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n     1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n     2. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     3. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     4. The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nJulian Seward, jseward@bzip.org bzip2/libbzip2 version 1.0.6 of 6 September 2010\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:6d4a1359-ba4b-45dc-9015-25e460f4a6bb"
-                },
-                {
-                    "@id": "_:0c97c387-a1cd-4375-9c61-08ffca4fa850"
-                },
-                {
-                    "@id": "_:e2f2d930-77d8-4465-ace0-7d94a893af30"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://sourceware.org/git/?p=bzip2.git;a=blob;f=LICENSE;hb=bzip2-1.0.6",
                 "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
@@ -54,10 +66,21 @@
             ],
             "rdfs:comment": "The additional \"Neither the names of...\" optional clause at the end of the license occurs in certain uses of this license text, as described at https://github.com/spdx/license-list-XML/issues/2271",
             "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>This program, &quot;bzip2&quot;, the associated library &quot;libbzip2&quot;, and all documentation, are\n         copyright (C) 1996-2010 Julian R Seward. All rights reserved.</p>\n\n      </span></div>\n\n      <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided\n         that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          Redistributions of source code must retain the above copyright notice, this list of\n             conditions and the following disclaimer.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          The origin of this software must not be misrepresented; you must not claim that you wrote the\n             original software. If you use this software in a product, an acknowledgment in the product\n             documentation would be appreciated but is not required.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 3.</span></var>\n          Altered source versions must be plainly marked as such, and must not be misrepresented as\n             being the original software.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 4.</span></var>\n          The name of the author may not be used to endorse or promote products derived from this\n             software without specific prior written permission.\n        </li>\n      \n</ul>\n      <p>THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS&apos;&apos; AND ANY EXPRESS OR IMPLIED WARRANTIES,\n         INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n         PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n         SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE\n         GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n         THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR\n         OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF\n         SUCH DAMAGE.</p>\n\n      <div class=\"optional-license-text\"> <p>Julian Seward, jseward@bzip.org bzip2/libbzip2 version <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> 1.0.6</span></var> of <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> 6 September 2010</span></var></p>\n</div>\n      <div class=\"optional-license-text\"> <p>PATENTS: To the best of my knowledge, bzip2 and libbzip2 do not use any patented algorithms.\n         However, I do not have the resources to carry out a patent search. Therefore I cannot give any\n         guarantee of the above statement.\n\t </p>\n</div>\n\t <div class=\"optional-license-text\"> <p>\n\t\t <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern (The\\s+name\\s+of.+may\\s+not)|(Neither\\s+the\\s+names?\\s+of.+nor\\s+the\\s+names\\s+of\\s+its\\s+contributors\\s+may)\"> Neither the names of the copyright holder nor the\n\t\t names of its contributors may</span></var> be used to endorse or promote products derived from this software\n\t\twithout prior written permission.\n \t </p>\n</div>\n     ",
-            "spdx:name": "bzip2 and libbzip2 License v1.0.6"
+            "spdx:name": "bzip2 and libbzip2 License v1.0.6",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:19c64c5a-f51c-4cf0-8d19-37d7d627aaad"
+                },
+                {
+                    "@id": "_:ff7bcd39-33fa-47e7-8b93-5629e5e2421d"
+                },
+                {
+                    "@id": "_:286076ca-9700-4e83-bd6f-87db6100861e"
+                }
+            ]
         },
         {
-            "@id": "_:6d4a1359-ba4b-45dc-9015-25e460f4a6bb",
+            "@id": "_:ff7bcd39-33fa-47e7-8b93-5629e5e2421d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -71,32 +94,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/cgit/valgrind/tree/mpi/libmpiwrap.c",
-            "spdx:timestamp": "2026-02-20T13:36:28Z",
+            "spdx:timestamp": "2026-02-20T15:11:24Z",
             "spdx:order": {
                 "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:e2f2d930-77d8-4465-ace0-7d94a893af30",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://bzip.org/1.0.5/bzip2-manual-1.0.5.html",
-            "spdx:timestamp": "2026-02-20T13:36:29Z",
-            "spdx:order": {
-                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",

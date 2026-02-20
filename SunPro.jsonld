@@ -1,42 +1,19 @@
 {
     "@graph": [
         {
-            "@id": "_:216bca58-ec32-472c-9573-a1c6ed0c8fba",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c",
-            "spdx:timestamp": "2026-02-20T13:32:50Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/SunPro",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:ee7d589b-5006-4498-84fe-883e8e0f6dfb"
+                },
+                {
+                    "@id": "_:9675fa49-807e-4c4d-bd44-53486477e9cb"
+                }
+            ],
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
                 "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
                 "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:4039c292-84fb-4132-a61b-8a8f3583c542"
-                },
-                {
-                    "@id": "_:216bca58-ec32-472c-9573-a1c6ed0c8fba"
-                }
             ],
             "spdx:name": "SunPro License",
             "spdx:isDeprecatedLicenseId": {
@@ -52,7 +29,30 @@
             "spdx:licenseText": "Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n\nDeveloped at SunSoft, a Sun Microsystems, Inc. business.\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice \nis preserved.\n"
         },
         {
-            "@id": "_:4039c292-84fb-4132-a61b-8a8f3583c542",
+            "@id": "_:ee7d589b-5006-4498-84fe-883e8e0f6dfb",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c",
+            "spdx:timestamp": "2026-02-20T15:08:17Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:9675fa49-807e-4c4d-bd44-53486477e9cb",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,7 +66,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
-            "spdx:timestamp": "2026-02-20T13:32:51Z",
+            "spdx:timestamp": "2026-02-20T15:08:17Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

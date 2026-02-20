@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:017946c0-ec00-48c3-be59-de6fd74c8d48",
+            "@id": "_:fbb5ec2e-b038-4258-b4c0-20f2c04fd1ca",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.iec.ch/webstore/custserv/pdf/CC-EULA.pdf",
-            "spdx:timestamp": "2026-02-20T13:32:09Z",
+            "spdx:timestamp": "2026-02-20T15:08:08Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:3cd7eb00-0975-4659-b651-20855e97a663",
+            "@id": "_:79b8967c-e649-4dc8-b361-35eda08c8224",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.iec.ch/copyright",
-            "spdx:timestamp": "2026-02-20T13:32:09Z",
+            "spdx:timestamp": "2026-02-20T15:08:08Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,17 @@
         },
         {
             "@id": "http://spdx.org/licenses/IEC-Code-Components-EULA",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:79b8967c-e649-4dc8-b361-35eda08c8224"
+                },
+                {
+                    "@id": "_:0495e173-d2c4-4e25-9184-50ae95c87b55"
+                },
+                {
+                    "@id": "_:fbb5ec2e-b038-4258-b4c0-20f2c04fd1ca"
+                }
+            ],
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
                 "https://www.iec.ch/webstore/custserv/pdf/CC-EULA.pdf",
@@ -55,17 +66,6 @@
                 "https://www.iec.ch/copyright"
             ],
             "spdx:name": "IEC    Code Components End-user licence agreement",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:e93f340a-d10a-4b1a-8e0d-c1fb9e9ca0f0"
-                },
-                {
-                    "@id": "_:017946c0-ec00-48c3-be59-de6fd74c8d48"
-                },
-                {
-                    "@id": "_:3cd7eb00-0975-4659-b651-20855e97a663"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -79,7 +79,7 @@
             "spdx:licenseTextHtml": "\n         <var class=\"optional-license-text\"> IEC Code Components End-user licence\n         agreement</var>\n         <p>\n            Code Components in IEC standards (International Standards,\n            Technical Specifications or Technical Reports) which\n            have been identified and approved for licensing,\n            are licensed subject to the following conditions:\n         </p>\n\n<ul style=\"list-style:none\">\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n               <p>\n                  Redistributions of software must retain the\n                  Copyright Notice, this list of conditions\n                  and the disclaimer below (&quot;Disclaimer&quot;).\n               </p>\n\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n               <p>\n                  The software license extends to modifications\n                  permitted under the relevant IEC standard.\n               </p>\n\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n               <p>\n                  The software license extends to clarifications\n                  and corrections approved by IEC.\n               </p>\n\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n               <p>\n                  Neither the name of IEC, nor the names of specific\n                  contributors, may be used to endorse or promote products\n                  derived from this software without specific prior written\n                  permission. The relevant IEC standard may be referenced\n                  when claiming compliance with the relevant IEC standard.\n               </p>\n\n            </li>\n            \n<li>\n               <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n               <p>\n                  The user of Code Components shall attribute each such Code\n                  Component to IEC and identify the IEC standard from which\n                  it is taken. Such attribution (e.g., &quot;This code was derived\n                  from IEC [insert standard reference number:publication\n                  year] within modifications permitted in the relevant IEC\n                  standard. Please reproduce this note if possible.&quot;), may be\n                  placed in the code itself or any other reasonable location.\n               </p>\n\n            </li>\n         \n</ul>\n         <p>\n            Code Components means components included in IEC standards\n            that are intended to be directly processed by a computer\n            and also includes any text found between the markers\n            &lt;CODE BEGINS&gt; and &lt;CODE ENDS&gt;, or otherwise\n            clearly labeled in this standard as a Code Component.\n         </p>\n\n         <p>\n            The Disclaimer is: EACH OF THE CODE COMPONENTS IS PROVIDED BY\n            THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS\n            OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\n            WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n            PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER\n            OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,\n            SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\n            NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;\n            LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)\n            HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN\n            CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE\n            OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THE CODE\n            COMPONENTS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n         </p>\n\n      "
         },
         {
-            "@id": "_:e93f340a-d10a-4b1a-8e0d-c1fb9e9ca0f0",
+            "@id": "_:0495e173-d2c4-4e25-9184-50ae95c87b55",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -93,7 +93,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.iec.ch/CCv1",
-            "spdx:timestamp": "2026-02-20T13:32:09Z",
+            "spdx:timestamp": "2026-02-20T15:08:08Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

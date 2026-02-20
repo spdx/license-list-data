@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:3b7ff56b-f7cc-4409-bc40-efb9033212fc",
+            "@id": "_:8253fdfb-0ab8-4f59-b143-ef22608affb4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License",
-            "spdx:timestamp": "2026-02-20T13:36:29Z",
+            "spdx:timestamp": "2026-02-20T15:11:26Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:d0dc958d-df51-4c0a-8e04-e873ab706658",
+            "@id": "_:1304788f-e5af-417b-9c8a-224db671ef32",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/release/KNOK/File-MMagic-1.30/source/COPYING#L28",
-            "spdx:timestamp": "2026-02-20T13:36:29Z",
+            "spdx:timestamp": "2026-02-20T15:11:27Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/Spencer-94",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:1304788f-e5af-417b-9c8a-224db671ef32"
+                },
+                {
+                    "@id": "_:8253fdfb-0ab8-4f59-b143-ef22608affb4"
+                }
+            ],
             "spdx:licenseText": "Copyright 1992, 1993, 1994 Henry Spencer.  All rights reserved.\nThis software is not subject to any license of the American Telephone and Telegraph Company or of the Regents of the University of California.\n\nPermission is granted to anyone to use this software for any purpose on any computer system, and to alter it and redistribute it, subject to the following restrictions:\n\n1. The author is not responsible for the consequences of use of this software, no matter how awful, even if they arise from flaws in it.\n\n2. The origin of this software must not be misrepresented, either by explicit claim or by omission.  Since few users ever read sources, credits must appear in the documentation.\n\n3. Altered versions must be plainly marked as such, and must not be misrepresented as being the original software.  Since few users ever read sources, credits must appear in the documentation.\n\n4. This notice may not be removed or altered.\n",
             "spdx:name": "Spencer License 94",
             "spdx:isOsiApproved": {
@@ -58,14 +66,6 @@
             "rdfs:seeAlso": [
                 "https://metacpan.org/release/KNOK/File-MMagic-1.30/source/COPYING#L28",
                 "https://fedoraproject.org/wiki/Licensing/Henry_Spencer_Reg-Ex_Library_License"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d0dc958d-df51-4c0a-8e04-e873ab706658"
-                },
-                {
-                    "@id": "_:3b7ff56b-f7cc-4409-bc40-efb9033212fc"
-                }
             ],
             "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright YEAR NAME. All rights reserved.\n         <br />\nWritten by NAME</p>\n\n      </span></div>\n\n      <p>This software is not subject to any license of the American Telephone and Telegraph Company or of the\n         Regents of the University of California.\n      <br />\nPermission is granted to anyone to use this software for any purpose on any computer system, and to alter it\n         and redistribute it <var class=\"optional-license-text\"> freely</var>, subject to the following restrictions:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          The author is not responsible for the consequences of use of this software, no matter how awful, even\n             if they arise from flaws in it.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          The origin of this software must not be misrepresented, either by explicit claim or by omission.\n             Since few users ever read sources, credits must appear in the documentation.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 3.</span></var>\n          Altered versions must be plainly marked as such, and must not be misrepresented as being the original\n             software. Since few users ever read sources, credits must appear in the documentation.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 4.</span></var>\n          This notice may not be removed or altered.\n        </li>\n      \n</ul>\n    ",
             "spdx:isDeprecatedLicenseId": {
