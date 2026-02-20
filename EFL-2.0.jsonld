@@ -1,16 +1,31 @@
 {
     "@graph": [
         {
+            "@id": "_:b9e00d93-a6cf-41c7-9ecf-063c6def4c48",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html",
+            "spdx:timestamp": "2026-02-20T16:09:14Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/EFL-2.0",
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>Eiffel Forum License, version 2</p>\n\n      </div>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          Permission is hereby granted to use, copy, modify and/or distribute this package, provided that:\n          \n<ul style=\"list-style:none\">\n               \n<li>\n                  <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n              copyright notices are retained unchanged,\n            </li>\n               \n<li>\n                  <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n              any distribution of this package, whether modified or not, includes this license text.\n            </li>\n            \n</ul>\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          Permission is hereby also granted to distribute binary programs which depend on this package. If\n             the binary program depends on a modified version of this package, you are encouraged to\n             publicly release the modified version of this package.\n        </li>\n      \n</ul>\n      <p>THIS PACKAGE IS PROVIDED &quot;AS IS&quot; AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES,\n         INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\n         PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT,\n         INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS\n         PACKAGE.</p>\n\n    ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:5052f928-bbce-49b1-b5c0-e2efae800452"
-                },
-                {
-                    "@id": "_:5c571079-8f3d-4380-a243-5c1dbe89abf0"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/EFL-2.0",
                 "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html"
@@ -27,13 +42,21 @@
             },
             "spdx:standardLicenseTemplate": "<<beginOptional>>Eiffel Forum License, version 2\n\n<<endOptional>>\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Permission is hereby granted to use, copy, modify and/or distribute this package, provided that:\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> copyright notices are retained unchanged,\n      <<var;name=\"bullet\";original=\"-\";match=\".{0,20}\">> any distribution of this package, whether modified or not, includes this license text.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Permission is hereby also granted to distribute binary programs which depend on this package. If the binary program depends on a modified version of this package, you are encouraged to publicly release the modified version of this package.\nTHIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.\n\n",
             "spdx:licenseText": "Eiffel Forum License, version 2\n\n1. Permission is hereby granted to use, copy, modify and/or distribute this package, provided that:\n     - copyright notices are retained unchanged,\n     - any distribution of this package, whether modified or not, includes this license text.\n\n2. Permission is hereby also granted to distribute binary programs which depend on this package. If the binary program depends on a modified version of this package, you are encouraged to publicly release the modified version of this package.\n\nTHIS PACKAGE IS PROVIDED \"AS IS\" AND WITHOUT WARRANTY. ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHORS BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES ARISING IN ANY WAY OUT OF THE USE OF THIS PACKAGE.\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b9e00d93-a6cf-41c7-9ecf-063c6def4c48"
+                },
+                {
+                    "@id": "_:93164f1f-0a46-4baf-9e82-e2b74442da78"
+                }
+            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         },
         {
-            "@id": "_:5052f928-bbce-49b1-b5c0-e2efae800452",
+            "@id": "_:93164f1f-0a46-4baf-9e82-e2b74442da78",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -47,35 +70,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/licenses/EFL-2.0",
-            "spdx:timestamp": "2026-02-20T15:41:27Z",
+            "spdx:timestamp": "2026-02-20T16:09:21Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:5c571079-8f3d-4380-a243-5c1dbe89abf0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.eiffel-nice.org/license/eiffel-forum-license-2.html",
-            "spdx:timestamp": "2026-02-20T15:41:23Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],

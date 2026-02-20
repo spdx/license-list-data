@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:a839d1e0-be2e-49e0-8724-03b891e23cb0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.freebsd.org/copyright/freebsd-license.html",
-            "spdx:timestamp": "2026-02-20T15:42:02Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:3c63cb28-9e8b-4abb-9d1e-608289cc9204",
+            "@id": "_:0998825b-0cd6-418a-917c-d227aa98e52a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
-            "spdx:timestamp": "2026-02-20T15:42:01Z",
+            "spdx:timestamp": "2026-02-20T16:10:42Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,18 +24,30 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:3b4ed627-6eed-47c3-be32-bcd63f2ddb09",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.freebsd.org/copyright/freebsd-license.html",
+            "spdx:timestamp": "2026-02-20T16:10:42Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-Views",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:a839d1e0-be2e-49e0-8724-03b891e23cb0"
-                },
-                {
-                    "@id": "_:34e2fa94-577c-40e3-bc97-80b1974238f5"
-                },
-                {
-                    "@id": "_:3c63cb28-9e8b-4abb-9d1e-608289cc9204"
-                }
-            ],
             "rdfs:comment": "This is a more generalized version of BSD-2-Clause-FreeBSD, which is now deprecated. It is identical to BSD-2-Clause with the addition of the \"views and conclusions\" sentence at the end.",
             "rdfs:seeAlso": [
                 "http://www.freebsd.org/copyright/freebsd-license.html",
@@ -69,6 +58,17 @@
             "spdx:licenseText": "Copyright (c) <year> <owner> All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the copyright holders or contributors.\n",
             "spdx:name": "BSD 2-Clause with views sentence",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:0cda11ea-1e0f-4527-bade-0d4d5569c695"
+                },
+                {
+                    "@id": "_:3b4ed627-6eed-47c3-be32-bcd63f2ddb09"
+                },
+                {
+                    "@id": "_:0998825b-0cd6-418a-917c-d227aa98e52a"
+                }
+            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) <year> <owner> All rights reserved.  \";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nTHIS SOFTWARE IS PROVIDED BY <<var;name=\"copyrightHolderAsIs\";original=\"THE COPYRIGHT HOLDERS AND CONTRIBUTORS\";match=\".+\">> \"AS IS\" AND ANY <<var;name=\"express\";original=\"EXPRESS\";match=\"EXPRESS(ED)?\">> OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"THE COPYRIGHT HOLDER OR CONTRIBUTORS\";match=\".+\">> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of <<var;name=\"copyrightHolderViews\";original=\"the copyright holders or contributors.\";match=\".+\">>\n\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -80,7 +80,7 @@
             }
         },
         {
-            "@id": "_:34e2fa94-577c-40e3-bc97-80b1974238f5",
+            "@id": "_:0cda11ea-1e0f-4527-bade-0d4d5569c695",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -94,7 +94,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/protegeproject/protege/blob/master/license.txt",
-            "spdx:timestamp": "2026-02-20T15:42:01Z",
+            "spdx:timestamp": "2026-02-20T16:10:42Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

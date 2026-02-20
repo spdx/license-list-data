@@ -1,53 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:c68ebdce-5990-4218-8d64-9422ad754016",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
-            "spdx:timestamp": "2026-02-20T15:43:23Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:d1e19d2c-b7ff-413c-a8a4-a195de037aea",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
-            "spdx:timestamp": "2026-02-20T15:43:23Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b72f940d-4285-4e01-b44a-6992355028c3",
+            "@id": "_:09af310f-d663-4b4a-b5f6-e7b1f3aaf5b2",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
-            "spdx:timestamp": "2026-02-20T15:43:24Z",
+            "spdx:timestamp": "2026-02-20T16:11:50Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,7 +24,64 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:6bb88ad0-e38f-4a3e-9262-3cd62707cb52",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
+            "spdx:timestamp": "2026-02-20T16:11:48Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:dee6cd02-117d-4391-ad4a-2b13786ae494",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
+            "spdx:timestamp": "2026-02-20T16:11:48Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Cornell-Lossless-JPEG",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:dee6cd02-117d-4391-ad4a-2b13786ae494"
+                },
+                {
+                    "@id": "_:6bb88ad0-e38f-4a3e-9262-3cd62707cb52"
+                },
+                {
+                    "@id": "_:09af310f-d663-4b4a-b5f6-e7b1f3aaf5b2"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
                 "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
@@ -80,17 +91,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d1e19d2c-b7ff-413c-a8a4-a195de037aea"
-                },
-                {
-                    "@id": "_:b72f940d-4285-4e01-b44a-6992355028c3"
-                },
-                {
-                    "@id": "_:c68ebdce-5990-4218-8d64-9422ad754016"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

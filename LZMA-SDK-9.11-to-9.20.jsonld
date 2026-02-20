@@ -1,8 +1,39 @@
 {
     "@graph": [
         {
+            "@id": "_:5a257fc4-e54d-4aae-8dcb-f6efe2a203b4",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/",
+            "spdx:timestamp": "2026-02-20T16:08:22Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/LZMA-SDK-9.11-to-9.20",
             "spdx:licenseText": "LICENSE\n-------\n\nLZMA SDK is written and placed in the public domain by Igor Pavlov.\n\nSome code in LZMA is based on public domain code from another developers:\n  1) PPMd var.H (2001): Dmitry Shkarin\n  2) SHA-256: Wei Dai (Crypto++ library)\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:36bb2b5e-f006-4dd3-a7a7-cf55178f21c4"
+                },
+                {
+                    "@id": "_:5a257fc4-e54d-4aae-8dcb-f6efe2a203b4"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -18,42 +49,11 @@
                 "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/",
                 "https://www.7-zip.org/sdk.html"
             ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:1d9c11b3-469b-4509-82cc-8a90197a74e3"
-                },
-                {
-                    "@id": "_:c027ae21-5f8c-4e57-83c9-2a5dfe8c35a8"
-                }
-            ],
-            "spdx:name": "LZMA SDK License (versions 9.11 to 9.20)",
-            "spdx:standardLicenseTemplate": "<<beginOptional>>LICENSE\n\n-------\n\n<<endOptional>>\nLZMA SDK is written and placed in the public domain by Igor Pavlov.\n\nSome code in LZMA is based on public domain code from another developers: 1) PPMd var.H (2001): Dmitry Shkarin 2) SHA-256: Wei Dai (Crypto++ library)\n\n"
+            "spdx:standardLicenseTemplate": "<<beginOptional>>LICENSE\n\n-------\n\n<<endOptional>>\nLZMA SDK is written and placed in the public domain by Igor Pavlov.\n\nSome code in LZMA is based on public domain code from another developers: 1) PPMd var.H (2001): Dmitry Shkarin 2) SHA-256: Wei Dai (Crypto++ library)\n\n",
+            "spdx:name": "LZMA SDK License (versions 9.11 to 9.20)"
         },
         {
-            "@id": "_:1d9c11b3-469b-4509-82cc-8a90197a74e3",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/",
-            "spdx:timestamp": "2026-02-20T15:40:46Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:c027ae21-5f8c-4e57-83c9-2a5dfe8c35a8",
+            "@id": "_:36bb2b5e-f006-4dd3-a7a7-cf55178f21c4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -67,7 +67,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.7-zip.org/sdk.html",
-            "spdx:timestamp": "2026-02-20T15:40:45Z",
+            "spdx:timestamp": "2026-02-20T16:08:22Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

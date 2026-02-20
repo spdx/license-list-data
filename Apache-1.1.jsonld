@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:3860d680-3b55-4398-b003-f9f218240e80",
+            "@id": "_:77d4fca2-0780-44e9-9810-70b09d3a2384",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,12 +15,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://apache.org/licenses/LICENSE-1.1",
-            "spdx:timestamp": "2026-02-20T15:40:46Z",
+            "spdx:timestamp": "2026-02-20T16:08:22Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:de30c615-6316-442e-942d-fea8ad98e600",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/licenses/Apache-1.1",
+            "spdx:timestamp": "2026-02-20T16:08:22Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         },
         {
@@ -39,45 +62,22 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:de30c615-6316-442e-942d-fea8ad98e600"
+                },
+                {
+                    "@id": "_:77d4fca2-0780-44e9-9810-70b09d3a2384"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/Apache-1.1",
                 "http://apache.org/licenses/LICENSE-1.1"
             ],
             "spdx:standardLicenseTemplate": "<<beginOptional>>The Apache Software License, Version 1.1\n\n<<endOptional>>\nCopyright (c) 2000 The Apache Software Foundation. All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> The end-user documentation included with the redistribution, if any, must include the following acknowledgment:\n   \"This product includes software developed by <<var;name=\"organizationClause3\";original=\"the Apache Software Foundation (http://www.apache.org/)\";match=\".+\">> .\"\n   Alternately, this acknowledgment may appear in the software itself, if and wherever such third-party acknowledgments normally appear.\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> The <<var;name=\"nameClause4\";original=\"name\";match=\"name\\(s\\)|name|name\">> <<var;name=\"organizationClause4\";original=\"\"Apache\" and \"Apache Software Foundation\"\";match=\".+\">> must not be used to endorse or promote products derived from this software without prior written permission.<<beginOptional>> For written permission, please contact apache@apache.org<<endOptional>> .\n   <<var;name=\"bullet\";original=\"5.\";match=\".{0,20}\">> <<var;name=\"Clause5\";original=\"Products derived from this software may not be called \"Apache\" nor may \"Apache\" [ex. the names] appear in their name, without prior written permission of the Apache Software Foundation.\";match=\"(Products\\s+derived\\s+from\\s+this\\s+software\\s+may\\s+not\\s+be\\s+called\\s+.+nor may\\s+.+appear\\s+in\\s+their\\s+name,\\s+without\\s+prior\\s+written\\s+permission\\s+of\\s+.+.|Products\\s+may\\s+not\\s+include\\s+.+in\\s+their\\s+name,\\s+without\\s+prior\\s+written\\s+permission\\s+of.+)\">>\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"THE APACHE SOFTWARE FOUNDATION OR ITS CONTRIBUTORS\";match=\".+\">> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n<<beginOptional>>This software consists of voluntary contributions made by many individuals on behalf of the Apache Software Foundation. For more information on the Apache Software Foundation, please see <http://www.apache.org/>. Portions of this software are based upon public domain software originally written at the National Center for Supercomputing Applications, University of Illinois, Urbana-Champaign.<<endOptional>>\n\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:3860d680-3b55-4398-b003-f9f218240e80"
-                },
-                {
-                    "@id": "_:2aeb1ca5-522f-4457-a1c4-552715b7d736"
-                }
-            ],
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>The Apache Software License, Version 1.1</p>\n\n      </div>\n         <p>Copyright (c) 2000 The Apache Software Foundation. All rights reserved.</p>\n\n      <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided\n       that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n         \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n        Redistributions of source code must retain the above copyright notice, this list of conditions\n           and the following disclaimer.\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n        Redistributions in binary form must reproduce the above copyright notice, this list of conditions\n           and the following disclaimer in the documentation and/or other materials provided with the\n           distribution.\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 3.</span></var>\n        The end-user documentation included with the redistribution, if any, must include the following\n           acknowledgment:\n          <br />\n   &quot;This product includes software developed by\n          <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> the Apache Software Foundation (http://www.apache.org/)</span></var>.&quot;\n          <br />\n   Alternately, this acknowledgment may appear in the software itself, if and wherever such\n               third-party acknowledgments normally appear.\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 4.</span></var>\n        The\n          <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern name\\(s\\)|name|name\"> name</span></var>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> &quot;Apache&quot; and &quot;Apache Software Foundation&quot;</span></var> must\n          not be used to endorse or promote products derived from this software without prior written\n          permission. <var class=\"optional-license-text\"> For written permission, please contact apache@apache.org</var>.\n\n      </li>\n         \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 5.</span></var>\n        <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern (Products\\s+derived\\s+from\\s+this\\s+software\\s+may\\s+not\\s+be\\s+called\\s+.+nor may\\s+.+appear\\s+in\\s+their\\s+name,\\s+without\\s+prior\\s+written\\s+permission\\s+of\\s+.+.|Products\\s+may\\s+not\\s+include\\s+.+in\\s+their\\s+name,\\s+without\\s+prior\\s+written\\s+permission\\s+of.+)\"> Products derived from this software may not be called &quot;Apache&quot; \n\t\tnor may &quot;Apache&quot; [ex. the names] appear in their name, \n\t\twithout prior written permission of the Apache Software Foundation.</span></var>\n      </li>\n      \n</ul>\n      <p>THIS SOFTWARE IS PROVIDED ``AS IS&apos;&apos; AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED\n       TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN\n       NO EVENT SHALL\n      <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE APACHE SOFTWARE FOUNDATION OR ITS CONTRIBUTORS</span></var>\n      BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,\n      BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR\n      BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT\n      LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS\n      SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n    </p>\n\n      <p>\n         <var class=\"optional-license-text\"> This software consists of voluntary contributions made by many individuals on behalf of the Apache\n       Software Foundation. For more information on the Apache Software Foundation, please see\n       &lt;http://www.apache.org/&gt;. Portions of this software are based upon public domain software originally\n       written at the National Center for Supercomputing Applications, University of Illinois,\n      Urbana-Champaign.</var>\n      </p>\n\n    ",
             "@type": "spdx:ListedLicense",
             "spdx:name": "Apache License 1.1"
-        },
-        {
-            "@id": "_:2aeb1ca5-522f-4457-a1c4-552715b7d736",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/licenses/Apache-1.1",
-            "spdx:timestamp": "2026-02-20T15:40:46Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

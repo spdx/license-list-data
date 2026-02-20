@@ -8,12 +8,21 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
         rdfs:comment                    "This license was released: June 1991. This license identifier refers to the choice to use code under GPL-2.0-or-later (i.e., GPL-2.0 or some later version), as distinguished from the use of code under GPL-2.0-only. The license notice (as seen in the Standard License Header field below) states which of these applies to the code in the file. The example in the How to Apply These Terms appendix of the license shows the \"or later\" approach.";
         rdfs:seeAlso                    "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html" , "https://github.com/openjdk/jdk/blob/6162e2c5213c5dd7c1127fd9616b543efa898962/LICENSE" , "https://opensource.org/licenses/GPL-2.0";
         spdx:crossRef                   [ a                   spdx:CrossRef;
+                                          spdx:isLive         false;
+                                          spdx:isValid        true;
+                                          spdx:isWayBackLink  false;
+                                          spdx:match          "N/A";
+                                          spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                          spdx:timestamp      "2026-02-20T16:13:51Z";
+                                          spdx:url            "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
+                                        ];
+        spdx:crossRef                   [ a                   spdx:CrossRef;
                                           spdx:isLive         true;
                                           spdx:isValid        true;
                                           spdx:isWayBackLink  false;
                                           spdx:match          "false";
                                           spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2026-02-20T15:43:33Z";
+                                          spdx:timestamp      "2026-02-20T16:13:52Z";
                                           spdx:url            "https://github.com/openjdk/jdk/blob/6162e2c5213c5dd7c1127fd9616b543efa898962/LICENSE"
                                         ];
         spdx:crossRef                   [ a                   spdx:CrossRef;
@@ -21,17 +30,8 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                           spdx:isValid        true;
                                           spdx:isWayBackLink  false;
                                           spdx:match          "N/A";
-                                          spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2026-02-20T15:43:33Z";
-                                          spdx:url            "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html"
-                                        ];
-        spdx:crossRef                   [ a                   spdx:CrossRef;
-                                          spdx:isLive         false;
-                                          spdx:isValid        true;
-                                          spdx:isWayBackLink  false;
-                                          spdx:match          "N/A";
                                           spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2026-02-20T15:43:33Z";
+                                          spdx:timestamp      "2026-02-20T16:13:52Z";
                                           spdx:url            "https://opensource.org/licenses/GPL-2.0"
                                         ];
         spdx:isDeprecatedLicenseId      false;

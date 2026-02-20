@@ -1,7 +1,35 @@
 {
     "@graph": [
         {
-            "@id": "_:aba51d55-cdd3-4d07-8ff9-f26dceade327",
+            "@id": "http://spdx.org/licenses/SunPro",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": [
+                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
+                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:6dbee8f2-b7d2-4bea-b6cd-f67a5c7f12f6"
+                },
+                {
+                    "@id": "_:8e38a8d5-9eda-4b87-b025-0ef5941b139d"
+                }
+            ],
+            "spdx:name": "SunPro License",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\";match=\".{0,5000}\">>\nDeveloped at <<var;name=\"SunOrg\";original=\"SunPro\";match=\"SunPro|SunSoft\">> , a Sun Microsystems, Inc. business.\n\nPermission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.\n\n",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n         </span></var>\n         <p>\n            Developed at<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SunPro|SunSoft\"> SunPro</span></var>\n            , a Sun Microsystems, Inc. business.\n         </p>\n\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            is freely granted, provided that this notice is preserved.\n         </p>\n\n      ",
+            "spdx:licenseText": "Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n\nDeveloped at SunSoft, a Sun Microsystems, Inc. business.\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice \nis preserved.\n"
+        },
+        {
+            "@id": "_:6dbee8f2-b7d2-4bea-b6cd-f67a5c7f12f6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +43,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
-            "spdx:timestamp": "2026-02-20T15:41:24Z",
+            "spdx:timestamp": "2026-02-20T16:09:14Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,35 +52,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/SunPro",
-            "@type": "spdx:ListedLicense",
-            "rdfs:seeAlso": [
-                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
-                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c"
-            ],
-            "spdx:name": "SunPro License",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:aba51d55-cdd3-4d07-8ff9-f26dceade327"
-                },
-                {
-                    "@id": "_:4b00cfef-eb88-4782-9cec-8d65a007f9de"
-                }
-            ],
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\";match=\".{0,5000}\">>\nDeveloped at <<var;name=\"SunOrg\";original=\"SunPro\";match=\"SunPro|SunSoft\">> , a Sun Microsystems, Inc. business.\n\nPermission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.\n\n",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n         </span></var>\n         <p>\n            Developed at<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SunPro|SunSoft\"> SunPro</span></var>\n            , a Sun Microsystems, Inc. business.\n         </p>\n\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            is freely granted, provided that this notice is preserved.\n         </p>\n\n      ",
-            "spdx:licenseText": "Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n\nDeveloped at SunSoft, a Sun Microsystems, Inc. business.\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice \nis preserved.\n"
-        },
-        {
-            "@id": "_:4b00cfef-eb88-4782-9cec-8d65a007f9de",
+            "@id": "_:8e38a8d5-9eda-4b87-b025-0ef5941b139d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,7 +66,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c",
-            "spdx:timestamp": "2026-02-20T15:41:23Z",
+            "spdx:timestamp": "2026-02-20T16:09:14Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

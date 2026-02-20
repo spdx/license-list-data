@@ -1,10 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/Boehm-GC-without-fee",
-            "spdx:crossRef": {
-                "@id": "_:2d340e27-db87-4dac-86be-09e59f5660fe"
+            "@id": "_:bc4c408b-228c-4155-8b5b-448b7d735518",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc",
+            "spdx:timestamp": "2026-02-20T16:15:02Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/Boehm-GC-without-fee",
             "@type": "spdx:ListedLicense",
             "spdx:licenseText": "Copyright (c)  2000\nSWsoft  company\n\nModifications copyright (c) 2001, 2013. Oracle and/or its affiliates.\nAll rights reserved.\n\nThis material is provided \"as is\", with absolutely no warranty expressed\nor implied. Any use is at your own risk.\n\nPermission to use or copy this software for any purpose is hereby granted\nwithout fee, provided the above notices are retained on all copies.\nPermission to modify the code and to distribute modified code is granted,\nprovided the above notices are retained, and a notice that the code was\nmodified is included with the above copyright notice.\n",
             "spdx:isDeprecatedLicenseId": {
@@ -19,30 +39,10 @@
             "rdfs:comment": "This license is similar to Boehm-GC with slightly different wording and adds \"without fee\".",
             "spdx:name": "Boehm-Demers-Weiser GC License (without fee)",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 2000 SWsoft company   Modifications copyright (c) 2001, 2013. Oracle and/or its affiliates. All rights reserved.  \";match=\".{0,5000}\">>\nThis material is provided \"as is\", with absolutely no warranty expressed or implied. Any use is at your own risk.\n\nPermission to use or copy this software for any purpose is hereby granted without fee, provided the above notices are retained on all copies. Permission to modify the code and to distribute modified code is granted, provided the above notices are retained, and a notice that the code was modified is included with the above copyright notice.\n\n",
+            "spdx:crossRef": {
+                "@id": "_:bc4c408b-228c-4155-8b5b-448b7d735518"
+            },
             "rdfs:seeAlso": "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc"
-        },
-        {
-            "@id": "_:2d340e27-db87-4dac-86be-09e59f5660fe",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/MariaDB/server/blob/11.6/libmysqld/lib_sql.cc",
-            "spdx:timestamp": "2026-02-20T15:44:16Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
