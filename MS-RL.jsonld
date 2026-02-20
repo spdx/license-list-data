@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:265cc219-c965-413c-800e-4fbac0fc24a3",
+            "@id": "_:fd65a3a8-773b-4bce-9fe4-f3371f3ee20d",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.microsoft.com/opensource/licenses.mspx",
+            "spdx:timestamp": "2026-02-20T15:23:38Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:2be13e68-e173-416f-9f94-ad2577b43b41",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/licenses/MS-RL",
-            "spdx:timestamp": "2026-02-20T15:17:20Z",
+            "spdx:timestamp": "2026-02-20T15:23:38Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -37,46 +60,23 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:2be13e68-e173-416f-9f94-ad2577b43b41"
+                },
+                {
+                    "@id": "_:fd65a3a8-773b-4bce-9fe4-f3371f3ee20d"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:265cc219-c965-413c-800e-4fbac0fc24a3"
-                },
-                {
-                    "@id": "_:0555bef1-3235-43bc-9b31-8fd793147807"
-                }
-            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:0555bef1-3235-43bc-9b31-8fd793147807",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.microsoft.com/opensource/licenses.mspx",
-            "spdx:timestamp": "2026-02-20T15:17:20Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

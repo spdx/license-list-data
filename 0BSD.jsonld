@@ -2,14 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/0BSD",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:fdb85c28-d6fa-4034-953e-9dcca3997297"
-                },
-                {
-                    "@id": "_:6630ce19-0803-4833-a952-a19ef0026304"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -17,6 +9,14 @@
             "rdfs:seeAlso": [
                 "https://opensource.org/licenses/0BSD",
                 "http://landley.net/toybox/license.html"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:416e7ed3-71a4-4ff3-a88d-54f00a420818"
+                },
+                {
+                    "@id": "_:fc38ff75-a5af-4229-9c5c-3e0d631b917b"
+                }
             ],
             "spdx:name": "BSD Zero Clause License",
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern (BSD Zero[ -]Clause|Zero[ -]Clause BSD)( License)?( \\(0BSD\\))?\"> BSD Zero Clause License</span></var></p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (C) YEAR by AUTHOR EMAIL</p>\n\n      </span></div>\n\n      <p>Permission to use, copy, modify, and/or distribute this software for any purpose with or without fee is\n         hereby granted.</p>\n\n      <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE\n         INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE\n         LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING\n         FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS\n         ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.</p>\n\n    ",
@@ -29,30 +29,7 @@
             "spdx:standardLicenseTemplate": "<<beginOptional>><<var;name=\"title\";original=\"BSD Zero Clause License\";match=\"(BSD Zero[ -]Clause|Zero[ -]Clause BSD)( License)?( \\(0BSD\\))?\">>\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (C) YEAR by AUTHOR EMAIL  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n\n"
         },
         {
-            "@id": "_:fdb85c28-d6fa-4034-953e-9dcca3997297",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/licenses/0BSD",
-            "spdx:timestamp": "2026-02-20T15:19:47Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:6630ce19-0803-4833-a952-a19ef0026304",
+            "@id": "_:416e7ed3-71a4-4ff3-a88d-54f00a420818",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +43,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://landley.net/toybox/license.html",
-            "spdx:timestamp": "2026-02-20T15:19:47Z",
+            "spdx:timestamp": "2026-02-20T15:26:23Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:fc38ff75-a5af-4229-9c5c-3e0d631b917b",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/licenses/0BSD",
+            "spdx:timestamp": "2026-02-20T15:26:22Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

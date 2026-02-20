@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:50dfb883-e7f3-48ab-8b62-9de53df579e0",
+            "@id": "_:204404a4-166c-457a-aebf-bf4f7ea65bb1",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty",
+            "spdx:timestamp": "2026-02-20T15:24:22Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:dd68bc8c-7ded-4771-93a7-33f0a1441df4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex",
-            "spdx:timestamp": "2026-02-20T15:17:57Z",
+            "spdx:timestamp": "2026-02-20T15:24:16Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -33,6 +56,14 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:204404a4-166c-457a-aebf-bf4f7ea65bb1"
+                },
+                {
+                    "@id": "_:dd68bc8c-7ded-4771-93a7-33f0a1441df4"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -42,38 +73,7 @@
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1999-2011, Donald Arseneau, asnd@triumf.ca, Vancouver, Canada\";match=\".{0,5000}\">>\n<<var;name=\"software\";original=\"software\";match=\"This software|These macros\">> may be freely used, transmitted, reproduced, or modified provided that the copyright notice and this permission is retained.\n\n",
             "spdx:name": "magaz License",
-            "rdfs:comment": "This license is a very similar to ulem and fwlw, but has slightly different obligations.",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:e761fb72-e9ae-45c3-ace5-6ee813d8838a"
-                },
-                {
-                    "@id": "_:50dfb883-e7f3-48ab-8b62-9de53df579e0"
-                }
-            ]
-        },
-        {
-            "@id": "_:e761fb72-e9ae-45c3-ace5-6ee813d8838a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty",
-            "spdx:timestamp": "2026-02-20T15:17:58Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
+            "rdfs:comment": "This license is a very similar to ulem and fwlw, but has slightly different obligations."
         }
     ],
     "@context": {
