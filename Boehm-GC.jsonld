@@ -1,62 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/Boehm-GC",
-            "rdfs:seeAlso": [
-                "https://fedoraproject.org/wiki/Licensing:MIT#Another_Minimal_variant_(found_in_libatomic_ops)",
-                "https://github.com/ivmai/libatomic_ops/blob/master/LICENSE",
-                "https://github.com/uim/libgcroots/blob/master/COPYING"
-            ],
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:e7251d21-e76b-4966-a9e2-07f1ca86a15a"
-                },
-                {
-                    "@id": "_:3b20d626-0bf7-4d24-8e56-d0883f1c0204"
-                },
-                {
-                    "@id": "_:94d9f789-6d43-410f-99fe-89e354b3924d"
-                }
-            ],
-            "spdx:name": "Boehm-Demers-Weiser GC License",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> Copyright (c) ...</span></var>\n         <p>\n            THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO\n            WARRANTY EXPRESSED OR IMPLIED. ANY USE IS AT YOUR OWN RISK.\n         </p>\n\n         <p>\n            Permission is hereby granted to use or copy this program for any\n            purpose, provided the above notices are retained on all copies.\n            Permission to modify the code and to distribute modified code is\n            granted, provided the above notices are retained, and a notice that\n            the code was modified is included with the above copyright notice.\n         </p>\n\n         <div class=\"optional-license-text\"> \n         <p>\n            A few files have other copyright holders.\n         </p>\n\n         </div>\n      ",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) ...\";match=\".{0,5000}\">>\nTHIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED OR IMPLIED. ANY USE IS AT YOUR OWN RISK.\n\nPermission is hereby granted to use or copy this program for any purpose, provided the above notices are retained on all copies. Permission to modify the code and to distribute modified code is granted, provided the above notices are retained, and a notice that the code was modified is included with the above copyright notice.\n\n<<beginOptional>>A few files have other copyright holders.\n\n<<endOptional>>",
-            "spdx:licenseText": "Copyright (c) ...\n\nTHIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED\nOR IMPLIED.  ANY USE IS AT YOUR OWN RISK.\n\nPermission is hereby granted to use or copy this program\nfor any purpose,  provided the above notices are retained on all copies.\nPermission to modify the code and to distribute modified code is granted,\nprovided the above notices are retained, and a notice that the code was\nmodified is included with the above copyright notice.\n\nA few files have other copyright holders.\n"
-        },
-        {
-            "@id": "_:e7251d21-e76b-4966-a9e2-07f1ca86a15a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/uim/libgcroots/blob/master/COPYING",
-            "spdx:timestamp": "2026-02-20T16:09:07Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:3b20d626-0bf7-4d24-8e56-d0883f1c0204",
+            "@id": "_:49e8c5bd-929a-472b-b435-b284304e77f8",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -70,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing:MIT#Another_Minimal_variant_(found_in_libatomic_ops)",
-            "spdx:timestamp": "2026-02-20T16:09:00Z",
+            "spdx:timestamp": "2026-02-20T19:00:27Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -79,7 +24,62 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:94d9f789-6d43-410f-99fe-89e354b3924d",
+            "@id": "http://spdx.org/licenses/Boehm-GC",
+            "rdfs:seeAlso": [
+                "https://fedoraproject.org/wiki/Licensing:MIT#Another_Minimal_variant_(found_in_libatomic_ops)",
+                "https://github.com/ivmai/libatomic_ops/blob/master/LICENSE",
+                "https://github.com/uim/libgcroots/blob/master/COPYING"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:965c8f49-d4f8-46dd-8e86-9d374da90425"
+                },
+                {
+                    "@id": "_:49e8c5bd-929a-472b-b435-b284304e77f8"
+                },
+                {
+                    "@id": "_:ae5f1fc3-3311-4fa3-bf8e-3871368f649c"
+                }
+            ],
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "Boehm-Demers-Weiser GC License",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> Copyright (c) ...</span></var>\n         <p>\n            THIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO\n            WARRANTY EXPRESSED OR IMPLIED. ANY USE IS AT YOUR OWN RISK.\n         </p>\n\n         <p>\n            Permission is hereby granted to use or copy this program for any\n            purpose, provided the above notices are retained on all copies.\n            Permission to modify the code and to distribute modified code is\n            granted, provided the above notices are retained, and a notice that\n            the code was modified is included with the above copyright notice.\n         </p>\n\n         <div class=\"optional-license-text\"> \n         <p>\n            A few files have other copyright holders.\n         </p>\n\n         </div>\n      ",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) ...\";match=\".{0,5000}\">>\nTHIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED OR IMPLIED. ANY USE IS AT YOUR OWN RISK.\n\nPermission is hereby granted to use or copy this program for any purpose, provided the above notices are retained on all copies. Permission to modify the code and to distribute modified code is granted, provided the above notices are retained, and a notice that the code was modified is included with the above copyright notice.\n\n<<beginOptional>>A few files have other copyright holders.\n\n<<endOptional>>",
+            "spdx:licenseText": "Copyright (c) ...\n\nTHIS MATERIAL IS PROVIDED AS IS, WITH ABSOLUTELY NO WARRANTY EXPRESSED\nOR IMPLIED.  ANY USE IS AT YOUR OWN RISK.\n\nPermission is hereby granted to use or copy this program\nfor any purpose,  provided the above notices are retained on all copies.\nPermission to modify the code and to distribute modified code is granted,\nprovided the above notices are retained, and a notice that the code was\nmodified is included with the above copyright notice.\n\nA few files have other copyright holders.\n"
+        },
+        {
+            "@id": "_:965c8f49-d4f8-46dd-8e86-9d374da90425",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/uim/libgcroots/blob/master/COPYING",
+            "spdx:timestamp": "2026-02-20T19:00:28Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:ae5f1fc3-3311-4fa3-bf8e-3871368f649c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -93,7 +93,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/ivmai/libatomic_ops/blob/master/LICENSE",
-            "spdx:timestamp": "2026-02-20T16:09:06Z",
+            "spdx:timestamp": "2026-02-20T19:00:28Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

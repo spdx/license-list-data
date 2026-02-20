@@ -8,12 +8,21 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
         rdfs:comment                  "This license uses the same grant as ISC, but a different disclaimer paragraph. It appears to originate from the Trio printf library.";
         rdfs:seeAlso                  "https://raw.githubusercontent.com/GNOME/libxml2/4c2e7c651f6c2f0d1a74f350cbda95f7df3e7017/hash.c" , "https://sourceforge.net/p/ctrio/git/ci/master/tree/README" , "https://github.com/GNOME/libxml2/blob/master/dict.c";
         spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         false;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "N/A";
+                                        spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2026-02-20T19:01:45Z";
+                                        spdx:url            "https://sourceforge.net/p/ctrio/git/ci/master/tree/README"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         true;
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "false";
                                         spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-02-20T16:12:18Z";
+                                        spdx:timestamp      "2026-02-20T19:01:45Z";
                                         spdx:url            "https://github.com/GNOME/libxml2/blob/master/dict.c"
                                       ];
         spdx:crossRef                 [ a                   spdx:CrossRef;
@@ -22,17 +31,8 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                         spdx:isWayBackLink  false;
                                         spdx:match          "false";
                                         spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-02-20T16:12:18Z";
+                                        spdx:timestamp      "2026-02-20T19:01:45Z";
                                         spdx:url            "https://raw.githubusercontent.com/GNOME/libxml2/4c2e7c651f6c2f0d1a74f350cbda95f7df3e7017/hash.c"
-                                      ];
-        spdx:crossRef                 [ a                   spdx:CrossRef;
-                                        spdx:isLive         false;
-                                        spdx:isValid        true;
-                                        spdx:isWayBackLink  false;
-                                        spdx:match          "N/A";
-                                        spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-02-20T16:12:18Z";
-                                        spdx:url            "https://sourceforge.net/p/ctrio/git/ci/master/tree/README"
                                       ];
         spdx:isDeprecatedLicenseId    false;
         spdx:isOsiApproved            false;

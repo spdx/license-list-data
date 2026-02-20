@@ -1,7 +1,27 @@
 {
     "@graph": [
         {
-            "@id": "_:a93e7c70-35de-49b4-9e15-c7d797ec776b",
+            "@id": "http://spdx.org/licenses/diffmark",
+            "spdx:licenseText": "1. you can do what you want with it\n2. I refuse any responsibility for the consequences\n",
+            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/diffmark",
+            "spdx:licenseTextHtml": "\n      \n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          you can do what you want with it\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          I refuse any responsibility for the consequences\n        </li>\n      \n</ul>\n    ",
+            "spdx:standardLicenseTemplate": "\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:c81d9610-b6d3-417b-94a0-5f2a8c6cb388"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "diffmark license",
+            "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:c81d9610-b6d3-417b-94a0-5f2a8c6cb388",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,33 +35,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/diffmark",
-            "spdx:timestamp": "2026-02-20T16:12:52Z",
+            "spdx:timestamp": "2026-02-20T19:02:19Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/diffmark",
-            "spdx:licenseText": "1. you can do what you want with it\n2. I refuse any responsibility for the consequences\n",
-            "rdfs:seeAlso": "https://fedoraproject.org/wiki/Licensing/diffmark",
-            "spdx:licenseTextHtml": "\n      \n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n          you can do what you want with it\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n          I refuse any responsibility for the consequences\n        </li>\n      \n</ul>\n    ",
-            "spdx:standardLicenseTemplate": "\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> you can do what you want with it\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> I refuse any responsibility for the consequences",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:a93e7c70-35de-49b4-9e15-c7d797ec776b"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "diffmark license",
-            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {

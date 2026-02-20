@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:8cb610c8-56a2-4734-b89c-b7d4f12914a7",
+            "@id": "_:6592076b-c0e8-4ef1-b33d-8a2d14a447cd",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
-            "spdx:timestamp": "2026-02-20T16:15:37Z",
+            "spdx:timestamp": "2026-02-20T19:03:34Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,35 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:156240e1-0c0e-4e0b-9e50-9bc5c88bac49",
+            "@id": "http://spdx.org/licenses/blessing",
+            "spdx:standardLicenseTemplate": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\n   May you do good and not evil.\n\n   May you find forgiveness for yourself and forgive others.\n\n   May you share freely, never taking more than you give.\n   \n   ",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:seeAlso": [
+                "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
+                "https://sqlite.org/src/artifact/df5091916dbb40e6"
+            ],
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:17494434-7a4c-4650-a064-d2d9908f80e6"
+                },
+                {
+                    "@id": "_:6592076b-c0e8-4ef1-b33d-8a2d14a447cd"
+                }
+            ],
+            "spdx:licenseText": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\nMay you do good and not evil.\nMay you find forgiveness for yourself and forgive others.\nMay you share freely, never taking more than you give.\n",
+            "spdx:licenseTextHtml": "\n        <p>The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:</p>\n\n<ul style=\"list-style:none\">\n            \n<li><p>May you do good and not evil.</p>\n</li>\n            \n<li><p>May you find forgiveness for yourself and forgive others.</p>\n</li>\n            \n<li><p>May you share freely, never taking more than you give.</p>\n</li>\n        \n</ul>\n    ",
+            "spdx:name": "SQLite Blessing",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        },
+        {
+            "@id": "_:17494434-7a4c-4650-a064-d2d9908f80e6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,41 +66,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sqlite.org/src/artifact/df5091916dbb40e6",
-            "spdx:timestamp": "2026-02-20T16:15:37Z",
+            "spdx:timestamp": "2026-02-20T19:03:34Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/blessing",
-            "spdx:standardLicenseTemplate": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\n   May you do good and not evil.\n\n   May you find forgiveness for yourself and forgive others.\n\n   May you share freely, never taking more than you give.\n   \n   ",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8cb610c8-56a2-4734-b89c-b7d4f12914a7"
-                },
-                {
-                    "@id": "_:156240e1-0c0e-4e0b-9e50-9bc5c88bac49"
-                }
-            ],
-            "rdfs:seeAlso": [
-                "https://www.sqlite.org/src/artifact/e33a4df7e32d742a?ln=4-9",
-                "https://sqlite.org/src/artifact/df5091916dbb40e6"
-            ],
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseText": "The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:\n\nMay you do good and not evil.\nMay you find forgiveness for yourself and forgive others.\nMay you share freely, never taking more than you give.\n",
-            "spdx:licenseTextHtml": "\n        <p>The author disclaims copyright to this source code. In place of a legal notice, here is a blessing:</p>\n\n<ul style=\"list-style:none\">\n            \n<li><p>May you do good and not evil.</p>\n</li>\n            \n<li><p>May you find forgiveness for yourself and forgive others.</p>\n</li>\n            \n<li><p>May you share freely, never taking more than you give.</p>\n</li>\n        \n</ul>\n    ",
-            "spdx:name": "SQLite Blessing",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
         }
     ],
     "@context": {

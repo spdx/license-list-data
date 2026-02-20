@@ -2,15 +2,15 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Linux-OpenIB",
+            "spdx:crossRef": {
+                "@id": "_:4e705a7a-12dc-4032-9f31-03b195edfe0e"
+            },
             "spdx:licenseText": "Redistribution and use in source and binary forms, with or\nwithout modification, are permitted provided that the following\nconditions are met:\n\n- Redistributions of source code must retain the above copyright notice, this\nlist of conditions and the following disclaimer.\n\n- Redistributions in binary form must reproduce the above copyright notice,\nthis list of conditions and the following disclaimer in the documentation\nand/or other materials provided with the distribution.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:name": "Linux Kernel Variant of OpenIB.org license",
-            "spdx:crossRef": {
-                "@id": "_:1f2d1bb5-638d-4d5e-8a69-aa263eaf1484"
-            },
             "spdx:licenseTextHtml": "\n      <p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n          Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n        </li>\n        \n<li>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> -</span></var>\n          Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n        </li>\n      \n</ul>\n      <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>\n\n    ",
             "rdfs:comment": "This license is BSD-2-Clause with the MIT disclaimer. The linux kernel uses this license extensively throughout the driver subsystem since 2005. Note that the OpenIB.org license is a true match to BSD-2-Clause.",
             "@type": "spdx:ListedLicense",
@@ -22,7 +22,7 @@
             }
         },
         {
-            "@id": "_:1f2d1bb5-638d-4d5e-8a69-aa263eaf1484",
+            "@id": "_:4e705a7a-12dc-4032-9f31-03b195edfe0e",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -36,7 +36,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/drivers/infiniband/core/sa.h",
-            "spdx:timestamp": "2026-02-20T16:15:47Z",
+            "spdx:timestamp": "2026-02-20T19:04:03Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

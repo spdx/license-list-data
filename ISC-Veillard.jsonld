@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:e33a909a-022d-4b9c-8306-d3ecbcbb26da",
+            "@id": "_:25fd3901-2ea6-4e75-9ed6-847852297572",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://sourceforge.net/p/ctrio/git/ci/master/tree/README",
+            "spdx:timestamp": "2026-02-20T19:01:45Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:99f3ec4b-cd76-4c1f-854a-3b4792bb2ecd",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://raw.githubusercontent.com/GNOME/libxml2/4c2e7c651f6c2f0d1a74f350cbda95f7df3e7017/hash.c",
-            "spdx:timestamp": "2026-02-20T16:12:18Z",
+            "spdx:timestamp": "2026-02-20T19:01:45Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,18 +49,18 @@
         {
             "@id": "http://spdx.org/licenses/ISC-Veillard",
             "spdx:name": "ISC Veillard variant",
-            "rdfs:comment": "This license uses the same grant as ISC, but a different disclaimer paragraph. It appears to originate from the Trio printf library.",
             "spdx:crossRef": [
                 {
-                    "@id": "_:df772870-b601-4c5f-83de-5c7238e3d399"
+                    "@id": "_:25fd3901-2ea6-4e75-9ed6-847852297572"
                 },
                 {
-                    "@id": "_:e33a909a-022d-4b9c-8306-d3ecbcbb26da"
+                    "@id": "_:ce96b61e-138a-47a6-a5d3-f31b4c155214"
                 },
                 {
-                    "@id": "_:d58f4672-b743-44a1-a432-005c1cb19f3e"
+                    "@id": "_:99f3ec4b-cd76-4c1f-854a-3b4792bb2ecd"
                 }
             ],
+            "rdfs:comment": "This license uses the same grant as ISC, but a different disclaimer paragraph. It appears to originate from the Trio printf library.",
             "rdfs:seeAlso": [
                 "https://raw.githubusercontent.com/GNOME/libxml2/4c2e7c651f6c2f0d1a74f350cbda95f7df3e7017/hash.c",
                 "https://sourceforge.net/p/ctrio/git/ci/master/tree/README",
@@ -57,7 +80,7 @@
             "@type": "spdx:ListedLicense"
         },
         {
-            "@id": "_:df772870-b601-4c5f-83de-5c7238e3d399",
+            "@id": "_:ce96b61e-138a-47a6-a5d3-f31b4c155214",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -71,35 +94,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/GNOME/libxml2/blob/master/dict.c",
-            "spdx:timestamp": "2026-02-20T16:12:18Z",
+            "spdx:timestamp": "2026-02-20T19:01:45Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:d58f4672-b743-44a1-a432-005c1cb19f3e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://sourceforge.net/p/ctrio/git/ci/master/tree/README",
-            "spdx:timestamp": "2026-02-20T16:12:18Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

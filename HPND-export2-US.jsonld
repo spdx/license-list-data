@@ -2,6 +2,14 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/HPND-export2-US",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:58e8a10d-5506-4a29-b6bb-5bcad1a1dbc8"
+                },
+                {
+                    "@id": "_:464d42cb-962c-435f-ae20-782d8fd6e78a"
+                }
+            ],
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright 2004-2008 Apple Inc. All Rights Reserved.\n         </span></var>\n         <p>\n            Export of this software from the United States of America may\n            require a specific license from the United States Government.\n            It is the responsibility of any person or organization\n            contemplating export to obtain such a license before exporting.\n         </p>\n\n         <p>\n            WITHIN THAT CONSTRAINT, permission to use, copy, modify, and\n            distribute this software and its documentation for any purpose and\n            without fee is hereby granted, provided that the above copyright\n            notice appear in all copies and that both that copyright notice\n            and this permission notice appear in supporting documentation,\n            and that the name of <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .*\"> Apple Inc.</span></var> not be used in advertising or\n            publicity pertaining to distribution of the software without\n            specific, written prior permission. <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .*\"> Apple Inc.</span></var>. makes no\n            representations about the suitability of this software for any\n            purpose. It is provided &quot;as is&quot; without express or implied warranty.\n         </p>\n\n         <p>\n            THIS SOFTWARE IS PROVIDED &quot;AS IS&quot; AND WITHOUT ANY EXPRESS OR\n            IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\n            WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n         </p>\n\n      ",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -16,44 +24,13 @@
                 "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
                 "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133"
             ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d574fd29-2ae1-4673-8ea6-f6963260b95a"
-                },
-                {
-                    "@id": "_:171b9c6e-f439-441e-804d-c17e768a82c6"
-                }
-            ],
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "This license is very similar to HPND-export-US, but adds a second disclaimer.",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 2004-2008 Apple Inc. All Rights Reserved.\";match=\".{0,5000}\">>\nExport of this software from the United States of America may require a specific license from the United States Government. It is the responsibility of any person or organization contemplating export to obtain such a license before exporting.\n\nWITHIN THAT CONSTRAINT, permission to use, copy, modify, and distribute this software and its documentation for any purpose and without fee is hereby granted, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation, and that the name of <<var;name=\"copyrightHolder0\";original=\"Apple Inc.\";match=\".*\">> not be used in advertising or publicity pertaining to distribution of the software without specific, written prior permission. <<var;name=\"copyrightHolder1\";original=\"Apple Inc.\";match=\".*\">> . makes no representations about the suitability of this software for any purpose. It is provided \"as is\" without express or implied warranty.\n\nTHIS SOFTWARE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n\n",
             "spdx:licenseText": "Copyright 2004-2008 Apple Inc.  All Rights Reserved.\n\n   Export of this software from the United States of America may\n   require a specific license from the United States Government.\n   It is the responsibility of any person or organization\n   contemplating export to obtain such a license before exporting.\n\nWITHIN THAT CONSTRAINT, permission to use, copy, modify, and\ndistribute this software and its documentation for any purpose and\nwithout fee is hereby granted, provided that the above copyright\nnotice appear in all copies and that both that copyright notice and\nthis permission notice appear in supporting documentation, and that\nthe name of Apple Inc. not be used in advertising or publicity\npertaining to distribution of the software without specific,\nwritten prior permission.  Apple Inc. makes no representations\nabout the suitability of this software for any purpose.  It is\nprovided \"as is\" without express or implied warranty.\n\nTHIS SOFTWARE IS PROVIDED \"AS IS\" AND WITHOUT ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, WITHOUT LIMITATION, THE IMPLIED\nWARRANTIES OF MERCHANTIBILITY AND FITNESS FOR A PARTICULAR PURPOSE.\n"
         },
         {
-            "@id": "_:d574fd29-2ae1-4673-8ea6-f6963260b95a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:timestamp": "2026-02-20T16:07:49Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:171b9c6e-f439-441e-804d-c17e768a82c6",
+            "@id": "_:58e8a10d-5506-4a29-b6bb-5bcad1a1dbc8",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -67,12 +44,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L111-L133",
-            "spdx:timestamp": "2026-02-20T16:07:49Z",
+            "spdx:timestamp": "2026-02-20T18:59:57Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:464d42cb-962c-435f-ae20-782d8fd6e78a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
+            "spdx:timestamp": "2026-02-20T18:59:57Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],

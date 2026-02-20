@@ -1,7 +1,27 @@
 {
     "@graph": [
         {
-            "@id": "_:10b6a9e0-75fd-428f-ab29-19bc77136e41",
+            "@id": "http://spdx.org/licenses/mpi-permissive",
+            "spdx:licenseText": "* Copyright (C) 2000-2004 by Etnus, LLC\n *\n * Permission is hereby granted to use, reproduce, prepare derivative\n * works, and to redistribute to others.\n *\n *\t\t\t\t  DISCLAIMER\n *\n * Neither Etnus, nor any of their employees, makes any warranty\n * express or implied, or assumes any legal liability or\n * responsibility for the accuracy, completeness, or usefulness of any\n * information, apparatus, product, or process disclosed, or\n * represents that its use would not infringe privately owned rights.\n *\n * This code was written by\n * James Cownie: Etnus, LLC. <jcownie@etnus.com>\n",
+            "rdfs:seeAlso": "https://sources.debian.org/src/openmpi/4.1.0-10/ompi/debuggers/msgq_interface.h/?hl=19#L19",
+            "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (C) 2000-2004 by Etnus, LLC</p>\n\n      </span></div>\n\n  Permission is hereby granted to use, reproduce, prepare derivative\n  works, and to redistribute to others.\n\n\t\t\t\t  DISCLAIMER\n\n  Neither <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> Etnus</span></var>, nor any of their employees, makes any warranty\n  express or implied, or assumes any legal liability or\n  responsibility for the accuracy, completeness, or usefulness of any\n  information, apparatus, product, or process disclosed, or\n  represents that its use would not infringe privately owned rights.\n\n  This code was written by\n  <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> James Cownie: Etnus, LLC. &lt;jcownie@etnus.com&gt;</span></var>\n    ",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2000-2004 by Etnus, LLC  \";match=\".{0,5000}\">> Permission is hereby granted to use, reproduce, prepare derivative works, and to redistribute to others. DISCLAIMER Neither <<var;name=\"copyrightHolderAsIs\";original=\"Etnus\";match=\".+\">> , nor any of their employees, makes any warranty express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. This code was written by <<var;name=\"author\";original=\"James Cownie: Etnus, LLC. <jcownie@etnus.com>\";match=\".+\">>",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": {
+                "@id": "_:64705222-f3c8-408e-a5f8-aa35e5bd16ac"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "mpi Permissive License",
+            "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:64705222-f3c8-408e-a5f8-aa35e5bd16ac",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,33 +35,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sources.debian.org/src/openmpi/4.1.0-10/ompi/debuggers/msgq_interface.h/?hl=19#L19",
-            "spdx:timestamp": "2026-02-20T16:06:10Z",
+            "spdx:timestamp": "2026-02-20T18:59:50Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/mpi-permissive",
-            "spdx:licenseText": "* Copyright (C) 2000-2004 by Etnus, LLC\n *\n * Permission is hereby granted to use, reproduce, prepare derivative\n * works, and to redistribute to others.\n *\n *\t\t\t\t  DISCLAIMER\n *\n * Neither Etnus, nor any of their employees, makes any warranty\n * express or implied, or assumes any legal liability or\n * responsibility for the accuracy, completeness, or usefulness of any\n * information, apparatus, product, or process disclosed, or\n * represents that its use would not infringe privately owned rights.\n *\n * This code was written by\n * James Cownie: Etnus, LLC. <jcownie@etnus.com>\n",
-            "rdfs:seeAlso": "https://sources.debian.org/src/openmpi/4.1.0-10/ompi/debuggers/msgq_interface.h/?hl=19#L19",
-            "spdx:licenseTextHtml": "\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (C) 2000-2004 by Etnus, LLC</p>\n\n      </span></div>\n\n  Permission is hereby granted to use, reproduce, prepare derivative\n  works, and to redistribute to others.\n\n\t\t\t\t  DISCLAIMER\n\n  Neither <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> Etnus</span></var>, nor any of their employees, makes any warranty\n  express or implied, or assumes any legal liability or\n  responsibility for the accuracy, completeness, or usefulness of any\n  information, apparatus, product, or process disclosed, or\n  represents that its use would not infringe privately owned rights.\n\n  This code was written by\n  <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> James Cownie: Etnus, LLC. &lt;jcownie@etnus.com&gt;</span></var>\n    ",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 2000-2004 by Etnus, LLC  \";match=\".{0,5000}\">> Permission is hereby granted to use, reproduce, prepare derivative works, and to redistribute to others. DISCLAIMER Neither <<var;name=\"copyrightHolderAsIs\";original=\"Etnus\";match=\".+\">> , nor any of their employees, makes any warranty express or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, or represents that its use would not infringe privately owned rights. This code was written by <<var;name=\"author\";original=\"James Cownie: Etnus, LLC. <jcownie@etnus.com>\";match=\".+\">>",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:10b6a9e0-75fd-428f-ab29-19bc77136e41"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "mpi Permissive License",
-            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {

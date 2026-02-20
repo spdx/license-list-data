@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:9e40ec9b-a993-4c84-be76-72bcfdad65fa",
+            "@id": "_:3881fab7-f456-4808-a207-65c6969bc0aa",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD",
-            "spdx:timestamp": "2026-02-20T16:08:24Z",
+            "spdx:timestamp": "2026-02-20T19:00:27Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:8c3e5ac9-a358-4c51-83ab-92528383ded0",
+            "@id": "_:c912a3dd-3168-4603-8c18-493f71cf6f57",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63",
-            "spdx:timestamp": "2026-02-20T16:08:24Z",
+            "spdx:timestamp": "2026-02-20T19:00:27Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,14 +48,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-4.3RENO",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8c3e5ac9-a358-4c51-83ab-92528383ded0"
-                },
-                {
-                    "@id": "_:9e40ec9b-a993-4c84-be76-72bcfdad65fa"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -69,6 +61,14 @@
             ],
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (c) 1987 Regents of the University\n            of California. All rights reserved.\n         </span></var>\n         <p>\n            Redistribution and use in source and binary forms are permitted\n            provided that this notice is preserved and that due credit is\n            given to the <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> University of California at Berkeley</span></var>. \n            The name of the University may not be used to endorse or promote products derived\n            from this software without specific <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern written prior|prior written\"> written prior</span></var> permission. This\n            software is provided ``as is&apos;&apos; without express or implied warranty.\n         </p>\n\n      ",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1987 Regents of the University of California. All rights reserved.\";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms are permitted provided that this notice is preserved and that due credit is given to the <<var;name=\"name\";original=\"University of California at Berkeley\";match=\".+\">> . The name of the University may not be used to endorse or promote products derived from this software without specific <<var;name=\"written\";original=\"written prior\";match=\"written prior|prior written\">> permission. This software is provided ``as is'' without express or implied warranty.\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:c912a3dd-3168-4603-8c18-493f71cf6f57"
+                },
+                {
+                    "@id": "_:3881fab7-f456-4808-a207-65c6969bc0aa"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

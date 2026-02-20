@@ -1,62 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:76fc735e-8246-422a-a287-992629c53e46",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://opensource.org/licenses/MIT",
-            "spdx:timestamp": "2026-02-20T16:07:17Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/MIT",
-            "rdfs:seeAlso": [
-                "https://opensource.org/license/mit/",
-                "http://opensource.org/licenses/MIT"
-            ],
-            "spdx:name": "MIT License",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:cfe8ad0e-80f7-4161-bc7e-c12a4ef86b51"
-                },
-                {
-                    "@id": "_:76fc735e-8246-422a-a287-992629c53e46"
-                }
-            ],
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isFsfLibre": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>MIT License</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;\n         </p>\n\n      </span></div>\n\n      <p>Permission is hereby granted, free of charge, to any person obtaining a copy of \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern this\\s+software\\s+and\\s+associated\\s+documentation\\s+files|this\\s+source\\s+file\"> \n         this software and associated documentation files</span></var> (the \n         &quot;<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>&quot;), \n         to deal in the \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var> \n         without restriction, including without limitation the rights to use, copy, modify, \n         merge, publish, distribute, sublicense, and/or sell copies of the \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>, \n         and to permit persons to whom the \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>\n         is furnished to do so, subject to the following conditions:</p>\n\n       <p>The above copyright notice and this permission notice\n         <var class=\"optional-license-text\"> (including the next paragraph)</var>\n         shall be included in all copies or substantial portions of the \n          <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>.</p>\n\n       <p>THE <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SOFTWARE IS|MATERIALS ARE\"> SOFTWARE IS</span></var> \n         PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT\n         LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND \n         NONINFRINGEMENT. IN NO EVENT SHALL \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE AUTHORS OR COPYRIGHT HOLDERS</span></var> \n         BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, \n         TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SOFTWARE|MATERIALS\"> SOFTWARE</span></var> \n         OR THE USE OR OTHER DEALINGS IN THE\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SOFTWARE|MATERIALS\"> SOFTWARE</span></var>.</p>\n\n    ",
-            "spdx:standardLicenseTemplate": "<<beginOptional>>MIT License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>  \";match=\".{0,5000}\">>\nPermission is hereby granted, free of charge, to any person obtaining a copy of <<var;name=\"files\";original=\"this software and associated documentation files\";match=\"this\\s+software\\s+and\\s+associated\\s+documentation\\s+files|this\\s+source\\s+file\">> (the \" <<var;name=\"Software1\";original=\"Software\";match=\"Software|Materials\">> \"), to deal in the <<var;name=\"Software2\";original=\"Software\";match=\"Software|Materials\">> without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the <<var;name=\"Software3\";original=\"Software\";match=\"Software|Materials\">> , and to permit persons to whom the <<var;name=\"Software4\";original=\"Software\";match=\"Software|Materials\">> is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice<<beginOptional>> (including the next paragraph)<<endOptional>> shall be included in all copies or substantial portions of the <<var;name=\"Software5\";original=\"Software\";match=\"Software|Materials\">> .\n\nTHE <<var;name=\"Software-verb\";original=\"SOFTWARE IS\";match=\"SOFTWARE IS|MATERIALS ARE\">> PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL <<var;name=\"copyrightHolder\";original=\"THE AUTHORS OR COPYRIGHT HOLDERS\";match=\".+\">> BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE <<var;name=\"Software7\";original=\"SOFTWARE\";match=\"SOFTWARE|MATERIALS\">> OR THE USE OR OTHER DEALINGS IN THE <<var;name=\"Software8\";original=\"SOFTWARE\";match=\"SOFTWARE|MATERIALS\">> .\n\n",
-            "spdx:licenseText": "MIT License\n\nCopyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and\nassociated documentation files (the \"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the\nfollowing conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial\nportions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT\nLIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO\nEVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\nUSE OR OTHER DEALINGS IN THE SOFTWARE.\n",
-            "spdx:isOsiApproved": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
-        },
-        {
-            "@id": "_:cfe8ad0e-80f7-4161-bc7e-c12a4ef86b51",
+            "@id": "_:c90ba628-df4a-485a-9caa-b3c50e0adbfb",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -70,12 +15,67 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/mit/",
-            "spdx:timestamp": "2026-02-20T16:07:17Z",
+            "spdx:timestamp": "2026-02-20T18:59:54Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/MIT",
+            "rdfs:seeAlso": [
+                "https://opensource.org/license/mit/",
+                "http://opensource.org/licenses/MIT"
+            ],
+            "spdx:name": "MIT License",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isFsfLibre": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:f75350ce-d76f-435b-aa65-010a839e36a3"
+                },
+                {
+                    "@id": "_:c90ba628-df4a-485a-9caa-b3c50e0adbfb"
+                }
+            ],
+            "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>MIT License</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;\n         </p>\n\n      </span></div>\n\n      <p>Permission is hereby granted, free of charge, to any person obtaining a copy of \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern this\\s+software\\s+and\\s+associated\\s+documentation\\s+files|this\\s+source\\s+file\"> \n         this software and associated documentation files</span></var> (the \n         &quot;<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>&quot;), \n         to deal in the \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var> \n         without restriction, including without limitation the rights to use, copy, modify, \n         merge, publish, distribute, sublicense, and/or sell copies of the \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>, \n         and to permit persons to whom the \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>\n         is furnished to do so, subject to the following conditions:</p>\n\n       <p>The above copyright notice and this permission notice\n         <var class=\"optional-license-text\"> (including the next paragraph)</var>\n         shall be included in all copies or substantial portions of the \n          <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern Software|Materials\"> Software</span></var>.</p>\n\n       <p>THE <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SOFTWARE IS|MATERIALS ARE\"> SOFTWARE IS</span></var> \n         PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT\n         LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND \n         NONINFRINGEMENT. IN NO EVENT SHALL \n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> THE AUTHORS OR COPYRIGHT HOLDERS</span></var> \n         BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, \n         TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SOFTWARE|MATERIALS\"> SOFTWARE</span></var> \n         OR THE USE OR OTHER DEALINGS IN THE\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SOFTWARE|MATERIALS\"> SOFTWARE</span></var>.</p>\n\n    ",
+            "spdx:standardLicenseTemplate": "<<beginOptional>>MIT License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright (c) <year> <copyright holders>  \";match=\".{0,5000}\">>\nPermission is hereby granted, free of charge, to any person obtaining a copy of <<var;name=\"files\";original=\"this software and associated documentation files\";match=\"this\\s+software\\s+and\\s+associated\\s+documentation\\s+files|this\\s+source\\s+file\">> (the \" <<var;name=\"Software1\";original=\"Software\";match=\"Software|Materials\">> \"), to deal in the <<var;name=\"Software2\";original=\"Software\";match=\"Software|Materials\">> without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the <<var;name=\"Software3\";original=\"Software\";match=\"Software|Materials\">> , and to permit persons to whom the <<var;name=\"Software4\";original=\"Software\";match=\"Software|Materials\">> is furnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice<<beginOptional>> (including the next paragraph)<<endOptional>> shall be included in all copies or substantial portions of the <<var;name=\"Software5\";original=\"Software\";match=\"Software|Materials\">> .\n\nTHE <<var;name=\"Software-verb\";original=\"SOFTWARE IS\";match=\"SOFTWARE IS|MATERIALS ARE\">> PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL <<var;name=\"copyrightHolder\";original=\"THE AUTHORS OR COPYRIGHT HOLDERS\";match=\".+\">> BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE <<var;name=\"Software7\";original=\"SOFTWARE\";match=\"SOFTWARE|MATERIALS\">> OR THE USE OR OTHER DEALINGS IN THE <<var;name=\"Software8\";original=\"SOFTWARE\";match=\"SOFTWARE|MATERIALS\">> .\n\n",
+            "spdx:licenseText": "MIT License\n\nCopyright (c) <year> <copyright holders>\n\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and\nassociated documentation files (the \"Software\"), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the\nfollowing conditions:\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial\nportions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT\nLIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO\nEVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\nIN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE\nUSE OR OTHER DEALINGS IN THE SOFTWARE.\n",
+            "spdx:isOsiApproved": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        },
+        {
+            "@id": "_:f75350ce-d76f-435b-aa65-010a839e36a3",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://opensource.org/licenses/MIT",
+            "spdx:timestamp": "2026-02-20T18:59:53Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],
