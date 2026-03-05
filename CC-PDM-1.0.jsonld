@@ -1,19 +1,65 @@
 {
     "@graph": [
         {
+            "@id": "_:8616b05b-f685-4f77-979e-515699cf5f07",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://creativecommons.org/publicdomain/mark/1.0/",
+            "spdx:timestamp": "2026-03-05T17:57:21Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:687c8988-3ce6-48f1-9731-a08b0607b160",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://creativecommons.org/share-your-work/cclicenses/",
+            "spdx:timestamp": "2026-03-05T17:57:21Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/CC-PDM-1.0",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:38ec0b5c-e2cd-458f-84d7-23a6d5d4f9d0"
-                },
-                {
-                    "@id": "_:62f09453-84fb-48a8-bf45-78e761b07f5e"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:687c8988-3ce6-48f1-9731-a08b0607b160"
+                },
+                {
+                    "@id": "_:8616b05b-f685-4f77-979e-515699cf5f07"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://creativecommons.org/share-your-work/cclicenses/",
                 "https://creativecommons.org/publicdomain/mark/1.0/"
@@ -28,52 +74,6 @@
             },
             "spdx:licenseText": "No Copyright\n\nThis work has been identified as being free of known restrictions under\ncopyright law, including all related and neighboring rights.\n\n\nYou can copy, modify, distribute and perform the work, even for commercial\npurposes, all without asking permission. See Other Information below.\n\nOther Information\n\nThe work may not be free of known copyright restrictions in all jurisdictions .\n\nPersons may have other rights in or related to the work, such as patent or\ntrademark rights, and others may have rights in how the work is used, such as\npublicity or privacy rights.\n\nIn some jurisdictions moral rights of the author may persist beyond the term of\ncopyright. These rights may include the right to be identified as the author\nand the right to object to derogatory treatments.\n\nUnless expressly stated otherwise, the person who identified the work makes no\nwarranties about the work, and disclaims liability for all uses of the work, to\nthe fullest extent permitted by applicable law.\n\nWhen using or citing the work, you should not imply endorsement by the author\nor the person who identified the work.\n",
             "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:38ec0b5c-e2cd-458f-84d7-23a6d5d4f9d0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://creativecommons.org/share-your-work/cclicenses/",
-            "spdx:timestamp": "2026-02-20T20:53:21Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:62f09453-84fb-48a8-bf45-78e761b07f5e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://creativecommons.org/publicdomain/mark/1.0/",
-            "spdx:timestamp": "2026-02-20T20:53:21Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

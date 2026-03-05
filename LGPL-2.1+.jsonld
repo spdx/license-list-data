@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:0f46dfa0-e131-43b4-b9dc-dd731d2c78f4",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/licenses/LGPL-2.1",
-            "spdx:timestamp": "2026-02-20T20:54:31Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:c47cda13-1207-4e3a-9fef-cc93568afd43",
+            "@id": "_:7d037ce8-fa50-4f7e-9acd-13b7085cdb9f",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
-            "spdx:timestamp": "2026-02-20T20:55:01Z",
+            "spdx:timestamp": "2026-03-05T17:59:14Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,38 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:c75a5d78-b6c8-405f-b63b-b4666ceed6ef",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/licenses/LGPL-2.1",
+            "spdx:timestamp": "2026-03-05T17:59:14Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/LGPL-2.1+",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:7d037ce8-fa50-4f7e-9acd-13b7085cdb9f"
+                },
+                {
+                    "@id": "_:c75a5d78-b6c8-405f-b63b-b4666ceed6ef"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
                 "https://opensource.org/licenses/LGPL-2.1"
@@ -72,15 +80,7 @@
             },
             "spdx:standardLicenseHeader": "<one line to give the library's name and an idea of what it does.>\nCopyright (C) <year> <name of author>\n\nThis library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2.1 of the License, or (at your option) any later version.\n\nThis library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License for more details.\n\nYou should have received a copy of the GNU Lesser General Public License along with this library; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n\n",
             "@type": "spdx:ListedLicense",
-            "spdx:standardLicenseHeaderHtml": "\n         <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> &lt;one line to give the library&apos;s name and an idea of what it does.&gt;</span></var><br />\n\n         Copyright (C) <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> &lt;year&gt; &lt;name of author&gt;</span></var></p>\n\n         <p>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser\n         General Public License as published by the Free Software Foundation; either version 2.1 of the\n         License, or (at your option) any later version.</p>\n\n         <p>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even\n         the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser\n         General Public License for more details.</p>\n\n         <p>You should have received a copy of the GNU Lesser General Public License along with this library; if not,\n         write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301\n         USA</p>\n\n         ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:0f46dfa0-e131-43b4-b9dc-dd731d2c78f4"
-                },
-                {
-                    "@id": "_:c47cda13-1207-4e3a-9fef-cc93568afd43"
-                }
-            ]
+            "spdx:standardLicenseHeaderHtml": "\n         <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> &lt;one line to give the library&apos;s name and an idea of what it does.&gt;</span></var><br />\n\n         Copyright (C) <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> &lt;year&gt; &lt;name of author&gt;</span></var></p>\n\n         <p>This library is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser\n         General Public License as published by the Free Software Foundation; either version 2.1 of the\n         License, or (at your option) any later version.</p>\n\n         <p>This library is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even\n         the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser\n         General Public License for more details.</p>\n\n         <p>You should have received a copy of the GNU Lesser General Public License along with this library; if not,\n         write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301\n         USA</p>\n\n         "
         }
     ],
     "@context": {
