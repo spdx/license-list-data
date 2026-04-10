@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:7ff8ec5c-b1d5-47f5-a81a-0f985344198d",
+            "@id": "_:0c42f65a-fd4d-4979-9919-e78497f4bca5",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -14,10 +14,33 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://opensource.org/licenses/GPL-2.0",
-            "spdx:timestamp": "2026-04-10T14:18:23Z",
+            "spdx:url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
+            "spdx:timestamp": "2026-04-10T14:31:27Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:b13df992-b5cf-415c-858d-875e6f0cb58e",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
+            "spdx:timestamp": "2026-04-10T14:31:26Z",
+            "spdx:order": {
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
@@ -43,16 +66,16 @@
             },
             "spdx:crossRef": [
                 {
-                    "@id": "_:298a0b94-3159-4d02-b6d0-09568cc25091"
+                    "@id": "_:3e226783-36f5-4496-a6f1-26f599754c57"
                 },
                 {
-                    "@id": "_:7ff8ec5c-b1d5-47f5-a81a-0f985344198d"
+                    "@id": "_:b13df992-b5cf-415c-858d-875e6f0cb58e"
                 },
                 {
-                    "@id": "_:19fd856d-7ef8-4913-8843-630d364193df"
+                    "@id": "_:cbb19a49-fc40-49ea-b7bc-51b286973595"
                 },
                 {
-                    "@id": "_:1a4f802d-01d4-4d5f-9778-50d75ea19c43"
+                    "@id": "_:0c42f65a-fd4d-4979-9919-e78497f4bca5"
                 }
             ],
             "spdx:standardLicenseHeaderHtml": "\n      Copyright (C) <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> yyyy name of author</span></var>\n      <p>\n        This program is free software; you can redistribute it and/or\n        modify it under the terms of the GNU General Public License\n        as published by the Free Software Foundation; version 2.\n      </p>\n\n      <p>\n        This program is distributed in the hope that it will be\n        useful, but WITHOUT ANY WARRANTY; without even the implied\n        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR\n        PURPOSE. See the GNU General Public License for more details.\n      </p>\n\n      <p>\n        You should have received a copy of the GNU General Public License\n        along with this program; if not, write to the Free Software Foundation,\n        Inc., <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{54,64}\"> 51\n        Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA</span></var>.\n      </p>\n\n    ",
@@ -68,7 +91,30 @@
             "spdx:standardLicenseHeaderTemplate": "Copyright (C) <<var;name=\"copyright\";original=\"yyyy name of author\";match=\".+\">>\nThis program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; version 2.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., <<var;name=\"freeSoftwareFoundationAddress\";original=\"51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA\";match=\".{54,64}\">> .\n\n"
         },
         {
-            "@id": "_:298a0b94-3159-4d02-b6d0-09568cc25091",
+            "@id": "_:3e226783-36f5-4496-a6f1-26f599754c57",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/licenses/GPL-2.0",
+            "spdx:timestamp": "2026-04-10T14:31:26Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:cbb19a49-fc40-49ea-b7bc-51b286973595",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -82,58 +128,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/openjdk/jdk/blob/6162e2c5213c5dd7c1127fd9616b543efa898962/LICENSE",
-            "spdx:timestamp": "2026-04-10T14:18:54Z",
+            "spdx:timestamp": "2026-04-10T14:31:27Z",
             "spdx:order": {
                 "@value": "3",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:19fd856d-7ef8-4913-8843-630d364193df",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt",
-            "spdx:timestamp": "2026-04-10T14:18:53Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:1a4f802d-01d4-4d5f-9778-50d75ea19c43",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.gnu.org/licenses/old-licenses/gpl-2.0-standalone.html",
-            "spdx:timestamp": "2026-04-10T14:19:24Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

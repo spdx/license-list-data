@@ -1,14 +1,60 @@
 {
     "@graph": [
         {
+            "@id": "_:6d2a2a60-0cc6-4428-b31e-9ea4509e7713",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.mcs.anl.gov/research/projects/openpbs/PBS_License.txt",
+            "spdx:timestamp": "2026-04-10T14:35:16Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:0abf9be6-b9de-4e0e-96f3-f99aed704286",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/adaptivecomputing/torque/blob/master/PBS_License.txt",
+            "spdx:timestamp": "2026-04-10T14:35:16Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/OpenPBS-2.3",
             "spdx:name": "OpenPBS v2.3 Software License",
             "spdx:crossRef": [
                 {
-                    "@id": "_:89b69aa9-42f4-4f18-b6ac-07975fabccbd"
+                    "@id": "_:6d2a2a60-0cc6-4428-b31e-9ea4509e7713"
                 },
                 {
-                    "@id": "_:d4a56755-0a8f-4372-8909-d052ce64b576"
+                    "@id": "_:0abf9be6-b9de-4e0e-96f3-f99aed704286"
                 }
             ],
             "@type": "spdx:ListedLicense",
@@ -27,52 +73,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
-        },
-        {
-            "@id": "_:89b69aa9-42f4-4f18-b6ac-07975fabccbd",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.mcs.anl.gov/research/projects/openpbs/PBS_License.txt",
-            "spdx:timestamp": "2026-04-10T14:28:15Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:d4a56755-0a8f-4372-8909-d052ce64b576",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/adaptivecomputing/torque/blob/master/PBS_License.txt",
-            "spdx:timestamp": "2026-04-10T14:28:15Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
