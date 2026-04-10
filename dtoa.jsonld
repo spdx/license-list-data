@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:070d2cae-ce9b-47e7-adb7-21e3a7a8bcd9",
+            "@id": "_:0b755233-92f4-42cf-82a8-3e37bd4a7f35",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c",
-            "spdx:timestamp": "2026-03-05T17:57:34Z",
+            "spdx:timestamp": "2026-04-10T08:51:22Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:9a52c7a2-4d21-4ce4-936d-7a6c991f84ff",
+            "@id": "_:f472815b-19e6-4223-8f45-48830d9c6374",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -34,35 +34,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD",
-            "spdx:timestamp": "2026-03-05T17:57:33Z",
+            "spdx:timestamp": "2026-04-10T08:51:21Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/dtoa",
             "spdx:name": "David M. Gay dtoa License",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:f472815b-19e6-4223-8f45-48830d9c6374"
+                },
+                {
+                    "@id": "_:0b755233-92f4-42cf-82a8-3e37bd4a7f35"
+                }
+            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"The author of this software is David M. Gay. Copyright (c) 1991, 2000, 2001 by Lucent Technologies.\";match=\".{0,5000}\">>\nPermission to use, copy, modify, and distribute this software for any purpose without fee is hereby granted, provided that this entire notice is included in all copies of any software which is or includes a copy or modification of this software and in all copies of the supporting documentation for such software. THIS SOFTWARE IS BEING PROVIDED \"AS IS\", WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN PARTICULAR, NEITHER THE AUTHOR NOR <<var;name=\"company\";original=\"LUCENT\";match=\".+\">> MAKES ANY REPRESENTATION OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n\n",
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            The author of this software is David M. Gay.<br />\n\n            Copyright (c) 1991, 2000, 2001 by Lucent Technologies.\n         </span></var>\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            for any purpose without fee is hereby granted, provided that this\n            entire notice is included in all copies of any software which is or\n            includes a copy or modification of this software and in all copies\n            of the supporting documentation for such software. THIS SOFTWARE IS\n            BEING PROVIDED &quot;AS IS&quot;, WITHOUT ANY EXPRESS OR IMPLIED WARRANTY. IN\n            PARTICULAR, NEITHER THE AUTHOR NOR <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> LUCENT</span></var> MAKES ANY REPRESENTATION\n            OR WARRANTY OF ANY KIND CONCERNING THE MERCHANTABILITY OF\n            THIS SOFTWARE OR ITS FITNESS FOR ANY PARTICULAR PURPOSE.\n         </p>\n\n      ",
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
                 "https://github.com/SWI-Prolog/swipl-devel/blob/master/src/os/dtoa.c",
                 "https://sourceware.org/git/?p=newlib-cygwin.git;a=blob;f=newlib/libc/stdlib/mprec.h;hb=HEAD"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:9a52c7a2-4d21-4ce4-936d-7a6c991f84ff"
-                },
-                {
-                    "@id": "_:070d2cae-ce9b-47e7-adb7-21e3a7a8bcd9"
-                }
             ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
