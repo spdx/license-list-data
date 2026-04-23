@@ -1,7 +1,53 @@
 {
     "@graph": [
         {
-            "@id": "_:273ae97a-7388-403b-a40d-05ad51c794f6",
+            "@id": "_:815e635d-89ae-4507-ba4f-acdf9c194a3b",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
+            "spdx:timestamp": "2026-04-23T18:29:21Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:391300fe-0fa5-45f1-83f1-58f380ce337e",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
+            "spdx:timestamp": "2026-04-23T18:29:21Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:cbb0b328-4bee-4542-8a06-028c86121934",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +61,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/LGPL-2.1-only",
-            "spdx:timestamp": "2026-04-23T17:16:03Z",
+            "spdx:timestamp": "2026-04-23T18:29:21Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +71,17 @@
         },
         {
             "@id": "http://spdx.org/licenses/LGPL-2.1-only",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:815e635d-89ae-4507-ba4f-acdf9c194a3b"
+                },
+                {
+                    "@id": "_:391300fe-0fa5-45f1-83f1-58f380ce337e"
+                },
+                {
+                    "@id": "_:cbb0b328-4bee-4542-8a06-028c86121934"
+                }
+            ],
             "rdfs:comment": "This license was released: February 1999. This license identifier refers to the choice to use the code under LGPL-2.1-only, as distinguished from use of code under LGPL-2.1-or-later (i.e., LGPL-2.1 or some later version). As such, the Standard License Header field below reflects the \"only\" option.",
             "spdx:standardLicenseHeaderHtml": "\n      Copyright (C) <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> year name of author</span></var>\n      <p>\n        This library is free software; you can redistribute it and/or\n        modify it under the terms of the GNU Lesser General Public\n        License as published by the Free Software Foundation; version 2.1.\n      </p>\n\n      <p>\n        This library is distributed in the hope that it will be useful,\n        but WITHOUT ANY WARRANTY; without even the implied warranty\n        of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n        See the GNU Lesser General Public License for more details.\n      </p>\n\n      <p>\n        You should have received a copy of the GNU Lesser General Public License\n        along with this library; if not, write to the Free Software Foundation,\n        Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA\n      </p>\n\n    ",
             "spdx:isOsiApproved": {
@@ -41,17 +98,6 @@
                 "https://opensource.org/license/LGPL-2.1-only",
                 "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html"
             ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:e60cd8d1-078b-476c-97be-02cc4a1cff0c"
-                },
-                {
-                    "@id": "_:273ae97a-7388-403b-a40d-05ad51c794f6"
-                },
-                {
-                    "@id": "_:85b82997-f3d8-47cc-922b-500b3e5f5acb"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -62,52 +108,6 @@
             },
             "@type": "spdx:ListedLicense",
             "spdx:name": "GNU Lesser General Public License v2.1 only"
-        },
-        {
-            "@id": "_:e60cd8d1-078b-476c-97be-02cc4a1cff0c",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1-standalone.html",
-            "spdx:timestamp": "2026-04-23T17:16:03Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:85b82997-f3d8-47cc-922b-500b3e5f5acb",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html",
-            "spdx:timestamp": "2026-04-23T17:16:03Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

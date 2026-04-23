@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:a567f497-10da-4e3c-9cdb-4f002be7bf23",
+            "@id": "_:d36e6877-1d4f-4dd3-9513-9d9f785ab524",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.7-zip.org/sdk.html",
-            "spdx:timestamp": "2026-04-23T17:14:10Z",
+            "spdx:timestamp": "2026-04-23T18:27:37Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:0fb824de-0a60-40ba-b473-5482ff4b2f33",
+            "@id": "_:8780db48-e4af-4a7c-98f9-0def25e18d2c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/",
-            "spdx:timestamp": "2026-04-23T17:14:10Z",
+            "spdx:timestamp": "2026-04-23T18:27:37Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,14 +48,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/LZMA-SDK-9.22",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:0fb824de-0a60-40ba-b473-5482ff4b2f33"
-                },
-                {
-                    "@id": "_:a567f497-10da-4e3c-9cdb-4f002be7bf23"
-                }
-            ],
             "spdx:standardLicenseTemplate": "<<beginOptional>>LICENSE\n\n-------\n\n<<endOptional>>\nLZMA SDK is written and placed in the public domain by Igor Pavlov.\n\nSome code in LZMA SDK is based on public domain code from another developers: 1) PPMd var.H (2001): Dmitry Shkarin 2) SHA-256: Wei Dai (Crypto++ library)\n\nAnyone is free to copy, modify, publish, use, compile, sell, or distribute the original LZMA SDK code, either in source code form or as a compiled binary, for any purpose, commercial or non-commercial, and by any means.\n\nLZMA SDK code is compatible with open source licenses, for example, you can include it to GNU GPL or GNU LGPL code.\n\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -73,6 +65,14 @@
             },
             "rdfs:comment": "The license text currently displayed on the 7-zip SDK website is not the same as any of the lzma.txt file in the root folders of the .tar.bz SDK distributions (versions 922 and below) that are hosted on SourceForge, nor is it the same as the .7z distributions (versions 935 and above) which shifted the license text to DOC\\lzma-sdk.txt. This license applies to versions 9.22 and above.",
             "spdx:licenseText": "LICENSE\n-------\n\nLZMA SDK is written and placed in the public domain by Igor Pavlov.\n\nSome code in LZMA SDK is based on public domain code from another developers:\n  1) PPMd var.H (2001): Dmitry Shkarin\n  2) SHA-256: Wei Dai (Crypto++ library)\n\nAnyone is free to copy, modify, publish, use, compile, sell, or distribute the\noriginal LZMA SDK code, either in source code form or as a compiled binary, for\nany purpose, commercial or non-commercial, and by any means.\n\nLZMA SDK code is compatible with open source licenses, for example, you can\ninclude it to GNU GPL or GNU LGPL code.\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:d36e6877-1d4f-4dd3-9513-9d9f785ab524"
+                },
+                {
+                    "@id": "_:8780db48-e4af-4a7c-98f9-0def25e18d2c"
+                }
+            ],
             "@type": "spdx:ListedLicense"
         }
     ],

@@ -1,30 +1,10 @@
 {
     "@graph": [
         {
-            "@id": "_:c6e2964d-e2e4-47cd-b5fc-7cfc15793e4a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
-            "spdx:timestamp": "2026-04-23T17:13:28Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft-var",
+            "spdx:crossRef": {
+                "@id": "_:f182caad-8166-462b-b4cc-45e12dbb7e19"
+            },
             "spdx:name": "Linux man-pages Copyleft Variant",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -39,10 +19,30 @@
             "spdx:licenseText": "Permission is granted to make and distribute verbatim copies of \nthis manual provided the copyright notice and this permission \nnotice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of \nthis manual under the conditions for verbatim copying, provided \nthat the entire resulting derived work is distributed under the \nterms of a permission notice identical to this one.\n\nSince the Linux kernel and libraries are constantly changing, this \nmanual page may be incorrect or out-of-date. The author(s) assume \nno responsibility for errors or omissions, or for damages resulting \nfrom the use of the information contained herein.\n\nFormatted or processed versions of this manual, if unaccompanied by \nthe source, must acknowledge the copyright and authors of this work.\n",
             "rdfs:seeAlso": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
             "rdfs:comment": "This is the same as Linux-man-pages-copyleft but omits the last sentence of the third paragraph.",
-            "spdx:crossRef": {
-                "@id": "_:c6e2964d-e2e4-47cd-b5fc-7cfc15793e4a"
-            },
             "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:f182caad-8166-462b-b4cc-45e12dbb7e19",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
+            "spdx:timestamp": "2026-04-23T18:26:53Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
