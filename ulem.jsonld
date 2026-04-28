@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:8368b6b5-1a61-4cd8-aa09-5e6ee88d38b1",
+            "@id": "http://spdx.org/licenses/ulem",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1989-2019 by Donald Arseneau (Vancouver, Canada, asnd@triumf.ca)\";match=\".{0,5000}\">>\n<<var;name=\"software\";original=\"This software\";match=\"This software|These macros\">> may be freely transmitted, reproduced, or modified for any purpose provided that this<<beginOptional>> copyright<<endOptional>> notice is left intact.\n\n",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright 1989-2019 by Donald Arseneau (Vancouver, Canada, asnd@triumf.ca)\n         </span></var>\n         <p>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern This software|These macros\"> This software</span></var> may be freely transmitted, reproduced, or modified\n            for any purpose provided that this <var class=\"optional-license-text\"> copyright</var> notice is left intact.\n         </p>\n\n      ",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:comment": "This license is a very similar to fwlw and magaz, but has slightly different obligations.",
+            "spdx:crossRef": {
+                "@id": "_:0e5dc236-4201-49ce-975e-6fcf76bd978d"
+            },
+            "spdx:licenseText": "Copyright 1989-2019 by Donald Arseneau (Vancouver, Canada, asnd@triumf.ca)\n\nThis software may be freely transmitted, reproduced, or modified\nfor any purpose provided that this copyright notice is left intact.\n",
+            "rdfs:seeAlso": "https://mirrors.ctan.org/macros/latex/contrib/ulem/README",
+            "spdx:name": "ulem License"
+        },
+        {
+            "@id": "_:0e5dc236-4201-49ce-975e-6fcf76bd978d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,34 +36,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://mirrors.ctan.org/macros/latex/contrib/ulem/README",
-            "spdx:timestamp": "2026-04-23T18:26:44Z",
+            "spdx:timestamp": "2026-04-28T22:37:55Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/ulem",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1989-2019 by Donald Arseneau (Vancouver, Canada, asnd@triumf.ca)\";match=\".{0,5000}\">>\n<<var;name=\"software\";original=\"This software\";match=\"This software|These macros\">> may be freely transmitted, reproduced, or modified for any purpose provided that this<<beginOptional>> copyright<<endOptional>> notice is left intact.\n\n",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright 1989-2019 by Donald Arseneau (Vancouver, Canada, asnd@triumf.ca)\n         </span></var>\n         <p>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern This software|These macros\"> This software</span></var> may be freely transmitted, reproduced, or modified\n            for any purpose provided that this <var class=\"optional-license-text\"> copyright</var> notice is left intact.\n         </p>\n\n      ",
-            "spdx:crossRef": {
-                "@id": "_:8368b6b5-1a61-4cd8-aa09-5e6ee88d38b1"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "rdfs:comment": "This license is a very similar to fwlw and magaz, but has slightly different obligations.",
-            "spdx:licenseText": "Copyright 1989-2019 by Donald Arseneau (Vancouver, Canada, asnd@triumf.ca)\n\nThis software may be freely transmitted, reproduced, or modified\nfor any purpose provided that this copyright notice is left intact.\n",
-            "rdfs:seeAlso": "https://mirrors.ctan.org/macros/latex/contrib/ulem/README",
-            "spdx:name": "ulem License"
         }
     ],
     "@context": {

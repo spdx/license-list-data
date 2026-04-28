@@ -2,6 +2,17 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/MIT-Modern-Variant",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:cdaae43d-3f83-488e-9e7a-709848434757"
+                },
+                {
+                    "@id": "_:b129f5d2-07b3-45a2-81b3-66fa8492e043"
+                },
+                {
+                    "@id": "_:1e6317e7-c365-4034-a031-d88a9bbf011a"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -11,17 +22,6 @@
                 "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants",
                 "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html",
                 "https://ptolemy.berkeley.edu/copyright.htm"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d75340f7-b94d-4d47-9daf-964a5dde3a72"
-                },
-                {
-                    "@id": "_:b27a36d7-b3b0-4d0a-9e6d-6207f34f5077"
-                },
-                {
-                    "@id": "_:5bd80ff3-9d9a-404a-ac16-2234eee83c14"
-                }
             ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -34,30 +34,7 @@
             "spdx:name": "MIT License Modern Variant"
         },
         {
-            "@id": "_:d75340f7-b94d-4d47-9daf-964a5dde3a72",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://ptolemy.berkeley.edu/copyright.htm",
-            "spdx:timestamp": "2026-04-23T18:28:40Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:b27a36d7-b3b0-4d0a-9e6d-6207f34f5077",
+            "@id": "_:cdaae43d-3f83-488e-9e7a-709848434757",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -71,7 +48,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants",
-            "spdx:timestamp": "2026-04-23T18:28:39Z",
+            "spdx:timestamp": "2026-04-28T22:39:37Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -80,7 +57,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:5bd80ff3-9d9a-404a-ac16-2234eee83c14",
+            "@id": "_:b129f5d2-07b3-45a2-81b3-66fa8492e043",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -94,12 +71,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html",
-            "spdx:timestamp": "2026-04-23T18:28:40Z",
+            "spdx:timestamp": "2026-04-28T22:39:38Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:1e6317e7-c365-4034-a031-d88a9bbf011a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://ptolemy.berkeley.edu/copyright.htm",
+            "spdx:timestamp": "2026-04-28T22:39:39Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],
