@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 230a95b
+The following licenses have been generated from the license list version 0527b2d
 
 ## Licenses with Short Identifiers
 
@@ -178,7 +178,7 @@ The following licenses have been generated from the license list version 230a95b
 | Creative Commons Share Alike 1.0 Generic                                                  | [CC-SA-1.0][]                            |      |           |
 | Creative Commons Zero v1.0 Universal                                                      | [CC0-1.0][]                              |      | Y         |
 | Common Development and Distribution License 1.0                                           | [CDDL-1.0][]                             | Y    | Y         |
-| Common Development and Distribution License 1.1                                           | [CDDL-1.1][]                             |      |           |
+| Common Development and Distribution License 1.1                                           | [CDDL-1.1][]                             | Y    |           |
 | Common Documentation License 1.0                                                          | [CDL-1.0][]                              |      |           |
 | Community Data License Agreement Permissive 1.0                                           | [CDLA-Permissive-1.0][]                  |      |           |
 | Community Data License Agreement Permissive 2.0                                           | [CDLA-Permissive-2.0][]                  |      |           |
