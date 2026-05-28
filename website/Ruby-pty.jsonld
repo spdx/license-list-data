@@ -1,53 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:c67cbb82-6af6-400e-8e55-d96d836e3bfe",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786",
-            "spdx:timestamp": "2026-05-14T16:12:50Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:f2a36321-40dd-436e-8b7c-cd3270b12bb5",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0",
-            "spdx:timestamp": "2026-05-14T16:12:50Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:6a479ecc-4fca-4978-bda4-bc3bf81a54e4",
+            "@id": "_:9d595fe4-2e6c-4cd3-ae53-58cdefe37038",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-ef5fa30838d6d0cecad9e675cc50b24628cfe2cb277c346053fafcc36c91c204",
-            "spdx:timestamp": "2026-05-14T16:12:51Z",
+            "spdx:timestamp": "2026-05-28T16:15:27Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,22 +24,45 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:4958a874-cde7-49db-b1c2-e32f5e4183b0",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786",
+            "spdx:timestamp": "2026-05-28T16:15:28Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Ruby-pty",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:c67cbb82-6af6-400e-8e55-d96d836e3bfe"
-                },
-                {
-                    "@id": "_:f2a36321-40dd-436e-8b7c-cd3270b12bb5"
-                },
-                {
-                    "@id": "_:6a479ecc-4fca-4978-bda4-bc3bf81a54e4"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:65a6aeff-0d37-4d36-8eb7-4328d0476def"
+                },
+                {
+                    "@id": "_:9d595fe4-2e6c-4cd3-ae53-58cdefe37038"
+                },
+                {
+                    "@id": "_:4958a874-cde7-49db-b1c2-e32f5e4183b0"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -101,6 +78,29 @@
             "spdx:name": "Ruby pty extension license",
             "@type": "spdx:ListedLicense",
             "spdx:licenseTextHtml": "\n        <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                <p>\n                        (c) Copyright 1998 by Akinori Ito.\n                </p>\n\n        </span></div>\n        <p>\n                This software may be redistributed freely for this\n                purpose, in full or in part, provided that this entire\n                copyright notice is included on any copies of this\n                software and applications and derivations thereof.\n        </p>\n\n        <p>\n                This software is provided on an &quot;as is&quot; basis, without warranty\n                of any kind, either expressed or implied, as to any matter\n                including, but not limited to warranty of fitness of purpose, or\n                merchantability, or results obtained from use of this software.\n        </p>\n\n      "
+        },
+        {
+            "@id": "_:65a6aeff-0d37-4d36-8eb7-4328d0476def",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0",
+            "spdx:timestamp": "2026-05-28T16:15:28Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

@@ -1,7 +1,38 @@
 {
     "@graph": [
         {
+            "@id": "_:88851a93-d585-4650-bc1b-c2d585bc2f2d",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156",
+            "spdx:timestamp": "2026-05-28T16:18:16Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Brian-Gladman-2-Clause",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:88851a93-d585-4650-bc1b-c2d585bc2f2d"
+                },
+                {
+                    "@id": "_:d287bf21-541c-4a25-8932-c6f03a91bbdf"
+                }
+            ],
             "rdfs:comment": "This is similar to Brian-Gladman-3-Clause but sort omits the third clause, adds \"without the payment of fees or royalties\", and re-words the lead-in and first two clauses.",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -18,19 +49,11 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (C) 1998-2013, Brian Gladman,<br />\n\n            Worcester, UK. All rights reserved.\n         </span></var>\n         <p>\n            The redistribution and use of this software\n            (with or without changes) is allowed without\n            the payment of fees or royalties provided that:\n         </p>\n\n         <p>\n            source code distributions include the above copyright\n            notice, this list of conditions and the following disclaimer;\n         </p>\n\n         <p>\n            binary distributions include the above copyright notice, this list\n            of conditions and the following disclaimer in their documentation.\n         </p>\n\n         <p>\n            This software is provided &apos;as is&apos; with no explicit or\n            implied warranties in respect of its operation, including,\n            but not limited to, correctness and fitness for purpose.\n         </p>\n\n      ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:cf9b45e0-6ec5-4af1-a5a9-4f780bd7285d"
-                },
-                {
-                    "@id": "_:2a44c7b3-7db2-47b6-8045-a7272f3c4140"
-                }
-            ],
             "spdx:name": "Brian Gladman 2-Clause License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.\";match=\".{0,5000}\">>\nThe redistribution and use of this software (with or without changes) is allowed without the payment of fees or royalties provided that:\n\nsource code distributions include the above copyright notice, this list of conditions and the following disclaimer;\n\nbinary distributions include the above copyright notice, this list of conditions and the following disclaimer in their documentation.\n\nThis software is provided 'as is' with no explicit or implied warranties in respect of its operation, including, but not limited to, correctness and fitness for purpose.\n\n"
         },
         {
-            "@id": "_:cf9b45e0-6ec5-4af1-a5a9-4f780bd7285d",
+            "@id": "_:d287bf21-541c-4a25-8932-c6f03a91bbdf",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -44,32 +67,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:timestamp": "2026-05-14T16:16:52Z",
+            "spdx:timestamp": "2026-05-28T16:18:15Z",
             "spdx:order": {
                 "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:2a44c7b3-7db2-47b6-8045-a7272f3c4140",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156",
-            "spdx:timestamp": "2026-05-14T16:16:52Z",
-            "spdx:order": {
-                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",

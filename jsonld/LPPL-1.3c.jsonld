@@ -2,6 +2,14 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/LPPL-1.3c",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:678e99d5-aeb6-46d4-911e-02b7d5db0300"
+                },
+                {
+                    "@id": "_:e4f0bcf5-48e8-4b48-bded-5e2c9a23da55"
+                }
+            ],
             "spdx:name": "LaTeX Project Public License v1.3c",
             "rdfs:seeAlso": [
                 "http://www.latex-project.org/lppl/LPPL-1.3c.txt",
@@ -22,41 +30,10 @@
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:80ef2608-ff1e-43b2-9e1c-f8e199a46d28"
-                },
-                {
-                    "@id": "_:8e901677-cecf-45c0-b51a-5e491ec8ceb0"
-                }
-            ]
+            }
         },
         {
-            "@id": "_:80ef2608-ff1e-43b2-9e1c-f8e199a46d28",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.latex-project.org/lppl/LPPL-1.3c.txt",
-            "spdx:timestamp": "2026-05-14T16:17:17Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:8e901677-cecf-45c0-b51a-5e491ec8ceb0",
+            "@id": "_:678e99d5-aeb6-46d4-911e-02b7d5db0300",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -70,12 +47,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/LPPL-1.3c",
-            "spdx:timestamp": "2026-05-14T16:17:17Z",
+            "spdx:timestamp": "2026-05-28T16:17:41Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:e4f0bcf5-48e8-4b48-bded-5e2c9a23da55",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.latex-project.org/lppl/LPPL-1.3c.txt",
+            "spdx:timestamp": "2026-05-28T16:17:41Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],
