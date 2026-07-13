@@ -1,35 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/SunPro",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:076dbd58-8fb6-4e23-ac34-07647cce18e1"
-                },
-                {
-                    "@id": "_:afb67c50-7e96-4eab-bc61-817b50668151"
-                }
-            ],
-            "@type": "spdx:ListedLicense",
-            "rdfs:seeAlso": [
-                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
-                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c"
-            ],
-            "spdx:name": "SunPro License",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\";match=\".{0,5000}\">>\nDeveloped at <<var;name=\"SunOrg\";original=\"SunPro\";match=\"SunPro|SunSoft\">> , a Sun Microsystems, Inc. business.\n\nPermission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.\n\n",
-            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n         </span></var>\n         <p>\n            Developed at<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SunPro|SunSoft\"> SunPro</span></var>\n            , a Sun Microsystems, Inc. business.\n         </p>\n\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            is freely granted, provided that this notice is preserved.\n         </p>\n\n      ",
-            "spdx:licenseText": "Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n\nDeveloped at SunSoft, a Sun Microsystems, Inc. business.\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice \nis preserved.\n"
-        },
-        {
-            "@id": "_:076dbd58-8fb6-4e23-ac34-07647cce18e1",
+            "@id": "_:1d72ba47-78d5-41f9-a0ed-8e10e2dd1583",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -43,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
-            "spdx:timestamp": "2026-05-28T16:18:16Z",
+            "spdx:timestamp": "2026-07-13T08:49:27Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -52,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:afb67c50-7e96-4eab-bc61-817b50668151",
+            "@id": "_:c15c7727-e8a2-465c-bf0e-c4f1bb86c347",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,13 +38,41 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c",
-            "spdx:timestamp": "2026-05-28T16:18:15Z",
+            "spdx:timestamp": "2026-07-13T08:49:26Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/SunPro",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": [
+                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_acosh.c",
+                "https://github.com/freebsd/freebsd-src/blob/main/lib/msun/src/e_lgammal.c"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:c15c7727-e8a2-465c-bf0e-c4f1bb86c347"
+                },
+                {
+                    "@id": "_:1d72ba47-78d5-41f9-a0ed-8e10e2dd1583"
+                }
+            ],
+            "spdx:name": "SunPro License",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\";match=\".{0,5000}\">>\nDeveloped at <<var;name=\"SunOrg\";original=\"SunPro\";match=\"SunPro|SunSoft\">> , a Sun Microsystems, Inc. business.\n\nPermission to use, copy, modify, and distribute this software is freely granted, provided that this notice is preserved.\n\n",
+            "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n         </span></var>\n         <p>\n            Developed at<var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern SunPro|SunSoft\"> SunPro</span></var>\n            , a Sun Microsystems, Inc. business.\n         </p>\n\n         <p>\n            Permission to use, copy, modify, and distribute this software\n            is freely granted, provided that this notice is preserved.\n         </p>\n\n      ",
+            "spdx:licenseText": "Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.\n\nDeveloped at SunSoft, a Sun Microsystems, Inc. business.\nPermission to use, copy, modify, and distribute this\nsoftware is freely granted, provided that this notice \nis preserved.\n"
         }
     ],
     "@context": {
