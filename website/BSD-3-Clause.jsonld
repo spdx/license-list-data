@@ -1,15 +1,30 @@
 {
     "@graph": [
         {
+            "@id": "_:aa072f55-3561-4ccd-9200-30bebdbc1fd8",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/license/BSD-3-Clause",
+            "spdx:timestamp": "2026-07-13T08:56:26Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/BSD-3-Clause",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:da789ab6-35db-466c-8780-bce875e1b52f"
-                },
-                {
-                    "@id": "_:a7e47097-19d0-45d0-8c96-b7aba32d847b"
-                }
-            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -19,6 +34,14 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:aa072f55-3561-4ccd-9200-30bebdbc1fd8"
+                },
+                {
+                    "@id": "_:2fcf9c2b-1378-4c46-b7fa-2b6b63577a50"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://opensource.org/license/BSD-3-Clause",
                 "https://www.eclipse.org/org/documents/edl-v10.php"
@@ -34,7 +57,7 @@
             "spdx:name": "BSD 3-Clause \"New\" or \"Revised\" License"
         },
         {
-            "@id": "_:da789ab6-35db-466c-8780-bce875e1b52f",
+            "@id": "_:2fcf9c2b-1378-4c46-b7fa-2b6b63577a50",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -48,35 +71,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.eclipse.org/org/documents/edl-v10.php",
-            "spdx:timestamp": "2026-05-28T16:15:18Z",
+            "spdx:timestamp": "2026-07-13T08:56:26Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:a7e47097-19d0-45d0-8c96-b7aba32d847b",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/license/BSD-3-Clause",
-            "spdx:timestamp": "2026-05-28T16:15:18Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:073b8ffb-4a1f-4e1d-b43c-9c8bbc265d2a",
+            "@id": "_:3d584c38-82bd-42d1-81d8-d24c30aedd98",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.ietf.org/rfc/rfc1952.txt",
-            "spdx:timestamp": "2026-05-28T16:15:16Z",
+            "spdx:timestamp": "2026-07-13T08:56:21Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:721a3d21-9aeb-406d-9f76-43de81e4bb19",
+            "@id": "_:fdabe1dc-fde5-4af3-8f61-7b961f1c1dc6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
-            "spdx:timestamp": "2026-05-28T16:15:16Z",
+            "spdx:timestamp": "2026-07-13T08:56:22Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -53,18 +53,18 @@
                 "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
                 "https://www.ietf.org/rfc/rfc1952.txt"
             ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:fdabe1dc-fde5-4af3-8f61-7b961f1c1dc6"
+                },
+                {
+                    "@id": "_:3d584c38-82bd-42d1-81d8-d24c30aedd98"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:721a3d21-9aeb-406d-9f76-43de81e4bb19"
-                },
-                {
-                    "@id": "_:073b8ffb-4a1f-4e1d-b43c-9c8bbc265d2a"
-                }
-            ],
             "@type": "spdx:ListedLicense",
             "spdx:name": "LPD Documentation License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) Yann Collet  \";match=\".{0,5000}\">>\nPermission is granted to copy and distribute this document for any purpose and without charge, including translations into other languages and incorporation into compilations, provided that the copyright notice and this notice are preserved, and that any substantive changes or deletions from the original are clearly marked.<<beginOptional>> Distribution of this document is unlimited.<<endOptional>>\n\n",
