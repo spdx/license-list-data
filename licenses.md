@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b3b632f
+The following licenses have been generated from the license list version ec7467a
 
 ## Licenses with Short Identifiers
 
@@ -140,6 +140,7 @@ The following licenses have been generated from the license list version b3b632f
 | Creative Commons Attribution Non Commercial 2.5 Generic                                   | [CC-BY-NC-2.5][]                         |      |           |
 | Creative Commons Attribution Non Commercial 3.0 Unported                                  | [CC-BY-NC-3.0][]                         |      |           |
 | Creative Commons Attribution Non Commercial 3.0 Germany                                   | [CC-BY-NC-3.0-DE][]                      |      |           |
+| Creative Commons Attribution Non Commercial 3.0 IGO                                       | [CC-BY-NC-3.0-IGO][]                     |      |           |
 | Creative Commons Attribution Non Commercial 4.0 International                             | [CC-BY-NC-4.0][]                         |      |           |
 | Creative Commons Attribution Non Commercial No Derivatives 1.0 Generic                    | [CC-BY-NC-ND-1.0][]                      |      |           |
 | Creative Commons Attribution Non Commercial No Derivatives 2.0 Generic                    | [CC-BY-NC-ND-2.0][]                      |      |           |
@@ -971,6 +972,7 @@ The following licenses have been generated from the license list version b3b632f
 [CC-BY-NC-2.5]: text/CC-BY-NC-2.5.txt
 [CC-BY-NC-3.0]: text/CC-BY-NC-3.0.txt
 [CC-BY-NC-3.0-DE]: text/CC-BY-NC-3.0-DE.txt
+[CC-BY-NC-3.0-IGO]: text/CC-BY-NC-3.0-IGO.txt
 [CC-BY-NC-4.0]: text/CC-BY-NC-4.0.txt
 [CC-BY-NC-ND-1.0]: text/CC-BY-NC-ND-1.0.txt
 [CC-BY-NC-ND-2.0]: text/CC-BY-NC-ND-2.0.txt
