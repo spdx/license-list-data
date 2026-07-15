@@ -1,7 +1,36 @@
 {
     "@graph": [
         {
-            "@id": "_:437a167d-6320-4233-a370-2cc39b1709c8",
+            "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft-2-para",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:d733188f-a101-40e7-a233-a3844526beac"
+                },
+                {
+                    "@id": "_:163d08b5-ca9d-4493-900f-cf3e0776b26e"
+                }
+            ],
+            "spdx:licenseText": "Permission is granted to make and distribute verbatim copies of this\nmanual provided the copyright notice and this permission notice are\npreserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this\nmanual under the conditions for verbatim copying, provided that the\nentire resulting derived work is distributed under the terms of a\npermission notice identical to this one.\n",
+            "rdfs:seeAlso": [
+                "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/move_pages.2#n5",
+                "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/migrate_pages.2#n8"
+            ],
+            "rdfs:comment": "",
+            "spdx:name": "Linux man-pages Copyleft - 2 paragraphs",
+            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to make and distribute verbatim\n            copies of this manual provided the copyright notice\n            and this permission notice are preserved on all copies.\n         </p>\n\n         <p>\n            Permission is granted to copy and distribute modified versions\n            of this manual under the conditions for verbatim copying,\n            provided that the entire resulting derived work is distributed\n            under the terms of a permission notice identical to this one.\n         </p>\n\n      "
+        },
+        {
+            "@id": "_:d733188f-a101-40e7-a233-a3844526beac",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +44,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/migrate_pages.2#n8",
-            "spdx:timestamp": "2026-07-15T22:07:44Z",
+            "spdx:timestamp": "2026-07-15T22:36:03Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,36 +53,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft-2-para",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:f439396e-a351-4356-96e7-2bda99b92754"
-                },
-                {
-                    "@id": "_:437a167d-6320-4233-a370-2cc39b1709c8"
-                }
-            ],
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "Permission is granted to make and distribute verbatim copies of this manual provided the copyright notice and this permission notice are preserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this manual under the conditions for verbatim copying, provided that the entire resulting derived work is distributed under the terms of a permission notice identical to this one.\n\n",
-            "spdx:licenseText": "Permission is granted to make and distribute verbatim copies of this\nmanual provided the copyright notice and this permission notice are\npreserved on all copies.\n\nPermission is granted to copy and distribute modified versions of this\nmanual under the conditions for verbatim copying, provided that the\nentire resulting derived work is distributed under the terms of a\npermission notice identical to this one.\n",
-            "rdfs:seeAlso": [
-                "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/move_pages.2#n5",
-                "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/migrate_pages.2#n8"
-            ],
-            "rdfs:comment": "",
-            "spdx:name": "Linux man-pages Copyleft - 2 paragraphs",
-            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to make and distribute verbatim\n            copies of this manual provided the copyright notice\n            and this permission notice are preserved on all copies.\n         </p>\n\n         <p>\n            Permission is granted to copy and distribute modified versions\n            of this manual under the conditions for verbatim copying,\n            provided that the entire resulting derived work is distributed\n            under the terms of a permission notice identical to this one.\n         </p>\n\n      "
-        },
-        {
-            "@id": "_:f439396e-a351-4356-96e7-2bda99b92754",
+            "@id": "_:163d08b5-ca9d-4493-900f-cf3e0776b26e",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -67,7 +67,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/move_pages.2#n5",
-            "spdx:timestamp": "2026-07-15T22:07:44Z",
+            "spdx:timestamp": "2026-07-15T22:36:03Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
