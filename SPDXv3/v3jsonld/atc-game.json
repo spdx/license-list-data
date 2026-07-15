@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/b3b632f" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2026-07-15T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/atc-game_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/atc-game" ],
+    "name" : "atc-game document",
+    "comment" : "SPDX Document For atc-game",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/b3b632f",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/atc-game",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://github.com/vattam/BSDGames/blob/master/atc/extern.c#L36" ],
+    "simplelicensing_licenseText" : "Copyright (c) 1987 by Ed James, UC Berkeley.  All rights reserved.\n\nCopy permission is hereby granted provided that this notice is\nretained on all partial or complete copies.\n\nFor more info on this and all of my stuff, mail edjames@berkeley.edu. \n",
+    "name" : "atc Game License",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (c) 1987 by Ed James, UC Berkeley. All rights reserved.  \";match=\".{0,5000}\">>\nCopy permission is hereby granted provided that this notice is retained on all partial or complete copies.\n\nFor more info on this and all of my stuff, mail edjames@berkeley.edu.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

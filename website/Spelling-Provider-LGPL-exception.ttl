@@ -1,0 +1,14 @@
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
+
+<http://spdx.org/licenses/Spelling-Provider-LGPL-exception>
+        a                              spdx:ListedLicenseException;
+        rdfs:comment                   "This exception is used by the Enchant project to allow use of non-free plugin backends.";
+        rdfs:seeAlso                   "https://github.com/rrthomas/enchant/blob/774ff6dc2e441ba2b9b786f8edbe00e014960408/lib/internal.vapi#L18";
+        spdx:exceptionTextHtml         "\n      <p>\n         In addition, as a special exception, the copyright holders give\n         permission to link the code of this program with non-LGPL Spelling\n         Provider libraries (eg: a MSFT Office spell checker backend)\n         and distribute linked combinations including the two. You must\n         obey the GNU Lesser General Public License in all respects for\n         all of the code used other than said providers. If you modify\n         this file, you may extend this exception to your version of the\n         file, but you are not obligated to do so. If you do not wish\n         to do so, delete this exception statement from your version.\n      </p>\n\n   ";
+        spdx:isDeprecatedLicenseId     false;
+        spdx:licenseExceptionTemplate  "In addition, as a special exception, the copyright holders give permission to link the code of this program with non-LGPL Spelling Provider libraries (eg: a MSFT Office spell checker backend) and distribute linked combinations including the two. You must obey the GNU Lesser General Public License in all respects for all of the code used other than said providers. If you modify this file, you may extend this exception to your version of the file, but you are not obligated to do so. If you do not wish to do so, delete this exception statement from your version.\n\n";
+        spdx:licenseExceptionText      "In addition, as a special exception, the copyright holders give\npermission to link the code of this program with non-LGPL Spelling\nProvider libraries (eg: a MSFT Office spell checker backend)\nand distribute linked combinations including the two. You must\nobey the GNU Lesser General Public License in all respects for\nall of the code used other than said providers. If you modify\nthis file, you may extend this exception to your version of the\nfile, but you are not obligated to do so. If you do not wish\nto do so, delete this exception statement from your version.\n";
+        spdx:name                      "Spelling Provider LGPL exception" .

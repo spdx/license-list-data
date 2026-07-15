@@ -1,11 +1,34 @@
 {
     "@graph": [
         {
-            "@id": "http://spdx.org/licenses/Apache-1.0",
-            "spdx:crossRef": {
-                "@id": "_:e05541fa-2ff3-4602-934a-9defde8d2293"
+            "@id": "_:98c67b98-7f81-4223-8fe4-8d8c8bdc5c82",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.apache.org/licenses/LICENSE-1.0",
+            "spdx:timestamp": "2026-07-15T22:07:41Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/Apache-1.0",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:98c67b98-7f81-4223-8fe4-8d8c8bdc5c82"
+            },
             "spdx:name": "Apache License 1.0",
             "rdfs:seeAlso": "http://www.apache.org/licenses/LICENSE-1.0",
             "spdx:isDeprecatedLicenseId": {
@@ -23,29 +46,6 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
-        },
-        {
-            "@id": "_:e05541fa-2ff3-4602-934a-9defde8d2293",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.apache.org/licenses/LICENSE-1.0",
-            "spdx:timestamp": "2026-07-13T08:52:45Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

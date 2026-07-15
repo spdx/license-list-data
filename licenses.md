@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 5e59516
+The following licenses have been generated from the license list version b3b632f
 
 ## Licenses with Short Identifiers
 
@@ -56,6 +56,7 @@ The following licenses have been generated from the license list version 5e59516
 | Aspell Russian License                                                                    | [Aspell-RU][]                            |      |           |
 | ASWF Digital Assets License version 1.0                                                   | [ASWF-Digital-Assets-1.0][]              |      |           |
 | ASWF Digital Assets License 1.1                                                           | [ASWF-Digital-Assets-1.1][]              |      |           |
+| atc Game License                                                                          | [atc-game][]                             |      |           |
 | Baekmuk License                                                                           | [Baekmuk][]                              |      |           |
 | Bahyph License                                                                            | [Bahyph][]                               |      |           |
 | Barr License                                                                              | [Barr][]                                 |      |           |
@@ -780,6 +781,7 @@ The following licenses have been generated from the license list version 5e59516
 | Solderpad Hardware License v2.0                       | [SHL-2.0][]                              |
 | Solderpad Hardware License v2.1                       | [SHL-2.1][]                              |
 | Simple Library Usage Exception                        | [Simple-Library-Usage-exception][]       |
+| Spelling Provider LGPL exception                      | [Spelling-Provider-LGPL-exception][]     |
 | sqlitestudio OpenSSL exception                        | [sqlitestudio-OpenSSL-exception][]       |
 | stunnel Exception                                     | [stunnel-exception][]                    |
 | SWI exception                                         | [SWI-exception][]                        |
@@ -882,6 +884,7 @@ The following licenses have been generated from the license list version 5e59516
 [Aspell-RU]: text/Aspell-RU.txt
 [ASWF-Digital-Assets-1.0]: text/ASWF-Digital-Assets-1.0.txt
 [ASWF-Digital-Assets-1.1]: text/ASWF-Digital-Assets-1.1.txt
+[atc-game]: text/atc-game.txt
 [Baekmuk]: text/Baekmuk.txt
 [Bahyph]: text/Bahyph.txt
 [Barr]: text/Barr.txt
@@ -1632,6 +1635,7 @@ The following licenses have been generated from the license list version 5e59516
 [SHL-2.0]: text/SHL-2.0.txt
 [SHL-2.1]: text/SHL-2.1.txt
 [Simple-Library-Usage-exception]: text/Simple-Library-Usage-exception.txt
+[Spelling-Provider-LGPL-exception]: text/Spelling-Provider-LGPL-exception.txt
 [sqlitestudio-OpenSSL-exception]: text/sqlitestudio-OpenSSL-exception.txt
 [stunnel-exception]: text/stunnel-exception.txt
 [SWI-exception]: text/SWI-exception.txt

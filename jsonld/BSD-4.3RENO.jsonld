@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:ab4a2d1d-be47-4326-9064-76338bb3f2bb",
+            "@id": "_:74bfdf4e-cba1-465b-8555-d4d130546cea",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/git/?p=binutils-gdb.git;a=blob;f=libiberty/strcasecmp.c;h=131d81c2ce7881fa48c363dc5bf5fb302c61ce0b;hb=HEAD",
-            "spdx:timestamp": "2026-07-13T08:50:28Z",
+            "spdx:timestamp": "2026-07-15T22:11:01Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:67c19514-5f19-4977-a342-49a34d3df9ea",
+            "@id": "_:3a488b92-4741-43a7-920b-0d5319cd37b0",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.openldap.org/openldap/openldap/-/blob/master/COPYRIGHT#L55-63",
-            "spdx:timestamp": "2026-07-13T08:50:29Z",
+            "spdx:timestamp": "2026-07-15T22:11:01Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,18 +48,18 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-4.3RENO",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:3a488b92-4741-43a7-920b-0d5319cd37b0"
+                },
+                {
+                    "@id": "_:74bfdf4e-cba1-465b-8555-d4d130546cea"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:67c19514-5f19-4977-a342-49a34d3df9ea"
-                },
-                {
-                    "@id": "_:ab4a2d1d-be47-4326-9064-76338bb3f2bb"
-                }
-            ],
             "@type": "spdx:ListedLicense",
             "spdx:licenseText": "Copyright (c) 1987 Regents of the University of California.\nAll rights reserved.\n\nRedistribution and use in source and binary forms are permitted\nprovided that this notice is preserved and that due credit is given\nto the University of California at Berkeley. The name of the University\nmay not be used to endorse or promote products derived from this\nsoftware without specific written prior permission. This software\nis provided ``as is'' without express or implied warranty.\n",
             "spdx:name": "BSD 4.3 RENO License",

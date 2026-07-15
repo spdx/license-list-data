@@ -2,6 +2,17 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/OpenVision",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:14b563bb-10fe-4215-9ed8-bfa901243636"
+                },
+                {
+                    "@id": "_:64ceee42-053a-4140-a587-4aaec972cecf"
+                },
+                {
+                    "@id": "_:33ef48fa-0540-45f4-b081-3f021452e1de"
+                }
+            ],
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright, OpenVision Technologies,\n            Inc., 1993-1996, All Rights Reserved\n         </span></var>\n         <p>\n            WARNING: Retrieving the OpenVision Kerberos Administration system\n            source code, as described below, indicates your acceptance of\n            the following terms. If you do not agree to the following terms,\n            do not retrieve the OpenVision Kerberos administration system.\n         </p>\n\n         <p>\n            You may freely use and distribute the Source Code and Object Code\n            compiled from it, with or without modification, but this Source Code\n            is provided to you &quot;AS IS&quot; EXCLUSIVE OF ANY WARRANTY, INCLUDING,\n            WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY OR FITNESS\n            FOR A PARTICULAR PURPOSE, OR ANY OTHER WARRANTY, WHETHER EXPRESS\n            OR IMPLIED. IN NO EVENT WILL OPENVISION HAVE ANY LIABILITY FOR ANY\n            LOST PROFITS, LOSS OF DATA OR COSTS OF PROCUREMENT OF SUBSTITUTE\n            GOODS OR SERVICES, OR FOR ANY SPECIAL, INDIRECT, OR CONSEQUENTIAL\n            DAMAGES ARISING OUT OF THIS AGREEMENT, INCLUDING, WITHOUT\n            LIMITATION, THOSE RESULTING FROM THE USE OF THE SOURCE CODE, OR\n            THE FAILURE OF THE SOURCE CODE TO PERFORM, OR FOR ANY OTHER REASON.\n         </p>\n\n         <p>\n            OpenVision retains all copyrights in the donated Source Code.\n            OpenVision also retains copyright to derivative works of\n            the Source Code, whether created by OpenVision or by a third\n            party. The OpenVision copyright notice must be preserved if\n            derivative works are made based on the donated Source Code.\n         </p>\n\n         <p>\n            OpenVision Technologies, Inc. has donated this Kerberos\n            Administration system to MIT for inclusion in the standard\n            Kerberos 5 distribution. This donation underscores our\n            commitment to continuing Kerberos technology development\n            and our gratitude for the valuable work which has\n            been performed by MIT and the Kerberos community.\n         </p>\n\n      ",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -11,17 +22,6 @@
                 "https://fedoraproject.org/wiki/Licensing:MIT#OpenVision_Variant",
                 "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L66-L98",
                 "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:f8eb3b9d-2bc5-4eaa-bf72-a3e80d3f2ad7"
-                },
-                {
-                    "@id": "_:716e2014-a44b-4988-8755-013b25ef92d4"
-                },
-                {
-                    "@id": "_:26e1075b-8c5a-4f3e-a400-f09191de2cf9"
-                }
             ],
             "spdx:name": "OpenVision License",
             "spdx:licenseText": "Copyright, OpenVision Technologies, Inc., 1993-1996, All Rights\nReserved\n\nWARNING:  Retrieving the OpenVision Kerberos Administration system\nsource code, as described below, indicates your acceptance of the\nfollowing terms.  If you do not agree to the following terms, do\nnot retrieve the OpenVision Kerberos administration system.\n\nYou may freely use and distribute the Source Code and Object Code\ncompiled from it, with or without modification, but this Source\nCode is provided to you \"AS IS\" EXCLUSIVE OF ANY WARRANTY,\nINCLUDING, WITHOUT LIMITATION, ANY WARRANTIES OF MERCHANTABILITY OR\nFITNESS FOR A PARTICULAR PURPOSE, OR ANY OTHER WARRANTY, WHETHER\nEXPRESS OR IMPLIED. IN NO EVENT WILL OPENVISION HAVE ANY LIABILITY\nFOR ANY LOST PROFITS, LOSS OF DATA OR COSTS OF PROCUREMENT OF\nSUBSTITUTE GOODS OR SERVICES, OR FOR ANY SPECIAL, INDIRECT, OR\nCONSEQUENTIAL DAMAGES ARISING OUT OF THIS AGREEMENT, INCLUDING,\nWITHOUT LIMITATION, THOSE RESULTING FROM THE USE OF THE SOURCE\nCODE, OR THE FAILURE OF THE SOURCE CODE TO PERFORM, OR FOR ANY\nOTHER REASON.\n\nOpenVision retains all copyrights in the donated Source Code.\nOpenVision also retains copyright to derivative works of the Source\nCode, whether created by OpenVision or by a third party. The\nOpenVision copyright notice must be preserved if derivative works\nare made based on the donated Source Code.\n\nOpenVision Technologies, Inc. has donated this Kerberos\nAdministration system to MIT for inclusion in the standard Kerberos\n5 distribution. This donation underscores our commitment to\ncontinuing Kerberos technology development and our gratitude for\nthe valuable work which has been performed by MIT and the Kerberos\ncommunity.\n",
@@ -33,7 +33,7 @@
             "@type": "spdx:ListedLicense"
         },
         {
-            "@id": "_:f8eb3b9d-2bc5-4eaa-bf72-a3e80d3f2ad7",
+            "@id": "_:14b563bb-10fe-4215-9ed8-bfa901243636",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -47,7 +47,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L66-L98",
-            "spdx:timestamp": "2026-07-13T08:53:17Z",
+            "spdx:timestamp": "2026-07-15T22:09:53Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -56,7 +56,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:716e2014-a44b-4988-8755-013b25ef92d4",
+            "@id": "_:64ceee42-053a-4140-a587-4aaec972cecf",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -70,7 +70,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing:MIT#OpenVision_Variant",
-            "spdx:timestamp": "2026-07-13T08:53:17Z",
+            "spdx:timestamp": "2026-07-15T22:09:54Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -79,7 +79,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:26e1075b-8c5a-4f3e-a400-f09191de2cf9",
+            "@id": "_:33ef48fa-0540-45f4-b081-3f021452e1de",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -93,7 +93,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:timestamp": "2026-07-13T08:53:17Z",
+            "spdx:timestamp": "2026-07-15T22:09:54Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
