@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ec7467a
+The following licenses have been generated from the license list version bd05827
 
 ## Licenses with Short Identifiers
 
@@ -113,6 +113,7 @@ The following licenses have been generated from the license list version ec7467a
 | Systemics W3Works BSD variant license                                                     | [BSD-Systemics-W3Works][]                |      |           |
 | Boost Software License 1.0                                                                | [BSL-1.0][]                              | Y    | Y         |
 | Buddy License                                                                             | [Buddy][]                                |      |           |
+| Bugroff License                                                                           | [Bugroff][]                              |      |           |
 | Business Source License 1.1                                                               | [BUSL-1.1][]                             |      |           |
 | bzip2 and libbzip2 License v1.0.6                                                         | [bzip2-1.0.6][]                          |      |           |
 | Computational Use of Data Agreement v1.0                                                  | [C-UDA-1.0][]                            |      |           |
@@ -944,6 +945,7 @@ The following licenses have been generated from the license list version ec7467a
 [BSD-Systemics-W3Works]: text/BSD-Systemics-W3Works.txt
 [BSL-1.0]: text/BSL-1.0.txt
 [Buddy]: text/Buddy.txt
+[Bugroff]: text/Bugroff.txt
 [BUSL-1.1]: text/BUSL-1.1.txt
 [bzip2-1.0.5]: text/bzip2-1.0.5.txt
 [bzip2-1.0.6]: text/bzip2-1.0.6.txt

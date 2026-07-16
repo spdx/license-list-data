@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:1caae2fc-5043-42a1-bfb3-858d7a1d14f6",
+            "@id": "_:0eae8645-8843-44f9-a015-4696a5a9c990",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,9 +15,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.microsoft.com/opensource/licenses.mspx",
-            "spdx:timestamp": "2026-07-15T22:42:07Z",
+            "spdx:timestamp": "2026-07-16T08:10:13Z",
             "spdx:order": {
                 "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:34fdc7df-8033-421e-984c-07ecedcdf00f",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/license/MS-RL",
+            "spdx:timestamp": "2026-07-16T08:10:13Z",
+            "spdx:order": {
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
@@ -33,6 +56,14 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:0eae8645-8843-44f9-a015-4696a5a9c990"
+                },
+                {
+                    "@id": "_:34fdc7df-8033-421e-984c-07ecedcdf00f"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -45,38 +76,7 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:1caae2fc-5043-42a1-bfb3-858d7a1d14f6"
-                },
-                {
-                    "@id": "_:b387c614-60e0-4c31-b96e-8b0efbf5d8f8"
-                }
-            ]
-        },
-        {
-            "@id": "_:b387c614-60e0-4c31-b96e-8b0efbf5d8f8",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/license/MS-RL",
-            "spdx:timestamp": "2026-07-15T22:42:07Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
+            "@type": "spdx:ListedLicense"
         }
     ],
     "@context": {

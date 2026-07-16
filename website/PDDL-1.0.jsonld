@@ -2,6 +2,14 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/PDDL-1.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:e0e4efc9-af23-4f12-9150-ad8d04b6d893"
+                },
+                {
+                    "@id": "_:cfb517a1-0ab0-430f-af45-fd931dc4281e"
+                }
+            ],
             "spdx:name": "Open Data Commons Public Domain Dedication & License 1.0",
             "rdfs:seeAlso": [
                 "https://opendatacommons.org/licenses/pddl/",
@@ -15,44 +23,13 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:54832175-d761-4d92-a0d0-46f4567585cd"
-                },
-                {
-                    "@id": "_:780f240a-1b94-45f9-80a5-a689427ec4d2"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
         },
         {
-            "@id": "_:54832175-d761-4d92-a0d0-46f4567585cd",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://opendatacommons.org/licenses/pddl/1.0/",
-            "spdx:timestamp": "2026-07-15T22:40:26Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:780f240a-1b94-45f9-80a5-a689427ec4d2",
+            "@id": "_:e0e4efc9-af23-4f12-9150-ad8d04b6d893",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +43,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opendatacommons.org/licenses/pddl/",
-            "spdx:timestamp": "2026-07-15T22:40:26Z",
+            "spdx:timestamp": "2026-07-16T08:09:04Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:cfb517a1-0ab0-430f-af45-fd931dc4281e",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://opendatacommons.org/licenses/pddl/1.0/",
+            "spdx:timestamp": "2026-07-16T08:09:04Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],
