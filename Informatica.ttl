@@ -1,0 +1,32 @@
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX ptr:  <http://www.w3.org/2009/pointers#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX spdx: <http://spdx.org/rdf/terms#>
+
+<http://spdx.org/licenses/Informatica>
+        a                             spdx:ListedLicense;
+        rdfs:seeAlso                  "https://raw.githubusercontent.com/landtuna/open-mtools/6c04c2882eca7c4313ec267766ea53ac9bfe129b/mdump.c" , "https://raw.githubusercontent.com/landtuna/open-mtools/6c04c2882eca7c4313ec267766ea53ac9bfe129b/msend.c";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2026-07-16T09:25:44Z";
+                                        spdx:url            "https://raw.githubusercontent.com/landtuna/open-mtools/6c04c2882eca7c4313ec267766ea53ac9bfe129b/msend.c"
+                                      ];
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2026-07-16T09:25:44Z";
+                                        spdx:url            "https://raw.githubusercontent.com/landtuna/open-mtools/6c04c2882eca7c4313ec267766ea53ac9bfe129b/mdump.c"
+                                      ];
+        spdx:isDeprecatedLicenseId    false;
+        spdx:isOsiApproved            false;
+        spdx:licenseText              " Redistribution and use in source and binary forms, with or without\n modification, are permitted without restriction.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND INFORMATICA DISCLAIMS ALL WARRANTIES\nEXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF\nNON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR\nPURPOSE.  INFORMATICA DOES NOT WARRANT THAT USE OF THE SOFTWARE WILL BE\nUNINTERRUPTED OR ERROR-FREE.  INFORMATICA SHALL NOT, UNDER ANY CIRCUMSTANCES,\nBE LIABLE TO LICENSEE FOR LOST PROFITS, CONSEQUENTIAL, INCIDENTAL, SPECIAL OR\nINDIRECT DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE\nTRANSACTIONS CONTEMPLATED HEREUNDER, EVEN IF INFORMATICA HAS BEEN APPRISED OF\nTHE LIKELIHOOD OF SUCH DAMAGES.\n";
+        spdx:licenseTextHtml          "\n         <p>Redistribution and use in source and binary forms, with or without modification, are permitted without restriction.</p>\n\n         <div class=\"optional-license-text\"> \n            <p>Note: this program is based on the sd_listen program by Tom Pusateri (pusateri@cs.duke.edu) and developed by Jon Knight (J.P.Knight@lut.ac.uk).</p>\n\n         </div>\n\n         <p>THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND INFORMATICA DISCLAIMS ALL WARRANTIES EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.  INFORMATICA DOES NOT WARRANT THAT USE OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE.  INFORMATICA SHALL NOT, UNDER ANY CIRCUMSTANCES, BE LIABLE TO LICENSEE FOR LOST PROFITS, CONSEQUENTIAL, INCIDENTAL, SPECIAL OR INDIRECT DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREUNDER, EVEN IF INFORMATICA HAS BEEN APPRISED OF THE LIKELIHOOD OF SUCH DAMAGES.</p>\n\n      ";
+        spdx:name                     "Informatica License";
+        spdx:standardLicenseTemplate  "Redistribution and use in source and binary forms, with or without modification, are permitted without restriction.\n\n<<beginOptional>>Note: this program is based on the sd_listen program by Tom Pusateri (pusateri@cs.duke.edu) and developed by Jon Knight (J.P.Knight@lut.ac.uk).\n\n<<endOptional>>\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND INFORMATICA DISCLAIMS ALL WARRANTIES EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION, ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT, MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE. INFORMATICA DOES NOT WARRANT THAT USE OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE. INFORMATICA SHALL NOT, UNDER ANY CIRCUMSTANCES, BE LIABLE TO LICENSEE FOR LOST PROFITS, CONSEQUENTIAL, INCIDENTAL, SPECIAL OR INDIRECT DAMAGES ARISING OUT OF OR RELATED TO THIS AGREEMENT OR THE TRANSACTIONS CONTEMPLATED HEREUNDER, EVEN IF INFORMATICA HAS BEEN APPRISED OF THE LIKELIHOOD OF SUCH DAMAGES.\n\n" .
