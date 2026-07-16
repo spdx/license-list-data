@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version bd05827
+The following licenses have been generated from the license list version e4c1f27
 
 ## Licenses with Short Identifiers
 
@@ -360,6 +360,7 @@ The following licenses have been generated from the license list version bd05827
 | iMatix Standard Function Library Agreement                                                | [iMatix][]                               |      | Y         |
 | Imlib2 License                                                                            | [Imlib2][]                               |      | Y         |
 | Info-ZIP License                                                                          | [Info-ZIP][]                             |      |           |
+| Informatica License                                                                       | [Informatica][]                          |      |           |
 | Inner Net License v2.0                                                                    | [Inner-Net-2.0][]                        |      |           |
 | Inno Setup License                                                                        | [InnoSetup][]                            |      |           |
 | Intel Open Source License                                                                 | [Intel][]                                | Y    | Y         |
@@ -1210,6 +1211,7 @@ The following licenses have been generated from the license list version bd05827
 [iMatix]: text/iMatix.txt
 [Imlib2]: text/Imlib2.txt
 [Info-ZIP]: text/Info-ZIP.txt
+[Informatica]: text/Informatica.txt
 [Inner-Net-2.0]: text/Inner-Net-2.0.txt
 [InnoSetup]: text/InnoSetup.txt
 [Intel]: text/Intel.txt

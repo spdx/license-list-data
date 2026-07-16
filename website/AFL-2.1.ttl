@@ -7,12 +7,21 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
         a                               spdx:ListedLicense;
         rdfs:seeAlso                    "https://web.archive.org/web/20061013013632/http://opensource.linux-mirror.org/licenses/afl-2.1.txt" , "https://gitlab.freedesktop.org/dbus/dbus/-/blob/789d97ad53044f94351a958e785c2923643b346a/COPYING#L11-207" , "http://opensource.linux-mirror.org/licenses/afl-2.1.txt";
         spdx:crossRef                   [ a                   spdx:CrossRef;
+                                          spdx:isLive         true;
+                                          spdx:isValid        true;
+                                          spdx:isWayBackLink  false;
+                                          spdx:match          "false";
+                                          spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                          spdx:timestamp      "2026-07-16T09:26:18Z";
+                                          spdx:url            "https://gitlab.freedesktop.org/dbus/dbus/-/blob/789d97ad53044f94351a958e785c2923643b346a/COPYING#L11-207"
+                                        ];
+        spdx:crossRef                   [ a                   spdx:CrossRef;
                                           spdx:isLive         false;
                                           spdx:isValid        false;
                                           spdx:isWayBackLink  false;
                                           spdx:match          "N/A";
                                           spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2026-07-16T08:00:58Z";
+                                          spdx:timestamp      "2026-07-16T09:26:18Z";
                                           spdx:url            "https://web.archive.org/web/20061013013632/http://opensource.linux-mirror.org/licenses/afl-2.1.txt"
                                         ];
         spdx:crossRef                   [ a                   spdx:CrossRef;
@@ -21,17 +30,8 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
                                           spdx:isWayBackLink  false;
                                           spdx:match          "N/A";
                                           spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2026-07-16T08:00:57Z";
+                                          spdx:timestamp      "2026-07-16T09:26:17Z";
                                           spdx:url            "http://opensource.linux-mirror.org/licenses/afl-2.1.txt"
-                                        ];
-        spdx:crossRef                   [ a                   spdx:CrossRef;
-                                          spdx:isLive         true;
-                                          spdx:isValid        true;
-                                          spdx:isWayBackLink  false;
-                                          spdx:match          "false";
-                                          spdx:order          "2"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                          spdx:timestamp      "2026-07-16T08:00:58Z";
-                                          spdx:url            "https://gitlab.freedesktop.org/dbus/dbus/-/blob/789d97ad53044f94351a958e785c2923643b346a/COPYING#L11-207"
                                         ];
         spdx:isDeprecatedLicenseId      false;
         spdx:isFsfLibre                 true;
