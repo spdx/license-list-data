@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:eb364872-55b5-4750-80a9-74a873527220",
+            "@id": "_:35cfc96d-6f72-4b39-a79e-e29bcaedf19f",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://data.norge.no/nlod/en/1.0",
-            "spdx:timestamp": "2026-08-24T11:28:35Z",
+            "spdx:timestamp": "2026-08-24T13:49:42Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +25,9 @@
         },
         {
             "@id": "http://spdx.org/licenses/NLOD-1.0",
+            "spdx:crossRef": {
+                "@id": "_:35cfc96d-6f72-4b39-a79e-e29bcaedf19f"
+            },
             "rdfs:comment": "Norwegian translation available here: http://data.norge.no/nlod/no/1.0",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -39,10 +42,7 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:name": "Norwegian Licence for Open Government Data (NLOD) 1.0",
-            "spdx:crossRef": {
-                "@id": "_:eb364872-55b5-4750-80a9-74a873527220"
-            }
+            "spdx:name": "Norwegian Licence for Open Government Data (NLOD) 1.0"
         }
     ],
     "@context": {

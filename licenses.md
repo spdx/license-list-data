@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 69c6ee8
+The following licenses have been generated from the license list version 568a84d
 
 ## Licenses with Short Identifiers
 
@@ -264,6 +264,7 @@ The following licenses have been generated from the license list version 69c6ee8
 | Fair License                                                                              | [Fair][]                                 | Y    |           |
 | Fuzzy Bitmap License                                                                      | [FBM][]                                  |      |           |
 | Fraunhofer FDK AAC Codec Library                                                          | [FDK-AAC][]                              |      |           |
+| Fraunhofer FDK MPEG-H Software                                                            | [FDK-MPEG-H][]                           |      |           |
 | Ferguson Twofish License                                                                  | [Ferguson-Twofish][]                     |      |           |
 | Frameworx Open License 1.0                                                                | [Frameworx-1.0][]                        | Y    |           |
 | FreeBSD Documentation License                                                             | [FreeBSD-DOC][]                          |      |           |
@@ -1100,6 +1101,7 @@ The following licenses have been generated from the license list version 69c6ee8
 [Fair]: text/Fair.txt
 [FBM]: text/FBM.txt
 [FDK-AAC]: text/FDK-AAC.txt
+[FDK-MPEG-H]: text/FDK-MPEG-H.txt
 [Ferguson-Twofish]: text/Ferguson-Twofish.txt
 [Frameworx-1.0]: text/Frameworx-1.0.txt
 [FreeBSD-DOC]: text/FreeBSD-DOC.txt

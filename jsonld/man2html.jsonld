@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:dfffcc7c-cd4b-46a8-a1f6-e64359228423",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz",
-            "spdx:timestamp": "2026-08-24T11:37:48Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:f460d8c0-bf5d-4b0f-a456-317b9fe0320c",
+            "@id": "_:8d0d6743-060e-4397-adc7-ad81dabba576",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html",
-            "spdx:timestamp": "2026-08-24T11:37:48Z",
+            "spdx:timestamp": "2026-08-24T13:58:09Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,40 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:4b2d0175-ccec-46c1-b968-131d855f9041",
+            "@id": "http://spdx.org/licenses/man2html",
+            "rdfs:seeAlso": [
+                "https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html",
+                "http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz",
+                "https://github.com/hamano/man2html/blob/master/man2html.c"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:91e4d03b-bdd6-4a2f-ab52-f1ccbcd8eb72"
+                },
+                {
+                    "@id": "_:8d0d6743-060e-4397-adc7-ad81dabba576"
+                },
+                {
+                    "@id": "_:9ec60916-183e-4f67-9fcb-d99177981123"
+                }
+            ],
+            "spdx:standardLicenseTemplate": "Permission is granted to distribute, modify and use this program as long as this comment is not removed or changed.\n\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "rdfs:comment": "This license is very similar to check-cvs.",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to distribute, modify and use this\n            program as long as this comment is not removed or changed.\n         </p>\n\n      ",
+            "@type": "spdx:ListedLicense",
+            "spdx:name": "man2html License",
+            "spdx:licenseText": "Permission is granted to distribute, modify and use this program\nas long as this comment is not removed or changed.\n"
+        },
+        {
+            "@id": "_:91e4d03b-bdd6-4a2f-ab52-f1ccbcd8eb72",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +71,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/hamano/man2html/blob/master/man2html.c",
-            "spdx:timestamp": "2026-08-24T11:37:47Z",
+            "spdx:timestamp": "2026-08-24T13:58:11Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,37 +80,27 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "http://spdx.org/licenses/man2html",
-            "rdfs:seeAlso": [
-                "https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html",
-                "http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz",
-                "https://github.com/hamano/man2html/blob/master/man2html.c"
-            ],
-            "spdx:standardLicenseTemplate": "Permission is granted to distribute, modify and use this program as long as this comment is not removed or changed.\n\n",
-            "spdx:isOsiApproved": {
+            "@id": "_:9ec60916-183e-4f67-9fcb-d99177981123",
+            "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:dfffcc7c-cd4b-46a8-a1f6-e64359228423"
-                },
-                {
-                    "@id": "_:f460d8c0-bf5d-4b0f-a456-317b9fe0320c"
-                },
-                {
-                    "@id": "_:4b2d0175-ccec-46c1-b968-131d855f9041"
-                }
-            ],
-            "rdfs:comment": "This license is very similar to check-cvs.",
-            "spdx:isDeprecatedLicenseId": {
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:licenseTextHtml": "\n         <p>\n            Permission is granted to distribute, modify and use this\n            program as long as this comment is not removed or changed.\n         </p>\n\n      ",
-            "@type": "spdx:ListedLicense",
-            "spdx:name": "man2html License",
-            "spdx:licenseText": "Permission is granted to distribute, modify and use this program\nas long as this comment is not removed or changed.\n"
+            "spdx:url": "http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz",
+            "spdx:timestamp": "2026-08-24T13:58:09Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

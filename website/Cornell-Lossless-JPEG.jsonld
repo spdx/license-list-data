@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:eb531036-dd28-4b90-a4d3-29766af55221",
+            "@id": "_:d7a18be5-d431-4cc7-9d18-4e5173634066",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
-            "spdx:timestamp": "2026-08-24T11:28:04Z",
+            "spdx:timestamp": "2026-08-24T13:49:39Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,30 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:9bb0672c-66ac-4e5b-b8c8-29319480f8fa",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
-            "spdx:timestamp": "2026-08-24T11:28:02Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:0d7908ba-f23d-4a11-8dd1-b2b8f3139988",
+            "@id": "_:1d459fd2-3f1c-480d-a094-e0904cdf9e4c",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
-            "spdx:timestamp": "2026-08-24T11:28:04Z",
+            "spdx:timestamp": "2026-08-24T13:49:40Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,22 +47,45 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:5219ef02-b0fe-458b-b147-47e61d3f88ed",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
+            "spdx:timestamp": "2026-08-24T13:49:38Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Cornell-Lossless-JPEG",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:0d7908ba-f23d-4a11-8dd1-b2b8f3139988"
-                },
-                {
-                    "@id": "_:eb531036-dd28-4b90-a4d3-29766af55221"
-                },
-                {
-                    "@id": "_:9bb0672c-66ac-4e5b-b8c8-29319480f8fa"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
                 "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
                 "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:5219ef02-b0fe-458b-b147-47e61d3f88ed"
+                },
+                {
+                    "@id": "_:d7a18be5-d431-4cc7-9d18-4e5173634066"
+                },
+                {
+                    "@id": "_:1d459fd2-3f1c-480d-a094-e0904cdf9e4c"
+                }
             ],
             "spdx:isOsiApproved": {
                 "@value": "false",
