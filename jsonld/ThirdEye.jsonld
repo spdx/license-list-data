@@ -2,6 +2,9 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/ThirdEye",
+            "spdx:crossRef": {
+                "@id": "_:b6d3270c-ca61-4d07-9a7f-56a10a9c9a5e"
+            },
             "@type": "spdx:ListedLicense",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -14,15 +17,12 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:9ba538a6-eaf5-448c-851e-0020c9e5b938"
-            },
             "rdfs:seeAlso": "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(C) Copyright 1984 by Third Eye Software, Inc.  \";match=\".{0,5000}\">>\nThird Eye Software, Inc. grants reproduction and use rights to all parties, PROVIDED that this comment is maintained in the copy.\n\nThird Eye makes no claims about the applicability of this symbol table to a particular use.\n\n",
             "rdfs:comment": "This is a variant to MIPS license with extra paragraph."
         },
         {
-            "@id": "_:9ba538a6-eaf5-448c-851e-0020c9e5b938",
+            "@id": "_:b6d3270c-ca61-4d07-9a7f-56a10a9c9a5e",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -32,16 +32,16 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/symconst.h#n11",
-            "spdx:timestamp": "2026-07-16T09:24:10Z",
+            "spdx:timestamp": "2026-08-24T11:27:44Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "false",
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

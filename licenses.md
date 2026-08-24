@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version e4c1f27
+The following licenses have been generated from the license list version 69c6ee8
 
 ## Licenses with Short Identifiers
 
@@ -109,6 +109,7 @@ The following licenses have been generated from the license list version e4c1f27
 | BSD Protection License                                                                    | [BSD-Protection][]                       |      |           |
 | BSD Source Code Attribution - beginning of file variant                                   | [BSD-Source-beginning-file][]            |      |           |
 | BSD Source Code Attribution                                                               | [BSD-Source-Code][]                      |      |           |
+| BSD Source Code Attribution - no disclaimer                                               | [BSD-Source-Code-no-disclaimer][]        |      |           |
 | Systemics BSD variant license                                                             | [BSD-Systemics][]                        |      |           |
 | Systemics W3Works BSD variant license                                                     | [BSD-Systemics-W3Works][]                |      |           |
 | Boost Software License 1.0                                                                | [BSL-1.0][]                              | Y    | Y         |
@@ -942,6 +943,7 @@ The following licenses have been generated from the license list version e4c1f27
 [BSD-Protection]: text/BSD-Protection.txt
 [BSD-Source-beginning-file]: text/BSD-Source-beginning-file.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
+[BSD-Source-Code-no-disclaimer]: text/BSD-Source-Code-no-disclaimer.txt
 [BSD-Systemics]: text/BSD-Systemics.txt
 [BSD-Systemics-W3Works]: text/BSD-Systemics-W3Works.txt
 [BSL-1.0]: text/BSL-1.0.txt
