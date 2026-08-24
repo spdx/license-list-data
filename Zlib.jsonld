@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:09763ff9-6300-4dda-a3cd-725cb50197fd",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.zlib.net/zlib_license.html",
-            "spdx:timestamp": "2026-08-24T11:35:06Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:ff36c1fe-1b1e-4ded-9b97-65cc864d7429",
+            "@id": "_:cae75db3-7d7d-4b59-b5d4-c16e9c9bc149",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/Zlib",
-            "spdx:timestamp": "2026-08-24T11:35:06Z",
+            "spdx:timestamp": "2026-08-24T13:56:34Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,38 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:bef7ba54-e5b0-46f7-9d4d-265e6954739a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.zlib.net/zlib_license.html",
+            "spdx:timestamp": "2026-08-24T13:56:34Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Zlib",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:bef7ba54-e5b0-46f7-9d4d-265e6954739a"
+                },
+                {
+                    "@id": "_:cae75db3-7d7d-4b59-b5d4-c16e9c9bc149"
+                }
+            ],
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -56,14 +64,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:ff36c1fe-1b1e-4ded-9b97-65cc864d7429"
-                },
-                {
-                    "@id": "_:09763ff9-6300-4dda-a3cd-725cb50197fd"
-                }
-            ],
             "spdx:name": "zlib License",
             "spdx:licenseText": "zlib License\n\nThis software is provided 'as-is', without any express or implied warranty.  In no event will the authors be held liable for any damages arising from the use of this software.\n\nPermission is granted to anyone to use this software for any purpose, including commercial applications, and to alter it and redistribute it freely, subject to the following restrictions:\n\n     1. The origin of this software must not be misrepresented; you must not claim that you wrote the original software. If you use this software in a product, an acknowledgment in the product documentation would be appreciated but is not required.\n\n     2. Altered source versions must be plainly marked as such, and must not be misrepresented as being the original software.\n\n     3. This notice may not be removed or altered from any source distribution.\n",
             "rdfs:seeAlso": [
