@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:a57123ce-bb15-495b-95e5-0d6396d06563",
+            "@id": "_:4ba0f870-426a-41e0-9710-b47bc7d1a931",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,9 +15,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/Beerware",
-            "spdx:timestamp": "2026-08-24T13:52:52Z",
+            "spdx:timestamp": "2026-08-27T17:01:21Z",
             "spdx:order": {
                 "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:d867e957-c8f8-4158-af51-072e02934590",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://people.freebsd.org/~phk/",
+            "spdx:timestamp": "2026-08-27T17:01:20Z",
+            "spdx:order": {
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
@@ -35,44 +58,21 @@
                 "https://fedoraproject.org/wiki/Licensing/Beerware"
             ],
             "@type": "spdx:ListedLicense",
+            "spdx:name": "Beerware License",
             "spdx:crossRef": [
                 {
-                    "@id": "_:a57123ce-bb15-495b-95e5-0d6396d06563"
+                    "@id": "_:4ba0f870-426a-41e0-9710-b47bc7d1a931"
                 },
                 {
-                    "@id": "_:e0ad0dac-0e2e-4ab7-a3ce-47a1d4fdd50d"
+                    "@id": "_:d867e957-c8f8-4158-af51-072e02934590"
                 }
             ],
-            "spdx:name": "Beerware License",
             "spdx:standardLicenseTemplate": "\"THE BEER-WARE LICENSE\" (Revision 42):\n\n<<var;name=\"email\";original=\"<phk@FreeBSD.ORG>\";match=\"<phk@FreeBSD.ORG>|<phk@login.dkuug.dk>\">> wrote this file. As long as you retain this notice you can do whatever you want with this stuff. If we meet some day, and you think this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n\n",
             "spdx:licenseText": "\"THE BEER-WARE LICENSE\" (Revision 42):  <phk@FreeBSD.ORG> wrote this file. As long as you retain this notice you  can do whatever you want with this stuff. If we meet some day, and you think  this stuff is worth it, you can buy me a beer in return Poul-Henning Kamp\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
-        },
-        {
-            "@id": "_:e0ad0dac-0e2e-4ab7-a3ce-47a1d4fdd50d",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://people.freebsd.org/~phk/",
-            "spdx:timestamp": "2026-08-24T13:52:52Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

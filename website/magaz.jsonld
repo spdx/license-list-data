@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:5b0be8a5-0e8b-489a-9b71-ca6c8b99dc88",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex",
-            "spdx:timestamp": "2026-08-24T13:49:42Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:8f24c088-d2d5-4836-9b3b-911f58fe4202",
+            "@id": "_:5530feb2-fdf1-48a2-a731-6e53af8b7c54",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty",
-            "spdx:timestamp": "2026-08-24T13:49:43Z",
+            "spdx:timestamp": "2026-08-27T16:56:41Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,10 +24,41 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:835f85fa-b331-4e9a-8c99-0f645bd92244",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex",
+            "spdx:timestamp": "2026-08-27T16:56:42Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/magaz",
             "rdfs:seeAlso": [
                 "https://mirrors.nic.cz/tex-archive/macros/latex/contrib/magaz/magaz.tex",
                 "https://mirrors.ctan.org/macros/latex/contrib/version/version.sty"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:835f85fa-b331-4e9a-8c99-0f645bd92244"
+                },
+                {
+                    "@id": "_:5530feb2-fdf1-48a2-a731-6e53af8b7c54"
+                }
             ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -65,14 +73,6 @@
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1999-2011, Donald Arseneau, asnd@triumf.ca, Vancouver, Canada\";match=\".{0,5000}\">>\n<<var;name=\"software\";original=\"software\";match=\"This software|These macros\">> may be freely used, transmitted, reproduced, or modified provided that the copyright notice and this permission is retained.\n\n",
             "spdx:name": "magaz License",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8f24c088-d2d5-4836-9b3b-911f58fe4202"
-                },
-                {
-                    "@id": "_:5b0be8a5-0e8b-489a-9b71-ca6c8b99dc88"
-                }
-            ],
             "rdfs:comment": "This license is a very similar to ulem and fwlw, but has slightly different obligations."
         }
     ],

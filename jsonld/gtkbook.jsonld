@@ -2,14 +2,6 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/gtkbook",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:b6394115-6efb-411d-aaf8-1dcf9b325eb8"
-                },
-                {
-                    "@id": "_:03725016-e66b-4c11-a92e-68e63887e7a6"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://github.com/slogan621/gtkbook",
                 "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11"
@@ -19,6 +11,14 @@
             "spdx:name": "gtkbook License",
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright 2005 Syd Logan, All Rights Reserved\n         </span></var>\n         <p>\n            This code is distributed without warranty. You are free to use\n            this code for any purpose, however, if this code is republished or\n            redistributed in its original form, as hardcopy or electronically,\n            then you must include this copyright notice along with the code.\n         </p>\n\n      ",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:0b6f2e23-f817-4322-ae05-4c69ad34dcde"
+                },
+                {
+                    "@id": "_:6caae826-305a-4152-955d-0d5b019b2aa9"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -29,30 +29,7 @@
             }
         },
         {
-            "@id": "_:b6394115-6efb-411d-aaf8-1dcf9b325eb8",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11",
-            "spdx:timestamp": "2026-08-24T13:58:09Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:03725016-e66b-4c11-a92e-68e63887e7a6",
+            "@id": "_:0b6f2e23-f817-4322-ae05-4c69ad34dcde",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +43,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/slogan621/gtkbook",
-            "spdx:timestamp": "2026-08-24T13:58:09Z",
+            "spdx:timestamp": "2026-08-27T17:06:20Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:6caae826-305a-4152-955d-0d5b019b2aa9",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11",
+            "spdx:timestamp": "2026-08-27T17:06:20Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],

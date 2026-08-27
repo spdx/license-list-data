@@ -1,9 +1,32 @@
 {
     "@graph": [
         {
+            "@id": "_:46a728ad-c911-4ced-bb6b-ecd4eee2966e",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
+            "spdx:timestamp": "2026-08-27T17:07:36Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Linux-man-pages-copyleft-var",
             "spdx:crossRef": {
-                "@id": "_:2da52410-9392-43b2-a322-a20292c8474e"
+                "@id": "_:46a728ad-c911-4ced-bb6b-ecd4eee2966e"
             },
             "spdx:name": "Linux man-pages Copyleft Variant",
             "spdx:isDeprecatedLicenseId": {
@@ -20,29 +43,6 @@
             "rdfs:seeAlso": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
             "rdfs:comment": "This is the same as Linux-man-pages-copyleft but omits the last sentence of the third paragraph.",
             "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:2da52410-9392-43b2-a322-a20292c8474e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://git.kernel.org/pub/scm/docs/man-pages/man-pages.git/tree/man2/set_mempolicy.2#n5",
-            "spdx:timestamp": "2026-08-24T13:59:42Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

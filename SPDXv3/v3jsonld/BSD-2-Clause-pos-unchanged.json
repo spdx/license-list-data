@@ -1,0 +1,40 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/24b4ed8" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2026-08-27T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/BSD-2-Clause-pos-unchanged_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/BSD-2-Clause-pos-unchanged" ],
+    "name" : "BSD-2-Clause-pos-unchanged document",
+    "comment" : "SPDX Document For BSD-2-Clause-pos-unchanged",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/24b4ed8",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/BSD-2-Clause-pos-unchanged",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://scancode-licensedb.aboutcode.org/bsd-unchanged", "https://cgit.freebsd.org/src/tree/usr.bin/sockstat/sockstat.c", "https://github.com/libarchive/libarchive/blob/master/libarchive_fe/line_reader.c", "https://github.com/freebsd/pkg/blob/main/src/add.c" ],
+    "simplelicensing_licenseText" : "Copyright (c) <year> <owner>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer\n   in this position and unchanged.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\nOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\nIN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,\nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\nNOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\nTHIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+    "name" : "BSD 2-Clause - position unchanged variant",
+    "comment" : "This is the same as BSD-2-Clause, but adds a requirement that the notice remain in the same position unchanged.",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright (c) <year> <owner> All rights reserved.\";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer in this position and unchanged.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

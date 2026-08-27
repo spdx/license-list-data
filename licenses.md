@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 568a84d
+The following licenses have been generated from the license list version 24b4ed8
 
 ## Licenses with Short Identifiers
 
@@ -81,6 +81,7 @@ The following licenses have been generated from the license list version 568a84d
 | BSD 2-Clause - first lines requirement                                                    | [BSD-2-Clause-first-lines][]             |      |           |
 | BSD-2-Clause Plus Patent License                                                          | [BSD-2-Clause-Patent][]                  | Y    |           |
 | BSD 2-Clause pkgconf disclaimer variant                                                   | [BSD-2-Clause-pkgconf-disclaimer][]      |      |           |
+| BSD 2-Clause - position unchanged variant                                                 | [BSD-2-Clause-pos-unchanged][]           |      |           |
 | BSD 2-Clause with views sentence                                                          | [BSD-2-Clause-Views][]                   |      |           |
 | BSD 3-Clause "New" or "Revised" License                                                   | [BSD-3-Clause][]                         | Y    | Y         |
 | BSD 3-Clause acpica variant                                                               | [BSD-3-Clause-acpica][]                  |      |           |
@@ -103,6 +104,7 @@ The following licenses have been generated from the license list version 568a84d
 | BSD 4.3 RENO License                                                                      | [BSD-4.3RENO][]                          |      |           |
 | BSD 4.3 TAHOE License                                                                     | [BSD-4.3TAHOE][]                         |      |           |
 | BSD Advertising Acknowledgement License                                                   | [BSD-Advertising-Acknowledgement][]      |      |           |
+| BSD - ask to endorse                                                                      | [BSD-ask-to-endorse][]                   | Y    |           |
 | BSD with Attribution and HPND disclaimer                                                  | [BSD-Attribution-HPND-disclaimer][]      |      |           |
 | BSD-Inferno-Nettverk                                                                      | [BSD-Inferno-Nettverk][]                 |      |           |
 | BSD Mark Modifications License                                                            | [BSD-Mark-Modifications][]               |      |           |
@@ -916,6 +918,7 @@ The following licenses have been generated from the license list version 568a84d
 [BSD-2-Clause-NetBSD]: text/BSD-2-Clause-NetBSD.txt
 [BSD-2-Clause-Patent]: text/BSD-2-Clause-Patent.txt
 [BSD-2-Clause-pkgconf-disclaimer]: text/BSD-2-Clause-pkgconf-disclaimer.txt
+[BSD-2-Clause-pos-unchanged]: text/BSD-2-Clause-pos-unchanged.txt
 [BSD-2-Clause-Views]: text/BSD-2-Clause-Views.txt
 [BSD-3-Clause]: text/BSD-3-Clause.txt
 [BSD-3-Clause-acpica]: text/BSD-3-Clause-acpica.txt
@@ -938,6 +941,7 @@ The following licenses have been generated from the license list version 568a84d
 [BSD-4.3RENO]: text/BSD-4.3RENO.txt
 [BSD-4.3TAHOE]: text/BSD-4.3TAHOE.txt
 [BSD-Advertising-Acknowledgement]: text/BSD-Advertising-Acknowledgement.txt
+[BSD-ask-to-endorse]: text/BSD-ask-to-endorse.txt
 [BSD-Attribution-HPND-disclaimer]: text/BSD-Attribution-HPND-disclaimer.txt
 [BSD-Inferno-Nettverk]: text/BSD-Inferno-Nettverk.txt
 [BSD-Mark-Modifications]: text/BSD-Mark-Modifications.txt
