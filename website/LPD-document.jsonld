@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:342df518-33d3-4689-9154-b7bdd2a5c16c",
+            "@id": "_:378154fd-eeac-46ad-b76f-e3131961c91d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,9 +15,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.ietf.org/rfc/rfc1952.txt",
-            "spdx:timestamp": "2026-09-02T08:15:26Z",
+            "spdx:timestamp": "2026-09-02T22:33:16Z",
             "spdx:order": {
                 "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:64cc18db-5038-432e-ba59-478a72ca451a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
+            "spdx:timestamp": "2026-09-02T22:33:16Z",
+            "spdx:order": {
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
@@ -35,44 +58,21 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:342df518-33d3-4689-9154-b7bdd2a5c16c"
-                },
-                {
-                    "@id": "_:889dafb3-b66b-4fd1-add5-8fac2512b86a"
-                }
-            ],
             "spdx:name": "LPD Documentation License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) Yann Collet  \";match=\".{0,5000}\">>\nPermission is granted to copy and distribute this document for any purpose and without charge, including translations into other languages and incorporation into compilations, provided that the copyright notice and this notice are preserved, and that any substantive changes or deletions from the original are clearly marked.<<beginOptional>> Distribution of this document is unlimited.<<endOptional>>\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:378154fd-eeac-46ad-b76f-e3131961c91d"
+                },
+                {
+                    "@id": "_:64cc18db-5038-432e-ba59-478a72ca451a"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseText": "Copyright (c) 1996 L. Peter Deutsch\n\nPermission is granted to copy and distribute this\ndocument for any purpose and without charge, including\ntranslations into other languages and incorporation\ninto compilations, provided that the copyright notice\nand this notice are preserved, and that any substantive\nchanges or deletions from the original are clearly marked.\n"
-        },
-        {
-            "@id": "_:889dafb3-b66b-4fd1-add5-8fac2512b86a",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
-            "spdx:timestamp": "2026-09-02T08:15:25Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

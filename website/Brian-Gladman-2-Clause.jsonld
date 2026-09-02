@@ -1,29 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:978e04a6-445b-44e5-8b0d-38cea6a005d3",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156",
-            "spdx:timestamp": "2026-09-02T08:06:52Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/Brian-Gladman-2-Clause",
             "rdfs:comment": "This is similar to Brian-Gladman-3-Clause but sort omits the third clause, adds \"without the payment of fees or royalties\", and re-words the lead-in and first two clauses.",
             "spdx:isOsiApproved": {
@@ -36,24 +13,24 @@
             ],
             "spdx:licenseText": "Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All\n   rights reserved.\n\nThe redistribution and use of this software (with or without\nchanges) is allowed without the payment of fees or royalties\nprovided that:\n\n   source code distributions include the above copyright notice,\n   this list of conditions and the following disclaimer;\n\n   binary distributions include the above copyright notice, this\n   list of conditions and the following disclaimer in their\n   documentation.\n\nThis software is provided 'as is' with no explicit or implied\nwarranties in respect of its operation, including, but not limited\nto, correctness and fitness for purpose.\n",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:105bc630-cc18-4423-bb88-e13bc3789e67"
+                },
+                {
+                    "@id": "_:d5d12fb4-c21e-4273-b86d-e4f88ace3311"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:978e04a6-445b-44e5-8b0d-38cea6a005d3"
-                },
-                {
-                    "@id": "_:cfb4bd47-c491-4bbe-afe4-3bb8f6198601"
-                }
-            ],
             "spdx:licenseTextHtml": "\n         <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (C) 1998-2013, Brian Gladman,<br />\n\n            Worcester, UK. All rights reserved.\n         </span></var>\n         <p>\n            The redistribution and use of this software\n            (with or without changes) is allowed without\n            the payment of fees or royalties provided that:\n         </p>\n\n         <p>\n            source code distributions include the above copyright\n            notice, this list of conditions and the following disclaimer;\n         </p>\n\n         <p>\n            binary distributions include the above copyright notice, this list\n            of conditions and the following disclaimer in their documentation.\n         </p>\n\n         <p>\n            This software is provided &apos;as is&apos; with no explicit or\n            implied warranties in respect of its operation, including,\n            but not limited to, correctness and fitness for purpose.\n         </p>\n\n      ",
             "spdx:name": "Brian Gladman 2-Clause License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (C) 1998-2013, Brian Gladman, Worcester, UK. All rights reserved.\";match=\".{0,5000}\">>\nThe redistribution and use of this software (with or without changes) is allowed without the payment of fees or royalties provided that:\n\nsource code distributions include the above copyright notice, this list of conditions and the following disclaimer;\n\nbinary distributions include the above copyright notice, this list of conditions and the following disclaimer in their documentation.\n\nThis software is provided 'as is' with no explicit or implied warranties in respect of its operation, including, but not limited to, correctness and fitness for purpose.\n\n"
         },
         {
-            "@id": "_:cfb4bd47-c491-4bbe-afe4-3bb8f6198601",
+            "@id": "_:105bc630-cc18-4423-bb88-e13bc3789e67",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -67,9 +44,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://web.mit.edu/kerberos/krb5-1.21/doc/mitK5license.html",
-            "spdx:timestamp": "2026-09-02T08:06:52Z",
+            "spdx:timestamp": "2026-09-02T22:22:01Z",
             "spdx:order": {
                 "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:d5d12fb4-c21e-4273-b86d-e4f88ace3311",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/krb5/krb5/blob/krb5-1.21.2-final/NOTICE#L140-L156",
+            "spdx:timestamp": "2026-09-02T22:22:01Z",
+            "spdx:order": {
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",

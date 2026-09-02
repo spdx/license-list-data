@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version b885de7
+The following licenses have been generated from the license list version 7661985
 
 ## Licenses with Short Identifiers
 
@@ -96,6 +96,7 @@ The following licenses have been generated from the license list version b885de7
 | BSD 3-Clause No Nuclear License 2014                                                      | [BSD-3-Clause-No-Nuclear-License-2014][] |      |           |
 | BSD 3-Clause No Nuclear Warranty                                                          | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
 | BSD 3-Clause Open MPI variant                                                             | [BSD-3-Clause-Open-MPI][]                | Y    |           |
+| BSD 3-Clause - OpenWebUI variant                                                          | [BSD-3-Clause-OpenWebUI][]               |      |           |
 | BSD 3-Clause Sun Microsystems                                                             | [BSD-3-Clause-Sun][]                     |      |           |
 | BSD 3-Clause Tso variant                                                                  | [BSD-3-Clause-Tso][]                     |      |           |
 | BSD 4-Clause "Original" or "Old" License                                                  | [BSD-4-Clause][]                         |      | Y         |
@@ -325,6 +326,7 @@ The following licenses have been generated from the license list version b885de7
 | hdparm License                                                                            | [hdparm][]                               |      |           |
 | HIDAPI License                                                                            | [HIDAPI][]                               |      |           |
 | Hippocratic License 2.1                                                                   | [Hippocratic-2.1][]                      |      |           |
+| Hippocratic License 3.0                                                                   | [Hippocratic-3.0-core][]                 |      |           |
 | Hewlett-Packard 1986 License                                                              | [HP-1986][]                              |      |           |
 | Hewlett-Packard 1989 License                                                              | [HP-1989][]                              |      |           |
 | Historical Permission Notice and Disclaimer                                               | [HPND][]                                 | Y    | Y         |
@@ -933,6 +935,7 @@ The following licenses have been generated from the license list version b885de7
 [BSD-3-Clause-No-Nuclear-License-2014]: text/BSD-3-Clause-No-Nuclear-License-2014.txt
 [BSD-3-Clause-No-Nuclear-Warranty]: text/BSD-3-Clause-No-Nuclear-Warranty.txt
 [BSD-3-Clause-Open-MPI]: text/BSD-3-Clause-Open-MPI.txt
+[BSD-3-Clause-OpenWebUI]: text/BSD-3-Clause-OpenWebUI.txt
 [BSD-3-Clause-Sun]: text/BSD-3-Clause-Sun.txt
 [BSD-3-Clause-Tso]: text/BSD-3-Clause-Tso.txt
 [BSD-4-Clause]: text/BSD-4-Clause.txt
@@ -1180,6 +1183,7 @@ The following licenses have been generated from the license list version b885de7
 [hdparm]: text/hdparm.txt
 [HIDAPI]: text/HIDAPI.txt
 [Hippocratic-2.1]: text/Hippocratic-2.1.txt
+[Hippocratic-3.0-core]: text/Hippocratic-3.0-core.txt
 [HP-1986]: text/HP-1986.txt
 [HP-1989]: text/HP-1989.txt
 [HPND]: text/HPND.txt
