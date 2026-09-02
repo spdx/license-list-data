@@ -1,7 +1,28 @@
 {
     "@graph": [
         {
-            "@id": "_:77bc4387-3ac5-4a97-8f2f-52536667f064",
+            "@id": "http://spdx.org/licenses/FSFULLRSD",
+            "rdfs:comment": "This is the same as FSFULLR but adds a short disclaimer of warranties.",
+            "spdx:name": "FSF Unlimited License (with License Retention and Short Disclaimer)",
+            "spdx:licenseText": "This file is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\nThis file is offered as-is, without any warranty.\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:standardLicenseTemplate": "This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. This file is offered as-is, without any warranty.\n\n",
+            "spdx:licenseTextHtml": "\n         <p>\n            This file is free software; the Free Software Foundation\n            gives unlimited permission to copy and/or distribute it,\n            with or without modifications, as long as this notice is preserved.\n            This file is offered as-is, without any warranty.\n         </p>\n\n      ",
+            "spdx:crossRef": {
+                "@id": "_:dfb7f017-e23f-40c0-bdfa-5f2b54a65358"
+            },
+            "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
+            "@type": "spdx:ListedLicense",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        },
+        {
+            "@id": "_:dfb7f017-e23f-40c0-bdfa-5f2b54a65358",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -11,38 +32,17 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
-            "spdx:timestamp": "2026-08-27T16:58:13Z",
+            "spdx:timestamp": "2026-09-02T08:07:33Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/FSFULLRSD",
-            "rdfs:comment": "This is the same as FSFULLR but adds a short disclaimer of warranties.",
-            "spdx:name": "FSF Unlimited License (with License Retention and Short Disclaimer)",
-            "spdx:licenseText": "This file is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\nThis file is offered as-is, without any warranty.\n",
-            "spdx:crossRef": {
-                "@id": "_:77bc4387-3ac5-4a97-8f2f-52536667f064"
-            },
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:standardLicenseTemplate": "This file is free software; the Free Software Foundation gives unlimited permission to copy and/or distribute it, with or without modifications, as long as this notice is preserved. This file is offered as-is, without any warranty.\n\n",
-            "spdx:licenseTextHtml": "\n         <p>\n            This file is free software; the Free Software Foundation\n            gives unlimited permission to copy and/or distribute it,\n            with or without modifications, as long as this notice is preserved.\n            This file is offered as-is, without any warranty.\n         </p>\n\n      ",
-            "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
-            "@type": "spdx:ListedLicense",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
         }
     ],
     "@context": {
