@@ -1,53 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:0feb0880-ea62-4f2a-94dc-fcc06d616376",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
-            "spdx:timestamp": "2026-08-27T16:56:10Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:cf11873e-d83c-4a8d-a7ee-6b8b9f1fcd88",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
-            "spdx:timestamp": "2026-08-27T16:56:11Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:dad94af6-c5dc-4586-9795-20d14cb622c7",
+            "@id": "_:6e69b9e3-5e80-4438-855e-d078a0f68b8b",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
-            "spdx:timestamp": "2026-08-27T16:56:12Z",
+            "spdx:timestamp": "2026-09-02T08:06:57Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,22 +24,68 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:9ef4037f-0fb7-4302-8fe3-46700b56bd5c",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
+            "spdx:timestamp": "2026-09-02T08:06:58Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:a364f92d-2fdb-447d-9f5e-45607dba9484",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
+            "spdx:timestamp": "2026-09-02T08:06:56Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Cornell-Lossless-JPEG",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:a364f92d-2fdb-447d-9f5e-45607dba9484"
+                },
+                {
+                    "@id": "_:6e69b9e3-5e80-4438-855e-d078a0f68b8b"
+                },
+                {
+                    "@id": "_:9ef4037f-0fb7-4302-8fe3-46700b56bd5c"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
                 "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
                 "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:0feb0880-ea62-4f2a-94dc-fcc06d616376"
-                },
-                {
-                    "@id": "_:dad94af6-c5dc-4586-9795-20d14cb622c7"
-                },
-                {
-                    "@id": "_:cf11873e-d83c-4a8d-a7ee-6b8b9f1fcd88"
-                }
             ],
             "spdx:isOsiApproved": {
                 "@value": "false",

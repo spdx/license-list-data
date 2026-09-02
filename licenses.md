@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 24b4ed8
+The following licenses have been generated from the license list version b885de7
 
 ## Licenses with Short Identifiers
 
@@ -225,7 +225,7 @@ The following licenses have been generated from the license list version 24b4ed8
 | CrystalStacker License                                                                    | [CrystalStacker][]                       |      |           |
 | CUA Office Public License v1.0                                                            | [CUA-OPL-1.0][]                          | Y    |           |
 | Cube License                                                                              | [Cube][]                                 |      |           |
-| curl License                                                                              | [curl][]                                 |      |           |
+| curl License                                                                              | [curl][]                                 | Y    |           |
 | Common Vulnerability Enumeration ToU License                                              | [cve-tou][]                              |      |           |
 | Deutsche Freie Software Lizenz                                                            | [D-FSL-1.0][]                            |      |           |
 | DEC 3-Clause License                                                                      | [DEC-3-Clause][]                         |      |           |
