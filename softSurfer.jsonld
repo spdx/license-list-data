@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:57d21dd8-f7a2-4541-9902-d22b1216ba1d",
+            "@id": "_:14309517-2c3d-4f2f-91a8-ee487a151f9f",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing/softSurfer",
-            "spdx:timestamp": "2026-09-02T08:12:31Z",
+            "spdx:timestamp": "2026-09-02T22:28:36Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,36 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:ef52ecc2-8c3a-40e1-a5b3-62ee5dfd4180",
+            "@id": "http://spdx.org/licenses/softSurfer",
+            "spdx:licenseText": "Copyright 2001, softSurfer (www.softsurfer.com)\nThis code may be freely used and modified for any purpose                                                                                                                                \nproviding that this copyright notice is included with it.\nSoftSurfer makes no warranty for this code, and cannot be held\nliable for any real or imagined damage resulting from its use.\nUsers of this code must verify correctness for their application.\n",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "@type": "spdx:ListedLicense",
+            "spdx:name": "softSurfer License",
+            "spdx:standardLicenseTemplate": "Copyright 2001, softSurfer (www.softsurfer.com)\n\nThis code may be freely used and modified for any purpose providing that this copyright notice is included with it. SoftSurfer makes no warranty for this code, and cannot be held liable for any real or imagined damage resulting from its use. Users of this code must verify correctness for their application.\n\n",
+            "rdfs:seeAlso": [
+                "https://github.com/mm2/Little-CMS/blob/master/src/cmssm.c#L207",
+                "https://fedoraproject.org/wiki/Licensing/softSurfer"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:d13c3029-8657-482d-973e-062925fbe358"
+                },
+                {
+                    "@id": "_:14309517-2c3d-4f2f-91a8-ee487a151f9f"
+                }
+            ],
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n         <p>\n            Copyright 2001, softSurfer (www.softsurfer.com)\n         </p>\n\n         <p>\n            This code may be freely used and modified for any purpose\n            providing that this copyright notice is included with it.\n            SoftSurfer makes no warranty for this code, and cannot be held\n            liable for any real or imagined damage resulting from its use.\n            Users of this code must verify correctness for their application.\n         </p>\n\n      ",
+            "rdfs:comment": ""
+        },
+        {
+            "@id": "_:d13c3029-8657-482d-973e-062925fbe358",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,42 +67,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/mm2/Little-CMS/blob/master/src/cmssm.c#L207",
-            "spdx:timestamp": "2026-09-02T08:12:32Z",
+            "spdx:timestamp": "2026-09-02T22:28:37Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/softSurfer",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:57d21dd8-f7a2-4541-9902-d22b1216ba1d"
-                },
-                {
-                    "@id": "_:ef52ecc2-8c3a-40e1-a5b3-62ee5dfd4180"
-                }
-            ],
-            "spdx:licenseText": "Copyright 2001, softSurfer (www.softsurfer.com)\nThis code may be freely used and modified for any purpose                                                                                                                                \nproviding that this copyright notice is included with it.\nSoftSurfer makes no warranty for this code, and cannot be held\nliable for any real or imagined damage resulting from its use.\nUsers of this code must verify correctness for their application.\n",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "@type": "spdx:ListedLicense",
-            "spdx:name": "softSurfer License",
-            "spdx:standardLicenseTemplate": "Copyright 2001, softSurfer (www.softsurfer.com)\n\nThis code may be freely used and modified for any purpose providing that this copyright notice is included with it. SoftSurfer makes no warranty for this code, and cannot be held liable for any real or imagined damage resulting from its use. Users of this code must verify correctness for their application.\n\n",
-            "rdfs:seeAlso": [
-                "https://github.com/mm2/Little-CMS/blob/master/src/cmssm.c#L207",
-                "https://fedoraproject.org/wiki/Licensing/softSurfer"
-            ],
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n         <p>\n            Copyright 2001, softSurfer (www.softsurfer.com)\n         </p>\n\n         <p>\n            This code may be freely used and modified for any purpose\n            providing that this copyright notice is included with it.\n            SoftSurfer makes no warranty for this code, and cannot be held\n            liable for any real or imagined damage resulting from its use.\n            Users of this code must verify correctness for their application.\n         </p>\n\n      ",
-            "rdfs:comment": ""
         }
     ],
     "@context": {
