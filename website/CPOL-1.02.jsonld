@@ -1,7 +1,33 @@
 {
     "@graph": [
         {
+            "@id": "_:d1a10d33-8a0e-4885-9b68-63752d188343",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.codeproject.com/info/cpol10.aspx",
+            "spdx:timestamp": "2026-09-03T16:00:07Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/CPOL-1.02",
+            "spdx:crossRef": {
+                "@id": "_:d1a10d33-8a0e-4885-9b68-63752d188343"
+            },
             "spdx:isFsfLibre": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -18,34 +44,8 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": {
-                "@id": "_:ea60af7c-1122-4092-8b27-0b39eb03b049"
-            },
             "spdx:name": "Code Project Open License 1.02",
             "@type": "spdx:ListedLicense"
-        },
-        {
-            "@id": "_:ea60af7c-1122-4092-8b27-0b39eb03b049",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.codeproject.com/info/cpol10.aspx",
-            "spdx:timestamp": "2026-09-02T22:30:12Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

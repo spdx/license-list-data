@@ -1,8 +1,34 @@
 {
     "@graph": [
         {
+            "@id": "_:6d76248a-e6fd-4cae-979f-afdb3623d40c",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
+            "spdx:timestamp": "2026-09-03T16:00:37Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/FSFULLRSD",
             "rdfs:comment": "This is the same as FSFULLR but adds a short disclaimer of warranties.",
+            "spdx:crossRef": {
+                "@id": "_:6d76248a-e6fd-4cae-979f-afdb3623d40c"
+            },
             "spdx:name": "FSF Unlimited License (with License Retention and Short Disclaimer)",
             "spdx:licenseText": "This file is free software; the Free Software Foundation\ngives unlimited permission to copy and/or distribute it,\nwith or without modifications, as long as this notice is preserved.\nThis file is offered as-is, without any warranty.\n",
             "spdx:isOsiApproved": {
@@ -13,36 +39,10 @@
             "spdx:licenseTextHtml": "\n         <p>\n            This file is free software; the Free Software Foundation\n            gives unlimited permission to copy and/or distribute it,\n            with or without modifications, as long as this notice is preserved.\n            This file is offered as-is, without any warranty.\n         </p>\n\n      ",
             "rdfs:seeAlso": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": {
-                "@id": "_:2a49c08e-c099-4a36-b626-ddcae70c43c9"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             }
-        },
-        {
-            "@id": "_:2a49c08e-c099-4a36-b626-ddcae70c43c9",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://git.savannah.gnu.org/cgit/gnulib.git/tree/modules/COPYING?id=7b08932179d0d6b017f7df01a2ddf6e096b038e3",
-            "spdx:timestamp": "2026-09-02T22:23:36Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

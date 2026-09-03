@@ -1,53 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:d3cbc1fe-2cbe-422e-aa1b-2bf166959415",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.iec.ch/CCv1",
-            "spdx:timestamp": "2026-09-02T22:32:12Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:7d42db5b-e59f-4c46-9a7f-42fcdab0e489",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.iec.ch/copyright",
-            "spdx:timestamp": "2026-09-02T22:32:12Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:7604c3cd-7ae8-4865-8f33-d0165f88f14c",
+            "@id": "_:dc4fd10a-c664-41a7-bc43-7aa4dfe0d7a6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.iec.ch/webstore/custserv/pdf/CC-EULA.pdf",
-            "spdx:timestamp": "2026-09-02T22:32:12Z",
+            "spdx:timestamp": "2026-09-03T15:58:59Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,25 +24,71 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:ca8f1d8b-52cd-4662-a5d0-dfd61eb57819",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.iec.ch/copyright",
+            "spdx:timestamp": "2026-09-03T15:58:59Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:a25eb5ac-ac02-49a1-bf1d-9ecbd17d107b",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.iec.ch/CCv1",
+            "spdx:timestamp": "2026-09-03T15:58:59Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/IEC-Code-Components-EULA",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d3cbc1fe-2cbe-422e-aa1b-2bf166959415"
-                },
-                {
-                    "@id": "_:7604c3cd-7ae8-4865-8f33-d0165f88f14c"
-                },
-                {
-                    "@id": "_:7d42db5b-e59f-4c46-9a7f-42fcdab0e489"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://www.iec.ch/webstore/custserv/pdf/CC-EULA.pdf",
                 "https://www.iec.ch/CCv1",
                 "https://www.iec.ch/copyright"
             ],
             "spdx:name": "IEC    Code Components End-user licence agreement",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:dc4fd10a-c664-41a7-bc43-7aa4dfe0d7a6"
+                },
+                {
+                    "@id": "_:a25eb5ac-ac02-49a1-bf1d-9ecbd17d107b"
+                },
+                {
+                    "@id": "_:ca8f1d8b-52cd-4662-a5d0-dfd61eb57819"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
