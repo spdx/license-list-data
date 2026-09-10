@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:5e75b95b-8bc5-406d-9255-d09190a6aced",
+            "@id": "_:d818b0b9-01b6-44a5-a91a-e51aea2ef1ca",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.ietf.org/rfc/rfc1952.txt",
+            "spdx:timestamp": "2026-09-10T08:22:03Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:173520d4-5579-406d-9fda-9b8f7a19e8af",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
-            "spdx:timestamp": "2026-09-03T15:59:01Z",
+            "spdx:timestamp": "2026-09-10T08:22:04Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -35,44 +58,21 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense",
+            "spdx:name": "LPD Documentation License",
             "spdx:crossRef": [
                 {
-                    "@id": "_:8087fbd9-86fa-4ce8-91da-19275f793db1"
+                    "@id": "_:d818b0b9-01b6-44a5-a91a-e51aea2ef1ca"
                 },
                 {
-                    "@id": "_:5e75b95b-8bc5-406d-9255-d09190a6aced"
+                    "@id": "_:173520d4-5579-406d-9fda-9b8f7a19e8af"
                 }
             ],
-            "spdx:name": "LPD Documentation License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) Yann Collet  \";match=\".{0,5000}\">>\nPermission is granted to copy and distribute this document for any purpose and without charge, including translations into other languages and incorporation into compilations, provided that the copyright notice and this notice are preserved, and that any substantive changes or deletions from the original are clearly marked.<<beginOptional>> Distribution of this document is unlimited.<<endOptional>>\n\n",
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseText": "Copyright (c) 1996 L. Peter Deutsch\n\nPermission is granted to copy and distribute this\ndocument for any purpose and without charge, including\ntranslations into other languages and incorporation\ninto compilations, provided that the copyright notice\nand this notice are preserved, and that any substantive\nchanges or deletions from the original are clearly marked.\n"
-        },
-        {
-            "@id": "_:8087fbd9-86fa-4ce8-91da-19275f793db1",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.ietf.org/rfc/rfc1952.txt",
-            "spdx:timestamp": "2026-09-03T15:59:02Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

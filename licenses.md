@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 01b8052
+The following licenses have been generated from the license list version 8eb0d63
 
 ## Licenses with Short Identifiers
 
@@ -210,7 +210,7 @@ The following licenses have been generated from the license list version 01b8052
 | CMU    Mach - no notices-in-documentation variant                                         | [CMU-Mach-nodoc][]                       |      |           |
 | CNRI Jython License                                                                       | [CNRI-Jython][]                          |      |           |
 | CNRI Python License                                                                       | [CNRI-Python][]                          | Y    |           |
-| CNRI Python Open Source GPL Compatible License Agreement                                  | [CNRI-Python-GPL-Compatible][]           |      |           |
+| CNRI Python Open Source GPL Compatible License Agreement                                  | [CNRI-Python-GPL-Compatible][]           | Y    |           |
 | Copyfree Open Innovation License                                                          | [COIL-1.0][]                             |      |           |
 | Community Specification License 1.0                                                       | [Community-Spec-1.0][]                   |      |           |
 | Condor Public License v1.1                                                                | [Condor-1.1][]                           |      | Y         |
@@ -575,7 +575,7 @@ The following licenses have been generated from the license list version 01b8052
 | psfrag License                                                                            | [psfrag][]                               |      |           |
 | psutils License                                                                           | [psutils][]                              |      |           |
 | Python License 2.0                                                                        | [Python-2.0][]                           | Y    | Y         |
-| Python License 2.0.1                                                                      | [Python-2.0.1][]                         |      |           |
+| Python License 2.0.1                                                                      | [Python-2.0.1][]                         | Y    |           |
 | Python ldap License                                                                       | [python-ldap][]                          |      |           |
 | Qhull License                                                                             | [Qhull][]                                |      |           |
 | Q Public License 1.0                                                                      | [QPL-1.0][]                              | Y    | Y         |
