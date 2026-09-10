@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:96b5ed37-54f9-4716-9bb0-540183eb84e6",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.com/agmartin/linuxdoc-tools/-/blob/master/iso-entities/COPYING?ref_type=heads",
-            "spdx:timestamp": "2026-09-10T08:18:20Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:2493859c-bf1f-47ef-b616-5ccbb4e71e02",
+            "@id": "_:c1ee4f63-f36f-4735-9edb-17d0eb1b327e",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.itu.int/ITU-T/formal-language/itu-t/t/t173/1997/ISOMHEG-sir.html",
-            "spdx:timestamp": "2026-09-10T08:18:21Z",
+            "spdx:timestamp": "2026-09-10T08:35:16Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,20 +24,43 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:3910d540-7112-4895-9352-8a501af0763e",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.com/agmartin/linuxdoc-tools/-/blob/master/iso-entities/COPYING?ref_type=heads",
+            "spdx:timestamp": "2026-09-10T08:35:15Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/ISO-permission",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:96b5ed37-54f9-4716-9bb0-540183eb84e6"
-                },
-                {
-                    "@id": "_:2493859c-bf1f-47ef-b616-5ccbb4e71e02"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"(C) International Organization for Standardization 1986\";match=\".{0,5000}\">>\nPermission to copy in any form is granted for use with conforming <<var;name=\"name\";original=\"SGML systems\";match=\"SGML systems|to MHEG-3 engines\">> and applications as defined <<var;name=\"defined\";original=\"in ISO 8879,\";match=\"in ISO 8879,|by this Recommendation\">> provided this notice is included in all copies.\n\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:3910d540-7112-4895-9352-8a501af0763e"
+                },
+                {
+                    "@id": "_:c1ee4f63-f36f-4735-9edb-17d0eb1b327e"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://gitlab.com/agmartin/linuxdoc-tools/-/blob/master/iso-entities/COPYING?ref_type=heads",
                 "https://www.itu.int/ITU-T/formal-language/itu-t/t/t173/1997/ISOMHEG-sir.html"

@@ -1,39 +1,8 @@
 {
     "@graph": [
         {
-            "@id": "_:832cbb02-ab2f-4366-9ee5-ccfff7aedd94",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/",
-            "spdx:timestamp": "2026-09-10T08:20:27Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/LZMA-SDK-9.11-to-9.20",
             "spdx:licenseText": "LICENSE\n-------\n\nLZMA SDK is written and placed in the public domain by Igor Pavlov.\n\nSome code in LZMA is based on public domain code from another developers:\n  1) PPMd var.H (2001): Dmitry Shkarin\n  2) SHA-256: Wei Dai (Crypto++ library)\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:832cbb02-ab2f-4366-9ee5-ccfff7aedd94"
-                },
-                {
-                    "@id": "_:ec56f558-a79e-48ac-8c1e-2aef152ea74f"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -49,11 +18,19 @@
                 "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/",
                 "https://www.7-zip.org/sdk.html"
             ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:dfc26242-322e-40ca-882e-54ab9f04dcd7"
+                },
+                {
+                    "@id": "_:13aa4cc6-d0c5-4971-a9ef-0073df8ae459"
+                }
+            ],
             "spdx:name": "LZMA SDK License (versions 9.11 to 9.20)",
             "spdx:standardLicenseTemplate": "<<beginOptional>>LICENSE\n\n-------\n\n<<endOptional>>\nLZMA SDK is written and placed in the public domain by Igor Pavlov.\n\nSome code in LZMA is based on public domain code from another developers: 1) PPMd var.H (2001): Dmitry Shkarin 2) SHA-256: Wei Dai (Crypto++ library)\n\n"
         },
         {
-            "@id": "_:ec56f558-a79e-48ac-8c1e-2aef152ea74f",
+            "@id": "_:dfc26242-322e-40ca-882e-54ab9f04dcd7",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -67,12 +44,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.7-zip.org/sdk.html",
-            "spdx:timestamp": "2026-09-10T08:20:28Z",
+            "spdx:timestamp": "2026-09-10T08:37:25Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:13aa4cc6-d0c5-4971-a9ef-0073df8ae459",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://sourceforge.net/projects/sevenzip/files/LZMA%20SDK/",
+            "spdx:timestamp": "2026-09-10T08:37:24Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],
