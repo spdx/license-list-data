@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:645363d8-5865-47e1-bd65-974007518994",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.ietf.org/rfc/rfc1952.txt",
-            "spdx:timestamp": "2026-09-16T16:24:22Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:11d36780-cafb-4892-afe2-6708e40adada",
+            "@id": "_:c6c14b6d-2a1e-4e80-8881-eee76028d4cc",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
-            "spdx:timestamp": "2026-09-16T16:24:22Z",
+            "spdx:timestamp": "2026-09-16T17:02:57Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,14 +25,6 @@
         },
         {
             "@id": "http://spdx.org/licenses/LPD-document",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:645363d8-5865-47e1-bd65-974007518994"
-                },
-                {
-                    "@id": "_:11d36780-cafb-4892-afe2-6708e40adada"
-                }
-            ],
             "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>\n            Copyright (c) Yann Collet\n         </p>\n\n         </span></div>\n         <p>\n            Permission is granted to copy and distribute this document for\n            any purpose and without charge, including translations into\n            other languages and incorporation into compilations, provided\n            that the copyright notice and this notice are preserved, and\n            that any substantive changes or deletions from the original\n            are clearly marked.<var class=\"optional-license-text\">  Distribution\n            of this document is unlimited.</var>\n         </p>\n\n      ",
             "rdfs:seeAlso": [
                 "https://github.com/Cyan4973/xxHash/blob/dev/doc/xxhash_spec.md",
@@ -65,6 +34,14 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:170b5ded-2643-4d29-8a10-ef80b862700b"
+                },
+                {
+                    "@id": "_:c6c14b6d-2a1e-4e80-8881-eee76028d4cc"
+                }
+            ],
             "@type": "spdx:ListedLicense",
             "spdx:name": "LPD Documentation License",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) Yann Collet  \";match=\".{0,5000}\">>\nPermission is granted to copy and distribute this document for any purpose and without charge, including translations into other languages and incorporation into compilations, provided that the copyright notice and this notice are preserved, and that any substantive changes or deletions from the original are clearly marked.<<beginOptional>> Distribution of this document is unlimited.<<endOptional>>\n\n",
@@ -73,6 +50,29 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseText": "Copyright (c) 1996 L. Peter Deutsch\n\nPermission is granted to copy and distribute this\ndocument for any purpose and without charge, including\ntranslations into other languages and incorporation\ninto compilations, provided that the copyright notice\nand this notice are preserved, and that any substantive\nchanges or deletions from the original are clearly marked.\n"
+        },
+        {
+            "@id": "_:170b5ded-2643-4d29-8a10-ef80b862700b",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.ietf.org/rfc/rfc1952.txt",
+            "spdx:timestamp": "2026-09-16T17:02:57Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {
