@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:7a3800f2-f25e-46ec-9cec-296dac21288c",
+            "@id": "_:f3c4661b-6446-4808-bb7b-e24b9a3ad257",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L153-162",
+            "spdx:timestamp": "2026-09-16T15:23:49Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:d13742ba-6d88-41a9-9265-0b1c197b9bf3",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/xorg/lib/libxtst/-/blob/master/COPYING?ref_type=heads#L108-117",
-            "spdx:timestamp": "2026-09-10T08:43:15Z",
+            "spdx:timestamp": "2026-09-16T15:23:49Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -28,14 +51,6 @@
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <year> <copyright holder>  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, distribute, and sell this documentation for any purpose is hereby granted without fee, provided that the above copyright notice and this permission notice appear in all copies. <<var;name=\"copyrightHolder1\";original=\"<copyright holder>\";match=\".*\">> makes no representations about the suitability for any purpose of the information in this document. This documentation is provided \"as is\" without express or implied warranty.\n\n",
             "spdx:licenseText": "Copyright <year> <copyright holder>\n\nPermission to use, copy, modify, distribute, and sell this\ndocumentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice and this permission\nnotice appear in all copies. <copyright holder>\nmakes no representations about the suitability for any purpose\nof the information in this document. This documentation\nis provided \"as is\" without express or implied warranty.\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:7a3800f2-f25e-46ec-9cec-296dac21288c"
-                },
-                {
-                    "@id": "_:f0fd593f-db6a-4414-a73d-cab5aa4910ea"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -50,30 +65,15 @@
             ],
             "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            <p>\n               Copyright &lt;year&gt; &lt;copyright holder&gt;\n            </p>\n\n         </span></div>\n         <p>\n            Permission to use, copy, modify, distribute, and sell\n            this documentation for any purpose is hereby granted\n            without fee, provided that the above copyright notice\n            and this permission notice appear in all copies.\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .*\"> &lt;copyright holder&gt;</span></var>\n            makes no representations about the suitability for any purpose\n            of the information in this document. This documentation\n            is provided &quot;as is&quot; without express or implied warranty.\n         </p>\n\n      ",
             "spdx:name": "Historical Permission Notice and Disclaimer - documentation sell variant",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:d13742ba-6d88-41a9-9265-0b1c197b9bf3"
+                },
+                {
+                    "@id": "_:f3c4661b-6446-4808-bb7b-e24b9a3ad257"
+                }
+            ],
             "rdfs:comment": "This is very similar to HPND-sell-variant but it is for documentation and alters the notice obligation."
-        },
-        {
-            "@id": "_:f0fd593f-db6a-4414-a73d-cab5aa4910ea",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/xorg/lib/libxext/-/blob/master/COPYING?ref_type=heads#L153-162",
-            "spdx:timestamp": "2026-09-10T08:43:14Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

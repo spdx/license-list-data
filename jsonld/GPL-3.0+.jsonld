@@ -1,6 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "_:dd84d6d4-d6e3-4754-b69a-02a760286200",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/license/GPL-3.0",
+            "spdx:timestamp": "2026-09-16T15:24:49Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/GPL-3.0+",
             "spdx:standardLicenseHeaderHtml": "\n         <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> &lt;one line to give the program&apos;s name and a brief idea of what it does.&gt;</span></var><br />\n\n         Copyright (C) <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .+\"> &lt;year&gt; &lt;name of author&gt;</span></var></p>\n\n         <p>This program is free software: you can redistribute it and/or modify it under the terms of the GNU\n         General Public License as published by the Free Software Foundation, either version 3 of the License,\n         or (at your option) any later version.</p>\n\n         <p>This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even\n         the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General\n         Public License for more details.</p>\n\n         <p>You should have received a copy of the GNU General Public License along with this program. If not, see\n         &lt;https://www.gnu.org/licenses/&gt;.</p>\n\n         ",
             "spdx:standardLicenseHeaderTemplate": "<<var;name=\"description\";original=\"<one line to give the program's name and a brief idea of what it does.>\";match=\".+\">>\nCopyright (C) <<var;name=\"copyright\";original=\"<year> <name of author>\";match=\".+\">>\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\n\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.\n\nYou should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.\n\n",
@@ -20,47 +43,24 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:318772ad-5680-46e5-a86d-6cce848659f5"
+                },
+                {
+                    "@id": "_:dd84d6d4-d6e3-4754-b69a-02a760286200"
+                }
+            ],
             "spdx:deprecatedVersion": "2.0rc2",
             "@type": "spdx:ListedLicense",
             "spdx:name": "GNU General Public License v3.0 or later",
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:8fd6aebe-a973-4b91-a533-4f41769521e7"
-                },
-                {
-                    "@id": "_:d89bcff6-6bf4-4703-b90b-928d560656c2"
-                }
-            ]
+            }
         },
         {
-            "@id": "_:8fd6aebe-a973-4b91-a533-4f41769521e7",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/license/GPL-3.0",
-            "spdx:timestamp": "2026-09-10T08:43:44Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:d89bcff6-6bf4-4703-b90b-928d560656c2",
+            "@id": "_:318772ad-5680-46e5-a86d-6cce848659f5",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -74,7 +74,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.gnu.org/licenses/gpl-3.0-standalone.html",
-            "spdx:timestamp": "2026-09-10T08:44:14Z",
+            "spdx:timestamp": "2026-09-16T15:24:49Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

@@ -1,9 +1,32 @@
 {
     "@graph": [
         {
+            "@id": "_:1d53c6a6-f2ab-460a-80b8-cb804a472c82",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11",
+            "spdx:timestamp": "2026-09-16T15:23:44Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/MIPS",
             "spdx:crossRef": {
-                "@id": "_:2717c091-952f-40ca-aac6-9170ffb9714e"
+                "@id": "_:1d53c6a6-f2ab-460a-80b8-cb804a472c82"
             },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -20,29 +43,6 @@
             "@type": "spdx:ListedLicense",
             "spdx:name": "MIPS License",
             "spdx:licenseTextHtml": "\n         <p>\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n            Copyright (c) 1992, 1991, 1990 MIPS Computer Systems, Inc.\n            </span></var>\n            MIPS Computer Systems, Inc. grants reproduction and use\n            rights to all parties, PROVIDED that this comment is\n            maintained in the copy.\n         </p>\n\n      "
-        },
-        {
-            "@id": "_:2717c091-952f-40ca-aac6-9170ffb9714e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://sourceware.org/cgit/binutils-gdb/tree/include/coff/sym.h#n11",
-            "spdx:timestamp": "2026-09-10T08:42:55Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

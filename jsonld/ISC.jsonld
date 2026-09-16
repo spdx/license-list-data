@@ -1,7 +1,41 @@
 {
     "@graph": [
         {
+            "@id": "_:67449f2a-8a2d-4007-acf0-6fe178f59cdd",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.isc.org/downloads/software-support-policy/isc-license/",
+            "spdx:timestamp": "2026-09-16T15:21:33Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/ISC",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:67449f2a-8a2d-4007-acf0-6fe178f59cdd"
+                },
+                {
+                    "@id": "_:7aa70997-7396-48df-ae21-988e0e632357"
+                },
+                {
+                    "@id": "_:afd7f94d-2453-4fc2-9bc6-3386c681ef1a"
+                }
+            ],
             "spdx:licenseText": "ISC License\n\nCopyright <year> <owner> \n\nPermission to use, copy, modify, and/or distribute this software for any purpose with or without fee is hereby granted, provided that the above copyright notice and this permission notice appear in all copies.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.\n",
             "spdx:isFsfLibre": {
                 "@value": "true",
@@ -12,17 +46,6 @@
                 "https://www.isc.org/downloads/software-support-policy/isc-license/",
                 "https://www.isc.org/licenses/",
                 "https://opensource.org/license/ISC"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:c9a8de7d-939b-453a-a6ad-3ee1bc874034"
-                },
-                {
-                    "@id": "_:5ab108c5-f3eb-4e81-835d-dd17441e965b"
-                },
-                {
-                    "@id": "_:9020a6cf-03c1-473c-946d-152b97af2976"
-                }
             ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -38,30 +61,7 @@
             "spdx:name": "ISC License"
         },
         {
-            "@id": "_:c9a8de7d-939b-453a-a6ad-3ee1bc874034",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.isc.org/licenses/",
-            "spdx:timestamp": "2026-09-10T08:40:47Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:5ab108c5-f3eb-4e81-835d-dd17441e965b",
+            "@id": "_:7aa70997-7396-48df-ae21-988e0e632357",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -75,7 +75,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/ISC",
-            "spdx:timestamp": "2026-09-10T08:40:46Z",
+            "spdx:timestamp": "2026-09-16T15:21:32Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -84,7 +84,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:9020a6cf-03c1-473c-946d-152b97af2976",
+            "@id": "_:afd7f94d-2453-4fc2-9bc6-3386c681ef1a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -97,10 +97,10 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://www.isc.org/downloads/software-support-policy/isc-license/",
-            "spdx:timestamp": "2026-09-10T08:40:46Z",
+            "spdx:url": "https://www.isc.org/licenses/",
+            "spdx:timestamp": "2026-09-16T15:21:33Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",

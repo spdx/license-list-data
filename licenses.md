@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 1dd5767
+The following licenses have been generated from the license list version 6cb3628
 
 ## Licenses with Short Identifiers
 
@@ -110,6 +110,7 @@ The following licenses have been generated from the license list version 1dd5767
 | BSD-Inferno-Nettverk                                                                      | [BSD-Inferno-Nettverk][]                 |      |           |
 | BSD Mark Modifications License                                                            | [BSD-Mark-Modifications][]               |      |           |
 | BSD Protection License                                                                    | [BSD-Protection][]                       |      |           |
+| BSD Source Code Attribution - GPL alternative                                             | [BSD-Source-alt-GPL][]                   |      |           |
 | BSD Source Code Attribution - beginning of file variant                                   | [BSD-Source-beginning-file][]            |      |           |
 | BSD Source Code Attribution                                                               | [BSD-Source-Code][]                      |      |           |
 | BSD Source Code Attribution - no disclaimer                                               | [BSD-Source-Code-no-disclaimer][]        |      |           |
@@ -949,6 +950,7 @@ The following licenses have been generated from the license list version 1dd5767
 [BSD-Inferno-Nettverk]: text/BSD-Inferno-Nettverk.txt
 [BSD-Mark-Modifications]: text/BSD-Mark-Modifications.txt
 [BSD-Protection]: text/BSD-Protection.txt
+[BSD-Source-alt-GPL]: text/BSD-Source-alt-GPL.txt
 [BSD-Source-beginning-file]: text/BSD-Source-beginning-file.txt
 [BSD-Source-Code]: text/BSD-Source-Code.txt
 [BSD-Source-Code-no-disclaimer]: text/BSD-Source-Code-no-disclaimer.txt
