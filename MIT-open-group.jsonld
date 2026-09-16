@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:bc6d7ce1-054b-4246-aaed-88738504ba01",
+            "@id": "_:b3fb2c88-30cc-41a1-afd7-792bb70c6e20",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T15:40:47Z",
+            "spdx:timestamp": "2026-09-16T16:08:56Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:39d3b12e-2f32-47c5-8cc7-6b65ca84d51f",
+            "@id": "_:41ed5c39-e831-4467-b7cc-543b6be6be75",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T15:40:46Z",
+            "spdx:timestamp": "2026-09-16T16:08:55Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +47,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:ba192351-c9a3-4ca4-b64a-9dc06071b663",
+            "@id": "_:f8fa9892-b2d9-4324-ae1e-5ec23b269050",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +61,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T15:40:48Z",
+            "spdx:timestamp": "2026-09-16T16:08:56Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -71,22 +71,22 @@
         },
         {
             "@id": "http://spdx.org/licenses/MIT-open-group",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:bc6d7ce1-054b-4246-aaed-88738504ba01"
-                },
-                {
-                    "@id": "_:ba192351-c9a3-4ca4-b64a-9dc06071b663"
-                },
-                {
-                    "@id": "_:39d3b12e-2f32-47c5-8cc7-6b65ca84d51f"
-                }
-            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright <yyyy, yyyy> The Open Group  \";match=\".{0,5000}\">>\nPermission to use, copy, modify, distribute, and sell this software and its documentation for any purpose is hereby granted without fee, provided that the above copyright notice appear in all copies and that both that copyright notice and this permission notice appear in supporting documentation.\n\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL <<var;name=\"name1\";original=\"THE OPEN GROUP\";match=\".*\">> BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of <<var;name=\"name2\";original=\"The Open Group\";match=\".+\">> shall not be used in advertising or otherwise to promote the sale, use or other dealings in this Software without prior written authorization from <<var;name=\"name3\";original=\"The Open Group\";match=\".+\">> .\n\n",
             "rdfs:seeAlso": [
                 "https://gitlab.freedesktop.org/xorg/app/iceauth/-/blob/master/COPYING",
                 "https://gitlab.freedesktop.org/xorg/app/xsetroot/-/blob/master/COPYING",
                 "https://gitlab.freedesktop.org/xorg/app/xauth/-/blob/master/COPYING"
+            ],
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b3fb2c88-30cc-41a1-afd7-792bb70c6e20"
+                },
+                {
+                    "@id": "_:41ed5c39-e831-4467-b7cc-543b6be6be75"
+                },
+                {
+                    "@id": "_:f8fa9892-b2d9-4324-ae1e-5ec23b269050"
+                }
             ],
             "spdx:licenseText": "Copyright <yyyy, yyyy> The Open Group\n\nPermission to use, copy, modify, distribute, and sell this software and\nits documentation for any purpose is hereby granted without fee,\nprovided that the above copyright notice appear in all copies and that\nboth that copyright notice and this permission notice appear in\nsupporting documentation.\n\nThe above copyright notice and this permission notice shall be included\nin all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS\nOR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE OPEN GROUP BE LIABLE FOR ANY CLAIM, DAMAGES OR\nOTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,\nARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR\nOTHER DEALINGS IN THE SOFTWARE.\n\nExcept as contained in this notice, the name of The Open Group\nshall not be used in advertising or otherwise to promote the sale, use\nor other dealings in this Software without prior written authorization\nfrom The Open Group.\n",
             "@type": "spdx:ListedLicense",
