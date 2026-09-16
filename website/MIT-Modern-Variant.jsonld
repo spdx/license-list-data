@@ -2,6 +2,17 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/MIT-Modern-Variant",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:c1284799-5f69-4c12-be4e-4dc3f816e693"
+                },
+                {
+                    "@id": "_:ab0a1bf3-2f33-4935-be42-e6b80b642316"
+                },
+                {
+                    "@id": "_:3a04f636-6b86-4ccb-aceb-12e9012a2042"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -18,46 +29,12 @@
             },
             "@type": "spdx:ListedLicense",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright © 1990-2021 The Regents of the University of California. All rights reserved.  \";match=\".{0,5000}\">>\nPermission is hereby granted, without written agreement and without license or royalty fees, to use, copy, modify, and distribute this software and its documentation for any purpose, provided that the above copyright notice and the following two paragraphs appear in all copies of this software.\n\nIN NO EVENT SHALL <<var;name=\"copyrightHolder0\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF <<var;name=\"copyrightHolder1\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n<<var;name=\"copyrightHolder2\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE PROVIDED HEREUNDER IS ON AN \"AS IS\" BASIS, AND <<var;name=\"copyrightHolder3\";original=\"THE UNIVERSITY OF CALIFORNIA\";match=\".+\">> HAS NO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:124f049e-5868-405d-bbd7-3ae5bde73315"
-                },
-                {
-                    "@id": "_:d0d455e8-cdb5-4ddf-9e3f-e7c2d6d0c95e"
-                },
-                {
-                    "@id": "_:7a29b658-16cc-44b5-bb4b-f38d520a549a"
-                }
-            ],
             "spdx:licenseText": "Permission is hereby granted, without written agreement and without\nlicense or royalty fees, to use, copy, modify, and distribute this\nsoftware and its documentation for any purpose, provided that the\nabove copyright notice and the following two paragraphs appear in\nall copies of this software.\n\nIN NO EVENT SHALL THE COPYRIGHT HOLDER BE LIABLE TO ANY PARTY FOR\nDIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES\nARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN\nIF THE COPYRIGHT HOLDER HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\nDAMAGE.\n\nTHE COPYRIGHT HOLDER SPECIFICALLY DISCLAIMS ANY WARRANTIES, INCLUDING,\nBUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND\nFITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE PROVIDED HEREUNDER IS\nON AN \"AS IS\" BASIS, AND THE COPYRIGHT HOLDER HAS NO OBLIGATION TO\nPROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS, OR MODIFICATIONS.\n",
             "rdfs:comment": "This license is labeled as \"Modern Variant\" based on its corresponding listing on the Fedora licensing wiki page.",
             "spdx:name": "MIT License Modern Variant"
         },
         {
-            "@id": "_:124f049e-5868-405d-bbd7-3ae5bde73315",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html",
-            "spdx:timestamp": "2026-09-16T15:15:56Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:d0d455e8-cdb5-4ddf-9e3f-e7c2d6d0c95e",
+            "@id": "_:c1284799-5f69-4c12-be4e-4dc3f816e693",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -71,7 +48,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://ptolemy.berkeley.edu/copyright.htm",
-            "spdx:timestamp": "2026-09-16T15:15:57Z",
+            "spdx:timestamp": "2026-09-16T15:28:44Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -80,7 +57,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:7a29b658-16cc-44b5-bb4b-f38d520a549a",
+            "@id": "_:ab0a1bf3-2f33-4935-be42-e6b80b642316",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -94,9 +71,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://fedoraproject.org/wiki/Licensing:MIT#Modern_Variants",
-            "spdx:timestamp": "2026-09-16T15:15:56Z",
+            "spdx:timestamp": "2026-09-16T15:28:43Z",
             "spdx:order": {
                 "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:3a04f636-6b86-4ccb-aceb-12e9012a2042",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://pirlwww.lpl.arizona.edu/resources/guide/software/PerlTk/Tixlic.html",
+            "spdx:timestamp": "2026-09-16T15:28:44Z",
+            "spdx:order": {
+                "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
