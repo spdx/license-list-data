@@ -1,75 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:b722b3b8-95c7-42f9-9562-2974db382067",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/xorg/font/alias/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T15:40:14Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:cf2f7abd-2866-4967-ade6-09a2ad21a614",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T15:40:12Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:f4257b83-93c4-499d-9760-4d7ea1ae8551",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/xorg/font/screen-cyrillic/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T15:40:11Z",
-            "spdx:order": {
-                "@value": "3",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/Cronyx",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -82,23 +13,23 @@
                 "https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/-/blob/master/COPYING"
             ],
             "spdx:name": "Cronyx License",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:f4257b83-93c4-499d-9760-4d7ea1ae8551"
-                },
-                {
-                    "@id": "_:a5b3931f-5e3f-4d2b-8309-4c98332ced84"
-                },
-                {
-                    "@id": "_:cf2f7abd-2866-4967-ade6-09a2ad21a614"
-                },
-                {
-                    "@id": "_:b722b3b8-95c7-42f9-9562-2974db382067"
-                }
-            ],
             "spdx:licenseTextHtml": "\n         <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n           <p>\n           This package contains a set of Russian fonts for X11 Release 6.\n           Copyright (C) 1994-1995 Cronyx Ltd.\n           Changes Copyright (C) 1996 by Sergey Vovk\n           Changes Copyright (C) 1999-2000 by Serge Winitzki\n           Changes Copyright (C) 1996-2000 by Andrey A. Chernov, Moscow, Russia.\n           </p>\n\n         </span></div>\n         <p>\n            This software may be used, modified, copied, distributed<var class=\"optional-license-text\"> ,</var> and sold,\n            in both source and binary form provided that the <var class=\"optional-license-text\"> above </var>copyright and these\n            terms are retained. Under no circumstances is the author responsible\n            for the proper functioning of this software, nor does the author\n            assume any responsibility for damages incurred with its use.\n         </p>\n\n      ",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"This package contains a set of Russian fonts for X11 Release 6. Copyright (C) 1994-1995 Cronyx Ltd. Changes Copyright (C) 1996 by Sergey Vovk Changes Copyright (C) 1999-2000 by Serge Winitzki Changes Copyright (C) 1996-2000 by Andrey A. Chernov, Moscow, Russia.  \";match=\".{0,5000}\">>\nThis software may be used, modified, copied, distributed<<beginOptional>> ,<<endOptional>> and sold, in both source and binary form provided that the<<beginOptional>> above<<endOptional>> copyright and these terms are retained. Under no circumstances is the author responsible for the proper functioning of this software, nor does the author assume any responsibility for damages incurred with its use.\n\n",
             "spdx:licenseText": "This package contains a set of Russian fonts for X11 Release 6.\nCopyright (C) 1994-1995 Cronyx Ltd.\nChanges Copyright (C) 1996 by Sergey Vovk\nChanges Copyright (C) 1999-2000 by Serge Winitzki\nChanges Copyright (C) 1996-2000 by Andrey A. Chernov, Moscow, Russia.\n\nThis software may be used, modified, copied, distributed, and sold,\nin both source and binary form provided that the copyright\nand these terms are retained. Under no circumstances is the author\nresponsible for the proper functioning of this software, nor does\nthe author assume any responsibility for damages incurred with its use.\n",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:f7179c24-24a6-4e6a-a1d2-5fd44959303d"
+                },
+                {
+                    "@id": "_:fa4ae1f4-5c3f-4775-a74b-18a492909ec1"
+                },
+                {
+                    "@id": "_:3d0fe856-0e26-47c0-80f4-f137797ceef9"
+                },
+                {
+                    "@id": "_:657d27d1-461b-4c5b-8558-a2dbf4bb3471"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -106,7 +37,7 @@
             "@type": "spdx:ListedLicense"
         },
         {
-            "@id": "_:a5b3931f-5e3f-4d2b-8309-4c98332ced84",
+            "@id": "_:f7179c24-24a6-4e6a-a1d2-5fd44959303d",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -120,9 +51,78 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitlab.freedesktop.org/xorg/font/cronyx-cyrillic/-/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T15:40:12Z",
+            "spdx:timestamp": "2026-09-16T16:08:22Z",
             "spdx:order": {
                 "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:fa4ae1f4-5c3f-4775-a74b-18a492909ec1",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/xorg/font/alias/-/blob/master/COPYING",
+            "spdx:timestamp": "2026-09-16T16:08:22Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:3d0fe856-0e26-47c0-80f4-f137797ceef9",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/xorg/font/screen-cyrillic/-/blob/master/COPYING",
+            "spdx:timestamp": "2026-09-16T16:08:20Z",
+            "spdx:order": {
+                "@value": "3",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:657d27d1-461b-4c5b-8558-a2dbf4bb3471",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/xorg/font/misc-cyrillic/-/blob/master/COPYING",
+            "spdx:timestamp": "2026-09-16T16:08:21Z",
+            "spdx:order": {
+                "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",

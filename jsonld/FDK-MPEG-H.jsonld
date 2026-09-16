@@ -1,35 +1,12 @@
 {
     "@graph": [
         {
-            "@id": "_:9d267d68-5bb3-42c6-9d67-c4c2a158809e",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/Fraunhofer-IIS/mpeghdec/blob/main/LICENSE.txt",
-            "spdx:timestamp": "2026-09-16T15:35:53Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/FDK-MPEG-H",
+            "spdx:crossRef": {
+                "@id": "_:3b3c1c92-55fe-4b86-aa15-93ff0326948c"
+            },
             "spdx:name": "Fraunhofer FDK MPEG-H Software",
             "rdfs:comment": "This license is very similar to FDK-AAC, but different language around patent licensing.",
-            "spdx:crossRef": {
-                "@id": "_:9d267d68-5bb3-42c6-9d67-c4c2a158809e"
-            },
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -43,6 +20,29 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "@type": "spdx:ListedLicense"
+        },
+        {
+            "@id": "_:3b3c1c92-55fe-4b86-aa15-93ff0326948c",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/Fraunhofer-IIS/mpeghdec/blob/main/LICENSE.txt",
+            "spdx:timestamp": "2026-09-16T16:06:06Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

@@ -1,41 +1,18 @@
 {
     "@graph": [
         {
-            "@id": "_:70fc8f29-c81c-42eb-b710-60a952de286b",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/slogan621/gtkbook",
-            "spdx:timestamp": "2026-09-16T15:34:02Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/gtkbook",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:02b42078-82b6-4fad-bb02-7a804afc58f7"
+                },
+                {
+                    "@id": "_:a4b80133-dda6-46c3-a556-a71222339e55"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/slogan621/gtkbook",
                 "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:70fc8f29-c81c-42eb-b710-60a952de286b"
-                },
-                {
-                    "@id": "_:7df67508-f6e0-4782-adb6-6a4d74987a4a"
-                }
             ],
             "spdx:licenseText": "Copyright 2005 Syd Logan, All Rights Reserved\n\nThis code is distributed without warranty. You are free to use\nthis code for any purpose, however, if this code is republished or\nredistributed in its original form, as hardcopy or electronically,\nthen you must include this copyright notice along with the code.\n",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 2005 Syd Logan, All Rights Reserved\";match=\".{0,5000}\">>\nThis code is distributed without warranty. You are free to use this code for any purpose, however, if this code is republished or redistributed in its original form, as hardcopy or electronically, then you must include this copyright notice along with the code.\n\n",
@@ -52,7 +29,7 @@
             }
         },
         {
-            "@id": "_:7df67508-f6e0-4782-adb6-6a4d74987a4a",
+            "@id": "_:02b42078-82b6-4fad-bb02-7a804afc58f7",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +43,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11",
-            "spdx:timestamp": "2026-09-16T15:34:01Z",
+            "spdx:timestamp": "2026-09-16T16:03:46Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:a4b80133-dda6-46c3-a556-a71222339e55",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/slogan621/gtkbook",
+            "spdx:timestamp": "2026-09-16T16:03:46Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],
