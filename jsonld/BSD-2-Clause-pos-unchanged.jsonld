@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:0298a80f-863f-4e9f-b4cf-9ebfd3bf5d11",
+            "@id": "_:0ab1ee14-6659-4476-91f8-cda5bb5255ef",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -14,10 +14,33 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://github.com/libarchive/libarchive/blob/master/libarchive_fe/line_reader.c",
-            "spdx:timestamp": "2026-09-16T16:00:01Z",
+            "spdx:url": "https://github.com/freebsd/pkg/blob/main/src/add.c",
+            "spdx:timestamp": "2026-09-16T16:21:10Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "3",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:3a5a5dc8-b975-49f8-8157-d2de15a15c28",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
+            "spdx:timestamp": "2026-09-16T16:21:11Z",
+            "spdx:order": {
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
@@ -25,21 +48,21 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-pos-unchanged",
+            "@type": "spdx:ListedLicense",
             "spdx:crossRef": [
                 {
-                    "@id": "_:0298a80f-863f-4e9f-b4cf-9ebfd3bf5d11"
+                    "@id": "_:53ef8756-0fdd-4447-b2c8-a9b4b920f7a2"
                 },
                 {
-                    "@id": "_:0ba7245f-b3b7-45ee-906c-7fb060da87d4"
+                    "@id": "_:3a5a5dc8-b975-49f8-8157-d2de15a15c28"
                 },
                 {
-                    "@id": "_:769e7493-c424-4886-ade4-f725eaf7add1"
+                    "@id": "_:85e18ad0-086d-4e80-bcf6-5928a542bffd"
                 },
                 {
-                    "@id": "_:587d1f3c-c4f1-45e3-a5c1-e0da852427d0"
+                    "@id": "_:0ab1ee14-6659-4476-91f8-cda5bb5255ef"
                 }
             ],
-            "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [
                 "https://github.com/freebsd/pkg/blob/main/src/add.c",
                 "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
@@ -61,7 +84,7 @@
             }
         },
         {
-            "@id": "_:0ba7245f-b3b7-45ee-906c-7fb060da87d4",
+            "@id": "_:53ef8756-0fdd-4447-b2c8-a9b4b920f7a2",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -74,17 +97,17 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
-            "spdx:timestamp": "2026-09-16T16:00:01Z",
+            "spdx:url": "https://github.com/libarchive/libarchive/blob/master/libarchive_fe/line_reader.c",
+            "spdx:timestamp": "2026-09-16T16:21:11Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:769e7493-c424-4886-ade4-f725eaf7add1",
+            "@id": "_:85e18ad0-086d-4e80-bcf6-5928a542bffd",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -98,35 +121,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://cgit.freebsd.org/src/tree/usr.bin/sockstat/sockstat.c",
-            "spdx:timestamp": "2026-09-16T16:00:01Z",
+            "spdx:timestamp": "2026-09-16T16:21:11Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:587d1f3c-c4f1-45e3-a5c1-e0da852427d0",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/freebsd/pkg/blob/main/src/add.c",
-            "spdx:timestamp": "2026-09-16T16:00:01Z",
-            "spdx:order": {
-                "@value": "3",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],

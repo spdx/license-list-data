@@ -1,6 +1,29 @@
 {
     "@graph": [
         {
+            "@id": "_:dd39495e-8390-4c60-9bf7-dd999a08a01a",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://www.gnu.org/licenses/gpl-faq.html#FontException",
+            "spdx:timestamp": "2026-09-16T16:29:08Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/GPL-2.0-with-font-exception",
             "@type": "spdx:ListedLicense",
             "spdx:deprecatedVersion": "2.0rc2",
@@ -16,34 +39,11 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "rdfs:seeAlso": "https://www.gnu.org/licenses/gpl-faq.html#FontException",
-            "spdx:name": "GNU General Public License v2.0 w/Font exception",
-            "rdfs:comment": "DEPRECATED: Use license expression including main license, \"WITH\" operator, and identifier: Font-exception-2.0",
             "spdx:crossRef": {
-                "@id": "_:97718773-eff6-47b4-b565-29107aa52cec"
-            }
-        },
-        {
-            "@id": "_:97718773-eff6-47b4-b565-29107aa52cec",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+                "@id": "_:dd39495e-8390-4c60-9bf7-dd999a08a01a"
             },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://www.gnu.org/licenses/gpl-faq.html#FontException",
-            "spdx:timestamp": "2026-09-16T16:07:41Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
+            "rdfs:comment": "DEPRECATED: Use license expression including main license, \"WITH\" operator, and identifier: Font-exception-2.0",
+            "spdx:name": "GNU General Public License v2.0 w/Font exception"
         }
     ],
     "@context": {
