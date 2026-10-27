@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:fc9a6d2c-bfc3-4480-b997-88cfc4241150",
+            "@id": "_:73a23226-dbba-4d58-9489-04719983bc55",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.apache.org/licenses/LICENSE-1.0",
-            "spdx:timestamp": "2026-09-16T17:03:31Z",
+            "spdx:timestamp": "2026-10-27T19:19:24Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -26,6 +26,9 @@
         {
             "@id": "http://spdx.org/licenses/Apache-1.0",
             "@type": "spdx:ListedLicense",
+            "spdx:crossRef": {
+                "@id": "_:73a23226-dbba-4d58-9489-04719983bc55"
+            },
             "spdx:name": "Apache License 1.0",
             "rdfs:seeAlso": "http://www.apache.org/licenses/LICENSE-1.0",
             "spdx:isDeprecatedLicenseId": {
@@ -42,9 +45,6 @@
             "spdx:isFsfLibre": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": {
-                "@id": "_:fc9a6d2c-bfc3-4480-b997-88cfc4241150"
             }
         }
     ],

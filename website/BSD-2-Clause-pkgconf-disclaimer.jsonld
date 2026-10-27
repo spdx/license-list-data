@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:c3733fcf-cd40-4a30-b5fa-f991183cd7d9",
+            "@id": "_:7c28fa34-a88c-46e9-8623-0349f9da84f6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/audacious-media-player/audacious/blob/master/COPYING",
-            "spdx:timestamp": "2026-09-16T16:59:02Z",
+            "spdx:timestamp": "2026-10-27T19:11:13Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:fb20c2a8-e4de-44d4-ac62-ea0b549eadb9",
+            "@id": "_:4f87ac16-0544-4151-985c-b4778d247b03",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/audacious-media-player/audacious/blob/master/src/audacious/main.cc",
-            "spdx:timestamp": "2026-09-16T16:59:02Z",
+            "spdx:timestamp": "2026-10-27T19:11:13Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-pkgconf-disclaimer",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:7c28fa34-a88c-46e9-8623-0349f9da84f6"
+                },
+                {
+                    "@id": "_:4f87ac16-0544-4151-985c-b4778d247b03"
+                }
+            ],
             "spdx:licenseText": "Copyright © 2001-2025 Audacious developers and others\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice,\n   this list of conditions, and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice,\n   this list of conditions, and the following disclaimer in the\n   documentation provided with the distribution.\n\nThis software is provided “as is” and without any warranty, express or\nimplied.  In no event shall the authors be liable for any damages arising\nfrom the use of this software.\n",
             "rdfs:seeAlso": [
                 "https://github.com/audacious-media-player/audacious/blob/master/src/audacious/main.cc",
@@ -61,14 +69,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:c3733fcf-cd40-4a30-b5fa-f991183cd7d9"
-                },
-                {
-                    "@id": "_:fb20c2a8-e4de-44d4-ac62-ea0b549eadb9"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
