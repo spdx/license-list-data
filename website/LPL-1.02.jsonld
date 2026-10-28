@@ -1,7 +1,38 @@
 {
     "@graph": [
         {
+            "@id": "_:bf1c1294-9c34-48e8-b254-2040208d8534",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://opensource.org/license/LPL-1.02",
+            "spdx:timestamp": "2026-10-28T19:39:17Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/LPL-1.02",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:bf1c1294-9c34-48e8-b254-2040208d8534"
+                },
+                {
+                    "@id": "_:e25291ee-acd7-48ca-81c2-f3e2e8be43e4"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -17,14 +48,6 @@
                 "http://plan9.bell-labs.com/plan9/license.html",
                 "https://opensource.org/license/LPL-1.02"
             ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:125538a9-702a-4685-b856-dd4ef94f09fa"
-                },
-                {
-                    "@id": "_:20b5cbfe-dee2-4ca4-a8e6-661230f1a8aa"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -33,7 +56,7 @@
             "spdx:name": "Lucent Public License v1.02"
         },
         {
-            "@id": "_:125538a9-702a-4685-b856-dd4ef94f09fa",
+            "@id": "_:e25291ee-acd7-48ca-81c2-f3e2e8be43e4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -47,32 +70,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://plan9.bell-labs.com/plan9/license.html",
-            "spdx:timestamp": "2026-10-27T19:14:58Z",
+            "spdx:timestamp": "2026-10-28T19:39:17Z",
             "spdx:order": {
                 "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:20b5cbfe-dee2-4ca4-a8e6-661230f1a8aa",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://opensource.org/license/LPL-1.02",
-            "spdx:timestamp": "2026-10-27T19:14:58Z",
-            "spdx:order": {
-                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
