@@ -3,36 +3,40 @@ on:
   push:
     branches:
       - main
+
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Preview
     runs-on: ubuntu-latest
     steps:
       - name: checkout-master
-        uses: actions/checkout@v2
-      - name: enable-env
-        run: echo "ACTIONS_ALLOW_UNSECURE_COMMANDS=true" >> $GITHUB_ENV
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@3.5.9
+        uses: JamesIves/github-pages-deploy-action@fa24774553152dd7873cd16ebd8d959b010c5445 # v4.9.0
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: website
-          CLEAN: true      
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: gh-pages
+          folder: website
+          clean: true
       - name: checkout-gh-pages
-        uses: actions/checkout@v2
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           ref: 'gh-pages'
       - name: add-preview
-        uses: jacobtomlinson/gha-find-replace@master
+        uses: jacobtomlinson/gha-find-replace@2ff30f644d2e0078fc028beb9193f5ff0dcad39e # v3
         with:
           find: '>SPDX License List'
           replace: '>PREVIEW - SPDX License List'
+          regex: false
       - name: fix-breadcrumbs
-        uses: jacobtomlinson/gha-find-replace@master
+        uses: jacobtomlinson/gha-find-replace@2ff30f644d2e0078fc028beb9193f5ff0dcad39e # v3
         with:
           find: '<a href="/">Home</a> » <a href="/licenses">Licenses</a>'
           replace: '<a href="/license-list-data">Licenses</a>'
-      - uses: stefanzweifel/git-auto-commit-action@v4.4.1
+          regex: false
+      - uses: stefanzweifel/git-auto-commit-action@d0b01107b5db882071f96de5dd4b54961ea93f4c # v7.2.1
         with:
           commit_message: Update preview and breadcrumbs for github.io web pages
