@@ -1,41 +1,18 @@
 {
     "@graph": [
         {
-            "@id": "_:64fa9a4e-9c11-4045-a6e1-25f1172824bc",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/slogan621/gtkbook",
-            "spdx:timestamp": "2026-10-28T19:45:00Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/gtkbook",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b5c94bc0-55f9-407e-8d80-14c04680df73"
+                },
+                {
+                    "@id": "_:88f0c8b7-9ac7-4e0d-bf81-ddbc0c06e566"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/slogan621/gtkbook",
                 "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:64fa9a4e-9c11-4045-a6e1-25f1172824bc"
-                },
-                {
-                    "@id": "_:505b8b77-8456-4c59-a463-7182ebfc308a"
-                }
             ],
             "spdx:licenseText": "Copyright 2005 Syd Logan, All Rights Reserved\n\nThis code is distributed without warranty. You are free to use\nthis code for any purpose, however, if this code is republished or\nredistributed in its original form, as hardcopy or electronically,\nthen you must include this copyright notice along with the code.\n",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 2005 Syd Logan, All Rights Reserved\";match=\".{0,5000}\">>\nThis code is distributed without warranty. You are free to use this code for any purpose, however, if this code is republished or redistributed in its original form, as hardcopy or electronically, then you must include this copyright notice along with the code.\n\n",
@@ -52,7 +29,30 @@
             }
         },
         {
-            "@id": "_:505b8b77-8456-4c59-a463-7182ebfc308a",
+            "@id": "_:b5c94bc0-55f9-407e-8d80-14c04680df73",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/slogan621/gtkbook",
+            "spdx:timestamp": "2026-11-18T01:52:56Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:88f0c8b7-9ac7-4e0d-bf81-ddbc0c06e566",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,7 +66,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11",
-            "spdx:timestamp": "2026-10-28T19:45:00Z",
+            "spdx:timestamp": "2026-11-18T01:52:55Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
