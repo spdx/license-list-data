@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:d3f0d44a-6a83-403d-9928-866a537b6b10",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://hstechdocs.helpsystems.com/manuals/globalscape/archive/cuteftp6/open_ssl_license_agreement.htm",
-            "spdx:timestamp": "2026-11-18T02:11:58Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:fc31ef34-1bf5-4d6b-aa68-8353acc1d183",
+            "@id": "_:8220cb95-f664-4a36-9c07-13892584f832",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://library.netapp.com/ecm/ecm_download_file/ECMP1196395",
-            "spdx:timestamp": "2026-11-18T02:11:59Z",
+            "spdx:timestamp": "2026-11-18T02:36:25Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,20 +24,43 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:ffd056ea-5fad-4183-9ac8-a876421c6e6c",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://hstechdocs.helpsystems.com/manuals/globalscape/archive/cuteftp6/open_ssl_license_agreement.htm",
+            "spdx:timestamp": "2026-11-18T02:36:24Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/OpenSSL-standalone",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:8220cb95-f664-4a36-9c07-13892584f832"
+                },
+                {
+                    "@id": "_:ffd056ea-5fad-4183-9ac8-a876421c6e6c"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://hstechdocs.helpsystems.com/manuals/globalscape/archive/cuteftp6/open_ssl_license_agreement.htm",
                 "https://library.netapp.com/ecm/ecm_download_file/ECMP1196395"
             ],
             "rdfs:comment": "This is the first license in the OpenSSL two-license stack as a standalone option.",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:d3f0d44a-6a83-403d-9928-866a537b6b10"
-                },
-                {
-                    "@id": "_:fc31ef34-1bf5-4d6b-aa68-8353acc1d183"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
