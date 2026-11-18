@@ -2,6 +2,14 @@
     "@graph": [
         {
             "@id": "http://spdx.org/licenses/Fair",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:619de7c4-1127-4d6a-8b91-5c6a5ef1652a"
+                },
+                {
+                    "@id": "_:a4c4119b-16d7-4558-b189-174812aa99f2"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -10,14 +18,6 @@
             "@type": "spdx:ListedLicense",
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n         <p>Fair License</p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n         <p>&lt;Copyright Information&gt;</p>\n\n      </span></div>\n\n      <p>Usage of the works is permitted provided that this instrument is retained with the works, so that any\n         entity that uses the works is notified of this instrument.</p>\n\n      <p>DISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.</p>\n\n    ",
             "spdx:standardLicenseTemplate": "<<beginOptional>>Fair License\n\n<<endOptional>> <<var;name=\"copyright\";original=\"<Copyright Information>  \";match=\".{0,5000}\">>\nUsage of the works is permitted provided that this instrument is retained with the works, so that any entity that uses the works is notified of this instrument.\n\nDISCLAIMER: THE WORKS ARE WITHOUT WARRANTY.\n\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:bc43cec2-2999-47c6-bd97-9ce9402d8f5a"
-                },
-                {
-                    "@id": "_:eb9816dc-a8bb-4216-bb43-1e0cd02f9365"
-                }
-            ],
             "rdfs:seeAlso": [
                 "https://web.archive.org/web/20150926120323/http://fairlicense.org/",
                 "https://opensource.org/license/Fair"
@@ -29,7 +29,7 @@
             }
         },
         {
-            "@id": "_:bc43cec2-2999-47c6-bd97-9ce9402d8f5a",
+            "@id": "_:619de7c4-1127-4d6a-8b91-5c6a5ef1652a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -43,7 +43,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/Fair",
-            "spdx:timestamp": "2026-10-28T19:49:57Z",
+            "spdx:timestamp": "2026-11-18T01:50:19Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -52,7 +52,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:eb9816dc-a8bb-4216-bb43-1e0cd02f9365",
+            "@id": "_:a4c4119b-16d7-4558-b189-174812aa99f2",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,7 +66,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://web.archive.org/web/20150926120323/http://fairlicense.org/",
-            "spdx:timestamp": "2026-10-28T19:49:57Z",
+            "spdx:timestamp": "2026-11-18T01:50:19Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

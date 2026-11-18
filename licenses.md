@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 8791eda
+The following licenses have been generated from the license list version f10dea6
 
 ## Licenses with Short Identifiers
 
@@ -59,6 +59,7 @@ The following licenses have been generated from the license list version 8791eda
 | atc Game License                                                                          | [atc-game][]                             |      |           |
 | Baekmuk License                                                                           | [Baekmuk][]                              |      |           |
 | Bahyph License                                                                            | [Bahyph][]                               |      |           |
+| BaKoMa Fonts Licence                                                                      | [BaKoMa][]                               |      |           |
 | Barr License                                                                              | [Barr][]                                 |      |           |
 | bcrypt Solar Designer License                                                             | [bcrypt-Solar-Designer][]                |      |           |
 | Beerware License                                                                          | [Beerware][]                             |      |           |
@@ -897,6 +898,7 @@ The following licenses have been generated from the license list version 8791eda
 [atc-game]: text/atc-game.txt
 [Baekmuk]: text/Baekmuk.txt
 [Bahyph]: text/Bahyph.txt
+[BaKoMa]: text/BaKoMa.txt
 [Barr]: text/Barr.txt
 [bcrypt-Solar-Designer]: text/bcrypt-Solar-Designer.txt
 [Beerware]: text/Beerware.txt
