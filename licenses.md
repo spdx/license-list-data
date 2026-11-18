@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version f10dea6
+The following licenses have been generated from the license list version ce1f312
 
 ## Licenses with Short Identifiers
 
@@ -357,6 +357,7 @@ The following licenses have been generated from the license list version f10dea6
 | Historical Permission Notice and Disclaimer - SMC variant                                 | [HPND-SMC][]                             |      |           |
 | Historical Permission Notice and Disclaimer - University of California variant            | [HPND-UC][]                              |      |           |
 | Historical Permission Notice and Disclaimer - University of California, US export warning | [HPND-UC-export-US][]                    |      |           |
+| Historical Permission Notice and Disclaimer - X11 variant                                 | [HPND-X11][]                             |      |           |
 | HTML Tidy License                                                                         | [HTMLTIDY][]                             |      |           |
 | hyphen-bulgarian License                                                                  | [hyphen-bulgarian][]                     |      |           |
 | IBM PowerPC Initialization and Boot Software                                              | [IBM-pibs][]                             |      |           |
@@ -447,6 +448,7 @@ The following licenses have been generated from the license list version f10dea6
 | enna License                                                                              | [MIT-enna][]                             |      |           |
 | feh License                                                                               | [MIT-feh][]                              |      |           |
 | MIT Festival Variant                                                                      | [MIT-Festival][]                         |      |           |
+| MIT KDevelop Ideal variant                                                                | [MIT-kdevelop-ideal][]                   |      |           |
 | MIT Khronos - old variant                                                                 | [MIT-Khronos-old][]                      |      |           |
 | MIT License Modern Variant                                                                | [MIT-Modern-Variant][]                   | Y    |           |
 | MIT Open Group variant                                                                    | [MIT-open-group][]                       |      |           |
@@ -1216,6 +1218,7 @@ The following licenses have been generated from the license list version f10dea6
 [HPND-SMC]: text/HPND-SMC.txt
 [HPND-UC]: text/HPND-UC.txt
 [HPND-UC-export-US]: text/HPND-UC-export-US.txt
+[HPND-X11]: text/HPND-X11.txt
 [HTMLTIDY]: text/HTMLTIDY.txt
 [hyphen-bulgarian]: text/hyphen-bulgarian.txt
 [IBM-pibs]: text/IBM-pibs.txt
@@ -1312,6 +1315,7 @@ The following licenses have been generated from the license list version f10dea6
 [MIT-enna]: text/MIT-enna.txt
 [MIT-feh]: text/MIT-feh.txt
 [MIT-Festival]: text/MIT-Festival.txt
+[MIT-kdevelop-ideal]: text/MIT-kdevelop-ideal.txt
 [MIT-Khronos-old]: text/MIT-Khronos-old.txt
 [MIT-Modern-Variant]: text/MIT-Modern-Variant.txt
 [MIT-open-group]: text/MIT-open-group.txt

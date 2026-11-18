@@ -1,0 +1,39 @@
+{
+  "@context" : "https://spdx.org/rdf/3.0.1/spdx-context.jsonld",
+  "@graph" : [ {
+    "@id" : "_:creationInfo_0",
+    "type" : "CreationInfo",
+    "specVersion" : "3.0.1",
+    "createdBy" : [ "https://spdx.org/licenses/creatoragent/ce1f312" ],
+    "createdUsing" : [ "https://spdx.org/tools/licenselistpublisher" ],
+    "created" : "2026-11-18T00:00:00Z",
+    "comment" : "This object is created and maintained by the SPDX legal team (https://spdx.dev/engage/participate/legal-team/) using the LicenseListPublisher (https://github.com/spdx/licenselistpublisher)"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/HPND-X11_document",
+    "type" : "SpdxDocument",
+    "rootElement" : [ "http://spdx.org/licenses/HPND-X11" ],
+    "name" : "HPND-X11 document",
+    "comment" : "SPDX Document For HPND-X11",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/tools/licenselistpublisher",
+    "type" : "Tool",
+    "name" : "SPDX License List Publisher",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "https://spdx.org/licenses/creatoragent/ce1f312",
+    "type" : "Organization",
+    "name" : "SPDX Legal Team",
+    "creationInfo" : "_:creationInfo_0"
+  }, {
+    "spdxId" : "http://spdx.org/licenses/HPND-X11",
+    "type" : "expandedlicensing_ListedLicense",
+    "expandedlicensing_isOsiApproved" : false,
+    "expandedlicensing_seeAlso" : [ "https://gitlab.freedesktop.org/xorg/proto/xorgproto/-/blob/1914233e662d23ffb3812b80fadd0bbd064ad91c/COPYING-x11proto#L69-88" ],
+    "simplelicensing_licenseText" : "Copyright 1987 by Apollo Computer Inc., Chelmsford, Massachusetts.\nCopyright 1989 by Hewlett-Packard Company.\n\n                        All Rights Reserved\n\nPermission to use, duplicate, change, and distribute this software and\nits documentation for any purpose and without fee is granted, provided\nthat the above copyright notice appear in such copy and that this\ncopyright notice appear in all supporting documentation, and that the\nnames of Apollo Computer Inc., the Hewlett-Packard Company, or the X\nConsortium not be used in advertising or publicity pertaining to\ndistribution of the software without written prior permission.\n\nHEWLETT-PACKARD MAKES NO WARRANTY OF ANY KIND WITH REGARD\nTO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED\nWARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR\nPURPOSE.  Hewlett-Packard shall not be liable for errors\ncontained herein or direct, indirect, special, incidental or\nconsequential damages in connection with the furnishing,\nperformance, or use of this material.\n",
+    "name" : "Historical Permission Notice and Disclaimer - X11 variant",
+    "expandedlicensing_standardLicenseTemplate" : "<<var;name=\"copyright\";original=\"Copyright 1987 by Apollo Computer Inc., Chelmsford, Massachusetts.   Copyright 1989 by Hewlett-Packard Company.   All Rights Reserved  \";match=\".{0,5000}\">>\nPermission to use, duplicate, change, and distribute this software and its documentation for any purpose and without fee is granted, provided that the above copyright notice appear in such copy and that this copyright notice appear in all supporting documentation, and that the names of <<var;name=\"author\";original=\"Apollo Computer Inc., the Hewlett-Packard Company, or the X Consortium\";match=\".+\">> not be used in advertising or publicity pertaining to distribution of the software without written prior permission.\n\n<<var;name=\"author\";original=\"HEWLETT-PACKARD\";match=\".+\">> MAKES NO WARRANTY OF ANY KIND WITH REGARD TO THIS SOFTWARE, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. <<var;name=\"author\";original=\"Hewlett-Packard\";match=\".+\">> shall not be liable for errors contained herein or direct, indirect, special, incidental or consequential damages in connection with the furnishing, performance, or use of this material.\n\n",
+    "creationInfo" : "_:creationInfo_0",
+    "expandedlicensing_isDeprecatedLicenseId" : false
+  } ]
+}

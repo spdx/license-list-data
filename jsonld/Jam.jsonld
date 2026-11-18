@@ -1,42 +1,42 @@
 {
     "@graph": [
         {
-            "@id": "_:cf11a42f-8928-4aba-a743-1b1b833c3635",
+            "@id": "_:3c0f801e-325f-459e-b86d-c209d340f9b8",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isValid": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "true",
+                "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
-            "spdx:timestamp": "2026-11-18T01:48:45Z",
+            "spdx:url": "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
+            "spdx:timestamp": "2026-11-18T02:11:51Z",
             "spdx:order": {
-                "@value": "0",
+                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "true",
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/Jam",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:fc20afff-4a8b-44a5-93ae-e961b5f2d641"
+                },
+                {
+                    "@id": "_:3c0f801e-325f-459e-b86d-c209d340f9b8"
+                }
+            ],
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.  \";match=\".{0,5000}\">>\nLicense is hereby granted to use this software and distribute it freely, as long as this copyright notice is retained and modifications are clearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n\n",
             "rdfs:seeAlso": [
                 "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
                 "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html"
-            ],
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright 1993-2014 Christopher Seiwald and Perforce Software, Inc.  \";match=\".{0,5000}\">>\nLicense is hereby granted to use this software and distribute it freely, as long as this copyright notice is retained and modifications are clearly marked.\n\nALL WARRANTIES ARE HEREBY DISCLAIMED.\n\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:14eb65ce-3e43-403d-98c0-45ad1ef3a027"
-                },
-                {
-                    "@id": "_:cf11a42f-8928-4aba-a743-1b1b833c3635"
-                }
             ],
             "@type": "spdx:ListedLicense",
             "spdx:isOsiApproved": {
@@ -52,26 +52,26 @@
             "spdx:name": "Jam License"
         },
         {
-            "@id": "_:14eb65ce-3e43-403d-98c0-45ad1ef3a027",
+            "@id": "_:fc20afff-4a8b-44a5-93ae-e961b5f2d641",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isValid": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
+                "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:url": "https://web.archive.org/web/20160330173339/https://swarm.workshop.perforce.com/files/guest/perforce_software/jam/src/README",
-            "spdx:timestamp": "2026-11-18T01:48:45Z",
+            "spdx:url": "https://www.boost.org/doc/libs/1_35_0/doc/html/jam.html",
+            "spdx:timestamp": "2026-11-18T02:11:51Z",
             "spdx:order": {
-                "@value": "1",
+                "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],

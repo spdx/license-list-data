@@ -1,53 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:f87405ac-e1fb-424c-ad3a-c3bccce13546",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
-            "spdx:timestamp": "2026-11-18T01:44:32Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:8c6d7413-6d5c-4904-9b7c-3182bd2a1c9d",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
-            "spdx:timestamp": "2026-11-18T01:44:33Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:3eaa3846-0c6c-428b-b882-8f0214ce3386",
+            "@id": "_:255b1770-d0e0-4aed-b08c-7cae4e6ef48e",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp",
-            "spdx:timestamp": "2026-11-18T01:44:34Z",
+            "spdx:timestamp": "2026-11-18T02:08:41Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,7 +24,64 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:a00b2253-cbdb-4010-b350-cf4b37df4d4c",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
+            "spdx:timestamp": "2026-11-18T02:08:40Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:abd00690-ae64-4cd8-886f-1c3218c5a0cd",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
+            "spdx:timestamp": "2026-11-18T02:08:40Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/SSH-short",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:255b1770-d0e0-4aed-b08c-7cae4e6ef48e"
+                },
+                {
+                    "@id": "_:a00b2253-cbdb-4010-b350-cf4b37df4d4c"
+                },
+                {
+                    "@id": "_:abd00690-ae64-4cd8-886f-1c3218c5a0cd"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -83,17 +94,6 @@
             "spdx:name": "SSH short notice",
             "rdfs:comment": "This is short version of SSH-OpenSSH that appears in some files associated with the original SSH implementation.",
             "spdx:licenseTextHtml": "\n        <p>As far as I am concerned, the code I have written for this software\n        can be used freely for any purpose.  Any derived versions of this\n        software must be clearly marked as such, and if the derived work is\n        incompatible with the protocol description in the RFC file, it must be\n        called by a name other than &quot;ssh&quot; or &quot;Secure Shell&quot;.\n        </p>\n\n    ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:f87405ac-e1fb-424c-ad3a-c3bccce13546"
-                },
-                {
-                    "@id": "_:8c6d7413-6d5c-4904-9b7c-3182bd2a1c9d"
-                },
-                {
-                    "@id": "_:3eaa3846-0c6c-428b-b882-8f0214ce3386"
-                }
-            ],
             "@type": "spdx:ListedLicense",
             "spdx:licenseText": "As far as I am concerned, the code I have written for this software\ncan be used freely for any purpose.  Any derived versions of this\nsoftware must be clearly marked as such, and if the derived work is\nincompatible with the protocol description in the RFC file, it must be\ncalled by a name other than \"ssh\" or \"Secure Shell\".\n",
             "spdx:isDeprecatedLicenseId": {
