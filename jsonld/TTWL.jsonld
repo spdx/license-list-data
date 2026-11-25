@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:dd64c2f9-a497-49a8-a602-2f63a8d5ea71",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://fedoraproject.org/wiki/Licensing/TTWL",
-            "spdx:timestamp": "2026-11-25T20:09:10Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:91f5c380-eb17-407d-ab59-af8bde73dfe6",
+            "@id": "_:c46dedcb-f65c-4a6a-a745-181c8776e915",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/ap/Text-Tabs/blob/master/lib.modern/Text/Tabs.pm#L148",
-            "spdx:timestamp": "2026-11-25T20:09:09Z",
+            "spdx:timestamp": "2026-11-25T23:00:53Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,19 +24,42 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:ad18bb31-6690-4079-bcc6-a37cf29135bb",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://fedoraproject.org/wiki/Licensing/TTWL",
+            "spdx:timestamp": "2026-11-25T23:00:53Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/TTWL",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:dd64c2f9-a497-49a8-a602-2f63a8d5ea71"
-                },
-                {
-                    "@id": "_:91f5c380-eb17-407d-ab59-af8bde73dfe6"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:ad18bb31-6690-4079-bcc6-a37cf29135bb"
+                },
+                {
+                    "@id": "_:c46dedcb-f65c-4a6a-a745-181c8776e915"
+                }
+            ],
             "spdx:name": "Text-Tabs+Wrap License",
             "@type": "spdx:ListedLicense",
             "rdfs:seeAlso": [

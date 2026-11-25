@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:ffb8c814-d09b-416a-ad64-57c97aad6ade",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/hamano/man2html/blob/master/man2html.c",
-            "spdx:timestamp": "2026-11-25T20:03:53Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:4f03d1ce-2f8c-474f-b219-3ecc829dafb3",
+            "@id": "_:c2833a5f-2265-40a9-8fc2-cf1329af1390",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz",
-            "spdx:timestamp": "2026-11-25T20:03:56Z",
+            "spdx:timestamp": "2026-11-25T22:54:57Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -48,23 +25,23 @@
         },
         {
             "@id": "http://spdx.org/licenses/man2html",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:00033ed3-1c1f-4b5a-850f-013809853144"
+                },
+                {
+                    "@id": "_:24975def-e950-4bcb-8bc3-f4f61ae14406"
+                },
+                {
+                    "@id": "_:c2833a5f-2265-40a9-8fc2-cf1329af1390"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html",
                 "http://primates.ximian.com/~flucifredi/man/man-1.6g.tar.gz",
                 "https://github.com/hamano/man2html/blob/master/man2html.c"
             ],
             "spdx:standardLicenseTemplate": "Permission is granted to distribute, modify and use this program as long as this comment is not removed or changed.\n\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:c59f5e51-515a-4df9-a5cd-7b22470babae"
-                },
-                {
-                    "@id": "_:ffb8c814-d09b-416a-ad64-57c97aad6ade"
-                },
-                {
-                    "@id": "_:4f03d1ce-2f8c-474f-b219-3ecc829dafb3"
-                }
-            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -80,7 +57,7 @@
             "spdx:licenseText": "Permission is granted to distribute, modify and use this program\nas long as this comment is not removed or changed.\n"
         },
         {
-            "@id": "_:c59f5e51-515a-4df9-a5cd-7b22470babae",
+            "@id": "_:00033ed3-1c1f-4b5a-850f-013809853144",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -94,12 +71,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://docs.oracle.com/cd/E81115_01/html/E81116/licenses.html",
-            "spdx:timestamp": "2026-11-25T20:03:56Z",
+            "spdx:timestamp": "2026-11-25T22:54:57Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:24975def-e950-4bcb-8bc3-f4f61ae14406",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/hamano/man2html/blob/master/man2html.c",
+            "spdx:timestamp": "2026-11-25T22:54:56Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],

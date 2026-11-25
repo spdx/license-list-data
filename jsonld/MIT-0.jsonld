@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:350cea66-9a1d-4325-9963-339a24f576e5",
+            "@id": "_:4b90ab78-114e-488a-ba85-a65493a6b4d0",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/aws/mit-0",
-            "spdx:timestamp": "2026-11-25T20:08:35Z",
+            "spdx:timestamp": "2026-11-25T23:00:19Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,7 +24,30 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:22c641fe-faaa-40b0-b96f-85a847b94982",
+            "@id": "_:b342c93c-f1f8-4a55-99c7-42bbe83dcb88",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/awsdocs/aws-cloud9-user-guide/blob/master/LICENSE-SAMPLECODE",
+            "spdx:timestamp": "2026-11-25T23:00:18Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:6b1815a5-6827-4178-9fc2-074b506fc3df",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +61,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://romanrm.net/mit-zero",
-            "spdx:timestamp": "2026-11-25T20:08:34Z",
+            "spdx:timestamp": "2026-11-25T23:00:19Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -52,23 +75,23 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:b342c93c-f1f8-4a55-99c7-42bbe83dcb88"
+                },
+                {
+                    "@id": "_:4b90ab78-114e-488a-ba85-a65493a6b4d0"
+                },
+                {
+                    "@id": "_:6b1815a5-6827-4178-9fc2-074b506fc3df"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/awsdocs/aws-cloud9-user-guide/blob/master/LICENSE-SAMPLECODE",
                 "https://github.com/aws/mit-0",
                 "https://romanrm.net/mit-zero"
             ],
             "spdx:name": "MIT No Attribution",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:a8493427-c5cc-44aa-bf17-a7a908b44a45"
-                },
-                {
-                    "@id": "_:350cea66-9a1d-4325-9963-339a24f576e5"
-                },
-                {
-                    "@id": "_:22c641fe-faaa-40b0-b96f-85a847b94982"
-                }
-            ],
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "This license is a modified version of the common MIT license, with the attribution paragraph removed.",
             "spdx:standardLicenseTemplate": "<<beginOptional>><<var;name=\"title\";original=\"MIT No Attribution\";match=\"The MIT-Zero License|MIT No Attribution|\">>\n\n<<endOptional>> <<var;name=\"copyright\";original=\"Copyright <YEAR> <COPYRIGHT HOLDER>  \";match=\".{0,5000}\">>\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the \"Software\"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n",
@@ -78,29 +101,6 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:licenseTextHtml": "\n      <div class=\"optional-license-text\"> \n        <p><var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern The MIT-Zero License|MIT No Attribution|\"> MIT No Attribution</span></var></p>\n\n      </div>\n      <div class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n        <p>\n          Copyright &lt;YEAR&gt; &lt;COPYRIGHT HOLDER&gt;\n        </p>\n\n      </span></div>\n\n      <p>\n        Permission is hereby granted, free of charge, to any person obtaining a copy of this\n        software and associated documentation files (the &quot;Software&quot;), to deal in the Software\n        without restriction, including without limitation the rights to use, copy, modify,\n        merge, publish, distribute, sublicense, and/or sell copies of the Software, and to\n        permit persons to whom the Software is furnished to do so.\n      </p>\n\n      <p>\n        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,\n        INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A\n        PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT\n        HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION\n        OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\n        SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n      </p>\n\n    "
-        },
-        {
-            "@id": "_:a8493427-c5cc-44aa-bf17-a7a908b44a45",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/awsdocs/aws-cloud9-user-guide/blob/master/LICENSE-SAMPLECODE",
-            "spdx:timestamp": "2026-11-25T20:08:33Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
         }
     ],
     "@context": {

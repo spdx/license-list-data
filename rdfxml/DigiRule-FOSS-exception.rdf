@@ -5,6 +5,7 @@
     xmlns:ptr="http://www.w3.org/2009/pointers#"
     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
   <spdx:ListedLicenseException rdf:about="http://spdx.org/licenses/DigiRule-FOSS-exception">
+    <rdfs:seeAlso>https://www.mysql.com/about/legal/licensing/foss-exception/</rdfs:seeAlso>
     <rdfs:seeAlso>http://www.digirulesolutions.com/drupal/foss</rdfs:seeAlso>
     <spdx:licenseExceptionText>DigiRule Solutions’s FOSS License Exception Terms and Conditions
 
@@ -63,7 +64,7 @@ Zope Public License 2.0
 </spdx:licenseExceptionText>
     <spdx:exceptionTextHtml>
       &lt;div class="optional-license-text"&gt; 
-         &lt;p&gt;DigiRule Solutions&amp;apos;s FOSS License Exception Terms and Conditions&lt;/p&gt;
+         &lt;p&gt;&lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern DigiRule Solutions|Oracle"&gt; DigiRule Solutions&lt;/span&gt;&lt;/var&gt;&amp;apos;s FOSS License Exception Terms and Conditions&lt;/p&gt;
 
       &lt;/div&gt;
       
@@ -80,18 +81,18 @@ Zope Public License 2.0
              application distributed subject to a license listed in
              the section below titled &amp;quot;FOSS License List.&amp;quot;&lt;/p&gt;
 
-            &lt;p&gt;&amp;quot;FOSS Notice&amp;quot; means a notice placed by DigiRule Solutions
-             in a copy of the Client Libraries stating that such
-             copy of the Client Libraries may be distributed under
-             DigiRule Solutions&amp;apos;s or FOSS License Exception.&lt;/p&gt;
+            &lt;p&gt;&amp;quot;FOSS Notice&amp;quot; means a notice placed by &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern DigiRule Solutions|Oracle or MySQL"&gt; DigiRule Solutions&lt;/span&gt;&lt;/var&gt;
+             in a copy of the &lt;var class="optional-license-text"&gt; MySQL&lt;/var&gt; Client Libraries stating that such
+             copy of the &lt;var class="optional-license-text"&gt; MySQL&lt;/var&gt; Client Libraries may be distributed under
+             &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern DigiRule Solutions's or FOSS|Oracle's or MySQL's FOSS \(or FLOSS\)"&gt; DigiRule Solutions&amp;apos;s or FOSS&lt;/span&gt;&lt;/var&gt; License Exception.&lt;/p&gt;
 
             &lt;p&gt;&amp;quot;Independent Work&amp;quot; means portions of the Derivative Work
              that are not derived from the Program and can
              reasonably be considered independent and separate
              works.&lt;/p&gt;
 
-            &lt;p&gt;&amp;quot;Program&amp;quot; means a copy of DigiRule Solutions&amp;apos;s Client
-             Libraries that contain a FOSS Notice.&lt;/p&gt;
+            &lt;p&gt;&amp;quot;Program&amp;quot; means a copy of &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern DigiRule Solutions's|Oracle's MySQL"&gt; DigiRule Solutions&amp;apos;s&lt;/span&gt;&lt;/var&gt; Client
+             Libraries that &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern contains?"&gt; contain&lt;/span&gt;&lt;/var&gt; a FOSS Notice.&lt;/p&gt;
 
         &lt;/li&gt;
         
@@ -148,7 +149,7 @@ Zope Public License 2.0
         
 &lt;li&gt;
             &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern .{0,20}"&gt; 3.&lt;/span&gt;&lt;/var&gt;
-          DigiRule Solutions reserves all rights not expressly
+          &lt;var class="replaceable-license-text"&gt;&lt;span title="can be replaced with the pattern DigiRule Solutions|Oracle"&gt; DigiRule Solutions&lt;/span&gt;&lt;/var&gt; reserves all rights not expressly
              granted in these terms and conditions. If all of the
              above conditions are not met, then this FOSS License
              Exception does not apply to you or your Derivative
@@ -177,8 +178,16 @@ Common Development and Distribution License (CDDL) 1.0
 Common Public License 1.0
         &lt;br /&gt;
 Eclipse Public License 1.0
+        &lt;var class="optional-license-text"&gt; &lt;br /&gt;
+European Union Public License (EUPL)&lt;var class="optional-license-text"&gt; 1&lt;/var&gt; 1.1&lt;/var&gt;
+        &lt;var class="optional-license-text"&gt; &lt;br /&gt;
+GNU Affero General Public License (AGPL) 3.0&lt;/var&gt;
         &lt;br /&gt;
 GNU Library or &amp;quot;Lesser&amp;quot; General Public License (LGPL) 2.0/2.1/3.0
+        &lt;var class="optional-license-text"&gt; &lt;br /&gt;
+GNU General Public License (GPL) 3.0&lt;/var&gt;
+        &lt;var class="optional-license-text"&gt; &lt;br /&gt;
+IBM Public License 1.0&lt;/var&gt;
         &lt;br /&gt;
 Jabber Open Source License 1.0
         &lt;br /&gt;
@@ -209,9 +218,16 @@ Zlib/libpng License -
 Zope Public License 2.0
       &lt;/p&gt;
 
+      &lt;div class="optional-license-text"&gt; 
+        &lt;p&gt;1 When an Independent Work is licensed under a &amp;quot;Compatible License&amp;quot;
+          pursuant to the EUPL, the Compatible License rather than the EUPL is
+          the applicable license for purposes of these FOSS License Exception
+          Terms and Conditions.&lt;/p&gt;
+
+      &lt;/div&gt;
     </spdx:exceptionTextHtml>
     <rdfs:comment>Typically used with GPL-2.0-only or GPL-2.0-or-later</rdfs:comment>
-    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;DigiRule Solutions's FOSS License Exception Terms and Conditions
+    <spdx:licenseExceptionTemplate>&lt;&lt;beginOptional&gt;&gt;&lt;&lt;var;name="company";original="DigiRule Solutions";match="DigiRule Solutions|Oracle"&gt;&gt; 's FOSS License Exception Terms and Conditions
 
 &lt;&lt;endOptional&gt;&gt;
    &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; Definitions.
@@ -219,11 +235,11 @@ Zope Public License 2.0
 
    "FOSS Application" means a free and open source software application distributed subject to a license listed in the section below titled "FOSS License List."
 
-   "FOSS Notice" means a notice placed by DigiRule Solutions in a copy of the Client Libraries stating that such copy of the Client Libraries may be distributed under DigiRule Solutions's or FOSS License Exception.
+   "FOSS Notice" means a notice placed by &lt;&lt;var;name="noticeCompany";original="DigiRule Solutions";match="DigiRule Solutions|Oracle or MySQL"&gt;&gt; in a copy of the&lt;&lt;beginOptional&gt;&gt; MySQL&lt;&lt;endOptional&gt;&gt; Client Libraries stating that such copy of the&lt;&lt;beginOptional&gt;&gt; MySQL&lt;&lt;endOptional&gt;&gt; Client Libraries may be distributed under &lt;&lt;var;name="exceptionName";original="DigiRule Solutions's or FOSS";match="DigiRule Solutions's or FOSS|Oracle's or MySQL's FOSS \(or FLOSS\)"&gt;&gt; License Exception.
 
    "Independent Work" means portions of the Derivative Work that are not derived from the Program and can reasonably be considered independent and separate works.
 
-   "Program" means a copy of DigiRule Solutions's Client Libraries that contain a FOSS Notice.
+   "Program" means a copy of &lt;&lt;var;name="programOwner";original="DigiRule Solutions's";match="DigiRule Solutions's|Oracle's MySQL"&gt;&gt; Client Libraries that &lt;&lt;var;name="contain";original="contain";match="contains?"&gt;&gt; a FOSS Notice.
 
    &lt;&lt;var;name="bullet";original="2.";match=".{0,20}"&gt;&gt; A FOSS application developer ("you" or "your") may distribute a Derivative Work provided that you and the Derivative Work meet all of the following conditions:
       &lt;&lt;var;name="bullet";original="1.";match=".{0,20}"&gt;&gt; You obey the GPL in all respects for the Program and all portions (including modifications) of the Program included in the Derivative Work (provided that this condition does not apply to Independent Works);
@@ -231,7 +247,7 @@ Zope Public License 2.0
       &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; You distribute Independent Works subject to a license listed in the section below titled "FOSS License List";
       &lt;&lt;var;name="bullet";original="4.";match=".{0,20}"&gt;&gt; You distribute Independent Works in object code or executable form with the complete corresponding machine-readable source code on the same medium and under the same FOSS license applying to the object code or executable forms;
       &lt;&lt;var;name="bullet";original="5.";match=".{0,20}"&gt;&gt; All works that are aggregated with the Program or the Derivative Work on a medium or volume of storage are not derivative works of the Program, Derivative Work or FOSS Application, and must reasonably be considered independent and separate works.
-   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; DigiRule Solutions reserves all rights not expressly granted in these terms and conditions. If all of the above conditions are not met, then this FOSS License Exception does not apply to you or your Derivative Work.
+   &lt;&lt;var;name="bullet";original="3.";match=".{0,20}"&gt;&gt; &lt;&lt;var;name="reservingCompany";original="DigiRule Solutions";match="DigiRule Solutions|Oracle"&gt;&gt; reserves all rights not expressly granted in these terms and conditions. If all of the above conditions are not met, then this FOSS License Exception does not apply to you or your Derivative Work.
 FOSS License List
 License Name Version(s)/Copyright Date
 Release Early Certified Software
@@ -242,8 +258,12 @@ Artistic license From Perl 5.8.0
 BSD license "July 22 1999"
 Common Development and Distribution License (CDDL) 1.0
 Common Public License 1.0
-Eclipse Public License 1.0
-GNU Library or "Lesser" General Public License (LGPL) 2.0/2.1/3.0
+Eclipse Public License 1.0&lt;&lt;beginOptional&gt;&gt; 
+European Union Public License (EUPL)&lt;&lt;beginOptional&gt;&gt; 1&lt;&lt;endOptional&gt;&gt; 1.1&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; 
+GNU Affero General Public License (AGPL) 3.0&lt;&lt;endOptional&gt;&gt;
+GNU Library or "Lesser" General Public License (LGPL) 2.0/2.1/3.0&lt;&lt;beginOptional&gt;&gt; 
+GNU General Public License (GPL) 3.0&lt;&lt;endOptional&gt;&gt;&lt;&lt;beginOptional&gt;&gt; 
+IBM Public License 1.0&lt;&lt;endOptional&gt;&gt;
 Jabber Open Source License 1.0
 MIT License (As listed in file MIT-License.txt) -
 Mozilla Public License (MPL) 1.0/1.1
@@ -259,7 +279,9 @@ X11 License "2001"
 Zlib/libpng License -
 Zope Public License 2.0
 
-</spdx:licenseExceptionTemplate>
+&lt;&lt;beginOptional&gt;&gt;1 When an Independent Work is licensed under a "Compatible License" pursuant to the EUPL, the Compatible License rather than the EUPL is the applicable license for purposes of these FOSS License Exception Terms and Conditions.
+
+&lt;&lt;endOptional&gt;&gt;</spdx:licenseExceptionTemplate>
     <spdx:isDeprecatedLicenseId rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean"
     >false</spdx:isDeprecatedLicenseId>
     <spdx:name>DigiRule FOSS License Exception</spdx:name>

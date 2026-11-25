@@ -1,8 +1,39 @@
 {
     "@graph": [
         {
+            "@id": "_:68123dd2-62c0-4172-bc26-9f34c1ba6c56",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://apache.org/licenses/LICENSE-1.1",
+            "spdx:timestamp": "2026-11-25T22:57:01Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Apache-1.1",
             "rdfs:comment": "This license has been superseded by Apache License 2.0",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:68123dd2-62c0-4172-bc26-9f34c1ba6c56"
+                },
+                {
+                    "@id": "_:640842ad-0703-4f24-9bf9-802e0c5c6a3a"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -11,14 +42,6 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:fadc9c26-98a3-4921-8492-e9a759c3b31b"
-                },
-                {
-                    "@id": "_:bbf9e98c-3e4d-4df1-87f2-493aa3df3c87"
-                }
-            ],
             "spdx:licenseText": "The Apache Software License, Version 1.1\n\nCopyright (c) 2000 The Apache Software Foundation.  All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3. The end-user documentation included with the redistribution, if any, must include the following acknowledgment:\n\"This product includes software developed by the Apache Software Foundation (http://www.apache.org/).\"\nAlternately, this acknowledgment may appear in the software itself, if and wherever such third-party acknowledgments normally appear.\n\n4. The names \"Apache\" and \"Apache Software Foundation\" must not be used to endorse or promote products derived from this software without prior written permission. For written permission, please contact apache@apache.org.\n\n5. Products derived from this software may not be called \"Apache\" nor may \"Apache\" appear in their name, without prior written permission of the Apache Software Foundation.\n\nTHIS SOFTWARE IS PROVIDED ``AS IS'' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE APACHE SOFTWARE FOUNDATION OR ITS CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n This software consists of voluntary contributions made by many individuals on behalf of the Apache Software Foundation. For more information on the Apache Software Foundation, please see <http://www.apache.org/>. Portions of this software are based upon public domain software originally written at the National Center for Supercomputing Applications, University of Illinois, Urbana-Champaign.\n",
             "spdx:isOsiApproved": {
                 "@value": "true",
@@ -34,30 +57,7 @@
             "spdx:name": "Apache License 1.1"
         },
         {
-            "@id": "_:fadc9c26-98a3-4921-8492-e9a759c3b31b",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://apache.org/licenses/LICENSE-1.1",
-            "spdx:timestamp": "2026-11-25T20:05:33Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:bbf9e98c-3e4d-4df1-87f2-493aa3df3c87",
+            "@id": "_:640842ad-0703-4f24-9bf9-802e0c5c6a3a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -71,7 +71,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/apache-1.1",
-            "spdx:timestamp": "2026-11-25T20:05:33Z",
+            "spdx:timestamp": "2026-11-25T22:57:01Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"

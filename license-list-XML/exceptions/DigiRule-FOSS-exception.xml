@@ -3,11 +3,12 @@
    <exception licenseId="DigiRule-FOSS-exception" name="DigiRule FOSS License Exception">
       <crossRefs>
          <crossRef>http://www.digirulesolutions.com/drupal/foss</crossRef>
+         <crossRef>https://www.mysql.com/about/legal/licensing/foss-exception/</crossRef>
       </crossRefs>
       <notes>Typically used with GPL-2.0-only or GPL-2.0-or-later</notes>
     <text>
       <titleText>
-         <p>DigiRule Solutions’s FOSS License Exception Terms and Conditions</p>
+         <p><alt match="DigiRule Solutions|Oracle" name="company">DigiRule Solutions</alt>’s FOSS License Exception Terms and Conditions</p>
       </titleText>
       <list>
         <item>
@@ -19,16 +20,16 @@
             <p>“FOSS Application” means a free and open source software
              application distributed subject to a license listed in
              the section below titled “FOSS License List.”</p>
-            <p>“FOSS Notice” means a notice placed by DigiRule Solutions
-             in a copy of the Client Libraries stating that such
-             copy of the Client Libraries may be distributed under
-             DigiRule Solutions's or FOSS License Exception.</p>
+            <p>“FOSS Notice” means a notice placed by <alt match="DigiRule Solutions|Oracle or MySQL" name="noticeCompany">DigiRule Solutions</alt>
+             in a copy of the <optional>MySQL</optional> Client Libraries stating that such
+             copy of the <optional>MySQL</optional> Client Libraries may be distributed under
+             <alt match="DigiRule Solutions's or FOSS|Oracle's or MySQL's FOSS \(or FLOSS\)" name="exceptionName">DigiRule Solutions's or FOSS</alt> License Exception.</p>
             <p>“Independent Work” means portions of the Derivative Work
              that are not derived from the Program and can
              reasonably be considered independent and separate
              works.</p>
-            <p>“Program” means a copy of DigiRule Solutions’s Client
-             Libraries that contain a FOSS Notice.</p>
+            <p>“Program” means a copy of <alt match="DigiRule Solutions's|Oracle's MySQL" name="programOwner">DigiRule Solutions’s</alt> Client
+             Libraries that <alt match="contains?" name="contain">contain</alt> a FOSS Notice.</p>
         </item>
         <item>
             <bullet>2.</bullet>
@@ -75,7 +76,7 @@
         </item>
         <item>
             <bullet>3.</bullet>
-          DigiRule Solutions reserves all rights not expressly
+          <alt match="DigiRule Solutions|Oracle" name="reservingCompany">DigiRule Solutions</alt> reserves all rights not expressly
              granted in these terms and conditions. If all of the
              above conditions are not met, then this FOSS License
              Exception does not apply to you or your Derivative
@@ -93,7 +94,11 @@
         <br/>Common Development and Distribution License (CDDL) 1.0
         <br/>Common Public License 1.0
         <br/>Eclipse Public License 1.0
+        <optional><br/>European Union Public License (EUPL)<optional>1</optional> 1.1</optional>
+        <optional><br/>GNU Affero General Public License (AGPL) 3.0</optional>
         <br/>GNU Library or “Lesser” General Public License (LGPL) 2.0/2.1/3.0
+        <optional><br/>GNU General Public License (GPL) 3.0</optional>
+        <optional><br/>IBM Public License 1.0</optional>
         <br/>Jabber Open Source License 1.0
         <br/>MIT License (As listed in file MIT-License.txt) -
         <br/>Mozilla Public License (MPL) 1.0/1.1
@@ -109,6 +114,12 @@
         <br/>Zlib/libpng License -
         <br/>Zope Public License 2.0
       </p>
+      <optional>
+        <p>1 When an Independent Work is licensed under a “Compatible License”
+          pursuant to the EUPL, the Compatible License rather than the EUPL is
+          the applicable license for purposes of these FOSS License Exception
+          Terms and Conditions.</p>
+      </optional>
     </text>
   </exception>
 </SPDXLicenseCollection>

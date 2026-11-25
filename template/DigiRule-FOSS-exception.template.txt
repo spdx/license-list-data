@@ -1,4 +1,4 @@
-<<beginOptional>>DigiRule Solutions's FOSS License Exception Terms and Conditions
+<<beginOptional>><<var;name="company";original="DigiRule Solutions";match="DigiRule Solutions|Oracle">> 's FOSS License Exception Terms and Conditions
 
 <<endOptional>>
    <<var;name="bullet";original="1.";match=".{0,20}">> Definitions.
@@ -6,11 +6,11 @@
 
    "FOSS Application" means a free and open source software application distributed subject to a license listed in the section below titled "FOSS License List."
 
-   "FOSS Notice" means a notice placed by DigiRule Solutions in a copy of the Client Libraries stating that such copy of the Client Libraries may be distributed under DigiRule Solutions's or FOSS License Exception.
+   "FOSS Notice" means a notice placed by <<var;name="noticeCompany";original="DigiRule Solutions";match="DigiRule Solutions|Oracle or MySQL">> in a copy of the<<beginOptional>> MySQL<<endOptional>> Client Libraries stating that such copy of the<<beginOptional>> MySQL<<endOptional>> Client Libraries may be distributed under <<var;name="exceptionName";original="DigiRule Solutions's or FOSS";match="DigiRule Solutions's or FOSS|Oracle's or MySQL's FOSS \(or FLOSS\)">> License Exception.
 
    "Independent Work" means portions of the Derivative Work that are not derived from the Program and can reasonably be considered independent and separate works.
 
-   "Program" means a copy of DigiRule Solutions's Client Libraries that contain a FOSS Notice.
+   "Program" means a copy of <<var;name="programOwner";original="DigiRule Solutions's";match="DigiRule Solutions's|Oracle's MySQL">> Client Libraries that <<var;name="contain";original="contain";match="contains?">> a FOSS Notice.
 
    <<var;name="bullet";original="2.";match=".{0,20}">> A FOSS application developer ("you" or "your") may distribute a Derivative Work provided that you and the Derivative Work meet all of the following conditions:
       <<var;name="bullet";original="1.";match=".{0,20}">> You obey the GPL in all respects for the Program and all portions (including modifications) of the Program included in the Derivative Work (provided that this condition does not apply to Independent Works);
@@ -18,7 +18,7 @@
       <<var;name="bullet";original="3.";match=".{0,20}">> You distribute Independent Works subject to a license listed in the section below titled "FOSS License List";
       <<var;name="bullet";original="4.";match=".{0,20}">> You distribute Independent Works in object code or executable form with the complete corresponding machine-readable source code on the same medium and under the same FOSS license applying to the object code or executable forms;
       <<var;name="bullet";original="5.";match=".{0,20}">> All works that are aggregated with the Program or the Derivative Work on a medium or volume of storage are not derivative works of the Program, Derivative Work or FOSS Application, and must reasonably be considered independent and separate works.
-   <<var;name="bullet";original="3.";match=".{0,20}">> DigiRule Solutions reserves all rights not expressly granted in these terms and conditions. If all of the above conditions are not met, then this FOSS License Exception does not apply to you or your Derivative Work.
+   <<var;name="bullet";original="3.";match=".{0,20}">> <<var;name="reservingCompany";original="DigiRule Solutions";match="DigiRule Solutions|Oracle">> reserves all rights not expressly granted in these terms and conditions. If all of the above conditions are not met, then this FOSS License Exception does not apply to you or your Derivative Work.
 FOSS License List
 License Name Version(s)/Copyright Date
 Release Early Certified Software
@@ -29,8 +29,12 @@ Artistic license From Perl 5.8.0
 BSD license "July 22 1999"
 Common Development and Distribution License (CDDL) 1.0
 Common Public License 1.0
-Eclipse Public License 1.0
-GNU Library or "Lesser" General Public License (LGPL) 2.0/2.1/3.0
+Eclipse Public License 1.0<<beginOptional>> 
+European Union Public License (EUPL)<<beginOptional>> 1<<endOptional>> 1.1<<endOptional>><<beginOptional>> 
+GNU Affero General Public License (AGPL) 3.0<<endOptional>>
+GNU Library or "Lesser" General Public License (LGPL) 2.0/2.1/3.0<<beginOptional>> 
+GNU General Public License (GPL) 3.0<<endOptional>><<beginOptional>> 
+IBM Public License 1.0<<endOptional>>
 Jabber Open Source License 1.0
 MIT License (As listed in file MIT-License.txt) -
 Mozilla Public License (MPL) 1.0/1.1
@@ -46,3 +50,6 @@ X11 License "2001"
 Zlib/libpng License -
 Zope Public License 2.0
 
+<<beginOptional>>1 When an Independent Work is licensed under a "Compatible License" pursuant to the EUPL, the Compatible License rather than the EUPL is the applicable license for purposes of these FOSS License Exception Terms and Conditions.
+
+<<endOptional>>

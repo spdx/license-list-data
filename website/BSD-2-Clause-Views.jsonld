@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:be70996b-67c4-466e-ab60-6e3238f1c54d",
+            "@id": "_:e6aa1688-887e-49e2-a352-3130c95f94f6",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
-            "spdx:timestamp": "2026-11-25T20:06:14Z",
+            "spdx:timestamp": "2026-11-25T22:57:35Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,31 +24,19 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:eb6be4da-e69a-4ec8-aab4-c4d86dcc5db6",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/protegeproject/protege/blob/master/license.txt",
-            "spdx:timestamp": "2026-11-25T20:06:13Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-Views",
             "rdfs:comment": "This is a more generalized version of BSD-2-Clause-FreeBSD, which is now deprecated. It is identical to BSD-2-Clause with the addition of the \"views and conclusions\" sentence at the end.",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:104cb7a8-5ad9-4e09-9fb4-12c4c141fc53"
+                },
+                {
+                    "@id": "_:eb32b2dc-ab2a-4662-9bcf-72bcba668a49"
+                },
+                {
+                    "@id": "_:e6aa1688-887e-49e2-a352-3130c95f94f6"
+                }
+            ],
             "rdfs:seeAlso": [
                 "http://www.freebsd.org/copyright/freebsd-license.html",
                 "https://people.freebsd.org/~ivoras/wine/patch-wine-nvidia.sh",
@@ -58,17 +46,6 @@
             "spdx:licenseText": "Copyright (c) <year> <owner> All rights reserved.\n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of the copyright holders or contributors.\n",
             "spdx:name": "BSD 2-Clause with views sentence",
             "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:2316297c-c11f-4bfd-8c09-b2a05e18e580"
-                },
-                {
-                    "@id": "_:be70996b-67c4-466e-ab60-6e3238f1c54d"
-                },
-                {
-                    "@id": "_:eb6be4da-e69a-4ec8-aab4-c4d86dcc5db6"
-                }
-            ],
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) <year> <owner> All rights reserved.  \";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nTHIS SOFTWARE IS PROVIDED BY <<var;name=\"copyrightHolderAsIs\";original=\"THE COPYRIGHT HOLDERS AND CONTRIBUTORS\";match=\".+\">> \"AS IS\" AND ANY <<var;name=\"express\";original=\"EXPRESS\";match=\"EXPRESS(ED)?\">> OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=\"copyrightHolderLiability\";original=\"THE COPYRIGHT HOLDER OR CONTRIBUTORS\";match=\".+\">> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nThe views and conclusions contained in the software and documentation are those of the authors and should not be interpreted as representing official policies, either expressed or implied, of <<var;name=\"copyrightHolderViews\";original=\"the copyright holders or contributors.\";match=\".+\">>\n\n",
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
@@ -80,7 +57,7 @@
             }
         },
         {
-            "@id": "_:2316297c-c11f-4bfd-8c09-b2a05e18e580",
+            "@id": "_:104cb7a8-5ad9-4e09-9fb4-12c4c141fc53",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -94,9 +71,32 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://www.freebsd.org/copyright/freebsd-license.html",
-            "spdx:timestamp": "2026-11-25T20:06:13Z",
+            "spdx:timestamp": "2026-11-25T22:57:35Z",
             "spdx:order": {
                 "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:eb32b2dc-ab2a-4662-9bcf-72bcba668a49",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/protegeproject/protege/blob/master/license.txt",
+            "spdx:timestamp": "2026-11-25T22:57:35Z",
+            "spdx:order": {
+                "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
