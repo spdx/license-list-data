@@ -9,18 +9,18 @@
             ],
             "rdfs:comment": "This is a legacy BSD-like license, but includes a specific requirement in the first clause requiring retention of the copyright notice \"immediately at the beginning of the file\".",
             "spdx:licenseText": "Copyright (c) 1995 David Nugent <davidn@blaze.net.au>\nAll rights reserved.\n\n\nRedistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:\n\n1.\tRedistributions of source code must retain the above copyright notice immediately at the beginning of the file, without modification, this list of conditions, and the following disclaimer.\n\n2.\tRedistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n\n3.\tThis work was done expressly for inclusion into FreeBSD. Other use is permitted provided this notation is included.\n\n4.\tAbsolutely no warranty of function or purpose is made by the author David Nugent.\n\n5.\tModifications may be freely made to this file providing the above conditions are met.\n",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:77f6f88a-daf7-4b98-8a7d-99ef448ea82d"
-                },
-                {
-                    "@id": "_:a598287c-9604-460b-b474-cbfdbc73b612"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:59ef1340-c40a-463f-86f8-8183ea44e6a9"
+                },
+                {
+                    "@id": "_:84a7127b-5d98-4753-9408-af531299a2da"
+                }
+            ],
             "spdx:name": "libutil David Nugent License",
             "spdx:isOsiApproved": {
                 "@value": "false",
@@ -30,30 +30,7 @@
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) 1995 David Nugent <davidn@blaze.net.au> All rights reserved.  \";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, is permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice immediately at the beginning of the file, without modification, this list of conditions, and the following disclaimer.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> This work was done expressly for inclusion into FreeBSD. Other use is permitted provided this notation is included.\n   <<var;name=\"bullet\";original=\"4.\";match=\".{0,20}\">> Absolutely no warranty of function or purpose is made by the <<var;name=\"author\";original=\"author David Nugent\";match=\"authors|author Peter Wemm|author David Nugent\">> .\n   <<var;name=\"bullet\";original=\"5.\";match=\".{0,20}\">> Modifications may be freely made to this file providing the above conditions are met."
         },
         {
-            "@id": "_:77f6f88a-daf7-4b98-8a7d-99ef448ea82d",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://cgit.freedesktop.org/libbsd/tree/man/setproctitle.3bsd",
-            "spdx:timestamp": "2026-11-25T23:16:36Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:a598287c-9604-460b-b474-cbfdbc73b612",
+            "@id": "_:59ef1340-c40a-463f-86f8-8183ea44e6a9",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -67,12 +44,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://web.mit.edu/freebsd/head/lib/libutil/login_ok.3",
-            "spdx:timestamp": "2026-11-25T23:16:36Z",
+            "spdx:timestamp": "2026-11-25T23:41:18Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:84a7127b-5d98-4753-9408-af531299a2da",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://cgit.freedesktop.org/libbsd/tree/man/setproctitle.3bsd",
+            "spdx:timestamp": "2026-11-25T23:41:18Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],
