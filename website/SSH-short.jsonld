@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:cb8b5e30-50c3-4661-a80f-e6c8f5f77f17",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
-            "spdx:timestamp": "2026-11-25T23:12:27Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:1c4cf72a-80de-45c6-9c3d-4148054f3ce6",
+            "@id": "_:57d424d0-f398-460e-92b5-3f9eacac1d65",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp",
-            "spdx:timestamp": "2026-11-25T23:12:27Z",
+            "spdx:timestamp": "2026-11-25T23:38:07Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:b82dd039-23fe-4b6f-a1f4-5443a4ab4395",
+            "@id": "_:9e547dbd-d112-44dd-80f9-de6e892a441a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
-            "spdx:timestamp": "2026-11-25T23:12:26Z",
+            "spdx:timestamp": "2026-11-25T23:38:07Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,7 +47,41 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:00f71775-e80c-4c0b-bf0e-41dceaa9e9d4",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h",
+            "spdx:timestamp": "2026-11-25T23:38:07Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/SSH-short",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:57d424d0-f398-460e-92b5-3f9eacac1d65"
+                },
+                {
+                    "@id": "_:9e547dbd-d112-44dd-80f9-de6e892a441a"
+                },
+                {
+                    "@id": "_:00f71775-e80c-4c0b-bf0e-41dceaa9e9d4"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -79,17 +90,6 @@
                 "http://web.mit.edu/kolya/.f/root/athena.mit.edu/sipb.mit.edu/project/openssh/OldFiles/src/openssh-2.9.9p2/ssh-add.1",
                 "https://joinup.ec.europa.eu/svn/lesoll/trunk/italc/lib/src/dsa_key.cpp",
                 "https://github.com/openssh/openssh-portable/blob/1b11ea7c58cd5c59838b5fa574cd456d6047b2d4/pathnames.h"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:1c4cf72a-80de-45c6-9c3d-4148054f3ce6"
-                },
-                {
-                    "@id": "_:cb8b5e30-50c3-4661-a80f-e6c8f5f77f17"
-                },
-                {
-                    "@id": "_:b82dd039-23fe-4b6f-a1f4-5443a4ab4395"
-                }
             ],
             "spdx:name": "SSH short notice",
             "rdfs:comment": "This is short version of SSH-OpenSSH that appears in some files associated with the original SSH implementation.",

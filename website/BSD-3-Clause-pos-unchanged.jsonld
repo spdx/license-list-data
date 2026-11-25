@@ -1,7 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:a1a444c0-f14b-464a-b1a0-a48ed66d8300",
+            "@id": "_:651875a3-1400-48a4-b432-9e94fd6ca548",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -11,59 +11,36 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/picolibc/picolibc/blob/eb0eef347c8f282bbaf777826dd788e207274846/libm/ld/common/s_fabsl.c",
-            "spdx:timestamp": "2026-11-25T23:08:04Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:1e29cd51-3669-419c-bd30-2d864f073279",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://cgit.freebsd.org/ports/tree/usr.sbin/vidcontrol/decode.c",
-            "spdx:timestamp": "2026-11-25T23:08:05Z",
+            "spdx:url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=blob;f=sys/sys/consio.h",
+            "spdx:timestamp": "2026-11-25T23:32:24Z",
             "spdx:order": {
-                "@value": "2",
+                "@value": "3",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
-            "spdx:match": "N/A",
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         },
         {
             "@id": "http://spdx.org/licenses/BSD-3-Clause-pos-unchanged",
-            "@type": "spdx:ListedLicense",
-            "rdfs:comment": "This is the same as BSD-3-Clause, but adds a requirement that the notice remain in the same position unchanged.",
             "spdx:crossRef": [
                 {
-                    "@id": "_:1e29cd51-3669-419c-bd30-2d864f073279"
+                    "@id": "_:ccf2dda7-5068-4916-80ba-c5f2fd7c64ae"
                 },
                 {
-                    "@id": "_:34fe86c3-33f0-4494-8c3d-353cb280b2d0"
+                    "@id": "_:cec817aa-b378-4d79-b8cb-98c3626561ba"
                 },
                 {
-                    "@id": "_:a1a444c0-f14b-464a-b1a0-a48ed66d8300"
+                    "@id": "_:ffa34025-ac63-4912-812c-c3f921f9a7d0"
                 },
                 {
-                    "@id": "_:17838389-0d4d-4820-b210-f5ce2742e70f"
+                    "@id": "_:651875a3-1400-48a4-b432-9e94fd6ca548"
                 }
             ],
+            "@type": "spdx:ListedLicense",
+            "rdfs:comment": "This is the same as BSD-3-Clause, but adds a requirement that the notice remain in the same position unchanged.",
             "rdfs:seeAlso": [
                 "https://cgit.freebsd.org/ports/tree/sys/powerpc/powerpc/elf_common.c",
                 "https://cgit.freebsd.org/ports/tree/usr.sbin/vidcontrol/decode.c",
@@ -84,7 +61,53 @@
             "spdx:name": "BSD 3-Clause - position unchanged variant"
         },
         {
-            "@id": "_:34fe86c3-33f0-4494-8c3d-353cb280b2d0",
+            "@id": "_:ccf2dda7-5068-4916-80ba-c5f2fd7c64ae",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/picolibc/picolibc/blob/eb0eef347c8f282bbaf777826dd788e207274846/libm/ld/common/s_fabsl.c",
+            "spdx:timestamp": "2026-11-25T23:32:22Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:cec817aa-b378-4d79-b8cb-98c3626561ba",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://cgit.freebsd.org/ports/tree/usr.sbin/vidcontrol/decode.c",
+            "spdx:timestamp": "2026-11-25T23:32:24Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:ffa34025-ac63-4912-812c-c3f921f9a7d0",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -98,35 +121,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://cgit.freebsd.org/ports/tree/sys/powerpc/powerpc/elf_common.c",
-            "spdx:timestamp": "2026-11-25T23:08:05Z",
+            "spdx:timestamp": "2026-11-25T23:32:22Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:17838389-0d4d-4820-b210-f5ce2742e70f",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=blob;f=sys/sys/consio.h",
-            "spdx:timestamp": "2026-11-25T23:08:07Z",
-            "spdx:order": {
-                "@value": "3",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],

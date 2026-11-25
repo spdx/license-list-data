@@ -6,14 +6,23 @@ PREFIX spdx: <http://spdx.org/rdf/terms#>
 <http://spdx.org/licenses/Community-Spec-1.0>
         a                             spdx:ListedLicense;
         rdfs:comment                  "Supporting materials are available at https://github.com/CommunitySpecification/1.0.";
-        rdfs:seeAlso                  "https://github.com/CommunitySpecification/1.0/blob/master/1._Community_Specification_License-v1.md";
+        rdfs:seeAlso                  "https://github.com/CommunitySpecification/1.0/blob/master/1._Community_Specification_License-v1.md" , "https://github.com/CommunitySpecification/Community_Specification/blob/V1.0/1._Community_Specification_License-v1.md";
+        spdx:crossRef                 [ a                   spdx:CrossRef;
+                                        spdx:isLive         true;
+                                        spdx:isValid        true;
+                                        spdx:isWayBackLink  false;
+                                        spdx:match          "false";
+                                        spdx:order          "1"^^<http://www.w3.org/2001/XMLSchema#int>;
+                                        spdx:timestamp      "2026-11-25T23:31:50Z";
+                                        spdx:url            "https://github.com/CommunitySpecification/Community_Specification/blob/V1.0/1._Community_Specification_License-v1.md"
+                                      ];
         spdx:crossRef                 [ a                   spdx:CrossRef;
                                         spdx:isLive         false;
                                         spdx:isValid        true;
                                         spdx:isWayBackLink  false;
                                         spdx:match          "N/A";
                                         spdx:order          "0"^^<http://www.w3.org/2001/XMLSchema#int>;
-                                        spdx:timestamp      "2026-11-25T23:07:03Z";
+                                        spdx:timestamp      "2026-11-25T23:31:51Z";
                                         spdx:url            "https://github.com/CommunitySpecification/1.0/blob/master/1._Community_Specification_License-v1.md"
                                       ];
         spdx:isDeprecatedLicenseId    false;

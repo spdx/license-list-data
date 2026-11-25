@@ -1,20 +1,43 @@
 {
     "@graph": [
         {
+            "@id": "_:2fd114e4-28cd-4366-b358-debb39b8cc05",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
+            "spdx:timestamp": "2026-11-25T23:40:45Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/BSD-2-Clause-pos-unchanged",
             "@type": "spdx:ListedLicense",
             "spdx:crossRef": [
                 {
-                    "@id": "_:d6978fa2-d489-44e2-946d-55a92665b01d"
+                    "@id": "_:2fd114e4-28cd-4366-b358-debb39b8cc05"
                 },
                 {
-                    "@id": "_:db392b2b-2070-4acc-9029-567173d8e1e5"
+                    "@id": "_:3f96ca49-8b62-42c1-8e7b-5d463eded3f0"
                 },
                 {
-                    "@id": "_:6304cbaf-423b-4337-b984-912fab2a8c83"
+                    "@id": "_:9c8ad10a-56d3-4809-a8f5-1e0a0601cee5"
                 },
                 {
-                    "@id": "_:6a96693e-cce8-4981-979e-3ebe54fbe640"
+                    "@id": "_:c57dacb1-eabd-4fee-a568-11037984dcc4"
                 }
             ],
             "rdfs:seeAlso": [
@@ -38,30 +61,7 @@
             }
         },
         {
-            "@id": "_:d6978fa2-d489-44e2-946d-55a92665b01d",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/freebsd/pkg/blob/main/src/add.c",
-            "spdx:timestamp": "2026-11-25T23:15:06Z",
-            "spdx:order": {
-                "@value": "3",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:db392b2b-2070-4acc-9029-567173d8e1e5",
+            "@id": "_:3f96ca49-8b62-42c1-8e7b-5d463eded3f0",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -75,7 +75,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/libarchive/libarchive/blob/master/libarchive_fe/line_reader.c",
-            "spdx:timestamp": "2026-11-25T23:15:05Z",
+            "spdx:timestamp": "2026-11-25T23:40:46Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -84,7 +84,30 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:6304cbaf-423b-4337-b984-912fab2a8c83",
+            "@id": "_:9c8ad10a-56d3-4809-a8f5-1e0a0601cee5",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/freebsd/pkg/blob/main/src/add.c",
+            "spdx:timestamp": "2026-11-25T23:40:46Z",
+            "spdx:order": {
+                "@value": "3",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:c57dacb1-eabd-4fee-a568-11037984dcc4",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -98,35 +121,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://cgit.freebsd.org/src/tree/usr.bin/sockstat/sockstat.c",
-            "spdx:timestamp": "2026-11-25T23:15:06Z",
+            "spdx:timestamp": "2026-11-25T23:40:45Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:6a96693e-cce8-4981-979e-3ebe54fbe640",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
-            "spdx:timestamp": "2026-11-25T23:15:05Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],

@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:e5c7fc74-40d7-45d0-9bee-7790c5d4f783",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
-            "spdx:timestamp": "2026-11-25T23:10:50Z",
-            "spdx:order": {
-                "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:7717b7c9-d031-4ee6-9104-832c4a12a645",
+            "@id": "_:0b3dc12e-e3de-4253-b59f-c50459653b69",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
-            "spdx:timestamp": "2026-11-25T23:10:50Z",
+            "spdx:timestamp": "2026-11-25T23:36:34Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:ceff2180-aba4-423a-bf6e-7bb0dce0eb4a",
+            "@id": "_:d73252d5-971d-4eb3-a93e-e15524a936e9",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://android.googlesource.com/platform/external/dng_sdk/+/refs/heads/master/source/dng_lossless_jpeg.cpp#16",
-            "spdx:timestamp": "2026-11-25T23:10:51Z",
+            "spdx:timestamp": "2026-11-25T23:36:34Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,7 +47,41 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:9f61be90-df65-4f4a-bbc4-637d95be9720",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
+            "spdx:timestamp": "2026-11-25T23:36:34Z",
+            "spdx:order": {
+                "@value": "2",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Cornell-Lossless-JPEG",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:0b3dc12e-e3de-4253-b59f-c50459653b69"
+                },
+                {
+                    "@id": "_:9f61be90-df65-4f4a-bbc4-637d95be9720"
+                },
+                {
+                    "@id": "_:d73252d5-971d-4eb3-a93e-e15524a936e9"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://gitlab.freedesktop.org/libopenraw/libopenraw/blob/master/lib/ljpegdecompressor.cpp#L32",
                 "https://www.mssl.ucl.ac.uk/~mcrw/src/20050920/proto.h",
@@ -84,17 +95,6 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:7717b7c9-d031-4ee6-9104-832c4a12a645"
-                },
-                {
-                    "@id": "_:e5c7fc74-40d7-45d0-9bee-7790c5d4f783"
-                },
-                {
-                    "@id": "_:ceff2180-aba4-423a-bf6e-7bb0dce0eb4a"
-                }
-            ],
             "spdx:name": "Cornell Lossless JPEG License",
             "@type": "spdx:ListedLicense",
             "spdx:licenseText": "Copyright (c) 1993 Cornell University, Kongji Huang\nAll rights reserved.\n\nPermission to use, copy, modify, and distribute this software and its\ndocumentation for any purpose, without fee, and without written\nagreement is hereby granted, provided that the above copyright notice\nand the following two paragraphs appear in all copies of this\nsoftware.\n\nIN NO EVENT SHALL THE CORNELL UNIVERSITY BE LIABLE TO ANY PARTY FOR\nDIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING\nOUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF CORNELL\nUNIVERSITY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nTHE CORNELL UNIVERSITY SPECIFICALLY DISCLAIMS ANY WARRANTIES,\nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF\nMERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.  THE SOFTWARE\nPROVIDED HEREUNDER IS ON AN \"AS IS\" BASIS, AND CORNELL UNIVERSITY HAS\nNO OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS,\nOR MODIFICATIONS.\n",

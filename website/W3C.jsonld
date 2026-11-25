@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:a0843a46-2189-455c-89b4-138c2cbd4ac6",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html",
-            "spdx:timestamp": "2026-11-25T23:11:55Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:2c9effd7-fcc9-4ba4-a899-14946e38dff1",
+            "@id": "_:4e4db8c8-3471-47a0-bb19-ab407ff7d71a",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://opensource.org/license/W3C",
-            "spdx:timestamp": "2026-11-25T23:11:55Z",
+            "spdx:timestamp": "2026-11-25T23:38:05Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,38 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:8aec73d3-9564-4e52-a28f-3d95b910dcb7",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html",
+            "spdx:timestamp": "2026-11-25T23:38:05Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/W3C",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:4e4db8c8-3471-47a0-bb19-ab407ff7d71a"
+                },
+                {
+                    "@id": "_:8aec73d3-9564-4e52-a28f-3d95b910dcb7"
+                }
+            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -64,14 +72,6 @@
                 "@value": "true",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:a0843a46-2189-455c-89b4-138c2cbd4ac6"
-                },
-                {
-                    "@id": "_:2c9effd7-fcc9-4ba4-a899-14946e38dff1"
-                }
-            ],
             "rdfs:seeAlso": [
                 "http://www.w3.org/Consortium/Legal/2002/copyright-software-20021231.html",
                 "https://opensource.org/license/W3C"

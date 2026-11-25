@@ -3,21 +3,24 @@
    <license isOsiApproved="false" licenseId="EPICS" name="EPICS Open License" listVersionAdded="3.10">
       <crossRefs>
          <crossRef>https://epics.anl.gov/license/open.php</crossRef>
+         <crossRef>https://epics-controls.org/licensing/</crossRef>
       </crossRefs>
     <text>
-      <p>EPICS Open License Terms</p>
-      <p>The following is the text of the EPICS Open software license agreement which now
-      applies to EPICS Base and many of the unbundled EPICS extensions and support modules.</p>
+      <optional>
+        <p>EPICS Open License Terms</p>
+        <p>The following is the text of the EPICS Open software license agreement which now
+        applies to EPICS Base and many of the unbundled EPICS extensions and support modules.</p>
+      </optional>
       <copyrightText>
          <p>Copyright © &lt;YEAR&gt; &lt;HOLDERS&gt;. All rights reserved.</p>
       </copyrightText>
-      <p>&lt;PRODUCT&gt; is distributed subject to the following license conditions:</p>
+      <p><alt match=".+" name="product1">&lt;PRODUCT&gt;</alt> is distributed subject to the following license conditions:</p>
       <p>SOFTWARE LICENSE AGREEMENT</p>
-      <p>Software: &lt;PRODUCT&gt;</p>
+      <p>Software: <alt match=".+" name="product2">&lt;PRODUCT&gt;</alt></p>
       <list>
         <item>
           <bullet>1.</bullet>
-          The "Software", below, refers to &lt;PRODUCT&gt; (in either source code, or binary form
+          The "Software", below, refers to <alt match=".+" name="product3">&lt;PRODUCT&gt;</alt> (in either source code, or binary form
           and accompanying documentation). Each licensee is addressed as "you" or "Licensee."
         </item>
         <item>
@@ -82,7 +85,7 @@
           ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
           TITLE OR NON-INFRINGEMENT, (2) DO NOT ASSUME ANY LEGAL LIABILITY OR
           RESPONSIBILITY FOR THE ACCURACY, COMPLETENESS, OR USEFULNESS OF THE
-          SOFTWARE, (3) DO NOT REPTHAT USE OF THE SOFTWARE WOULD NOT INFRINGE
+          SOFTWARE, (3) DO NOT REPRESENT THAT USE OF THE SOFTWARE WOULD NOT INFRINGE
           PRIVATELY OWNED RIGHTS, (4) DO NOT WARRANT THAT THE SOFTWARE WILL FUNCTION
           UNINTERRUPTED, THAT IT IS ERROR-FREE OR THAT ANY ERRORS WILL BE CORRECTED.
         </item>
