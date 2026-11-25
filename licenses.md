@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version 1bfd558
+The following licenses have been generated from the license list version ede7a6b
 
 ## Licenses with Short Identifiers
 
@@ -566,6 +566,7 @@ The following licenses have been generated from the license list version 1bfd558
 | The Parity Public License 6.0.0                                                           | [Parity-6.0.0][]                         |      |           |
 | The Parity Public License 7.0.0                                                           | [Parity-7.0.0][]                         |      |           |
 | Open Data Commons Public Domain Dedication & License 1.0                                  | [PDDL-1.0][]                             |      |           |
+| Public Data License 1.0                                                                   | [PDL-Japan-1.0][]                        |      |           |
 | PHP License v3.0                                                                          | [PHP-3.0][]                              | Y    |           |
 | PHP License v3.01                                                                         | [PHP-3.01][]                             | Y    | Y         |
 | Pixar License                                                                             | [Pixar][]                                |      |           |
@@ -1436,6 +1437,7 @@ The following licenses have been generated from the license list version 1bfd558
 [Parity-6.0.0]: text/Parity-6.0.0.txt
 [Parity-7.0.0]: text/Parity-7.0.0.txt
 [PDDL-1.0]: text/PDDL-1.0.txt
+[PDL-Japan-1.0]: text/PDL-Japan-1.0.txt
 [PHP-3.0]: text/PHP-3.0.txt
 [PHP-3.01]: text/PHP-3.01.txt
 [Pixar]: text/Pixar.txt

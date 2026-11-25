@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:f3a45a09-5671-4595-a8d0-4a3c7e4b15d4",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE",
-            "spdx:timestamp": "2026-11-25T23:00:16Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:2a234486-449e-4c45-a8d7-68214e73efc2",
+            "@id": "_:c08c2ca6-a635-4874-80b8-befeeca37a11",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE",
-            "spdx:timestamp": "2026-11-25T23:00:16Z",
+            "spdx:timestamp": "2026-11-25T23:13:58Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,63 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:6d079486-a3d2-4d9f-9428-5ab38c7f0ec9",
+            "@id": "_:7211ba99-1c7d-4e09-a236-9e496b4ea7f1",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE",
+            "spdx:timestamp": "2026-11-25T23:13:58Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "http://spdx.org/licenses/any-OSI-perl-modules",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:4914c2b2-9078-4e1e-9ecd-e456918757e9"
+                },
+                {
+                    "@id": "_:c08c2ca6-a635-4874-80b8-befeeca37a11"
+                },
+                {
+                    "@id": "_:7211ba99-1c7d-4e09-a236-9e496b4ea7f1"
+                }
+            ],
+            "spdx:standardLicenseTemplate": "This software may be redistributed under the terms of the GPL, LGPL, modified BSD, or Artistic license, or any of the other OSI approved licenses listed at http://www.opensource.org/licenses/alphabetical. Distribution is allowed under all of these licenses, or any smaller subset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see under which license terms it was distributed. Alternatively, a distributor may choose to replace the LICENSE section of the documentation and/or include a LICENSE file to reflect the license(s) they chose to redistribute under.\n\n",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": [
+                "https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE",
+                "https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE",
+                "https://metacpan.org/pod/Net::MQTT::Simple#LICENSE"
+            ],
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:licenseTextHtml": "\n         <p>\n            This software may be redistributed under the terms of the GPL, LGPL,\n            modified BSD, or Artistic license, or any of the other OSI approved\n            licenses listed at http://www.opensource.org/licenses/alphabetical.\n            Distribution is allowed under all of these licenses, or any smaller\n            subset of multiple or just one of these licenses.\n         </p>\n\n         <p>\n            When using a packaged version, please refer to the package metadata to see\n            under which license terms it was distributed. Alternatively, a distributor\n            may choose to replace the LICENSE section of the documentation and/or\n            include a LICENSE file to reflect the license(s) they chose to redistribute\n            under.\n         </p>\n\n      ",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:name": "Any OSI License - Perl Modules",
+            "spdx:licenseText": "This software may be redistributed under the terms of the GPL, LGPL,\nmodified BSD, or Artistic license, or any of the other OSI approved\nlicenses listed at http://www.opensource.org/licenses/alphabetical.\nDistribution is allowed under all of these licenses, or any smaller\nsubset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see\nunder which license terms it was distributed. Alternatively, a distributor\nmay choose to replace the LICENSE section of the documentation and/or\ninclude a LICENSE file to reflect the license(s) they chose to redistribute\nunder.\n",
+            "rdfs:comment": "This is similar in spirit to any-OSI, but has some more specific text. It is used in several Perl modules."
+        },
+        {
+            "@id": "_:4914c2b2-9078-4e1e-9ecd-e456918757e9",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,46 +94,13 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://metacpan.org/pod/Net::MQTT::Simple#LICENSE",
-            "spdx:timestamp": "2026-11-25T23:00:16Z",
+            "spdx:timestamp": "2026-11-25T23:13:58Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
             "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/any-OSI-perl-modules",
-            "spdx:standardLicenseTemplate": "This software may be redistributed under the terms of the GPL, LGPL, modified BSD, or Artistic license, or any of the other OSI approved licenses listed at http://www.opensource.org/licenses/alphabetical. Distribution is allowed under all of these licenses, or any smaller subset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see under which license terms it was distributed. Alternatively, a distributor may choose to replace the LICENSE section of the documentation and/or include a LICENSE file to reflect the license(s) they chose to redistribute under.\n\n",
-            "@type": "spdx:ListedLicense",
-            "rdfs:seeAlso": [
-                "https://metacpan.org/release/JUERD/Exporter-Tidy-0.09/view/Tidy.pm#LICENSE",
-                "https://metacpan.org/pod/Qmail::Deliverable::Client#LICENSE",
-                "https://metacpan.org/pod/Net::MQTT::Simple#LICENSE"
-            ],
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:licenseTextHtml": "\n         <p>\n            This software may be redistributed under the terms of the GPL, LGPL,\n            modified BSD, or Artistic license, or any of the other OSI approved\n            licenses listed at http://www.opensource.org/licenses/alphabetical.\n            Distribution is allowed under all of these licenses, or any smaller\n            subset of multiple or just one of these licenses.\n         </p>\n\n         <p>\n            When using a packaged version, please refer to the package metadata to see\n            under which license terms it was distributed. Alternatively, a distributor\n            may choose to replace the LICENSE section of the documentation and/or\n            include a LICENSE file to reflect the license(s) they chose to redistribute\n            under.\n         </p>\n\n      ",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:6d079486-a3d2-4d9f-9428-5ab38c7f0ec9"
-                },
-                {
-                    "@id": "_:f3a45a09-5671-4595-a8d0-4a3c7e4b15d4"
-                },
-                {
-                    "@id": "_:2a234486-449e-4c45-a8d7-68214e73efc2"
-                }
-            ],
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "Any OSI License - Perl Modules",
-            "spdx:licenseText": "This software may be redistributed under the terms of the GPL, LGPL,\nmodified BSD, or Artistic license, or any of the other OSI approved\nlicenses listed at http://www.opensource.org/licenses/alphabetical.\nDistribution is allowed under all of these licenses, or any smaller\nsubset of multiple or just one of these licenses.\n\nWhen using a packaged version, please refer to the package metadata to see\nunder which license terms it was distributed. Alternatively, a distributor\nmay choose to replace the LICENSE section of the documentation and/or\ninclude a LICENSE file to reflect the license(s) they chose to redistribute\nunder.\n",
-            "rdfs:comment": "This is similar in spirit to any-OSI, but has some more specific text. It is used in several Perl modules."
         }
     ],
     "@context": {

@@ -1,29 +1,6 @@
 {
     "@graph": [
         {
-            "@id": "_:43360a82-ed52-417f-b48b-0c9a573143ba",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11",
-            "spdx:timestamp": "2026-11-25T23:02:26Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
             "@id": "http://spdx.org/licenses/gtkbook",
             "rdfs:seeAlso": [
                 "https://github.com/slogan621/gtkbook",
@@ -38,21 +15,21 @@
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:a66b788c-2236-48a5-ad2a-4edafc829612"
+                },
+                {
+                    "@id": "_:a5f5e215-a3fc-4cc7-b602-47ae4f8526bf"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:43360a82-ed52-417f-b48b-0c9a573143ba"
-                },
-                {
-                    "@id": "_:5c9060a9-8776-4062-80e6-7b9bd7c4fed1"
-                }
-            ]
+            }
         },
         {
-            "@id": "_:5c9060a9-8776-4062-80e6-7b9bd7c4fed1",
+            "@id": "_:a66b788c-2236-48a5-ad2a-4edafc829612",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -66,12 +43,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/slogan621/gtkbook",
-            "spdx:timestamp": "2026-11-25T23:02:26Z",
+            "spdx:timestamp": "2026-11-25T23:17:06Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:a5f5e215-a3fc-4cc7-b602-47ae4f8526bf",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11",
+            "spdx:timestamp": "2026-11-25T23:17:06Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
             "@type": "spdx:CrossRef"
         }
     ],

@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:87b3db45-710a-4cb7-8dbf-742c4f114fc6",
+            "@id": "_:a1a444c0-f14b-464a-b1a0-a48ed66d8300",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/picolibc/picolibc/blob/eb0eef347c8f282bbaf777826dd788e207274846/libm/ld/common/s_fabsl.c",
+            "spdx:timestamp": "2026-11-25T23:08:04Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:1e29cd51-3669-419c-bd30-2d864f073279",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,32 +38,9 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://cgit.freebsd.org/ports/tree/usr.sbin/vidcontrol/decode.c",
-            "spdx:timestamp": "2026-11-25T22:54:26Z",
+            "spdx:timestamp": "2026-11-25T23:08:05Z",
             "spdx:order": {
                 "@value": "2",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:37837e36-9f43-43a8-99f5-38406c402f6c",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://cgit.freebsd.org/ports/tree/sys/powerpc/powerpc/elf_common.c",
-            "spdx:timestamp": "2026-11-25T22:54:26Z",
-            "spdx:order": {
-                "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "N/A",
@@ -50,25 +50,25 @@
             "@id": "http://spdx.org/licenses/BSD-3-Clause-pos-unchanged",
             "@type": "spdx:ListedLicense",
             "rdfs:comment": "This is the same as BSD-3-Clause, but adds a requirement that the notice remain in the same position unchanged.",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:1e29cd51-3669-419c-bd30-2d864f073279"
+                },
+                {
+                    "@id": "_:34fe86c3-33f0-4494-8c3d-353cb280b2d0"
+                },
+                {
+                    "@id": "_:a1a444c0-f14b-464a-b1a0-a48ed66d8300"
+                },
+                {
+                    "@id": "_:17838389-0d4d-4820-b210-f5ce2742e70f"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://cgit.freebsd.org/ports/tree/sys/powerpc/powerpc/elf_common.c",
                 "https://cgit.freebsd.org/ports/tree/usr.sbin/vidcontrol/decode.c",
                 "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=blob;f=sys/sys/consio.h",
                 "https://github.com/picolibc/picolibc/blob/eb0eef347c8f282bbaf777826dd788e207274846/libm/ld/common/s_fabsl.c"
-            ],
-            "spdx:crossRef": [
-                {
-                    "@id": "_:87b3db45-710a-4cb7-8dbf-742c4f114fc6"
-                },
-                {
-                    "@id": "_:6f1f96a4-17b4-49ba-b509-17b8b013f82f"
-                },
-                {
-                    "@id": "_:fef50ea0-76b9-4af1-97c2-c01f50657b87"
-                },
-                {
-                    "@id": "_:37837e36-9f43-43a8-99f5-38406c402f6c"
-                }
             ],
             "spdx:licenseTextHtml": "\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                Copyright (c) &lt;year&gt; &lt;owner&gt;<br />\n\n                All rights reserved.\n            </span></var>\n            <p>Redistribution and use in source and binary forms, with or without modification,\n                are permitted provided that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n                \n<li>\n                    <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n                    Redistributions of source code must retain the above copyright\n                    notice, this list of conditions and the following disclaimer\n                    in this position and unchanged.\n                </li>\n                \n<li>\n                    <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n                    Redistributions in binary form must reproduce the above copyright\n                    notice, this list of conditions and the following disclaimer in the\n                    documentation and/or other materials provided with the distribution.\n                </li>\n                \n<li>\n                    <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 3.</span></var>\n                    The name of the author may not be used to endorse or promote products\n                    derived from this software without specific prior written permission\n                </li>\n            \n</ul>\n            <p>THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS&apos;&apos; AND ANY EXPRESS OR\n               IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\n               OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n               IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,\n               INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\n               NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n               DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n               THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n               (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\n               THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>\n\n        ",
             "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) <year> <owner> All rights reserved.\";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer in this position and unchanged.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\n   <<var;name=\"bullet\";original=\"3.\";match=\".{0,20}\">> The name of the author may not be used to endorse or promote products derived from this software without specific prior written permission\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n",
@@ -84,7 +84,30 @@
             "spdx:name": "BSD 3-Clause - position unchanged variant"
         },
         {
-            "@id": "_:6f1f96a4-17b4-49ba-b509-17b8b013f82f",
+            "@id": "_:34fe86c3-33f0-4494-8c3d-353cb280b2d0",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://cgit.freebsd.org/ports/tree/sys/powerpc/powerpc/elf_common.c",
+            "spdx:timestamp": "2026-11-25T23:08:05Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "N/A",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:17838389-0d4d-4820-b210-f5ce2742e70f",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -98,35 +121,12 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://gitweb.dragonflybsd.org/?p=dragonfly.git;a=blob;f=sys/sys/consio.h",
-            "spdx:timestamp": "2026-11-25T22:54:27Z",
+            "spdx:timestamp": "2026-11-25T23:08:07Z",
             "spdx:order": {
                 "@value": "3",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:fef50ea0-76b9-4af1-97c2-c01f50657b87",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/picolibc/picolibc/blob/eb0eef347c8f282bbaf777826dd788e207274846/libm/ld/common/s_fabsl.c",
-            "spdx:timestamp": "2026-11-25T22:54:26Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "N/A",
             "@type": "spdx:CrossRef"
         }
     ],
