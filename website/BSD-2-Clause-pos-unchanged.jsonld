@@ -1,7 +1,44 @@
 {
     "@graph": [
         {
-            "@id": "_:2982233d-5e69-4a3d-9ada-9b354a09b6bf",
+            "@id": "http://spdx.org/licenses/BSD-2-Clause-pos-unchanged",
+            "@type": "spdx:ListedLicense",
+            "rdfs:seeAlso": [
+                "https://github.com/freebsd/pkg/blob/main/src/add.c",
+                "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
+                "https://github.com/libarchive/libarchive/blob/master/libarchive_fe/line_reader.c",
+                "https://cgit.freebsd.org/src/tree/usr.bin/sockstat/sockstat.c"
+            ],
+            "rdfs:comment": "This is the same as BSD-2-Clause, but adds a requirement that the notice remain in the same position unchanged.",
+            "spdx:isOsiApproved": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:crossRef": [
+                {
+                    "@id": "_:9aff0d75-638b-4304-9ddd-f61034a85654"
+                },
+                {
+                    "@id": "_:53659032-00cc-48bc-a4cd-b2167e71e9c7"
+                },
+                {
+                    "@id": "_:90029528-900a-4845-9c7f-954d63904a17"
+                },
+                {
+                    "@id": "_:f939ac15-155e-4d1e-994c-25f501d6d48b"
+                }
+            ],
+            "spdx:name": "BSD 2-Clause - position unchanged variant",
+            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) <year> <owner> All rights reserved.\";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer in this position and unchanged.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n",
+            "spdx:licenseTextHtml": "\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                Copyright (c) &lt;year&gt; &lt;owner&gt;<br />\n\n                All rights reserved.\n            </span></var>\n            <p>Redistribution and use in source and binary forms, with or without modification,\n                are permitted provided that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n                \n<li>\n                    <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n                    Redistributions of source code must retain the above copyright\n                    notice, this list of conditions and the following disclaimer\n                    in this position and unchanged.\n                </li>\n                \n<li>\n                    <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n                    Redistributions in binary form must reproduce the above copyright\n                    notice, this list of conditions and the following disclaimer in the\n                    documentation and/or other materials provided with the distribution.\n                </li>\n            \n</ul>\n            <p>THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS&apos;&apos; AND ANY EXPRESS OR\n               IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\n               OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n               IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,\n               INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\n               NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n               DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n               THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n               (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\n               THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>\n\n        ",
+            "spdx:licenseText": "Copyright (c) <year> <owner>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer\n   in this position and unchanged.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\nOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\nIN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,\nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\nNOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\nTHIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
+            "spdx:isDeprecatedLicenseId": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            }
+        },
+        {
+            "@id": "_:9aff0d75-638b-4304-9ddd-f61034a85654",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +52,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/freebsd/pkg/blob/main/src/add.c",
-            "spdx:timestamp": "2026-11-18T02:36:19Z",
+            "spdx:timestamp": "2026-11-25T20:09:45Z",
             "spdx:order": {
                 "@value": "3",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -24,67 +61,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:c25c2d47-a25e-4743-aa71-fabeaea58eba",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://cgit.freebsd.org/src/tree/usr.bin/sockstat/sockstat.c",
-            "spdx:timestamp": "2026-11-18T02:36:20Z",
-            "spdx:order": {
-                "@value": "1",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "http://spdx.org/licenses/BSD-2-Clause-pos-unchanged",
-            "@type": "spdx:ListedLicense",
-            "spdx:crossRef": [
-                {
-                    "@id": "_:c25c2d47-a25e-4743-aa71-fabeaea58eba"
-                },
-                {
-                    "@id": "_:70c96806-8308-430d-a2ff-24f57421ca41"
-                },
-                {
-                    "@id": "_:2982233d-5e69-4a3d-9ada-9b354a09b6bf"
-                },
-                {
-                    "@id": "_:55617b16-3740-4687-9a17-d82e9770ef26"
-                }
-            ],
-            "rdfs:seeAlso": [
-                "https://github.com/freebsd/pkg/blob/main/src/add.c",
-                "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
-                "https://github.com/libarchive/libarchive/blob/master/libarchive_fe/line_reader.c",
-                "https://cgit.freebsd.org/src/tree/usr.bin/sockstat/sockstat.c"
-            ],
-            "rdfs:comment": "This is the same as BSD-2-Clause, but adds a requirement that the notice remain in the same position unchanged.",
-            "spdx:isOsiApproved": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:name": "BSD 2-Clause - position unchanged variant",
-            "spdx:standardLicenseTemplate": "<<var;name=\"copyright\";original=\"Copyright (c) <year> <owner> All rights reserved.\";match=\".{0,5000}\">>\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n   <<var;name=\"bullet\";original=\"1.\";match=\".{0,20}\">> Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer in this position and unchanged.\n   <<var;name=\"bullet\";original=\"2.\";match=\".{0,20}\">> Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\n",
-            "spdx:licenseTextHtml": "\n            <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,5000}\"> \n                Copyright (c) &lt;year&gt; &lt;owner&gt;<br />\n\n                All rights reserved.\n            </span></var>\n            <p>Redistribution and use in source and binary forms, with or without modification,\n                are permitted provided that the following conditions are met:</p>\n\n<ul style=\"list-style:none\">\n                \n<li>\n                    <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 1.</span></var>\n                    Redistributions of source code must retain the above copyright\n                    notice, this list of conditions and the following disclaimer\n                    in this position and unchanged.\n                </li>\n                \n<li>\n                    <var class=\"replaceable-license-text\"><span title=\"can be replaced with the pattern .{0,20}\"> 2.</span></var>\n                    Redistributions in binary form must reproduce the above copyright\n                    notice, this list of conditions and the following disclaimer in the\n                    documentation and/or other materials provided with the distribution.\n                </li>\n            \n</ul>\n            <p>THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS&apos;&apos; AND ANY EXPRESS OR\n               IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\n               OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\n               IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,\n               INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\n               NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\n               DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\n               THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n               (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\n               THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</p>\n\n        ",
-            "spdx:licenseText": "Copyright (c) <year> <owner>\nAll rights reserved.\n\nRedistribution and use in source and binary forms, with or without\nmodification, are permitted provided that the following conditions\nare met:\n1. Redistributions of source code must retain the above copyright\n   notice, this list of conditions and the following disclaimer\n   in this position and unchanged.\n2. Redistributions in binary form must reproduce the above copyright\n   notice, this list of conditions and the following disclaimer in the\n   documentation and/or other materials provided with the distribution.\n\nTHIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR\nIMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES\nOF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.\nIN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,\nINCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT\nNOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,\nDATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY\nTHEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT\n(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF\nTHIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n",
-            "spdx:isDeprecatedLicenseId": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            }
-        },
-        {
-            "@id": "_:70c96806-8308-430d-a2ff-24f57421ca41",
+            "@id": "_:53659032-00cc-48bc-a4cd-b2167e71e9c7",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -98,7 +75,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/libarchive/libarchive/blob/master/libarchive_fe/line_reader.c",
-            "spdx:timestamp": "2026-11-18T02:36:19Z",
+            "spdx:timestamp": "2026-11-25T20:09:44Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -107,7 +84,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:55617b16-3740-4687-9a17-d82e9770ef26",
+            "@id": "_:90029528-900a-4845-9c7f-954d63904a17",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -121,12 +98,35 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://scancode-licensedb.aboutcode.org/bsd-unchanged",
-            "spdx:timestamp": "2026-11-18T02:36:19Z",
+            "spdx:timestamp": "2026-11-25T20:09:44Z",
             "spdx:order": {
                 "@value": "0",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
             },
             "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:f939ac15-155e-4d1e-994c-25f501d6d48b",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://cgit.freebsd.org/src/tree/usr.bin/sockstat/sockstat.c",
+            "spdx:timestamp": "2026-11-25T20:09:45Z",
+            "spdx:order": {
+                "@value": "1",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
             "@type": "spdx:CrossRef"
         }
     ],

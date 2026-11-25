@@ -1,30 +1,7 @@
 {
     "@graph": [
         {
-            "@id": "_:744c6e28-a43f-419f-9296-6def5fac9627",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786",
-            "spdx:timestamp": "2026-11-18T02:39:31Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "false",
-            "@type": "spdx:CrossRef"
-        },
-        {
-            "@id": "_:9d655d53-45eb-4b5a-9956-9bdd8bac5a50",
+            "@id": "_:b12fe104-1072-4b80-8306-ae6797033fae",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -38,7 +15,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-ef5fa30838d6d0cecad9e675cc50b24628cfe2cb277c346053fafcc36c91c204",
-            "spdx:timestamp": "2026-11-18T02:39:30Z",
+            "spdx:timestamp": "2026-11-25T20:06:18Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -47,7 +24,7 @@
             "@type": "spdx:CrossRef"
         },
         {
-            "@id": "_:c7cc58cf-bd72-4a2c-9890-7b21c9bf7637",
+            "@id": "_:9bda28e0-41aa-462b-9142-cbb57fc58aa0",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -61,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/ruby/ruby/commit/0a64817fb80016030c03518fb9459f63c11605ea#diff-fedf217c1ce44bda01f0a678d3ff8b198bed478754d699c527a698ad933979a0",
-            "spdx:timestamp": "2026-11-18T02:39:31Z",
+            "spdx:timestamp": "2026-11-25T20:06:17Z",
             "spdx:order": {
                 "@value": "2",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -70,22 +47,45 @@
             "@type": "spdx:CrossRef"
         },
         {
+            "@id": "_:3f03cdc9-2c2b-4f3f-85f6-c8d1872a2d01",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/ruby/ruby/blob/9f6deaa6888a423720b4b127b5314f0ad26cc2e6/ext/pty/pty.c#L775-L786",
+            "spdx:timestamp": "2026-11-25T20:06:18Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "false",
+            "@type": "spdx:CrossRef"
+        },
+        {
             "@id": "http://spdx.org/licenses/Ruby-pty",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:3f03cdc9-2c2b-4f3f-85f6-c8d1872a2d01"
+                },
+                {
+                    "@id": "_:9bda28e0-41aa-462b-9142-cbb57fc58aa0"
+                },
+                {
+                    "@id": "_:b12fe104-1072-4b80-8306-ae6797033fae"
+                }
+            ],
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:744c6e28-a43f-419f-9296-6def5fac9627"
-                },
-                {
-                    "@id": "_:9d655d53-45eb-4b5a-9956-9bdd8bac5a50"
-                },
-                {
-                    "@id": "_:c7cc58cf-bd72-4a2c-9890-7b21c9bf7637"
-                }
-            ],
             "spdx:isDeprecatedLicenseId": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"

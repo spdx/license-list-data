@@ -1,5 +1,5 @@
 # License List
-The following licenses have been generated from the license list version ddf7382
+The following licenses have been generated from the license list version 253f3c9
 
 ## Licenses with Short Identifiers
 
@@ -98,6 +98,7 @@ The following licenses have been generated from the license list version ddf7382
 | BSD 3-Clause No Nuclear Warranty                                                          | [BSD-3-Clause-No-Nuclear-Warranty][]     |      |           |
 | BSD 3-Clause Open MPI variant                                                             | [BSD-3-Clause-Open-MPI][]                | Y    |           |
 | BSD 3-Clause - OpenWebUI variant                                                          | [BSD-3-Clause-OpenWebUI][]               |      |           |
+| BSD 3-Clause - position unchanged variant                                                 | [BSD-3-Clause-pos-unchanged][]           |      |           |
 | BSD 3-Clause Sun Microsystems                                                             | [BSD-3-Clause-Sun][]                     |      |           |
 | BSD 3-Clause Tso variant                                                                  | [BSD-3-Clause-Tso][]                     |      |           |
 | BSD 4-Clause "Original" or "Old" License                                                  | [BSD-4-Clause][]                         |      | Y         |
@@ -941,6 +942,7 @@ The following licenses have been generated from the license list version ddf7382
 [BSD-3-Clause-No-Nuclear-Warranty]: text/BSD-3-Clause-No-Nuclear-Warranty.txt
 [BSD-3-Clause-Open-MPI]: text/BSD-3-Clause-Open-MPI.txt
 [BSD-3-Clause-OpenWebUI]: text/BSD-3-Clause-OpenWebUI.txt
+[BSD-3-Clause-pos-unchanged]: text/BSD-3-Clause-pos-unchanged.txt
 [BSD-3-Clause-Sun]: text/BSD-3-Clause-Sun.txt
 [BSD-3-Clause-Tso]: text/BSD-3-Clause-Tso.txt
 [BSD-4-Clause]: text/BSD-4-Clause.txt

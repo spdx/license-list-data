@@ -1,7 +1,30 @@
 {
     "@graph": [
         {
-            "@id": "_:14d44014-e512-4057-95b2-cd8863fc63c8",
+            "@id": "_:8325154e-e949-4317-8df9-8f16e52f470f",
+            "spdx:isWayBackLink": {
+                "@value": "false",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isValid": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:isLive": {
+                "@value": "true",
+                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
+            },
+            "spdx:url": "https://github.com/slogan621/gtkbook",
+            "spdx:timestamp": "2026-11-25T20:11:12Z",
+            "spdx:order": {
+                "@value": "0",
+                "@type": "http://www.w3.org/2001/XMLSchema#int"
+            },
+            "spdx:match": "true",
+            "@type": "spdx:CrossRef"
+        },
+        {
+            "@id": "_:e7a42128-59bc-49c4-8686-a534a52e4a96",
             "spdx:isWayBackLink": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
@@ -15,7 +38,7 @@
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
             },
             "spdx:url": "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11",
-            "spdx:timestamp": "2026-11-18T02:40:00Z",
+            "spdx:timestamp": "2026-11-25T20:11:12Z",
             "spdx:order": {
                 "@value": "1",
                 "@type": "http://www.w3.org/2001/XMLSchema#int"
@@ -25,6 +48,14 @@
         },
         {
             "@id": "http://spdx.org/licenses/gtkbook",
+            "spdx:crossRef": [
+                {
+                    "@id": "_:e7a42128-59bc-49c4-8686-a534a52e4a96"
+                },
+                {
+                    "@id": "_:8325154e-e949-4317-8df9-8f16e52f470f"
+                }
+            ],
             "rdfs:seeAlso": [
                 "https://github.com/slogan621/gtkbook",
                 "https://github.com/oetiker/rrdtool-1.x/blob/master/src/plbasename.c#L8-L11"
@@ -41,38 +72,7 @@
             "spdx:isOsiApproved": {
                 "@value": "false",
                 "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:crossRef": [
-                {
-                    "@id": "_:f19ca3ba-7d7d-41c7-bce8-4460b4280043"
-                },
-                {
-                    "@id": "_:14d44014-e512-4057-95b2-cd8863fc63c8"
-                }
-            ]
-        },
-        {
-            "@id": "_:f19ca3ba-7d7d-41c7-bce8-4460b4280043",
-            "spdx:isWayBackLink": {
-                "@value": "false",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isValid": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:isLive": {
-                "@value": "true",
-                "@type": "http://www.w3.org/2001/XMLSchema#boolean"
-            },
-            "spdx:url": "https://github.com/slogan621/gtkbook",
-            "spdx:timestamp": "2026-11-18T02:40:01Z",
-            "spdx:order": {
-                "@value": "0",
-                "@type": "http://www.w3.org/2001/XMLSchema#int"
-            },
-            "spdx:match": "true",
-            "@type": "spdx:CrossRef"
+            }
         }
     ],
     "@context": {
